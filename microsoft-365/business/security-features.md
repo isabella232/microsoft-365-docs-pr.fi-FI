@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lisätietoja suojausominaisuuksia, jotka Microsoft 365 Business mukana.
-ms.openlocfilehash: bfddb419dbe5db441741a73ecb49e3d52649e382
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 17bcc57d57e837f18b05f66cfd54185324f3cad8
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26983173"
 ---
 # <a name="microsoft-365-business-security-features"></a>Microsoft 365 Business suojausominaisuudet
@@ -130,11 +130,9 @@ Mahdollisuus käyttää lähettäessään sähköpostia Outlook Web seuraavat ra
 
 Tarkista, että järjestelmänvalvojan Asennuspiste on käytössä:
 
-1. Kirjaudu [hallintakeskukseen Azure Active Directoryn](https://portal.azure.com/)tiedot.
+1. Kirjaudu [Azure](https://portal.azure.com/)portaaliin.
 
-    Voit myös touhuavat etsimällä **Admin keskittää** \> vasemman NAV-hallintakeskukseen **Azure Active Directory** .
-
-2. Valitse **kaikki palvelut** ja tyoe **Hakukenttään** *Azure tietojen suojaaminen* .
+2. Valitse **kaikki palvelut** ja kirjoita **Hakukenttään** *Azure tietojen suojaaminen* .
 
 3. Kun näkyviin, napsauta Käynnistä-painiketta, seuraava **Azure tietojen suojaus** jotta suosikki ja helppo löytää myöhemmin.
 
@@ -144,7 +142,7 @@ Tarkista, että järjestelmänvalvojan Asennuspiste on käytössä:
 
 Voit tarkastella ja muokata, olemassa olevat otsikot:
 
-1. Azure-tietojen suojaaminen kojelaudassa, valitse **luokitukset** \> ** otsikot. <br/>![Azure-tietojen suojaaminen vakio-otsikoita.](media/AIPLabels.png)
+1. Azure-tietojen suojaaminen kojelaudassa, valitse **luokitukset** \> **tarroja**. <br/>![Azure-tietojen suojaaminen vakio-otsikoita.](media/AIPLabels.png)
 
 2. Voit valita kaikki otsikon Näytä asetukset, voit muuttaa nimen, värit jne.
  
@@ -159,6 +157,16 @@ Manuaalisesti asentaminen järjestelmänvalvojan Asennuspiste-client:
 2. Voit varmistaa, että Word-asiakirjan tarkasteleminen ja varmistamalla, että **Suojaa** -vaihtoehto on käytettävissä **Aloitus** -välilehden työskennelleet asennus. <br/>![Suojaus-välilehden avattavan Word-asiakirjan.](media/Word_Protect.png)
 
 Lisätietoja on ohjeaiheessa [Asenna asiakkaan](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)
+
+## <a name="go-to-intune-admin-center"></a>Siirry hallintakeskukseen Intune
+
+1. Kirjaudu [Azure](https://portal.azure.com/)portaaliin.
+
+2. Valitse **kaikki palvelut** ja kirjoita **Hakuruutuun** *Intune* .
+
+3. Kun näkyviin, napsauta Käynnistä-painiketta, seuraava **Microsoft Intune** , tehdä siitä suosikin ja helppo löytää myöhemmin.
+ 
+Voit käyttää Intune Rekisteröidy ja hallita organisaation laitteita. Lisätietoja [rekisteröinti-menetelmän avulla Windows-laitteiden ominaisuudet](https://docs.microsoft.com/intune/enrollment-method-capabs) ja [rekisteröinnin asetukset Intune hallituilla laitteilla](https://docs.microsoft.com/intune/enrollment-options).
     
 ## <a name="faq"></a>Usein kysytyt kysymykset
 
@@ -174,15 +182,4 @@ Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkina-alueilla, jo
     
     ![Valitse Microsoft 365 admin Centerissä siirtyminen vasemmalle Admin centers.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Valitse **suojauksen &amp; yhteensopivuuden** Go to Security &amp; compliance Centeriin. 
-    
- ### <a name="how-do-i-find-the-intune-admin-center"></a>Miten löydän Intune admin Centerissä?
-  
-  
-1. [Microsoft 365 Business kirjautua](https://portal.microsoft.com/) järjestelmänvalvojan tunnuksilla. 
-    
-2. Siirtyminen vasemmalle Etsi **Admin keskittää** ja laajentaa sitä. 
-    
-3. Valitse Siirry hallintakeskukseen Intune **Intune** . 
-    
-
+3. Valitse **suojauksen &amp; yhteensopivuuden** Go to Security &amp; compliance Centeriin.
