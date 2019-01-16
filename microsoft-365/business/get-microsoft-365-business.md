@@ -19,33 +19,33 @@ search.appverid:
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Lisätietoja Microsoft 365 Business Centeristä Microsoft Partner.
 ms.openlocfilehash: 77c8e3af930db540c0fab665aceef850f82e219c
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26982123"
 ---
-# <a name="get-microsoft-365-business"></a><span data-ttu-id="a2555-103">Microsoft 365 Businessin hankkiminen</span><span class="sxs-lookup"><span data-stu-id="a2555-103">Get Microsoft 365 Business</span></span>
+# <a name="get-microsoft-365-business"></a><span data-ttu-id="94a70-103">Microsoft 365 Businessin hankkiminen</span><span class="sxs-lookup"><span data-stu-id="94a70-103">Get Microsoft 365 Business</span></span>
 
-## <a name="get-microsoft-365-business-from-microsoft"></a><span data-ttu-id="a2555-104">Microsoft 365 Businessin hankkiminen Microsoftilta</span><span class="sxs-lookup"><span data-stu-id="a2555-104">Get Microsoft 365 Business from Microsoft</span></span>
+## <a name="get-microsoft-365-business-from-microsoft"></a><span data-ttu-id="94a70-104">Microsoft 365 Businessin hankkiminen Microsoftilta</span><span class="sxs-lookup"><span data-stu-id="94a70-104">Get Microsoft 365 Business from Microsoft</span></span>
 
-<span data-ttu-id="a2555-105">Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 Business:n, [osta se täältä](https://www.microsoft.com/en-US/microsoft-365/business).</span><span class="sxs-lookup"><span data-stu-id="a2555-105">If you don't have a partner and want to get Microsoft 365 Business, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
+<span data-ttu-id="94a70-105">Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 Business:n, [osta se täältä](https://www.microsoft.com/en-US/microsoft-365/business).</span><span class="sxs-lookup"><span data-stu-id="94a70-105">If you don't have a partner and want to get Microsoft 365 Business, you can [buy it here](https://www.microsoft.com/en-US/microsoft-365/business).</span></span>
   
-## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a><span data-ttu-id="a2555-106">Microsoft 365 Businessin hankkiminen Microsoft-kumppanikeskuksesta</span><span class="sxs-lookup"><span data-stu-id="a2555-106">Get Microsoft 365 Business from Microsoft Partner Center</span></span>
+## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a><span data-ttu-id="94a70-106">Microsoft 365 Businessin hankkiminen Microsoft-kumppanikeskuksesta</span><span class="sxs-lookup"><span data-stu-id="94a70-106">Get Microsoft 365 Business from Microsoft Partner Center</span></span>
 
-1. <span data-ttu-id="a2555-107">Kirjaudu [Microsoft-kumppanikeskukseen](https://go.microsoft.com/fwlink/p/?linkid=849910) tunnistetiedoilla, jotka loit rekisteröityessäsi pilvipalveluntarjoajaohjelmaan (CSP).</span><span class="sxs-lookup"><span data-stu-id="a2555-107">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
+1. <span data-ttu-id="94a70-107">Kirjaudu [Microsoft-kumppanikeskukseen](https://go.microsoft.com/fwlink/p/?linkid=849910) tunnistetiedoilla, jotka loit rekisteröityessäsi pilvipalveluntarjoajaohjelmaan (CSP).</span><span class="sxs-lookup"><span data-stu-id="94a70-107">Sign in at [Microsoft Partner Center](https://go.microsoft.com/fwlink/p/?linkid=849910) by using the credentials you created when you enrolled to the Cloud Service Provider (CSP) program.</span></span> 
     
-2. <span data-ttu-id="a2555-108">Valitse kumppanin koontinäytössä Asiakkaat-kohdasta asiakas tai lisää uusi asiakas, ennen kuin hankit Microsoft 365 Businessin.</span><span class="sxs-lookup"><span data-stu-id="a2555-108">On the Partner Dashboard, choose Customers, then select your customer or add a new customer before you get Microsoft 365 Business.</span></span>
+2. <span data-ttu-id="94a70-108">Valitse kumppanin koontinäytössä Asiakkaat-kohdasta asiakas tai lisää uusi asiakas, ennen kuin hankit Microsoft 365 Businessin.</span><span class="sxs-lookup"><span data-stu-id="94a70-108">On the Partner Dashboard, choose Customers, then select your customer or add a new customer before you get Microsoft 365 Business.</span></span>
     
     ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. <span data-ttu-id="a2555-110">Valitse asiakkaan **Tilaus**-sivulla Lisää tilaus, valitse Luettelo-kohdasta Pienyritykset ja valitse sitten **Microsoft 365 Business**.</span><span class="sxs-lookup"><span data-stu-id="a2555-110">On the customer's **Subscription** page, select Add subscription, choose the Small business option under Catalog, and then choose **Microsoft 365 Business**.</span></span>
+3. <span data-ttu-id="94a70-110">Valitse asiakkaan **Tilaus**-sivulla Lisää tilaus, valitse Luettelo-kohdasta Pienyritykset ja valitse sitten **Microsoft 365 Business**.</span><span class="sxs-lookup"><span data-stu-id="94a70-110">On the customer's **Subscription** page, select Add subscription, choose the Small business option under Catalog, and then choose **Microsoft 365 Business**.</span></span>
     
-    <span data-ttu-id="a2555-p101">Valitse tarvitsemasi määrä käyttöoikeuksia (enintään 300). Jos käyttäjiä on yli 300, tutustu sen sijaan [Microsoft 365 Enterpriseen](https://go.microsoft.com/fwlink/p/?linkid=862316).</span><span class="sxs-lookup"><span data-stu-id="a2555-p101">Select the number of licenses you need (up to 300). If you have more than 300 users, see [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) instead.</span></span> 
+    <span data-ttu-id="94a70-p101">Valitse tarvitsemasi määrä käyttöoikeuksia (enintään 300). Jos käyttäjiä on yli 300, tutustu sen sijaan [Microsoft 365 Enterpriseen](https://go.microsoft.com/fwlink/p/?linkid=862316).</span><span class="sxs-lookup"><span data-stu-id="94a70-p101">Select the number of licenses you need (up to 300). If you have more than 300 users, see [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) instead.</span></span> 
     
     ![On the New subscription page choose small business.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    <span data-ttu-id="a2555-114">Täytä loput uuden asiakkaan lisäämiseen liittyvät tiedot, kuten yrityksen nimi.</span><span class="sxs-lookup"><span data-stu-id="a2555-114">Complete the rest of the steps for adding a new customer including the business name.</span></span>
+    <span data-ttu-id="94a70-114">Täytä loput uuden asiakkaan lisäämiseen liittyvät tiedot, kuten yrityksen nimi.</span><span class="sxs-lookup"><span data-stu-id="94a70-114">Complete the rest of the steps for adding a new customer including the business name.</span></span>
     
 
 
