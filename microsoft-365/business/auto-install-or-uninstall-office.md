@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Asenna tai poista Windows-10 laitteissa hallintakeskukseen 365 Microsoft Business Office. '
-ms.openlocfilehash: 997c001ed1520f1ac989255632d36f9b7bedd16c
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: fef4a543aed489202bf05dfb1e8cafbb784ca819
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277269"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Office asentaminen tai poistaminen automaattisesti Windows 10 -laitteissa
 
@@ -35,7 +37,8 @@ Jotta ymmärrät, miten se toimii aiemmin asennettujen Office-sovellusten kanssa
 
 1. Kirjaudu [hallintakeskukseen](https://aka.ms/bcsportal) yleisen järjestelmänvalvojan tunnistetiedoilla. 
     
-2. Valitse **laitteet** -kortin **Hallinta Office Deployment**.    Jos **laitteen toiminnot** , kortti ei ole admin Centerin **Koti** -sivulla, valitse **Lisää** (+) lisääminen admin kotona.
+2. Valitse **Laitteet**-kortissa **Officen käyttöönoton hallinta**.
+      Jos **laitteen toiminnot** , kortti ei ole admin Centerin **Koti** -sivulla, valitse **Lisää** (+) lisääminen admin kotona.
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   

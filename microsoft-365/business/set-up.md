@@ -10,7 +10,9 @@ f1_keywords:
 - BCS365_M365SetupBanner
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -20,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Opi neljä vaihetta täyttämällä 365 Microsoft Business määrittäminen.
-ms.openlocfilehash: f57239b884bd2e186c0bc01973130a10fa4cfe84
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: a1c8a41c3e291983276280a063248bdd10a7f85a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283891"
 ---
 # <a name="set-up-microsoft-365-business-by-using-the-setup-wizard"></a>Microsoft 365 Businessin määrittäminen ohjatun määritystoiminnon avulla
 
@@ -53,11 +55,11 @@ Asetusten määrittämisen vaiheet ovat asetukset, jotka sisältävät paikallis
     
 3. Kirjoita toimialuenimi, jota haluat käyttää (kuten contoso.com).
     
-    Periksi ja kirjoita toimialueesi vaikka olet varmistanut käytettäessä esimerkiksi Azure AD-muodosta. Seuraavat kaksi vaihetta ei sovelleta, jos olet käyttänyt AD Azure Yhdistä tarkistamaan toimialueesi.
+    Jatka eteenpäin ja kirjoita toimialueesi, vaikka olisit vahvistanut sen esimerkiksi Azure AD Connectin käytön aikana. Seuraavat kaksi vaihetta ei sovelleta, jos olet käyttänyt AD Azure Yhdistä tarkistamaan toimialueesi.
     
 4. Noudata ohjatun toiminnon [luoda DNS-tietueet on mahdollisesti DNS Office 365 videopalvelujen tarjoajan](https://support.office.com/article/7b7b075d-79f9-4e37-8a9e-fb60c1d95166) , joka tarkistaa, että omistat toimialueen. 
     
-    Voit tarkastella esimerkiksi video [Video: uusi Admin Centerissä asennusohjelma Office 365](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). Huomaa, että tämä video ei sisällä 365 Microsoft Business data protection vaiheet.
+    Voit tarkastella esimerkiksi video [Video: uusi Admin Centerissä asennusohjelma Office 365](https://support.office.com/article/a8c2002a-34bc-4ab3-93d8-9b5156c48bf8). Huomaa, että tämä video ei sisällä ohjeita tietojen suojaukseen Microsoft 365 Business:n avulla.
     
     ![Screenshot of the Business Cloud Suite setup wizard.](media/3c4fd40c-2de1-4a87-8ee0-78d3928c7bb7.png)
   
@@ -84,13 +86,13 @@ Asetusten määrittämisen vaiheet ovat asetukset, jotka sisältävät paikallis
   
 Kun haluat määrittää palvelut, sinun on päivitettävä joitakin DNS-isännän tai toimialuerekisteröijän tietueita.
   
-1. Ohjattu asennustoiminto havaitsee että registrar yleensä ja antaa linkin haluat vaiheittaiset ohjeet päivitetään NS-tietueet registrar-Web-sivustosta. Jos näin ei ole, [Muuta nameservers määrittäminen Office 365: ssä registrar mahdollisesti toimialueen kanssa](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
+1. Ohjattu määritystoiminto yleensä tunnistaa toimialuerekisteröijän ja antaa linkin vaiheittaisiin ohjeisiin, joiden avulla voit päivittää nimipalvelintietueet toimialuerekisteröijän sivustossa. Jos näin ei ole, [Muuta nameservers määrittäminen Office 365: ssä registrar mahdollisesti toimialueen kanssa](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2).
     
 2. Sähköposti ja muut palvelut määritetään automaattisesti puolestasi
     
 ### <a name="step-4-manage-devices-and-work-files"></a>Vaihe 4: Hallitse laitteita ja käyttää tiedostoja
 
-1. Sivun asettaa **Suojaa Työtiedostojen kannettavissa laitteissa** sekä **Suojaa Työtiedostojen kun laitteita katoaa tai varastetaan** ja **hallita sitä, miten käyttäjät voivat käyttää mobiililaitteiden Office-tiedostojen** asetukset **käyttöön**. Voit myös käyttää kunkin osa asetuksen napsauttamalla kunkin asetuksen vieressä olevan nuolen.
+1. Määritä **Suojaa työtiedostot mobiililaitteissa** -sivulla **Suojaa työtiedostot, kun laitteet katoavat tai varastetaan** -asetukseksi ja **Hallitse, miten käyttäjät voivat käyttää Office-tiedostoja mobiililaitteissa** -asetukseksi **Käytössä**. Voit myös käyttää kunkin osa asetuksen napsauttamalla kunkin asetuksen vieressä olevan nuolen.
   
   Kaikki käyttöoikeudet käyttäjien työtä tiedostot on nyt suojattu iOS ja Android-laitteet, niin pian kuin he [asentaa Office apps](set-up-mobile-devices.md) (ja todentaa käyttöoikeutensa Microsoft 365 Business kanssa). 
   

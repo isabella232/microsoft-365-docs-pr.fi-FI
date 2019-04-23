@@ -5,16 +5,17 @@ author: jasongroce
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
+ms.collection: M365-subscription-management
 localization_priority: Normal
 audience: microsoft-business 
 keywords: 365 Microsoft Business, Microsoft 365, SMB, FAQ, usein kysyttyjä kysymyksiä, vastauksia, business
 ms.date: 06/08/2018
-ms.openlocfilehash: e5937b1436701e872898dc079ba892181772202f
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286122"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Usein kysyttyjä kysymyksiä Microsoft 365 Business
 
@@ -29,11 +30,11 @@ Microsoft 365 on integroitu ratkaisu, joka tuo yhteen paras luokkansa tuottavuud
 * Business apps Office (varaukset, Outlook asiakasta Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft luettelot<sup>[1](#footnote1)</sup>, yhteydet Microsoft<sup>[1](#footnote1)</sup>, Microsoftin laskutus-<sup>[1](#footnote1)</sup>) 
  
 **Enterprise-luokan laitteen hallinnan ja suojauksen ominaisuudet** 
-- Ulkoisilta uhilta, kuten phishing & kehittyneitä Office 365: n Advanced Threat Protection ja Windows Defender hyödyntää Guard malware protection auttaa 
--  Auttaa hallita & miten arkaluontoisten tietojen hallinta on käyttää ja mukana Office 365: n tietojen menetyksen estäminen käytännöt (valittavissa kesä-2018) ja Azure tietojen suojauksen suunnitteleminen 1 
+- Auttaa ulkoisilta uhilta, kuten phishing protection kehittynyt & ja Office 365: n Advanced Threat Protection Windows Defender hyödyntää Guard malware 
+-  Auttaa hallita kuinka herkkä control & on käyttää ja mukana Office 365: n tietojen menetyksen estäminen käytännöt (valittavissa kesä-2018) ja Azure tietojen suojauksen suunnittelu 1 
 -  Auttaa suojata, säilyttäminen ja Exchange Online-arkistointi ja tietojen varmuuskopioiminen  
--   App suojaa Office ja muut mobiili apps App Intune käyttöoikeudella 
--  Laitehallinta 10 PC Windows, MacOS ja Mobiles laitteiden kanssa Intune hallinta 
+-   Office & App suojaa muiden mobile apps App Intune käyttöoikeudella 
+-  Laitehallinnan Windows PC-tietokoneiden 10, MacOS & Mobiles laitteiden kanssa Intune hallinta 
 -  Yhdenmukaisen suojauksen määritys - laitteiden välillä suojaa yrityksen tiedot eri laitteisiin - Windows Defender-aina- ja ajan tasalla 
  
  
@@ -84,7 +85,7 @@ Microsoft 365 yritys tarjoaa asiakkaille yksinkertainen mutta tehokas keino työ
 * **IOS, Android & MacOS Laitehallinta** ominaisuuksia auttaa yrityksiä monipuolinen laite ekosysteemissä, jossa on iOS, Android, Windows ja macOS laitteiden hallinta olisi suojattua. 
 
 ### <a name="how-does-microsoft-365-business-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Miten Microsoft 365 Business suojaa PC organisaatiossamme ilkivaltaisilta hyökkäyksiltä? 
-Windows Defender, joka on nro 1 antivirus toiminto Windows 10-suojaa tietokonetta vastaan viruksia, haittaohjelmat, vakoiluohjelmat ja muut uhkat kuin kaikissa ratkaisuissa on suojattu tietokoneita hallitaan Microsoft 365 liiketoiminnan kanssa.  Microsoft 365 liiketoiminnan yrityksille varmistaa Windows Defender suojaus on käytössä ja aina ajan tasalla niiden Windows 10-laitteissa.  
+Tietokoneita hallitaan Microsoft 365 liiketoiminnan kanssa on suojattu Windows Defender, joka on nro-kentän. Windows 10 suojaa tietokonetta vastaan viruksia, haittaohjelmat, vakoiluohjelmat ja muut uhkat muu ratkaisu kuin 1 antivirus käyttöön.  Microsoft 365 liiketoiminnan yrityksille varmistaa Windows Defender suojaus on käytössä ja aina ajan tasalla niiden Windows 10-laitteissa.  
  
 Windows 10 Business sisältää myös Windows Defender hyödyntää Guard, joukko uusia ominaisuuksia tunkeutumisen estäminen. Yksi ominaisuuksista, valvottavan kansion käytön lopettaa ransomware-sen raitoja estää luvattomien sovellusten käyttämästä käyttäjän tärkeitä tiedostoja ja kansioita lukitus. 
 
@@ -179,7 +180,7 @@ Microsoft 365 Business ei tee muuten vastaista aidon Windows-version. Microsoft 
 Sama tuki kanavat saatavilla tänään CSP-kumppaneille (premier support ja kehittynyt tuki ohjelma) Microsoft 365 liiketoiminnan harjoittaminen ja ovat valmiita antamaan yhteistyökumppaneiden tuella. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>Mikä GDPR ja miten Microsoft 365 Business auttaa asiakkaiden kanssa velvoitteiden noudattamista?
-Yleinen tietojen suoja asetuksen (GDPR) on kattava uusi tietosuoja laki, joka antaa Euroopan unionin (EU) ”omat tietonsa” paremmin hallita asukkaat ja vaatii organisaatioiden henkilökohtaisten tietojen eheyden säilyttämiseksi. GDPR vaatii organisaatioiden kyseiseen ohjausobjektiin tai prosessin henkilötietojen sidottu EU: N asukkaiden käyttää vain kolmannen osapuolen tietojen jalostajille, jotka täyttävät vaatimukset GDPR henkilökohtaisten tietojen käsittelyä varten. Maaliskuuta 2017 Microsoft tehdään käytettävissä sopimukseen perustuvat takuut, jotka antavat nämä takeet. Asiakkaat, joilla on kysymyksiä siitä, miten Microsoft voi auttaa ne täyttävät velvollisuutensa muita GDPR lisätietoja tarkennetun yhteensopivuuden ja tietoturvaominaisuudet ovat käytettävissä lisäosat (esim Azure tietojen suojaus, tietojen menetyksen estäminen Advnaced Threat Protection jne.) ja muut paketit (esimerkiksi Microsoft 365 yritys E5). Saat lisätietoja seuraavasta [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+Yleinen tietojen suoja asetuksen (GDPR) on kattava uusi tietosuoja laki, joka antaa Euroopan unionin (EU) ”omat tietonsa” paremmin hallita asukkaat ja vaatii organisaatioiden henkilökohtaisten tietojen eheyden säilyttämiseksi. GDPR vaatii organisaatioiden kyseiseen ohjausobjektiin tai prosessin henkilötietojen sidottu EU: N asukkaiden käyttää vain kolmannen osapuolen tietojen jalostajille, jotka täyttävät vaatimukset GDPR henkilökohtaisten tietojen käsittelyä varten. Maaliskuuta 2017 Microsoft tehdään käytettävissä sopimukseen perustuvat takuut, jotka antavat nämä takeet. Asiakkaat, joilla on kysymyksiä siitä, miten Microsoft voi auttaa ne täyttävät velvollisuutensa muita GDPR lisätietoja advanced yhteensopivuuden ja tietoturvaominaisuudet ovat käytettävissä lisäosat (esim Azure tietojen suojaus, tietojen menetyksen estäminen Lisäasetukset Threat Protection jne.) ja muut paketit (esimerkiksi Microsoft 365 yritys E5). Saat lisätietoja seuraavasta [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 
 

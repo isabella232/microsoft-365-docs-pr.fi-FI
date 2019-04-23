@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,28 +21,26 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Opi luoda, muokata, tai poistaa app hallintakäytännön ja suojaamaan työn tiedostoja Android tai iOS-laitteissa.
-ms.openlocfilehash: ed03227496120369b94bf2396974eebfd7798678
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277443"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Sovellusten suojausasetusten määrittäminen Android- tai iOS-laitteita varten
 
 ## <a name="create-an-app-management-policy"></a>Sovellustenhallintakäytännön luominen
 
-1. Kirjaudu [Microsoft 365 Businessiin](https://portal.office.com) yleisen järjestelmänvalvojan tunnistetiedoilla. 
+1. Kirjautuminen [hallintakeskukseen 365 Microsoft Business](https://go.microsoft.com/fwlink/p/?linkid=837890) yleisen järjestelmänvalvojan tunnistetiedoin. 
     
-2. Valitse hallintakeskuksen **Laitekäytännöt**-kortissa **Lisää käytäntö**.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. Valitse **laitteet** -hallintakeskukseen, \> **käytännöt** \> **Lisää käytännön**.
   
 3. Kirjoita **Lisää käytäntö** -ruutuun yksilöivä nimi tälle käytännölle. 
     
 4. Valitse **Käytännön tyyppi** -kohdassa **Androidin sovellusten hallinta** tai **iOS:n sovellusten hallinta** sen mukaan, minkä käytäntöjoukon haluat luoda. 
     
-5. Laajenna **Suojaa Työtiedostojen kun laitteita katoaa tai varastetaan** ja **miten käyttäjät voivat käyttää Office-tiedostojen mobiililaitteiden hallinta** \> miten asetukset. **Miten käyttäjät voivat käyttää mobiililaitteiden Office-tiedostojen hallinta** ei **ole käytössä** oletuksena, mutta on suositeltavaa, että **sen käyttöön** ja hyväksyä oletusarvot. Lisätietoja on kohdassa [käytettävissä olevat asetukset](app-protection-settings-for-android-and-ios.md#bkmk_availablesettings) . 
+5. Expand **Protect work files when devices are lost or stolen** and **Manage how users access Office files on mobile devices** \> configure the settings how you would like. The **Manage how users access Office files on mobile devices** is **Off** by default, but it is recommended that you turn it **On** and accept the default values. Lisätietoja on kohdassa [käytettävissä olevat asetukset](#available-settings) . 
     
     Voit aina palauttaa oletusasetuksen **Oletusasetusten palauttaminen** -linkin avulla. 
     
@@ -93,7 +94,7 @@ Käyttäjien Office-työtiedostojen käyttöä voidaan hallita seuraavilla asetu
 |Palauta PIN-koodi, jos kirjautuminen epäonnistuu näin monta kertaa  <br/> |Jos haluat estää luvatonta käyttäjä arvaamasta PIN-koodia sattumalta, PIN-koodi palautetaan määrittämäsi virheellisten syöttökertojen määrän jälkeen.  <br/> |
 |Vaadi käyttäjää kirjautumaan uudelleen, jos Office-sovellukset ovat olleet käyttämättöminä  <br/> |Tämä asetus määrittää, kuinka kauan käyttäjä voi olla toimimatta, ennen kuin häntä kehotetaan kirjautumaan sisään uudelleen.  <br/> |
 |Estä työtiedostojen käyttö laitteissa, joiden suojaukset on murrettu  <br/> |Kekseliäällä käyttäjällä voi olla laite, jonka suojaus on murrettu. Tämä tarkoittaa, että käyttäjä voi muokata käyttöjärjestelmää, minkä vuoksi laite voi altistua helpommin haittaohjelmille. Tällaiset laitteet on estetty, kun tämä asetus on **käytössä**.  <br/> |
-|Salli käyttäjille sisällön kopiointi Office-sovelluksista henkilökohtaisiin sovelluksiin  <br/> |Emme Salli oletusarvoisesti, mutta jos asetus on **käytössä**, käyttäjä voi kopioida tietoja työtiedostoa henkilökohtaisen tiedoston. Jos asetus on **poistettu käytöstä**, käyttäjä voi kopioida tiedot työn tilin oman app tai henkilökohtaisen tilin.<br/> |
+|Salli käyttäjille sisällön kopiointi Office-sovelluksista henkilökohtaisiin sovelluksiin  <br/> |Oletuksena tätä ei sallita, mutta jos asetus on **käytössä**, käyttäjä voi kopioida työtiedoston tietoja henkilökohtaiseen tiedostoon. Jos asetuksena on **Ei käytössä**, käyttäjä ei voi kopioida tietoja työtilistä henkilökohtaiseen sovellukseen tai henkilökohtaisen tiliin.  <br/> |
    
 
   

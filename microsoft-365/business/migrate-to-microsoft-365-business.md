@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Tietoja liiketoiminnan siirtäminen Microsoft 365 Business.
-ms.openlocfilehash: fd6f18c02453e6751d6163ab79e726eae9c951a9
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 3e45ba13e4cfe772829f545219bf86a9a3317d59
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285646"
 ---
 # <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Siirtyminen Office 365: n Business Premium-Microsoft 365 Business
 
@@ -55,7 +58,7 @@ Jos linkkiä ostaa oman todistukset on myönnetty, käydä läpi Ohjattu, kuten 
     
 2. **Mukauta sisäänkirjaus- ja sähköposti** -sivulla voit lisätä toimialue valitsemalla **Yhdistä jo omistat toimialueen** , jos haluat käyttää tämän mahdollisuuden toisen toimialueen lisääminen tilaukseen. 
     
-    Jos olet jo määrittänyt toimialueen, toisessa kentässä ilmaisee, että ja sanoa **Jatka käyttäen** \< _toimialuenimi_ \> **sähköpostin ja sisään**. Jos et ole määrittänyt toimialueen, jonka tilauksen, se lukee **Jatka käyttäen** \< _yritys-name.onmicrosoft.com_ \> **sähköpostin ja sisään**.    
+    Jos olet jo määrittänyt toimialueen, toisessa kentässä ilmaisee, että ja sanoa **Jatka käyttäen** \< _toimialuenimi_ \> **sähköpostin ja sisään**.   Jos et ole määrittänyt toimialueen, jonka tilauksen, se lukee **Jatka käyttäen** \< _yritys-name.onmicrosoft.com_ \> **sähköpostin ja sisään**.  
     
     Valitse **Seuraava**.
     
@@ -95,7 +98,7 @@ Kun olet määrittänyt käyttöoikeudet Microsoft 365 Business, voit käynnist�
     
   - [Sovellusten suojausasetusten määrittäminen Windows 10 -laitteille](protection-settings-for-windows-10-devices.md)
     
-  - [Laitteiden suojausasetusten määrittäminen Windows 10 -tietokoneita varten](protection-settings-for-windows-10-pcs.md)
+  - [Määrittää laitteen asetukset for Windows 10 PCs](protection-settings-for-windows-10-pcs.md)
     
    ![-Ruudussa Lisää käytännön anna sille nimi ja valitse käytäntötyypin avattavasta valikosta.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   

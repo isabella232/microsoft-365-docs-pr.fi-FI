@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Opi määrittämään Windows laitteet Windows 10 Pro yrityskäyttäjille Microsoft 365. '
-ms.openlocfilehash: 482199b175c568bfae420619aa02024303894789
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: f93257bd9a68385fca4f178a2e09c5c11506ee2c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284311"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -33,7 +36,7 @@ Jos käytössäsi on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro t
   
 Lisätietoja Windows-laitteiden Windows 10 Pro Creators -päivityksen tekemisestä on tämän aiheen ohjeissa: [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md).
   
-Varmista kohdan [Windows 10 Business -päivityksen olemassaolon tarkistaminen laitteessa](set-up-windows-devices.md#bkmk_verifywin10) ohjeiden mukaan, että sinulla on päivitys tai että päivitys on onnistunut. 
+Lisätietoja, [Tarkista laite on yhdistetty Azure AD](#verify-the-device-is-connected-to-azure-ad) voit varmistaa päivityksen, tai varmista, että päivityksen, toimi. 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 -laitteiden liittäminen organisaatiosi Azure AD:hen
 
@@ -51,7 +54,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
     
 3. Viimeistele Windows 10 -laitteen määritys.
     
-   Kun olet valmis, käyttäjä yhdistetään organisaatiosi Azure AD:hen. Varmista tämä kohdan [Laitteen Azure AD -yhteyden tarkistaminen](set-up-windows-devices.md#bkmk_verifyaad) ohjeiden mukaan. 
+   Kun olet valmis, käyttäjä yhdistetään organisaatiosi Azure AD:hen. Varmista tämä kohdan [Laitteen Azure AD -yhteyden tarkistaminen](#verify-the-device-is-connected-to-azure-ad) ohjeiden mukaan. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Laite, joka on jo määritetty ja jossa on Windows 10 Pro
 
@@ -79,7 +82,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. -** Varmista, että tämä on organisaation ** sivulle, varmista, että tiedot ovat oikein ja valitse **Liity**.
+6. **Varmista, että tämä on yrityksen** sivulla Varmista, että tiedot ovat oikein ja valitse **Liity**.
   
    Valitse **Olet valmis!** -sivulla **Valmis**.
   

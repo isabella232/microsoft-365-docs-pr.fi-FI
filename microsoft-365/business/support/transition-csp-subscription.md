@@ -10,11 +10,11 @@ audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, siirtymä CSP-tilaus
 ms.date: 11/01/2017
 ms.openlocfilehash: 8109c0b00f06a15c12bbccf89e7f49dc3fa4b34a
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286220"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Siirtyminen Microsoft 365 Business CSP-tilaus
 
@@ -65,7 +65,7 @@ Seuraavassa taulukossa on yhteenveto vaikutus asiakkaille, joilla ei ole Siirtym
 
 |       | T + 30 T-0     | T + 30 T + 60 | T + 60 T + 120 | Lisäksi T + 120  |
 |-------|-----------------|--------------|---------------|---------------|
-| **Osavaltio** | Jatkoaika- | Vanhentunut      | Ei käytössä      | Deprovisioned |
+| **Valtion** | Jatkoaika- | Vanhentunut      | Ei käytössä      | Deprovisioned |
 | **Palvelun vaikutuksia**                                                        |
 | **Microsoft 365 Business-hallintaportaaliin.** | Toimintoja ei ole vaikutusta | Toimintoja ei ole vaikutusta | Voit Lisää tai poista käyttäjiä, ostaa tilaukset.</br> Ei voi määrittää/revoke käyttöoikeuksia. | Asiakkaan tilauksen ja kaikki tiedot poistetaan. Järjestelmänvalvoja voi hallita muita maksuttomia. |
 | **Office-sovellukset**                         | Käyttäjä ei ole vaikutusta | Käyttäjä ei ole vaikutusta | Office siirtyy rajoitetun toiminnan tilaan.</br> Käyttäjät voivat tarkastella vain tiedostoja. | Office siirtyy rajoitetun toiminnan tilaan.</br> Käyttäjät voivat tarkastella vain tiedostoja. |
@@ -96,7 +96,7 @@ Seuraavassa taulukossa on esitetty Windows 10 laitteen kokoonpanon politiikan va
 |                            | Täysin lisensoitu kokemus                      | T + 60 päivää kirjaa vanheneminen          |
 |----------------------------|------------------------------------------------|------------------------------------|
 | **Suojaa PCs uhat Windows Defenderin käyttäminen** | Ota käyttöön tai poistaa sen käytöstä on ulkopuolella käyttäjän ohjausobjekti | Ottaa tai poistaa sen käytöstä Windows Defender Windows 10 PC: n käyttäjä |
-| **Auta suojaamaan tietokoneita verkkopohjaisilta uhilta Microsoft Edgessä** | Microsoft Edge PC suojelua | Käyttäjä voi ottaa käytössä/ei käytössä Microsoft Edge PC suojelua |
+| **Auta suojaamaan tietokoneitasi verkkopohjaisilta uhkilta Microsoft Edgessä** | Microsoft Edge PC suojelua | Käyttäjä voi ottaa käytössä/ei käytössä Microsoft Edge PC suojelua |
 | **Sammuta laite-näyttö Kun kone on vapaa** | Järjestelmänvalvoja määrittää näytön aikakatkaisu väli-käytäntö | Käyttäjä voi määrittää näytön aikakatkaisu |
 | **Salli käyttäjille sovellusten lataaminen Microsoft Storesta** | Jos käyttäjä voi ladata apps Microsoft Store määrittää Admin | Käyttäjä voi ladata apps Microsoft Store anytime |
 | **Salli käyttäjien käyttää Cortanaa** | Järjestelmänvalvoja määrittää käytännön Cortana käyttöoikeudet | Voit ottaa käyttöön ja poistaa käytöstä Cortana käyttäjän laitteiden |

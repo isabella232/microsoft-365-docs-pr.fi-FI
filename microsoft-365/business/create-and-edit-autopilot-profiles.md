@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: 'Lue, Luo, Muokkaa, poista tai poista profiileja automaattiohjauksella. '
-ms.openlocfilehash: 4658a27e5f2c64a52f8a7d08b3fc13df5e239dc3
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 85fc897b2f428afae8d55feeb577021adaa30f72
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277097"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Autopilot-profiilien luominen ja muokkaaminen
 
@@ -32,11 +35,9 @@ ms.locfileid: "26983133"
 
 Profiilia käytetään laitteeseen tai laiteryhmään
   
-1. Valitse Microsoft 365 Businessin hallintakeskuksessa **Ota Windows käyttöön AutoPilotin avulla** **Laitetoiminnot**-kortista. 
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. Valitse Microsoft 365 Business hallintakeskukseen, **laitteiden** \> **automaattiohjauksella**.
   
-2. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti \> **Luo profiili**.
+2. Valitse **profiilit** -välilehti **automaattiohjauksella** , sivulla \> **Luo profiili**.
     
 3. Kirjoita **Luo profiili** -sivulla nimi, jonka avulla tunnistaa sen, kuten Markkinointi. Ota käyttöön haluamasi asetus (katso kohtaa [Tietoja AutoPilot-profiilien asetuksista](autopilot-profile-settings.md)) ja valitse **Tallenna**.
     

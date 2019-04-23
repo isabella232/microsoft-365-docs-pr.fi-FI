@@ -8,7 +8,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Lue kuinka suojausominaisuudet 365 Microsoft Business yhdistetään Intune asetukset. Tilaus sisältää käyttöoikeuden Intune-asetusten muuttamista.
-ms.openlocfilehash: 5ee5a457fe3f265dd37f6806ca8c11fe096718b6
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: ddd520cd059c84e5d64e967fe5631fe2f6bce0d4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26983013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278551"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Miten Microsoft 365 Businessin suojausominaisuudet vastaavat Intunen asetuksia
 
@@ -95,7 +98,7 @@ Etsi Intune asetus, kun kirjautunut sisään Microsoft 365 Business järjestelm�
 |Salli käyttäjille sovellusten lataaminen Microsoft Storesta  <br/> |Mukautettu URI-käytäntö  <br/> |
 |Salli käyttäjien käyttää Cortanaa  <br/> |**Yleistä** \> **Cortana**-asetuksena on **Estä** Intunessa, kun asetuksena on **Pois käytöstä**Microsoft 365 Businessssa.  <br/> |
 |Salli käyttäjille Windows-vihjeiden ja -mainosten vastaanottaminen Microsoftilta  <br/> |**Windows-tapahtumanäyttö**, kaikki estetään, jos tämän asetuksena on **Pois käytöstä**Microsoft 365 Businessssa.  <br/> |
-|Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> | Tämä asetus on kohdassa **Microsoft Intune** \> **Palvelupäivitykset - Windows 10 -päivityskierrokset**. Valitse **Windows 10 -laitteiden päivityskäytäntö** ja sitten **Ominaisuudet** \> **Asetukset**.    <br/>  Kun Microsoft 365 Business -asetuksena on **Pois käytöstä**, kaikki seuraavat asetukset on määritetty:  <br/> **Palveluhaara**-asetuksena on **CB** (CBB, kun se on poistettu käytöstä Microsoft 365 Businessssa).  <br/> **Microsoft-tuotepäivitykset**-asetuksena on **Salli**.  <br/> **Windows-ohjaimet**-asetuksena on **Salli**.  <br/> **Automaattinen päivityskäytäntö** -asetuksena on **Automaattinen asennus huoltoaikana**, jossa:  <br/> **Tuntia käynnistyksestä** -asetuksena on **klo 6.00**.  <br/> **Aktiivisten tuntien päättyminen** -asetuksena on **klo 22.00**.  <br/> **Laadun päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Ominaisuuden päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Toimituksen optimoinnin lataustila** -asetuksena on **HTTP yhdistetty samaan NAT-vertaisverkkoon**.  <br/> |
+|Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> | Tämä asetus on kohdassa **Microsoft Intune** \> **Palvelupäivitykset - Windows 10 -päivityskierrokset**. Valitse **Windows 10 -laitteiden päivityskäytäntö** ja sitten **Ominaisuudet** \> **Asetukset**.      <br/>  Kun Microsoft 365 Business -asetuksena on **Pois käytöstä**, kaikki seuraavat asetukset on määritetty:  <br/> **Palveluhaara**-asetuksena on **CB** (CBB, kun se on poistettu käytöstä Microsoft 365 Businessssa).  <br/> **Microsoft-tuotepäivitykset**-asetuksena on **Salli**.  <br/> **Windows-ohjaimet**-asetuksena on **Salli**.  <br/> **Automaattinen päivityskäytäntö** -asetuksena on **Automaattinen asennus huoltoaikana**, jossa:  <br/> **Tuntia käynnistyksestä** -asetuksena on **klo 6.00**.  <br/> **Aktiivisten tuntien päättyminen** -asetuksena on **klo 22.00**.  <br/> **Laadun päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Ominaisuuden päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Toimituksen optimoinnin lataustila** -asetuksena on **HTTP yhdistetty samaan NAT-vertaisverkkoon**.  <br/> |
 |||
    
 

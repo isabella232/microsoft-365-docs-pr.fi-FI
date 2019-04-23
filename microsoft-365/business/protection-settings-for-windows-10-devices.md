@@ -11,6 +11,9 @@ f1_keywords:
 - BCS365_Win10AppPolicy
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -21,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Opi app hallintakäytännön luominen ja suojaamaan työn tiedostoja Windows 10-laitteissa.
-ms.openlocfilehash: acf19a72d994185a35b2e425f8334a73a121ee10
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 289c6a74f6ccb53f6a833612a7b4a5bcddd3ea56
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26982823"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278164"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Sovellusten suojausasetusten määrittäminen Windows 10 -laitteille
 
@@ -34,23 +37,21 @@ ms.locfileid: "26982823"
 
 Jos käyttäjillä on henkilökohtaisia Windows 10 -laitteita, joissa he tekevät työtehtäviä, voit suojata tiedot myös kyseisissä laitteissa.
   
-1. Kirjaudu [Microsoft 365 Businessiin](https://portal.office.com) yleisen järjestelmänvalvojan tunnistetiedoilla. Siirry hallintakeskukseen valitsemalla **Järjestelmänvalvoja** -ruutu. 
+1. Kirjautuminen [hallintakeskukseen](https://go.microsoft.com/fwlink/p/?linkid=837890) yleisen järjestelmänvalvojan tunnistetiedoin. Siirry hallintakeskukseen valitsemalla **Järjestelmänvalvoja**-ruutu. 
     
-2. Valitse hallintaportaalin **Laitekäytännöt**-kortissa **Lisää käytäntö**.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
-  
+2. Valitse vasemman nav- **laitteiden** \> **käytännöt** \> **Lisää**.
+
 3. Kirjoita **Lisää käytäntö** -ruutuun yksilöivä nimi tälle käytännölle. 
     
 4. Valitse **Käytännön tyyppi** -kohdassa **Windows 10:n sovellusten hallinta**.
     
-5. Valitse ** laitetyyppi **, **henkilökohtaisia** tai **Yrityksen omistuksessa**.
+5. Under ** Device type **, choose either **Personal** or **Company Owned**.
     
 6. **Salaa työtiedostot** otetaan automaattisesti käyttöön. 
     
 7. Määritä **Estä käyttäjiä kopioimasta yritystietoja henkilökohtaisiin tiedostoihin ja pakota heidät tallentamaan työtiedostot OneDrive for Businessiin** **käyttöön**, jos et halua käyttäjien tallentavan työtiedostoja tietokoneeseensa. 
     
-8. Laajenna **hallita, miten käyttäjät voivat käyttää Office-tiedostojen, laitteiden** \> miten asetukset. **Miten käyttäjät voivat käyttää Office-laitteita mobiililaitteiden hallinta** ei **ole käytössä** oletusarvoisesti, mutta voit ottaa sen **käyttöön** ja hyväksyä oletusarvot on suositeltavaa. Lisätietoja on kohdassa [käytettävissä olevat asetukset](protection-settings-for-windows-10-devices.md#bkmk_settings) . 
+8. Expand **Manage how users access Office files on devices** \> configure the settings how you would like. The **Manage how users access Office devices on mobile devices** is **Off** by default, but it is recommended that you turn it **On** and accept the default values. Lisätietoja on kohdassa [käytettävissä olevat asetukset](#available-settings). 
     
     Voit aina palauttaa oletusasetuksen **Oletusasetusten palauttaminen** -linkin avulla. 
     
