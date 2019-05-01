@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: 365 Microsoft Business, Microsoft 365, SMB, FAQ, usein kysyttyjä kysymyksiä, vastauksia, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: bdcfd6a78278aff83b3fc21ae0fbb43bce140a16
+ms.sourcegitcommit: 1034f54472de62897f2e8f12459db8043ac8443b
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286122"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497748"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Usein kysyttyjä kysymyksiä Microsoft 365 Business
 
@@ -116,7 +116,7 @@ Asiakkaiden, jotka haluavat täydellinen ominaisuuksia Microsoft 365 Business ko
 Microsoft 365 Business onnistunutta käyttöönottoa mahdollisimman suora polku on Microsoft Partner kanssa. Ne on laaja koulutus ja koe on laaja valikoima asiakastilanteissa ja ne parhaiten varustettu ymmärtää tarpeen mukaan. Asiakkaat, jotka ovat kokeneet IT-henkilöstö voi käyttää <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 liiketoiminnan aloittaminen</a> auttamiseksi niiden 365 Microsoft Business käyttöönotto. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Sisällä Microsoft 365 Business Microsoft Intune täynnä ominaisuuksia 
-Kyllä, Microsoft 365 Business tilaajat saa käyttää koko Intune ominaisuuksia iOS, Android, MacOS ja muiden käyttöympäristöjen Laitehallinta. Ominaisuudet eivät ole käytettävissä yksinkertaistetun hallinnan konsolin Microsoft 365 Business, kuten 3 osapuolen app hallinta ja kokoonpanon WiFi-profiilien ja VPN-varmenteita, esimerkiksi voidaan hallita koko Intune konsoli.   
+Kyllä, Microsoft 365 Business tilaajat saa käyttää koko Intune ominaisuuksia iOS, Android, MacOS ja muiden käyttöympäristöjen Laitehallinta. Ominaisuudet eivät ole käytettävissä yksinkertaistetun hallinnan konsolin Microsoft 365 Business, 3 osapuolen app hallinta ja kokoonpanon WiFi-profiilien, VPN-sertifikaatit, jne, kuten hallittavissa täysi Intune konsolissa. Sinulla on oikeus määritysten hallinnan avulla voit hallita asiakkaiden EMS käyttöoikeuden piiriin. Lisätietoja SCCM liittyvät kyselyt on <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">SCCM usein kysytyt kysymykset</a>
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directoryn Premium P1 mukana 365 Microsoft Business? 
