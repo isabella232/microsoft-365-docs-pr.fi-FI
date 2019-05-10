@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Opi hyödyntämään tiloissa resurssien käyttöä, kuten Windows 10-laite on liitetty liiketoiminnan rivin apps, jaettujen tiedostojen ja tulostimien Azure Active Directory-hakemistopalvelusta.
-ms.openlocfilehash: 212685bc229f519152e69b09d0a745bfac7a38cd
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2be8eb16b9d17547d3bc4c3e4fe499b4c14117a4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276877"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660265"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Käyttää tiloissa Azure AD liitetty laite 365 Microsoft Business resurssit
 
@@ -47,11 +47,9 @@ Jos organisaatiosi ei ole valmis ottamaan Azure AD liittynyt laitteen kokoonpano
 Azure AD liittäminen Windows-laite, joka on aiemmin ollut toimialueeseen liittymistä tai työryhmässä, sinun on otettava huomioon seuraavat rajoitukset:
   
 - Azure AD laite liitetään, se luo uuden käyttäjän ei viittaa olemassa olevaan profiiliin. Voit korjata tämän ongelman profiilit on siirrettävä manuaalisesti. Käyttäjäprofiili sisältää tietoja, kuten Suosikit, paikallisia tiedostoja, selaimesi asetuksia, Käynnistä-valikkoasetukset jne. Paras tapa on löytää kolmannen osapuolen työkalu yhdistää olemassa olevat tiedostot ja asetukset uuteen profiiliin
-    
-- Jos laite käyttää ryhmän Policy Objects (GPO), joitakin ryhmäkäytäntöobjekteja ei ole välttämättä verrattavissa [Kokoonpano tarjoaja](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) Intune. Löydä vastaavaa CSP aiemmin ryhmäkäytäntöobjekteja [MMAT työkalun](https://www.microsoft.com/download/details.aspx?id=45520) suorittaminen 
-    
-- Käyttäjät eivät voi todentaa Active Directory-todennus riippuvat sovellukset. Tämä vanha app käytön arvioiminen ja harkitse päivittämistä app, joka käyttää nykyaikaisia Auth Jos mahdollista.
-    
-- Active Directory-tulostimen etsimisen ei toimi. Voit korjata tämän ongelman suoraan tulostimen polut tarjoavat kaikille käyttäjille tai hyödyntää [Hybrid Cloud Print](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
-    
 
+- Jos laite käyttää ryhmän Policy Objects (GPO), joitakin ryhmäkäytäntöobjekteja ei ole välttämättä verrattavissa [Kokoonpano tarjoaja](https://docs.microsoft.com/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) (CSP) Intune. Löydä vastaavaa CSP aiemmin ryhmäkäytäntöobjekteja [MMAT työkalun](https://www.microsoft.com/download/details.aspx?id=45520) suorittaminen
+
+- Käyttäjät eivät voi todentaa Active Directory-todennus riippuvat sovellukset. Tämä vanha app käytön arvioiminen ja harkitse päivittämistä app, joka käyttää nykyaikaisia Auth Jos mahdollista.
+
+- Active Directory-tulostimen etsimisen ei toimi. Voit korjata tämän ongelman suoraan tulostimen polut tarjoavat kaikille käyttäjille tai hyödyntää [Hybrid Cloud Print](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).

@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: 365 Microsoft Business resurssit
 description: 'Opi suunnitella, ottaa käyttöön ja käyttää Microsoft Office 365: ssä, Windows 10 ja Enterprise Mobility + Security yhdessä yrityksesi integroidun ja turvallinen infrastruktuuri, joka mahdollistaa tehostaminen ja vapauttaa luovuutta.'
-ms.openlocfilehash: fc3a702f76426f3b7ffcb0f45996b097d0d17e94
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 3c5cc341734896cb9a42565c8647f3f5ac37fc5b
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278493"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660286"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -41,8 +41,10 @@ ms.locfileid: "32278493"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Tutustu</h3>
-                                                <P><a href="https://support.office.com/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a" target="_blank">Yleistä</a></p>
-                                                <P><a href="microsoft-365-business-overview.md" target="_blank">Microsoft 365 Businessin käytön aloittaminen</a></p> <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">USEIN KYSYTTYJÄ KYSYMYKSIÄ</a></p>
+                                                <P><a href="https://support.office.com/article/what-is-microsoft-365-business-901e2522-c2cf-4b8c-894e-f482cda3347a" target="_blank">Videon yhteenveto</a></p>
+                                                <P><a href="microsoft-365-business-overview.md" target="_blank">Mikä on 365 Microsoft Business</a></p>
+                                                <P><a href="https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-service-description" target="_blank">Palvelun kuvaus</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/business/support/microsoft-365-business-faqs" target="_blank">USEIN KYSYTTYJÄ KYSYMYKSIÄ</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -58,8 +60,12 @@ ms.locfileid: "32278493"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Microsoft 365 Businessin määrittäminen</h3>
-                                                <P><a href="set-up.md" target="_blank">Määritä</a></p>
+                                                <h3>Määritä</h3>
+                                              <P><a href="get-microsoft-365-business.md" target="_blank">Hanki Microsoft 365 Business</a></p>
+                                               <P><a href="set-up.md" target="_blank">Määritä Microsoft 365 Business</a></p>
+                                                <P><a href="set-up-windows-devices.md" target="_blank">Määritä Windows 10-laitteet</a></p>
+                                                <P><a href="set-up-mobile-devices.md" target="_blank">IPhone- ja Android-laitteiden määrittäminen</a></p>
+                                                <P><a href="auto-install-or-uninstall-office.md" target="_blank">Asenna Office Windows 10</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,9 +99,10 @@ ms.locfileid: "32278493"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Suojaa yrityksen tiedot ja laitteet</h3>
-                                                <P><a href="manage.md" target="_blank">Laitteiden hallinta</a></p> <P><a href="app-protection-settings-for-android-and-ios.md" target="_blank">Suojaa iPhone- ja Android-laitteet</a></p>
-                                                 <P><a href="https://support.office.com/article/top-10-ways-to-secure-office-365-and-microsoft-365-business-plans-from-cyber-threats-de2da300-dbb6-4725-bb12-b85a9d296e75" target="_blank">Top 10 tapoja suojata Microsoft 365 Business</a></p>
+                                                 <P><a href="https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data"target="_blank">Top 10 tapoja suojata Microsoft 365 Business</a></p>
                                                 <P><a href="security-features.md" target="_blank">Lisätietoja suojausominaisuuksista</a></p>
+                                                <P><a href="remove-company-data.md" target="_blank">Laitteiden tietojen poistaminen</a></p>
+                                                <P><a href="reset-devices-to-factory-settings.md" target="_blank">Laitteiden palauttaminen</a></p>
                                                 </div>
                                         </div>
                                     </div>
@@ -112,7 +119,6 @@ ms.locfileid: "32278493"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Käytä</h3>
-                                                <P><a href="set-up-mobile-devices.md" target="_blank">Mobiililaitteiden määrittäminen</a></p>
                                                 <P><a href="https://support.office.com/office-training-center" target="_blank">Kaikki huippuluokkaa Hae Officen Ohje</a></p>
                                                 <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Kerro kaikille, siirry Windows-10</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Intune koulutus</a></p>
@@ -127,14 +133,14 @@ ms.locfileid: "32278493"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/media/logos/logo_Windows.svg" alt="Windows logo" />
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/success-blue.svg" alt="Success logo" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>Windows-10</h3>
-                                                <P><a href="set-up-windows-devices.md" target="_blank">Määritä Windows 10-laitteet</a></p>
-                                                <P><a href="remove-company-data.md" target="_blank">Laitteiden tietojen poistaminen</a></p>
-                                                <P><a href="reset-devices-to-factory-settings.md" target="_blank">Laitteiden palauttaminen</a></p>
+                                                <h3>Kumppanien resurssit</h3>
+                                                <P><a href="get-microsoft-365-business.md" target="_blank">Hae Microsoft 365 Business Partner center</a></p>
+                                                <P><a href="https://www.microsoft.com/microsoft-365/partners/business" target="_blank">Microsoft 365 partner-sivu</a></p>
+                                                <P><a href="https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck" target="_blank">Microsoft 365 Business käyttöoikeuden kannen</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -154,9 +160,10 @@ ms.locfileid: "32278493"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Apua Microsoft-kumppanilta</h3>
+                                                    <h3>Tarvitsetko apua?</h3>
                                                     <P><a href="https://www.microsoft.com/solution-providers/search" target="_blank">Etsi yhteistyökumppani</a></p>
-                                                    <P><a href="https://www.microsoft.com/microsoft-365/partners/business" target="_blank">Kumppanin resurssit</a></p>
+                                                    <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Ota yhteyttä Office 365-tukeen</a></p>
+                                                    <P><a href="https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB" target="_blank">Pienille ja keskikokoisille business tech yhteisön</a></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -172,10 +179,9 @@ ms.locfileid: "32278493"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Tarvitsetko tukea?</h3>
-                                                     <P><a href="https://azure.microsoft.com/support/options/" target="_blank">Azure</a></p>
-                                                     <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
-                                                     <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows-10</a></p>
+                                                    <h3>Käyttöohjeet</h3>
+                                                     <P><a href="https://docs.microsoft.com/office/admins-itprofessionals" target="_blank">Asiakirjat Office admin</a></p>
+                                                     <P><a href="https://docs.microsoft.com/intune/index">Microsoft Intune asiak</a></p>
                                                 </div>
                                             </div>
                                         </div>

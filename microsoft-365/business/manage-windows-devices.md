@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Microsoft suojaa 365 käyttöönotto paikallisen AD liittynyt Windows 10-laitteita.
-ms.openlocfilehash: d61b3bf6be50d6b21e7b883774567bb63995e60e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 661e5bf8205a661eb4382b4bdd8fcf3a54ecc12f
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278073"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660305"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Ota toimialueeseen liitetyt Windows 10 -laitteet Microsoft 365 Businessin hallittavaksi
 
@@ -33,7 +33,7 @@ Jos organisaatiossa käytetään Windows Server Active Directory tiloissa, voit 
   
 ## <a name="set-up-domain-joined-devices-to-be-managed-by-microsoft-365-business"></a>Määritä laitteet toimialueeseen liittymistä hallinnoi 365 Microsoft Business
 
-Määrittämään organisaation toimialueeseen liittymistä laitteet hyötyvät Azure Active Directoryssa paikallisen Active Directoryn lisäksi annettuja ominaisuuksia voit toteuttaa **hybridi Azure AD liitetyt laitteet**. Nämä ovat laitteita, jotka on liitetty toisiinsa sekä paikalliseen Active Directory-ja Azure-Active Directory. Hybridi liittynyt Azure AD laitteet on suojattu ja hallinnoi 365 Microsoft Business... 
+Määrittämään organisaation toimialueeseen liittymistä laitteet hyötyvät Azure Active Directoryssa paikallisen Active Directoryn lisäksi annettuja ominaisuuksia voit toteuttaa **hybridi Azure AD liitetyt laitteet**. Nämä ovat laitteita, jotka on liitetty toisiinsa sekä paikalliseen Active Directory-ja Azure-Active Directory. Hybrid liittynyt Azure AD laitteet on suojattu ja hallinnoi 365 Microsoft Business. 
   
 Noudattamalla alla tehdä laitteiden Windows 10 Azure AD liittynyt ja hallitsema Microsoft 365 Business hybridi.
   
@@ -43,15 +43,13 @@ Noudattamalla alla tehdä laitteiden Windows 10 Azure AD liittynyt ja hallitsema
     > Vaiheet ovat täsmälleen samat 365 Microsoft Business. 
   
 2. Ennen kuin suoritat vaiheen 3 Windows 10 Azure AD liittynyt Hybrid on laitteissa, sinun on Varmista, että tietokoneen on täytettävä seuraavat edellytykset:
-    
+
    - Käytössäsi on uusin versio Azure AD muodosta.
-    
+
    - Azure AD yhdistää kaikki tietokoneen haluat hybridi Azure AD liittynyt laitteiden objektit on synkronoitu. Jos tietokoneen objektit kuuluvat tietyn organisaation yksiköt (OU), varmista, että nämä organisaatioyksiköiden määritetään synkronoitaviksi Azure AD muodostaa myös.
     
 3. Aiemmin toimialueeseen liittymistä Windows 10 laitteet hybridi Azure AD Joined ja rekisteröityvän Intune (Microsoft Business-365) hallinnoinnin kannettavan laitteen rekisteröiminen:
     
 4. Vaihe vaiheelta ohjeiden mukaisesti- [hybridi Azure liitetty Active Directory-laitteiden määrittämisestä](https://go.microsoft.com/fwlink/p/?linkid=872870). Tämä mahdollistaa paikallisen Active Directory synkronointi liittynyt Windows 10-tietokoneisiin ja ne cloud valmis.
     
-5. Jotta voit rekisteröidä Windows 10-laitteen kannettavan laitteen hallintaan, katso ohjeet [Windows 10 Intune ryhmäkäytännön avulla laitteen rekisteröiminen](https://go.microsoft.com/fwlink/p/?linkid=872871) . Voit määrittää ryhmäkäytännön paikallisen tietokoneen ääressä tasolla tai voit luoda joukkotoiminnot-palvelimen toimialueen ohjauskoneen tämän ryhmäkäytännön asetus. 
-    
-
+5. Jotta voit rekisteröidä Windows 10-laitteen kannettavan laitteen hallintaan, katso ohjeet [Windows 10 Intune ryhmäkäytännön avulla laitteen rekisteröiminen](https://go.microsoft.com/fwlink/p/?linkid=872871) . Voit määrittää ryhmäkäytännön paikallisen tietokoneen ääressä tasolla tai voit luoda joukkotoiminnot-palvelimen toimialueen ohjauskoneen tämän ryhmäkäytännön asetus.

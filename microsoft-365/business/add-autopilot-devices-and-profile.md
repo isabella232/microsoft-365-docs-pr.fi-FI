@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Tietoja Windowsin automaattiohjauksen avulla voit määrittää yrityksellesi uuden Windows 10 laitteet.
-ms.openlocfilehash: e0802ddcc0964d0b8d102f7dbdb9116b33cdcf58
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8c4a14b4b9dcbf7a30c1e6e0bdd53418a1ab8a03
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277096"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660659"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
 
-Windows AutoPilotin avulla voit määrittää yrityksen uudet Windows 10 -laitteet niin, että ne ovat käyttövalmiita heti, kun ne annetaan työntekijöille.
+Windows automaattiohjauksen avulla voit määrittää **uuden** Windows 10-laitteiden yrityksesi niin, että ne ovat valmiita tuottavina käyttöön niin pian kuin ne antavat työntekijöille.
   
 ## <a name="device-requirements"></a>Laitevaatimukset
 
@@ -41,13 +41,17 @@ Laitteiden on täytettävä nämä vaatimukset:
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Käytä laitteiden ja profiilien määritysopasta
 
+![Nauha, joka osoittaa https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 Jos sinulla ei ole vielä luotuna laiteryhmiä tai -profiileja, aloittaminen on helpointa vaiheittaisen oppaan avulla, mutta voit myös [lisätä laitteita](create-and-edit-autopilot-devices.md) ja [määrittää profiileja](create-and-edit-autopilot-profiles.md) käyttämättä opasta. 
   
-1. Etsi Microsoft 365 Business:n hallintakeskuksessa **Laitetoiminnot**-kortti ja valitse **Ota Windows käyttöön AutoPilotin avulla**.
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. Siirry hallintakeskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+
+2. Valitse vasemman nav **laitteet** \> **automaattiohjauksella**.
+
+    ![Valitse laitteet ja automaattiohjauksen hallintakeskukseen.](media/AutoPilot.png)
   
-2. Valitse **Valmistele Windows** -sivulla **Aloitusopas**.
+2. **Automaattiohjauksen** sivulla Napsauta tai napauta **Käynnistä opas**.
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   

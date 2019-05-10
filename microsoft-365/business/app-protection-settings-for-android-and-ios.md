@@ -21,20 +21,22 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Opi luoda, muokata, tai poistaa app hallintakäytännön ja suojaamaan työn tiedostoja Android tai iOS-laitteissa.
-ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 04479360bf13a8ff685a91ed95440c08f8cf80b4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277443"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660532"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Sovellusten suojausasetusten määrittäminen Android- tai iOS-laitteita varten
 
+![Nauha, joka osoittaa https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+
 ## <a name="create-an-app-management-policy"></a>Sovellustenhallintakäytännön luominen
 
-1. Kirjautuminen [hallintakeskukseen 365 Microsoft Business](https://go.microsoft.com/fwlink/p/?linkid=837890) yleisen järjestelmänvalvojan tunnistetiedoin. 
+1. Siirry hallintakeskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Valitse **laitteet** -hallintakeskukseen, \> **käytännöt** \> **Lisää käytännön**.
+2. Valitse vasemman nav- **laitteiden** \> **käytännöt** \> **Lisää**.
   
 3. Kirjoita **Lisää käytäntö** -ruutuun yksilöivä nimi tälle käytännölle. 
     
@@ -62,9 +64,9 @@ ms.locfileid: "32277443"
     
 ## <a name="delete-an-app-management-policy"></a>Sovellustenhallintakäytännön poistaminen
 
-1. Valitse **Käytännöt**-kortissa **Poista käytäntö**.
+1. **Käytännöt** -sivulla Valitse käytäntö ja sitten **Poista**.
     
-2. Poista haluamasi käytännöt valitsemalla ne **Poista käytäntö** -ruudussa \> **Valitse**, sitten **Vahvista**. 
+2. Valitse **Vahvista** poistaa käytännön tai käytäntöjen valitsit **Poista käytäntö** -ruudussa. 
     
 ## <a name="available-settings"></a>Käytettävissä olevat asetukset
 
