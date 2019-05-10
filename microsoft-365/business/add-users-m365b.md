@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Opi lisää uusia käyttäjiä ja niiden laitteet on suojattu Microsoft 365 liiketoiminta-roolien määrittäminen.
-ms.openlocfilehash: 2d0d4fcd2ebaaf1d73ef7a1b74e73dbfa943a6be
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: e27e9e2b67e187bbca3c2f1b2c9d21196effa77f
+ms.sourcegitcommit: 0feaebc1c5ea2636b5c9fa96eef648a1e37635c1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660398"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864819"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Käyttäjien lisääminen Microsoft 365 Businessiin
 
@@ -33,7 +33,7 @@ ms.locfileid: "33660398"
 
 1. Siirry hallintakeskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
 2. Valitse **käyttäjät** vasemmalla NAV \> **aktiivisia käyttäjiä**.
-1. Valitse **Aktiiviset käyttäjät** -sivulla **Lisää käyttäjä**
+1. Valitse **Aktiiviset käyttäjät** -sivulla **Lisää käyttäjä**.
  4. Kirjoita **Uusi käyttäjä** -paneelissa tarvittavat tiedot. 
   
     Voit kirjoittaa myös lisätietoja **Yhteystiedot**-kohtaan, valita salasanan määritystavan **Salasana**-asetuksella ja määrittää rooleja **Roolit**-kohdassa.
