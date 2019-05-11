@@ -1,4 +1,5 @@
-# [Aloita näistä](microsoft-365-business-overview.md)
+# [Microsoft 365 Business](index.md)
+## [Yleistä](microsoft-365-business-overview.md)
 ## [Hanki Microsoft 365 Business](sign-up.md)
 ## [Tietosuojaa koskevat vaatimukset](pre-requisites-for-data-protection.md)
 ## [Määritä](set-up.md)
