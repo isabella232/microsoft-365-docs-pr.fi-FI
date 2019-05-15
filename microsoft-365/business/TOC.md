@@ -1,7 +1,9 @@
-# [Microsoft 365 Business](index.md)
-## [Yleistä](microsoft-365-business-overview.md)
+# Microsoft 365 Business
+## [Microsoft-365](index.md)
+## [Mikä on 365 Microsoft Business?](microsoft-365-business-overview.md)
 ## [Hanki Microsoft 365 Business](sign-up.md)
 ## [Tietosuojaa koskevat vaatimukset](pre-requisites-for-data-protection.md)
+## [Määritä yleiskatsaus](set-up-overview.md)
 ## [Määritä](set-up.md)
 ### [Päivittäminen Windows päivittää Pro luojat](upgrade-to-windows-pro-creators-update.md)
 ### [Mobiililaitteiden määrittäminen](set-up-mobile-devices.md)
@@ -14,8 +16,10 @@
 ## [Secure](security-features.md)
 ### [Suojaa liiketoimintasi](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Määritä suojauksen lisäasetukset ominaisuudet](set-up-advanced-security.md)
-## [Hallinta](manage.md)
+## Käyttäjät
 ### [Add users](add-users-m365b.md)
+### [Voit poistaa työntekijän](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## Laitteiden hallinta
 ### [Tarkastele ja Muokkaa käytännöt ja laitteet](view-policies-and-devices.md)
 ### [Poista yrityksen tiedot](remove-company-data.md)
 ### [Laitteiden palauttaminen tehdasasetuksiin](reset-devices-to-factory-settings.md)
@@ -26,7 +30,12 @@
 #### [Tarkista asetukset Windows 10-PC](validate-settings-on-windows-10-pcs.md)
 ### [Windows 10-laitteiden asetukset](protection-settings-for-windows-10-devices.md)
 ## [Siirtyminen Microsoft 365 Businessiin](migrate-to-microsoft-365-business.md)
-## [Lisää automaattiohjauksen laitteet ja profiili](add-autopilot-devices-and-profile.md)
+## Laskutus
+### [Laskutustietoja](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Maksaa](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [Peruuta](/Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## Automaattiohjauksen
+### [Lisää automaattiohjauksen laitteet ja profiili](add-autopilot-devices-and-profile.md)
 ### [Autopilot-profiilien luominen ja muokkaaminen](create-and-edit-autopilot-profiles.md)
 ### [Autopilot-laitteiden luominen ja muokkaaminen](create-and-edit-autopilot-devices.md)
 ### [Automaattiohjauksen profiiliasetukset](autopilot-profile-settings.md)

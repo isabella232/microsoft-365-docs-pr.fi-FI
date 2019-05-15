@@ -2,8 +2,8 @@
 layout: HubPage
 hide_bc: true
 ms.topic: hub-page
-ms.author: robmazz
-author: robmazz
+ms.author: sirkkuw
+author: sirkkuw
 keywords: 365 Microsoft Business, business, Microsoft 365 SMB-pieni midsize business, Microsoft 365 liiketoiminnassa käytettäviin asiakirjoihin, asiakirjoja, asiakirjat, tekniset tiedot
 localization_priority: Normal
 audience: microsoft-business
@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: 365 Microsoft Business resurssit
 description: 'Opi suunnitella, ottaa käyttöön ja käyttää Microsoft Office 365: ssä, Windows 10 ja Enterprise Mobility + Security yhdessä yrityksesi integroidun ja turvallinen infrastruktuuri, joka mahdollistaa tehostaminen ja vapauttaa luovuutta.'
-ms.openlocfilehash: 3c5cc341734896cb9a42565c8647f3f5ac37fc5b
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 1a2ce52c9132a63ef6535e287dc2e37421984b61
+ms.sourcegitcommit: f420a5cdedf3ec2babc6d8ad7e7c79da0b08e115
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660286"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "33966954"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -61,7 +61,7 @@ ms.locfileid: "33660286"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Määritä</h3>
-                                              <P><a href="get-microsoft-365-business.md" target="_blank">Hanki Microsoft 365 Business</a></p>
+                                              <P><a href="sign-up.md" target="_blank">Hanki Microsoft 365 Business</a></p>
                                                <P><a href="set-up.md" target="_blank">Määritä Microsoft 365 Business</a></p>
                                                 <P><a href="set-up-windows-devices.md" target="_blank">Määritä Windows 10-laitteet</a></p>
                                                 <P><a href="set-up-mobile-devices.md" target="_blank">IPhone- ja Android-laitteiden määrittäminen</a></p>
