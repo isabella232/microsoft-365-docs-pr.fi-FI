@@ -3,7 +3,7 @@ title: Sovellusten suojausasetusten vahvistaminen Windows 10 -tietokoneissa
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Opettele tarkistaa Microsoft 365 Business app suojausasetukset Windows 10-laitteet.
-ms.openlocfilehash: 4f1f0993dff0ef8d3f6858a3749e063c7b5579c7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 7710accf9a3cd1db788dd5215ab6d7bbb97e48a6
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279952"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074376"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Sovellusten suojausasetusten vahvistaminen Windows 10 -tietokoneissa
 
