@@ -3,8 +3,9 @@
 ## [Mikä on 365 Microsoft Business?](microsoft-365-business-overview.md)
 ## [Hanki Microsoft 365 Business](sign-up.md)
 ## [Tietosuojaa koskevat vaatimukset](pre-requisites-for-data-protection.md)
-## [Määritä yleiskatsaus](set-up-overview.md)
-## [Määritä](set-up.md)
+## Määrittäminen
+### [Asennuksen yleiskuvaus](set-up-overview.md)
+### [Määritä Microsoft 365 Business](set-up.md)
 ### [Päivittäminen Windows päivittää Pro luojat](upgrade-to-windows-pro-creators-update.md)
 ### [Mobiililaitteiden määrittäminen](set-up-mobile-devices.md)
 ### [Määritä Windows-laitteet](set-up-windows-devices.md)
