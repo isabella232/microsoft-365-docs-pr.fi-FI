@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: 365 Microsoft Business, Microsoft 365, SMB, FAQ, usein kysyttyjä kysymyksiä, vastauksia, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 9757abb98f4f1c2612f20c75fffd5da10bbbc381
-ms.sourcegitcommit: b05aa01a72c3bc257a9f3b06a7779d88a89758c6
+ms.openlocfilehash: 6ef500c9b0c9e83e77e46c1eaf7057e3e46cfe0d
+ms.sourcegitcommit: 5c6bbf6dd7020b462b56b644b5a0fcc0217d6a53
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33657203"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276219"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Usein kysyttyjä kysymyksiä Microsoft 365 Business
 
@@ -80,7 +80,7 @@ Monet työntekijät haluavat käyttää omia matkapuhelimet ja tabletit access p
 Microsoft 365 yritys tarjoaa asiakkaille yksinkertainen mutta tehokas keino työntekijät käyttämään heidän henkilökohtaisten laitteiden yhtenäisempiä liiketoiminnan mahdollisuuden työhön, jotta näiden laitteiden käyttö, säilytetään ja/tai yrityksen tietojen jakaminen . Tarkemmin: 
 * **Office mobile apps App suojaus** suojaa Office-tiedot, kuten sähköposti, kalenteri, yhteystiedot ja tiedostot iOS ja Android mobiililaitteilla käyttämällä käytännöt, kuten tiedot poistetaan automaattisesti määrätyn ajan kuluttua ei muodosta yhteyttä huoltoon, jotka edellyttävät, että tiedot tallennetaan ainoastaan yrityskäyttöön, OneDrive, vaatii PIN/fingerprint varmistaminen, käyttää Office-sovellukset ja estävien yrityksen tiedot kopioidaan Office-app järjestelmään Omat sovellukset. Mobiilisovelluksen muiden mobile apps Intune – hallinta on käytettävissä myös Microsoft 365 Business tilaajille. 
   
-* **Laitteen hallinta Windows 10 PC: ihin** aallows yritykset voivat halutessaan määrittää ja ottaa käyttöön ominaisuuksia, kuten Windows Defender suojaa haittaohjelmia ja Automaattiset päivitykset-toiminnon poistaminen käytöstä näytöt määrätyn ajan kuluttua. Lisäksi Windows 10 tai varastetuista laitteista voi olla kokonaan kirjoitetaan liiketoiminnan sovelluksia ja tietoja Admin Centerin kautta. 
+* **Laitteiden hallinta Windows 10 PC: ihin** avulla yritykset voivat halutessaan määrittää ja ottaa käyttöön ominaisuuksia, kuten Windows Defender suojaa haittaohjelmia ja Automaattiset päivitykset-toiminnon poistaminen käytöstä näytöt määrätyn ajan kuluttua. Lisäksi Windows 10 tai varastetuista laitteista voi olla kokonaan kirjoitetaan liiketoiminnan sovelluksia ja tietoja Admin Centerin kautta. 
 
 * **IOS, Android & MacOS Laitehallinta** ominaisuuksia auttaa yrityksiä monipuolinen laite ekosysteemissä, jossa on iOS, Android, Windows ja macOS laitteiden hallinta olisi suojattua. 
 
