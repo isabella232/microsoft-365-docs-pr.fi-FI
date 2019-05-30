@@ -7,17 +7,18 @@
 ### [Asennuksen yleiskuvaus](set-up-overview.md)
 ### [Määritä Microsoft 365 Business](set-up.md)
 ### [Päivittäminen Windows päivittää Pro luojat](upgrade-to-windows-pro-creators-update.md)
-### [Mobiililaitteiden määrittäminen](set-up-mobile-devices.md)
-### [Määritä Windows-laitteet](set-up-windows-devices.md)
 ### [Valmistautuminen Office-asiakasohjelman käyttöönotto](prepare-for-office-client-deployment.md)
 ### [Automaattinen asentaminen tai asennuksen poistaminen Office](auto-install-or-uninstall-office.md)
 ### [Käyttää tiloissa resursseja]()
 #### [Toimialueeseen liittymistä Windows 10 laitteet voidaan hallita](manage-windows-devices.md)
 #### [Käyttää resursseja Azure AD liittynyt laitteesta](access-resources.md)
+## Käyttäjän laitteen asennus
+### [Mobiililaitteiden määrittäminen](set-up-mobile-devices.md)
+### [Määritä Windows-laitteet](set-up-windows-devices.md)
 ## [Secure](security-features.md)
 ### [Suojaa liiketoimintasi](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Määritä suojauksen lisäasetukset ominaisuudet](set-up-advanced-security.md)
-## Käyttäjät
+## Käyttäjien hallinta
 ### [Add users](add-users-m365b.md)
 ### [Voit poistaa työntekijän](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Laitteiden hallinta
