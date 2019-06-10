@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business suojausominaisuudet
+title: Microsoft 365 Business tietoturvan ja määritystenmukaisuuden suhteen ominaisuudet
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lisätietoja suojausominaisuuksia, jotka Microsoft 365 Business mukana.
-ms.openlocfilehash: 6ce69f387461edc0eea6c705f15a9083547698ff
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 54bac38ca3a60f88f848ec3ab8bdd8a7c0fabd54
+ms.sourcegitcommit: ab04fea2765a63489d70b506f0e14303a5be16a0
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074526"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34780775"
 ---
-# <a name="microsoft-365-business-security-features"></a>Microsoft 365 Business suojausominaisuudet
+# <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business tietoturvan ja määritystenmukaisuuden suhteen ominaisuudet
 
 365 Microsoft Business tarjoaa yksinkertaistettu suojausominaisuudet suojaa tietosi, tietokoneet, puhelimet ja tabletit.
     
@@ -36,7 +36,6 @@ ms.locfileid: "34074526"
 
 Voit hallita monia hallintakeskukseen, jonka avulla voit ottaa nämä ominaisuudet käyttöön yksinkertaistettu helposti Microsoft 365 Business suojausominaisuuksia. Admin Centerissä voit tehdä seuraavaa:
   
-![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
 - [Määrittää sovelluksen asetukset Android- tai iOS laite](app-protection-settings-for-android-and-ios.md) . 
     
@@ -68,8 +67,19 @@ Kehittyneitä ominaisuuksia Microsoft Business-365 ovat käytettävissä auttaa 
     
   - Liite kehittyneitä skannaus ja AI powered analyysi tunnistaa ja hylkää vaarallisten viestit.
     
-  - Automaattinen tarkistaa sähköposti arvioida web-linkkejä, jos ne ovat osa tietojen kalastelun. Näin voit turvallisesti käyttämästä epäluotettavista WWW-sivustoista.
+  - Automaattinen tarkistaa linkkejä sähköpostitse arvioida, jos ne ovat osa tietojen kalastelun. Näin voit turvallisesti käyttämästä epäluotettavista WWW-sivustoista.
+
+- **[Azure portaalin Intune täynnä ominaisuuksia](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
+    Käytettäessä Azure portaalin admin Centerin avulla voit määrittää muita suojausominaisuuksia, kuten MacOS laitteet, iPhone ja Android laitteiden Lisäasetukset Windows Laitehallinta ja hoidon Intune eivät ole saatavana Microsoft 365 business hallintakeskukseen.
+- **Saman [Ehdollisen käyttöoikeuden](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) Azure AD P1-suunnitelma**
+
+    Ehdollisen käyttöoikeuden voi auttaa suojaamaan organisaatiosi riskistä sisään, yrittää käyttää kieltä tai odottamattomia verkon, access yrittää lomakkeen riskialtis laitetyyppejä, ja niin edelleen. Ehdollisen käyttöoikeuden käytännöt ovat voimassa sen jälkeen, kun ensimmäinen todennus on valmis ja se käyttää Ensimmäinen todennus-signaalit Jos yritetty käyttö olisi hyväksyttävä, estää tai f todiste enemmän (esimerkiksi toisen lomakkeen tunnus) on tarvitaan.
+    
+## <a name="compliance-features"></a>Noudattamista ominaisuudet
+
+Microsoft 365 liiketoiminnan tilaus sisältää ominaisuuksia, jotka auttavat säilyttää yhteensopivuuden ja standardien.
+
 - **[Yleiskatsaus tietojen menetyksen ehkäisemiseen tähtäävissä](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
     Voit määrittää DLP havaitsemaan arkaluontoisia tietoja, kuten luottokorttinumeroita, henkilötunnuksia jne estää tahattomat niiden jakamista yrityksen ulkopuolelle.
@@ -80,13 +90,9 @@ Kehittyneitä ominaisuuksia Microsoft Business-365 ovat käytettävissä auttaa 
     
 - **[Azure-tietojen suojaaminen](https://go.microsoft.com/fwlink/p/?linkid=871406)**
     
-    Tietojen suojaus auttaa luottamukselliset tiedot, sähköposti ja asiakirjat kontrolloida ohjausobjekteja, ”Älä välitä” ja ”kopioi”. Voit myös luokitella arkaluonteisia tietoja, kuten ”Luottamuksellinen” ja määrittää turvaluokitellun tiedon jakamista ulkopuolella ja yrityksen sisällä. Enterprise-luokan salaus on helppo sähköposti ja tietosi yksityisinä asiakirjoja. 365 Microsoft Business sisältää kaikki ominaisuudet [Azure tietojen suojauksen suunnitteleminen](https://go.microsoft.com/fwlink/p/?linkid=871407)1. Voit myös asentaa Azure tietojen suojaus asiakkaan apuohjelma Office-sovelluksille. Lisätietoja [Azure tietojen suojaaminen client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)-kasvattaa oppaassa.
-    
-- **[Azure portaalin Intune täynnä ominaisuuksia](https://go.microsoft.com/fwlink/p/?linkid=871403)**
-    
-    Käytettäessä Azure portaalin admin Centerin avulla voit määrittää muita suojausominaisuuksia, kuten MacOS laitteet, iPhone ja Android laitteiden Lisäasetukset Windows Laitehallinta ja hoidon Intune eivät ole saatavana Microsoft 365 business hallintakeskukseen.
-    
-Seuraava osissa kerrotaan, miten voit hallita näitä ominaisuuksia suojaus- &amp; Compliance Centeriin ja Intune hallintakeskukseen. Ajan mittaan yksinkertaistettu ohjausobjektit lisätään Microsoft 365 Business hallintakeskukseen.
+    Tietojen suojaus auttaa luottamukselliset tiedot, sähköposti ja asiakirjat kontrolloida ohjausobjekteja, ”Älä välitä” ja ”kopioi”. Voit myös luokitella arkaluonteisia tietoja, kuten ”Luottamuksellinen” ja määrittää turvaluokitellun tiedon jakamista ulkopuolella ja yrityksen sisällä. Enterprise-luokan salaus on helppo sähköposti ja tietosi yksityisinä asiakirjoja. 365 Microsoft Business sisältää kaikki ominaisuudet [Azure tietojen suojauksen suunnitteleminen](https://go.microsoft.com/fwlink/p/?linkid=871407)1. Voit myös asentaa Azure tietojen suojaus asiakkaan apuohjelma Office-sovelluksille. Lisätietoja [Azure tietojen suojaaminen client](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)-järjestelmänvalvojan oppaassa.
+
+Voit hallita näitä ominaisuuksia suojaus- &amp; Compliance Centeriin ja Intune hallintakeskukseen. Ajan mittaan yksinkertaistettu ohjausobjektit lisätään Microsoft 365 Business hallintakeskukseen.
   
     
 ## <a name="faq"></a>Usein kysytyt kysymykset
