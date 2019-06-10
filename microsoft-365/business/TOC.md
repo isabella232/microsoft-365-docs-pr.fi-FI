@@ -15,9 +15,10 @@
 ## Käyttäjän laitteen asennus
 ### [Mobiililaitteiden määrittäminen](set-up-mobile-devices.md)
 ### [Määritä Windows-laitteet](set-up-windows-devices.md)
-## [Secure](security-features.md)
-### [Suojaa liiketoimintasi](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
-### [Määritä suojauksen lisäasetukset ominaisuudet](set-up-advanced-security.md)
+## [Suojaa liiketoimintasi](security-features.md)
+### [Suurenna threat protection](increase-threat-protection.md)
+### [Ehdollisen käyttöoikeuden käytön aloittaminen](set-up-conditional-access-policies.md)
+### [Määritä yhteensopivuuden ominaisuudet](set-up-compliance.md)
 ## Käyttäjien hallinta
 ### [Add users](add-users-m365b.md)
 ### [Voit poistaa työntekijän](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
