@@ -11,12 +11,12 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 title: 365 Microsoft Business resurssit
 description: 'Opi suunnitella, ottaa käyttöön ja käyttää Microsoft Office 365: ssä, Windows 10 ja Enterprise Mobility + Security yhdessä yrityksesi integroidun ja turvallinen infrastruktuuri, joka mahdollistaa tehostaminen ja vapauttaa luovuutta.'
-ms.openlocfilehash: 1a2ce52c9132a63ef6535e287dc2e37421984b61
-ms.sourcegitcommit: f420a5cdedf3ec2babc6d8ad7e7c79da0b08e115
+ms.openlocfilehash: a7b6ef6b3c86868ffd9dd2ab912c427911075911
+ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "33966954"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34653042"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -99,7 +99,6 @@ ms.locfileid: "33966954"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Suojaa yrityksen tiedot ja laitteet</h3>
-                                                 <P><a href="https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data"target="_blank">Top 10 tapoja suojata Microsoft 365 Business</a></p>
                                                 <P><a href="security-features.md" target="_blank">Lisätietoja suojausominaisuuksista</a></p>
                                                 <P><a href="remove-company-data.md" target="_blank">Laitteiden tietojen poistaminen</a></p>
                                                 <P><a href="reset-devices-to-factory-settings.md" target="_blank">Laitteiden palauttaminen</a></p>
