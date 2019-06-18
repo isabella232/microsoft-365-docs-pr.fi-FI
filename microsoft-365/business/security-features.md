@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lisätietoja suojausominaisuuksia, jotka Microsoft 365 Business mukana.
-ms.openlocfilehash: 54bac38ca3a60f88f848ec3ab8bdd8a7c0fabd54
-ms.sourcegitcommit: ab04fea2765a63489d70b506f0e14303a5be16a0
+ms.openlocfilehash: bd61ad3bf1b34635a7b80f1c9ccf63fa98d31915
+ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34780775"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35017518"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business tietoturvan ja määritystenmukaisuuden suhteen ominaisuudet
 
@@ -75,6 +75,19 @@ Kehittyneitä ominaisuuksia Microsoft Business-365 ovat käytettävissä auttaa 
 - **Saman [Ehdollisen käyttöoikeuden](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) Azure AD P1-suunnitelma**
 
     Ehdollisen käyttöoikeuden voi auttaa suojaamaan organisaatiosi riskistä sisään, yrittää käyttää kieltä tai odottamattomia verkon, access yrittää lomakkeen riskialtis laitetyyppejä, ja niin edelleen. Ehdollisen käyttöoikeuden käytännöt ovat voimassa sen jälkeen, kun ensimmäinen todennus on valmis ja se käyttää Ensimmäinen todennus-signaalit Jos yritetty käyttö olisi hyväksyttävä, estää tai f todiste enemmän (esimerkiksi toisen lomakkeen tunnus) on tarvitaan.
+
+    Ehdollisen käyttöoikeuden ominaisuuksista ovat:
+
+    - Käyttäjä-, ryhmä- ja rooliin perustuvat käyttöoikeudet
+    - Access [app perusteella](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
+    - [Access sijainnin perusteella](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  Salli vain Luotetut IP-alueet tai tiettyjen maiden käyttö 
+    - Access edellyttää MFA
+    - Sovellukset, jotka [vanhan mallin mukainen todennus](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication) estää pääsyn
+    - Apps tp käytöstä [Intune app suojaus](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
+    - Kolmannen osapuolen toimittajat, esimerkiksi DUO MFA kuten mukautettu todentaminen.
+   
+    Muita ominaisuuksia:
+    - [Omatoiminen salasanan](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization) hybridi Azure AD
     
 ## <a name="compliance-features"></a>Noudattamista ominaisuudet
 
