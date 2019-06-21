@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Lisätietoja Microsoft 365 Business Centeristä Microsoft Partner.
-ms.openlocfilehash: 4f36edb356d382880bb1dda407bd52ca8e2dcce6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 61e178b73c83880aab22336814dd9dc7fca046a5
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072696"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114938"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Businessin hankkiminen
 
@@ -34,6 +34,8 @@ ms.locfileid: "34072696"
 Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 Business:n, [osta se täältä](https://www.microsoft.com/en-US/microsoft-365/business).
 
 Saat tarkat ohjeet [Microsoft 365 Business Rekisteröidy](sign-up.md) .
+
+Olet head kautta [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) ostaa Microsoft 365 Business sekä asetusten määrittämisen ohjeita.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 365 Businessin hankkiminen Microsoft-kumppanikeskuksesta
 

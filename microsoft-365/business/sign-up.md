@@ -18,18 +18,24 @@ search.appverid:
 - BCS160
 - MET150
 description: Tietoja Microsoft 365 Business Rekisteröidy ja ostaa.
-ms.openlocfilehash: ecbf316f63e11ed07dc775f6659f650112cc8cb4
-ms.sourcegitcommit: 274af83139ad7da3aa33366c3323d533d95c7db4
+ms.openlocfilehash: 0f92bf35d2a7898d530fd509d8d13c91f32ccab3
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35086319"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114918"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Rekisteröidy Microsoft 365 Business
 
 Jos olet kumppani, näkyviin [Tulee Microsoft 365 liiketoiminnan Centeristä Microsoft Partner](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
-[Tutustu Microsoft 365 Business advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) Siirry ja valitse **Osta nyt** -kohdassa Microsoft 365 Business.
+Microsoft 365 Business ostaa verkosta, [Tutustu Microsoft 365 Business advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) Siirry ja valitse **Osta nyt** -kohdassa Microsoft 365 Business.
+
+Olet head kautta [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) ostaa Microsoft 365 Business sekä asetusten määrittämisen ohjeita.
+
+## <a name="complete-the-sign-up-steps"></a>Ilmoittautuminen vaiheiden
+
+Kun olet ostanut Microsoft 365 Business, tee seuraavat toimet.
 
 1. Kotisivussa **, seuraavaksi tutuksi,** Syötä tarvittavat tiedot. Huomaa, että:
  
@@ -43,7 +49,7 @@ Jos olet kumppani, näkyviin [Tulee Microsoft 365 liiketoiminnan Centeristä Mic
     - **Yritys**: Kirjoita yksilöivä yrityksen nimi. Tämä on nimi, joka käyttää yrityksen web-sivustossa, jos sellainen on, ja on myös nimi, jonka haluat sisällyttää jälkeen @-merkki, kun saat sähköposti (työ). Tällä nimellä kutsutaan toimialueeseen. Esimerkiksi jos yrityksesi nimi on Contoso sukset, kirjoita ContosoSkis jälkeen @-merkkiä.
     - **Valitse toimialue**: Jos omistat jo toimialuenimi, valita. onmicrosoft.com avattavasta valikosta ja Kysymme määrittää se myöhemmin. Muussa tapauksessa on helppo ostaa verkkotunnuksen, joka edustaa yrityksesi. Jos haluat tehdä näin, valitse avattavasta valikosta mieluummin toimialue. Käyttäjän koko sähköpostiosoite voi olla esimerkiksi *Teresa@ContosoSkis.net*. Olemme näistä käyttökatkoksista ilmoitetaan heti Jos toimialuenimi on käytettävissä. Jos se on kustannuksista toimialueeseen lisätään Microsoft 365 Business-tilauksesi kustannuksiin. Uuden toimialueen myös asetetaan ylös ja valmis käytettäväksi Microsoft 365 jos ostaa tätä. Lisätietoja toimialueista on kohdassa [Toimialueiden usein kysytyt kysymykset](https://docs.microsoft.com/office365/admin/setup/domains-faq).
     
-    ![Kuva Luo käyttäjä ID-sivulla.](media/signinuserid.png)
+        ![Kuva Luo käyttäjä ID-sivulla.](media/signinuserid.png)
 
 3. Täytä loput kentät ja valitse **Luo oma tili**.
 4. **-Todistaa olet mediatiedostojasi. Not.A.Robot.** Anna puhelinnumero tulee joko tekstin tai kutsu ja valitse **tekstin me** tai **Soita minulle**koodi ja todentaminen koodi sivun \> **seuraavan**.

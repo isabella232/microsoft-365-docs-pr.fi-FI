@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Tietoja Microsoftin 365 liiketoiminnan.
-ms.openlocfilehash: b34db3dcfbe5ccd5feae7b275b6455e67c5f0029
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 6fd328ebd4a8d3fbcde836c4aa87b56b9775c3cd
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074276"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114958"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Yhteenveto: Microsoft 365 Business
 
@@ -60,3 +60,5 @@ Suojausominaisuuksien täydellinen luettelo on kohdassa [Microsoft 365 Business 
 - Jos sinulla on kumppani, hän saa Microsoft 365 Business:n seuraavasti: [Hanki Microsoft 365 Business Microsoft-kumppanikeskuksesta](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
 - Jos et on kumppani ja haluat saada Microsoft 365 Business, voit [ostaa se tässä](https://www.microsoft.com/microsoft-365/business) ja [Rekisteröidy](sign-up.md) ohjeiden mukaan.
+
+- Olet head kautta [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) ostaa Microsoft 365 Business sekä asetusten määrittämisen ohjeita.
