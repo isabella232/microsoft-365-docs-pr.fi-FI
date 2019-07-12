@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: 365 Microsoft Business, Microsoft 365, SMB, FAQ, usein kysyttyjä kysymyksiä, vastauksia, business
 ms.date: 06/08/2018
-ms.openlocfilehash: 6ef500c9b0c9e83e77e46c1eaf7057e3e46cfe0d
-ms.sourcegitcommit: 5c6bbf6dd7020b462b56b644b5a0fcc0217d6a53
+ms.openlocfilehash: 9f3f82169dcd4454ffb46b1269422688a107f2b0
+ms.sourcegitcommit: 0c1227dc79b66bab529bf178c5672791369ba471
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276219"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35630585"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Usein kysyttyjä kysymyksiä Microsoft 365 Business
 
@@ -27,7 +27,7 @@ Microsoft 365 on integroitu ratkaisu, joka tuo yhteen paras luokkansa tuottavuud
 **Kokonaisvaltaisesta joukon liiketoiminnan tuottavuutta ja yhteiskäyttöä työkaluja** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher ja Access 
 * VAIHTO, OneDrive, Skype for Business, Microsoftin työryhmät SharePoint 
-* Business apps Office (varaukset, Outlook asiakasta Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft luettelot<sup>[1](#footnote1)</sup>, yhteydet Microsoft<sup>[1](#footnote1)</sup>, Microsoftin laskutus-<sup>[1](#footnote1)</sup>) 
+* Business apps Office (varaukset, Outlook asiakasta Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoftin laskutus-<sup>[1](#footnote1)</sup>) 
  
 **Enterprise-luokan laitteen hallinnan ja suojauksen ominaisuudet** 
 - Auttaa ulkoisilta uhilta, kuten phishing protection kehittynyt & ja Office 365: n Advanced Threat Protection Windows Defender hyödyntää Guard malware 

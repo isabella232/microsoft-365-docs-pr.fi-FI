@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Lisätietoja oletus ja muut asetukset Microsoft 365 Business suojaa Windows 10-laitteiden käytettävissä.
-ms.openlocfilehash: 095aa2c2f32c3e7b5a5a4e560ea4bc7124d7146e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 844bddc4b93c7dc543ad6c6a79f5cf92c96ceff0
+ms.sourcegitcommit: 0c1227dc79b66bab529bf178c5672791369ba471
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074506"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35630605"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Laitteiden suojausasetusten määrittäminen Windows 10 -tietokoneita varten
 
@@ -34,7 +34,7 @@ Katso video Windows 10 -laitteiden suojaamisesta Microsoft 365 Businessin avulla
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. SGo admin Centerissä <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Siirry hallintakeskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
 2. Valitse vasemman nav- **laitteiden** \> **käytännöt** \> **Lisää**.
   
