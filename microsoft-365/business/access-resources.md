@@ -17,18 +17,16 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Opi, miten voit käyttää paikallisia resursseja, kuten yritys sovelluksia, tiedosto resursseja ja tulostimia Azure Active Directorysta, liittyi Windows 10-laitteeseen.
-ms.openlocfilehash: ab9049e78617372463b8446dc8f8bc0089d8c117
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 6065dd68bc8d306898ee02baa97fe07f71042439
+ms.sourcegitcommit: c0f769244d05ad019ea2307c38d5543d7b1e5afd
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981657"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36992245"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Paikallisten resurssien käyttö Azure AD-liitetystä laitteesta Microsoft 365 Business
 
-Kaikissa Windows 10-laitteilla, joihin on liitetty Azure Active Directory, on pääsy kaikkiin pilvipohjaisiin resursseihin, kuten Office 365-sovelluksiin, ja ne voidaan suojata Microsoft 365 Businessin avulla. Jos haluat sallia myös paikallisten resurssien, kuten Business Line (LOB)-sovellusten, jaettujen tiedostojen ja tulostimien käytön, synkronoi paikallinen Active Directory Azure Active Directoryn kanssa [Azure AD Connectin](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)avulla. Seuraavassa videossa kerrotaan, miten tämä määritetään tavallisimmille skenaariolle.
- 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
+Kaikissa Windows 10-laitteilla, joihin on liitetty Azure Active Directory, on pääsy kaikkiin pilvipohjaisiin resursseihin, kuten Office 365-sovelluksiin, ja ne voidaan suojata Microsoft 365 Businessin avulla. Jos haluat sallia myös paikallisten resurssien, kuten Business Line (LOB)-sovellusten, jaettujen tiedostojen ja tulostimien käytön, synkronoi paikallinen Active Directory Azure Active Directoryn kanssa [Azure AD Connectin](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)avulla. 
 
 Lisä tietoja on kohdassa [laitteen hallinnan esittely Azure Active Directoryssa](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) .
 Vaiheet on myös tiivistetty seuraavissa osissa.
