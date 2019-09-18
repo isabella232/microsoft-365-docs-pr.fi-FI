@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 Business usein kysytyt kysymykset 
-description: Vasta uksia useimmin kysyttyihin kysymyksiin, jotka koskevat Microsoft 365 Businessia, uutta pienille ja keskisuurille yrityksille (SMB) suunniteltua ratkaisua. 
+description: Vasta uksia useimmin kysyttyihin kysymyksiin Microsoft 365 Businessista, joka on uusi pienille ja keskisuurille yrityksille (SMB) suunniteltu ratkaisu. 
 author: Sirkkuw
 ms.author: sirkkuw
 ms.topic: article 
@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, usein kysytyt kysymykset, vasta ukset, liike toiminta
 ms.date: 06/08/2018
-ms.openlocfilehash: 3ab99b402bf440cd0c113a87dc453ff388a5befb
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: e722cc117d967796f0063b20e3d117b36b179f3e
+ms.sourcegitcommit: 14624abb412b6a34138a6266c994bb9cae411ad9
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982317"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028403"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business usein kysytyt kysymykset
 
@@ -24,7 +24,7 @@ ms.locfileid: "36982317"
 ### <a name="what-is-microsoft-365-business"></a>Mikä on Microsoft 365 Business? 
 Microsoft 365 on integroitu ratkaisu, joka kokoaa yhteen luokkansa parhaat tuottavuus työkalut, tieto turvan ja laitteiden hallinta ominaisuudet pienille ja keskisuurille yrityksille. 
 
-**Kokonaisvaltainen yritysten tuottavuus-ja yhteistyötyökalujen joukko** 
+**Joukko yritysten tuottavuus-ja yhteistyötyökaluja** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher ja Access 
 * Exchange, OneDrive, Skype for Business, Microsoft teams, SharePoint 
 * Yritys sovellukset Officista (vara ukset, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft laskutus<sup>[1](#footnote1)</sup>) 
@@ -118,11 +118,11 @@ Asiakkaiden, jotka haluavat kokea Microsoft 365 Businessin täydelliset ominaisu
 Microsoft 365-liike toiminnan onnistuneen käyttöönoton suorin polku on Microsoft-kumppanin kanssa. Heillä on laaja koulutus ja kokemus, jossa on monenlaisia asiakas skenaarioita ja jotka ovat parhaiten varustettuja ymmärtämään ympäristöäsi ja tarpeitasi. Asiakkaat, jotka ovat kokeneet sen henkilöstön parissa, voivat käyttää <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">microsoft 365-liike toiminnan</a> aloittamista auttaakseen heitä Microsoft 365-yritys käyttöönotossa. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Sisältääkö Microsoft 365 Business kaikki Microsoft Intune-ominaisuudet? 
-Kyllä, Microsoft 365-yritys tilaajille myönnetään käyttö oikeus täyteen Intune-ominaisuuksiin iOS:ssä, Androidissa, MacOS:ssä ja muissa alustojen välisten laitteiden hallinnassa. Ominaisuudet, joita ei ole saatavilla yksinkertaistetussa hallinta konsolissa Microsoft 365 Business, kuten 3rd Party App hallinta ja konfigurointi WiFi profiilit, VPN-sertifikaatit, jne, voidaan hallita täydessä Intune konsoli. Sinulla on oikeudet käyttää Configuration manageria EMS-käyttö oikeuden kattamien asiakkaiden hallintaan. SCCM liittyviä kyselyitä, katso <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">SCCM FAQ</a>
+Kyllä, Microsoft 365-yritys tilaajille myönnetään käyttö oikeus täyteen Intune-ominaisuuksiin iOS:ssä, Androidissa, MacOS:ssä ja muissa alustojen välisten laitteiden hallinnassa. Ominaisuudet, joita ei ole saatavilla yksinkertaistetussa hallinta konsolissa Microsoft 365 Business, kuten 3rd Party App hallinta ja konfigurointi WiFi profiilit, VPN-sertifikaatit, jne, voidaan hallita täydessä Intune konsoli. 
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Onko Azure Active Directory Premium P1 mukana Microsoft 365 Business? 
-Microsoft 365 Business on rakennettu eri puolilta Microsoftilta ja vaikka se jakaa joitain ominaisuuksia Azure Active Directoryn kanssa, se ei ole täysversio. Microsoft 365 Businessissa luodut suojaus-ja hallinta käytännöt perustuvat joihinkin Azure-toimintoihin, mutta eivät sisällä kaikkia ominaisuuksia (kuten itsepalveluominaisuuksia, ehdollisia käyttö ominaisuuksia ja raportointia). Asiakkaat voivat halutessaan ostaa Azure Active Directory Premium P1-tai P2-palvelun Microsoft 365 Businessin lisä osana. Katso lisä tietoja [Microsoft 365-yritys palvelun kuva](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) uksessa 
+Microsoft 365 Business sisältää Valitse Azure AD Premium P1 (AADP P1)-ominaisuudet, kuten itsepalvelun Sala sanan nollaaminen, mainoksen alaskirjaus, Azure MFA ja ehdollinen käyttö oikeus. Se ei sisällä AADP P1: tä kokonaisuudessaan. Katso lisä tietoja [Microsoft 365-yritys palvelun kuva](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) uksessa 
  
  
 ### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Sallitaanko asiakkaiden hallinnoida Maceja Microsoft 365-liike toiminnan avulla? 
