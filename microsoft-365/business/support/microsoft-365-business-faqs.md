@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, usein kysytyt kysymykset, vasta ukset, liike toiminta
 ms.date: 06/08/2018
-ms.openlocfilehash: e722cc117d967796f0063b20e3d117b36b179f3e
-ms.sourcegitcommit: 14624abb412b6a34138a6266c994bb9cae411ad9
+ms.openlocfilehash: cc6cc924cf45fa19d7f91235515981b636abf77d
+ms.sourcegitcommit: bd17ee20da1685e5c660d5f99746c81c63a17b22
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37028403"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37141505"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business usein kysytyt kysymykset
 
@@ -43,6 +43,9 @@ Microsoft 365 on integroitu ratkaisu, joka kokoaa yhteen luokkansa parhaat tuott
 * Office-sovellusten automaattinen asennus Windows 10-tieto koneisiin 
 * Aina ajan tasalla oleva toimisto + Windows 10 
 * Virtaviivainen käyttöönotto tieto koneita Windows Auto Pilot
+
+**Ehdollisen käytön salliminen**
+- Microsoft 365-yritys asiakkaat voivat ottaa ehdollisen käytön käyttöön Azure-portaalin Azure Directory-asetusten kautta. Lisä tietoja ehdollisten käyttö oikeus käytäntöjen määrittämisestä [on artikkelissa mikä on ehdollinen käyttö oikeus](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
 
 ### <a name="who-should-consider-adopting-microsoft-365-business"></a>Kenen kannattaa harkita Microsoft 365 Businessin käyttöönottoa? 
 Microsoft 365 Business on rakennettu pienille ja keskisuurille asiakkaille, joilla ei ole juurikaan resursseja henkilö kunnan resursseihin ja jotka haluavat Office 365: in luokkansa parhaita tuottavuus-ja yhteistyöominaisuuksia yhdessä laite hallinnan ja tieto turva ratkaisujen kanssa, jotka suojaa yritys tietoja. Microsoft 365-yritys asiakas on valmis siirtämään IT-toimintansa pilvi palveluun ja on kiinnostunut ylläpitämään ennakoivaa asennetta, joka auttaa suojaamaan tietoja sekä yrityksen että työn tekijän omistamien laitteiden osalta.
