@@ -18,25 +18,25 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: 'Opi käyttämään Microsoft 365 Business, factory nollaa Windows 10-laitteita. '
-ms.openlocfilehash: 7cb7afdc947766598ef5385078a1b2cab87601dd
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Opi käyttämään Microsoft 365 Businessin tehdas asetusten palauttamista Windows 10-laitteisiin. '
+ms.openlocfilehash: 12e0bdbab430654fb80baa0313e63b2493e5077e
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074466"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121174"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Palauta Windows 10 -laitteet tehdasasetuksiin.
 
-![Nauha, joka osoittaa https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Etiketti, jonka avulla voit tietää, että hallinta keskus on muuttumassa ja löydät lisä tietoja osoitteessa aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Tehdasasetusten palauttaminen palauttaa laitteen alkuperäiset asetukset, jotka siinä oli ostohetkellä. Kaikki laitteessa olevat sovellukset ja tiedot, jotka on asennettu oston jälkeen, poistetaan. Voit palauttaa tahdasasetukset hallitsemiisi Windows 10 -laitteisiin Microsoft 365 Business:n avulla.
   
-1. Siirry hallintakeskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>... 
+1. Siirry hallinta keskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.. 
     
-2. Valitse vasemman nav- **laitteiden** \> **hallinta**.
+2. Valitse vasemmasta NAV-kohdasta **laitteiden** \> **hallinta**.
 
-3. **Hallinta** -sivulla valintaruutu, jos haluat poistaa tiedot ja valitse sitten **Hallitse** avattavasta- **Factory nollaa**laitteen vieressä.
+3. Valitse **hallinta** -sivulla sen laitteen vieressä oleva valinta ruutu, josta haluat poistaa tietoja, ja sitten avattavasta **Hallitse** -valikosta **Palauta tehdas asetukset**.
     
 4. Valitse **Haluatko varmasti palauttaa tehdasasetukset alla oleviin laitteisiin** -ruudussa **Vahvista** \> **Sulje**.
     

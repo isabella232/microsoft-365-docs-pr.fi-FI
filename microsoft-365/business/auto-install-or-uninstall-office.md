@@ -19,17 +19,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: 'Asenna tai poista Windows-10 laitteissa hallintakeskukseen 365 Microsoft Business Office. '
-ms.openlocfilehash: 1e962f51882ddfd97da566858a0a1e6fb56ecbb8
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Officen asentaminen tai asennuksen poistaminen Windows 10-laitteissa Microsoft 365 Business-hallinta keskuksesta. '
+ms.openlocfilehash: 70fd2f1ded87e04f506b1ba415c820af5d535938
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071956"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121254"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Office asentaminen tai poistaminen automaattisesti Windows 10 -laitteissa
 
-![Nauha, joka osoittaa https://aka.ms/aboutM365preview.](media/m365admincenterchanging.png)
+[![Etiketti, jonka avulla voit tietää, että hallinta keskus on muuttumassa ja löydät lisä tietoja osoitteessa aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Voit asentaa Officen helposti ja nopeasti Windows 10 -tietokoneisiin Microsoft 365 Business -hallintakeskuksessa.
   
@@ -40,7 +40,7 @@ Jotta ymmärrät, miten se toimii aiemmin asennettujen Office-sovellusten kanssa
 1. Kirjaudu [hallintakeskukseen](https://aka.ms/bcsportal) yleisen järjestelmänvalvojan tunnistetiedoilla. 
     
 2. Valitse **Laitteet**-kortissa **Officen käyttöönoton hallinta**.
-      Jos **laitteen toiminnot** , kortti ei ole admin Centerin **Koti** -sivulla, valitse **Lisää** (+) lisääminen admin kotona.
+      Jos **laitteen toiminnot** -korttia ei näy, napsauta hallinta keskuksen **Koti** sivulla **Lisää** (+) lisätäksesi sen järjestelmänvalvojakotiisi.
     
     ![Screenshot of the Devices card in the admin center](media/9982e784-dbf9-4a76-a159-bb3e2e5aa23f.png)
   
