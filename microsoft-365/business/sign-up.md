@@ -10,53 +10,50 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
-description: Tietoja Microsoft 365 Business Rekisteröidy ja ostaa.
-ms.openlocfilehash: 0f92bf35d2a7898d530fd509d8d13c91f32ccab3
-ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
+description: Lue, miten voit ostaa ja rekisteröityä Microsoft 365 Business.
+ms.openlocfilehash: bcdf0adc60c597a5eca485415f33662402d12cf4
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35114918"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288231"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Rekisteröidy Microsoft 365 Business
 
-Jos olet kumppani, näkyviin [Tulee Microsoft 365 liiketoiminnan Centeristä Microsoft Partner](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
+Jos olet kumppani, Katso Microsoft [365-liike toiminnan aloittaminen Microsoft Partner Centeristä](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
-Microsoft 365 Business ostaa verkosta, [Tutustu Microsoft 365 Business advantage](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) Siirry ja valitse **Osta nyt** -kohdassa Microsoft 365 Business.
+Voit hankkia Microsoft 365 Business Onlinen siirtymällä kohtaan [Tutustu microsoft 365-yritys etuun](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) ja valitsemalla **Osta nyt** kohdassa Microsoft 365 Business.
 
-Olet head kautta [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) ostaa Microsoft 365 Business sekä asetusten määrittämisen ohjeita.
+Voit myös suunnata [Microsoft Storeen](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) ja ostaa Microsoft 365 Businessin ja saada asetus ohjeita.
 
-## <a name="complete-the-sign-up-steps"></a>Ilmoittautuminen vaiheiden
+## <a name="complete-the-sign-up-steps"></a>Suorita rekisteröitymis vaiheet loppuun
 
-Kun olet ostanut Microsoft 365 Business, tee seuraavat toimet.
+Kun olet ostanut Microsoft 365 Businessin, suorita seuraavat vaiheet.
 
-1. Kotisivussa **, seuraavaksi tutuksi,** Syötä tarvittavat tiedot. Huomaa, että:
+1. **Tervetuloa, Katsotaanpa tietää sinun** sivu syöttää tarvittavat tiedot. Huomaa, että:
  
-    -  **Maiden tai alueiden:** Tämä määrittää palvelun saada, eikä sitä voi muuttaa myöhemmin.
-    - **Yrityksen sähköpostiosoite:** Anna nykyinen sähköpostiosoitteesi. Microsoft käyttää tätä osoitetta vastaavat yhdessä Microsoft 365-tilauksesi tietoja.
-    - **Yrityksen nimi** Yrityksen nimi näkyy admin Centerissä; Tämä on, jossa hallita Microsoft 365 käyttäjien ja käyttöoikeuksien. Olemme sisällyttää myös se minkä tahansa SharePoint-sivustojen URL-osoitteet.
+    -  **Maa tai alueet:** Tämä määrittää vastaanotetut palvelut, eikä sitä voi muuttaa myöhemmin.
+    - **Yrityksen Sähkö posti osoite:** Anna nykyinen Sähkö posti osoitteesi. Microsoft käyttää tätä osoitetta vastaamaan sinuun Microsoft 365-tila uksesta.
+    - **Yrityksen nimi** Näytimme yrityksesi nimen hallinta keskuksessa. Tässä voit hallita esimerkiksi Microsoft 365-käyttäjiä ja-lisenssejä. Sisällytetäänkö se myös mihin tahansa SharePoint-sivuston URL-osoitteisiin.
 
-2. **Luo Käyttäjätunnus** -sivulla:
+2. **Luo käyttäjä tunnus** -sivulla:
 
-    - **Käyttäjänimi**: nimi (eli alias), joita käyttää oma sähköposti (työ). Esimerkiksi Robert Young voi käyttää RobY tai RobYoung työn tunnus.
-    - **Yritys**: Kirjoita yksilöivä yrityksen nimi. Tämä on nimi, joka käyttää yrityksen web-sivustossa, jos sellainen on, ja on myös nimi, jonka haluat sisällyttää jälkeen @-merkki, kun saat sähköposti (työ). Tällä nimellä kutsutaan toimialueeseen. Esimerkiksi jos yrityksesi nimi on Contoso sukset, kirjoita ContosoSkis jälkeen @-merkkiä.
-    - **Valitse toimialue**: Jos omistat jo toimialuenimi, valita. onmicrosoft.com avattavasta valikosta ja Kysymme määrittää se myöhemmin. Muussa tapauksessa on helppo ostaa verkkotunnuksen, joka edustaa yrityksesi. Jos haluat tehdä näin, valitse avattavasta valikosta mieluummin toimialue. Käyttäjän koko sähköpostiosoite voi olla esimerkiksi *Teresa@ContosoSkis.net*. Olemme näistä käyttökatkoksista ilmoitetaan heti Jos toimialuenimi on käytettävissä. Jos se on kustannuksista toimialueeseen lisätään Microsoft 365 Business-tilauksesi kustannuksiin. Uuden toimialueen myös asetetaan ylös ja valmis käytettäväksi Microsoft 365 jos ostaa tätä. Lisätietoja toimialueista on kohdassa [Toimialueiden usein kysytyt kysymykset](https://docs.microsoft.com/office365/admin/setup/domains-faq).
+    - **Username**: Kirjoita nimi (nimeltään alias), jota käytät oman yrityksen Sähkö posti osoitteesi. Esimerkiksi Robert Young saattaa käyttää RobY-tai RobYoung-Työtunnusta.
+    - **Yrityksesi**: Anna yksilöllinen yrityksesi nimi. Tämä on nimi, jota yrityksesi Web-sivusto käyttää, jos sinulla on sellainen, ja se on myös nimi, jonka haluat sisällyttää @-merkin jälkeen, kun vastaanotat yrityksen Sähkö posti viestin. Tätä nimeä kutsutaan toimi aluenimeksi. Jos yrityksesi on esimerkiksi nimeltään contoso suksi, kirjoita ContosoSkis @-merkin jälkeen.
+    - **Valitse toimi**alue: Jos omistat verkko tunnuksesi jo, valitse. onmicrosoft.com pudotus valikosta ja pyydämme sinua tekemään sen myöhemmin. Muussa tapa uksessa on helppo ostaa verkko tunnus, joka edustaa yritystäsi. Voit tehdä sen valitsemalla haluamasi verkko tunnuksen avattavasta valikosta. Esimerkiksi koko Sähkö posti osoitteesi voi olla *Teresa@ContosoSkis.net*. Voimme kertoa heti, jos verkko tunnus on käytettävissä. Jos se on, lisäämme verkko tunnuksesi kustannukset Microsoft 365 Business-tila uksen kustannuksiin. Uusi verkko tunnus on myös valmis käytettäväksi Microsoft 365: ssa, jos ostat sen täältä. Lisä tietoja toimi alueista on kohdassa [toimi alueiden usein kysytyt kysymykset](https://docs.microsoft.com/office365/admin/setup/domains-faq).
     
-        ![Kuva Luo käyttäjä ID-sivulla.](media/signinuserid.png)
+        ![Käyttäjä tunnus sivun luonti kuva kaappaus.](media/signinuserid.png)
 
-3. Täytä loput kentät ja valitse **Luo oma tili**.
-4. **-Todistaa olet mediatiedostojasi. Not.A.Robot.** Anna puhelinnumero tulee joko tekstin tai kutsu ja valitse **tekstin me** tai **Soita minulle**koodi ja todentaminen koodi sivun \> **seuraavan**.
-5. **Jossa käyttää tämän** sivun yrityksen osoitteen. Tässä tiedot määrittävät, mitä veroja maksat ja jotka ovat tilaukset ovat käytettävissä. Saat lisätietoja verojen [mitä veron I veloitetaan?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 
-1. **Seuraava**, tarkista tilaus ja valitse **Seuraava** .
-1. **Miten haluat maksaa** sivulla Anna maksutiedot, ja sitten **paikka tilauksen**.
-    Voit mennä loppuun oman [määrittäminen](set-up.md) [hallintakeskukseen](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) .
+3. Täytä loput kentistä ja valitse **Luo oma tili**.
+4. **Todistaa. sinä olet. Ei. A. robotti.** sivu Syötä Puhelin numero, jolla saat koodin joko tekstin tai puhelun kautta, ja valitse **teksti minulle** tai **Soita minulle**ja kirjoita sitten vahvistus koodi \> **seuraavaksi**.
+5. **Jos käytät tätä** sivua, anna yrityksesi osoite. Nämä tiedot määrittävät, mitä veroja maksat ja mitkä tila ukset ovat käytettävissä. Lisä tietoja veroista, [mitä veroja veloitetaan?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 
+1. Valitse **Seuraava**, Tarkista tilauksesi ja valitse **Seuraava** uudelleen.
+1. Anna maksu tietosi ja tee **tilaus**, kun **haluat maksaa** -sivulla.
+    Voit sitten siirtyä [hallinta keskukseen](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) ja lopettaa [sen.](set-up.md)
 
     > [!NOTE]
-    > Jos valitset asennuksen lopussa olevaa linkkiä **Siirry hallintakeskukseen**, siirryt suoraan voit [määrittää](set-up.md) kokemus.
+    > Jos valitset asennuksen päättyessä linkin **Siirry hallinta keskukseen**, sinut otetaan suoraan [käyttöön käyttöönotto](set-up.md) kokemuksessa.

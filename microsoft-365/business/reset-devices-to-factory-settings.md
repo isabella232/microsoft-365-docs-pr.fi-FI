@@ -10,21 +10,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Opi käyttämään Microsoft 365 Businessin tehdas asetusten palauttamista Windows 10-laitteisiin. '
-ms.openlocfilehash: 12e0bdbab430654fb80baa0313e63b2493e5077e
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: 38a754d6e55210d8a4189fde445481868621bb7a
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37121174"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288701"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Palauta Windows 10 -laitteet tehdasasetuksiin.
 

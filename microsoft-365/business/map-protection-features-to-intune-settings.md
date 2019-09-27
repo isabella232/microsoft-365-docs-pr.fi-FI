@@ -12,22 +12,18 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
-description: Lue kuinka suojausominaisuudet 365 Microsoft Business yhdistetään Intune asetukset. Tilaus sisältää käyttöoikeuden Intune-asetusten muuttamista.
-ms.openlocfilehash: a6aaf6cc06c31b870eb85582f5aa47699919d75d
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Tutustu Microsoft 365-yritys kartan suojaus ominaisuuksiin Intune-asetuksiin. Tilaus antaa sinulle käyttö oikeuden muokata Intune asetuksia.
+ms.openlocfilehash: 316dc8efbe69057f049bf8fadd3c3f41c358a33e
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074256"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287954"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Miten Microsoft 365 Businessin suojausominaisuudet vastaavat Intunen asetuksia
 
@@ -37,7 +33,7 @@ Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Android- ja iOS-sovellu
   
 Löydät Intune-asetuksen, kun olet kirjautuneena Microsoft 365 Business -järjestelmänvalvojana, valitsemalla ensin **Hallintakeskukset** ja sitten **Intune**.
   
- **Tärkeää:** Microsoft 365 Business-tilaus sisältää käyttöoikeuden Intune asetusten muuttamiseen. Katso [esittely Intune aloittamiseen.](https://docs.microsoft.com/intune/introduction-intune)
+ **Tärkeää:** Microsoft 365 Business-tilaus antaa sinulle lisenssin muokata kaikkia Intune asetuksia. Katso [esittely Intune päästä alkuun.](https://docs.microsoft.com/intune/introduction-intune)
   
 Napsauta sen käytännön nimeä, jonka haluat valita, esimerkiksi Androidin sovelluskäytäntö. Valitse sitten **Käytäntöasetukset**.
   
@@ -68,7 +64,7 @@ Kohdasta **Hallitse käyttäjien Office-tiedostojen käyttöä mobiililaitteissa
 
 Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Windows 10 -sovelluksen käytäntöasetukset yhdistetään Intune-asetuksiin.
   
-Etsi Intune asetus, kun kirjautunut sisään Microsoft 365 Business järjestelmänvalvojan tunnistetiedot, siirry [Azure portal](https://portal.azure.com)ja valitse Valitse **useita palveluja**ja Intune **suodattimen**tyyppi **Intune App suojaa** \> ** App käytännön**.
+Jos haluat löytää Intune-asetuksen, kun olet kirjautuneena Microsoft 365-yrityksen järjestelmänvalvojan tunniste tiedoilla, siirry [Azure-portaaliin](https://portal.azure.com), valitse **Lisää palveluita**ja kirjoita Intune **suodattimeen**, valitse **Intune-sovelluksen suojaus** \> ** Sovellus käytäntöä**.
   
  **Tärkeää**: Microsoft 365 Business -tilaus antaa sinulle lisenssin, jolla voit muokata vain niitä Intune-asetuksia, jotka on yhdistetty Microsoft 365 Businessissa käytettävissä oleviin asetuksiin. 
   
@@ -88,7 +84,7 @@ Napsauta sen käytännön nimeä, jonka haluat valita, ja tarkastele sitten käy
 
 Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Windows 10 -laitteen konfigurointiasetukset yhdistetään Intune-asetuksiin.
   
-Etsi Intune asetus, kun kirjautunut sisään Microsoft 365 Business järjestelmänvalvojan tunnistetiedot, siirry [Azure portal](https://portal.azure.com)ja valitse Valitse **useita palveluja**ja Intune **suodattimen**tyyppi **Intune** \> laitteen ** kokoonpanon** \> **profiilit**. Valitse **laite-käytännön Windows 10** \> **Ominaisuudet** \> **asetukset**.
+Jos haluat löytää Intune-asetuksen, kun olet kirjautuneena Microsoft 365-yrityksen järjestelmänvalvojan tunniste tiedoilla, siirry [Azure-portaaliin](https://portal.azure.com), valitse **Lisää palveluita**ja kirjoita Intunen **suodattimeen**, valitse **Intune** \> - **laite määritys** \> **profiileja**. Valitse sitten **laite käytäntö Windows 10** \> - **ominaisuuksien** \> **asetuksille**.
   
 |**Windows 10 -laitteen käytäntöasetus**|**Intune-asetus**|
 |:-----|:-----|

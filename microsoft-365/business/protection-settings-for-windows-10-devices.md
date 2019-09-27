@@ -14,22 +14,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Opi app hallintakäytännön luominen ja suojaamaan työn tiedostoja Windows 10-laitteissa.
-ms.openlocfilehash: 670184a2e81721fb5cc063e854822e9b271164d9
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Lue, miten voit luoda sovellusten hallinta käytännön ja suojata työtiedostoja Windows 10-laitteissa.
+ms.openlocfilehash: 92cd3facbd3eabbfef674300abe0257c370294ea
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074606"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288411"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Sovellusten suojausasetusten määrittäminen Windows 10 -laitteille
 
@@ -37,15 +34,15 @@ ms.locfileid: "34074606"
 
 Jos käyttäjillä on henkilökohtaisia Windows 10 -laitteita, joissa he tekevät työtehtäviä, voit suojata tiedot myös kyseisissä laitteissa.
   
-1. Siirry hallintakeskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Siirry hallinta keskukseen-kohtaan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Valitse vasemman nav- **laitteiden** \> **käytännöt** \> **Lisää**.
+2. Valitse vasemmasta siirtymis kohdasta **laite** \> **käytännöt** \> - **Lisää**.
 
 3. Kirjoita **Lisää käytäntö** -ruutuun yksilöivä nimi tälle käytännölle. 
     
 4. Valitse **Käytännön tyyppi** -kohdassa **Windows 10:n sovellusten hallinta**.
     
-5. Valitse **laitteen tyyppi**, joko **henkilökohtaisia** tai **Yrityksen omistuksessa**.
+5. Valitse **laite tyyppi**-kohdassa joko **henkilökohtainen** tai **yrityksen omistama**.
     
 6. **Salaa työtiedostot** otetaan automaattisesti käyttöön. 
     

@@ -11,24 +11,20 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Tietoja Microsoftin 365 liiketoiminnan.
-ms.openlocfilehash: 64cfa460311af6cdafb637ceb3415511e003e394
-ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
+description: Opettele Microsoft 365 Businessin perustamista.
+ms.openlocfilehash: 8568232eb65485f1e016342bb13de9a07f706c00
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35853145"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288531"
 ---
-# <a name="overview-of-microsoft-365-business"></a>Yhteenveto: Microsoft 365 Business
+# <a name="overview-of-microsoft-365-business"></a>Yleistä Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Mikä Microsoft 365 Business on?
 
@@ -36,29 +32,29 @@ Microsoft 365 Businessissa on kattava joukko yritysten tuottavuus- ja yhteiskäy
   
 Microsoft 365 Business on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset lisää käyttöoikeuksia, katso [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista lisätietoja.
 
-Katso ominaisuuksien koko luettelon [Microsoft 365 Business-palvelun kuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) .
+Katso [Microsoft 365-yritys palvelun kuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) koko ominaisuuksien luettelosta.
   
-## <a name="small-business-security-needs"></a>Pienyritysten tarpeiden
+## <a name="small-business-security-needs"></a>Pien yritysten turvallisuustarpeet
 
-Yritystiedot voivat kärsiä monin eri tavoin. Sinä ja muut käyttäjät voivat vaarantaa organisaation tietoturvan kirjautuessasi vaarantuneen tunnistetietoja tai organisaation tietojen eri laitteiden ja sovellusten. Tarkemmin sanottuna organisaation on alttiina:
+Yritys tietosi voivat vaarantua monin tavoin. Sinä ja käyttäjät voitte vaarantaa organisaatiosi suoja uksen, kun kirja udut sisään vaarantuneiden tunniste tietojen avulla tai voit tarkastella organisaation tietoja eri laitteissa ja sovelluksissa. Tarkemmin sanottuna, organisaatiosi on vaarassa:
 
-1. Tartunnan saaneen tai heikko kirjautumistunnusten.
-2. Tartunnan saaneen laitteen kanssa heikko PIN-tunnuksen tai käyttäjän omistamat laite.
-3. Käyttäjät, joilla voit kopioi/Liitä/Tallenna apps oman organisaation tietoja.
-4. Jos käyttäjä asentaa ja käyttää kun Heikko suojaus on 3<sup>rd</sup> osapuolen apps.
-5. Sähköposti heikkouksia, joista luottamuksellisten tietojen jakaminen, phishing yrittää, malware, jne.
-6. Kun käyttäjät, joilla ei saisi voi käyttää luottamuksellisia tietoja sisältävät asiakirjat.
+1. Kirjautumistunnukset vaarantuneet tai heikot.
+2. Vaarantunut laite heikolla PIN-koodilla tai käyttäjän omistama laite.
+3. Käyttäjät, jotka voivat kopioida/liittää/tallentaa organisaatiosi tiedot omiin sovelluksiin.
+4. Käyttäjät, jotka asentavat ja käyttävät 3<sup>Rd</sup> Party apps heikon tieto turvan.
+5. Sähkö postin haavoittuvuudet, mukaan lukien arkaluonteisten tietojen jakaminen, tietojenkalasteluyritykset, haitta ohjelmat jne.
+6. Kun ihmiset, joiden ei pitäisi, voivat käyttää asia kirjoja, joilla on arkaluonteisia tietoja.
 
-Microsoft 365 Business auttaa kaikissa näissä tapauksissa tietoja. Seuraavassa kuvassa on kuvattu suojausominaisuuksia, jotka suojaavat tietoja.
+Microsoft 365 Business auttaa suojaamaan tietosi kussakin näistä ilmentymistä. Yritys tietoja suojaavat suojaus ominaisuudet on kuvattu seuraavassa kuvassa.
 
-![Kuva, joka näyttää miten M365B suojaa yrityksesi.](media/m365businessvalueadd.png)
+![Luku, joka osoittaa, miten M365B suojelee yritystäsi.](media/m365businessvalueadd.png)
 
-Suojausominaisuuksien täydellinen luettelo on kohdassa [Microsoft 365 Business suojausominaisuuksia](security-features.md). Sen jälkeen, kun [Microsoft 365 liiketoiminnan](set-up.md)kohdassa suojausominaisuudet, jotka eivät ole mukana osana asennuksen aloittaminen [käytäntöjen suojauksen lisäasetusten määrittäminen](set-up-advanced-security.md) . Lue myös [Top 10 tapoja suojata Office 365- ja Microsoft-365 liiketoimintasuunnitelmien](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvän yleiskuvan ohjeet suojaukset cyber rikolliset ja hakkereita vastaan.
+Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microsoft 365 Business Security-ominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Businessin](set-up.md), katso [lisä suojaus käytäntöjen määrittäminen](set-up-advanced-security.md) , jotta pääset alkuun niiden suojaus ominaisuuksien kanssa, joita ei ole sisällytetty osana asennukseen. Lue myös [Top 10 tapoja suojata Office 365 ja Microsoft 365 liiketoiminta suunnitelmat](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvä yleiskuva siitä, miten perustaa suoja uksia Cyber rikollisia ja hakkereita.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Businessin hankkiminen
 
 - Jos sinulla on kumppani, hän saa Microsoft 365 Business:n seuraavasti: [Hanki Microsoft 365 Business Microsoft-kumppanikeskuksesta](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
-- Jos et on kumppani ja haluat saada Microsoft 365 Business, voit [ostaa se tässä](https://www.microsoft.com/microsoft-365/business) ja [Rekisteröidy](sign-up.md) ohjeiden mukaan.
+- Jos sinulla ei ole kumppanina ja haluat saada Microsoft 365 Business, voit [ostaa sen täältä](https://www.microsoft.com/microsoft-365/business) ja seuraa [kirjautumisohjeita](sign-up.md) .
 
-- Olet head kautta [Microsoft Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) ostaa Microsoft 365 Business sekä asetusten määrittämisen ohjeita.
+- Voit myös suunnata [Microsoft Storeen](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) ja ostaa Microsoft 365 Businessin ja saada asetus ohjeita.

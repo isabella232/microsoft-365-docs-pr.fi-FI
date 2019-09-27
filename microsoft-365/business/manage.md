@@ -8,34 +8,30 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Tietoja siitä, miten hallita Microsoft 365 Business hallintatehtävien, mobiililaitteisiin, Windows 10PCs ja näihin tehtäviin liittyvät.
-ms.openlocfilehash: 8cae8f580b8967eeafe8a22658fd95d41f22a43c
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Opi hallitsemaan Microsoft 365 Businessin liittyviä järjestelmänvalvojan tehtäviä, mobiililaitteita, Windows 10Pc-laitteita ja monia tällaisia tehtäviä.
+ms.openlocfilehash: 87ba4093a37c708fe405cd0876a53f8b9ae91567
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074236"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287959"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Businessin hallinta
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Yleiset Microsoft 365 Business -järjestelmänvalvojan tehtävät
 
-Suurin osa [admin sisältöä](/Office365/Admin/admin-home.md) Office 365 yrityksille koskee myös Microsoft 365 Business.
+Suurin osa Office 365 for Businessin [järjestelmänvalvojasisällöstä](/Office365/Admin/admin-home.md) koskee myös Microsoft 365 Business-sivustoa.
 
 - [Käyttäjien lisääminen Microsoft 365 Businessiin](add-users-m365b.md)
     
 - [Käytäntöjen ja laitteiden tarkasteleminen](view-policies-and-devices.md)
     
-- [Microsoft 365 Business suojausominaisuudet](security-features.md)
+- [Microsoft 365-liike toiminnan suojaus ominaisuudet](security-features.md)
     
 - [Miten Microsoft 365 Businessin suojausominaisuudet vastaavat Intunen asetuksia](map-protection-features-to-intune-settings.md)
     
@@ -47,7 +43,7 @@ Katso seuraavista osioista, miten voit käyttää Microsoft 365 Businessia organ
     
 - [Sovellusten suojausasetusten määrittäminen Android- tai iOS-laitteita varten](app-protection-settings-for-android-and-ios.md)
     
-    Katso [Android tai iOS-laitteessa app Tarkista suojausasetukset](validate-settings-on-android-or-ios.md) varmistaaksesi, että tämä toimi. 
+    Katso [sovelluksen suojaus asetusten vahvistaminen Android-tai iOS-laitteella](validate-settings-on-android-or-ios.md) varmistaaksesi, että tämä toimi. 
     
 - [Yritystietojen poistaminen laitteista](remove-company-data.md)
     

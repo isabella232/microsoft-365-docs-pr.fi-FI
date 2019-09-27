@@ -9,21 +9,18 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
-description: Opettele asentaa 32-bittisen Office-sovellukset Windows (10) tietokonetta ja pitää ne ajan tasalla automaattisesti.
-ms.openlocfilehash: 20269c493b0e3b5a7deb56a24a5e1a9583ef9d0a
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Opi asentamaan 32-bittiset Office-sovellukset automaattisesti Windows 10-tieto koneisiin ja pitämään ne päivitettiin.
+ms.openlocfilehash: fe1f946e4a216050e533604afa7c6e74e7b5980f
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074646"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288391"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Microsoft 365 Businessin Office-asiakkaan käyttöönottoon valmistautuminen
 

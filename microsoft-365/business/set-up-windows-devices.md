@@ -10,21 +10,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Opi määrittämään Windows laitteet Windows 10 Pro yrityskäyttäjille Microsoft 365. '
-ms.openlocfilehash: 5efe3aa1e329e7a9edcfd49fcc1f1391f95fd97f
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Lue, miten voit määrittää Windows 10 Pro for Microsoft 365-käyttö järjestelmä käyttäjät. '
+ms.openlocfilehash: c4edd09d952ed1c98be8f41f6bcbaff8a16319a7
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074546"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288471"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -36,7 +33,7 @@ Jos käytössäsi on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro t
   
 Lisätietoja Windows-laitteiden Windows 10 Pro Creators -päivityksen tekemisestä on tämän aiheen ohjeissa: [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md).
   
-Lisätietoja, [Tarkista laite on yhdistetty Azure AD](#verify-the-device-is-connected-to-azure-ad) voit varmistaa päivityksen, tai varmista, että päivityksen, toimi. 
+Tarkista, että sinulla on päivitys, ja varmista, että päivitys toimi, tarkistamalla, [että laite on yhdistetty Azure AD-verkkoon](#verify-the-device-is-connected-to-azure-ad) . 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 -laitteiden liittäminen organisaatiosi Azure AD:hen
 
@@ -82,7 +79,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. **Varmista, että tämä on yrityksen** sivulla Varmista, että tiedot ovat oikein ja valitse **Liity**.
+6. Varmista, että **Tämä on organisaatiosi** sivu, varmista, että tiedot ovat oikein, ja valitse **Liity**.
   
    Valitse **Olet valmis!** -sivulla **Valmis**.
   
