@@ -12,30 +12,26 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
-description: Lisätietoja laitteen käytännöt, jotka koskevat kaikkien organisaation käyttäjien Windows-10.
-ms.openlocfilehash: ad7c58bd96a40ac7f91e6bbad1a394aeae70e49e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: 'Lue lisä tietoja kaikkien organisaatiosi käyttäjien Windows 10: lle kuuluvista laite käytännöistä.'
+ms.openlocfilehash: dc43dc105d222d269eea1dac75b4f920e3960eb0
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34071686"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287491"
 ---
-# <a name="configure-windows-10-devices"></a><span data-ttu-id="1ee4d-103">Windows 10 -laitteiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="1ee4d-103">Configure Windows 10 devices</span></span>
+# <a name="configure-windows-10-devices"></a><span data-ttu-id="042de-103">Windows 10 -laitteiden määrittäminen</span><span class="sxs-lookup"><span data-stu-id="042de-103">Configure Windows 10 devices</span></span>
 
-<span data-ttu-id="1ee4d-p101">Asennuksen aikana luodaan Windows 10:n laitekäytäntö, joka koskee kaikkia organisaation käyttäjiä. Kun käyttäjä kirjautuu Windows 10 -laitteen Office-sovellukseen käyttämällä työpaikan tai oppilaitoksen tiliä, määrittämiäsi asetuksia käytetään automaattisesti sen varmistamiseksi, että käyttäjä muodostaa yhteyden turvallisesti.</span><span class="sxs-lookup"><span data-stu-id="1ee4d-p101">During setup, we'll create a device policy for Windows 10 that applies to all users in your organization. When a user signs in to an Office app on their Windows 10 device with their work or school account, the settings that you configure are automatically applied to make sure that the user is connecting in a secure way.</span></span>
+<span data-ttu-id="042de-p101">Asennuksen aikana luodaan Windows 10:n laitekäytäntö, joka koskee kaikkia organisaation käyttäjiä. Kun käyttäjä kirjautuu Windows 10 -laitteen Office-sovellukseen käyttämällä työpaikan tai oppilaitoksen tiliä, määrittämiäsi asetuksia käytetään automaattisesti sen varmistamiseksi, että käyttäjä muodostaa yhteyden turvallisesti.</span><span class="sxs-lookup"><span data-stu-id="042de-p101">During setup, we'll create a device policy for Windows 10 that applies to all users in your organization. When a user signs in to an Office app on their Windows 10 device with their work or school account, the settings that you configure are automatically applied to make sure that the user is connecting in a secure way.</span></span>
   
-<span data-ttu-id="1ee4d-p102">Oletusmäärityksen hyväksymistä asennuksen aikana suositellaan. Asennuksen jälkeen voit luoda lisäkäytäntöjä ja kohdistaa niitä tietyille käyttäjäryhmille.</span><span class="sxs-lookup"><span data-stu-id="1ee4d-p102">We recommend that you accept the default configuration during setup. After setup, you can create additional policies and target them to specific groups of users.</span></span>
+<span data-ttu-id="042de-p102">Oletusmäärityksen hyväksymistä asennuksen aikana suositellaan. Asennuksen jälkeen voit luoda lisäkäytäntöjä ja kohdistaa niitä tietyille käyttäjäryhmille.</span><span class="sxs-lookup"><span data-stu-id="042de-p102">We recommend that you accept the default configuration during setup. After setup, you can create additional policies and target them to specific groups of users.</span></span>
   
-<span data-ttu-id="1ee4d-108">Jos haluat lisätä käytännön Windows 10 -laitemääritysten hallintaa varten, lue artikkeli [Windows 10 -tietokoneiden laitemääritysten määrittäminen](protection-settings-for-windows-10-pcs.md).</span><span class="sxs-lookup"><span data-stu-id="1ee4d-108">To add a policy to manage Windows 10 device configurations, see [Set device configurations for Windows 10 PCs](protection-settings-for-windows-10-pcs.md).</span></span>
+<span data-ttu-id="042de-108">Jos haluat lisätä käytännön Windows 10 -laitemääritysten hallintaa varten, lue artikkeli [Windows 10 -tietokoneiden laitemääritysten määrittäminen](protection-settings-for-windows-10-pcs.md).</span><span class="sxs-lookup"><span data-stu-id="042de-108">To add a policy to manage Windows 10 device configurations, see [Set device configurations for Windows 10 PCs](protection-settings-for-windows-10-pcs.md).</span></span>
   
 
