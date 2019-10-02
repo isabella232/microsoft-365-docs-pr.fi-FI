@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lue lisä tietoja siitä, miten Microsoft 365 voi suojata paikallisia mainoksia, jotka on liitetty Windows 10-laitteisiin.
-ms.openlocfilehash: d1dbfc6a35d54db653ae0f911fad05ac2ce0a993
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 452e884f952a4b2c2e87148bb7203ed48a48d944
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288031"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37376091"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Ota toimialueeseen liitetyt Windows 10 -laitteet Microsoft 365 Businessin hallittavaksi
 
@@ -37,9 +37,9 @@ Seuraavassa videossa kerrotaan, miten tämä määritetään tavallisimmille ske
 
 Ennen kuin synkronoit käyttäjät ja tieto koneet paikallisesta Active Directory-toimi alueesta, tarkista [kansioiden synkronoinnista Office 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). Erityisesti:
 
-   - Varmista, että hakemistossa ei ole kaksoiskappaleita seuraaville määritteille: **Mail**, **proxyosoitteita**ja **userPrincipalName**. Näiden arvojen on oltava yksilöllisiä ja kaksoiskappaleet poistettava..
+   - Varmista, että hakemistossa ei ole kaksoiskappaleita seuraaville määritteille: **Mail**, **proxyosoitteita**ja **userPrincipalName**. Näiden arvojen on oltava yksilöllisiä, ja mahdolliset kaksoiskappaleet on poistettava.
    
-   - Suosittelemme, että kunkin paikallisen käyttäjä tilin **userPrincipalName** (UPN)-määrite on määritetty vastaamaan ensisijaista Sähkö posti osoitetta, joka vastaa lisensoitua Microsoft 365-käyttäjää. Esimerkiksi *Mary. Shelley @<span>contoso.<span> mieluummin kuin* *Mary @ contoso. Local*
+   - Suosittelemme, että kunkin paikallisen käyttäjä tilin **userPrincipalName** (UPN)-määrite on määritetty vastaamaan ensisijaista Sähkö posti osoitetta, joka vastaa lisensoitua Microsoft 365-käyttäjää. Esimerkiksi *Mary.Shelley@contoso.com* eikä *Mary @ contoso. Local*
    
    - Jos Active Directory-toimi alue päättyy ei-reitittävissä olevan liitteen, kuten *. Local* tai *. LAN*, sijasta, sinun on ensin MUUTETTAVA paikallisten käyttäjä tilien UPN-loppu liitettä, kuten. *com* tai *. org*, sen sijaan, että olet kuvattu [Valmistele ei-reitittävissä oleva toimi alue kansioiden synkronointia varten](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization). 
 
@@ -75,6 +75,6 @@ Jos haluat rekisteröidä aiemmin luotuja toimi alueeseen liitettyä Windows 10-
 
 ## <a name="6-set-up-windows-hello-for-business"></a>6. Windows Hello for Businessin määrittäminen
 
- Windows Hello for Business korvaa Sala sanat, joissa on vahva kaksiosainen todennus (2FA) paikalliseen tieto koneeseen kirjautumista varten. Yksi tekijä on epäsymmetrinen avain pari, ja toinen on PIN-koodi tai muu paikallinen ele, kuten sormen jälki tai kasvojen tunnistus, jos laitteesi tukee sitä. Suosittelemme, että vaihdat Sala sanat 2FA:N ja Windows Hello for Businessin kanssa mahdollisuuksien mukaan.
+ Windows Hello for Business korvaa Sala sanat, joissa on vahva kaksiosainen todennus (2FA) paikalliseen tieto koneeseen kirjautumista varten. Yksi tekijä on epäsymmetrinen avain pari, ja toinen on PIN-koodi tai muu paikallinen ele, kuten sormen jälki tai kasvojen tunnistus, jos laitteesi tukee sitä. Suosittelemme, että vaihdat Sala sanat 2FA-ja Windows Hello-käyttöön mahdollisuuksien mukaan.
 
 Jos haluat määrittää Hybrid Windows Hello for Businessin, tarkista [hybridi avaimen luottamus Windows Hello yrityksille-edellytykset](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs). Noudata sitten ohjeita kohdassa [Hybrid Windows Hello for Business Key Trust-asetusten määrittäminen](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings). 
