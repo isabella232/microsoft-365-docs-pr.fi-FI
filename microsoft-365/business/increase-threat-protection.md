@@ -15,12 +15,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Office 365 Advanced uhkien torjunta ja suojaa arkaluontoisia tietoja.
-ms.openlocfilehash: 81197a8baf1c4d0cbfd898c41a305c1a99bab57c
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 5009379d6a5d8c3a692799aa7c0f137dae1482fd
+ms.sourcegitcommit: 492f03a2c83e36846602fced396c8f8d32315c85
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288111"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37398905"
 ---
 # <a name="increase-threat-protection"></a>Lisää uhkien torjunta
 
@@ -146,8 +146,6 @@ Jos haluat luoda ATP-kalastelun torjunta käytännön, katso [Lyhyt harjoitus vi
 |Posti laatikon älykkyys  <br/> |Posti laatikon älykkyys on oletusarvoisesti valittuna, kun luot uuden tietojenkalastelun esto käytännön. Jätä tämä asetus **päälle** parhaan tuloksen.  <br/> |
 |Luotettujen lähettäjien ja toimi alueiden lisääminen  <br/> |Tässä voit lisätä oman toimi alueesi tai muita luotettuja verkko tunnuksia.  <br/> |
 |Soveltaa  <br/> |Valitse **vastaanottajan toimi alue**. Valitse **jokin näistä**-kohdasta **Valitse**. Valitse **+ Lisää**. Valitse toimi alueen nimen vieressä oleva valinta ruutu, esimerkiksi *contoso.<span> com <span>*-luettelosta ja valitse sitten **Lisää**. Valitse **valmis**.  <br/> |
-   
-Lisä tietoja on kohdassa [Aseta Office 365 ATP-tietojenkalastelukäytännöt](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409).
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Suojaa haitalli silta liitteiltä ja tiedostoja ATP turvallisia liitteitä
 
