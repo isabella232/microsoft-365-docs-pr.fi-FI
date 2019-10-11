@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Yleiskatsaus Microsoft 365 Businessin asetus vaiheista.
-ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4be0a8aa1b050ee3e20a045eb2c07666765118ed
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288571"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440533"
 ---
 # <a name="overview-of-setup"></a>Yleiskatsaus asennuksesta
 
@@ -41,7 +41,7 @@ Suurin osa määritys vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mu
         - Voit myös [lisätä käyttäjiä myöhemmin](add-users-m365b.md) hallinta keskukseen.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Vaihe 2: suojaus käytäntöjen määrittäminen ja laitteiden määrittäminen 
 
-  - Määritä laite-ja suojaus käytännöt [ohjatun asennus toiminnon](set-up.md#set-up-security-policies-and-device-configurations) avulla. 
+  - Määritä laite-ja suojaus käytännöt [ohjatun asennus toiminnon](set-up.md#protect-data-and-devices) avulla. 
   - Voit myös lisätä tai muokata niitä myöhemmin [hallinta keskuksessa](view-policies-and-devices.md) ja [Intune-portaalissa](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
   - Ohjatun asennus toiminnon suojaus asetusten lisäksi voit lisätä suojausta lisäämällä seuraavat asetukset:
 
@@ -62,7 +62,7 @@ Suurin osa määritys vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mu
    Kun liityt Windows 10-laitteeseen Azure ADIIN, [vaiheessa 2](#step-2-set-up-security-policies-and-configure-devices) käyttöön asettamat käytännöt kohdistetaan siihen.
 
    - Windows 10 Pro on Microsoft 365 [Businessin edellytys](pre-requisites-for-data-protection.md) , mutta jos sinulla on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, tilauksesi oikeuttaa sinut [päivittämään Windows 10 Pro-versioon](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-    - Määritä Windows 10-laitteiden käytännöt [ohjatun asennus toiminnon](set-up.md#set-up-security-policies-and-device-configurations) avulla.
+    - Määritä Windows 10-laitteiden käytännöt [ohjatun asennus toiminnon](set-up.md#protect-data-and-devices) avulla.
 
 ## <a name="stes-4-install-office-365-business"></a>STES 4: Asenna Office 365 Business
 - Voit asentaa Officen automaattisesti Windows-laitteisiin [ohjatun asennus toiminnon](set-up.md#deploy-office-365-client-apps)avulla.

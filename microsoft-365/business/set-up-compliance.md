@@ -14,13 +14,13 @@ ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
-description: Määritä Office 365 Advanced uhkien torjunta ja suojaa arkaluontoisia tietoja.
-ms.openlocfilehash: 8144bcebe8a0cdf28a5e092f592362922ccbdd48
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+description: Määritä yhteensopivuus ominaisuuksia tietojen menettämisen estämiseksi ja arkaluonteisten tietojen otsikoiksi.
+ms.openlocfilehash: a0ba2fa6dbe7c786d577ad7098c1790f569f5acc
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288741"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453908"
 ---
 # <a name="set-up-compliance-features"></a>Yhteensopivuus ominaisuuksien määrittäminen
 
@@ -50,48 +50,21 @@ Voit sijoittaa posti laatikon oikeuden käyntiin pitämällä hallinta keskukses
     
 **Säilyttäminen:** Voit ottaa käyttöön mukautetut säilytys käytännöt, esimerkiksi säilyttää tietyn ajan tai poistaa sisällön pysyvästi säilytys ajan päätyttyä. Lisä tietoja [on kohdassa säilytys käytäntöjen yleiskatsaus](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
 
-## <a name="set-up-azure-information-protection-features"></a>Azure-tietojen suojaus ominaisuuksien määrittäminen
+## <a name="set-up-sensitivity-labels"></a>Määritä herkkyys otsikot
 
-Azure Information Protection (AIP) auttaa luokittelemaan ja valinnaisesti suojaamaan asia kirjoja ja sähkö posteja käyttämällä tunnisteita. Järjestelmänvalvojat voivat käyttää otsikoita automaattisesti, jos käyttäjät määrittävät säännöt ja ehdot manuaalisesti, tai käyttämällä yhdistelmää, jossa käyttäjille annetaan suosituksia.
+Herkkyys tunnisteissa on Azure Information Protection (AIP)-suunnitelma 1, ja ne auttavat luokittelemaan ja valinnaisesti suojaamaan asia kirjasi ja sähkö postit käyttämällä tunnisteita. Järjestelmänvalvojat voivat käyttää otsikoita automaattisesti, jos käyttäjät määrittävät säännöt ja ehdot manuaalisesti, tai käyttämällä yhdistelmää, jossa käyttäjille annetaan suosituksia.
 
-Outlookissa verkossa voit käyttää seuraavia sisäänrakennettuja tarroja ja rajoituksia sähkö posteihin:
-  
-- **Älä välitä**: vastaanottajat voivat lukea viestin, mutta he eivät voi välittää, tulostaa tai kopioida sisältöä
-    
-- **Salaa**: koko viesti on salattu. Vastaanottajien on vahvistettava henkilöllisyytensä ennen salatun sisällön käyttämistä, eivätkä ne voi poistaa salausta.
-    
-- **Luottamuksellinen**: antaa organisaation työn tekijöille täydet oikeudet sähkö postin sisältöön ja liitteisiin, mutta ei organisaatiosi ulkopuolisille henkilöille. Tietojen omistajat voivat seurata ja kumota sisältöä missä tahansa vaiheessa.
-    
-- **Erittäin luottamuksellinen**: tätä rajoitusta voidaan soveltaa erittäin luottamuksellisiin tietoihin, jolloin työn tekijät voivat tarkastella, muokata ja vastata, mutta eivät välittää, tulostaa tai kopioida tietoja. Tietojen omistajat voivat seurata ja kumota sisältöä missä tahansa vaiheessa.
+Jos haluat määrittää herkkyys otsikot, katso [Luo ja hallitse herkkyys tarroja](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) video.
 
-### <a name="make-sure-azure-information-protection-is-activated"></a>Varmista, että Azure-tietojen suojaus on aktivoitu
 
-Voit varmistaa, että AIP on aktivoitu:
-
-1. Kirjaudu sisään [Azure-portaaliin](https://portal.azure.com/).
-
-2. Valitse **Kaikki palvelut** ja kirjoita *Azure-tietojen suojaus* **haku ruutuun**.
-
-3. Kun tulokset ovat näytössä, napsauta Aloita **Azure-tietojen suoja** uksen vieressä, jotta se on suosikki ja helppo löytää myöhemmin.
-
-4. Valitse **Azure-tieto suoja** \> **uksen Akti vointi** ja varmista, että tilaksi on määritetty aktivoitu. 
-
-### <a name="view-the-azure-information-protection-policy-and-default-labels"></a>Näytä Azure-tietojen suojaus käytäntö ja oletus otsikot 
-
-Voit tarkastella ja muokata olemassa olevia otsikoita:
-
-1. Valitse Azure-tieto suojan koonti näytössä **luokitusten** \> **otsikot**. <br/>![Azure-tietojen suoja uksen vakio merkinnät.](media/AIPLabels.png)
-
-2. Voit valita minkä tahansa otsikon nähdäksesi vaihto ehtoja, voit muuttaa näyttö nimeä, värejä jne.
- 
-3. Jos haluat luoda omia tunnisteita, katso [Muokkaa ja luo uusia tarroja](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step2) . 
 
 ### <a name="install-the-azure-information-protection-client-manually"></a>Azure-tieto suoja asiakkaan asentaminen manuaalisesti
 
 Voit asentaa AIP-asiakkaan manuaalisesti:
 
-1. Lataa **Azinfoprotection. exe** [Microsoft Download Centeristä](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Lataa **AzinfoProtection_UL. exe** [Microsoft Download Centeristä](https://www.microsoft.com/download/details.aspx?id=53018).
  
-2. Voit varmistaa, että asennus on toiminut tarkastelemalla Word-asia kirjaa ja varmistamalla, että **suojaa** -vaihto ehto on käytettävissä **Aloitus** -väli lehdellä. <br/>![Word-asia kirjan avattava suojaus-väli lehti.](media/Word_Protect.png)
+2. Voit varmistaa, että asennus on toiminut tarkastelemalla Word-asia kirjaa ja varmistamalla, että **herkkyys** asetus on käytettävissä **Aloitus** -väli lehdellä.
+<br/>![Word-asia kirjan avattava suojaus-väli lehti.](media/word-sensitivity.png)
 
 Lisä tietoja [on kohdassa asiakkaan asentaminen](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

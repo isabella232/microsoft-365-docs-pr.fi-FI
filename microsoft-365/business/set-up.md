@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lue lisä tietoja Microsoft 365 Businessin määrittämisestä.
-ms.openlocfilehash: d33839693001f36fbb56541775015f739300b043
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 4f31af3fa63416d3b1bd7281f7712313252ad437
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288491"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440589"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365-liike toiminnan määrittäminen ohjatussa asennus toiminnossa
 
@@ -44,7 +44,7 @@ Kun ostat Microsoft 365 Businessin, sinulla on mahdollisuus käyttää omistamaa
     > [!IMPORTANT]
     > Jos ostit verkko tunnuksen rekisteröitymistä varten, et näe **Lisää toimi** alue-vaihetta tässä. Siirry sen sijaan kohtaan [Lisää käyttäjiä](#add-users-and-assign-licenses) .
 
-    ![Valitse Lisää toimi alue.](media/addadomainadmincenter.png)
+    ![Valitse Siirry asennukseen.](media/gotosetupinadmincenter.png)
     
 3. Kirjoita ohjatussa toiminnossa haluamasi toimi alueen nimi (kuten contoso.com).
 
@@ -70,7 +70,9 @@ Kaikki käyttäjät, jotka lisäät ohjatussa toiminnossa, saavat automaattisest
 
 1. Jos Microsoft 365-liiketoiminta tilauksessasi on aiemmin luotuja käyttäjiä (Jos esimerkiksi käytit Azure AD Connectia), saat mahdollisuuden määrittää heille käyttö oikeudet nyt. Jatka eteenpäin ja lisää käyttäjille myös käyttöoikeudet.
 
-3. Kun olet lisännyt käyttäjät, saat myös mahdollisuuden jakaa tunniste tiedot lisättyjen uusien käyttäjien kanssa. Voit tulostaa ne, lähettää ne sähköpostitse tai ladata ne palvelimesta.
+2. Kun olet lisännyt käyttäjät, saat myös mahdollisuuden jakaa tunniste tiedot lisättyjen uusien käyttäjien kanssa. Voit tulostaa ne, lähettää ne sähköpostitse tai ladata ne palvelimesta.
+
+3. Voit lisätä ryhmiä organisaatioosi ja lisätä niihin käyttäjiä. Voit tehdä tämän myös myöhemmin. Lisä tietoja on kohdassa [yrityksen laajuisen tiimin luominen](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
 
 4. Ohita sähköpostiviestien siirtäminen valitsemalla **Siirrä sähköpostiviestejä** -sivulla **Seuraava**. 
 
@@ -86,14 +88,14 @@ Kun haluat määrittää palvelut, sinun on päivitettävä joitakin DNS-isänn�
   
 1. Ohjattu määritystoiminto yleensä tunnistaa toimialuerekisteröijän ja antaa linkin vaiheittaisiin ohjeisiin, joiden avulla voit päivittää nimipalvelintietueet toimialuerekisteröijän sivustossa. Jos näin ei ole, [Vaihda nimi palvelimet, jotta voit määrittää Office 365-palvelimen minkä tahansa toimi alueen rekisterin pitäjän kanssa](https://support.office.com/article/a8b487a9-2a45-4581-9dc4-5d28a47010a2). 
 
-    - Jos sinulla on aiemmin luotuja DNS-tietueita, esimerkiksi olemassa oleva Web-sivusto, mutta DNS-isäntä on otettu käyttöön [toimi alueen yhdistämä](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), valitse **Lisää tietueita minulle**. 
+    - Jos sinulla on aiemmin luotuja DNS-tietueita, esimerkiksi olemassa oleva Web-sivusto, mutta DNS-isäntä on otettu käyttöön [toimi alueen yhdistämä](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), valitse **Lisää tietueita minulle**. Hyväksy **Valitse online-palvelut** -sivulla kaikki oletus arvot, valitse **Seuraava** **ja valitse sitten Hyväksy DNS** -isännän sivulla.
     - Jos sinulla on aiemmin luotuja DNS-tietueita muiden DNS-Isän tien kanssa (ei käytössä toimi alueen yhteydessä), haluat hallita omia DNS-tietueita ja varmistaa, että olemassa olevat palvelut ovat yhteydessä toisiinsa. Lisä tietoja on kohdassa [toimi alueen perusteet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) .
 
         ![Yhdistä verkko tunnuksesi sivu, jolla hallitsen omia DNS-tietueita.](media/connectyourdomainpage.png)
 
 2. Noudata ohjatun toiminnon ohjeita, ja Sähkö posti ja muut palvelut määritetään puolestasi.
 
-### <a name="set-up-security-policies-and-device-configurations"></a>Suojaus käytäntöjen ja laite konfiguraatioiden määrittäminen 
+### <a name="protect-data-and-devices"></a>Suojaa tiedot ja laitteet 
 
 Ohjatussa toiminnossa käyttöön luomat käytännöt kohdistetaan automaattisesti [Suojaus ryhmään](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) nimeltä *Kaikki käyttäjät*. Voit myös luoda lisä ryhmiä määrittämään käytäntöjä hallinta keskuksessa.
 
@@ -113,7 +115,6 @@ Ohjatussa toiminnossa käyttöön luomat käytännöt kohdistetaan automaattises
 3. Voit myös halutessasi [asentaa Officen automaattisesti](install-office-on-windows-10-during-setup.md) Windows 10-laitteisiin.
 
     ![Kuva kaappaus asetettu Windows 10 laitteen kokoonpano sivu.](media/setwin10config.png)
-
 
 
 ## <a name="deploy-office-365-client-apps"></a>Office 365-asiakas sovellusten käyttöönotto

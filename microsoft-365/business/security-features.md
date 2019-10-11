@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lue lisä tietoja Microsoft 365 Businessin mukana tulevien suojaus ominaisuuksien ominaisuuksista.
-ms.openlocfilehash: 8e45d5fdb6a78f3966c46542189aa30ddd80998e
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: c0c37b09fd0bb0218864b6bc97aa127feae1ff16
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288451"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453972"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business Securityn ja yhteensopivuuden ominaisuudet
 
@@ -98,9 +98,9 @@ Microsoft 365 Business-tilauksesi sisältää ominaisuuksia, joiden avulla voit 
     
     Exchange Online-arkistointi lisenssi mahdollistaa viestien helpon arkistoimisen jatkuvalla tietojen varmuus kopioinnilla. Se tallentaa kaikki käyttäjän sähkö postit, mukaan lukien poistetut kohteet, jos niitä tarvitaan myöhemmin löytämiseen tai palauttamiseen. Lisäksi voit käyttää eri säilytys käytäntöjä Sähkö posti tietojen säilyttämiseksi riita-asioiden, eDiscoveryn tai yhteensopivuus vaatimusten täyttämiseksi.
     
-- **[Azure-tietojen suojaus](https://go.microsoft.com/fwlink/p/?linkid=871406)**
-    
-    Tieto suoja auttaa hallitsemaan luottamukselliset tiedot sähkö postissa ja asia kirjoissa, joissa on ohjaus objekteja, kuten Älä välitä-ja älä kopioi-toiminnot. Voit myös luokitella arkaluonteiset tiedot luottamuksellisiksi ja määrittää, miten luottamuksellisia tietoja voidaan jakaa yrityksen ulkopuolella ja sisällä. Yritys tason salausta on helppo soveltaa sähkö postiin ja asia kirjoihin, jotta tietosi pysyvät yksityisissä. Microsoft 365 Business sisältää kaikki [Azure-tieto suoja suunnitelman 1](https://go.microsoft.com/fwlink/p/?linkid=871407)ominaisuudet. Voit myös asentaa Office-sovellusten Azure Information Protection-apuohjelman. Lisä tietoja on kohdassa [Azure Information Protection-asiakkaan järjestelmänvalvojan opas](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide).
+- **[Luottamuksellisuusmerkinnät](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
+
+   Microsoft 365 Business sisältää kaikki [Azure-tieto suoja suunnitelman 1](https://go.microsoft.com/fwlink/p/?linkid=871407)ominaisuudet. Tämän suunnitelman avulla voit luoda **herkkyys tarroja**, joiden avulla voit valvoa arkaluontoisten tietojen käyttö oikeutta sähkö postissa ja asia kirjoissa, joissa on ohjaus objekteja, kuten "Älä välitä" ja "Älä kopioi". Voit myös luokitella arkaluonteiset tiedot luottamuksellisiksi ja määrittää, miten luottamuksellisia tietoja voidaan jakaa yrityksen ulkopuolella ja sisällä. Yritys tason salausta on helppo soveltaa sähkö postiin ja asia kirjoihin, jotta tietosi pysyvät yksityisissä. Voit myös asentaa Office-sovellusten Azure Information Protection-apuohjelman. Lisä tietoja on artikkelissa [Azure-tietojen suojaus Unified merkintä Client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Jos kyseessä on herkkyys tarra, asenna **AzInfoProtection_UL. exe**.
 
 Voit hallita näitä ominaisuuksia Security &amp; Compliance Centerissä ja Intune-hallinta keskuksessa. Ajan mittaan yksinkertaistetut ohjaimet lisätään Microsoft 365 Business-hallinta keskukseen.
   
