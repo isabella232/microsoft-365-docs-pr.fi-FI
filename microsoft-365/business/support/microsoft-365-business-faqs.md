@@ -10,45 +10,51 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, usein kysytyt kysymykset, vasta ukset, liike toiminta
 ms.date: 06/08/2018
-ms.openlocfilehash: cc6cc924cf45fa19d7f91235515981b636abf77d
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: 18198007bf61d448581335594016433668edb47d
+ms.sourcegitcommit: 23173f7d0ca5079662ef4060371d8ee11bac228e
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37141505"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37611417"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business usein kysytyt kysymykset
 
 ## <a name="general"></a>Yleiset
 
 ### <a name="what-is-microsoft-365-business"></a>Mikä on Microsoft 365 Business? 
-Microsoft 365 on integroitu ratkaisu, joka kokoaa yhteen luokkansa parhaat tuottavuus työkalut, tieto turvan ja laitteiden hallinta ominaisuudet pienille ja keskisuurille yrityksille. 
+Microsoft 365 on integroitu ratkaisu, joka kokoaa yhteen luokkansa parhaat tuottavuus työkalut, tieto turvan ja laitteiden hallinta ominaisuudet pienille ja keskisuurille yrityksille. Se sisältää:
 
 **Joukko yritysten tuottavuus-ja yhteistyötyökaluja** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher ja Access 
-* Exchange, OneDrive, Skype for Business, Microsoft teams, SharePoint 
-* Yritys sovellukset Officista (vara ukset, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft laskutus<sup>[1](#footnote1)</sup>) 
+* Exchange, OneDrive, Skype for Business, Microsoft teams ja SharePoint. 
+* Yritys sovellukset toimistosta (vara ukset, MileIQ<sup>[1](#footnote1)</sup>). 
  
 **Yritys tason laite hallinta-ja suojaus ominaisuudet** 
-- Auttaa tarjoamaan suojaa ulkoisilta uhkilta, kuten tietojenkalastelulta & hienostunut haitta ohjelma, jossa Office 365 kehittynyt uhkien torjunta ja Windows Defender hyödyntää Guard 
--  Auttaa hallitsemaan & hallitsemaan sitä, miten arkaluonteisia tietoja käytetään ja välitetään Office 365-tietojen menetyksen esto käytäntöjen avulla (saatavilla kesällä, 2018) ja Azure-tieto suoja suunnitelmassa 1 
--  Auttaa suojaamaan, säilyttämään ja varmuuskopioimaan tietosi Exchange Online-arkistoinnilla  
--   App Protection for Office & muiden mobiilisovellusten Intune App Protection 
--  Laite hallinta Windows 10-tieto koneille, MacOS & Mobiles-laitteet, joissa on Intune-laite hallinta 
--  Yhdenmukainen suojaus kokoonpano kaikissa laitteissa-yrityksen tietojen suojaaminen eri laitteilla-Windows Defender, aina käytössä ja ajan tasalla 
+- Auttaa tarjoamaan suojaa ulkoisilta uhkilta, kuten tietojenkalastelulta & kehittyneitä haitta ohjelmia Office 365 Advanced Threat Protection Plan 1-ja Windows Defender hyväksikäyttö Guard-ohjelmien avulla. 
+-  Auttaa hallitsemaan & hallitsemaan sitä, miten arkaluonteisia tietoja käytetään ja välitetään Office 365-tietojen menetyksen esto käytäntöjen ja Azure-tieto suoja suunnitelman 1 avulla. 
+-  Auttaa suojaamaan, säilyttämään ja varmuuskopioimaan tietosi Exchange Online-arkistoinnilla.  
+-   App Protection for Office & muiden mobiilisovellusten Intune App Protection. 
+-  Laite hallinta Windows 10-tieto koneille, MacOS & Mobiles-laitteille, joissa on Intune-laite hallinta. 
+-  Identiteetti suojaus moniosaisen todennuksen, itsepalvelun Sala sanan nollaamisen ja ehdollisen käytön avulla.
+-  Yhdenmukainen suojaus kokoonpano kaikissa laitteissa-yrityksen tietojen suojaaminen eri laitteilla-Windows Defender, aina käytössä ja ajan tasalla. 
  
  
 **Yksinkertaistettu laitteiden käyttöönotto ja käyttäjän asetukset** 
 * Yksittäinen hallinta konsoli käyttäjien ja laitteiden asennusta ja hallintaa varten 
-* Office-sovellusten automaattinen asennus Windows 10-tieto koneisiin 
-* Aina ajan tasalla oleva toimisto + Windows 10 
-* Virtaviivainen käyttöönotto tieto koneita Windows Auto Pilot
+* Office-sovellusten automaattinen asennus Windows 10-tieto koneisiin. 
+* Aina ajan tasalla oleva toimisto + Windows 10. 
+* Virtaviivaistettu käyttöönotto tieto koneita Windows Auto Pilot.
 
-**Ehdollisen käytön salliminen**
-- Microsoft 365-yritys asiakkaat voivat ottaa ehdollisen käytön käyttöön Azure-portaalin Azure Directory-asetusten kautta. Lisä tietoja ehdollisten käyttö oikeus käytäntöjen määrittämisestä [on artikkelissa mikä on ehdollinen käyttö oikeus](https://docs.microsoft.com/azure/active-directory/conditional-access/overview).
+**Muut oikeudet** 
+- Myös Microsoft 365-yritys asiakkaat voivat käyttää Windowsin virtuaalisen työpöydän ja Officen jaetun tieto koneen aktivointi ominaisuuksia. Lue lisää [Microsoft 365 Business-blogista](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog) . Katso myös [Microsoft 365-yritys palvelun kuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
 
 ### <a name="who-should-consider-adopting-microsoft-365-business"></a>Kenen kannattaa harkita Microsoft 365 Businessin käyttöönottoa? 
-Microsoft 365 Business on rakennettu pienille ja keskisuurille asiakkaille, joilla ei ole juurikaan resursseja henkilö kunnan resursseihin ja jotka haluavat Office 365: in luokkansa parhaita tuottavuus-ja yhteistyöominaisuuksia yhdessä laite hallinnan ja tieto turva ratkaisujen kanssa, jotka suojaa yritys tietoja. Microsoft 365-yritys asiakas on valmis siirtämään IT-toimintansa pilvi palveluun ja on kiinnostunut ylläpitämään ennakoivaa asennetta, joka auttaa suojaamaan tietoja sekä yrityksen että työn tekijän omistamien laitteiden osalta.
+Microsoft 365 Business on kattava pilvipohjainen tieto turva ratkaisu, jonka avulla voit:  
+- Puolustaa yrityksesi kehittyneitä kyberuhkia kehittyneitä phishing ja ransomware suojaus. 
+- Hallitse arkaluontoisten tietojen käyttö oikeuksia käyttämällä salausta, jotta tietoja ei jaeta vahingossa jollekulle, jota ei ole valtuutettu näkemään. 
+- Turvaa laitteet, jotka yhdistävät yrityksesi ja auttavat pitämään tietosi iOS-, Android-, Windows-ja Mac-laitteissa suojattuna ja Windows-laitteesi ajan tasalla.
+
+Microsoft 365 Business on täysin integroitu Office 365 tarjoaa sinulle tuttu sijainti hallinnon, laskutuksen, ja 24x7 tukea. Se koostuu yritys tason teknologiasta, joka on rakennettu yrityksille, joilla on alle 300 työn tekijää. 
 
 ### <a name="how-can-i-get-microsoft-365-business-for-my-business"></a>Miten saan Microsoft 365 Business for Businessin? 
 Microsoft 365 Business voidaan hankkia Microsoft <a href="https://www.microsoft.com/solution-providers/search" target="_blank">-kumppanin</a> kautta tai suoraan <a href="https://www.microsoft.com//microsoft-365/business" target="_blank">Microsoftilta</a>. Valitessasi, ostaako se suoraan Microsoftilta tai Microsoft-kumppanin kautta, kannattaa harkita henkilöstöäsi ja halua ylläpitää IT-infrastruktuuria. Microsoft-kumppani voi auttaa sinua ottamaan käyttöön ja hallitsemaan IT-infrastruktuuria, mukaan lukien Microsoft-ratkaisut.
@@ -75,7 +81,11 @@ Jos laitteistosi tänään suorittaa Windows 7 Pro tai uudempi, se todennäköis
 Aiempi työpöydän (Win32) sovellusten yhteensopivuus on vahva Windows 10-versiossa, ja useimmat nykyiset sovellukset toimivat ilman muutoksia. Asiakkaiden ja niiden luotettavien IT-neuvonantajien tulisi lukea suositeltu <a href="https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process" target="_blank">Windows 10-yhteensopivuuden</a> testaus prosessi ja tarkistaa <a href="https://products.office.com/office-system-requirements#subscription-plans-section" target="_blank">Officen järjestelmä vaatimukset</a> sujuvan siirtymisen varmistamiseksi Microsoft 365 Business-sovellukseen. 
 
 ### <a name="what-is-windows-10-business"></a>Mikä on Windows 10 Business? 
-Windows 10 Business on joukko pilvi palveluita ja laite hallinta ominaisuuksia, jotka täydentävät Windows 10 Pro: tä ja mahdollistavat Microsoft 365 Businessin keskitetyn hallinta-ja suojaus valvonnan. Windows 10 Businessin mukana tulee myös Windows Auto Pilot, palvelu, joka tehostaa uusien Windows 10-tieto koneiden käyttöönottoa. Jos sinulla on Windows 7-, 8-ja 8,1 Professional-käyttö järjestelmän lisensoimia laitteita, Microsoft 365 Business tarjoaa päivityksen Windows 10 Prohon, joka on Windows 10 Businessin käyttöönoton edellytys.
+Windows 10 Business on joukko pilvi palveluita ja laite hallinta ominaisuuksia, jotka täydentävät Windows 10 Pro: tä ja mahdollistavat Microsoft 365 Businessin keskitetyn hallinta-ja suojaus valvonnan.
+
+Windows 10 Businessissa on myös tiettyjä maksullisia Microsoft Defender-ominaisuuksia, kuten hallittu kansioiden käyttö ja verkon suojaus Web-pohjaisissa ketjuissa. Se sisältää myös Windows Auto Pilot-palvelun, joka tehostaa uusien Windows 10-tieto koneiden käyttöönottoa.
+
+Jos sinulla on Windows 7-, 8-ja 8,1 Professional-käyttö järjestelmän lisensoimia laitteita, Microsoft 365 Business tarjoaa päivityksen Windows 10 Prohon, joka on Windows 10 Businessin käyttöönoton edellytys.
 > [!IMPORTANT]
 > Sinun on annettava alkuperäinen Product Key-tunnus päivitettäessä, muutoin päivitys ei toimi. 
 
@@ -99,7 +109,7 @@ Microsoftilla on erilaisia tuottavuus-ja tieto turvan hallinta tuotteita, joita 
 
 **Office 365 Business Premium** tarjoaa luokkansa parhaan tuottavuuden Office 365-sovelluksissa ja-palveluissa, mutta se ei sisällä Microsoft 365 Businessin sovellusten suojausta ja laite hallinta ominaisuuksia.
 
-**Microsoft 365 Business** yhdistää Office 365-sovellukset ja-palvelut mobiilisovellusten hallintaan ja Windows 10 Prohon etähallinnan mahdollistamiseksi ja laitteiden suojaamiseksi viruksilta ja haitta ohjelmilta. Se sisältää yksinkertaistetun hallinta konsolin, jonka kautta laite-ja tieto käytännöt voidaan antaa. Monet pienet ja keskisuuret yritykset voidaan parhaiten palvella Microsoft 365-liike toiminnan kanssa. 
+**Microsoft 365 Business** yhdistää Office 365-sovellukset ja-palvelut kehittyneisiin tieto turva ominaisuuksiin, jotka suojaavat yritystäsi kehittyneiltä kyberuhkilta, suojaavat tietojasi ja hallinnoivat laitteitasi. Se sisältää yksinkertaistetun hallinta konsolin, jonka kautta laite-ja tieto käytännöt voidaan antaa. Monet pienet ja keskisuuret yritykset voidaan parhaiten palvella Microsoft 365-liike toiminnan kanssa. 
  
 **Microsoft 365 Enterprise** on joukko lisensointi suunnitelmia, jotka tarjoavat enemmän noudattamista ja turvallisuuden hallintaa yli Microsoft 365 Business ja on suunniteltu yritys asiakkaille ja niille asiakkaille, joilla on yli 300 käyttäjät. Lisäksi Microsoft 365 Enterprise-suunnitelmat tarjoavat lisä toimintoja, kuten Business Intelligence-ja Analytics-työkalut.
 
@@ -137,18 +147,13 @@ Windows Auto Pilot on palvelu, joka tehostaa käyttöönottoa uusien Windows 10-
 ## <a name="compatibility"></a>Yhteensopivuus
 
 ### <a name="can-i-add-office-365-add-ons-to-microsoft-365-business"></a>Voinko lisätä Office 365-lisä osia Microsoft 365 Businessin? 
-Kaikki Office 365 Business Premiumiin lisätyt lisä osat voi lisätä Microsoft 365 Business-tieto koneessa. Tämä tarkoittaa, että voit ostaa kehittynyttä uhkien suojausta, Office 365 Cloud App Securityn, edistyneen yhteensopivuuden, uhka älyn, Myanalyticsin, PowerBI Pron ja puhelin neuvottelun. 
+Kaikki Office 365 Business Premiumiin lisätyt lisä osat voi lisätä Microsoft 365 Business-tieto koneessa. Tämä tarkoittaa, että voit ostaa Office 365 Cloud App Securityn, edistyneen yhteensopivuuden, uhka älyn, Myanalyticsin, PowerBI Pron ja ääni neuvottelun. 
  
 ### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business"></a>Voinko lisätä Puhelin järjestelmän ja soittaa suunnitelmia Microsoft 365 Business? 
 Ei, Puhelin järjestelmä ja puhelu paketti on varattu asiakkaille, joilla on kehittyneempiä tarpeita. Asiakkaiden, jotka tarvitsevat näitä ominaisuuksia, tulisi katsoa Microsoft 365 Enterprise-tarjontaa. 
  
 ### <a name="can-microsoft-365-business-customers-use-windows-defender-advanced-threat-protection"></a>Voiko Microsoft 365-yritys asiakkaat käyttää Windows Defenderin kehittynyttä uhkien suojausta? 
 Ei, Asiakkaat, jotka vaativat Windows Defenderin kehittynyttä uhkien suojausta, tarvitsevat joko Windows 10 Enterprise E5 tai Microsoft 365 Enterprise E5. 
- 
-
-
-### <a name="can-customers-create-hosted-windows-10-vms-with-a-microsoft-365-business-subscription"></a>Voiko asiakkaat luoda isännöityä Windows 10 VMs-järjestelmää Microsoft 365 Business-tila uksella? 
-Ei, virtualisointia vaativat asiakkaat ostavat Windows 10 Enterprisen tai Microsoft 365 Enterprise-tila uksen.
 
 ## <a name="partner-opportunity"></a>Kumppanin mahdollisuus
 
@@ -180,20 +185,11 @@ Microsoft Cloud-ratkaisun tarjoajan tulee aina myydä asiakkaan liiketoiminta ta
  
 ### <a name="some-of-my-customers-have-devices-that-are-not-genuine-will-microsoft-365-business-make-these-devices-genuine"></a>Joillakin asiakkailleni on laitteita, jotka eivät ole aitoja; Onko Microsoft 365 Business tehdä nämä laitteet aito? 
 Microsoft 365 Business ei tee muuten kuin aito versio Windows, aito. Microsoft 365 Business ei tarjoa päivitys etua, jonka avulla ne asiakkaat, jotka käyttävät aitoja Windows 7-, 8-tai 8,1 Pro-versioita, päivittävät Windows 10 Pron viimeisimmistä, aidosta versiosta. 
- 
-### <a name="what-support-is-available-to-csp-partners-for-the-microsoft-365-business-preview"></a>Mitä tukea CSP-kumppaneille on saatavilla Microsoft 365 Business Preview-tieto koneessa? 
-Samat tuki kanavat, jotka ovat saatavilla CSP-kumppaneille tänään (Premier Support ja Advanced Support Program), on koulutettu Microsoft 365-liike toimintaa varten, ja ne ovat valmiita tarjoamaan yhteistyökumppaneita tuke maan. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>Mikä on GDPR ja miten Microsoft 365 Business auttaa asiakkaita noudattamaan vaatimustenmukaisuusvelvoitteitaan?
-Yleinen tieto suoja-asetus (GDPR) on kattava uusi tieto suoja laki, joka antaa Euroopan unionin (EU) asukkaille paremman määräys vallan "henkilö tietonsa" ja vaatii organisaatioita säilyttämään henkilö tietojen eheyden. GDPR edellyttää, että organisaatiot, jotka ohjaavat tai käsittelevät EU:N asukkaisiin sidottuja henkilö tietoja, käyttävät vain sellaisia kolmannen osapuolen tietojenkäsittelijöitä, jotka täyttävät GDPR:N vaatimukset henkilö tietojen käsittelylle. Maaliskuussa 2017 Microsoft antoi saataville sopimus takuita, jotka antavat nämä takeet. Asiakkaat, joilla on kysyttävää siitä, miten Microsoft voi auttaa heitä täyttämään GDPR-lisä velvoitteensa, saavat lisä tietoja yhteensopivuus-ja suojaus ominaisuuksista, jotka ovat saatavilla lisä osia (esimerkiksi Azure-tietojen suojaus, tietojen menetyksen estäminen, edistyneet Uhkien torjunta jne.) ja muissa sviiteissä (esim. Microsoft 365 Enterprise E5). Lisä tietoja on osoitteessa [www.Microsoft.com/gdpr](https://www.microsoft.com/gdpr).
-
-
+Yleinen tieto suoja-asetus (GDPR) on kattava uusi tieto suoja laki, joka antaa Euroopan unionin (EU) asukkaille paremman määräys vallan "henkilö tietonsa" ja vaatii organisaatioita säilyttämään henkilö tietojen eheyden. GDPR edellyttää, että organisaatiot, jotka ohjaavat tai käsittelevät EU:N asukkaisiin sidottuja henkilö tietoja, käyttävät vain sellaisia kolmannen osapuolen tietojenkäsittelijöitä, jotka täyttävät GDPR:N vaatimukset henkilö tietojen käsittelylle. Maaliskuussa 2017 Microsoft antoi saataville sopimus takuita, jotka antavat nämä takeet. Asiakkaat, joilla on kysyttävää siitä, miten Microsoft voi auttaa heitä täyttämään GDPR-lisä velvoitteensa, saavat lisä tietoja Microsoft 365 Businessin kehittyneemmistä yhteensopivuus-ja suojaus ominaisuuksista (esimerkiksi Azure-tietojen suojaus, tietojen menettäminen Ehkäisy, kehittynyt uhkien torjunta jne.) ja muissa sviiteissä (esim. Microsoft 365 Enterprise E5). Lisä tietoja on osoitteessa [www.Microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 
 ## <a name="footnotes"></a>Alaviitteet
 <sup><a name="footnote1">**1**</a></sup> <small>saatavilla Yhdysvalloissa, Isossa-Britanniassa ja Kanadassa.</small> </br>
 <sup><a name="footnote2">**2**</a></sup> <small>Windows 7-tai 8,1 Pro-laitetta voidaan päivittää Windows 10 Pro-käyttö järjestelmäksi Microsoft 365 Business Preview-versioon.</small>
- 
-
-
-
