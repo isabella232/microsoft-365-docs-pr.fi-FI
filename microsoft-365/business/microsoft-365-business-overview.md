@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Opettele Microsoft 365 Businessin perustamista.
-ms.openlocfilehash: e6f99d6d2f2d7951303591a806a3618615a25310
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 0c717271da17ff4bf28d8d3546df3a9da427dba5
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575914"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697761"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Yleistä Microsoft 365 Business
 
@@ -54,7 +54,43 @@ Microsoft 365 Business auttaa suojaamaan tietosi kussakin näistä ilmentymistä
 
 ![Luku, joka osoittaa, miten M365B suojelee yritystäsi.](media/m365businessvalueadd.png)
 
-Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microsoft 365 Business Security-ominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Businessin](set-up.md), katso [lisä suojaus käytäntöjen määrittäminen](set-up-advanced-security.md) , jotta pääset alkuun niiden suojaus ominaisuuksien kanssa, joita ei ole sisällytetty osana asennukseen. Lue myös [Top 10 tapoja suojata Office 365 ja Microsoft 365 liiketoiminta suunnitelmat](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvä yleiskuva siitä, miten perustaa suoja uksia Cyber rikollisia ja hakkereita.
+## <a name="how-your-data-and-devices-are-protected"></a>Miten tietosi ja laitteesi suojataan
+
+Microsoft 365 Business auttaa **puolustautui uhkia vastaan** :
+
+Skannaus sähkö posteja ja asia kirjoja reaaliajassa estää vaarallisia Web-sivustoja (ATP Safe linkit).
+
+- Suoritetaan kehittynyt analyysi sähkö postin liite tiedostoja Sandbox-ympäristössä havaita hiljattain kehitetty haitta ohjelmat (ATP turvalliset liitteet). 
+
+- Tieto kalastelun torjunta käytäntöjä, jotka käyttävät kone oppimisen malleja ja tekeytymis tunnistuksen avulla suojautumista kehittyneiltä hyökkäyksiltä (ATP anti-phishing Intelligence). 
+
+- Sellaisten lisä käytäntöjen määrittäminen, jotka poistivat käytöstä ei-luotetuista sijainneista tai ohittavat usean tekijän todennuksen luotetuista paikoista, kuten Office-verkostosta (Azure MFA, mukaan lukien luotettavat IP-osoitteet ja ehdollinen käyttö). 
+
+- Haitta ohjelmien suoja uksen valvomista kaikissa yrityksesi Windows 10-laitteissa ja tiedostojen suojaaminen avain järjestelmän kansioissa kiristys ohjelmilta tehdyistä muutoksista (Windows Defender)
+
+**Yritys tietosi on suojattu** :
+
+- Automaattisen tunnistuksen avulla voit estää arkaluonteiset tiedot, kuten sosiaaliturvatunnukset tai luotto kortit, jotka vuotavat yrityksesi ulkopuolelta (tietojen menetyksen estäminen). 
+
+- Arkaluonteisten sähkö postien salaaminen, jotta voit kommunikoida turvallisesti asiakkaiden tai yrityksesi ulkopuolisten henkilöiden kanssa varmistaen, että vain suunniteltu vastaanottaja voi lukea viestin (Office 365-viestin salaus).
+
+- Määräys valta, jolla on pääsy yrityksen tietoihin, käyttämällä rajoituksia, kuten **Älä kopioi** ja **välitä** sähkö postiin ja asia kirjoihin (Azure-tietojen suojaus, suunnitelma 1).
+
+- Mahdollistaa rajoittamaton pilvi arkistointi, joten voit säilyttää kaikki yrityksesi Sähkö posti, mukaan lukien posti laatikot entisten työn tekijöiden (Exchange Online arkistointi).
+
+**Laitteet on suojattu** :
+
+- Sen hallitsemista, mitkä laitteet ja käyttäjät voivat käyttää Office 365-tietoja; vaihto ehtoja estää käyttäjiä kirjautumasta koti tieto koneista, YK-hyväksytystä sovelluksesta tai työajan ulkopuolella (ehdollinen pääsy).
+
+- Suojaus käytäntöjen soveltaminen yritys tietojen suojaamiseen iOS-ja Android-laitteilla.  Voit esimerkiksi vaatia käyttäjiä antamaan PIN-koodin tai sormen jäljen, jotta he voivat käyttää yritys tietoja, ja salata tietoja mobiililaitteilla (sovellusten suojaaminen Office-mobiilisovelluksilla).
+
+- Yritys asiakirjojen, sähkö postien ja muiden tietojen pitäminen hyväksytyissä Office-mobiilisovelluksissa ja työn tekijöiden estäminen tallentamasta niitä luvattomiin sovelluksiin ja sijainteihin (sovellusten suojaaminen Office-mobiilisovelluksilla).
+
+- Etäpyyhkii liiketoiminta tietoja kadonneista tai varastetuista laitteista vaikuttamatta henkilö kohta isiin tietoihin (Intune Selective Pyyhi).
+
+- Yksinkertaistettujen ohjaus objektien käyttäminen kaikkien yrityksesi Windows 10-tieto koneiden käytäntöjen hallintaan, BitLocker-Sala uksen valvomista ja tärkeiden Windows-päivitysten automaattista asentamista (Windows Update-käytäntöjen pakotusta).
+
+Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microsoft 365 Business Security-ominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Businessin](set-up.md), katso [lisä suojaus käytäntöjen määrittäminen](set-up-advanced-security.md) , jotta pääset alkuun niiden suojaus ominaisuuksien kanssa, joita ei sisällytetä ohjatun asennuksen osana. Lue myös [Top 10 tapoja suojata Office 365 ja Microsoft 365 liiketoiminta suunnitelmat](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvä yleiskuva siitä, miten perustaa suoja uksia Cyber rikollisia ja hakkereita.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Businessin hankkiminen
 
