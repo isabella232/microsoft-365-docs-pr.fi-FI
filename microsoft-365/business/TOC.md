@@ -1,9 +1,9 @@
 # Microsoft 365 Business
-## [Microsoft 365](index.md)
+## [Microsoft 365](index.yml)
 ## [Mikä on Microsoft 365 Business?](microsoft-365-business-overview.md)
 ## [Hanki Microsoft 365 Business](sign-up.md)
 ## [Tieto suojan ennakko vaatimukset](pre-requisites-for-data-protection.md)
-## Määrittäminen
+## Asennus
 ### [Yleiskatsaus asennuksesta](set-up-overview.md)
 ### [Määritä Microsoft 365 Business](set-up.md)
 ### [Päivitä Windows Pro Creators-päivitykseen](upgrade-to-windows-pro-creators-update.md)
@@ -20,7 +20,7 @@
 ### [Lisää uhkien torjunta](increase-threat-protection.md)
 ### [Yhteensopivuus ominaisuuksien määrittäminen](set-up-compliance.md)
 ## Hallitse käyttäjiä
-### [Add users](add-users-m365b.md)
+### [Käyttäjien lisääminen](add-users-m365b.md)
 ### [Työn tekijän poistaminen](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## Hallitse laitteita
 ### [Käytäntöjen ja laitteiden tarkasteleminen ja muokkaaminen](view-policies-and-devices.md)
@@ -32,7 +32,10 @@
 ### [Laitteen suojaus asetukset Windows 10-tieto koneille](protection-settings-for-windows-10-pcs.md)
 #### [Vahvista asetukset Windows 10-tieto koneissa](validate-settings-on-windows-10-pcs.md)
 ### [Sovellusten suojaus asetukset Windows 10-tieto koneille](protection-settings-for-windows-10-devices.md)
-## [Siirtyminen Microsoft 365 Businessiin](migrate-to-microsoft-365-business.md)
+## Siirtyminen Microsoft 365 Businessiin
+### [Siirtyminen toimistosta 365 Business Premium](migrate-to-microsoft-365-business.md)
+### [Siirtyminen toimistosta 365 E3](migrate-from-e3.md)
+### [Siirrä ro Microsoft 365 Enterprise](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## Laskutus
 ### [Laskussasi](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Maksaa](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)

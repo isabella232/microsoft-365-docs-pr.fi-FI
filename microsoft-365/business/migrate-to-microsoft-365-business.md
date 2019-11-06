@@ -1,5 +1,5 @@
 ---
-title: Siirry Microsoft 365 Business from Office 365 Business Premiumiin
+title: Päivitä Microsoft 365 Business Office 365 Business Premiumiin
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,34 +19,24 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Lue, miten voit siirtää yrityksesi Microsoft 365 Business-tieto koneessa.
-ms.openlocfilehash: ae9ca0fe97916fdae6104a6edbb04efba5d9299e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Vaiheet, jotka päivittävät yrityksesi Office 365 Business Premiumiin Microsoft 365 Business-versioon.
+ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
+ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575874"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38002111"
 ---
-# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Siirry Microsoft 365 Business from Office 365 Business Premiumiin
+# <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Päivitä Microsoft 365 Business Office 365 Business Premiumiin
 
-Jos sinulla on jo Office 365 for Business-tilaus, esimerkiksi Office 365 Business Premium, voit helposti lisätä käyttö oikeuksia Microsoft 365-liike toiminnan ja määrittää ne joillekin tai kaikille käyttäjille.
-  
-> [!NOTE]
-> Et voi käyttää [Vaihda suunnitelmia](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a?.aspx#switchbutton) -painiketta päivittääksesi vielä Microsoft 365 Business-versioon. 
-  
-## <a name="add-microsoft-365-business-licenses"></a>Lisää Microsoft 365-yritys käyttö oikeudet
+Jos sinulla on [office 365 for Business-tilaus](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2), esimerkiksi Office 365 Business Premium, voit helposti päivittää Microsoft 365 Business-versioon. Päivitä Microsoft 365 Business-versioon, jos haluat lisätä: 
+- Windows 10 Pro (tieto koneisiin, joissa on Windows 8 tai uudempi)
+- Yksinkertaiset ohjaus objektit, jotka hallitsevat laitteiden yritys tietoja
+- Kehittyneet suojaus ominaisuudet.
+Lue lisää Microsoft 365 Business yrityksessä [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
 
-Sinulla on kaksi tapaa hankkia Microsoft 365 Business. Kumppani voi ostaa Microsoft 365 Businessin [Microsoft Partner Centeristä](get-microsoft-365-business.md). Kumppanisi voi myös auttaa sinua siirtymään Microsoft 365 Businessiin.
-  
-Jos hallitset omaa tilaustasi, voit [ottaa yhteyttä myyntiin](https://www.microsoft.com/microsoft-365/business) ja ostaa Microsoft 365 Business License-käyttö oikeudet. 
-  
-Katso [Lisää, muuta tai poista tila uksen neuvonantajan kumppani](https://support.office.com/article/f86e8177-936e-491e-9024-44dea2b296ff) ja selvitä, miten voit aloittaa työskentelyn kumppanin kanssa. 
-  
-Jos sinulle annetaan linkki lisenssien ostamiseen, voit käydä läpi ohjatun toiminnon, kuten alla olevan. Valitse **Kyllä, lisää se tililleni**. Voit myös valita lisenssien määrän ja maksu tavan.
-  
-![Valitse Microsoft 365 Business Direct Buy-linkillä Lisää nykyiseen tiliisi tai Rekisteröidy uudelle tilille.](media/8bc54fd1-9cab-44d5-af91-c471e89aea46.png)
-  
-## <a name="assign-microsoft-365-licenses"></a>Microsoft 365-lisenssien määrittäminen
+## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Mitä eroa on Office 365 Business Premiumin ja Microsoft 365 Businessin välillä?
+Olemme lisänneet näiden kahden suunnitelman vertailun rinnakkain [Microsoft 365-yritys palvelun kuva](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)uksen kanssa. 
 
 1. Kun olet hankkinut uudet käyttö oikeudet ja tämä on ensimmäinen kerta, Microsoft 365 Businessin asennus nauha näkyy hallinta keskuksen yläosassa.
     
@@ -69,7 +59,7 @@ Jos sinulle annetaan linkki lisenssien ostamiseen, voit käydä läpi ohjatun to
     
     Jos sinulla ei ole uusia työn tekijöitä lisättävät ja haluat määrittää lisenssejä nykyisille käyttäjille, valitse **Seuraava**.
     
-4. * * Siirrä Sähkö posti viestejä * * sivu voit valita siirtää sähkö postia kaikille uusille käyttäjille, jotka olet lisännyt vaiheessa 3. Voit ohittaa tämän vaiheen myös. Valitse **Seuraava**.
+4. **Siirrä Sähkö posti viestit** -sivulla voit siirtää sähkö postia mille tahansa uudelle käyttäjälle, jonka lisäsit vaiheessa 3. Voit ohittaa tämän vaiheen myös. Valitse **Seuraava**.
     
 5. Valitse viimeisellä sivulla **Siirry hallinta keskukseen**ja jatka asennusta siellä.
     
@@ -79,19 +69,47 @@ Jos sinulle annetaan linkki lisenssien ostamiseen, voit käydä läpi ohjatun to
     
     ![Valitse käyttäjä kortissa tuote lisenssien vieressä Muokkaa.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. **Tuote lisensseissä** Liu'uta Microsoft 365 **-** \> **liike toiminta** **tallennuksessa**ja **Sulje**sitten.
-    
-Kun olet ostanut Microsoft 365 Businessin alkuperäisen käyttö oikeuden, voit nyt myös lisätä lisää **laskutuksen** \> **Osto palveluihin**. **Osto Palvelut** -sivulla voit klikata kolmea pistettä **Microsoft 365-käynti** kortissa ja valita muuta **käyttö oikeus määrää** ostaksesi lisää. 
+## <a name="before-you-get-started"></a>Ennen aloittamista
+
+- **Milloin kannattaa valita päivitys?** Päivitys on oikea valinta, kun haluat päivittää kaikki yhdelle suunnitelmalle määritetyt **käyttäjät** . Kun valitset Päivitä, kaikki suunnitelman käyttäjät saavat vaihtaa toiseen suunnitelmaan samaan aikaan. Jos et halua päivittää kaikkia yksittäiseen suunnitelmaan määritettyjä, Osta uuden suunnitelman käyttö oikeuksia (tässä tapa uksessa Microsoft 365 Business) ja [Määritä kyseiset käyttö oikeudet erikseen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) jokaiselle käyttäjälle, jonka haluat päivittää. 
+- **Jotkin lisä osat saattavat estää päivityksen** Jos yrität käynnistää päivityksen ja sinulla on lisäosa, joka estää sinua jatkamasta, voit poistaa apuohjelman ensin ja lisätä sen myöhemmin takaisin-jos tarvitset sitä edelleen. 
+- **Jos olet prepaid-suunnitelmasi** Prepaid-suunnitelmille ei ole yksinkertaista päivitys polkua. Tiedät, onko sinulla ennakkoon maksettu suunnitelma, koska olet määrittänyt suunnitelmasi käyttämällä tuote tunnusta, jonka olet saattanut ostaa myymälässä. Ota yhteyttä kumppaniin, siirry Microsoft Storeen tai odota, kunnes ennakkoon maksettu suunnitelma vanhenee, jotta voit siirtyä uuteen suunnitelmaan.
+
+## <a name="upgrade-to-microsoft-365-business"></a>Päivitä versioon Microsoft 365 Business
+Osta lisenssisi seuraamalla näitä vaiheita [uudessa hallinta keskuksessa](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview):
+1. Kirjaudu hallinta keskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+2. Siirry siirtymis ruutuun ja valitse **laskutus** \> **tuotteet & Palvelut**. Etsi Office 365-tilauksesi ja valitse se nähdäksesi tiedot. 
+
+    ![Kuva kaappaus näyttää, miten voit etsiä ja valita tilauksesi hallinta keskuksessa.](media/FindYourSubscription.png)
+
+3. Valitse seuraavalla sivulla **Päivitä**. 
+
+      ![Kuva kaappaus näyttää, mistä voit valita päivityksen hallinta keskuksessa.](media/SelectUpgrade.png)
+
+  > [!NOTE]
+  > Jos näet viestin "tilauksesi päivittäminen ei ole tuettu ryhmäpohjaisella lisenssillä Azure Active Directoryssa", voit ohittaa tämän turvallisesti, ellet ole kovin suuri organisaatio. Tämän vaihto ehdon valitsemat organisaatiot tietävät, että ne käyttävät ryhmäpohjaista lisensointia.
+
+4. Seuraavaksi voit tarkastella luetteloa Office-suunnitelmista, joihin voit päivittää. Etsi tässä tapa uksessa Microsoft 365-liiketoiminta suunnitelma. Voit vierittää alaspäin, jos haluat nähdä kaikki tähän suunnitelmaan sisältyvät Office-sovellukset ja-palvelut. Valitse **microsoft 365 Business**-kohdasta **päivitä** lisätäksesi Microsoft 365 Businessin ostos koriin.
+5. Ostos koriin:
+    1. Sisällytimme automaattisesti käyttö oikeudet kaikille nykyiselle käyttäjälle ostos koriin. Jos tarvitset enemmän tai vähemmän lisenssejä, sinun on [ostettava ja määritettävä kyseiset lisenssit yksitellen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
+    2. Voit säätää, miten haluat maksaa kuukausittain tai vuosittain. Valitse avattavasta valikosta haluamasi vaihto ehto.
+6. Valitse **Siirry kassalle** , jossa näet yhteenvedon ostoksesta, mukaan lukien tämän tilin maksu tapa. Voit myös lisätä tarjous koodin tähän, jos sinulla on sellainen.
+7. Viimeistele ostoksesi valitsemalla **tilaa** .
+Uusien huolto suunnitelmien määrittäminen kestää Microsoftin muutaman minuutin. Jos haluat tarkistaa edistymisen, valitse **Tarkista päivityksen tila**. 
+1. Kun suunnitelma on valmis, sinun on ehkä suoritettava joitakin lisä asetuksia hallinta keskuksessa. Suorita muut asennus vaiheet valitsemalla siirtymis ruudusta **Home** .
+
+> [!NOTE]
+> Saat hyvityksen Ofifce 365-lisensseistä, joita et enää tarvitse. Pankki tili tai luotto kortti veloitetaan noin kaksi päivää sen jälkeen, kun olet määrittänyt uuden suunnitelman.
   
 ## <a name="protect-user-devices-and-files"></a>Käyttäjien laitteiden ja tiedostojen suojaaminen
 
-Kun olet määrittänyt käyttö oikeudet Microsoft 365 Businessille, voit aloittaa käyttäjien laitteiden ja tiedostojen suojaamisen.
+Nyt kun Microsoft 365-yritys käyttö oikeudet on määritetty, suorita vaiheet laitteiden ja tiedostojen suojaamiseen. Voit käyttää joitakin uusia vaihto ehtoja, jotka sisältyvät hallinta keskuksen siirtymis ruutuun.
   
-1. Siirry hallinta keskuksen vasemmassa NAV-ohjelmassa kohtaan **laite** \> **käytännöt**.
+1. Siirry hallinta keskuksen siirtymis ruudussa kohtaan **laite** \> **käytännöt**.
     
 2. Valitse **laite käytännöt** -sivulla **Lisää**.
     
-3. **Lisää käytäntö** -ruudussa Anna käytännölle nimi ja valitse sitten avattavasta valikosta **käytäntö tyyppi** . 
+3. **Lisää käytäntö** -ruudussa Anna käytännölle nimi (esimerkiksi suojaa työtiedostot) ja valitse sitten avattavasta valikosta **käytäntö tyyppi** . 
     
     Voit määrittää sovellus käytäntöjä, joilla suojataan tiedostoja Android-ja iPhone-laitteissa sekä Windows 10: ssä, ja voit määrittää laitteen kokoonpano käytännöt yrityksen omistamille Windows 10-laitteille. Lisä tietoja on seuraavissa linkeissä:
     
@@ -101,17 +119,14 @@ Kun olet määrittänyt käyttö oikeudet Microsoft 365 Businessille, voit aloit
     
   - [Aseta laitteen suojaus asetukset Windows 10-tieto koneille](protection-settings-for-windows-10-pcs.md)
     
-   ![Kirjoita Lisää käytäntö-ruutuun sen nimi ja valitse käytäntö tyyppi avattavasta valikosta.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   
 4. Kun olet määrittänyt käytännöt, sinä ja työn tekijäsi voitte määrittää laitteita:
     
-  - Jos Windows ei ole vielä Windows Pro Creator-päivityksessä, sinun on [päivitettävä ne Windows Pro Creators-päivitykseen](upgrade-to-windows-pro-creators-update.md).
+  - Jos Windows-laitteet eivät vielä käytä Windows Pro Creator-päivitystä, sinun on [päivitettävä ne Windows Pro Creators-päivitykseen](upgrade-to-windows-pro-creators-update.md).
     
   - Katso Windows-laitteiden [määrittäminen Microsoft 365-yritys käyttäjille](set-up-windows-devices.md) Windows-laitteille. 
     
   - Katso Android-puhelinten ja-puhelinten ohjeet kohdasta [mobiililaitteiden määrittäminen Microsoft 365-yritys käyttäjille](set-up-mobile-devices.md) . 
-    
-5. Jos haluat asentaa Office-asiakas sovellukset automaattisesti, katso [Microsoft 365 Businessin valmisteleminen Office-asiakas käyttöön](prepare-for-office-client-deployment.md) ja [Officen asentaminen tai asennuksen poistaminen automaattisesti Windows 10-laitteissa](auto-install-or-uninstall-office.md).
-    
+
 
 
