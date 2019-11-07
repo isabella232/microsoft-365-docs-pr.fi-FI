@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Office 365 Advanced uhkien torjunta ja suojaa arkaluontoisia tietoja.
-ms.openlocfilehash: fb63ca7e3cf38ecf31aab98e425b02e8b9983bf8
-ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
+ms.openlocfilehash: 1827b70f1e4d78a072753390c1a99d7cb4bd5cfd
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37636748"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030760"
 ---
 # <a name="increase-threat-protection"></a>Lisää uhkien torjunta
 
@@ -31,7 +31,7 @@ Tämän artikkelin avulla voit suojata Microsoft 365-tilauksesi suojausta tietoj
 
 Varmista ennen aloittamista, että Office 365 on suojattu pisteytys. Office 365 Secure Score analysoi Office 365-organisaatiosi tieto turvan säännöllisten aktiviteettien ja suojaus asetusten perusteella ja määrittää Pisteet. Aloita ottamalla huomioon nykyinen piste määrä. Tässä artikkelissa suositeltujen toimien ottaminen nostaa pisteesi. Tavoitteena ei ole saavuttaa maksimi pisteytys, vaan olla tietoinen mahdollisuuksista suojata ympäristöäsi, jotka eivät vaikuta kielteisesti käyttäjien tuottavuuteen. 
 
-Lisä tietoja on [Microsoft Securen pisteytys](https://docs.microsoft.com/en-us/office365/securitycompliance/microsoft-secure-score)-kohdassa.
+Lisä tietoja on [Microsoft Securen pisteytys](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)-kohdassa.
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Nosta suojaus tasoa haitta ohjelmilta Mailissa
 

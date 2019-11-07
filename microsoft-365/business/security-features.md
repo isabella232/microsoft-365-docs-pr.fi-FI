@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lue lisä tietoja Microsoft 365 Businessin mukana tulevien suojaus ominaisuuksien ominaisuuksista.
-ms.openlocfilehash: 0d1c35192bf82ac61e59356cda4d9fb29cb3d995
-ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
+ms.openlocfilehash: 5e295480b1a578ca26646a89d6a0a4183a15428d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37636768"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031441"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business Securityn ja yhteensopivuuden ominaisuudet
 
@@ -73,7 +73,7 @@ Microsoft 365 Businessin lisä ominaisuudet auttavat suojaamaan yritystäsi kybe
 - **[Intune-järjestelmän täydet ominaisuudet Azure-portaalissa](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
     Käyttämällä Intune hallinta keskukseen Azure-portaalissa voit määrittää lisä suojaus ominaisuuksia, kuten MacOS-laitteiden, iPhonen ja Android-laitteiden hallinta sekä Windowsin laajennettu laite hallinta, jotka eivät ole saatavilla Microsoftin 365 liike toiminnan hallinta keskus.
-- **Sama [ehdollinen pääsy](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview) kuin Azure AD P1-suunnitelma**
+- **Sama [ehdollinen pääsy](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) kuin Azure AD P1-suunnitelma**
 
     Ehdollinen käyttö oikeus voi suojata organisaatiotasi kirjautumisriskiltä, käyttää odottamattomia verkko-tai aluekohtaisia yrityksiä, muodostaa riskialttiita laite tyyppejä ja niin vielä. Ehdolliset käyttö oikeus käytännöt otetaan käyttöön sen jälkeen, kun ensimmäinen todennus on suoritettu, ja se käyttää ensimmäisen todennus tapahtuman signaaleja määrittääkseen, onko käytön yrittämisestä hyväksyttävä, kieltää tai f enemmän todisteita (kuten toinen tunnistus muoto) Tarvitaan.
 

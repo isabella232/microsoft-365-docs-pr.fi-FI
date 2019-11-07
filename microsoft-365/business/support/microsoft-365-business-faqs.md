@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, usein kysytyt kysymykset, vasta ukset, liike toiminta
 ms.date: 06/08/2018
-ms.openlocfilehash: 23cf7c4770387050c60ac21f537fbd7738a8aab4
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 2067badcb78b48bac59770993de25c0ebbeaa829
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646381"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031361"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business usein kysytyt kysymykset
 
@@ -161,7 +161,7 @@ Ei, Asiakkaat, jotka vaativat Windows Defenderin kehittynyttä uhkien suojausta,
 IT-palveluntarjoajat, jotka eivät ole jo Microsoft-kumppaneita, voivat saada lisä tietoja Microsoft Cloud-ratkaisun [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)tarjoaja-ohjelmasta.
 
 ### <a name="where-can-i-learn-how-to-sell-microsoft-365-business"></a>Mistä voin oppia myymään Microsoft 365 Business? 
-Kumppanit nyt myyvät Office 365 voi käyttää samoja neuvoa myynti tapoja myydä Microsoft 365 Business. Lisäksi esittelemme lisää resursseja ja koulutusta myynti tiimillesi, jotta ymmärrät asiakkaiden olemassa olevan Työpöytä ympäristön, Active Directory Reliance-, liikkuvuus-ja suojaus tarpeet, jotta Microsoft 365 Businessin koko arvo voitaisiin tehokkaasti välittää. asiakkaan kannalta merkityksellisillä tavalla. Etsi nämä resurssit Office-kumppani portaalista osoitteessa [http://partners.office.com/microsoft365business](http://partners.office.com/microsoft365business). 
+Kumppanit nyt myyvät Office 365 voi käyttää samoja neuvoa myynti tapoja myydä Microsoft 365 Business. Lisäksi esittelemme lisää resursseja ja koulutusta myynti tiimillesi, jotta ymmärrät asiakkaiden olemassa olevan Työpöytä ympäristön, Active Directory Reliance-, liikkuvuus-ja suojaus tarpeet, jotta Microsoft 365 Businessin koko arvo voitaisiin tehokkaasti välittää. asiakkaan kannalta merkityksellisillä tavalla. Etsi nämä resurssit Office-kumppani portaalista osoitteessa [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business). 
 
 ### <a name="how-can-microsoft-365-business-help-partners-increase-the-profitability"></a>Miten Microsoft 365 Business auttaa kumppaneita lisäämään kannattavuutta? 
 Microsoft 365 Business auttaa kumppaneita vähentämään kustannuksia parantamalla operatiivista tehokkuutta ja tehostamasta tuloja lisä palvelujen myynnin kautta. Forresterin tutkimus, Microsoft 365 Business Total Economic Impact (TEI)-tutkimus, kesäkuu 2017 (https://www.microsoft.com/microsoft-365/partners/PartnerTEI), osoittaa, että Microsoft 365 Business vaikuttaa positiivisesti kumppanin kannattavuuteen. 

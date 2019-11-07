@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Lue lisä tietoja ehdollisten käyttö käytäntöjen määrittämisestä Microsoft 365-kampanjoille.
-ms.openlocfilehash: 31f3b7f3678671af3b5ca3947dec37041b226fac
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3772aa0d505ef54a0587423e890ede519d571e0c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575634"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031391"
 ---
 # <a name="set-up-conditional-access-policies"></a>Määritä ehdolliset käyttö oikeus käytännöt
 
@@ -53,9 +53,9 @@ Lisä tietoja näistä käytännöistä on Ohje aiheessa [Mitä ovat perusaikata
     ![Sivu, joka sisältää ehdollisen käytön peruskäytännöt.](media/baslinepolicies.png)
 1. Katso seuraavat erityiset ohjeet kutakin käytäntöä varten:
 
-  - [Vaadi järjestelmänvalvojien MFA](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-- [Vaadi MFA-käyttäjille](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
- - [Estä aiempi todennus](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [Vaadi järjestelmänvalvojien MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [Vaadi MFA-käyttäjille](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [Estä aiempi todennus](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
   - [Vaadi MFA palvelun hallintaa varten](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 Voit määrittää useita lisä käytäntöjä, kuten hyväksyttyjen asiakas sovellusten vaatiminen. Lisä tietoja on [ehdollisen käytön ohjeissa](https://docs.microsoft.com/azure/active-directory/conditional-access/) .
