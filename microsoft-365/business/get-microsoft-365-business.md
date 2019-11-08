@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Opi ostamaan Microsoft 365 Business Microsoft Partner Centeristä.
-ms.openlocfilehash: 168c68c7394ff736e9d94cb40872230a3f3b8894
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 09d2f24fba1725278b663d5c3159163a56dcdc59
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030810"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038915"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Businessin hankkiminen
 
@@ -36,7 +36,7 @@ Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 Business:n, [osta s
 
 Lisä tietoja on kohdassa [Microsoft 365 Businessin rekisteröitymis](sign-up.md) ohjeet.
 
-Voit myös suunnata [Microsoft Storeen](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) ja ostaa Microsoft 365 Businessin ja saada asetus ohjeita.
+Voit myös suunnata [Microsoft Storeen](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) ja ostaa Microsoft 365 Businessin ja saada asetus ohjeita.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 365 Businessin hankkiminen Microsoft-kumppanikeskuksesta
 
@@ -46,7 +46,7 @@ Voit myös suunnata [Microsoft Storeen](https://www.microsoft.com/store/location
     
     ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. Valitse asiakkaan **Tilaus**-sivulla Lisää tilaus, valitse Luettelo-kohdasta Pienyritykset ja valitse sitten **Microsoft 365 Business**.
+3. Valitse asiakkaan **tilaus** -sivulla **Lisää tilaus**, valitse pien yritys-vaihto ehto kohdassa luettelo ja valitse sitten **Microsoft 365 Business**.
     
     Valitse tarvitsemasi määrä käyttöoikeuksia (enintään 300). Jos käyttäjiä on yli 300, tutustu sen sijaan [Microsoft 365 Enterpriseen](https://go.microsoft.com/fwlink/p/?linkid=862316). 
     

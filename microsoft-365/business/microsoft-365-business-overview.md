@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Opettele Microsoft 365 Businessin perustamista.
-ms.openlocfilehash: afc39ce57e63ad039780ad33e60fa81d8e8eec7a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 86af927c05168fabe5a72f331c14c9f3e5cbc1dd
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031461"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038945"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Yleistä Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Mikä Microsoft 365 Business on?
 
-Microsoft 365 Businessissa on kattava joukko yritysten tuottavuus- ja yhteiskäyttötyökaluja, joihin kuuluvat Outlook, Word, Excel ja muut Office-tuotteet, jotka ovat aina ajan tasalla. Voit suojata työtiedostojasi kaikissa iOS-, Android- ja Windows 10 -laitteissasi yritystason suojauksella, jota on helppo hallita.
+Microsoft 365 Business on tilaus palvelu, joka sisältää Office 365-tuottavuus työkalut sekä kehittyneet toiminnot, joiden avulla voit suojata yritystäsi kyberuhkilta, suojata tietosi ja hallita laitteita.
   
 Microsoft 365 Business on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset lisää käyttöoikeuksia, katso [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista lisätietoja.
 
