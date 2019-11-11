@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Vaiheet, jotka päivittävät yrityksesi Office 365 Business Premiumiin Microsoft 365 Business-versioon.
-ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: f3a25746cf123fa471c29084a62a6fcfc1542a02
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002111"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231407"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Päivitä Microsoft 365 Business Office 365 Business Premiumiin
 
@@ -38,37 +38,6 @@ Lue lisää Microsoft 365 Business yrityksessä [Microsoft.com](https://www.micr
 ## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Mitä eroa on Office 365 Business Premiumin ja Microsoft 365 Businessin välillä?
 Olemme lisänneet näiden kahden suunnitelman vertailun rinnakkain [Microsoft 365-yritys palvelun kuva](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)uksen kanssa. 
 
-1. Kun olet hankkinut uudet käyttö oikeudet ja tämä on ensimmäinen kerta, Microsoft 365 Businessin asennus nauha näkyy hallinta keskuksen yläosassa.
-    
-    > [!NOTE]
-    > Asennus palkki on mahdollisuus lisätä uusia käyttäjiä, uusi toimi alue ja siirtää sähkö postia uusille käyttäjille. Jos et aio tehdä mitään, sinun pitäisi silti käydä läpi ohjatun toiminnon ja valita oletus asetukset, jotta se katoaa järjestelmänvalvojan koti sivulta. 
-  
-   ![Valitse Käynnistä asennus Microsoft 365-liike toiminta on valmis määrittää bannerin.](media/8d3b0d97-7cca-497f-9364-4b00ad670209.png)
-  
-    Valitse **Aloita määritys**.
-    
-2. Voit lisätä **Muokkaa kirjautumista ja sähkö postia-** sivulla toimi alueen valitsemalla **Yhdistä jo omistamasi toimi alueen** , jos haluat käyttää tätä mahdollisuutta lisätäksesi uuden toimi alueen tilaukseesi. 
-    
-    Jos olet jo määrittänyt toimi alueen, toinen kenttä ilmaisee, että ja sanovat **Jatka käyttämällä** \< _toimi alue nimeäsi_ \> **sähkö postia ja sisäänkirjautumista varten**.   Jos et ole määrittänyt verkko tunnusta tilaukseesi, se sanoo **jatkavan** \< _yrityksesi Name.onmicrosoft.com_ \> **sähkö postia ja kirjautumista**.  
-    
-    Valitse **Seuraava**.
-    
-    ![Valitse Mukauta kirjautumista ja sähkö postia-sivulla joko lisää toimi alue tai käytä sitä, jota olet käyttänyt.](media/c3f5cfb2-1189-4d2f-803b-c9feb008a7a3.png)
-  
-3. Lisää uusia **käyttäjiä** -sivulla voit lisätä uusia käyttäjiä, jos sinulla on uusia työn tekijöitä, joille haluat määrittää Microsoft 365 Business-käyttö oikeudet. 
-    
-    Jos sinulla ei ole uusia työn tekijöitä lisättävät ja haluat määrittää lisenssejä nykyisille käyttäjille, valitse **Seuraava**.
-    
-4. **Siirrä Sähkö posti viestit** -sivulla voit siirtää sähkö postia mille tahansa uudelle käyttäjälle, jonka lisäsit vaiheessa 3. Voit ohittaa tämän vaiheen myös. Valitse **Seuraava**.
-    
-5. Valitse viimeisellä sivulla **Siirry hallinta keskukseen**ja jatka asennusta siellä.
-    
-6. Siirry hallinta keskukseen, **käyttäjät** \> **aktiiviset käyttäjät**.
-    
-7. Valitse käyttäjä, jolle haluat määrittää **Microsoft 365 Business** -käyttö oikeuden, ja valitse sitten **tuote lisenssien**vieressä **Muokkaa** .
-    
-    ![Valitse käyttäjä kortissa tuote lisenssien vieressä Muokkaa.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
-  
 ## <a name="before-you-get-started"></a>Ennen aloittamista
 
 - **Milloin kannattaa valita päivitys?** Päivitys on oikea valinta, kun haluat päivittää kaikki yhdelle suunnitelmalle määritetyt **käyttäjät** . Kun valitset Päivitä, kaikki suunnitelman käyttäjät saavat vaihtaa toiseen suunnitelmaan samaan aikaan. Jos et halua päivittää kaikkia yksittäiseen suunnitelmaan määritettyjä, Osta uuden suunnitelman käyttö oikeuksia (tässä tapa uksessa Microsoft 365 Business) ja [Määritä kyseiset käyttö oikeudet erikseen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) jokaiselle käyttäjälle, jonka haluat päivittää. 
