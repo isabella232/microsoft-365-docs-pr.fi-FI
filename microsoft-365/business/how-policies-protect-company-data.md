@@ -23,24 +23,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Tietoja käytännöistä, jotka kohdistu tiettyihin laitteisiin ja suojaus ryhmiin yrityksen tietojen suojaamiseksi käyttäjän henkilökohtaisissa laitteissa.
-ms.openlocfilehash: f0a7f5ac91fa7eb20c54024f8017927199a7758b
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Voit suojata yrityksen tiedot käyttäjien henkilökohtaisista laitteista käyttämällä tiettyjä laitteita ja suojaus ryhmiä kohdistu käytäntöjä.
+ms.openlocfilehash: 225dbadf599d5287a706ce50ec2b3cc9dd27c996
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574594"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320124"
 ---
-# <a name="how-policies-in-microsoft-365-business-protect-company-data"></a><span data-ttu-id="cb73f-103">Miten Microsoft 365 Businessin käytännöt suojaavat yritystietoja?</span><span class="sxs-lookup"><span data-stu-id="cb73f-103">How policies in Microsoft 365 Business protect company data</span></span>
+# <a name="how-policies-in-microsoft-365-business-protect-company-data"></a><span data-ttu-id="5d76d-103">Miten Microsoft 365 Businessin käytännöt suojaavat yritystietoja?</span><span class="sxs-lookup"><span data-stu-id="5d76d-103">How policies in Microsoft 365 Business protect company data</span></span>
 
-<span data-ttu-id="cb73f-p101">Luomasi käytännöt ovat laitetyyppikohtaisia, ja ne voidaan ottaa käyttöön tietyille käyttäjäryhmille. Tämä tarkoittaa, että voit luoda yhden käytännön, joka koskee johtajia, ja toisen, joka koskee kaikkia muita.</span><span class="sxs-lookup"><span data-stu-id="cb73f-p101">The policies that you create are specific to the device type and can be applied to specific groups of users. This means that you could create one policy that applies to your executives, and another that applies to everyone else.</span></span>
+<span data-ttu-id="5d76d-p101">Luomasi käytännöt ovat laitetyyppikohtaisia, ja ne voidaan ottaa käyttöön tietyille käyttäjäryhmille. Tämä tarkoittaa, että voit luoda yhden käytännön, joka koskee johtajia, ja toisen, joka koskee kaikkia muita.</span><span class="sxs-lookup"><span data-stu-id="5d76d-p101">The policies that you create are specific to the device type and can be applied to specific groups of users. This means that you could create one policy that applies to your executives, and another that applies to everyone else.</span></span>
   
-<span data-ttu-id="cb73f-p102">Voit lisätä tai muokata Android- ja iOS-laitteiden sovelluskäytäntöjä, jotka suojaavat Office-sovelluksia ja Office-sovellusten käyttämiä työtiedostoja. Windows 10 -laitteita voidaan hallita hieman enemmän siten, että sovelluskäytännöt voivat sisältää lisäasetuksia, kuten salauksen ja verkko- ja pilvisijaintien suojauksen. Voit myös luoda Windows 10 -laitteille laitekäytäntöjä, jotka pakottavat asetuksia, kuten virustentorjunnan ja automaattiset päivitykset. On suositeltavaa noudattaa asennuksen aikana luotuja käytäntöjä, mutta jos haluat tarkentaa niitä tai lisätä uusia, tutustu seuraaviin artikkeleihin:</span><span class="sxs-lookup"><span data-stu-id="cb73f-p102">For Android and iOS devices, you can add or edit application policies that protect Office apps and work files used by Office apps. We're able to control Windows 10 devices a bit more, so application policies can include additional settings, like encryption and protection for network and cloud locations. You can also create device policies for Windows 10 devices that enforce settings like virus protection and automatic updates. We recommend that you stick with the policies created during setup, but if you'd like to fine-tune your policies or add more, please reference these articles:</span></span>
+<span data-ttu-id="5d76d-106">Voit lisätä tai muokata Android- ja iOS-laitteiden sovelluskäytäntöjä, jotka suojaavat Office-sovelluksia ja Office-sovellusten käyttämiä työtiedostoja.</span><span class="sxs-lookup"><span data-stu-id="5d76d-106">For Android and iOS devices, you can add or edit application policies that protect Office apps and work files used by Office apps.</span></span> <span data-ttu-id="5d76d-107">Voimme hallita Windows 10-laitteita hieman enemmän, joten sovellus käytännöt voivat sisältää Lisää asetuksia, kuten salausta ja suojausta verkko-ja pilvi sijainteihin.</span><span class="sxs-lookup"><span data-stu-id="5d76d-107">We're able to control Windows 10 devices a bit more, so application policies can include more settings, like encryption and protection for network and cloud locations.</span></span> <span data-ttu-id="5d76d-108">Voit myös luoda Windows 10 -laitteille laitekäytäntöjä, jotka pakottavat asetuksia, kuten virustentorjunnan ja automaattiset päivitykset.</span><span class="sxs-lookup"><span data-stu-id="5d76d-108">You can also create device policies for Windows 10 devices that enforce settings like virus protection and automatic updates.</span></span> <span data-ttu-id="5d76d-109">Suosittelemme, että pidät kiinni asennuksen aikana luoduista käytännöistä, mutta jos haluat hienosäätää käytäntöjä tai lisätä lisää, Katso seuraavat artikkelit:</span><span class="sxs-lookup"><span data-stu-id="5d76d-109">We recommend that you stick with the policies created during setup, but if you'd like to fine-tune your policies or add more, see these articles:</span></span>
   
-[<span data-ttu-id="cb73f-110">Android- ja iOS-laitteiden sovellusmääritysten määrittäminen</span><span class="sxs-lookup"><span data-stu-id="cb73f-110">Set app configurations for Android or iOS devices</span></span>](app-protection-settings-for-android-and-ios.md)
+[<span data-ttu-id="5d76d-110">Android- ja iOS-laitteiden sovellusmääritysten määrittäminen</span><span class="sxs-lookup"><span data-stu-id="5d76d-110">Set app configurations for Android or iOS devices</span></span>](app-protection-settings-for-android-and-ios.md)
   
-[<span data-ttu-id="cb73f-111">Windows 10 -tietokoneiden laitemääritysten määrittäminen</span><span class="sxs-lookup"><span data-stu-id="cb73f-111">Set device configurations for Windows 10 PCs</span></span>](protection-settings-for-windows-10-pcs.md)
+[<span data-ttu-id="5d76d-111">Windows 10 -tietokoneiden laitemääritysten määrittäminen</span><span class="sxs-lookup"><span data-stu-id="5d76d-111">Set device configurations for Windows 10 PCs</span></span>](protection-settings-for-windows-10-pcs.md)
   
-[<span data-ttu-id="cb73f-112">Sovellusten suojausasetusten määrittäminen Windows 10 -laitteita varten</span><span class="sxs-lookup"><span data-stu-id="cb73f-112">Set app protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-devices.md)
+[<span data-ttu-id="5d76d-112">Sovellusten suojausasetusten määrittäminen Windows 10 -laitteita varten</span><span class="sxs-lookup"><span data-stu-id="5d76d-112">Set app protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-devices.md)
   
 
