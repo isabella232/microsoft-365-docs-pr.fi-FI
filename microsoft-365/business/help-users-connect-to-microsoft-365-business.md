@@ -24,16 +24,16 @@ search.appverid:
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Lue, mitä voit odottaa, kun Business Cloud Suite-asennus on valmis.
-ms.openlocfilehash: b11c247e8d857f8c7a4d41f633267038b3dd86c6
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: d19438d6e085ba27ec3fb0308005a9bf473383e1
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574694"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320184"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Auta käyttäjiä muodostamaan yhteys Microsoft 365 Businessiin
 
-Kun asennus on valmis, oletuslaitekäytännöt on määritetty ja valmiina käytettäviksi. Mobiililaitteissa käyttäjät lataavat Office-sovelluksia, minkä jälkeen käytäntöjä käytetään, kun käyttäjä kirjautuu sisään työpaikan tai oppilaitoksen tilillä. Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä. Seuraavissa artikkeleissa on asentamista ja yhteyden muodostamista koskevia ohjeita käyttäjille.
+Kun olet suorittanut asennuksen, oletus laite käytännöt ovat valmiina käyttöön. Mobiililaitteilla käyttäjät lataavat Office-sovelluksia. Käytäntöjä käytetään silloin, kun käyttäjä kirjautuu sisään työ-tai koulu tililleen. Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä. Katso ja Jaa seuraavat ohje aiheet, jotka auttavat käyttäjiä saamaan käyttöön ja liitettyä:
   
 [Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-windows-devices.md)
   

@@ -23,24 +23,24 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Opi lataamaan laitteita automaatti ohjauksen avulla Microsoft 365 Businessissa. Voit määrittää profiilin laitteelle tai laite ryhmälle.
-ms.openlocfilehash: 4eadaa800aa174bcd9cac50375f68c8471e1684e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 1dd6b1a574166379e29465bf3699e47e3b155e0b
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575404"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320254"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Autopilot-laitteiden luominen ja muokkaaminen
 
 ## <a name="upload-a-list-of-devices"></a>Laiteluettelon lataaminen
 
-Voit ladata laitteita [vaiheittaisten ohjeiden](add-autopilot-devices-and-profile.md) mukaan, mutta voi ladata myös **Laitteet**-välilehdessä. 
+Voit käyttää [vaiheittaisia oppaita](add-autopilot-devices-and-profile.md) laitteiden lataamiseen, mutta voit myös ladata laitteita **laitteet** -väli lehdeltä. 
   
 Laitteiden on täytettävä nämä vaatimukset:
   
-- Windows 10, versio 1703 tai uudempi.
+- Windows 10, versio 1703 tai uudempi
     
-- Uudet laitteet, joita ei ole määritetty Windowsin tervetuloa-ohjelmassa.
+- Uudet laitteet, jotka eivät ole olleet Windows-käyttö kokemuksen kautta
 
 1. Valitse Microsoft 365 Business-hallinta keskuksessa **laitteet** \> - **automaatti ohjaus**.
   
@@ -48,13 +48,13 @@ Laitteiden on täytettävä nämä vaatimukset:
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. Selaa **laitteet** [-paneelissa laite luettelon CSV-tiedostoon](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) , jonka olet valmistellut \> **Tallenna** \> **Sulje**.
+3. Siirry **Lisää laitteita** -paneelissa sen [laite luettelon CSV-tiedostoon](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e) , jonka valmistelit \> **Tallenna** \> **Sulje**.
     
-    Saat nämä tiedot laitevalmistajalta tai voit käyttää PowerShell-komentosarjaa [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo), joka luo CSV-tiedoston. 
+    Voit hankkia nämä tiedot laitteiston toimittajalta, tai voit luoda CSV-tiedoston [Get-WindowsAutoPilotInfo PowerShell-komento sarjan](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) avulla. 
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>Profiilin määrittäminen laitteelle tai laiteryhmälle
 
-1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti ja valitse ruutu yhden tai useamman laitteen vierestä. 
+1. Valitse **Valmistele Windows** -sivulla **laitteet** -väli lehti ja valitse yhden tai useamman laitteen vieressä oleva valinta ruutu. 
     
 2. Valitse **Laitteet**-paneelista profiili avattavasta **Määritetty profiili** -luettelosta. 
     

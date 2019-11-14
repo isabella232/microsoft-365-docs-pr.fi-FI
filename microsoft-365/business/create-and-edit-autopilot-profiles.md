@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Opi luomaan, muokkaamaan, poistamaan tai poistamaan automaatti ohjauksen profiileja.
-ms.openlocfilehash: 4305340a2fc5df8202cf4d85f9e2541690bf9ed0
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f7fdc2632e93c48e043fe158842f8395d6a89e14
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574714"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320234"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Autopilot-profiilien luominen ja muokkaaminen
 
@@ -40,17 +40,17 @@ Profiilia käytetään laitteeseen tai laiteryhmään
   
 2. Valitse **automaatti ohjaus** -sivulla **Profiilit** -väli lehti \> **Luo profiili**.
     
-3. Kirjoita **Luo profiili** -sivulla nimi, jonka avulla tunnistaa sen, kuten Markkinointi. Ota käyttöön haluamasi asetus (katso kohtaa [Tietoja AutoPilot-profiilien asetuksista](autopilot-profile-settings.md)) ja valitse **Tallenna**.
+3. Kirjoita **Luo profiili** -sivulla sen profiilin nimi, joka auttaa tunnistamaan sen, esimerkiksi markkinointi. Ota haluamasi asetus käyttöön ja valitse **Tallenna**. Lisä tietoja automaatti ohjauksen profiili asetuksista on kohdassa [tietoja automaatti ohjauksen profiili asetuksista](autopilot-profile-settings.md).
     
     ![Enter name and turn on settings in the Create profile panel.](media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
 ### <a name="apply-profile-to-a-device"></a>Profiilin käyttäminen laitteeseen
 
-Kun olet luonut profiilin, voit käyttää sitä laitteeseen tai laiteryhmään. Voit valita olemassa olevan profiilin [vaiheittaisten ohjeiden](add-autopilot-devices-and-profile.md) avulla, voit käyttää sitä uusiin laitteisiin tai voit korvata laitteen tai laiteryhmän olemassa olevan profiilin. 
+Kun olet luonut profiilin, voit käyttää sitä laitteessa tai laite ryhmässä. Voit valita olemassa olevan profiilin [vaiheittainen opas](add-autopilot-devices-and-profile.md) ja käyttää sitä uusiin laitteisiin tai korvata olemassa olevan profiilin laitteelle tai laite ryhmälle. 
   
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse valintaruutu laitteen nimen vierestä ja valitse **Laite**-paneeli. Valitse profiili avattavasta **Määritetty profiili** -valikosta \> **Tallenna**.
+2. Valitse laitteen nimen vieressä oleva valinta ruutu ja valitse **laite** -paneelista profiili avattavasta **määritetty profiili** -luettelosta \> **Tallenna**.
     
     ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -62,7 +62,7 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti. 
     
-2. Valitse valintaruutu laitteen nimen vierestä ja päivitä **Profiili**-paneelissa haluamasi asetukset \> **Tallenna**.
+2. Valitse laitteen nimen vieressä oleva valinta ruutu ja Päivitä **profiili** -paneelissa mikä tahansa käytettävissä oleva asetus \> **Tallenna**.
     
     Jos teet näin, ennen kuin käyttäjä yhdistää laitteen internetiin, profiilia käytetään asennuksessa.
     
@@ -70,7 +70,7 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti. 
     
-2. Valitse valintaruutu laitteen nimen vierestä ja valitse **Profiili**-paneelissa **Poista profiili** \> **Tallenna**.
+2. Valitse laitteen nimen vieressä oleva valinta ruutu ja valitse **profiili** -paneelista **Poista profiilin** \> **tallennus**.
     
     Kun poistat profiilin, se poistetaan siitä laitteesta tai laiteryhmästä, johon se määritettiin.
     
@@ -78,5 +78,5 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse valintaruutu laitteen nimen vierestä ja valitse **Laite**-paneelissa **Ei mitään** avattavasta **Määritetty profiili** -valikosta \> **Tallenna**.
+2. Valitse laitteen nimen vieressä oleva valinta ruutu ja valitse **laite** -paneelista **ei mitään** avattavasta **määritetty profiili** -luettelosta \> **Tallenna**.
     

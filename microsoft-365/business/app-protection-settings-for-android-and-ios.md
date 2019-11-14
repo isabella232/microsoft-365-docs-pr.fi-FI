@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: Opi luomaan, muokkaamaan tai poistamaan sovelluksen hallinta käytäntöä ja suojaamaan työtiedostoja Android-tai iOS-laitteilla.
-ms.openlocfilehash: 914e6848ac46eb334516aadff2827da2b83a38c4
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: 2eebe5b603837d7e4125ab7e88b61792ca3a1e5d
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002081"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38321841"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Sovellusten suojausasetusten määrittäminen Android- tai iOS-laitteita varten
 
@@ -41,15 +41,15 @@ ms.locfileid: "38002081"
   
 3. Kirjoita **Lisää käytäntö** -ruutuun yksilöivä nimi tälle käytännölle. 
     
-4. Valitse **Käytännön tyyppi** -kohdassa **Androidin sovellusten hallinta** tai **iOS:n sovellusten hallinta** sen mukaan, minkä käytäntöjoukon haluat luoda. 
+4. Valitse **käytäntö tyyppi**-kohdassa **Androidin sovellusten hallinta** tai **iOS:n sovellusten hallinta**sen mukaan, minkä joukon käytäntöjä haluat luoda. 
     
-5. Expand **Protect work files when devices are lost or stolen** and **Manage how users access Office files on mobile devices** \> configure the settings how you would like. The **Manage how users access Office files on mobile devices** is **Off** by default, but it is recommended that you turn it **On** and accept the default values. Katso lisä tietoja [käytettävissä olevista asetuksista](#available-settings) . 
+5. Laajenna **suojaa työtiedostot, kun laitteita katoaa tai varastetaan** ja **hallitaan sitä, miten käyttäjät voivat käyttää Office-tiedostoja mobiililaitteilla**. Määritä asetukset, kuten haluat. **Hallitse sitä, miten käyttäjät voivat käyttää mobiililaitteiden Office-tiedostoja** , on oletusarvoisesti **poissa käytöstä** , mutta suosittelemme, että **otat sen käyttöön** ja hyväksyt oletus arvot. Lisä tietoja on kohdassa [käytettävissä olevat asetukset](#available-settings). 
     
     Voit aina palauttaa oletusasetuksen **Oletusasetusten palauttaminen** -linkin avulla. 
     
     ![Screenshot of Create a policy with Application management for Android selected](media/eabbe06d-ac0a-4f3a-8630-68c808b1e662.png)
   
-6. Päätä seuraavaksi, **ketkä saavat nämä asetukset**. Jos et halua käyttää oletusarvoista **Kaikki käyttäjät** -käyttöoikeusryhmää, valitse **Muuta** ja valitse käyttöoikeusryhmät, jotka saavat nämä asetukset \> **Valitse**.
+6. Päätä seuraavaksi, **ketkä saavat nämä asetukset**. Jos et halua käyttää **kaikkien käyttäjien** oletus suojaus ryhmää, valitse **Muuta**, valitse Suojaus ryhmät, jotka saavat \> **nämä asetukset.**
     
 7. Lopuksi tallenna käytäntö valitsemalla **Valmis** ja määritä se laitteisiin. 
     
@@ -59,7 +59,7 @@ ms.locfileid: "38002081"
     
 2. Valitse **Muokkaa käytäntöä** -ruudussa käytäntö, jota haluat muuttaa. 
     
-3. Valitse **Muokkaa** jokaisen asetuksen vieressä ja muuta käytännön arvoja. Kun muutat arvoa, se tallennetaan automaattisesti käytäntöön. 
+3. Valitse **Muokkaa** jokaisen asetuksen vieressä ja muuta käytännön arvoja. Kun muutat arvoa, se tallennetaan automaattisesti käytäntöön.
     
 4. Kun olet valmis, sulje **Muokkaa käytäntöä** -ruutu. 
     
@@ -82,23 +82,19 @@ Seuraavilla asetuksilla voidaan suojata työtiedostoja, jos käyttäjän laite k
 |||
 |:-----|:-----|
 |Asetus  <br/> |Kuvaus  <br/> |
-|Poista työtiedostot passiivisesta laitteesta näin monen päivän kuluttua  <br/> |Jos laitetta ei käytetä niin moneen päivään kuin tässä määrität, laitteeseen tallennetut työtiedostot poistetaan automaattisesti.  <br/> |
-|Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin  <br/> |Jos tämä asetus on **käytössä**, ainoa käytettävissä oleva työtiedostojen tallennuspaikka on OneDrive for Business.  <br/> |
-|Salaa työtiedostot  <br/> |Pidä tämä asetus **käytössä**, jotta työtiedostot suojataan salauksella. Vaikka laite katoaa tai varastetaan, kukaan voi lukea yritystietojasi.  <br/> |
+|Poista työtiedostot passiivisesta laitteesta näin monen päivän kuluttua  <br/> |Jos laitetta ei käytetä tässä määrittämiesi päivien määrään, laitteeseen tallennetut työtiedostot poistetaan automaattisesti.  <br/> |
+|Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin  <br/> |Jos tämä asetus on **käytössä**, ainoa käytettävissä oleva tallennus sijainti työtiedostoille on OneDrive for Business.  <br/> |
+|Salaa työtiedostot  <br/> |Pidä tämä asetus **käytössä**, jotta työtiedostot suojataan salauksella. Vaikka laite katoaa tai varastetaan, kukaan ei voi lukea yrityksesi tietoja.  <br/> |
    
-### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Asetukset, joilla hallitaan käyttäjien Office-tiedostojen käyttöä mobiililaitteissa
+### <a name="settings-that-control-how-users-access-office-files-on-mobile-devices"></a>Asetukset, joilla hallitaan käyttäjien Office-tiedostojen käyttöä mobiililaitteilla
 
 Käyttäjien Office-työtiedostojen käyttöä voidaan hallita seuraavilla asetuksilla:
   
 |||
 |:-----|:-----|
 |Asetus  <br/> |Kuvaus  <br/> |
-|Office-sovellusten käyttäminen edellyttää PIN-koodia tai sormenjälkeä  <br/> |Jos tämä asetus on **käytössä**, käyttäjien on annettava toinen todennusmuoto käyttäjänimensä ja salasanansa lisäksi, ennen kuin he voivat käyttää Office-sovelluksia mobiililaitteillaan.  <br/> |
+|Office-sovellusten käyttäminen edellyttää PIN-koodia tai sormenjälkeä  <br/> |Jos tämä asetus on **käytössä** , käyttäjien on annettava toinen todennus muoto käyttäjä nimen ja Sala sanan lisäksi, ennen kuin he voivat käyttää Office-sovelluksia mobiililaitteissaan.<br/> |
 |Palauta PIN-koodi, jos kirjautuminen epäonnistuu näin monta kertaa  <br/> |Jos haluat estää luvatonta käyttäjä arvaamasta PIN-koodia sattumalta, PIN-koodi palautetaan määrittämäsi virheellisten syöttökertojen määrän jälkeen.  <br/> |
-|Vaadi käyttäjää kirjautumaan uudelleen, jos Office-sovellukset ovat olleet käyttämättöminä  <br/> |Tämä asetus määrittää, kuinka kauan käyttäjä voi olla toimimatta, ennen kuin häntä kehotetaan kirjautumaan sisään uudelleen.  <br/> |
+|Vaadi käyttäjää kirjautumaan uudelleen, jos Office-sovellukset ovat olleet käyttämättöminä  <br/> |Tämä asetus määrittää, kuinka kauan käyttäjä voi olla käyttämättömänä, ennen kuin häntä pyydetään Kirjautu maan uudelleen sisään.  <br/> |
 |Estä työtiedostojen käyttö laitteissa, joiden suojaukset on murrettu  <br/> |Kekseliäällä käyttäjällä voi olla laite, jonka suojaus on murrettu. Tämä tarkoittaa, että käyttäjä voi muokata käyttöjärjestelmää, minkä vuoksi laite voi altistua helpommin haittaohjelmille. Tällaiset laitteet on estetty, kun tämä asetus on **käytössä**.  <br/> |
 |Salli käyttäjille sisällön kopiointi Office-sovelluksista henkilökohtaisiin sovelluksiin  <br/> |Oletuksena tätä ei sallita, mutta jos asetus on **käytössä**, käyttäjä voi kopioida työtiedoston tietoja henkilökohtaiseen tiedostoon. Jos asetuksena on **Ei käytössä**, käyttäjä ei voi kopioida tietoja työtilistä henkilökohtaiseen sovellukseen tai henkilökohtaisen tiliin.  <br/> |
-   
-
-  
-

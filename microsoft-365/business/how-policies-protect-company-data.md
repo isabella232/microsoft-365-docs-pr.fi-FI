@@ -23,19 +23,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Tietoja käytännöistä, jotka kohdistu tiettyihin laitteisiin ja suojaus ryhmiin yrityksen tietojen suojaamiseksi käyttäjän henkilökohtaisissa laitteissa.
-ms.openlocfilehash: f0a7f5ac91fa7eb20c54024f8017927199a7758b
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Voit suojata yrityksen tiedot käyttäjien henkilökohtaisista laitteista käyttämällä tiettyjä laitteita ja suojaus ryhmiä kohdistu käytäntöjä.
+ms.openlocfilehash: 225dbadf599d5287a706ce50ec2b3cc9dd27c996
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574594"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320124"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Miten Microsoft 365 Businessin käytännöt suojaavat yritystietoja?
 
 Luomasi käytännöt ovat laitetyyppikohtaisia, ja ne voidaan ottaa käyttöön tietyille käyttäjäryhmille. Tämä tarkoittaa, että voit luoda yhden käytännön, joka koskee johtajia, ja toisen, joka koskee kaikkia muita.
   
-Voit lisätä tai muokata Android- ja iOS-laitteiden sovelluskäytäntöjä, jotka suojaavat Office-sovelluksia ja Office-sovellusten käyttämiä työtiedostoja. Windows 10 -laitteita voidaan hallita hieman enemmän siten, että sovelluskäytännöt voivat sisältää lisäasetuksia, kuten salauksen ja verkko- ja pilvisijaintien suojauksen. Voit myös luoda Windows 10 -laitteille laitekäytäntöjä, jotka pakottavat asetuksia, kuten virustentorjunnan ja automaattiset päivitykset. On suositeltavaa noudattaa asennuksen aikana luotuja käytäntöjä, mutta jos haluat tarkentaa niitä tai lisätä uusia, tutustu seuraaviin artikkeleihin:
+Voit lisätä tai muokata Android- ja iOS-laitteiden sovelluskäytäntöjä, jotka suojaavat Office-sovelluksia ja Office-sovellusten käyttämiä työtiedostoja. Voimme hallita Windows 10-laitteita hieman enemmän, joten sovellus käytännöt voivat sisältää Lisää asetuksia, kuten salausta ja suojausta verkko-ja pilvi sijainteihin. Voit myös luoda Windows 10 -laitteille laitekäytäntöjä, jotka pakottavat asetuksia, kuten virustentorjunnan ja automaattiset päivitykset. Suosittelemme, että pidät kiinni asennuksen aikana luoduista käytännöistä, mutta jos haluat hienosäätää käytäntöjä tai lisätä lisää, Katso seuraavat artikkelit:
   
 [Android- ja iOS-laitteiden sovellusmääritysten määrittäminen](app-protection-settings-for-android-and-ios.md)
   

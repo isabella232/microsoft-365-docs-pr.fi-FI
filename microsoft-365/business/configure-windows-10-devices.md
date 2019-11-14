@@ -24,18 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
 description: 'Lue lisä tietoja kaikkien organisaatiosi käyttäjien Windows 10: lle kuuluvista laite käytännöistä.'
-ms.openlocfilehash: 11c8f75f56a86895d7f81fc242490303c10ac24e
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: ad092d2b2760a55e16c44a66350626c90c9ac7c5
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575424"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38321360"
 ---
 # <a name="configure-windows-10-devices"></a>Windows 10 -laitteiden määrittäminen
 
-Asennuksen aikana luodaan Windows 10:n laitekäytäntö, joka koskee kaikkia organisaation käyttäjiä. Kun käyttäjä kirjautuu Windows 10 -laitteen Office-sovellukseen käyttämällä työpaikan tai oppilaitoksen tiliä, määrittämiäsi asetuksia käytetään automaattisesti sen varmistamiseksi, että käyttäjä muodostaa yhteyden turvallisesti.
+Asennuksen aikana luodaan Windows 10: lle laite käytäntö, joka koskee kaikkia organisaatiosi käyttäjiä. Kun käyttäjä kirjautuu sisään Office-sovellukseen Windows 10-laitteessaan, jossa on työ-tai koulu tili, määritettävää asetusta käytetään automaattisesti, jotta käyttäjä voi muodostaa yhteyden suojatussa tapa uksessa.
   
-Oletusmäärityksen hyväksymistä asennuksen aikana suositellaan. Asennuksen jälkeen voit luoda lisäkäytäntöjä ja kohdistaa niitä tietyille käyttäjäryhmille.
+Oletusmäärityksen hyväksymistä asennuksen aikana suositellaan. Asennuksen jälkeen voit luoda lisää käytäntöjä ja kohdistaa ne tietyille käyttäjä ryhmille.
   
 Jos haluat lisätä käytännön Windows 10 -laitemääritysten hallintaa varten, lue artikkeli [Windows 10 -tietokoneiden laitemääritysten määrittäminen](protection-settings-for-windows-10-pcs.md).
   
