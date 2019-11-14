@@ -21,34 +21,34 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Opi käyttämään Windowsin automaatti ohjausta uusien Windows 10-laitteiden käyttöön yrityksellesi.
-ms.openlocfilehash: d028ea3e902965d55c445dc3b3a02aa315201b25
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 5f40dac57285b83da57d4506bac58e562475522c
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574784"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38323091"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
 
-Windowsin automaatti ohjauksen avulla voit määrittää **uusia** Windows 10-laitteita yrityksellesi, jotta ne ovat valmiita tuottavaan käyttöön heti, kun annat ne työn tekijöille.
+Windowsin automaatti ohjauksen avulla voit määrittää **uusia** Windows 10-laitteita yrityksellesi, jotta ne ovat valmiita käytettäväksi, kun annat ne työn tekijöillesi.
   
 ## <a name="device-requirements"></a>Laitevaatimukset
 
 Laitteiden on täytettävä nämä vaatimukset:
   
-- Windows 10, versio 1703 tai uudempi.
+- Windows 10, versio 1703 tai uudempi
     
-- Uudet laitteet, joita ei ole määritetty Windowsin tervetuloa-ohjelmassa.
+- Uudet laitteet, jotka eivät ole olleet Windows-käyttö kokemuksen kautta
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Käytä laitteiden ja profiilien määritysopasta
 
-[![Etiketti, jonka avulla voit tietää, että hallinta keskus on muuttumassa ja löydät lisä tietoja osoitteessa aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Jos sinulla ei ole vielä luotuna laiteryhmiä tai -profiileja, aloittaminen on helpointa vaiheittaisen oppaan avulla, mutta voit myös [lisätä laitteita](create-and-edit-autopilot-devices.md) ja [määrittää profiileja](create-and-edit-autopilot-profiles.md) käyttämättä opasta. 
+Jos et ole vielä luonut laite ryhmiä tai profiileja, paras tapa aloittaa se on käyttää vaiheittaisia ohjeita. Voit myös [lisätä laitteita](create-and-edit-autopilot-devices.md) ja [määrittää niille profiileja](create-and-edit-autopilot-profiles.md) käyttämättä opasta. 
   
 1. Siirry hallinta keskukseen-kohtaan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
 
-2. Valitse vasemmassa NAV-ohjelmassa **laitteet** \> **automaatti ohjaus**.
+2. Valitse vasemmasta siirtymis ruudusta **laitteet** \> **automaatti ohjaus**.
 
     ![Valitse hallinta keskuksessa laitteet ja sitten automaatti ohjaus.](media/AutoPilot.png)
   
@@ -56,37 +56,35 @@ Jos sinulla ei ole vielä luotuna laiteryhmiä tai -profiileja, aloittaminen on 
     
     ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Valitse **Lataa laiteluettelon sisältävä .csv-tiedosto** -sivulta sijainti, johon olet valmistellut .csv-tiedoston, ja valitse sitten **Avaa** \> **Seuraava**. Tiedostossa pitäisi olla kolme otsikkoa:
+3. Siirry **Lataa. csv-tiedostoon ja laite luettelo-** sivulle selaamalla sijaintiin, jossa olet valmis. CSV-tiedosto ja **Avaa** \> **Seuraava**. Tiedostossa on oltava kolme otsikkoa:
     
-  - Sarake A: Laitteen sarjanumero
+    - Sarake A: Laitteen sarjanumero
     
-  - Sarake B: Windows-tuotetunnus
+    - Sarake B: Windows-tuotetunnus
     
-  - Sarake C: Laitteisto-hash
+    - Sarake C: Laitteisto-hash
     
-    Saat nämä tiedot laitevalmistajalta tai voit käyttää PowerShell-komentosarjaa [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo), joka luo CSV-tiedoston. 
+    Voit hankkia nämä tiedot laitteiston toimittajalta, tai voit luoda CSV-tiedoston [Get-WindowsAutoPilotInfo PowerShell-komento sarjan](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) avulla. 
     
     Katso lisätietoja [Laiteluettelon CSV-tiedostosta](https://support.office.com/article/932e3676-2491-49f0-9177-d893d2f5276e). Voit myös ladata esimerkkitiedoston **Lataa laiteluettelon sisältävä .csv-tiedosto** -sivulta. 
     
-4. Voit valita joko olemassa olevan profiilin **Profiilin määrittäminen** -sivulta tai luoda uuden profiilin. Jos sinulla ei ole vielä profiilia, ohjelma pyytää luomaan uuden. 
+4. **Määritä profiili** -sivulla voit joko valita aiemmin luodun profiilin tai luoda uuden. Jos sinulla ei vielä ole sellaista, sinua pyydetään luomaan sellainen. 
     
     Profiili on asetuskokoelma, jota voidaan soveltaa yksittäiseen laitteeseen tai laiteryhmään.
     
-    Oletusominaisuudet ovat pakolliset, ja ne määritetään automaattisesti. Oletusominaisuudet ovat:
+    Oletus ominaisuudet ovat pakollisia, ja ne määritetään automaattisesti. Oletusominaisuudet ovat:
     
-  - Cortana, OneDrive ja OEM-rekisteröinti ohitetaan.
+    - Ohita Cortana, OneDrive ja OEM-rekisteröinti.
     
-  - Luo yrityskuvan mukainen kirjautumiskokemus.
+    - Luo yrityskuvan mukainen kirjautumiskokemus.
     
-  - Laitteet yhdistetään Azure Active Directory -tileihin ja rekisteröidään automaattisesti Microsoft 365 Business:n hallinnoitavaksi.
+    - Yhdistä laitteesi Azure Active Directory-tileihin ja rekisteröi ne automaattisesti Microsoft 365 Businessin hallitseman.
     
-    Katso lisätietoja kohdasta
-    
-    [Tietoja AutoPilot-profiilien asetuksista](autopilot-profile-settings.md) . 
+    Lisä tietoja on kohdassa [tietoja automaatti ohjauksen profiili asetuksista](autopilot-profile-settings.md). 
     
 5. Toiset asetukset ovat **Ohita suojausasetukset** ja **Älä salli käyttäjän ryhtyä paikalliseksi järjestelmänvalvojaksi**. Nämä molemmat ovat oletusarvoisesti **Poissa käytöstä**. 
     
     Valitse **Seuraava**.
     
-6. **Olet valmis** -sivu osoittaa, että luomaasi (tai valitsemaasi) sivua sovelletaan luomaasi laiteryhmään lataamalla laiteluettelo. Nämä asetukset ovat voimassa, kun laitteen käyttäjät kirjautuvat seuraavan kerran. Valitse **Sulje**.
+6. **Olet valmis** ilmaisee, että luomasi profiili (tai valittu) otetaan käyttöön laite ryhmälle, jonka olet luonut lataamalla laitteiden luettelon. Asetukset ovat voimassa, kun laitteen käyttäjät kirjauduttava sisään seuraavaksi. Valitse **Sulje**.
     
