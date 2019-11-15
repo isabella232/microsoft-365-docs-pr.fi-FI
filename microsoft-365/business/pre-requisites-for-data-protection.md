@@ -1,5 +1,5 @@
 ---
-title: Vaatimukset laitteiden tietojen suojaamiselle Microsoft 365 Businessin avulla
+title: Edellytykset tietojen suojaamiseksi laitteille, joissa on Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -17,33 +17,30 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: 'Tunne organisaation perustamiseen liittyvät ennakko vaatimukset Microsoft 365 Businessin avulla. '
-ms.openlocfilehash: 157abf0a3396ab374297441bf90d6defc4093390
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+description: Tiedät organisaation määrittämisen edellytykset Microsoft 365 Businessin avulla.
+ms.openlocfilehash: 874a85859e315ef17e10fdd8094860e1e6bf2560
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290526"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640537"
 ---
-# <a name="pre-requisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Vaatimukset laitteiden tietojen suojaamiselle Microsoft 365 Businessin avulla
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Edellytykset tietojen suojaamiseksi laitteille, joissa on Microsoft 365 Business
 
-Kun organisaatiolle määritetään Microsoft 365 Business, aivan ensimmäisenä kannattaa varmistaa, että edellytykset täyttyvät.
+Organisaation määrittämisen ensimmäinen vaihe Microsoft 365 Businessin kanssa on varmistaa, että voit täyttää edellytykset.
   
-## <a name="pre-requisites"></a>Edellytykset
+## <a name="prerequisites"></a>Edellytykset
 
 - Windows-laitteissa on oltava Windows 7 Professional, Windows 8 Pro tai Windows 8.1 Pro.
     
     [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md) .
     
-    Jos käytössäsi on Windows 10 Home, sinun on **hankittava** Windows 10 Pro. Katso ohjeet [Windows 10 Home-päivityksen päivittämisestä Windows 10 Prohon](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) . 
+    Jos käytössäsi on Windows 10 Home, sinun on **ostettava** Windows 10 Pro. Katso ohjeet [Windows 10 Home-päivityksen päivittämisestä Windows 10 Prohon](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) . 
     
-- Poista laitteet mobiilikäytön hallintaratkaisuista (kuten Mobile Iron, AirWatch tms.). Rekisteröit kaikki käyttäjät organisaatiossasi Microsoft 365 Business -mobiilikäytön hallintaan.
+- Poista laitteet mobiililaitteiden hallinta ratkaisuista (mobiili-silitys rauta, AirWatch jne.). Voit rekisteröidä kaikki organisaatiosi henkilöt Microsoft 365 Business Mobile Management-ohjelman kautta.
     
 - Apple iOS 8.0 tai uudempi.
     
-    Google Android 4.0 tai uudempi (mukaan lukien Samsung KNOX Standard 4.0 tai uudempi). Lisätietoja on artikkelissa [Intune-tuetut laitteet](https://go.microsoft.com/fwlink/p/?linkid=852307).
+    Google Android 4.0 tai uudempi (mukaan lukien Samsung KNOX Standard 4.0 tai uudempi). Lisä tietoja on kohdassa [Intune Tuetut laitteet](https://go.microsoft.com/fwlink/p/?linkid=852307).
     
-- Jos käyttäjien tietokoneissa on jo Office-sovelluksia, lue artikkelista [Office-asiakasohjelman asennuksen valmisteleminen](prepare-for-office-client-deployment.md), mitä toimenpiteitä sinun on mahdollisesti suoritettava ennen kuin voit määrittää Microsoft 365 Businessin Office 2016:n asentamiseksi käyttäjän tietokoneeseen. 
-    
-
-
+- Jos sinulla on aiemmin luotuja Office-sovelluksia käyttäjä tieto koneissa, Lue [Office-asiakas ohjelman asennuksen valmisteleminen](prepare-for-office-client-deployment.md) , jotta ymmärrät vaiheet, jotka sinun on ehkä tehtävä, ennen kuin voit määrittää Microsoft 365 Business-sovelluksen asentamaan Office 2016-sovelluksen käyttäjä tieto koneisiin. 
