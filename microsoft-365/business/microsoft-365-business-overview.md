@@ -21,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Opettele Microsoft 365 Businessin perustamista.
-ms.openlocfilehash: 86af927c05168fabe5a72f331c14c9f3e5cbc1dd
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+description: Lisä tietoja Microsoft 365-liike toiminnan.
+ms.openlocfilehash: 03e16c336a2d6d3d8ffd5875ed7419bba3c7e378
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038945"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633395"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Yleistä Microsoft 365 Business
 
@@ -35,7 +35,7 @@ ms.locfileid: "38038945"
 
 Microsoft 365 Business on tilaus palvelu, joka sisältää Office 365-tuottavuus työkalut sekä kehittyneet toiminnot, joiden avulla voit suojata yritystäsi kyberuhkilta, suojata tietosi ja hallita laitteita.
   
-Microsoft 365 Business on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset lisää käyttöoikeuksia, katso [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista lisätietoja.
+Microsoft 365 Business on tarkoitettu jopa 300 lisensseihin. Jos tarvitset lisää käyttö oikeuksia, Katso lisä tietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -dokumentaatiosta.
 
 Katso [Microsoft 365-yritys palvelun kuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) koko ominaisuuksien luettelosta.
   
@@ -43,12 +43,12 @@ Katso [Microsoft 365-yritys palvelun kuvaus](https://docs.microsoft.com/office36
 
 Yritys tietosi voivat vaarantua monin tavoin. Sinä ja käyttäjät voitte vaarantaa organisaatiosi suoja uksen, kun kirja udut sisään vaarantuneiden tunniste tietojen avulla tai voit tarkastella organisaation tietoja eri laitteissa ja sovelluksissa. Tarkemmin sanottuna, organisaatiosi on vaarassa:
 
-1. Kirjautumistunnukset vaarantuneet tai heikot.
-2. Vaarantunut laite heikolla PIN-koodilla tai käyttäjän omistama laite.
-3. Käyttäjät, jotka voivat kopioida/liittää/tallentaa organisaatiosi tiedot omiin sovelluksiin.
-4. Käyttäjät, jotka asentavat ja käyttävät 3<sup>Rd</sup> Party apps heikon tieto turvan.
-5. Sähkö postin haavoittuvuudet, mukaan lukien arkaluonteisten tietojen jakaminen, tietojenkalasteluyritykset, haitta ohjelmat jne.
-6. Kun ihmiset, joiden ei pitäisi, voivat käyttää asia kirjoja, joilla on arkaluonteisia tietoja.
+- Kirjautumistunnukset vaarantuneet tai heikot.
+- Vaarantunut laite heikolla PIN-koodilla tai käyttäjän omistama laite.
+- Käyttäjät, jotka voivat kopioida/liittää/tallentaa organisaatiosi tiedot omiin sovelluksiin.
+- Käyttäjät, jotka asentavat ja käyttävät kolmannen osapuolen sovelluksia heikon tieto turvan kanssa.
+- Sähkö postin haavoittuvuuksia, kuten arkaluonteisten tietojen jakamista, tietojenkalasteluyrityksiä, haitta ohjelmia ja niin vielä.
+- Kun ihmiset, joiden ei pitäisi, voivat käyttää asia kirjoja, joilla on arkaluonteisia tietoja.
 
 Microsoft 365 Business auttaa suojaamaan tietosi kussakin näistä ilmentymistä. Yritys tietoja suojaavat suojaus ominaisuudet on kuvattu seuraavassa kuvassa.
 
@@ -58,7 +58,7 @@ Microsoft 365 Business auttaa suojaamaan tietosi kussakin näistä ilmentymistä
 
 Microsoft 365 Business auttaa **puolustautui uhkia vastaan** :
 
-Skannaus sähkö posteja ja asia kirjoja reaaliajassa estää vaarallisia Web-sivustoja (ATP Safe linkit).
+- Sähkö postien ja dokumenttien linkkien skannaaminen reaaliajassa estävien Web-sivustojen (ATP Safe Links) estäminen.
 
 - Suoritetaan kehittynyt analyysi sähkö postin liite tiedostoja Sandbox-ympäristössä havaita hiljattain kehitetty haitta ohjelmat (ATP turvalliset liitteet). 
 
@@ -66,23 +66,23 @@ Skannaus sähkö posteja ja asia kirjoja reaaliajassa estää vaarallisia Web-si
 
 - Sellaisten lisä käytäntöjen määrittäminen, jotka poistivat käytöstä ei-luotetuista sijainneista tai ohittavat usean tekijän todennuksen luotetuista paikoista, kuten Office-verkostosta (Azure MFA, mukaan lukien luotettavat IP-osoitteet ja ehdollinen käyttö). 
 
-- Haitta ohjelmien suoja uksen valvomista kaikissa yrityksesi Windows 10-laitteissa ja tiedostojen suojaaminen avain järjestelmän kansioissa kiristys ohjelmilta tehdyistä muutoksista (Windows Defender)
+- Haitta ohjelmien suoja uksen valvonta kaikissa organisaatiosi Windows 10-laitteissa ja tiedostojen suojaaminen avain järjestelmän kansioissa ransomware-ohjelman (Windows Defender) tekemät muutokset
 
 **Yritys tietosi on suojattu** :
 
 - Automaattisen tunnistuksen avulla voit estää arkaluonteiset tiedot, kuten sosiaaliturvatunnukset tai luotto kortit, jotka vuotavat yrityksesi ulkopuolelta (tietojen menetyksen estäminen). 
 
-- Arkaluonteisten sähkö postien salaaminen, jotta voit kommunikoida turvallisesti asiakkaiden tai yrityksesi ulkopuolisten henkilöiden kanssa varmistaen, että vain suunniteltu vastaanottaja voi lukea viestin (Office 365-viestin salaus).
+- Salaamalla arkaluontoisia sähkö posteja, jotta voit kommunikoida turvallisesti asiakkaiden tai muiden organisaatiosi ulkopuolisten henkilöiden kanssa. Näin varmistetaan, että vain suunniteltu vastaanottaja voi lukea viestin (Office 365-sanoman salaus).
 
 - Määräys valta, jolla on pääsy yrityksen tietoihin, käyttämällä rajoituksia, kuten **Älä kopioi** ja **välitä** sähkö postiin ja asia kirjoihin (Azure-tietojen suojaus, suunnitelma 1).
 
-- Mahdollistaa rajoittamaton pilvi arkistointi, joten voit säilyttää kaikki yrityksesi Sähkö posti, mukaan lukien posti laatikot entisten työn tekijöiden (Exchange Online arkistointi).
+- Mahdollistaa rajoittamattoman pilvi arkistointi, jotta voit säilyttää kaikki organisaatiosi Sähkö posti, mukaan lukien entisten työn tekijöiden posti laatikot (Exchange Online-arkistointi).
 
 **Laitteet on suojattu** :
 
-- Sen hallitsemista, mitkä laitteet ja käyttäjät voivat käyttää Office 365-tietoja; vaihto ehtoja estää käyttäjiä kirjautumasta koti tieto koneista, YK-hyväksytystä sovelluksesta tai työajan ulkopuolella (ehdollinen pääsy).
+- Sen hallitseminen, mitkä laitteet ja käyttäjät voivat käyttää Office 365-tietoja, sekä vaihto ehtoja estää käyttäjiä kirjautumisesta koti tieto koneisiin, hyväksymättyihin sovelluksiin tai työajan ulkopuolella (Ehdollinen käyttö).
 
-- Suojaus käytäntöjen soveltaminen yritys tietojen suojaamiseen iOS-ja Android-laitteilla.  Voit esimerkiksi vaatia käyttäjiä antamaan PIN-koodin tai sormen jäljen, jotta he voivat käyttää yritys tietoja, ja salata tietoja mobiililaitteilla (sovellusten suojaaminen Office-mobiilisovelluksilla).
+- Suojaus käytäntöjen soveltaminen yritys tietojen suojaamiseen iOS-ja Android-laitteilla. Voit esimerkiksi vaatia käyttäjiä antamaan PIN-koodin tai sormen jäljen, jotta he voivat käyttää yritys tietoja, ja salata tietoja mobiililaitteilla (sovellusten suojaaminen Office-mobiilisovelluksilla).
 
 - Yritys asiakirjojen, sähkö postien ja muiden tietojen pitäminen hyväksytyissä Office-mobiilisovelluksissa ja työn tekijöiden estäminen tallentamasta niitä luvattomiin sovelluksiin ja sijainteihin (sovellusten suojaaminen Office-mobiilisovelluksilla).
 
@@ -90,11 +90,11 @@ Skannaus sähkö posteja ja asia kirjoja reaaliajassa estää vaarallisia Web-si
 
 - Yksinkertaistettujen ohjaus objektien käyttäminen kaikkien yrityksesi Windows 10-tieto koneiden käytäntöjen hallintaan, BitLocker-Sala uksen valvomista ja tärkeiden Windows-päivitysten automaattista asentamista (Windows Update-käytäntöjen pakotusta).
 
-Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microsoft 365 Business Security-ominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Businessin](set-up.md), katso [lisä suojaus käytäntöjen määrittäminen](set-up-advanced-security.md) , jotta pääset alkuun niiden suojaus ominaisuuksien kanssa, joita ei sisällytetä ohjatun asennuksen osana. Lue myös [Top 10 tapoja suojata Office 365 ja Microsoft 365 liiketoiminta suunnitelmat](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvä yleiskuva siitä, miten perustaa suoja uksia Cyber rikollisia ja hakkereita.
+Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microsoft 365 Business Security-ominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Businessin](set-up.md), katso [lisä suojaus käytäntöjen määrittäminen](set-up-advanced-security.md) , jotta pääset alkuun niiden suojaus ominaisuuksien kanssa, jotka eivät sisälly ohjattuun asennukseen. Lue myös [Top 10 tapoja suojata Office 365 ja Microsoft 365 liiketoiminta suunnitelmat](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvä yleiskuva siitä, miten perustaa suoja uksia Cyber rikollisia ja hakkereita.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Businessin hankkiminen
 
-- Jos sinulla on kumppani, hän saa Microsoft 365 Business:n seuraavasti: [Hanki Microsoft 365 Business Microsoft-kumppanikeskuksesta](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
+- Jos sinulla on kumppani, he saavat Microsoft 365 Business: [Hanki microsoft 365 Business Microsoft Partner Centeristä](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
 - Jos sinulla ei ole kumppanina ja haluat saada Microsoft 365 Business, voit [ostaa sen täältä](https://www.microsoft.com/microsoft-365/business) ja seuraa [kirjautumisohjeita](sign-up.md) .
 

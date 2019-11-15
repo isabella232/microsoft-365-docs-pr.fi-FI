@@ -23,17 +23,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Tietoja tai laite, joka suojaa politiikan kautta hallittua siirtymä.
-ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Opi palauttamaan tai pyyhkimään laite, jota hallitaan suojaus käytäntöjen avulla.
+ms.openlocfilehash: ef3b8ed0e3b3f8b9136d3929bce1b835309498c7
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074666"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633325"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Hallitse suojattuja laitteita Microsoft 365 Businessin avulla
 
-Kun käyttäjä on muodostanut yhteyden laitteesta organisaatioosi kirjautumalla työpaikan tilillä laitteeseen tai laitteen Office-sovelluksiin, laite voidaan suojata määrittämilläsi käytännöillä, ja se merkitään **Laitteet**-sivulle. Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot. Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin. Lisätietoja laitteiden hallintatehtävistä, joita voit suorittaa, on seuraavissa artikkeleissa: 
+Kun käyttäjä on yhdistävä laitteensa organisaatioosi kirjautumalla sisään työtililleen laitteessa tai laitteen Office-sovelluksissa, voit suojata laitteen määrittämällä haluamasi käytännöt. Liitetyt laitteet on lueteltu **laitteet** -sivulla. Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot. Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin. 
+
+Lisä tietoja laitteista, joita voit käyttää laitteiden hallintaan, on artikkelissa seuraavat artikkelit: 
   
 [Yritystietojen poistaminen laitteista](remove-company-data.md)
   

@@ -18,21 +18,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Opi hallitsemaan Microsoft 365 Businessin liittyviä järjestelmänvalvojan tehtäviä, mobiililaitteita, Windows 10Pc-laitteita ja monia tällaisia tehtäviä.
-ms.openlocfilehash: 1e39adad50688686ef1d03ef7ed51534e067e6b3
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Opi hallitsemaan Microsoft 365 Businessin liittyviä järjestelmänvalvojan tehtäviä, mobiililaitteita, Windows 10-tieto koneita ja monia tällaisia tehtäviä.
+ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575954"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633305"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Businessin hallinta
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Yleiset Microsoft 365 Business -järjestelmänvalvojan tehtävät
 
-Suurin osa Office 365 for Businessin [järjestelmänvalvojasisällöstä](/Office365/Admin/admin-home.md) koskee myös Microsoft 365 Business-sivustoa.
+Useimmat Office 365 for Businessin [järjestelmänvalvojan sisällöt](/Office365/Admin/admin-home.md) koskevat myös Microsoft 365 Business-sivustoa.
 
-- [Käyttäjien lisääminen Microsoft 365 Businessiin](add-users-m365b.md)
+- [Lisää käyttäjiä Microsoft 365 Business](add-users-m365b.md)
     
 - [Käytäntöjen ja laitteiden tarkasteleminen](view-policies-and-devices.md)
     
@@ -40,7 +40,7 @@ Suurin osa Office 365 for Businessin [järjestelmänvalvojasisällöstä](/Offic
     
 - [Miten Microsoft 365 Businessin suojausominaisuudet vastaavat Intunen asetuksia](map-protection-features-to-intune-settings.md)
     
-Katso seuraavista osioista, miten voit käyttää Microsoft 365 Businessia organisaatiosi tietojen suojaamiseen tietokoneissa ja mobiililaitteissa.
+Seuraavissa kohdissa kerrotaan, miten voit suojata organisaatiosi tiedot tieto koneilla ja mobiililaitteilla Microsoft 365 Businessin avulla.
   
 ## <a name="manage-mobile-devices"></a>Mobiililaitteiden hallinta
 
@@ -48,7 +48,7 @@ Katso seuraavista osioista, miten voit käyttää Microsoft 365 Businessia organ
     
 - [Sovellusten suojausasetusten määrittäminen Android- tai iOS-laitteita varten](app-protection-settings-for-android-and-ios.md)
     
-    Katso [sovelluksen suojaus asetusten vahvistaminen Android-tai iOS-laitteella](validate-settings-on-android-or-ios.md) varmistaaksesi, että tämä toimi. 
+    Jos haluat varmistaa, että tämä toimi, katso [sovelluksen suojaus asetusten vahvistaminen Android-tai iOS-laitteella](validate-settings-on-android-or-ios.md). 
     
 - [Yritystietojen poistaminen laitteista](remove-company-data.md)
     
@@ -62,11 +62,11 @@ Katso seuraavista osioista, miten voit käyttää Microsoft 365 Businessia organ
     
 - [Laitteiden suojausasetusten määrittäminen Windows 10 -laitteita varten](protection-settings-for-windows-10-pcs.md)
     
-    Katso [Laitteiden suojausasetusten vahvistaminen Windows 10 -laitteissa](validate-settings-on-windows-10-pcs.md) varmistaaksesi, että se onnistui. 
+    Jos haluat varmistaa, että tämä toimi, katso [laitteen suojaus asetusten tarkistaminen Windows 10-laitteissa](validate-settings-on-windows-10-pcs.md). 
     
 - [Sovellusten suojausasetusten määrittäminen Windows 10 -laitteille](protection-settings-for-windows-10-devices.md)
     
-    Katso [Sovelluksen suojausasetusten vahvistaminen Windows 10 -laitteissa](validate-protection-settings-on-windows-10-pcs.md) varmistaaksesi, että se onnistui. 
+    Jos haluat varmistaa, että tämä toimi, katso [sovelluksen suojaus asetusten vahvistaminen Windows 10-tieto koneissa](validate-protection-settings-on-windows-10-pcs.md). 
     
 - [Yritystietojen poistaminen laitteista](remove-company-data.md)
     
@@ -88,9 +88,9 @@ Seuraavissa artikkeleissa kerrotaan, miten voit esimäärittää Windows 10 -lai
     
 - [Tietoja Autopilot-profiilien asetuksista](autopilot-profile-settings.md)
     
-## <a name="set-up-and-pre-requisite-information"></a>Tietoja määrittämisestä ja edellytyksistä
+## <a name="set-up-and-prerequisite-information"></a>Määritä ja edellytys tiedot
 
-- [Vaatimukset laitteiden tietojen suojaamiselle Microsoft 365 Businessin avulla](pre-requisites-for-data-protection.md)
+- [Edellytykset tietojen suojaamiseksi laitteille, joissa on Microsoft 365 Business](pre-requisites-for-data-protection.md)
     
 - [Microsoft 365 Businessin määrittäminen ohjatun määritystoiminnon avulla](set-up.md)
     
@@ -98,8 +98,4 @@ Seuraavissa artikkeleissa kerrotaan, miten voit esimäärittää Windows 10 -lai
     
 - [Ota toimialueeseen liitetyt Windows 10 -laitteet Microsoft 365 Businessin hallittavaksi](manage-windows-devices.md)
     
-[Muut suojaustoiminnot](security-features.md#additional-security-features)
-    
-
-  
-
+- [Muut suojaustoiminnot](security-features.md#additional-security-features)
