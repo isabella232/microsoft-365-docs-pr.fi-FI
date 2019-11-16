@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Yleiskatsaus Microsoft 365 Businessin asetus vaiheista.
-ms.openlocfilehash: 50f172c235aa06aa78fec60fc119ac7f568df308
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3e1cf240db673a7b961ec8aa574f3e09efee476b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575584"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676024"
 ---
 # <a name="overview-of-setup"></a>Yleiskatsaus asennuksesta
 
@@ -70,7 +70,6 @@ Suurin osa määritys vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mu
 
 ## <a name="stes-4-install-office-365-business"></a>STES 4: Asenna Office 365 Business
 - Voit asentaa Officen automaattisesti Windows-laitteisiin [ohjatun asennus toiminnon](set-up.md#deploy-office-365-client-apps)avulla.
-- [Asenna Office](auto-install-or-uninstall-office.md) automaattisesti hallinta keskuksesta.
 - Anna käyttäjien [asentaa Office-sovelluksia](https://docs.microsoft.com/office365/admin/setup/install-applications) Windowsille ja laitteille.
      
 ## <a name="advanced"></a>Kehittynyt
@@ -82,6 +81,6 @@ Suurin osa määritys vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mu
 
      - Jos organisaatiosi käyttää paikallista Windows Server Active Directorya, voit määrittää Microsoft 365 Businessin suojaamaan Windows 10-laitteitasi samalla, kun ylläpidämme paikallisen todennuksen edellyttävien paikallisten resurssien käyttö oikeuksia. Määritä Microsoft 365 Business, jotta voit määrittää tämän noudattamalla [toimi alueeseen liittyneiden Windows 10-laitteiden käyttöönotto](manage-windows-devices.md) ohjeita. Tämä on ensisijainen menetelmä ja laitteet tässä tilassa kutsutaan hybridi Azure AD liitetyt laitteet.
 
-    - Jos yrityksessasi on paikallinen Active Directory, joka sisältää joitakin paikallisia resursseja (kuten tiedosto resursseja ja tulostimia), voit antaa Azure AD-liitettyjen laitteiden käyttää näitä resursseja noudattamalla seuraavia ohjeita: [paikallisten resurssien käyttö Azure AD-liitetty laite Microsoft 365 Business](access-resources.md).
+    - Jos yrityksellasi on paikallinen Active Directory, joka sisältää joitakin paikallisia resursseja (kuten tiedosto resursseja ja tulostimia), voit antaa Azure AD-liitetyille laitteille näiden resurssien käyttö oikeudet noudattamalla seuraavia ohjeita: [paikallisten resurssien käyttö Azure AD-liitetystä laitteesta Microsoft 365-liike toiminnassa](access-resources.md).
 
   

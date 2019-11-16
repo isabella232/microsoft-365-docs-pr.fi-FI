@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Opi hallitsemaan Microsoft 365 Businessin liittyviä järjestelmänvalvojan tehtäviä, mobiililaitteita, Windows 10-tieto koneita ja monia tällaisia tehtäviä.
-ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: 77b8757d9e6ab644b16e97ff20f50c0ce3123088
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633305"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675964"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Businessin hallinta
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>Yleiset Microsoft 365 Business -järjestelmänvalvojan tehtävät
 
-Useimmat Office 365 for Businessin [järjestelmänvalvojan sisällöt](/Office365/Admin/admin-home.md) koskevat myös Microsoft 365 Business-sivustoa.
+Useimmat Office 365 for Businessin [järjestelmänvalvojan sisällöt](https://docs.microsoft.com/office365/admin/admin-home) koskevat myös Microsoft 365 Business-sivustoa.
 
 - [Lisää käyttäjiä Microsoft 365 Business](add-users-m365b.md)
     
@@ -55,9 +55,7 @@ Seuraavissa kohdissa kerrotaan, miten voit suojata organisaatiosi tiedot tieto k
 ## <a name="manage-windows-10-pcs"></a>Windows 10 -tietokoneiden hallinta
 
 - [Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-windows-devices.md)
-    
-- [Officen asentaminen tai poistaminen automaattisesti Windows 10 -laitteissa](auto-install-or-uninstall-office.md)
-    
+
     Lue [Microsoft 365 Businessin Office-asiakkaan käyttöönottoon valmistautuminen](prepare-for-office-client-deployment.md) ennen Officen automaattista asennusta. 
     
 - [Laitteiden suojausasetusten määrittäminen Windows 10 -laitteita varten](protection-settings-for-windows-10-pcs.md)
