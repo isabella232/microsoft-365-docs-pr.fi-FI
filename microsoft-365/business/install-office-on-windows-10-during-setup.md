@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Opi nyt ottamaan Officen automaattisesti käyttöön Windows 10-laitteissa asennuksen aikana.
-ms.openlocfilehash: fbc11553452ae5068ad7013a409901dee5b3570d
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 6bcb85a0acdf738d939c10d4fe418646b00b0b95
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320044"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704091"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Officen asentaminen Windows 10een asennuksen aikana
 
@@ -35,4 +35,4 @@ ms.locfileid: "38320044"
 
 Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön varmistaaksesi, että käyttäjillä on Officen uusin versio kaikissa Windows 10-laitteissa, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business-käyttö oikeus, jotta tämä asetus voi työntää ohjelmiston laitteeseen, sekä muiden [microsoft 365 Business-sovelluksen valmistelemisessa Office-asiakas ohjelman käyttöönotossa](prepare-for-office-client-deployment.md)kuvattujen vaatimusten lisäksi. 
   
-Suosittelemme, että hyväksyt oletus asetuksen asennuksen aikana. Jos haluat erilaiset asetukset eri käyttäjäryhmille, voit hallita Officen käyttöönottoa ryhmäkohtaisesti asennuksen jälkeen. Valitse hallintakeskuksen aloitussivulla **Laitteet** \> **Officen käyttöönoton hallinta**. Vaiheittaiset ohjeet ovat artikkelissa [Officen asentaminen tai poistaminen automaattisesti Windows 10 -laitteissa](auto-install-or-uninstall-office.md).
+Suosittelemme, että hyväksyt oletus asetuksen asennuksen aikana. 

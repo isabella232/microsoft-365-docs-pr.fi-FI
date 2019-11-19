@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Opettele Microsoft 365 Businessin perustamista.
-ms.openlocfilehash: 5986e3fb7786ebb3fa7bcf42b34345be98af44a2
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633425"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704111"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Businessin käytön aloittaminen
 
@@ -80,7 +80,6 @@ Jos organisaatiosi käyttää paikallista Windows Server Active Directorya, voit
   
 Jos säilytät paikallisen Active Directoryn, joka sisältää joitakin paikallisia resursseja (kuten tiedosto resursseja ja tulostimia), voit antaa **Azure AD-liitettyjen laitteiden** käyttää näitä resursseja noudattamalla seuraavia vaiheita: paikallisten [resurssien käyttö Azure AD-liitetystä laitteesta Microsoft 365-liike toiminnassa](access-resources.md).
   
-Kun olet määrittänyt Windows 10-tieto koneet, voit [asentaa Officen automaattisesti](auto-install-or-uninstall-office.md) laitteisiin. 
   
 ## <a name="contact-support"></a>Ota yhteyttä tukeen
 

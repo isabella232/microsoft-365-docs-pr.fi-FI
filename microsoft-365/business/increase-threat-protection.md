@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Office 365 Advanced uhkien torjunta ja suojaa arkaluontoisia tietoja.
-ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 87a5c79636a2eefe394b4a30e72971eb851e3ecb
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676004"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704071"
 ---
 # <a name="increase-threat-protection"></a>Lisää uhkien torjunta
 
@@ -233,4 +233,4 @@ Lisä tietoja on artikkelissa [Office 365 ATP Safe Links](https://go.microsoft.c
 
 3. Kun tulokset tulevat näkyviin, valitse Aloita **Microsoft Intunen** vierestä, jotta se on suosikki ja helppo löytää myöhemmin.
 
-Hallinta keskuksen lisäksi voit rekisteröidä ja hallinnoida organisaatiosi laitteita Intune-ohjelman avulla. Lisä tietoja on kohdassa [Windows-laitteiden rekisteröinti menetelmän ominaisuudet](https://docs.microsoft.com/intune/enrollment-method-capabs) ja [Intune-menetelmällä hallinnoitujen laitteiden rekisteröinti asetukset](https://docs.microsoft.com/intune/enrollment-options).
+Hallinta keskuksen lisäksi voit rekisteröidä ja hallinnoida organisaatiosi laitteita Intune-ohjelman avulla. Lisä tietoja on kohdassa [Windows-laitteiden rekisteröinti menetelmän ominaisuudet](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) ja [Intune-menetelmällä hallinnoitujen laitteiden rekisteröinti asetukset](https://docs.microsoft.com/intune/enrollment-options).
