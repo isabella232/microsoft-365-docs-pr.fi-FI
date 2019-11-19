@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Opi käyttämään Microsoft 365 Businessin tehdas asetusten palauttamista Windows 10-laitteisiin. '
-ms.openlocfilehash: 70e4fac2112db177587c04f58fbe8f8d0247ffa9
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 867b87b488ec13c7b84a9eb810a076fbb6da545d
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575714"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715158"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Palauta Windows 10 -laitteet tehdasasetuksiin.
 
-[![Etiketti, jonka avulla voit tietää, että hallinta keskus on muuttumassa ja löydät lisä tietoja osoitteessa aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Tehdasasetusten palauttaminen palauttaa laitteen alkuperäiset asetukset, jotka siinä oli ostohetkellä. Kaikki laitteessa olevat sovellukset ja tiedot, jotka on asennettu oston jälkeen, poistetaan. Voit palauttaa tahdasasetukset hallitsemiisi Windows 10 -laitteisiin Microsoft 365 Business:n avulla.
   
-1. Siirry hallinta keskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.. 
+1. Siirry hallinta keskukseen-kohtaan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
 2. Valitse vasemmasta NAV-kohdasta **laitteiden** \> **hallinta**.
 

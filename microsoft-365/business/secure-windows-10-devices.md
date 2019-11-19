@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
 description: 'Lue lisä tietoja oletus arvoista ja muista asetuksista Windows 10-laitteiden turvaamiseksi. '
-ms.openlocfilehash: 63631b6d15ca7e86df94cbb4feff323efb9d07ca
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: fef1bc3e19bada5785232047d37f4bc2393a974d
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575674"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715098"
 ---
 # <a name="secure-windows-10-devices"></a>Suojatut Windows 10 -laitteet
 
-Tässä määrittämäsi asetukset ovat osa Windows 10:n oletuslaitekäytäntöä. Kaikki käyttäjät, jotka yhdistävät Windows 10 -laitteeseen, mukaan lukien mobiililaitteet ja tietokoneet, kirjautumalla sisään työpaikan tilillä, saavat automaattisesti nämä asetukset. On suositeltavaa, että hyväksyt oletuskäytännön asennuksen aikana ja lisäät myöhemmin käytäntöjä, jotka kohdistuvat tiettyyn käyttäjäryhmään.
+Tässä määrittämäsi asetukset ovat osa Windows 10:n oletuslaitekäytäntöä. Kaikki käyttäjät, jotka yhdistävät Windows 10-laitteen, mukaan lukien mobiililaitteet ja tieto koneet, kirjautumiseen sisään työtililleen saavat automaattisesti nämä asetukset. On suositeltavaa, että hyväksyt oletuskäytännön asennuksen aikana ja lisäät myöhemmin käytäntöjä, jotka kohdistuvat tiettyyn käyttäjäryhmään.
   
 ## <a name="settings-to-secure-windows-10-devices"></a>Windows 10 -laitteiden suojausasetukset
 
@@ -41,7 +41,7 @@ Kaikki asetukset ovat oletusarvoisesti **käytössä**. Seuraavat asetukset ovat
 |Auta suojaamaan tietokoneitasi verkkopohjaisilta uhkilta Microsoft Edgessä  <br/> |Ottaa käyttöön Edgen asetukset, jotka auttavat suojaamaan käyttäjiä vahingollisilta sivustoilta ja latauksilta.  <br/> |
 |Sammuta laitteen näyttö, kun se on ollut käyttämättömänä tämän verran  <br/> |Varmistaa, että yritystiedot on suojattu, jos käyttäjä ei tee mitään. Käyttäjä saattaa työskennellä julkisessa paikassa, kuten kahvilassa, ja poistua tai kääntää huomion pois hetkeksi, jolloin laite on alttiina satunnaisille katseille. Tällä asetuksella voit määrittää, miten kauan käyttäjä voi olla toimettomana, ennen kuin näyttö pimenee.  <br/> |
 |Salli käyttäjille sovellusten lataaminen Microsoft Storesta  <br/> |Sallii käyttäjien ladata ja asentaa sovelluksia Microsoft Storesta. Sovellukset vaihtelevat peleistä tuottavuustyökaluihin, joten asetus on **käytössä**, mutta voit poistaa sen käytöstä lisäsuojausta varten.  <br/> |
-|Salli käyttäjien käyttää Cortanaa  <br/> |Cortana-toiminto voi olla hyvin hyödyllinen. Se voi ottaa puolestasi asetuksia käyttöön tai poistaa niitä käytöstä ja varmistaa, että ehdit ajoissa tapaamisiin, joten asetus on oletuksena **käytössä**.  <br/> |
+|Salli käyttäjien käyttää Cortanaa  <br/> |Cortana-toiminto voi olla hyvin hyödyllinen. Cortana voi ottaa asetukset käyttöön tai poistaa ne käytöstä, antaa ohjeita ja varmistaa, että olet ajan tasalla tapaamisista, joten pidämme **tämän asetuksen oletuksena** .  <br/> |
 |Salli käyttäjille Windows-vihjeiden ja -mainosten vastaanottaminen Microsoftilta  <br/> |Windows-vihjeet voivat olla käteviä ja auttaa perehdyttämään käyttäjiä, kun uusia ominaisuuksia julkaistaan.  <br/> |
 |Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> |Varmistaa, että Windows 10 -laitteet vastaanottavat automaattisesti päivityksiä.  <br/> |
    

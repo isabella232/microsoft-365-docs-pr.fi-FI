@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä yhteensopivuus ominaisuuksia tietojen menettämisen estämiseksi ja arkaluonteisten tietojen otsikoiksi.
-ms.openlocfilehash: 5213c55f4a8ce0e223896f1b960847714d6d06cb
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6fae95e8c5e6d133e3163dbdfd3c09cfede11382
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031411"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715118"
 ---
 # <a name="set-up-compliance-features"></a>Yhteensopivuus ominaisuuksien määrittäminen
 
@@ -33,11 +33,11 @@ Microsoft 365-yritys sisältää ominaisuuksia, jotka suojaavat tietojasi ja lai
 
 Katso [Luo DLP-käytäntö mallista](https://support.office.com/article/59414438-99f5-488b-975c-5023f2254369) esimerkkinä siitä, miten voit määrittää käytännön suojaamaan henkilökohtaisia tunniste tietoja (pii) vastaan. 
   
-DLP sisältää monia valmiita käytäntö malleja monille eri kieli alueilla. Esimerkiksi Australian taloudelliset tiedot, Kanadan henkilö tieto laki, Yhdysvaltain taloudelliset tiedot jne. Katso, [mitä DLP-käytäntö mallit sisältävät](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) täydellisestä luettelosta. Kaikki nämä mallit voidaan ottaa käyttöön samanlaisiksi kuin PII-malli esimerkki. 
+DLP sisältää monia valmiita käytäntö malleja monille eri kieli alueilla. Esimerkiksi Australian taloudelliset tiedot, Kanadan henkilö tieto laki, Yhdysvaltain taloudelliset tiedot ja niin vielä. Katso, [mitä DLP-käytäntö mallit sisältävät](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) täydellisestä luettelosta. Kaikki nämä mallit voidaan ottaa käyttöön samanlaisiksi kuin PII-malli esimerkki. 
   
 ## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Sähkö postin säilyttämisen määrittäminen Exchange Online-arkistoinnin avulla
 
- **Exchange Online-arkistointi** lisenssi ominaisuudet auttavat ylläpitämään yhteensopivuus-ja sääntely standardeja säilyttämällä Sähkö posti sisällön eDiscovery. Se auttaa myös vähentämään riskiä tapa uksessa oikeus juttu ja tarjoaa tapa palauttaa tietoja, kun tieto turva loukkaus, tai kun haluat palauttaa poistetut kohteet. Voit säilyttää kaikki käyttäjän sisällöt tai käyttää säilytys käytäntöjä, kun haluat muokata säilytetä.
+ **Exchange Online-arkistointi** lisenssi ominaisuudet auttavat ylläpitämään yhteensopivuus-ja sääntely standardeja säilyttämällä Sähkö posti sisällön eDiscovery. Se myös auttaa vähentämään riskiä, jos on oikeus juttu, ja tarjoaa tapa palauttaa tietoja, kun tieto turva loukkaus tai kun haluat palauttaa poistetut kohteet. Voit säilyttää kaikki käyttäjän sisällöt tai käyttää säilytys käytäntöjä, kun haluat muokata säilytetä.
   
 **Oikeuden käyntien pito:** Voit säilyttää kaiken posti laatikon sisällön, mukaan lukien poistetut kohteet, asettamalla käyttäjän koko posti laatikon oikeus riita-asioihin. 
     
@@ -45,11 +45,11 @@ Voit sijoittaa posti laatikon oikeuden käyntiin pitämällä hallinta keskukses
     
 1. Siirry vasemmassa siirtymis osassa **käyttäjät** \> **aktiiviset käyttäjät**-kohtaan.
     
-2. Valitse käyttäjä, jonka posti laatikon haluat sijoittaa oikeuden käyntien pito-ja käyttäjä ruudussa Laajenna Mail- **Asetukset** ja valitse **Lisää asetuksia** -kohdasta **Muokkaa Exchangen ominaisuuksia**.
+2. Valitse käyttäjä, jonka posti laatikon haluat sijoittaa riita-asioihin. Laajenna käyttäjä ruudussa **mailin asetukset**ja valitse **Lisää asetuksia**-kohdasta **Muokkaa Exchangen ominaisuuksia**.
     
 3. Valitse käyttäjän posti laatikko-sivulla * * posti laatikon ominaisuudet * * vasemmassa NAV-ohjelmassa ja valitse sitten **Ota käyttöön** -linkki kohdassa **oikeuden käynti pito**.
     
-4. Voit määrittää **riita-** asioiden pito-valinta ikkunassa oikeuden käynnin keston kesto-kentässä, jätä kenttä tyhjäksi, jos haluat sijoittaa äärettömän **pito ajan.** Voit myös lisätä muistiinpanoja ja ohjata posti laatikon omistajan sivustoon, jossa saatat joutua selittämään lisää riita-asioiden pito \> - **säästä**.
+4. Voit määrittää **oikeuden käynnin pito-valinta ikkunassa** oikeuden käyntien keston **oikeuden käynnin** keston kentässä. Jätä kenttä tyhjäksi, jos haluat sijoittaa äärettömän pito-arvon. Voit myös lisätä muistiinpanoja ja ohjata posti laatikon omistajaa verkkosivustolle, jota saatat joutua selittämään lisää riita-asioiden pito paikasta. \>**Tallenna**.
     
 **Säilyttäminen:** Voit ottaa käyttöön mukautetut säilytys käytännöt, esimerkiksi säilyttää tietyn ajan tai poistaa sisällön pysyvästi säilytys ajan päätyttyä. Lisä tietoja [on kohdassa säilytys käytäntöjen yleiskatsaus](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
 
@@ -70,4 +70,4 @@ Voit asentaa AIP-asiakkaan manuaalisesti:
 2. Voit varmistaa, että asennus on toiminut tarkastelemalla Word-asia kirjaa ja varmistamalla, että **herkkyys** asetus on käytettävissä **Aloitus** -väli lehdellä.
 <br/>![Word-asia kirjan avattava suojaus-väli lehti.](media/word-sensitivity.png)
 
-Lisä tietoja [on kohdassa asiakkaan asentaminen](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).
+Lisä tietoja on kohdassa [Asenna asiakas](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).
