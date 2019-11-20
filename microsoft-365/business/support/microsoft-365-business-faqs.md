@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, usein kysytyt kysymykset, vasta ukset, liike toiminta
 ms.date: 06/08/2018
-ms.openlocfilehash: e4db583fa52807e27bb088083aae028e2e1c05ce
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 09a155c87bf90309f8a4cdd2eb5c0b71d2337d58
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38311060"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748367"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business usein kysytyt kysymykset
 
@@ -63,7 +63,7 @@ Microsoft 365-liike toiminnan voi hankkia Microsoft <a href="https://www.microso
 Microsoft 365 Business tarjotaan USD $20.00 käyttäjä/kuukausi perustuu _vuosi sopimuksen_ , jos ostettu suoraan Microsoftilta. Kun ostit Microsoft-kumppanin kautta, hinnoittelu voi vaihdella kumppanin tarjoamien palveluiden ja Microsoft 365 Businessin hinnoittelu mallin mukaan. 
 
 ### <a name="is-there-a-cap-to-how-many-microsoft-365-business-seats-a-customer-can-have"></a>Onko olemassa korkki, kuinka monta Microsoft 365-yritys paikkaa asiakkaalla voi olla? 
-Microsoft 365 Business on suunniteltu pienille ja keskisuurille yrityksille, joilla on matala ja keskisuuri IT-monimutkaisuus vaatimukset. Asiakkaat voivat ostaa organisaatiolleen jopa 300 Microsoft 365-yritys lisenssiä. Asiakkaat voivat sekoittaa ja sovittaa pilvi tilauksia; tämän seura uksena asiakkaat voivat IT-vaatimuksistaan riippuen lisätä Microsoft 365 Enterprise-lisenssejä samalle tilille. 
+Microsoft 365 Business on suunniteltu pienille ja keskisuurille yrityksille, joilla on matala ja keskisuuri IT-monimutkaisuus vaatimukset. Asiakkaat voivat ostaa organisaatiolleen jopa 300 Microsoft 365-yritys lisenssiä. Asiakkaat voivat sekoittaa ja sovittaa pilvi tilauksia. Tämän seura uksena asiakkaat voivat IT-vaatimuksistaan riippuen lisätä Microsoft 365 Enterprise-lisenssejä samalle tilille. 
  
 Kun asiakkaat pitävät ympäristössä, joka koostuu useista tilaus tyypeistä, heidän tulisi työskennellä luotettavien IT-neuvojien kanssa, jotta he voivat parhaiten hallita ja suojata eri tila uksia Microsoft 365 Business-ja Microsoft 365 Enterprise-käyttö liittyminä erilaisia valmiuksia suojata ja hallita sovelluksia ja tietoja.
 
@@ -135,7 +135,7 @@ Kyllä, Microsoft 365-yritys tilaajille myönnetään käyttö oikeus täyteen I
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Onko Azure Active Directory Premium P1 mukana Microsoft 365 Business? 
-Microsoft 365 Business sisältää Valitse Azure AD Premium P1 (AADP P1)-ominaisuudet, kuten itsepalvelun Sala sanan nollaaminen mainoksen kirjoitus palautuksen, Azure MFA-yhteyden ja ehdollisen käytön avulla. Se ei sisällä AADP P1: tä kokonaisuudessaan. Lisä tietoja on [Microsoft 365-yritys palvelun kuva](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) uksessa. 
+Microsoft 365 Business sisältää Valitse Azure AD Premium P1 (AADP P1)-ominaisuudet, kuten itsepalvelun Sala sanan nollaaminen mainoksen kirjoitus palautuksen, Azure MFA-yhteyden ja ehdollisen käytön avulla. Se ei sisällä AADP P1: tä kokonaisuudessaan. Lisä tietoja on [Microsoft 365-yritys palvelun kuvaus](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148)-kohdassa.
  
  
 ### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Sallitaanko asiakkaiden hallinnoida Maceja Microsoft 365-liike toiminnan avulla? 
@@ -178,16 +178,16 @@ Microsoft tarjoaa laajan valikoiman resursseja CSP-kumppaneille markkinoida, myy
 ### <a name="what-up-sell-opportunities-does-microsoft-365-business-give-partners"></a>Mitä myynti mahdollisuuksia Microsoft 365 Business antaa kumppaneille? 
 Microsoft 365-liike toiminnan avulla kumppanit voivat ylläpitää luotettavaa neuvonantajan asemaa asiakkaiden kanssa luomalla kiinteän ja suojatun alustan, johon voit myydä lisä palveluita ja päivittää olemassa olevia tuotteita ja palveluita. Microsoft 365 Business tarjoaa mahdollisuuden päivittää keskustelua asiakkaiden kanssa Exchange Serverin, Exchange Onlinen tai Office 365 Business Essentialsin avulla. Kumppanit voivat myös saada enemmän tuloja hallittujen palveluiden ja/tai perustajan tuki maksuista. 
  
-Kun uusi Windows Auto Pilot-ominaisuus sisältyy Microsoft 365 Business, kumppanit, jotka ovat olleet haluttomia myymään uusia Windows-laitteita käyttöönoton logistiikan ja kustannusten vuoksi, löytävät tämän mahdollisuuden paljon houkuttelevammaksi. Asiakkaat, jotka luottavat paikallisten ja mobiililaitteiden turvallisuuteen, investoivat todennäköisemmin myös muihin palveluihin, kuten Dynamics 365. 
+Kun uusi Windows AutoPilot ominaisuus sisältyy Microsoft 365 Business, kumppanit, jotka ovat olleet haluttomia myydä uusia Windows-laitteiden käyttöönoton logistiikan ja kustannukset löytävät tämän mahdollisuuden paljon houkuttelevampi. Asiakkaat, jotka luottavat paikallisten ja mobiililaitteiden turvallisuuteen, investoivat todennäköisemmin myös muihin palveluihin, kuten Dynamics 365. 
  
 ### <a name="should-partners-sell-microsoft-365-business-over-other-plans-from-microsoft"></a>Pitäisikö kumppanit myydä Microsoft 365-liike toimintaa muiden Microsoftin suunnitelmien kautta? 
 Microsoft Cloud-ratkaisun tarjoajan tulee aina myydä asiakkaan liiketoiminta tarpeisiin ja budjettiin parhaiten sopiva suunnitelma. Jos asiakkaan on esimerkiksi noudatettava tieto suoja-ja tieto turva määräyksiä, CSP voi myydä Microsoft 365 Business Plus-lisä osia, jotka auttavat asiakasta täyttämään vaatimukset tai saattavat ehdottaa Microsoft 365 Businessin kehittynyttä suojausta ja hallintaa. Yrityksen SKU-yksiköt. 
  
-### <a name="some-of-my-customers-have-devices-that-are-not-genuine-will-microsoft-365-business-make-these-devices-genuine"></a>Joillakin asiakkailleni on laitteita, jotka eivät ole aitoja; Onko Microsoft 365 Business tehdä nämä laitteet aito? 
+### <a name="some-of-my-customers-have-devices-that-arent-genuine-will-microsoft-365-business-make-these-devices-genuine"></a>Joillakin asiakkailleni on laitteita, jotka eivät ole aitoja; Onko Microsoft 365 Business tehdä nämä laitteet aito? 
 Microsoft 365 Business ei tee muuten kuin aito versio Windows, aito. Microsoft 365 Business ei tarjoa päivitys etua, jonka avulla asiakkaat, jotka käyttävät aitoja Windows 7-, 8-tai 8,1 Pro-versioita, päivittävät Windows 10 Pron viimeisimmistä, aidosta versiosta. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>Mikä on GDPR ja miten Microsoft 365 Business auttaa asiakkaita noudattamaan vaatimustenmukaisuusvelvoitteitaan?
-Yleinen tieto suoja-asetus (GDPR) on kattava uusi tieto suoja laki, joka antaa Euroopan unionin (EU) asukkaille paremman määräys vallan "henkilö tietonsa" ja vaatii organisaatioita säilyttämään henkilö tietojen eheyden. GDPR edellyttää, että organisaatiot, jotka ohjaavat tai käsittelevät henkilö tietoja, jotka on sidottu EU:N asukkaisiin, käyttävät vain sellaisia kolmannen osapuolen tietojenkäsittelijöitä, jotka täyttävät henkilö tietojen käsittelyyn liittyvät GDPR-vaatimukset. Maaliskuussa 2017 Microsoft antoi saataville sopimus takuita, jotka antavat nämä takeet. Asiakkaat, joilla on kysyttävää siitä, miten Microsoft voi auttaa heitä täyttämään GDPR-lisä velvoitteensa, saavat lisä tietoja Microsoft 365 Businessin kehittyneistä yhteensopivuus-ja suojaus ominaisuuksista (esimerkiksi Azure-tietojen suojaus, tappioiden ehkäiseminen, kehittynyt uhkien torjunta jne.) ja muissa sviiteissä (esimerkiksi Microsoft 365 Enterprise E5). Lisä tietoja on osoitteessa [www.Microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+Yleinen tieto suoja-asetus (GDPR) on kattava uusi tieto suoja laki, joka antaa Euroopan unionin (EU) asukkaille paremman määräys vallan "henkilö tietonsa" ja vaatii organisaatioita säilyttämään henkilö tietojen eheyden. GDPR edellyttää, että organisaatiot, jotka ohjaavat tai käsittelevät EU:N asukkaisiin sidottuja henkilö tietoja, käyttävät vain sellaisia kolmannen osapuolen tietojenkäsittelijöitä, jotka täyttävät henkilö tietojen käsittelyyn liittyvät GDPR-vaatimukset. Maaliskuussa 2017 Microsoft antoi saataville sopimus takuita, jotka antavat nämä takeet. Asiakkaat, joilla on kysyttävää siitä, miten Microsoft voi auttaa heitä täyttämään GDPR-lisä velvoitteensa, saavat lisä tietoja Microsoft 365 Businessin kehittyneistä yhteensopivuus-ja suojaus ominaisuuksista (esimerkiksi Azure-tietojen suojaus, tappioiden ehkäiseminen, kehittynyt uhkien torjunta jne.) ja muissa sviiteissä (esimerkiksi Microsoft 365 Enterprise E5). Lisä tietoja on osoitteessa [www.Microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 
 ## <a name="footnotes"></a>Alaviitteet

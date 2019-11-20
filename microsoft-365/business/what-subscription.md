@@ -1,5 +1,5 @@
 ---
-title: Mitä tilaus on oikea yrityksellesi?
+title: Mikä tilaus on yrityksellesi oikea?
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -15,14 +15,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: 'Onko Office 365-E3 tai 365 Microsoft Business Office 365: n Business Premium kattokuljettimen yrityksen oikea.'
-ms.openlocfilehash: 1422e75af9a035b8a82aa6f85b8acfd340aac846
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+description: Selvitä, onko Office 365 E3, Office 365 Business Premium tai Microsoft 365 Business oikea yritys.
+ms.openlocfilehash: f3adf67cf164b14596bc0cedf1cacd7dec41955e
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "35086310"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748317"
 ---
-# <a name="what-subscription-is-right-for-your-small-business"></a>Mitä tilauksen sopii yrityksesi?
+# <a name="what-subscription-is-right-for-your-small-business"></a>Mikä tilaus on oikea pien yrityksellesi?
 
-Microsoft tarjoaa useita suunnitelmia pienyrityksille, suositeltu tilaukset ovat Office 365: n Business Premium- tai Microsoft 365 Business enintään 300 käyttäjien kanssa. 365 Microsoft Business tarjoaa enemmän kuin Office 365 Business Premium lisätty kustannusten suojausominaisuuksia.
+Microsoft tarjoaa useita suunnitelmia pienille yrityksille. Suositellut tila ukset ovat joko Office 365 Business Premium tai Microsoft 365 Business, jossa on enintään 300 käyttäjää. Microsoft 365 Business tarjoaa enemmän tieto turva ominaisuuksia kuin Office 365 Business Premium lisä maksusta.
