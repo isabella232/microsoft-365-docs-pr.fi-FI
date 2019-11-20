@@ -22,38 +22,38 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Opi vahvistamaan Microsoft 365 Business-sovellusten suojaus asetukset Windows 10-laitteissa.
-ms.openlocfilehash: 5fed2278856f40233b142d3c7c4bc623e3777799
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: b8793ab7f77bbc7f608f237e2455f6fd12c3bb26
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575464"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721796"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Laitteiden suojausasetusten vahvistaminen Windows 10 -tietokoneissa
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>Windows 10:n laitekäytäntöjen määrityksen varmistaminen
 
-Kun olet [määrittänyt laitekäytännöt](protection-settings-for-windows-10-pcs.md), saattaa kestää muutama tunti, ennen kuin käytäntöä sovelletaan käyttäjien laitteissa. Voit varmistaa, että käytännöt on otettu käyttöön, perehtymällä Windowsin asetusnäyttöihin käyttäjien laitteissa. Koska käyttäjät eivät voi muokata Windows Updaten ja Windows Defenderin virustentorjunnan asetuksia Windows 10 -laitteissa, valtaosa näistä asetuksista näkyy harmaana.
+Kun olet [määrittänyt laitekäytännöt](protection-settings-for-windows-10-pcs.md), saattaa kestää muutama tunti, ennen kuin käytäntöä sovelletaan käyttäjien laitteissa. Voit varmistaa, että käytännöt on otettu käyttöön, perehtymällä Windowsin asetusnäyttöihin käyttäjien laitteissa. Koska käyttäjät eivät voi muokata Windows Updaten ja Windows Defenderin virustentorjunnan asetuksia Windows 10-laitteissaan, monet asetukset näkyvät harmaina.
   
-1. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Restart options** and confirm that all settings are greyed out. 
+1. Siirry **Asetukset** \> ** &amp; Päivitä suojaus** \> **Windows Update** \> **uudelleenkäynnistyksen asetukset** ja vahvista, että kaikki asetukset näkyvät harmaana. 
     
-    ![All the Restart options are greyed out.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![Kaikki uudelleenkäynnistyksen asetukset näkyvät harmaana.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** and confirm that all settings are greyed out. 
+2. Siirry **asetuksiin** \> **Päivitä &amp; suojaus** \> **Windows Updaten** \> **lisä asetukset** ja varmista, että kaikki asetukset on harmaana. 
     
-    ![Windows Advanced updates options are all greyed out.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![Windowsin lisä päivitysten asetukset ovat kaikki harmaana.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.
     
-    Varmista, että näet (punaisella) viestin siitä, että organisaatio on piilottanut osan asetuksista tai hallitsee niitä, ja että kaikki asetukset näkyvät harmaana.
+    Vahvista, että näet viestin (punaisella), että jotkin asetukset ovat piilotettuja tai hallittuja organisaatiossasi ja että kaikki vaihto ehdot näkyvät harmaana.
     
     ![Choose how updates are delivered page indicates settings are hidden or managed by your organization.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
 4. To open the Windows Defender Security Center, go to **Settings** \> **Update &amp; security** \> **Windows Defender** \> click **Open Windows Defender Security Center** \> **Virus &amp; thread protection** \> **Virus &amp; threat protection settings**. 
     
-5. Varmista, että kaikki asetukset näkyvät harmaana. 
+5. Varmista, että kaikki asetukset on harmaana. 
     
-    ![The Virus and threat protection settings are greyed out.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
+    ![Virusten ja uhkien torjunta-asetukset näkyvät harmaina.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
 ## <a name="related-topics"></a>Aiheeseen liittyviä ohjeita
 

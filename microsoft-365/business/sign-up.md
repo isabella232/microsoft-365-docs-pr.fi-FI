@@ -19,12 +19,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lue, miten voit ostaa ja rekisteröityä Microsoft 365 Business.
-ms.openlocfilehash: ef34a3e2bc848ce98efb2218f7bdd9b2a186b6b2
-ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
+ms.openlocfilehash: 16953f7c752c3105af795e721332e2e6d6bdebe5
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968779"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718715"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Rekisteröidy Microsoft 365 Business
 
@@ -46,10 +46,10 @@ Microsoft 365 Businessin voi hankkia kolmella tavalla:
 Jos haluat rekisteröityä ja ostaa Microsoft 365-yrityksen yrityksellesi, tee seuraavat toimet:
 
 1. Valitse [Microsoft 365 for Business-sivulla](https://go.microsoft.com/fwlink/?linkid=2109654) **Näytä suunnitelmat & hinnoittelu**. 
-2. Seuraavalla sivulla voit selvittää kuukausittaiset kustannukset ja vierittää sivua alaspäin, jolloin löydät lisä tietoja Microsoft 365 Businessin mukana toimitettavat tiedot. Valitse Microsoft 365 Business-kohdassa **Osta nyt**.
+2. Selvitä seuraavalla sivulla kuukausittaiset kustannukset ja Vieritä sivua alaspäin, niin näet lisää Microsoft 365 Business-pakettiin sisältyvistä. Valitse Microsoft 365 Business-kohdassa **Osta nyt**.
 3. Kiitos, että **valitsit Microsoft 365-yritys** sivun, anna tietosi, jotta pääset alkuun.
 4. Kirjoita **vaiheessa 1**Sähkö posti osoite, jota olet jo käyttänyt. Tämä voi olla nykyinen työssähköpostiosoitteesi tai mikä tahansa osoite, jota haluat Microsoftin käyttävän kommunikoimaan kanssasi asennuksen aikana. Se on myös osoite, josta lähetämme sinulle tietoja laskusta ja uusimis- Valitse sitten, **Määritä tili**.
-5. Kirjoita **vaiheessa 2**nimesi, työnumerosi, yrityksen nimi ja sijainti. Huomaa, että maa tai alue määrittää Microsoftin tarkat palvelut, eikä sitä voi muuttaa sen jälkeen, kun olet suorittanut tämän vaiheen. Valitse **Seuraava**.
+5. Kirjoita **vaiheessa 2**nimesi, työnumerosi, yrityksen nimi ja sijainti. Maasi tai alueesi määrittää tarkat Microsoft-palvelut, eikä sitä voi muuttaa sen jälkeen, kun olet suorittanut tämän vaiheen. Valitse **Seuraava**.
     > [!NOTE]
     > Näytimme yrityksesi nimen hallinta keskuksessa; Tässä voit hallita esimerkiksi Microsoft 365-käyttäjiä ja-lisenssejä. Sisällytetäänkö se myös mihin tahansa sisäiseen (SharePoint) sivuston URL-osoitteeseen.
 6. **Vaiheessa 3**:
@@ -66,7 +66,7 @@ Jos haluat rekisteröityä ja ostaa Microsoft 365-yrityksen yrityksellesi, tee s
         
         - **En ole varma, tai Omistan verkko tunnuksen jo** 
         
-             Valitse **Hanki Microsoft-toimi alue nyt**. Tämä ei maksa mitään, ja myöhemmin voit saada mukautetun nimen yrityksellesi tai yhdistää jo omistamasi&mdash;me näytämme miten.
+             Valitse **Hanki Microsoft-toimi alue nyt**. Tämä ei maksa mitään, ja myöhemmin voit saada mukautetun nimen yrityksellesi tai muodostaa yhteyden jo omistamasi. Näytämme miten.
 
     3. Luo käyttäjä TUNNUKSESI ja yrityksen Sähkö posti osoitteesi valitsemalla **Seuraava** . Kirjoita nimi (kutsutaan myös aliakseksi), jota haluat käyttää. Esimerkiksi Robert Young saattaa käyttää RobY-tai RobYoung-Työtunnusta. Lisää sala sana ja valitse **Rekisteröidy**. Merkitse muistiin Sala sanasi. Lähetämme sinulle Sähkö posti viestin vaiheessa 1 syöttämäsi osoitteeseen muistuttaaksesi sinua käyttäjä TUNNUKSTASI.
 7. **Vaiheessa 4**: 

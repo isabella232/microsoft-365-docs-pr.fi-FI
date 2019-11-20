@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Asenna Office iPhoneen tai Android-puhelimeen, ja Microsoft 365 Business suojaa työtiedostojasi Office-sovelluksissa.
-ms.openlocfilehash: 6dd18569f0d4b3c71f00004706c2430eb7c5ae43
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: e09db43705d601df0c0b30a46ee36cf0295ecae3
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575604"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718935"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -58,9 +58,9 @@ Anna työsähköpostiosoitteesi **Lisää sähköpostitili** -näytössä \> **L
   
 ![Sign in to your work account](media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-Jos organisaatiossasi suojataan sovellusten tiedostot, näkyviin tuleva valintaikkuna ilmoittaa, että organisaatio suojaa nyt sovelluksessa olevia tietoja ja sovelluksen käytön jatkaminen edellyttää sen käynnistämistä uudelleen. Valitse **OK** ja sulje Outlook. 
+Jos organisaatiosi suojelee tiedostoja sovelluksissa, näet valinta ikkunan, jossa kerrotaan, että organisaatiosi suojelee nyt sovelluksen tietoja, ja sinun on käynnistettävä sovellus uudelleen, jotta voit jatkaa sen käyttämistä. Valitse **OK** ja sulje Outlook. 
   
-![Screenshot that showa your organization is now protecting your Outlook app](media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Kuva kaappaus, joka näyttää organisaatiosi suojelee nyt Outlook-sovellusta](media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
 Etsi Outlook iPhone-puhelimessa ja käynnistä se uudelleen. Anna pyydettäessä PIN-koodi ja vahvista se. iPhone-puhelimesi Outlook on nyt valmis käytettäväksi.
   
@@ -72,11 +72,11 @@ Aloita Android-puhelimesi asennus siirtymällä Play kauppaan.
   
 ![On the Android home screen, tap Play Store](media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Kirjoita Google Kaupan hakuruutuun Microsoft Outlook ja valitse **Asenna**.Kun Outlook on asennettu, valitse **Avaa**.
+Kirjoita Microsoft Outlook Google Play-haku kenttään ja napauta **Asenna**. Kun Outlook on asennettu, napauta **Avaa**.
   
 ![Tap Open to open Outlook app](media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-Valitse Outlook-sovelluksessa **Aloittaminen**, lisää Microsoft 365 Business-sähköpostitilisi \> **Jatka** ja kirjaudu sisään organisaatiosi tunnistetiedoilla.
+Napauta Outlook-sovelluksessa **Aloita**ja lisää sitten Microsoft 365-yrityksen sähkö \> **Posti tili ja**Kirjaudu sisään organisaatiosi tunniste tiedoilla.
   
 ![Sign in to your organizational account in Outlook](media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -84,7 +84,7 @@ Valitse **Siirry Kauppaan** valintaikkunassa, joka kehottaa asentamaan Intune-yr
   
 ![Tap on Go to store to get Intune Company Portal app](media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-Asenna Intune-yritysportaali Play Kaupasta.
+Play-kaupassa Asenna Intune Company Portal.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   

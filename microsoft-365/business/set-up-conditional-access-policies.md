@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Lue lisä tietoja ehdollisten käyttö käytäntöjen määrittämisestä Microsoft 365-kampanjoille.
-ms.openlocfilehash: 0fccd103e3633c7fa5ac07c731341eee93059986
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: aebdb733c2dd9a05947335ad4f151104d801568e
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: fi-FI
 ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715078"
+ms.locfileid: "38718825"
 ---
 # <a name="set-up-conditional-access-policies"></a>Määritä ehdolliset käyttö oikeus käytännöt
 
@@ -35,10 +35,10 @@ ms.locfileid: "38715078"
 Nämä käytännöt edellyttävät, että järjestelmänvalvojat ja käyttäjät syöttäisivät toisen todennus muodon (jota kutsutaan nimellä Monivaiheinen todennus tai MFA), kun tietyt ehdot täyttyvät. Jos käyttäjä on esimerkiksi kirjauduttava sisään toisesta maasta, kirjautumista voidaan pitää riskialttiina ja käyttäjän on annettava lisä todennus muoto. 
 
 Tällä hetkellä perusaikataulun käytäntöjä ovat seuraavat:
-- **Vaadi järjestelmänvalvojien makrotaloudellinen** tuki – vaatii usean tekijän todennuksen suosituimmille järjestelmänvalvojan rooleille, mukaan lukien yleinen järjestelmänvalvoja.
-- **Loppu käyttäjän suojaus** – vaatii usean tekijän todennuksen käyttäjille vain silloin, kun kirjautuminen on riskialtista. 
-- **Estä aiempi todennus** – vanhemmat asiakas sovellukset ja jotkin uudet sovellukset eivät käytä uudempia, turvallisempia todennus protokollia. Nämä vanhemmat sovellukset voivat ohittaa ehdolliset käyttö käytännöt ja käyttää ympäristöäsi luvattomasti. Tämä käytäntö estää pääsyn asiakkailta, jotka eivät tue ehdollista pääsyä. 
-- **Vaadi palvelun hallinnan MFA-tuki** – vaatii monivaiheisen todennuksen hallinta työkalujen, kuten Azure-portaalin, käyttöä varten (Jos määrität peruskäytännöt). 
+- **Edellytä, että järjestelmänvalvojien** &ndash; MFA edellyttää usean tekijän todennusta etuoikeutetuimpia järjestelmänvalvojan rooleja varten, mukaan lukien yleinen järjestelmänvalvoja.
+- **Loppu käyttäjän suojaus** &ndash; vaatii usean tekijän todennuksen käyttäjille vain silloin, kun kirjautuminen on riskialtista. 
+- **Estä vanha todennus** &ndash; vanhemmat asiakas sovellukset ja jotkin uudet sovellukset eivät käytä uudempia, turvallisempia todennus protokollia. Nämä vanhemmat sovellukset voivat ohittaa ehdolliset käyttö käytännöt ja käyttää ympäristöäsi luvattomasti. Tämä käytäntö estää pääsyn asiakkailta, jotka eivät tue ehdollista pääsyä. 
+- **Vaadi MFA for Service Management** &ndash; edellyttää monivaiheista todennusta, jotta voit käyttää hallinta työkaluja, mukaan lukien Azure Portal (jossa määrität peruskäytännöt). 
 
 Microsoft suosittelee, että otat kaikki nämä perusaikataulun käytännöt käyttöön. Kun nämä käytännöt on otettu käyttöön, ylläpitäjiä ja käyttäjiä kehotetaan rekisteröitymään Azure Multii-Factor-todennukseen.
 

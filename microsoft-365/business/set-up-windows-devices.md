@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Lue, miten voit määrittää Windows 10 Pro for Microsoft 365-käyttö järjestelmä käyttäjät. '
-ms.openlocfilehash: 7b6fa2ce3243500c3ddcff7883fa9d8da27dcf86
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575564"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718865"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -41,7 +41,7 @@ Tarkista, että sinulla on päivitys, ja varmista, että päivitys toimi, tarkis
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 -laitteiden liittäminen organisaatiosi Azure AD:hen
 
-Kun organisaatiosi kaikkiin Windows-laitteisiin on joko päivitetty Windows 10 Pro Creators -päivitys tai niissä on jo alun perin ollut Windows 10 Pro Creators -päivitys, voit liittää kyseiset laitteet organisaatiosi Azure Active Directoryyn. Kun laitteet on liitetty, niihin päivitetään automaattisesti Windows 10 Business, joka on osa Microsoft 365 Business -tilaustasi.
+Kun kaikki organisaatiosi Windows-laitteet on joko päivitetty Windows 10 Pro Creators-päivitykseen tai jo käytössä on Windows 10 Pro Creators Update, voit liittyä näihin laitteisiin organisaatiosi Azure Active Directoryyn. Kun laitteet on liitetty, ne päivitetään automaattisesti Windows 10 Business-versioon, joka on osa Microsoft 365 Business-tilausta.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Uusi tai päivitetty Windows 10 Pro -laite
 
@@ -89,7 +89,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
   
    ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Jos olet ladannut tiedostoja OneDrive for Businessiin, synkronoi ne takaisin. Jos olet siirtänyt profiilin ja tiedostot kolmannen osapuolen työkalun avulla, synkronoi myös ne uuteen profiiliin.
+Jos olet ladannut tiedostoja OneDrive for Businessiin, synkronoi ne takaisin. Jos olet käyttänyt kolmannen osapuolen työkalua profiilin ja tiedostojen siirtämisessä, synkronoi ne myös uuteen profiiliin.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Laitteen Azure AD -yhteyden tarkistaminen
 
@@ -97,7 +97,7 @@ Tarkista synkronointitilasi napsauttamalla **Asetukset**-valintaikkunan **Käyt�
   
 Valitse Synkronointitila-sivulla Synkronoi, jolloin saat uusimmat mobiililaitteiden hallintakäytännöt PC-tietokoneeseen.
   
-Kun haluat aloittaa Microsoft 365 Business-tilin käyttämisen, valitse Windowsin **Käynnistä**-painike, napsauta hiiren kakkospainikkeella nykyisen tilisi kuvaa ja valitse sitten **Vaihda tiliä**. Kirjaudu sisään käyttämällä organisaatiosi sähköpostiosoitetta ja salasanaa.
+Jos haluat aloittaa Microsoft 365-yritys tilin käyttämisen, siirry Windowsin **Käynnistä** -painikkeeseen, napsauta hiiren kakkos painikkeella nykyistä tili kuvaasi ja **Vaihda sitten tiliä**. Kirjaudu sisään käyttämällä organisaatiosi sähköpostiosoitetta ja salasanaa.
   
 ![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
   
