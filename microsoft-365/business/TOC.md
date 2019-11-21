@@ -35,7 +35,7 @@
 ## Siirtyminen Microsoft 365 Businessiin
 ### [Siirtyminen toimistosta 365 Business Premium](migrate-to-microsoft-365-business.md)
 ### [Siirtyminen toimistosta 365 E3](migrate-from-e3.md)
-### [Siirrä ro Microsoft 365 Enterprise](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
+### [Siirry Microsoft 365 Enterprise-yritykseen](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## Laskutus
 ### [Laskussasi](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [Maksaa](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
