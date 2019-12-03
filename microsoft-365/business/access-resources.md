@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Opi, miten voit käyttää paikallisia resursseja, kuten yritys sovelluksia, tiedosto resursseja ja tulostimia Azure Active Directorysta, liittyi Windows 10-laitteeseen.
-ms.openlocfilehash: fdc1eca6913ba6af4f6b65691fdee2165e7c827e
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323391"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668784"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Paikallisten resurssien käyttö Azure AD-liitetystä laitteesta Microsoft 365 Business
 
@@ -32,6 +32,9 @@ Kaikissa Windows 10-laitteilla, joihin on liitetty Azure Active Directory, on p�
 Lisä tietoja on kohdassa [laitteen hallinnan esittely Azure Active Directoryssa](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 Vaiheet on myös tiivistetty seuraavissa osissa.
 
+> [!IMPORTANT]
+> Tämä toimenpide koskee vain OAuth-ja NTLM-ohjeita. Kerberos-tukea ei tueta.
+ 
 ## <a name="run-azure-ad-connect"></a>Suorita Azure AD Connect
 
 Suorita seuraavat vaiheet, jotta organisaatiosi Azure AD-liitetyt laitteet voivat käyttää paikallisia resursseja.
@@ -43,6 +46,8 @@ Suorita seuraavat vaiheet, jotta organisaatiosi Azure AD-liitetyt laitteet voiva
 3. Kun Windows 10-laitteet ovat liittyneet Azure AD, jokaisen käyttäjän on käynnistettävä laitteensa uudelleen ja kirjauduttava sisään Microsoft 365-yrityksen tunniste tiedoilla. Kaikki laitteet voivat nyt käyttää myös paikallisia resursseja.
     
 Azure AD-liitettyjen laitteiden paikallisten resurssien käyttö oikeuksia ei tarvita lisä toimia. Tämä toiminnallisuus on rakennettu Windows 10. 
+
+Jos sinulla on suunnitelmia kirja utua AADJ-laitteeseen kuin salasana menetelmään, kuten PIN/Bio-metric WHFB-tunniste tietojen sisäänkirjautumisen kautta, ja käyttää sitten yrityksen tiloissa käytettäviä resursseja (osakkeita, tulostimia.. jne), noudatahttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Jos organisaatiosi ei ole valmis ottamaan käyttöön yllä kuvattua Azure AD-laitteen kokoonpanoa, harkitse [hybridi Azure AD-laitteen kokoonpanon](manage-windows-devices.md)määrittämistä.
   
