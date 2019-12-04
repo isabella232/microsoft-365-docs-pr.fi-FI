@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -21,18 +22,22 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Opettele Microsoft 365 Businessin perustamista.
-ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+ms.openlocfilehash: 2e6e1e6153fe4033aa7dd47280c737957d0e4bd5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704111"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813054"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Businessin käytön aloittaminen
 
 ## <a name="what-is-microsoft-365-business"></a>Mikä Microsoft 365 Business on?
 
 Microsoft 365 Business on kattava joukko yritysten tuottavuus-ja yhteistyötyökaluja, kuten Outlook, Word, Excel ja muut Office-tuotteet, jotka ovat aina ajan tasalla. Voit suojata työtiedostojasi kaikissa iOS-, Android-ja Windows 10-laitteissa yritys tason suoja uksen avulla, jota on helppo hallita.
+
+Katso tästä videosta nopea yleiskatsaus Microsoft 365-liike toiminnan.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
 Microsoft 365 Business on tarkoitettu jopa 300 lisensseihin. Jos tarvitset lisää käyttö oikeuksia, Katso lisä tietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -dokumentaatiosta. 
   
@@ -49,6 +54,13 @@ Microsoft 365 Business on tarkoitettu jopa 300 lisensseihin. Jos tarvitset lisä
 Seuraavassa kaaviossa kerrotaan, miten järjestelmänvalvojat voivat määrittää Microsoft 365 Businessin. Siinä kuvataan myös Windows-tietokoneiden valmistelemisen vaiheet Microsoft 365 Business:ää varten. Voit myös lisätä uusia laitteita Microsoft 365 Business-hallinta keskukseen [Windowsin automaatti ohjauksen](add-autopilot-devices-and-profile.md)avulla. Voit määrittää ja esimäärittävät uusia laitteita automaatti ohjauksen avulla niin, että ne ovat valmiita tuottavaan käyttöön heti, kun käyttäjä kirjautuu sisään Microsoft 365-yrityksen tunniste tiedoilla.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+
+Katso tästä videosta yleiskatsaus Microsoft 365-liike toiminnan asennukseen.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+
+Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+
   
 ### <a name="1-set-up-microsoft-365-business-admin"></a>1: Määritä Microsoft 365 Business (järjestelmänvalvoja)
 
@@ -89,9 +101,10 @@ Jos säilytät paikallisen Active Directoryn, joka sisältää joitakin paikalli
     
 - Microsoft 365 Business Adminissa voit käyttää asiakas tuki tiimiä: ** [Ota yhteyttä yritys tuotteiden tukeen-järjestelmänvalvojan ohjeet](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
-## <a name="related-topics"></a>Aiheeseen liittyvät artikkelit
+## <a name="see-also"></a>Katso myös
+
 [Microsoft 365 Businessin ohjeet ja resurssit](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 [Microsoft 365 Businessin hallinta](manage.md)[Microsoft 365 Businessin hallinta](migrate-to-microsoft-365-business.md)
-  
 
+[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

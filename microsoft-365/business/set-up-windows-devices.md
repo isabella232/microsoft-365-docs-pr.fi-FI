@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Lue, miten voit määrittää Windows 10 Pro for Microsoft 365-käyttö järjestelmä käyttäjät. '
-ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: b377c1e69d117b893b256880cd3b9972e33345c7
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718865"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812874"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -37,7 +37,13 @@ Jos käytössäsi on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro t
   
 Lisätietoja Windows-laitteiden Windows 10 Pro Creators -päivityksen tekemisestä on tämän aiheen ohjeissa: [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md).
   
-Tarkista, että sinulla on päivitys, ja varmista, että päivitys toimi, tarkistamalla, [että laite on yhdistetty Azure AD-verkkoon](#verify-the-device-is-connected-to-azure-ad) . 
+Tarkista, että sinulla on päivitys, ja varmista, että päivitys toimi, tarkistamalla, [että laite on yhdistetty Azure AD-verkkoon](#verify-the-device-is-connected-to-azure-ad) .
+
+Katso lyhyt video Windowsin yhdistämisestä Microsoft 365: een.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
+
+Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 -laitteiden liittäminen organisaatiosi Azure AD:hen
 
@@ -115,3 +121,6 @@ Varmista, että Azure Active Directoryyn liitettyihin Windows 10 -laitteisiin on
 
 Mobiililaitteiden määritysohjeet ovat kohdassa [Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-mobile-devices.md). Laitteiden ja sovellusten suojauskäytäntöjen määritysohjeet ovat kohdassa [Microsoft 365 Businessin hallinta](manage.md).
   
+## <a name="see-also"></a>Katso myös
+
+[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lue, miten voit ostaa ja rekisteröityä Microsoft 365 Business.
-ms.openlocfilehash: 16953f7c752c3105af795e721332e2e6d6bdebe5
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 3470d07f98a1c5806a27d8f21f152a818e4a0371
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718715"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812794"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Rekisteröidy Microsoft 365 Business
 
@@ -42,6 +43,12 @@ Microsoft 365 Businessin voi hankkia kolmella tavalla:
 - [Rekisteröidy koti-tai perhe suunnitelmaan](https://go.microsoft.com/fwlink/?linkid=2109398) , jos et ole ostamassa liike toimintaa. 
 
 ## <a name="sign-up-steps"></a>Rekisteröidy vaiheet
+
+Katso tämä video, niin saat nopean yleiskatsauksen rekisteröitymis prosessista.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
+
+Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Jos haluat rekisteröityä ja ostaa Microsoft 365-yrityksen yrityksellesi, tee seuraavat toimet:
 
@@ -82,3 +89,6 @@ Valitsemalla **Siirry asetuksiin** voit suorittaa muita vaiheita, kuten lisätä
 
 Ohjeita asennukseen on kohdassa [Set up](set-up.md).
 
+## <a name="see-also"></a>Katso myös
+
+[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

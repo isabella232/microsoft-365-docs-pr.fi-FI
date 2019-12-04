@@ -7,7 +7,9 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: M365-subscription-management
+ms.collection:
+- M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,14 +20,20 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Opi päivittämään Windows-laitteita Windows 10 Pro Creators-päivitykseen. '
-ms.openlocfilehash: 72522626d3d5cd836b47e896202e6c18c06fe0b1
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 7aaf1f64e93c05a0ffc7de47c8eab9c787b6c220
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718845"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812744"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin .
+
+Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Prohon.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
+
+Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="upgrade-to-windows-10-pro-creators-update"></a>Päivitä Windows 10 Pro Creators-päivitykseen
   
@@ -46,3 +54,6 @@ Katso Windows [-laitteiden määrittäminen Microsoft 365-yritys käyttäjille](
   
 Katso Android-ja iOS-laitteiden määrittäminen viimeistellä [mobiililaitteiden määrittäminen Microsoft 365-yritys käyttäjille](set-up-mobile-devices.md) . 
   
+## <a name="see-also"></a>Katso myös
+
+[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

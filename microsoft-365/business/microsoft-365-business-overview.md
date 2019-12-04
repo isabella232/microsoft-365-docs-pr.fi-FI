@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -22,19 +23,25 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lisä tietoja Microsoft 365-liike toiminnan.
-ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 419754b5ea06baabac8c170a860e076dc7fa8f81
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676069"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812854"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Yleistä Microsoft 365 Business
 
 ## <a name="what-is-microsoft-365-business"></a>Mikä Microsoft 365 Business on?
 
 Microsoft 365 Business on tilaus palvelu, joka sisältää Office 365-tuottavuus työkalut sekä kehittyneet toiminnot, joiden avulla voit suojata yritystäsi kyberuhkilta, suojata tietosi ja hallita laitteita.
+
+Katso tästä videosta nopea yleiskatsaus Microsoft 365-liike toiminnan.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
+Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+
 Microsoft 365 Business on tarkoitettu jopa 300 lisensseihin. Jos tarvitset lisää käyttö oikeuksia, Katso lisä tietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -dokumentaatiosta.
 
 Katso [Microsoft 365-yritys palvelun kuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) koko ominaisuuksien luettelosta.
@@ -102,3 +109,7 @@ Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microso
 
     > [!NOTE]
     > Tämä linkki on myymälöille vain Yhdysvalloissa.
+
+## <a name="see-also"></a>Katso myös
+
+[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
