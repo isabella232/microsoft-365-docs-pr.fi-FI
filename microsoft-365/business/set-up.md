@@ -13,6 +13,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -23,14 +24,20 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lue lisä tietoja Microsoft 365 Businessin määrittämisestä.
-ms.openlocfilehash: f29dbdb61636fdfe573a1a6920d0aed963b737ad
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 7ab6ae095ae30f8ceb74be69fcee20f31977ae21
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721485"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39818893"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365-liike toiminnan määrittäminen ohjatussa asennus toiminnossa
+
+Katso tästä videosta yleiskatsaus Microsoft 365-liike toiminnan asennukseen.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+
+Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Lisää toimi alue, käyttäjät ja määritä käytännöt
 
@@ -44,16 +51,18 @@ Kun ostat Microsoft 365 Businessin, sinulla on mahdollisuus käyttää omistamaa
 
 1. Kirjaudu sisään [Microsoft 365-hallinta keskukseen](https://admin.microsoft.com) käyttämällä yleisiä järjestelmänvalvojan tunniste tietoja. 
 
-2. Käynnistä ohjattu toiminto valitsemalla **Lisää toimi alue** tai **Lisää käyttäjiä** .
+2. Käynnistä ohjattu toiminto valitsemalla **Siirry asennukseen** .
+
+    ![Valitse Siirry asennukseen.](media/gotosetupinadmincenter.png)
+
+3. Voit vaihtoehtoisesti asentaa sovellukset omaan tieto koneeseesi **Asenna Office-sovellukset** -sivulla.
+    
+4. Kirjoita **Lisää toimi alue** -vaiheeseen toimi alue nimi, jota haluat käyttää (kuten contoso.com).
+
     > [!IMPORTANT]
     > Jos ostit verkko tunnuksen rekisteröitymistä varten, et näe **Lisää toimi** alue-vaihetta tässä. Siirry sen sijaan kohtaan [Lisää käyttäjiä](#add-users-and-assign-licenses) .
 
-    ![Valitse Siirry asennukseen.](media/gotosetupinadmincenter.png)
-    
-3. Kirjoita ohjatussa toiminnossa haluamasi toimi alueen nimi (kuten contoso.com).
-
-
-    ![Kuva kaappaus Mukauta kirjautumissivua.](media/personalizesignin.png)
+    ![Kuva kaappaus Mukauta kirjautumissivua.](media/adddomain.png)
 
     
 4. Noudata ohjatun toiminnon ohjeita [luodaksesi DNS-tietueet missä tahansa DNS-isännöinti palvelun tarjoajana (Office 365](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) ), joka varmistaa, että omistat toimi alueen. Jos tiedät verkko tunnuksesi isäntäsi, Katso myös [isännän erityiset ohjeet](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
@@ -76,13 +85,6 @@ Kaikki käyttäjät, jotka lisäät ohjatussa toiminnossa, saavat automaattisest
 
 2. Kun olet lisännyt käyttäjät, saat myös mahdollisuuden jakaa tunniste tiedot lisättyjen uusien käyttäjien kanssa. Voit tulostaa ne, lähettää ne sähköpostitse tai ladata ne palvelimesta.
 
-3. Voit lisätä ryhmiä organisaatioosi ja lisätä niihin käyttäjiä. Voit tehdä tämän myös myöhemmin. Lisä tietoja on kohdassa [yrityksen laajuisen tiimin luominen](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3).
-
-4. Ohita sähköpostiviestien siirtäminen valitsemalla **Siirrä sähköpostiviestejä** -sivulla **Seuraava**. 
-
-    Jos siirryt toisesta Sähkö posti palvelusta ja haluat kopioida tietosi myöhemmin, voit [siirtää sähkö postin ja yhteys tiedot Office 365](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e)-palveluun.
-
-
 ### <a name="connect-your-domain"></a>Toimialueen yhdistäminen
 
 > [!NOTE]
@@ -95,31 +97,29 @@ Kun haluat määrittää palvelut, sinun on päivitettävä joitakin DNS-isänn�
     - Jos sinulla on aiemmin luotuja DNS-tietueita, esimerkiksi olemassa oleva Web-sivusto, mutta DNS-isäntä on otettu käyttöön [toimi alueen yhdistämä](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), valitse **Lisää tietueita minulle**. Hyväksy **Valitse online-palvelut** -sivulla kaikki oletus arvot, valitse **Seuraava** **ja valitse sitten Hyväksy DNS** -isännän sivulla.
     - Jos sinulla on DNS-tietueita muiden DNS-Isän tien kanssa (ei käytössä toimi alueen yhteydessä), sinun kannattaa hallita omia DNS-tietueita ja varmistaa, että olemassa olevat palvelut ovat yhteydessä toisiinsa. Lisä tietoja on kohdassa [toimi alueen perusteet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) .
 
-        ![Yhdistä verkko tunnuksesi sivu, jolla hallitsen omia DNS-tietueita.](media/connectyourdomainpage.png)
+        ![Aktivoi tietueet-sivu.](media/activaterecords.png)
 
 2. Noudata ohjatun toiminnon ohjeita, ja Sähkö posti ja muut palvelut määritetään puolestasi.
 
-### <a name="protect-data-and-devices"></a>Suojaa tiedot ja laitteet 
+### <a name="protect-your-organization"></a>Organisaation suojaaminen 
 
 Ohjatussa toiminnossa käyttöön luomat käytännöt kohdistetaan automaattisesti [Suojaus ryhmään](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) nimeltä *Kaikki käyttäjät*. Voit myös luoda lisä ryhmiä määrittämään käytäntöjä hallinta keskuksessa.
 
-1. **Suojaa työtiedostojasi mobiililaitteilla**-vaihto ehto **suojaa työtiedostot, kun laitteet katoavat tai varastetaan** , valitaan oletusarvoisesti. Sinulla on mahdollisuus ottaa käyttöön Hallitse, **miten käyttäjät voivat käyttää Office-tiedostoja mobiililaitteissa**, ja tätä suositellaan.
+1. **Lisä suojaa kehittyneiltä kyberuhkilta**suositellaan, että hyväksyt oletus asetukset, jotta [Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) -tieto turva tarkistus tiedostot ja linkit Office-sovelluksissa hyväksytään.
 
-    ![Kuva kaappaus suojaa työtiedostot mobiililaitteiden sivulla.](media/protectworkfilesondevices.png)
+    ![Kuva kaappaus lisää suojausta-sivulta.](media/increasetreatprotection.png)
 
-     - Laajenna **suojaa työtiedostot, kun laitteet katoavat tai varastetaan** näyttämään [oletus arvot](protect-work-files-on-lost-or-stolen-device.md):
 
-        ![Kuva kaappaus oletus arvoista tiedostojen suojaamiseksi kadonneita laitteita.](media/protectworkfilesondevicesdefault.png)
+2. Hyväksy **arkaluontoisten tietojen vuodot** -sivun oletus asetukset, jos haluat ottaa Office 365-tietojen menetyksen eston (DLP) käyttöön, jotta voit seurata luottamuksellisia tietoja Office-sovelluksissa ja estää niiden tahattoman jakamisen organisaatiosi ulkopuolella.
 
-    - Valitse **Hallitse, miten käyttäjät voivat käyttää Office-tiedostoja mobiililaitteissa** ja laajentaa sitä näyttämään [oletus arvot](manage-user-access-on-mobile-devices.md). Microsoft suosittelee, että hyväksyt oletus arvot asennuksen aikana, jotta voit luoda sovellus käytäntöjä Androidille, iOS:lle ja Windows 10: lle, jotka koskevat kaikkia käyttäjiä. Voit luoda lisää käytäntöjä asennuksen päätyttyä.
+3. Jätä Mobile-sovelluksen hallinta päälle, Laajenna asetukset ja tarkista ne ja valitse sitten **Luo mobiilisovelluksen hallinta käytäntö**, jos **haluat suojata Officen mobiiliverdauksen tiedot** -sivulla.
 
-        ![Kuva kaappaus Office-tiedostojen suojaus asetuksista mobiililaitteilla.](media/useraccessonmobile.png)
+    ![Kuva kaappaus Office for Mobile-sivun tietojen suojaamisesta.](media/protectdatainmobile.png)
 
-2. Tieto suojaa koskevien tietojen ja laitteiden viimeisessä vaiheessa voit määrittää käytäntöjä Windows 10-laitteiden suojaamiseksi. Näitä asetuksia käytetään automaattisesti, kun käyttäjän Windows 10 muodostaa yhteyden organisaatioosi. Voit tarkastella ja muokata [oletus arvoja](secure-windows-10-devices.md)laajentamalla **suojatut Windows 10-laitteet** .
-3. Voit myös halutessasi [asentaa Officen automaattisesti](install-office-on-windows-10-during-setup.md) Windows 10-laitteisiin.
 
-    ![Kuva kaappaus asetettu Windows 10 laitteen kokoonpano sivu.](media/setwin10config.png)
+## <a name="secure-windows-10-pcs"></a>Secure Windows 10-tieto koneet
 
+Valitse vasemmasta siirtymis kohdasta **Asetukset** ja valitse sitten **Sing-in ja Security**-kohdasta **suojaa Windows 10-tieto koneesi**. Pääset alkuun valitsemalla **Näytä** . Katso täydelliset ohjeet kohdasta [Windows 10-tieto koneiden suojaaminen](secure-win-10-pcs.md) .
 
 ## <a name="deploy-office-365-client-apps"></a>Office 365-asiakas sovellusten käyttöönotto
 
@@ -128,3 +128,7 @@ Jos valitsit, että Office-sovellukset asennetaan asennuksen aikana automaattise
 Jos haluat asentaa Officen mobiililaitteisiin iOS-tai Android-laitteisiin, katso [Microsoft 365-yritys käyttäjien mobiililaitteiden määrittäminen](set-up-mobile-devices.md).
 
 Voit myös asentaa Officen yksitellen. Katso ohjeet [Officen asentamisesta PC:hen tai Maciin](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) .
+
+## <a name="see-also"></a>Katso myös
+
+[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
