@@ -22,17 +22,17 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: Opi nyt ottamaan Officen automaattisesti käyttöön Windows 10-laitteissa asennuksen aikana.
-ms.openlocfilehash: 6bcb85a0acdf738d939c10d4fe418646b00b0b95
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+ms.openlocfilehash: 7b58fd3db6c6f15effe2bc4876903a9f480366b1
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704091"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831619"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Officen asentaminen Windows 10een asennuksen aikana
 
 ![Bannerin, joka https://aka.ms/aboutM365previewviittaa.](media/m365admincenterchanging.png)
 
-Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön varmistaaksesi, että käyttäjillä on Officen uusin versio kaikissa Windows 10-laitteissa, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business-käyttö oikeus, jotta tämä asetus voi työntää ohjelmiston laitteeseen, sekä muiden [microsoft 365 Business-sovelluksen valmistelemisessa Office-asiakas ohjelman käyttöönotossa](prepare-for-office-client-deployment.md)kuvattujen vaatimusten lisäksi. 
+Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön varmistaaksesi, että käyttäjillä on Officen uusin versio kaikissa Windows 10-laitteissa, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business-käyttö oikeus, jotta tämä asetus voi työntää ohjelmiston laitteeseen, sekä muiden [microsoft 365 Business-sovelluksen valmistelemisessa Office-asiakas ohjelman käyttöönotossa](prepare-for-office-client-deployment.md)kuvattujen vaatimusten lisäksi.
   
-Suosittelemme, että hyväksyt oletus asetuksen asennuksen aikana. 
+Suosittelemme, että hyväksyt oletus asetuksen asennuksen aikana.
