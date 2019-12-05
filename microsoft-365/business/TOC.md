@@ -10,7 +10,7 @@
 ### [Päivitä Windows Pro Creators-päivitykseen](upgrade-to-windows-pro-creators-update.md)
 ### [Office-asiakas ohjelman käyttöönoton valmisteleminen](prepare-for-office-client-deployment.md)
 ### [Auta käyttäjiä asentamaan Office](help-users-install-office.md)
-### [Paikallisten resurssien käyttö]
+### Paikallisten resurssien käyttö
 #### [Ota käyttöön toimi alueeseen liittyneiden Windows 10-laitteiden hallitseminen](manage-windows-devices.md)
 #### [Resurssien käyttö Azure AD-liitetystä laitteesta](access-resources.md)
 ## Käyttäjän laite asetukset
