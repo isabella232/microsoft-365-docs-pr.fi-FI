@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Opi, miten voit käyttää paikallisia resursseja, kuten yritys sovelluksia, tiedosto resursseja ja tulostimia Azure Active Directorysta, liittyi Windows 10-laitteeseen.
-ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 89ac38f3da9cbdd3ff1a5eb33dc129d2e83521c7
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668784"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967159"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Paikallisten resurssien käyttö Azure AD-liitetystä laitteesta Microsoft 365 Business
 
@@ -47,7 +47,7 @@ Suorita seuraavat vaiheet, jotta organisaatiosi Azure AD-liitetyt laitteet voiva
     
 Azure AD-liitettyjen laitteiden paikallisten resurssien käyttö oikeuksia ei tarvita lisä toimia. Tämä toiminnallisuus on rakennettu Windows 10. 
 
-Jos sinulla on suunnitelmia kirja utua AADJ-laitteeseen kuin salasana menetelmään, kuten PIN/Bio-metric WHFB-tunniste tietojen sisäänkirjautumisen kautta, ja käyttää sitten yrityksen tiloissa käytettäviä resursseja (osakkeita, tulostimia.. jne), noudatahttps://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
+Jos sinulla on suunnitelmia kirja utua AADJ-laitteeseen kuin salasana menetelmään, kuten PIN/Bio-metric WHFB-tunniste tietojen sisäänkirjautumisen kautta, ja käyttää sitten yrityksen tiloissa käytettäviä resursseja (osakkeita, tulostimia.. jne), noudatahttps://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 Jos organisaatiosi ei ole valmis ottamaan käyttöön yllä kuvattua Azure AD-laitteen kokoonpanoa, harkitse [hybridi Azure AD-laitteen kokoonpanon](manage-windows-devices.md)määrittämistä.
   
