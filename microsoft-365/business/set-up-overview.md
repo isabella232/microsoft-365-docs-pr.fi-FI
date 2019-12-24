@@ -23,14 +23,20 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Yleiskatsaus Microsoft 365 Businessin asennus vaiheista.
-ms.openlocfilehash: f531830bffbe1cb6ce4e39ee2ba12da5738a2684
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967619"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850800"
 ---
 # <a name="overview-of-setup"></a>Yleiskatsaus asennuksesta
+
+Katso lyhyt video Microsoft 365-liike toiminnan asennuksesta.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
+
+Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Suurin osa asennus vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mutta muut vaihto ehdot luetellaan myös.
 
@@ -50,14 +56,12 @@ Suurin osa asennus vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mutta
   
   Ohjatun asennus toiminnon suojaus asetusten lisäksi voit lisätä suojausta lisäämällä seuraavat asetukset:
 
-
 - **Sähkö postin haitta ohjelmien torjunta**
 - **ATP anti-phishing**
 - **Exchange Online Archiving**
 - **Azure-tietojen suojaus (Plan1**)
 
-
-Jos haluat aloittaa, Katso, [Määritä suoja uksen lisä käytännöt](set-up-advanced-security.md).
+Pääset alkuun kohdassa [kehittyneiden suojaus käytäntöjen määrittäminen](set-up-advanced-security.md).
 
 Katso myös [Top 10-tapoja suojata Microsoft 365-liike toiminnan](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) etenemis suunnitelma parhaista tieto turva käytännöistä.
 
