@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Yleiskatsaus Microsoft 365 Businessin asennus vaiheista.
-ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: cab999493bf86ed0adf32521eaf6b3943f107f79
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850800"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995246"
 ---
 # <a name="overview-of-setup"></a>Yleiskatsaus asennuksesta
 
@@ -36,7 +36,7 @@ Katso lyhyt video Microsoft 365-liike toiminnan asennuksesta.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Suurin osa asennus vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mutta muut vaihto ehdot luetellaan myös.
 
@@ -61,7 +61,7 @@ Suurin osa asennus vaiheista voidaan tehdä ohjatussa asennus toiminnossa, mutta
 - **Exchange Online Archiving**
 - **Azure-tietojen suojaus (Plan1**)
 
-Pääset alkuun kohdassa [kehittyneiden suojaus käytäntöjen määrittäminen](set-up-advanced-security.md).
+Pääset alkuun kohdasta [uhkien torjunta](increase-threat-protection.md) ja [yhteensopivuus ominaisuuksien määrittäminen](set-up-compliance.md).
 
 Katso myös [Top 10-tapoja suojata Microsoft 365-liike toiminnan](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) etenemis suunnitelma parhaista tieto turva käytännöistä.
 
@@ -89,6 +89,6 @@ Kun liityt Windows 10-laitteeseen Azure ADIIN, Windows 10-tieto koneille asetetu
 
     - Jos yrityksellasi on paikallinen Active Directory, joka sisältää joitakin paikallisia resursseja (kuten tiedosto resursseja ja tulostimia), voit antaa Azure AD-liitetyille laitteille näiden resurssien käyttö oikeudet noudattamalla seuraavia ohjeita: [paikallisten resurssien käyttö Azure AD-liitetystä laitteesta Microsoft 365-liike toiminnassa](access-resources.md).
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

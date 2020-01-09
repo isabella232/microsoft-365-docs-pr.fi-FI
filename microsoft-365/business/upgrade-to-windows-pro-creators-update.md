@@ -1,5 +1,5 @@
 ---
-title: Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin .
+title: Windows-laitteiden päivittäminen Windows 10 Prohon
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,25 +21,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Opi päivittämään Windows-laitteita Windows 10 Pro Creators-päivitykseen. '
-ms.openlocfilehash: e8399ad94ef58ad8fa5386d4ab0ed7fa4b8627a0
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+description: 'Opi päivittämään Windows-laitteet Windows 10 Pro-versioon. '
+ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831189"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995266"
 ---
-# <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin .
+# <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-laitteiden päivittäminen Windows 10 Prohon
 
 Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Prohon.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="upgrade-to-windows-10-pro-creators-update"></a>Päivitä Windows 10 Pro Creators-päivitykseen
+## <a name="upgrade-to-windows-10-pro"></a>Päivitä Windows 10 Pro-versioon
   
-Jos haluat päivittää Windows 10 Pro Creators-päivitykseen, sinulla on useita vaihto ehtoja. Voit:
+Jos haluat päivittää Windows 10 Pro-versioon, sinulla on useita vaihto ehtoja. Voit:
     
 - Asenna päivitys [Microsoft-ohjelmiston lataussivustosta](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Valitse tämä vaihto ehto, jos kirjautuneena oleva laite on samalla laitteella kuin se, jonka haluat päivittää. 
 
@@ -50,12 +50,12 @@ Jos haluat päivittää Windows 10 Pro Creators-päivitykseen, sinulla on useita
     - Lue ohjeet työkalun käyttöön ja luo asennus tieto väline. 
 
 > [!NOTE]
-> Jos sinulla on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, Microsoft 365 Business-Tilaus oikeuttaa sinut Windows 10-päivitykseen. et vaadi Product Key-tunnusta.
+> Jos sinulla on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, Microsoft 365 Business-Tilaus oikeuttaa sinut Windows Pro 10-päivitykseen. et vaadi Product Key-tunnusta.
     
 Katso Windows [-laitteiden määrittäminen Microsoft 365-yritys käyttäjille](set-up-windows-devices.md) Windows 10-laitteiden määrittämisen viimeistellä. 
   
 Katso Android-ja iOS-laitteiden määrittäminen viimeistellä [mobiililaitteiden määrittäminen Microsoft 365-yritys käyttäjille](set-up-mobile-devices.md) . 
   
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
