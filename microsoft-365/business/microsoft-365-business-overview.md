@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lisä tietoja Microsoft 365-liike toiminnan.
-ms.openlocfilehash: 1d4eb62a31cc44ab8dc75964c038f0a3deef4005
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: eafd03be90c128051c8c91bc339af69a0a613136
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831429"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999550"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Yleistä Microsoft 365 Business
 
@@ -42,7 +42,7 @@ Katso tästä videosta nopea yleiskatsaus Microsoft 365-liike toiminnan.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
 Microsoft 365 Business on tarkoitettu jopa 300 lisensseihin. Jos tarvitset lisää käyttö oikeuksia, Katso lisä tietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -dokumentaatiosta.
 
@@ -99,7 +99,7 @@ Microsoft 365 Business auttaa **puolustautui uhkia vastaan** :
 
 - Yksinkertaistettujen ohjaus objektien käyttäminen kaikkien yrityksesi Windows 10-tieto koneiden käytäntöjen hallintaan, BitLocker-Sala uksen valvomista ja tärkeiden Windows-päivitysten automaattista asentamista (Windows Update-käytäntöjen pakotusta).
 
-Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microsoft 365 Business Security-ominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Businessin](set-up.md), katso [lisä suojaus käytäntöjen määrittäminen](set-up-advanced-security.md) , jotta pääset alkuun niiden suojaus ominaisuuksien kanssa, jotka eivät sisälly ohjattuun asennukseen. Lue myös [Top 10 tapoja suojata Office 365 ja Microsoft 365 liiketoiminta suunnitelmat](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvä yleiskuva siitä, miten perustaa suoja uksia Cyber rikollisia ja hakkereita.
+Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microsoft 365 Business Security-ominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Businessin](set-up.md), katso [Lisää uhkien suojausta](increase-threat-protection.md) ja [Määritä yhteensopivuus ominaisuudet](set-up-compliance.md) , jotta pääset alkuun niiden suojaus ominaisuuksien kanssa, jotka eivät sisälly ohjatun asennuksen osana. Lue myös [Top 10 tapoja suojata Office 365 ja Microsoft 365 liiketoiminta suunnitelmat](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) hyvä yleiskuva siitä, miten perustaa suoja uksia Cyber rikollisia ja hakkereita.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Businessin hankkiminen
 
@@ -112,6 +112,6 @@ Jos haluat nähdä täydellisen suojaus ominaisuuksien luettelon, katso [Microso
     > [!NOTE]
     > Tämä linkki on myymälöille vain Yhdysvalloissa.
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
