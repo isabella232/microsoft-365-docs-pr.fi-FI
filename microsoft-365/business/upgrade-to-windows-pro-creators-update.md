@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Opi päivittämään Windows-laitteet Windows 10 Pro-versioon. '
-ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 3457b35c5f9e313e176664ca088e64ce5dd4f881
+ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995266"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41265854"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-laitteiden päivittäminen Windows 10 Prohon
 
@@ -50,7 +50,7 @@ Jos haluat päivittää Windows 10 Pro-versioon, sinulla on useita vaihto ehtoja
     - Lue ohjeet työkalun käyttöön ja luo asennus tieto väline. 
 
 > [!NOTE]
-> Jos sinulla on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, Microsoft 365 Business-Tilaus oikeuttaa sinut Windows Pro 10-päivitykseen. et vaadi Product Key-tunnusta.
+> Jos sinulla on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, Microsoft 365 Business-Tilaus oikeuttaa sinut Windows Pro 10-päivitykseen.
     
 Katso Windows [-laitteiden määrittäminen Microsoft 365-yritys käyttäjille](set-up-windows-devices.md) Windows 10-laitteiden määrittämisen viimeistellä. 
   
