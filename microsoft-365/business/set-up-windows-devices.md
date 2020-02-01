@@ -1,5 +1,7 @@
 ---
 title: Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
+f1.keywords:
+- CSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Lue, miten voit määrittää Windows 10 Pro for Microsoft 365-käyttö järjestelmä käyttäjät. '
-ms.openlocfilehash: 1e160d624ce5150a1fb74899949aca824589d908
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: a93a184d6209561712144c0947e62d450f850daf
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831339"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594285"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -45,7 +47,7 @@ Katso lyhyt video Windowsin yhdistämisestä Microsoft 365: een.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 -laitteiden liittäminen organisaatiosi Azure AD:hen
 
@@ -123,6 +125,6 @@ Varmista, että Azure Active Directoryyn liitettyihin Windows 10 -laitteisiin on
 
 Mobiililaitteiden määritysohjeet ovat kohdassa [Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-mobile-devices.md). Laitteiden ja sovellusten suojauskäytäntöjen määritysohjeet ovat kohdassa [Microsoft 365 Businessin hallinta](manage.md).
   
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

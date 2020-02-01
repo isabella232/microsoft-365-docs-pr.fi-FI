@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 Businessin käytön aloittaminen
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -24,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Opettele Microsoft 365 Businessin perustamista.
-ms.openlocfilehash: 32bb30208083c4f62dd449290a7c9f5d8c725631
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: a353e39b824bae702fa015b0c7d3dd7e6416454c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831409"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593717"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Businessin käytön aloittaminen
 
@@ -61,7 +63,7 @@ Katso tästä videosta yleiskatsaus Microsoft 365-liike toiminnan asennukseen.<b
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
   
 ### <a name="1-set-up-microsoft-365-business-admin"></a>1: Määritä Microsoft 365 Business (järjestelmänvalvoja)
@@ -103,10 +105,10 @@ Jos säilytät paikallisen Active Directoryn, joka sisältää joitakin paikalli
     
 - Microsoft 365 Business Adminissa voit käyttää asiakas tuki tiimiä: ** [Ota yhteyttä yritys tuotteiden tukeen-järjestelmänvalvojan ohjeet](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
 [Microsoft 365 Businessin ohjeet ja resurssit](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 [Microsoft 365 Businessin hallinta](manage.md)[Microsoft 365 Businessin hallinta](migrate-to-microsoft-365-business.md)
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

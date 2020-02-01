@@ -1,5 +1,7 @@
 ---
 title: Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Asenna Office iPhoneen tai Android-puhelimeen, ja Microsoft 365 Business suojaa työtiedostojasi Office-sovelluksissa.
-ms.openlocfilehash: 6dc116f9c0822d33e8d742d065c8485a0cf82c37
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: 097330c99fac2eb03eec0b9b1cba87b3e5b20350
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850820"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594305"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -43,7 +45,7 @@ Katso lyhyt video Office-sovellusten määrittämisestä iOS-laitteille Microsof
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Siirry **App Store** -kauppaan ja kirjoita hakukenttään Microsoft Outlook.
   
@@ -75,7 +77,7 @@ Katso video Outlookin ja Officen asentamisesta Android-laitteisiin.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Aloita Android-puhelimesi asennus siirtymällä Play kauppaan.
   
@@ -101,8 +103,8 @@ Avaa Outlook uudelleen ja anna ja vahvista PIN-koodi. Outlook-sovellus on nyt va
   
 ![Set  PIN for Outlook app in Android](media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

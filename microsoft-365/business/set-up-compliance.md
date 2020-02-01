@@ -1,5 +1,7 @@
 ---
 title: Lisää uhkien suojausta Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä yhteensopivuus ominaisuuksia tietojen menettämisen estämiseksi ja arkaluonteisten tietojen otsikoiksi.
-ms.openlocfilehash: 6fae95e8c5e6d133e3163dbdfd3c09cfede11382
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: 09619de03aafde37106fb3942890b457c488ad43
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715118"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593401"
 ---
 # <a name="set-up-compliance-features"></a>Yhteensopivuus ominaisuuksien määrittäminen
 

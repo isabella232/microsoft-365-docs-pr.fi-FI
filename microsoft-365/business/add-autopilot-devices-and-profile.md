@@ -1,5 +1,7 @@
 ---
 title: Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Opi käyttämään Windowsin automaatti ohjausta uusien Windows 10-laitteiden käyttöön yrityksellesi.
-ms.openlocfilehash: 5f40dac57285b83da57d4506bac58e562475522c
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 1fd0abb76d16b79dd11ef27b6b27a87894d89ef9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323091"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593269"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
 

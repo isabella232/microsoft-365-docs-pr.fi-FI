@@ -1,5 +1,7 @@
 ---
 title: Rekisteröidy Microsoft 365 Business
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lue, miten voit ostaa ja rekisteröityä Microsoft 365 Business.
-ms.openlocfilehash: d755931b6383a15376d3a875a9cf1ed93e9f4a63
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 63bff3d34df017d1c7cc437ef050d53623e76aa9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831239"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594244"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Rekisteröidy Microsoft 365 Business
 
@@ -50,7 +52,7 @@ Katso tämä video, niin saat nopean yleiskatsauksen rekisteröitymis prosessist
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 Jos haluat rekisteröityä ja ostaa Microsoft 365-yrityksen yrityksellesi, tee seuraavat toimet:
 
@@ -91,6 +93,6 @@ Valitsemalla **Siirry asetuksiin** voit suorittaa muita vaiheita, kuten lisätä
 
 Ohjeita asennukseen on kohdassa [Set up](set-up.md).
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

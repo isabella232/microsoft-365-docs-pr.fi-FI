@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 Businessin määrittäminen
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -26,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lue lisä tietoja Microsoft 365 Businessin määrittämisestä.
-ms.openlocfilehash: 0001c2b9962f6cce0be1f77cbf427c68f9ee3249
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: c370a5b3fd735e704eea56ac1079bb2e5dad4c4b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831299"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594265"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>Microsoft 365-liike toiminnan määrittäminen ohjatussa asennus toiminnossa
 
@@ -39,7 +41,7 @@ Katso tästä videosta yleiskatsaus Microsoft 365-liike toiminnan asennukseen.<b
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
-Jos olet löytänyt tämän videon hyödyllisiksi, tutustu [koko koulutus sarjaan pien yrityksille ja niille, jotka ovat Microsoft 365-yrityksen uusia](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>Lisää toimi alue, käyttäjät ja määritä käytännöt
 
@@ -131,6 +133,6 @@ Jos haluat asentaa Officen mobiililaitteisiin iOS-tai Android-laitteisiin, katso
 
 Voit myös asentaa Officen yksitellen. Katso ohjeet [Officen asentamisesta PC:hen tai Maciin](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) .
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365-liike toiminnan koulutus videot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -1,5 +1,7 @@
 ---
 title: Sovellusten suojausasetusten vahvistaminen Windows 10 -tietokoneissa
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Opi vahvistamaan Microsoft 365 Business-sovellusten suojaus asetukset Windows 10-laitteissa.
-ms.openlocfilehash: c54b053c1f6efbca8fd02431c416793a044c6821
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 6573519ee2fe2d1eb82545755fa98b8c018e08ff
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721856"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594991"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Sovellusten suojausasetusten vahvistaminen Windows 10 -tietokoneissa
 

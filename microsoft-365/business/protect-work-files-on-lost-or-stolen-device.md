@@ -1,5 +1,7 @@
 ---
 title: Työtiedostojen suojaaminen mobiililaitteiden katoamisen tai varastamisen varalta
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
 description: Tietoja työtiedostojen suojaamiseksi käytettävissä olevista asetuksista, jos käyttäjän laite katoaa tai varastetaan.
-ms.openlocfilehash: fe40f04f27b90f97a734e0a761cdbf0bba60ca2c
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 5f137354b51a0151e57e5e109b1ebbb043c68f60
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640497"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593552"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Työtiedostojen suojaaminen mobiililaitteiden katoamisen tai varastamisen varalta
 
