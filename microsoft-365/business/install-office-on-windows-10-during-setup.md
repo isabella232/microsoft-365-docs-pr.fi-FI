@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Opi nyt ottamaan Officen automaattisesti käyttöön Windows 10-laitteissa asennuksen aikana.
-ms.openlocfilehash: 8a631d3976ae3bce82d59d84e38a14405010ab02
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Opi nyt ottamaan Office automaattisesti käyttöön Windows 10 -laitteissa asennuksen aikana.
+ms.openlocfilehash: 8ba69f73b455cb78e7141d57b2f690f49bb36f2e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593857"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065691"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Officen asentaminen Windows 10een asennuksen aikana
 
-![Bannerin, joka https://aka.ms/aboutM365previewviittaa.](media/m365admincenterchanging.png)
+![Banner, joka https://aka.ms/aboutM365previewosoittaa .](../media/m365admincenterchanging.png)
 
-Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön varmistaaksesi, että käyttäjillä on Officen uusin versio kaikissa Windows 10-laitteissa, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business-käyttö oikeus, jotta tämä asetus voi työntää ohjelmiston laitteeseen, sekä muiden [microsoft 365 Business-sovelluksen valmistelemisessa Office-asiakas ohjelman käyttöönotossa](prepare-for-office-client-deployment.md)kuvattujen vaatimusten lisäksi.
+Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön ja varmistaa, että käyttäjillä on uusin Office-versio kaikissa Windows 10 -laitteissaan, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Businessin käyttöoikeus, jotta tämä asetus voidaan siirtää laitteeseen, muiden Microsoft [365 Businessin käyttöönottoon tarkoitetun](prepare-for-office-client-deployment.md)asiakkaan valmisteleminen -kohdassa kuvattujen vaatimusten lisäksi.
   
-Suosittelemme, että hyväksyt oletus asetuksen asennuksen aikana.
+Suosittelemme, että hyväksyt oletusasetuksen asennuksen aikana.

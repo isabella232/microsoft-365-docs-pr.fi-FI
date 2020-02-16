@@ -21,33 +21,33 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: 'Tietoja Microsoft 365 Businessin käyttämisestä yrityksen tietojen poistamiseen käyttäjä laitteista tai Windows-tieto koneesta. '
-ms.openlocfilehash: ff0ad9d7f22f9bb1b21ee15fe383c6994896a9a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 'Lue tietoja siitä, miten voit poistaa yrityksen tiedot käyttäjälaitteista tai Windows-tietokoneista Microsoft 365 Businessin avulla. '
+ms.openlocfilehash: 338ce030cb37a6cbd4a1f63c33dc6866bef93c24
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593492"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064896"
 ---
 # <a name="remove-company-data-from-devices"></a>Yritystietojen poistaminen laitteista
 
-[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="remove-company-data"></a>Poista yritystiedot
 
 Microsoft 365 Business:n avulla voit poistaa yritystiedot, jotka käyttäjillä on [laitteissaan](app-protection-settings-for-android-and-ios.md) tai [Windows-tietokoneissaan](protection-settings-for-windows-10-devices.md), jotka on suojattu Microsoft 365:n avulla. **Jos poistat yritystiedot laitteesta, et voi palauttaa niitä myöhemmin**. 
   
-1. Siirry hallinta keskukseen-kohtaan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
-2. Valitse vasemmasta NAV-kohdasta **laitteiden** \> **hallinta**.  
+2. Valitse vasemmasta siirtymisruudusta **Laitteiden** \> **hallinta**.  
   
-3. Valitse **hallinta** -sivulta käyttäjä, jonka tiedot haluat poistaa, ja valitse nimi. 
+3. Valitse Tai etsi **Hallinta-sivulla** käyttäjä, jonka tiedot haluat poistaa, ja valitse nimi. 
     
-4. Valitse laite tai laitteet seuraavassa ruudussa **laitteet** -luettelosta. Laite ruudussa, joka avautuu, voit valita laitteen tehdas asetusten palauttamisen tai yrityksen tietojen poistamisen laite tyypistä riippuen. 
+4. Valitse seuraavassa ruudussa laite tai laitteet **Laitteet-luettelosta.** Avautuvan laiteruudun voit palauttaa laitteen tehdasasetukset tai poistaa yrityksen tiedot laitetyypin mukaan. 
     
-    ![Valitse Poista yritys tiedot-ruudusta laite, josta haluat poistaa tiedot.](media/resetorremove.png)
+    ![Valitse Poista yrityksen tiedot -ruudusta laite, josta haluat poistaa tiedot.](../media/resetorremove.png)
   
-5. Valitse vahvistus ruudussa **Vahvista** \> **sulkeminen**.
+5. Valitse vahvistusruudussa **Vahvista** \> **sulkeminen**.
     
 
 

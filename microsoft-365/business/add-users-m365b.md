@@ -1,5 +1,5 @@
 ---
-title: Lisää käyttäjiä Microsoft 365 Business
+title: Lisää käyttäjiä Microsoft 365 Businessiin
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,15 +24,15 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: Opi lisäämään uusia käyttäjiä, turvaamaan heidän laitteitaan ja määrittämään rooleja Microsoft 365 Businessissa.
-ms.openlocfilehash: 932b969d089dd223426e35c5bea4efde4409ad48
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lue, miten voit lisätä uusia käyttäjiä, suojata heidän laitteitaan ja määrittää rooleja Microsoft 365 Businessissa.
+ms.openlocfilehash: a7893a8b070b37b7643a4d4e7de3e8ef2ec704f2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593289"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068583"
 ---
-# <a name="add-more-users-to-microsoft-365-business"></a>Lisää käyttäjiä Microsoft 365 Business
+# <a name="add-more-users-to-microsoft-365-business"></a>Lisää käyttäjiä Microsoft 365 Businessiin
 
 ## <a name="add-new-users"></a>Lisää uusia käyttäjiä
 
@@ -44,18 +44,18 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
 
 Voit lisätä käyttäjän:
 
-1. Siirry hallinta keskukseen-kohtaan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
-2. Valitse vasemmasta siirtymis ruudusta **käyttäjät** \> **aktiiviset käyttäjät**.
-3. Valitse **aktiiviset käyttäjät** -sivulla **Lisää käyttäjä**.
-4. Kirjoita tarvittavat tiedot **Uusi käyttäjä** -paneeliin. 
+1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+2. Valitse vasemmasta siirtymisruudusta **Käyttäjät Aktiiviset** \> **käyttäjät**.
+3. Valitse **Aktiiviset käyttäjät** -sivulla **Lisää käyttäjä**.
+4. Kirjoita **tarvittavat** tiedot Uusi käyttäjä -paneeliin. 
   
-    Voit kirjoittaa lisä tietoja kohdassa **yhteys tiedot**, valita Sala sanan asettaminen Sala **sana** -kohdassa ja määrittää **roolit roolit-kohdassa.**
+    Voit kirjoittaa lisätietoja **Yhteystiedot**-kohtaan , valita **Salasana-asetuksen** salasanan määritystavan ja määrittää rooleja **Roolit**-kohdassa.
       
-    ![Enter user information in the New user card](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
+    ![Enter user information in the New user card](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    Määritä tuotteen käyttö oikeudet-osiossa **Microsoft 365** -tuotteen käyttö oikeus asetukseksi **käytössä**.
+    Määritä Tuotteen käyttöoikeudet -osassa **Microsoft 365 Business -tuotteen** käyttöoikeusasetukseksi **Käytössä**.
       
-    ![Set the license setting to On position](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
+    ![Set the license setting to On position](../media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
-Lisä tietoja käyttäjien lisäämisestä on kohdassa käyttäjien lisääminen [yksitellen tai irtotavarana](https://docs.microsoft.com/office365/admin/add-users/add-users).
+Lisätietoja käyttäjien lisäämisestä on [ohjeaiheessa Käyttäjien lisääminen yksitellen tai joukkona](https://docs.microsoft.com/office365/admin/add-users/add-users).
   

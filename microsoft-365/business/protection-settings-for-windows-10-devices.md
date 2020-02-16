@@ -26,13 +26,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Lue, miten voit luoda sovellusten hallinta käytännön ja suojata työtiedostoja Windows 10-laitteissa.
-ms.openlocfilehash: 703f63fc1c90966eb8412886e82670af3e9d6f62
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lue tietoja sovellusten hallintakäytännön luomisesta ja työtiedostojen suojaamisesta Windows 10 -laitteissa.
+ms.openlocfilehash: eb9c5465bf7376efa95162cd39be3f1c6840a3e4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593532"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065002"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Sovellusten suojausasetusten määrittäminen Windows 10 -laitteille
 
@@ -40,31 +40,31 @@ ms.locfileid: "41593532"
 
 Jos käyttäjillä on henkilökohtaisia Windows 10 -laitteita, joissa he tekevät työtehtäviä, voit suojata tiedot myös kyseisissä laitteissa.
   
-1. Siirry hallinta keskukseen-kohtaan <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
     
-2. Valitse vasemmasta siirtymis kohdasta **laite** \> **käytännöt** \> - **Lisää**.
+2. Valitse vasemmasta siirtymisruudusta \> **Laitekäytännöt** \> **Lisää**. ****
 
 3. Kirjoita **Lisää käytäntö** -ruutuun yksilöivä nimi tälle käytännölle. 
     
 4. Valitse **Käytännön tyyppi** -kohdassa **Windows 10:n sovellusten hallinta**.
     
-5. Valitse **laite tyyppi**-kohdassa joko **henkilökohtainen** tai **yrityksen omistama**.
+5. Valitse **Laitetyyppi**-kohdassa Joko **Henkilökohtainen** tai **Yrityksen omistama**.
     
 6. **Salaa työtiedostot** otetaan automaattisesti käyttöön. 
     
 7. Määritä **Estä käyttäjiä kopioimasta yritystietoja henkilökohtaisiin tiedostoihin ja pakota heidät tallentamaan työtiedostot OneDrive for Businessiin** **käyttöön**, jos et halua käyttäjien tallentavan työtiedostoja tietokoneeseensa. 
     
-9. Laajenna **Palauta tiedot Windows-laitteissa**. Suosittelemme, että otat sen käyttöön **.**
+9. Laajenna **Palauta tiedot Windows-laitteissa**. Suosittelemme, että otat sen **käyttöön**.
     
-    Ennen kuin voit etsiä Tietojenpalautusagentti-varmenteen, sinun on ensin luotava se. Katso ohjeet kohdasta [EFS (Encrypting File System)-Data Recovery Agent (DRA)-sertifikaatin luominen ja tarkistaminen](https://go.microsoft.com/fwlink/p/?linkid=853700).
+    Ennen kuin voit etsiä Tietojenpalautusagentti-varmenteen, sinun on ensin luotava se. Lisätietoja on kohdassa [EFS (Encrypting File System) Data Recovery Agent (DRA) -varmenteen luominen ja tarkistaminen](https://go.microsoft.com/fwlink/p/?linkid=853700).
     
-    Työtiedostot on oletusarvoisesti salattu salaisella avaimella, joka on tallennettu laitteeseen ja liitetty käyttäjän profiiliin. Vain käyttäjä itse voi avata tiedoston ja purkaa sen salauksen. Jos laite häviää tai jos käyttäjä poistetaan, tiedosto voi jäädä salattuun tilaan. Järjestelmänvalvoja voi purkaa tiedoston Sala uksen käyttämällä tietojen palautus agentin (DRA) sertifikaattia.
+    Työtiedostot on oletusarvoisesti salattu salaisella avaimella, joka on tallennettu laitteeseen ja liitetty käyttäjän profiiliin. Vain käyttäjä itse voi avata tiedoston ja purkaa sen salauksen. Jos laite häviää tai jos käyttäjä poistetaan, tiedosto voi jäädä salattuun tilaan. Järjestelmänvalvoja voi purkaa tiedoston salauksen DRA (Data Recovery Agent) -sertifikaatin avulla.
     
-    ![Browse to Data Recovery Agent certificate.](media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
+    ![Browse to Data Recovery Agent certificate.](../media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
   
-10. Laajenna **suojaa muita verkko-ja pilvi sijainteja** , jos haluat lisätä uusia verkko tunnuksia tai SharePoint Online-sijainteja varmistaaksesi, että kaikkien lueteltujen sovellusten tiedostot on suojattu. Jos sinun on annettava jompaankumpaan kenttään useita kohteita, lisää kohteiden väliin puolipiste (;).
+10. Laajenna **Suojaa lisää verkko- ja pilvisijainteja,** jos haluat lisätä muita toimialueita tai SharePoint Online -sijainteja ja varmistaa, että kaikkien luettelossa olevien sovellusten tiedostot on suojattu. Jos sinun on annettava jompaankumpaan kenttään useita kohteita, lisää kohteiden väliin puolipiste (;).
     
-    ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
+    ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](../media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   
 11. Päätä seuraavaksi, **ketkä saavat nämä asetukset**. Jos et halua käyttää oletusarvoista **Kaikki käyttäjät** -käyttöoikeusryhmää, valitse **Muuta** ja valitse käyttöoikeusryhmät, jotka saavat nämä asetukset \> **Valitse**.
     

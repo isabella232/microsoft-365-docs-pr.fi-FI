@@ -1,5 +1,5 @@
 ---
-title: Ehdollisten käyttö oikeus käytäntöjen määrittäminen Microsoft 365-kampanjoille
+title: Ehdollisen käytön käytäntöjen määrittäminen Microsoft 365 -kampanjoille
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,42 +22,42 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Lue lisä tietoja ehdollisten käyttö käytäntöjen määrittämisestä Microsoft 365-kampanjoille.
-ms.openlocfilehash: 335fbd7e771b1595e1846529daed76e5ddd3a8f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lue tietoja ehdollisen käytön käytäntöjen määrittämisestä Microsoft 365 -kampanjoille.
+ms.openlocfilehash: 1ef90bd77da43ded624d85cef9c7a33beec74345
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593381"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064602"
 ---
-# <a name="set-up-conditional-access-policies"></a>Määritä ehdolliset käyttö oikeus käytännöt
+# <a name="set-up-conditional-access-policies"></a>Ehdollisen käytön käytäntöjen määrittäminen
 
-[Ehdollisen käytön](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) käytännöt lisäävät huomattavasti lisä suojausta. Microsoft tarjoaa perusaikataulun ehdollisten käyttö oikeus käytäntöjen joukon, jota suositellaan kaikille asiakkaille. Perusaikataulun käytännöt ovat joukko esimääritettyjä käytäntöjä, jotka auttavat suojaamaan organisaatioita monista yleisistä hyökkäyksistä. Näitä yleisiä hyökkäyksiä voivat olla Sala sanan suihkutus, uusinta toisto ja tietojenkalastelu.
+[Ehdollisen käytön](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) käytännöt lisäävät huomattavasti lisäsuojausta. Microsoft tarjoaa joukon perustason ehdollisia käyttökäytäntöjä, joita suositellaan kaikille asiakkaille. Perusaikataulun käytännöt ovat joukko ennalta määritettyjä käytäntöjä, jotka auttavat suojaamaan organisaatioita monilta yleisiltä hyökkäyksiltä. Näitä yleisiä hyökkäyksiä voivat olla salasanasuihke, uusinta ja tietojenkalastelu.
 
-Nämä käytännöt edellyttävät, että järjestelmänvalvojat ja käyttäjät syöttäisivät toisen todennus muodon (jota kutsutaan nimellä Monivaiheinen todennus tai MFA), kun tietyt ehdot täyttyvät. Jos käyttäjä on esimerkiksi kirjauduttava sisään toisesta maasta, kirjautumista voidaan pitää riskialttiina ja käyttäjän on annettava lisä todennus muoto. 
+Nämä käytännöt edellyttävät, että järjestelmänvalvojat ja käyttäjät kirjoittavat toisen todennusmuodon (monivaiheinen todennus tai mfa), kun tietyt ehdot täyttyvät. Jos käyttäjä esimerkiksi kirjautuu sisään toisesta maasta, kirjautumista saatetaan pitää riskialttiina ja käyttäjän on annettava lisätodennusmuoto. 
 
-Tällä hetkellä perusaikataulun käytäntöjä ovat seuraavat:
-- **Edellytä, että järjestelmänvalvojien** &ndash; MFA edellyttää usean tekijän todennusta etuoikeutetuimpia järjestelmänvalvojan rooleja varten, mukaan lukien yleinen järjestelmänvalvoja.
-- **Loppu käyttäjän suojaus** &ndash; vaatii usean tekijän todennuksen käyttäjille vain silloin, kun kirjautuminen on riskialtista. 
-- **Estä vanha todennus** &ndash; vanhemmat asiakas sovellukset ja jotkin uudet sovellukset eivät käytä uudempia, turvallisempia todennus protokollia. Nämä vanhemmat sovellukset voivat ohittaa ehdolliset käyttö käytännöt ja käyttää ympäristöäsi luvattomasti. Tämä käytäntö estää pääsyn asiakkailta, jotka eivät tue ehdollista pääsyä. 
-- **Vaadi MFA for Service Management** &ndash; edellyttää monivaiheista todennusta, jotta voit käyttää hallinta työkaluja, mukaan lukien Azure Portal (jossa määrität peruskäytännöt). 
+Tällä hetkellä perustason käytäntöjä ovat seuraavat:
+- **Vaadi mfa järjestelmänvalvojille** &ndash; Edellyttää monivaiheista todennusta etuoikeutetuimmille järjestelmänvalvojan rooleille, mukaan lukien yleinen järjestelmänvalvoja.
+- **Loppukäyttäjän suojaus** &ndash; Edellyttää monivaiheista todennusta käyttäjille vain, kun kirjautuminen on riskialtista. 
+- **Estä vanha todennus** &ndash; Vanhemmat asiakassovellukset ja jotkin uudet sovellukset eivät käytä uudempia, turvallisempia todennusprotokollia. Nämä vanhemmat sovellukset voivat ohittaa ehdollisen käytön käytännöt ja saada luvattoman pääsyn ympäristöösi. Tämä käytäntö estää pääsyn asiakkailta, jotka eivät tue ehdollista käyttöoikeutta. 
+- **Vaadi mfa palvelunhallintaa** &ndash; edellyttää monivaiheista todennusta hallintatyökalujen, kuten Azure-portaalin (jossa perusaikataulun käytännöt määritetään). 
 
-Microsoft suosittelee, että otat kaikki nämä perusaikataulun käytännöt käyttöön. Kun nämä käytännöt on otettu käyttöön, ylläpitäjiä ja käyttäjiä kehotetaan rekisteröitymään Azure Multii-Factor-todennukseen.
+Microsoft suosittelee, että otat käyttöön kaikki nämä perusaikataulun käytännöt. Kun nämä käytännöt on otettu käyttöön, järjestelmänvalvojia ja käyttäjiä pyydetään rekisteröitymään Azure Multii-Factor -todennusta varten.
 
-Lisä tietoja näistä käytännöistä on Ohje aiheessa [Mitä ovat perusaikataulun käytännöt](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)?
+Lisätietoja näistä käytännöistä on ohjeaiheessa [Mitä ovat perustason käytännöt?](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-baseline-protection)
 
 
-## <a name="set-up-baseline-policies"></a>Määritä perusaikataulun käytännöt
+## <a name="set-up-baseline-policies"></a>Perusaikataulun käytäntöjen määrittäminen
 
-1. Siirry [Azure-portaaliin](https://portal.azure.com)ja siirry sitten **Azure Active Directoryn** \> **ehdolliseen pääsyyn**.
+1. Siirry [Azure-portaaliin](https://portal.azure.com)ja siirry sitten **Azure Active Directoryn** \> **ehdolliseen käyttöön**.
     
-    Perusaikataulun käytännöt on lueteltu sivulla. <br/> <br/>
-    ![Sivu, joka sisältää ehdollisen käytön peruskäytännöt.](media/baslinepolicies.png)
-1. Katso seuraavat erityiset ohjeet kutakin käytäntöä varten:
+    Perusaikataulun käytännöt näkyvät sivulla. <br/> <br/>
+    ![Sivu, jossa on luettelo ehdollisen käytön perusaikataulun käytännöistä.](../media/baslinepolicies.png)
+1. Katso seuraavat tarkat ohjeet kustakin käytännöstä:
 
-  - [Vaadi järjestelmänvalvojien MFA](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-- [Vaadi MFA-käyttäjille](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
- - [Estä aiempi todennus](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
-  - [Vaadi MFA palvelun hallintaa varten](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
+  - [Vaadi mfa ylläpitäjät](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [Vaadi mfa käyttäjille](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [Estä vanha todennus](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [Vaadi mfa palvelunhallintaan](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-Voit määrittää useita lisä käytäntöjä, kuten hyväksyttyjen asiakas sovellusten vaatiminen. Lisä tietoja on [ehdollisen käyttö oikeus dokumentaatiossa](https://docs.microsoft.com/azure/active-directory/conditional-access/).
+Voit määrittää useita lisäkäytäntöjä, kuten edellyttää hyväksyttyjä asiakassovelluksia. Lisätietoja on [ehdollisen käytön dokumentaatiossa](https://docs.microsoft.com/azure/active-directory/conditional-access/).

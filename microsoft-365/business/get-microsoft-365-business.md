@@ -1,5 +1,5 @@
 ---
-title: Hanki Microsoft 365-liike toiminta kumppani keskuksesta
+title: Hanki Microsoft 365 Business kumppanikeskuksesta
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Opi ostamaan Microsoft 365 Business Microsoft Partner Centeristä.
-ms.openlocfilehash: 18af5b0aee378784199e91c8254b50fd1104172b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lue tietoja Microsoft 365 Businessin ostamisesta Microsoft-kumppanikeskuksesta.
+ms.openlocfilehash: ba6aa806e3e628e8c3478abb57c4529e4f5692bf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593947"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065804"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Businessin hankkiminen
 
@@ -36,25 +36,25 @@ ms.locfileid: "41593947"
 
 Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 Business:n, [osta se täältä](https://www.microsoft.com/en-US/microsoft-365/business).
 
-Lisä tietoja on kohdassa [Microsoft 365 Businessin rekisteröitymis](sign-up.md) ohjeet.
+Lisätietoja on [Microsoft 365 Businessin rekisteröitymisjärjestelmässä.](sign-up.md)
 
-Voit myös suunnata Microsoft [Storeen](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) ja ostaa Microsoft 365 Businessin ja saada asennus ohjeen.
+Voit myös hankkia Microsoft 365 Businessin ja hankkia asennusohjeita myös [Microsoft Storesta.](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS)
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 365 Businessin hankkiminen Microsoft-kumppanikeskuksesta
 
 1. Kirjaudu [Microsoft-kumppanikeskukseen](https://go.microsoft.com/fwlink/p/?linkid=849910) tunnistetiedoilla, jotka loit rekisteröityessäsi pilvipalveluntarjoajaohjelmaan (CSP). 
     
-2. Valitse kumppanin koonti näytössä **Asiakkaat**, valitse asiakkaasi tai Lisää uusi asiakas ennen kuin saat Microsoft 365-liike toiminnan.
+2. Valitse Kumppani-koontinäytössä **Asiakkaat**ja valitse sitten asiakkaasi tai lisää uusi asiakas, ennen kuin hankit Microsoft 365 Businessin.
     
-    ![Lisää asiakas Microsoft Partner Centerissä.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![Lisää asiakas Microsoft-kumppanikeskuksessa.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
-3. Valitse asiakkaan **tilaus** -sivulla **Lisää tilaus**, valitse pien yritys-vaihto ehto kohdassa luettelo ja valitse sitten **Microsoft 365 Business**.
+3. Valitse asiakkaan **Tilaus-sivulla** **Lisää tilaus**, valitse Luettelo-kohdasta Pienyritykset-vaihtoehto ja valitse sitten **Microsoft 365 Business**.
     
     Valitse tarvitsemasi määrä käyttöoikeuksia (enintään 300). Jos käyttäjiä on yli 300, tutustu sen sijaan [Microsoft 365 Enterpriseen](https://go.microsoft.com/fwlink/p/?linkid=862316). 
     
-    ![Valitse uusi tilaus-sivulla Small Business.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![Valitse Uusi tilaus -sivulla pienyritys.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    Täytä loput vaiheet uuden asiakkaan lisäämiseksi, mukaan lukien yrityksen nimi.
+    Lisää uusi asiakas, mukaan lukien yrityksen nimi, muut vaiheet.
     
 
 
