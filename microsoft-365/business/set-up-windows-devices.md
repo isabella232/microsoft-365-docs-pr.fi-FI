@@ -23,13 +23,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Lue, miten voit määrittää Windows 10 Pro for Microsoft 365-käyttö järjestelmä käyttäjät. '
-ms.openlocfilehash: a93a184d6209561712144c0947e62d450f850daf
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 'Lue tietoja Windows-laitteiden määrittämisestä Windows 10 Pro for Microsoft 365 Business -käyttäjille. '
+ms.openlocfilehash: 427e1c25b5c6ad52ab280502133a0e2808bb48b1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594285"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42090654"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
@@ -41,9 +41,9 @@ Jos käytössäsi on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro t
   
 Lisätietoja Windows-laitteiden Windows 10 Pro Creators -päivityksen tekemisestä on tämän aiheen ohjeissa: [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md).
   
-Tarkista, että sinulla on päivitys, ja varmista, että päivitys toimi, tarkistamalla, [että laite on yhdistetty Azure AD-verkkoon](#verify-the-device-is-connected-to-azure-ad) .
+Lisätietoja on ohjeaiheessa [Laitteen on yhdistetty Azure AD:hen,](#verify-the-device-is-connected-to-azure-ad) jotta voit varmistaa, että päivitys on muodostettu, tai varmista, että päivitys toimi.
 
-Katso lyhyt video Windowsin yhdistämisestä Microsoft 365: een.<br><br>
+Katso lyhyt video Windowsin yhdistämisestä Microsoft 365:een.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
@@ -51,7 +51,7 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 -laitteiden liittäminen organisaatiosi Azure AD:hen
 
-Kun kaikki organisaatiosi Windows-laitteet on joko päivitetty Windows 10 Pro Creators-päivitykseen tai jo käytössä on Windows 10 Pro Creators Update, voit liittyä näihin laitteisiin organisaatiosi Azure Active Directoryyn. Kun laitteet on liitetty, ne päivitetään automaattisesti Windows 10 Business-versioon, joka on osa Microsoft 365 Business-tilausta.
+Kun kaikki organisaatiosi Windows-laitteet on joko päivitetty Windows 10 Pro Creators Updateksi tai niissä on jo Windows 10 Pro Creators Update , voit liittyä näihin laitteisiin organisaatiosi Azure Active Directoryyn. Kun laitteet on liitetty, ne päivitetään automaattisesti Windows 10 Businessiin, joka on osa Microsoft 365 Business -tilaustasi.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Uusi tai päivitetty Windows 10 Pro -laite
 
@@ -59,7 +59,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
   
 1. Suorita Windows 10 -laitteen asennus, kunnes näyttöön tulee **Miten haluat määrittää?** -sivu. 
     
-    ![On the How would you like to set up page, choose Set up for an organization](media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
+    ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
 2. Valitse sitten **Määritä organisaatiolle** ja anna Microsoft 365 Business -käyttäjänimesi ja -salasanasi. 
     
@@ -73,33 +73,33 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
   
 1. Valitse käyttäjän Windows-tietokoneessa, jossa on käytössä Windows 10 Pro -versio 1703 (Creators-päivitys) (katso [edellytykset](pre-requisites-for-data-protection.md)), Windows-näppäin ja valitse sitten Asetukset-kuvake.
   
-   ![In the Start menu, click Windows Settings icon](media/74e1ce9a-1554-4761-beb9-330b176e9b9d.png)
+   ![In the Start menu, click Windows Settings icon](../media/74e1ce9a-1554-4761-beb9-330b176e9b9d.png)
   
 2. Vallitse **Asetukset** ja valitse sitten **Tilit**.
   
-   ![In Windows Settings, go to Accounts](media/472fd688-d111-4788-9fbb-56a00fbdc24d.png)
+   ![In Windows Settings, go to Accounts](../media/472fd688-d111-4788-9fbb-56a00fbdc24d.png)
   
 3. Valitse **Omat tiedot** -sivulla **Käytä työpaikan tai koulun resursseja** \> **Yhdistä**.
   
-   ![Choose Connect under Access work or school](media/af3a4e3f-f9b9-4969-b3e2-4ef99308090c.png)
+   ![Choose Connect under Access work or school](../media/af3a4e3f-f9b9-4969-b3e2-4ef99308090c.png)
   
 4. Valitse **Määritä työpaikan tai oppilaitoksen tili** -valintaikkunan **Vaihtoehtoiset toimet** -kohdassa **Liitä tämä laite Azure Active Directoryyn**.
   
-   ![Click Join this device to Azure Active Directory](media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
+   ![Click Join this device to Azure Active Directory](../media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
 5. Kirjoita **Kirjaudu sisään** -sivulla työpaikan tai oppilaitoksen tili \> **Seuraava**.
   
    Kirjoita salasana **Anna salasana** -sivulla \> **Kirjaudu**.
   
-   ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
+   ![Enter your work or school email on the Let's get you signed in page](../media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. Varmista, että **Tämä on organisaatiosi** sivu, varmista, että tiedot ovat oikein, ja valitse **Liity**.
+6. Varmista **Varmista, että tämä on organisaatiosi** -sivulla, että tiedot ovat oikein, ja valitse **Liity**.
   
    Valitse **Olet valmis!** -sivulla **Valmis**.
   
-   ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
+   ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-Jos olet ladannut tiedostoja OneDrive for Businessiin, synkronoi ne takaisin. Jos olet käyttänyt kolmannen osapuolen työkalua profiilin ja tiedostojen siirtämisessä, synkronoi ne myös uuteen profiiliin.
+Jos olet ladannut tiedostoja OneDrive for Businessiin, synkronoi ne takaisin. Jos käytit kolmannen osapuolen työkalua profiilin ja tiedostojen siirtämiseen, synkronoi ne myös uuteen profiiliin.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Laitteen Azure AD -yhteyden tarkistaminen
 
@@ -107,9 +107,9 @@ Tarkista synkronointitilasi napsauttamalla **Asetukset**-valintaikkunan **Käyt�
   
 Valitse Synkronointitila-sivulla Synkronoi, jolloin saat uusimmat mobiililaitteiden hallintakäytännöt PC-tietokoneeseen.
   
-Jos haluat aloittaa Microsoft 365-yritys tilin käyttämisen, siirry Windowsin **Käynnistä** -painikkeeseen, napsauta hiiren kakkos painikkeella nykyistä tili kuvaasi ja **Vaihda sitten tiliä**. Kirjaudu sisään käyttämällä organisaatiosi sähköpostiosoitetta ja salasanaa.
+Voit aloittaa Microsoft 365 Business -tilin **** käytön siirtymällä Windowsin Käynnistä-valikkoon, napsauttamalla nykyistä tilikuvaahiiren kakkospainikkeella ja **vaihtamalla sitten tilin vaihtamista**. Kirjaudu sisään käyttämällä organisaatiosi sähköpostiosoitetta ja salasanaa.
   
-![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
+![Click Info button to view synchronization status](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
 ## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>Windows 10 Business -päivityksen olemassaolon tarkistaminen laitteessa
 
@@ -119,7 +119,7 @@ Varmista, että Azure Active Directoryyn liitettyihin Windows 10 -laitteisiin on
     
 2. Varmista, että **Julkaisu**-kohdassa lukee **Windows 10 Business**.
     
-    ![Verify that Windows edition is Windows 10 Business.](media/ff660fc8-d3ba-431b-89a5-f5abded96c4d.png)
+    ![Verify that Windows edition is Windows 10 Business.](../media/ff660fc8-d3ba-431b-89a5-f5abded96c4d.png)
   
 ## <a name="next-steps"></a>Seuraavat vaiheet
 
