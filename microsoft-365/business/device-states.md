@@ -18,18 +18,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: Lisätietoja eri laitetiloista on Microsoft 365 Businessin Järjestelmänvalvoja-aloitussivun Laitetoiminnot-luettelossa.
-ms.openlocfilehash: 878050fbe11acca1d5d434a5d2ab0b5b48510e45
-ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
+ms.openlocfilehash: cb1e5172a6e2d0bfc5748fe982024ead26e8cd62
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42415661"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417312"
 ---
 # <a name="device-states"></a>Laitteen tilat
 
