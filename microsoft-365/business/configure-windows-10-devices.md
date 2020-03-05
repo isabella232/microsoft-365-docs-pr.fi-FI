@@ -20,18 +20,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
 description: Lue tietoja windows 10:n laitekäytäntöjen määrittämisestä, jotka koskevat kaikkia organisaatiosi käyttäjiä, ja varmistamaan, että he muodostavat yhteyden suojatulla tavalla.
-ms.openlocfilehash: c6fd2aa76dd7af570bd5d78c6c457041e6a8d605
-ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
+ms.openlocfilehash: 9b690d34df6270731ea08bca1e59483d697b04d5
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42415581"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417262"
 ---
 # <a name="configure-windows-10-devices"></a>Windows 10 -laitteiden määrittäminen
 
