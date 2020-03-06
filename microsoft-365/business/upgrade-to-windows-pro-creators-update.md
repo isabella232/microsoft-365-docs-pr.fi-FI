@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: Tutustu useisiin tapoihin, joilla voit päivittää Windows-laitteesi Windows 10 Proksi, jotta voit nauttia entistä kehittyneemmistä tietoturva- ja yritysverkko-ominaisuuksista.
-ms.openlocfilehash: 0668945d107be7abc0698035fa458e1c805c7201
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+description: Tutustu siihen, miten voit päivittää Windows-laitteesi Windows 10 Proksi, jotta voit hyödyntää entistä kehittyneempiä suojaus- ja yritysverkko-ominaisuuksia.
+ms.openlocfilehash: 541169571fb9f58c7f75f610546ec250ffd40afb
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547487"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42549933"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-laitteiden päivittäminen Windows 10 Proksi
 
@@ -59,6 +59,6 @@ Lisätietoja on [ohjeaiheessa Windows-laitteiden määrittäminen Microsoft 365 
   
 Lisätietoja on [ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-mobile-devices.md) Android- ja iOS-laitteiden määrittämiseksi loppuun. 
   
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Lisätietoja Microsoft 365 Businessin määrittämisestä ja käyttämisestä
 
 [Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

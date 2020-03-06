@@ -21,18 +21,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: Lue tietoja sovellusten hallintakäytännön luomisesta ja työtiedostojen suojaamisesta Windows 10 -laitteissa.
-ms.openlocfilehash: eb9c5465bf7376efa95162cd39be3f1c6840a3e4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Lue, miten voit luoda sovellusten hallintakäytännön ja suojata työtiedostoja käyttäjien henkilökohtaisissa Windows 10 -laitteissa.
+ms.openlocfilehash: ce389980ceb8bd889214404b0c48769380044bcf
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065002"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550203"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Sovellusten suojausasetusten määrittäminen Windows 10 -laitteille
 

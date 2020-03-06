@@ -19,21 +19,22 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Lue tietoja Windows-laitteiden määrittämisestä Windows 10 Pro for Microsoft 365 Business -käyttäjille. '
-ms.openlocfilehash: 427e1c25b5c6ad52ab280502133a0e2808bb48b1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Lue, miten voit määrittää Windows-laitteet, joissa on Windows 10 Pro for Microsoft 365 Business -käyttäjille, jolloin käytössä on keskitetty hallinta- ja suojausvalvonta.
+ms.openlocfilehash: 62d909b1e5658131f9381d1a800a70fad6e16cab
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42090654"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550013"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
 
-## <a name="prerequisites"></a>Edellytykset
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Edellytykset Windows-laitteiden määrittämiselle Microsoft 365 Business -käyttäjille
 
 Ennen kuin voit määrittää Windows-laitteet Microsoft 365 Business -käyttäjiä varten, varmista, että kaikissa Windows-laitteissa on Windows 10 Pro -versio 1703 (Creators-päivitys). Windows 10 Pro on edellytys Windows 10 Businessin käyttöönotolle. Se on joukko pilvipalveluja ja laitehallintaominaisuuksia, jotka täydentävät Windows 10 Pro -ohjelmistoa ja mahdollistavat Microsoft 365 Businessin keskitetyn valvonnan ja suojauksen hallinnan.
   
@@ -125,6 +126,6 @@ Varmista, että Azure Active Directoryyn liitettyihin Windows 10 -laitteisiin on
 
 Mobiililaitteiden määritysohjeet ovat kohdassa [Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-mobile-devices.md). Laitteiden ja sovellusten suojauskäytäntöjen määritysohjeet ovat kohdassa [Microsoft 365 Businessin hallinta](manage.md).
   
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Lisätietoja Microsoft 365 Businessin määrittämisestä ja käyttämisestä
 
 [Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

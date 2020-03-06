@@ -1,5 +1,5 @@
 ---
-title: Lisää uhkien suojausta Microsoft 365 Business
+title: Lisää Microsoft 365 Businessin uhkien suojausta
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -16,223 +16,224 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
-description: Määritä Office 365 Advanced uhkien torjunta ja suojaa arkaluontoisia tietoja.
-ms.openlocfilehash: 191e1ad301e12ae45fe3a5d6d990d2357c5d0bab
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Määritä Office 365 Advanced Threat Protection ja suojaa arkaluonteiset tiedot tietojenkalastelulta, haittaohjelmilta ja muilta uhilta.
+ms.openlocfilehash: 9d7bae60091c87fa0246a697f2a49e1cbc6e2f06
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593877"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550353"
 ---
-# <a name="increase-threat-protection"></a>Lisää uhkien torjunta
+# <a name="increase-threat-protection"></a>Uhkien torjunnan lisääminen
 
-Tämän artikkelin avulla voit suojata Microsoft 365-tilauksesi suojausta tietojenkalastelulta, haitta ohjelmilta ja muista uhkilta suojautumiselta. Nämä suositukset soveltuvat organisaatioille, joilla on lisääntynyt turvallisuuden tarve, kuten laki toimistot ja terveyden huollon klinikat.
+Tämän artikkelin avulla voit parantaa Microsoft 365 -tilauksesi suojausta tietojenkalastelulta, haittaohjelmilta ja muilta uhilta suojautumiseksi. Nämä suositukset soveltuvat organisaatioille, joilla on lisääntynyt turvallisuustarve, kuten lakitoimistot ja terveydenhuoltokeskukset.
 
-Varmista ennen aloittamista, että Office 365 on suojattu pisteytys. Office 365 Secure Score analysoi Office 365-organisaatiosi tieto turvan tavallisiin aktiviteetteihin ja suojaus asetuksiin Perustuen ja määrittää Pisteet. Aloita ottamalla huomioon nykyinen piste määrä. Voit kasvattaa pisteesi tekemällä tässä artikkelissa suositellut toimet. Tavoitteena ei ole saavuttaa maksimi pisteitä, vaan olla tietoinen mahdollisuuksista suojata ympäristöäsi, jotka eivät vaikuta kielteisesti käyttäjien tuottavuuteen. 
+Tarkista Office 365:n suojatut pisteet ennen aloittamista. Office 365:n suojatut pisteet analysoiOffice 365 -organisaatiosi suojauksen säännöllisten toimintojen ja suojausasetusten perusteella ja määrittää tuloksen. Aloita merkitsemällä huomioitavaa nykyiset pisteet. Voit lisätä pisteitä suorittamalla tässä artikkelissa suositellut toimet. Tavoitteena ei ole saavuttaa maksimipistemäärää, vaan olla tietoinen mahdollisuuksista suojata ympäristöäsi, jotka eivät vaikuta kielteisesti käyttäjien tuottavuuteen. 
 
-Lisä tietoja on [Microsoft Securen pisteytys](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)-kohdassa.
+Lisätietoja on ohjeaiheessa [Microsoftin suojatut pisteet](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
 
-## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Nosta suojaus tasoa haitta ohjelmilta Mailissa
+## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Nosta suojausta haittaohjelmilta sähköpostissa
 
-Office 365-tai Microsoft 365-ympäristö sisältää suoja uksen haitta ohjelmilta. Voit lisätä suojausta estämällä liite tiedostoja tiedosto tyypeillä, joita käytetään yleisesti haitta ohjelmien yhteydessä. Voit lisätä haitta ohjelmien suojausta sähköpostitse:
+Office 365- tai Microsoft 365 -ympäristö sisältää suojauksen haittaohjelmilta. Voit parantaa tätä suojausta estämällä liitetiedostot tiedostotyypeillä, joita käytetään yleisesti haittaohjelmissa. Haittaohjelmien suojauksen lisääminen sähköpostissa:
   
-1. Siirry [https://protection.office.com](https://protection.office.com) ja Kirjaudu sisään järjestelmänvalvojan tilin tunniste tiedoilla. 
+1. Siirry [https://protection.office.com](https://protection.office.com) järjestelmänvalvojan tilisi tunnistetietoihin ja kirjaudu sisään. 
     
-2. Valitse Office 365-tieto &amp; turvan yhteensopivuus keskuksessa vasemmanpuoleisessa siirtymis ruudussa **uhkien hallinta**-kohdasta **käytännön** \> **haitta ohjelmien torjunta**.
+2. Valitse Office 365 &amp; Security Compliance Centerin vasemmanpuoleisen siirtymisruudun **Uhkajenhallinta**-kohdasta **Käytäntö** \> **haittaohjelmien torjunta**.
     
-3. Kaksoisnapsauta oletus käytäntöä, jos haluat muokata koko yrityksen käytäntöä.
+3. Muokkaa tätä yrityksen laajuista käytäntöä kaksoisnapsauttamalla oletuskäytäntöä.
     
 4. Valitse **Asetukset**.
     
-5. Valitse **yhteiset liite tyypit-suodattimessa** **käytössä**. Estetyt tiedosto tyypit näkyvät ikkunassa suoraan tämän ohjaus objektin alapuolella. Varmista, että lisäät nämä tiedosto tyypit:
-   - ADE, ADP, Ani, BAS, bat, chm, cmd, com, cpl, CRT, hlp, HT, HTA, inf, ins, ISP, Job, js, JSE, LNK, MDA, MDB, MDE, MDZ, MSC, MSI, msp, MST, PCD, reg, SCR, SCT, SHS, URL, VB, VBE, VBS, WSC, WSF, WSH, exe, PIF  <br/> 
+5. Valitse **Yleiset liitetyypit -suodattimessa** **Käytössä**. Estetyt tiedostotyypit näkyvät tämän ohjausobjektin alapuolella olevassa ikkunassa. Varmista, että lisäät seuraavat tiedostotyypit:
+   - Ade, ADP, Ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, inf, ins, isp, työ, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh, exe, pif, pif,  <br/> 
    
-   Tarvittaessa voit lisätä tai poistaa tiedosto tyyppejä myöhemmin.
+   Voit tarvittaessa lisätä tai poistaa tiedostotyyppejä myöhemmin.
     
 6. Valitse **Tallenna.**
     
-Lisä tietoja on artikkelissa [haitta ohjelmien torjunta](https://go.microsoft.com/fwlink/?linkid=2015692&amp;clcid=0x409).
+Lisätietoja on ohjeaiheessa [Haittaohjelmien torjunta](https://go.microsoft.com/fwlink/?linkid=2015692&amp;clcid=0x409).
   
-## <a name="protect-against-ransomware"></a>Suojaa kiristys ohjelmilta
+## <a name="protect-against-ransomware"></a>Suojaa kiristysohjelmilta
 
-Ransomware rajoittaa pääsyä tietoihin salaamalla tiedostoja tai lukitsemalla tieto koneen näytöt. Sitten se yrittää kiristystä rahaa uhreilta pyytämällä "lunnaita", yleensä kryptovaluuttojen muodossa, kuten Bitcoin, vastineeksi pääsystä tietoihin. 
+Ransomware rajoittaa tietojen käyttöä salaamalla tiedostoja tai lukitsemalla tietokoneen näyttöjä. Sen jälkeen se yrittää kiristää rahaa uhreilta pyytämällä "lunnaita", yleensä bitcoinien kaltaisten kryptovaluuttojen muodossa vastineeksi tietojen saatavuudesta. 
   
-Suojautu maan kiristys ohjelmilta, luo yksi tai useampi sähkö postin virta sääntöjä estää tiedosto laajennuksia, joita käytetään yleisesti ransomware. (Lisäsit nämä säännöt [nostamalla suojaus tasoa haitta ohjelmilta Mail](#raise-the-level-of-protection-against-malware-in-mail) -vaiheessa.) Voit myös varoittaa käyttäjiä, jotka vastaanottavat nämä liitteet sähköpostitse.
+Voit suojautua kiristysohjelmilta luomalla yhden tai useamman postin kulkusääntöjä estääksesi kiristysohjelmien tiedostotunnisteet. (Olet lisännyt nämä säännöt [nostaa suojelun tasoa haittaohjelmia postin](#raise-the-level-of-protection-against-malware-in-mail) vaiheessa.) Voit myös varoittaa käyttäjiä, jotka saavat nämä liitteet sähköpostitse.
 
-Edellisessä vaiheessa estettyjen tiedostojen lisäksi on hyvä käytäntö luoda sääntö, joka varoittaa käyttäjiä, ennen kuin avaat makroja sisältävät Office-liite tiedostot. Ransomware voidaan piilottaa sisällä makroja, joten varoittaa käyttäjiä ei avata näitä tiedostoja ihmiseltä he eivät tiedä.
+Edellisessä vaiheessa estämiesi tiedostojen lisäksi on hyvä luoda sääntö, joka varoittaa käyttäjiä ennen makroja sisältävän Office-liitetiedoston avaamista. Ransomware voidaan piilottaa makrojen sisällä, joten varoita käyttäjiä olemaan avaamatta näitä tiedostoja ihmisiltä, joita he eivät tunne.
 
-Sähkö postin siirto säännön luominen:
+Postin siirtosäännön luominen:
   
-1. Siirry hallinta keskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>ja valitse **hallinta keskusten** \> **vaihto**.
+1. Siirry <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>hallintakeskukseen -kohdasta ja valitse **Hallintakeskukset** \> **Exchange**.
     
-2. Valitse **Mail Flow** -luokassa **säännöt**.
+2. Valitse **postin työnkulkuluokasta** **säännöt**.
     
 3. Valitse **+** ja valitse sitten **Luo uusi sääntö**.
     
-4. Valitsemalla **Lisää vaihto ehtoja** valinta ikkunan alareunasta näet kaikki vaihto ehdot. 
+4. Valitse valintaikkunan alaosasta **Lisää asetuksia,** niin näet kaikki asetukset. 
     
-5. Käytä säännön seuraavassa taulukossa asetuksia. Käytä muiden asetusten oletus arvoja, ellet halua muuttaa niitä.
+5. Ota säännön asetukset käyttöön seuraavassa taulukossa. Käytä muiden asetusten oletusarvoja, ellet halua muuttaa niitä.
     
 6. Valitse **Tallenna**.
     
-|**Asetus**|**Varoita käyttäjiä ennen Office-tiedostojen liitteiden avaamista**||
+|**Asetus**|**Käyttäjien varoittaminen ennen Office-tiedostojen liitteiden avaamista**||
 |:-----|:-----|:-----|
 |Nimi  <br/> |Anti-ransomware sääntö: varoittaa käyttäjiä  <br/>  |
-|Käytä tätä sääntöä, jos. . .  <br/> |Mitään liitettä. . . tiedosto pääte vastaa. . .  <br/> |
-|Sanojen tai lauseiden määrittäminen  <br/> |Lisää nämä tiedosto tyypit:  <br/> DOTM, DOCM, xlsm, sltm, XLA, XLAM, XLL, pptm, potm, PPAM, ppsm, sldm  <br/>|
+|Käytä tätä sääntöä, jos . . .  <br/> |Mikä tahansa kiinnitys . . . tiedostotunniste vastaa . . .  <br/> |
+|Sanojen tai lauseiden määrittäminen  <br/> |Lisää seuraavat tiedostotyypit:  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm  <br/>|
 |Toimi seuraavasti. . .  <br/> |Ilmoita vastaanottajalle viestillä  <br/> |
-|Sanoman tekstin tarjoaminen  <br/> |Älä avaa tällaisia tiedostoja ihmisistä et tiedä, koska ne saattavat sisältää makroja, joilla on haitallinen koodi.  <br/> |
+|Viestin tekstin anto  <br/> |Älä avaa tämäntyyppisiä tiedostoja ihmisiltä, joita et tunne, koska ne saattavat sisältää makroja, joissa on haitallista koodia.  <br/> |
    
 Lisätietoja on seuraavissa artikkeleissa:
   
 - [Miten käsitellä ransomware](https://go.microsoft.com/fwlink/?linkid=2016501)
     
-- [Palauta OneDrive-](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
+- [OneDriven palauttaminen](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
 
-## <a name="stop-auto-forwarding-for-email"></a>Pysäytä sähkö postin automaattinen edelleenlähetys
+## <a name="stop-auto-forwarding-for-email"></a>Sähköpostin automaattisen edelleenlähetyksen lopettaminen
 
-Hakkerit, jotka pääsevät käsiksi käyttäjän posti laatikkoon, voivat varastaa postia asettamalla posti laatikon automaattisesti välittämään sähkö postia. Tämä voi tapahtua myös ilman käyttäjän tietoisuutta. Jos haluat estää tämän tapahtumasta, määritä Sähkö posti työn kulku sääntö. 
+Hakkerit, jotka pääsevät käyttäjän postilaatikkoon, voivat varastaa sähköpostia asettamalla postilaatikon välittämään sähköpostin automaattisesti. Tämä voi tapahtua myös ilman käyttäjän tietoisuutta. Voit estää tämän määrittämällä postin kulkusäännön. 
   
-Voit luoda sähkö postin siirto säännön joko katsomalla [tämän lyhyen videon](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) tai toimimalla seuraavasti:
+Voit luoda postin siirtosäännön joko katsomalla [tämän lyhyen videon](https://support.office.com/article/f9d693ba-5c78-47c0-b156-8e461e062aa7) tai toimimalla seuraavasti:
   
-1. Valitse Microsoft 365-hallinta keskuksessa **hallinta keskusten** \> **vaihto**.
+1. Valitse Microsoft 365 -hallintakeskuksessa **Hallintakeskukset** \> **Exchange**.
     
-2. Valitse **Mail Flow** -luokassa **säännöt**.
+2. Valitse **postin työnkulkuluokasta** **säännöt**.
     
 3. Valitse **+** ja valitse sitten **Luo uusi sääntö**.
     
-4. Jos haluat nähdä kaikki vaihto ehdot, valitse **Lisää vaihto ehtoja** valinta ikkunan alareunasta. 
+4. Jos haluat nähdä kaikki vaihtoehdot, valitse valintaikkunan alaosasta **Lisää asetuksia.** 
     
-5. Käytä seuraavan taulukon asetuksia. Käytä muiden asetusten oletus arvoja, ellet halua muuttaa niitä.
+5. Ota seuraavan taulukon asetukset käyttöön. Käytä muiden asetusten oletusarvoja, ellet halua muuttaa niitä.
     
 6. Valitse **Tallenna**.
     
-|**Asetus**|**Varoita käyttäjiä ennen Office-tiedostojen liitteiden avaamista**|
+|**Asetus**|**Käyttäjien varoittaminen ennen Office-tiedostojen liitteiden avaamista**|
 |:-----|:-----|
-|Nimi  <br/> |Estä sähkö postin automaattinen edelleenlähetys ulkoisiin verkko tunnuksiin  <br/> |
-|Käytä tätä sääntöä, jos...  <br/> |Lähettäjälle. . . on ulkoinen/sisäinen. . . Organisaation sisällä  <br/> |
-|Lisää ehto  <br/> |Sanoman ominaisuudet. . . Sisällytä viesti tyyppi. . . Automaattinen eteenpäin  <br/> |
-|Tee seuraavat toimet...  <br/> |Estä viesti. . . hylkää viesti ja sisällytä selitys.  <br/> |
-|Sanoman tekstin tarjoaminen  <br/> |Sähkö postin automaattinen edelleenlähetys tämän organisaation ulkopuolella estetään turvallisuussyistä.  <br/> |
+|Nimi  <br/> |Sähköpostin automaattisen edelleenlähetyksen estäminen ulkoisille toimialueille  <br/> |
+|Käytä tätä sääntöä, jos ...  <br/> |Lähettäjä. . . on ulkoinen/sisäinen. . . Organisaation sisällä  <br/> |
+|Lisää ehto  <br/> |Sanoman ominaisuudet . . . viestin tyyppi . . . Automaattinen eteenpäin  <br/> |
+|Tee seuraavat ...  <br/> |Estä viesti . . . hylkää viesti ja liitä mukaan selitys.  <br/> |
+|Viestin tekstin anto  <br/> |Sähköpostin automaattinen edelleenlähetys tämän organisaation ulkopuolella estetään turvallisuussyistä.  <br/> |
 
 
-## <a name="protect-your-email-from-phishing-attacks"></a>Suojaa sähkö postisi tietojenkalasteluhyökkäyksiltä
+## <a name="protect-your-email-from-phishing-attacks"></a>Sähköpostin suojaaminen tietojenkalasteluhyökkäyksiltä
 
-Jos olet määrittänyt yhden tai useita mukautettuja toimi alueita Office 365-tai Microsoft 365-ympäristöön, voit määrittää kohdennetun tietojenkalastelun esto suojauksen. ATP-tietojenkalastelusuojaus, osa Office 365 Advanced Threat Protectionista, voi auttaa suojaamaan organisaatiotasi haitalli silta tekeytymis hyökkäyksiltä ja muista tietojenkalasteluhyökkäyksistä. Jos et ole määrittänyt mukautettua toimi aluetta, tätä ei tarvitse tehdä.
+Jos olet määrittänyt office 365- tai Microsoft 365 -ympäristölle yhden mukautetun toimialueen, voit määrittää kohdennetun tietojenkalastelun torjunnan. ATP-tietojenkalastelun torjunta, joka on osa Office 365 Advanced Threat Protectionia, voi auttaa suojaamaan organisaatiotasi haitallisilta tekeytymispohjaisilta tietojenkalasteluhyökkäyksiltä ja muilta tietojenkalasteluhyökkäyksiltä. Jos et ole määrittänyt mukautettua toimialuetta, sinun ei tarvitse tehdä tätä.
   
-Suosittelemme, että aloitat tämän suoja uksen luomalla käytännön, joka suojaa tärkeimpiä käyttäjiä ja mukautettua toimi aluetta. 
+Suosittelemme, että aloitat tämän suojauksen luomalla käytännön, joka suojaa tärkeimpiä käyttäjiäja mukautettua toimialuetta. 
 
-Jos haluat luoda ATP-kalastelun torjunta käytännön, katso [Lyhyt harjoitus video](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)tai tee seuraavat toimet:
+Voit luoda ATP-tietojenkalastelun vastaisen käytännön katsomalla [tämän lyhyen harjoitusvideon](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)tai suorittamalla seuraavat toimet:
   
 1. Siirry osoitteeseen [https://protection.office.com](https://protection.office.com). 
     
-2. Valitse Office 365 Security &amp; Compliance Centerissä vasemmanpuoleisessa siirtymis ruudussa **uhkien hallinta**-kohdassa **käytäntö**.
+2. Valitse Office 365 &amp; Security Compliance Centerin vasemmanpuoleisen siirtymisruudun **Uhkahallinta-kohdassa** **Käytäntö**.
     
-3. Valitse **käytäntö** -sivulla **ATP anti-phishing**.
+3. Valitse **Käytäntö-sivulla** **ATP-tietojenkalastelun torjunta**.
     
-4. Valitse **anti-phishing-** sivulla **+ Luo**. Ohjattu toiminto käynnistyy, joka opastaa sinua tieto kalastelun torjunta käytännön määrittämisessä.
+4. Valitse **Tietojenkalastelun torjunta** -sivulla **+ Luo**. Ohjattu toiminto käynnistyy, joka opastaa tietojenkalastelun torjuntakäytännön määrittämisessä.
     
-5. Määritä käytännön nimi, kuvaus ja asetukset seuraavan taulukon suositusten mukaan. Lisä tietoja on kohdassa lisä tietoja [ATP-tietojenkalastelun esto käytännöstä](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options). 
+5. Määritä käytännön nimi, kuvaus ja asetukset seuraavassa taulukossa suositellulla tavalla. Lisätietoja on ohjeaiheessa [Lisätietoja ATP:n tietojenkalastelun vastaisista käytäntövaihtoehdoista](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options). 
     
-6. Kun olet tarkistanut asetuksesi, valitse **Luo tämä käytäntö** tai **Tallenna**tarvittaessa.
+6. Kun olet tarkistanut asetuksesi, valitse **Luo tämä käytäntö** tai **Tallenna**tarpeen mukaan.
     
 
-|**Asetus tai optio**<br/>|**Suositeltu asetus** <br/>|
+|**Asettaminen tai asetus**<br/>|**Suositeltava asetus** <br/>|
 |:-----|:-----|
-|Nimi  <br/> |Verkko tunnus ja arvokkain kampanjan henkilö kunta  <br/> |
-|Kuvaus  <br/> |Varmista, että tärkein henkilö kunta ja verkko tunnuksesi eivät ole tekeytymistä.  <br/> |
-|Käyttäjien lisääminen suojatakseen  <br/> |Valitse **+ Lisää ehto, vastaanottaja on**. Kirjoita käyttäjä tunnukset tai kirjoita hakijan, Campaign Managerin ja muiden tärkeiden henkilö kunnan jäsenten Sähkö posti osoite. Voit lisätä enintään 20 sisäistä ja ulkoista osoitetta, jotka haluat suojata tekeytymistä.  <br/> |
-|Toimi alueiden lisääminen suojatakseen  <br/> |Valitse **+ Lisää ehto, vastaanottajan toimi alue on**. Kirjoita Microsoft 365-tila ukseen liitetty mukautettu toimi alue, jos olet määrittänyt sen. Voit kirjoittaa useamman kuin yhden toimi alueen.  <br/> |
-|Valitse toiminnot  <br/> |Jos sähkö postia lähettää tekeytyvät käyttäjät: Valitse **Ohjaa viesti toiseen Sähkö posti osoitteeseen**ja kirjoita sitten suojausvalvojan Sähkö posti osoite. esimerkiksi *Alice<span><span>@contoso. com*. Jos sähkö postia lähetetään tekeytyvät toimi alue: Valitse **karanteeni viesti**.  <br/> |
-|Posti laatikon älykkyys  <br/> |Posti laatikon älykkyys on oletusarvoisesti valittuna, kun luot uuden tietojenkalastelun esto käytännön. Jätä tämä asetus **päälle** parhaan tuloksen.  <br/> |
-|Luotettujen lähettäjien ja toimi alueiden lisääminen  <br/> |Tässä voit lisätä oman toimi alueesi tai muita luotettuja verkko tunnuksia.  <br/> |
-|Soveltaa  <br/> |Valitse **vastaanottajan toimi alue**. Valitse **jokin näistä**-kohdasta **Valitse**. Valitse **+ Lisää**. Valitse toimi alueen nimen vieressä oleva valinta ruutu, esimerkiksi *contoso.<span> com <span>*-luettelosta ja valitse sitten **Lisää**. Valitse **valmis**.  <br/> |
+|Nimi  <br/> |Verkkotunnus ja arvokkain kampanjahenkilöstö  <br/> |
+|Kuvaus  <br/> |Varmista, että tärkeintä henkilökuntaa mme ja verkkotunnustamme ei tekeyty.  <br/> |
+|Käyttäjien lisääminen suojattavaksi  <br/> |Valitse **+ Lisää ehto, Vastaanottaja on**. Kirjoita käyttäjänimi tai kirjoita ehdokkaan, kampanjan hallinnan ja muiden tärkeiden henkilökunnan jäsenten sähköpostiosoite. Voit lisätä enintään 20 sisäistä ja ulkoista osoitetta, jotka haluat suojata tekeytymisiltä.  <br/> |
+|Suojaata vanlleta toimialueiden lisääminen  <br/> |Valitse **+ Lisää ehto, Vastaanottajan toimialue on**. Kirjoita Microsoft 365 -tilaukseesi liittyvä mukautettu toimialue, jos olet määrittänyt sellaisen. Voit kirjoittaa useita toimialueita.  <br/> |
+|Valitse toiminnot  <br/> |Jos tekeytynyt käyttäjä lähettää sähköpostiviestin: Valitse **Uudelleenohjausviesti toiseen sähköpostiosoitteeseen**ja kirjoita sitten suojauksen valvojan sähköpostiosoite. Esimerkiksi *Alice<span><span>@contoso.com*. Jos sähköpostin lähettää tekeytynyt toimialue: Valitse **Karanteeniviesti**.  <br/> |
+|Postilaatikon tietojen määrittäminen  <br/> |Oletusarvon mukaan postilaatikon tietotiedot valitaan, kun luot uuden tietojenkalastelun vastaisen käytännön. Jätä tämä asetus **päälle** parhaan tuloksen saamiseksi.  <br/> |
+|Luotettavien lähettäjien ja toimialueiden lisääminen  <br/> |Tähän voit lisätä oman toimialueen tai muita luotettuja toimialueita.  <br/> |
+|Kohdistetaan  <br/> |Valitse **Vastaanottajatoimialue on**. Valitse **Jokin näistä**-kohdasta **Valitse**. Valitse **+ Lisää**. Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso.<span> com <span>*, luettelosta ja valitse sitten **Lisää**. Valitse **Valmis**.  <br/> |
   
-## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Suojaa haitalli silta liitteiltä ja tiedostoja ATP turvallisia liitteitä
+## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Suojaa haitallisilta liitteiltä ja tiedostoilta ATP Safe Attachmentsin avulla
 
-Ihmiset lähettävät, vastaanottavat ja jakavat säännöllisesti liitteitä, kuten asia kirjoja, esityksiä ja laskenta taulukoita. Ei ole aina helppoa kertoa, onko liite tiedosto turvallinen vai haitallinen vain katsomalla Sähkö posti viestiä. Office 365 Advanced uhkien torjunta sisältää ATP-turva kiinnityksen suoja uksen, mutta tämä suojaus ei ole oletusarvoisesti käytössä. Tämän suoja uksen käyttämisen aloittavan uuden säännön luominen on suositeltavaa. Tämä suojaus ulottuu SharePoint-, OneDrive-ja Microsoft teams-tiedostoihin.
+Käyttäjät lähettävät, vastaanottavat ja jakavat säännöllisesti liitteitä, kuten asiakirjoja, esityksiä, laskentataulukoita ja paljon muuta. Aina ei ole helppo sanoa, onko liite turvallinen vai haitallinen vain katsomalla sähköpostiviestiä. Office 365 Advanced Threat Protection sisältää ATP Safe Attachment -suojauksen, mutta tämä suojaus ei ole oletusarvoisesti käytössä. Suosittelemme, että luot uuden säännön tämän suojauksen käytön aloittamiseksi. Tämä suojaus koskee SharePointin, OneDriven ja Microsoft Teamsin tiedostoja.
   
-Voit luoda ATP-turva kiinnitys käytännön joko katsomalla [tämän lyhyen videon](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)tai tekemällä seuraavat toimet:
+Voit luoda ATP:n turvallisen liitekäytännön joko katsomalla [tämän lyhyen videon](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)tai suorittamalla seuraavat vaiheet:
   
-1. [https://protection.office.com](https://protection.office.com)Siirry ja Kirjaudu sisään järjestelmänvalvojan tilillä. 
+1. Siirry [https://protection.office.com](https://protection.office.com)-kohtaan ja kirjaudu sisään järjestelmänvalvojan tililläsi. 
     
-2. Valitse Office 365 Security &amp; Compliance Centerissä vasemmanpuoleisessa siirtymis ruudussa **uhkien hallinta**-kohdassa **käytäntö**.
+2. Valitse Office 365 &amp; Security Compliance Centerin vasemmanpuoleisen siirtymisruudun **Uhkahallinta-kohdassa** **Käytäntö**.
     
-3. Valitse käytäntö-sivulla **ATP turvalliset liitteet**.
+3. Valitse Käytäntö-sivulla **ATP-turvalliset liitteet**.
     
-4. Käytä turvalliset liitteet-sivulla tätä suojausta laajasti valitsemalla **Ota ATP käyttöön SharePointissa, OneDrivessa ja Microsoft Teamsissa** -valinta ruutu. 
+4. Käytä Tätä suojausta Turvalliset liitteet -sivulla laajasti valitsemalla **Ota ATP käyttöön SharePointille, OneDrivelle ja Microsoft Teamsille** -valintaruutu. 
     
 5. Valitse **+** tämä, jos haluat luoda uuden käytännön. 
     
-6. Käytä seuraavan taulukon asetuksia. 
+6. Ota seuraavan taulukon asetukset käyttöön. 
     
-7. Kun olet tarkistanut asetuksesi, valitse **Luo tämä käytäntö** tai **Tallenna**tarvittaessa.
+7. Kun olet tarkistanut asetuksesi, valitse **Luo tämä käytäntö** tai **Tallenna**tarpeen mukaan.
     
 
-|**Asetus tai optio**|**Suositeltu asetus** <br/>|
+|**Asettaminen tai asetus**|**Suositeltava asetus** <br/>|
 |:-----|:-----|
-|Nimi  <br/> |Estä nykyiset ja tulevat sähkö postit havaittujen haitta ohjelmien kanssa.  <br/> |
-|Kuvaus  <br/> |Estä nykyiset ja tulevat sähkö postit ja liitteet havaittujen haitta ohjelmien avulla.  <br/> |
-|Tallenna liitteet tuntematon haitta ohjelma vastaus  <br/> |Valitse **Block-estä nykyiset ja tulevat sähkö postit ja liitteet havaittujen haitta ohjelmien kanssa**.  <br/> |
-|Uudelleenohjauksen liitteen tunnistus  <br/> |Ota uudelleenohjaus käyttöön (Valitse tämä ruutu) Anna järjestelmänvalvojan tili tai posti laatikon asetukset karanteeniin.          Käytä yllä olevaa valintaa, jos haitta ohjelmat skannataan liitteille kertaa tai virhe tapahtuu (Valitse tämä ruutu).  <br/> |
-|Soveltaa  <br/> |Vastaanottajan toimi alue on. . . Valitse verkko tunnuksesi.  <br/> |
+|Nimi  <br/> |Estä nykyiset ja tulevat sähköpostit havaituilla haittaohjelmilla.  <br/> |
+|Kuvaus  <br/> |Estä nykyiset ja tulevat sähköpostit ja liitteet havaituilla haittaohjelmilla.  <br/> |
+|Tallenna liitetiedostoja tuntematon haittaohjelmien vastaus  <br/> |Valitse **Estä - Estä nykyiset ja tulevat sähköpostit ja liitteet havaituilla haittaohjelmilla**.  <br/> |
+|Uudelleenohjausliite tunnistuksessa  <br/> |Ota uudelleenohjaus käyttöön (valitse tämä ruutu) Anna järjestelmänvalvojan tili tai postilaatikon asetukset karanteenia varten.          Käytä yllä olevaa valintaa, jos liitetiedostojen haittaohjelmien tarkistus aikakatkaistaan tai tapahtuu virhe (valitse tämä ruutu).  <br/> |
+|Kohdistetaan  <br/> |Vastaanottajan toimialue on . . . valitse toimialueesi.  <br/> |
    
-Lisä tietoja on kohdassa [Aseta Office 365 ATP-tietojenkalastelukäytännöt](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
+Lisätietoja on ohjeaiheessa [Office 365 ATP:n tietojenkalastelun torjuntakäytäntöjen määrittäminen](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies).
   
 
 
-## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>Suojaus tietojenkalasteluhyökkäyksiltä ATP Safe Links-linkeissä
+## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>Suojaa tietojenkalasteluhyökkäyksiltä ATP Safe Linksin avulla
 
-Hakkerit joskus piilottaa haitallisia sivustoja linkkejä sähkö postin tai muiden tiedostojen. Office 365 ATP turvalliset linkit (ATP Safe Links), osa Office 365 Advanced uhkien torjunta, voi auttaa suojaamaan organisaatiotasi tarjoamalla aika-of-click todentaminen Web-osoitteet (URL) sähkö posti viesteissä ja Office-asia kirjoissa. Suojaus määritetään ATP Safe Links-käytäntöjen avulla.
+Hakkerit piilottavat joskus haitalliset sivustot sähköpostin tai muiden tiedostojen linkeissä. Office 365 ATP Safe Links (ATP Safe Links), joka on osa Office 365 Advanced Threat Protectionia, voi auttaa suojaamaan organisaatiotasi antamalla sähköpostiviesteissä ja Office-asiakirjoissa www-osoitteiden (URL-osoitteiden) reaaliaikaisen tarkistamisen. Suojaus määritetään ATP Safe Links -käytäntöjen avulla.
   
-Suosittelemme, että teet seuraavat toimet:
+Suosittelemme, että toimit seuraavasti:
   
-- Muokkaa oletus käytäntöä suoja uksen lisäämiseksi.
+- Lisää suojausta muokkaamalla oletuskäytäntöä.
     
-- Lisää uusi käytäntö, joka kohdistetaan kaikille toimi alueesi vastaanottajille.
+- Lisää uusi käytäntö, joka on kohdistettu kaikille toimialueen vastaanottajille.
     
-Jos haluat määrittää ATP-turvalliset linkit, katso [Lyhyt harjoitus video](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)tai tee seuraavat toimet:
+Voit määrittää ATP Safe Links -linkit katsomalla [tämän lyhyen harjoitusvideon](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)tai suorittamalla seuraavat vaiheet:
   
-1. [https://protection.office.com](https://protection.office.com)Siirry ja Kirjaudu sisään järjestelmänvalvojan tilillä. 
+1. Siirry [https://protection.office.com](https://protection.office.com)-kohtaan ja kirjaudu sisään järjestelmänvalvojan tililläsi. 
     
-2. Valitse Office 365 Security &amp; Compliance Centerissä vasemmanpuoleisessa siirtymis ruudussa **uhkien hallinta**-kohdassa **käytäntö**.
+2. Valitse Office 365 &amp; Security Compliance Centerin vasemmanpuoleisen siirtymisruudun **Uhkahallinta-kohdassa** **Käytäntö**.
     
-3. Valitse käytäntö-sivulla **ATP Safe Links**.
+3. Valitse Käytäntö-sivulla **ATP Safe Links**.
     
-Oletus käytännön muokkaaminen:
+Oletuskäytännön muokkaaminen:
   
-1. Valitse **oletus** käytäntö turvalliset linkit-sivun **käytännöt, jotka koskevat koko organisaatiota**. 
+1. Valitse Turvalliset linkit -sivun **Koko organisaatiota koskevat käytännöt**-kohdassa **Oletuskäytäntö.** 
     
-2. Valitse **Asetukset, jotka koskevat sisältöä, paitsi sähkö postia**, **Office 365 ProPlus, Office iOS:lle ja Androidille**.
+2. Valitse **Asetukset, jotka koskevat sisältöä sähköpostia lukuun ottamatta**-kohdassa **Office 365 ProPlus, Office for iOS ja Android**.
     
 3. Valitse **Tallenna**. 
     
-Voit luoda uuden käytännön kohdistettua kaikille toimi alueesi vastaanottajille:
+Voit luoda uuden käytännön, joka on kohdistettu kaikille toimialueen vastaanottajille:
   
-1. Luo uusi käytäntö valitsemalla **+** turvalliset linkit-sivun käytännöt, **jotka koskevat koko organisaatiota**. 
+1. Luo uusi käytäntö Valitsemalla Turvalliset linkit -sivun **Koko organisaatiota koskevat käytännöt**-kohdassa **+** uusi käytäntö. 
     
-2. Käytä seuraavassa taulukossa lueteltuja asetuksia.
+2. Ota käyttöön seuraavassa taulukossa luetellut asetukset.
     
 3. Valitse **Tallenna**. 
 
-|**Asetus tai optio**|**Suositeltu asetus** <br/>|
+|**Asettaminen tai asetus**|**Suositeltava asetus** <br/>|
 |:-----|:-----|
-|Nimi  <br/> |Kaikkien toimi alueen vastaanottajien turvalliset linkit-käytäntö  <br/> |
-|Valitse tuntemattomien mahdollisten haitallisten URL-osoitteiden toiminto viesteissä  <br/> |Valitse **URL-osoitteet kirjoitetaan uudelleen ja tarkistetaan tunnettujen haitallisten linkkien luetteloa vastaan, kun käyttäjä napsauttaa linkkiä**.  <br/> |
+|Nimi  <br/> |Turvalinkkikäytäntö kaikille toimialueen vastaanottajille  <br/> |
+|Valitse viestien tuntemattomien mahdollisesti haitallisten URL-osoitteiden toiminto  <br/> |Valitse **Käytössä - URL-osoitteet kirjoitetaan uudelleen ja verrataan tunnettujen haitallisten linkkien luetteloon, kun käyttäjä napsauttaa linkkiä**.  <br/> |
 |Ladattavan sisällön skannaaminen turvallisten liitteiden avulla  <br/> |Valitse tämä ruutu.  <br/> |
-|Soveltaa  <br/> |Vastaanottajan toimi alue on. . . Valitse verkko tunnuksesi.  <br/> |
+|Kohdistetaan  <br/> |Vastaanottajan toimialue on . . . valitse toimialueesi.  <br/> |
    
-Lisä tietoja on artikkelissa [Office 365 ATP Safe Links](https://go.microsoft.com/fwlink/?linkid=2016138&amp;clcid=0x409).
+Lisätietoja on ohjeaiheessa [Office 365 ATP:n turvalliset linkit](https://go.microsoft.com/fwlink/?linkid=2016138&amp;clcid=0x409).
 
-## <a name="go-to-intune-admin-center"></a>Siirry Intune-hallinta keskukseen
+## <a name="go-to-intune-admin-center"></a>Siirry Intune-hallintakeskukseen
 
-1. Kirjaudu sisään [Azure-portaaliin](https://portal.azure.com/).
+1. Kirjaudu [Azure-portaaliin](https://portal.azure.com/).
 
-2. Valitse **Kaikki palvelut** ja kirjoita *Intune* **haku kenttään**.
+2. Valitse **Kaikki palvelut** ja kirjoita **Hakuruutu -kenttään** *Intune.*
 
-3. Kun tulokset tulevat näkyviin, valitse Aloita **Microsoft Intunen** vierestä, jotta se on suosikki ja helppo löytää myöhemmin.
+3. Kun tulokset tulevat näkyviin, valitse **Microsoft Intune** -kohdan vieressä oleva aloitus, jotta se olisi suosikki ja helppo löytää myöhemmin.
 
-Hallinta keskuksen lisäksi voit rekisteröidä ja hallinnoida organisaatiosi laitteita Intune-ohjelman avulla. Lisä tietoja on kohdassa [Windows-laitteiden rekisteröinti menetelmän ominaisuudet](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) ja [Intune-menetelmällä hallinnoitujen laitteiden rekisteröinti asetukset](https://docs.microsoft.com/intune/enrollment-options).
+Hallintakeskuksen lisäksi voit käyttää Intunen avulla organisaation laitteiden rekisteröintiä ja hallintaa. Lisätietoja on ohjeen apterisessa kohdassa [Windows-laitteiden ominaisuudet rekisteröintimenetelmän mukaan](https://docs.microsoft.com/intune/enrollment/enrollment-method-capab) ja [Intunen hallitsemien laitteiden rekisteröintiasetukset](https://docs.microsoft.com/intune/enrollment-options).

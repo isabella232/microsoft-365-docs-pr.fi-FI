@@ -18,22 +18,23 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
-description: Tietoja työtiedostojen suojaamiseksi käytettävissä olevista asetuksista, jos käyttäjän laite katoaa tai varastetaan.
-ms.openlocfilehash: 5f137354b51a0151e57e5e109b1ebbb043c68f60
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lue tietoja Microsoft 365 Businessin asetuksista työtiedostojen suojaamiseksi, jos käyttäjän laite katoaa tai varastetaan.
+ms.openlocfilehash: 244e4773f1efa9548dd2126e03a007aefb840b40
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593552"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550163"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>Työtiedostojen suojaaminen mobiililaitteiden katoamisen tai varastamisen varalta
 
-Käytäntöasetukset määrittävät, mitä tapahtuu automaattisesti kadonneen tai varastetun laitteen suojaamiseksi. Microsoft suosittelee, että hyväksyt oletus arvot asennuksen aikana, jotta voit luoda sovellus käytäntöjä Androidille, iOS:lle ja Windows 10: lle, jotka koskevat kaikkia käyttäjiä. Voit luoda lisää käytäntöjä asennuksen päätyttyä.
+Käytäntöasetukset määrittävät, mitä tapahtuu automaattisesti kadonneen tai varastetun laitteen suojaamiseksi. Suosittelemme, että hyväksyt oletusarvot asennuksen aikana ja luot sovelluskäytäntöjä Androidille, iOS:lle ja Windows 10:lle, jotka koskevat kaikkia käyttäjiä. Voit luoda lisää käytäntöjä asennuksen päätyttyä.
   
 ## <a name="settings-that-protect-work-files"></a>Työtiedostojen suojaamisasetukset
 
@@ -42,8 +43,8 @@ Seuraavilla asetuksilla voidaan suojata työtiedostoja, jos käyttäjän laite k
 |||
 |:-----|:-----|
 |Asetus  <br/> |Kuvaus  <br/> |
-|Poista työtiedostot passiivisesta laitteesta näin monen päivän kuluttua  <br/> |Jos laitetta ei käytetä tässä määrittämiesi päivien määrään, laitteeseen tallennetut työtiedostot poistetaan automaattisesti.  <br/> |
-|Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin  <br/> |Jos tämä asetus on **käytössä**, ainoa käytettävissä oleva tallennus sijainti työtiedostoille on OneDrive for Business.  <br/> |
-|Salaa työtiedostot  <br/> |Pidä tämä asetus **käytössä**, jotta työtiedostot suojataan salauksella. Vaikka laite katoaa tai varastetaan, kukaan ei voi lukea yrityksesi tietoja.  <br/> |
+|Poista työtiedostot passiivisesta laitteesta näin monen päivän kuluttua  <br/> |Jos laitetta ei käytetä tässä määritettyjen päivien lukumäärään, laitteeseen tallennetut työtiedostot poistetaan automaattisesti.  <br/> |
+|Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin  <br/> |Jos tämä asetus on **Käytössä**, työtiedostojen ainoa käytettävissä oleva tallennussijainti on OneDrive for Business.  <br/> |
+|Salaa työtiedostot  <br/> |Pidä tämä asetus **käytössä**, jotta työtiedostot suojataan salauksella. Vaikka laite katoaa tai varastettaisiin, kukaan ei voi lukea yrityksen tietoja.  <br/> |
    
 
