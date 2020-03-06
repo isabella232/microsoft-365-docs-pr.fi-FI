@@ -20,22 +20,23 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
-description: Lue, mitä voit odottaa, kun Business Cloud Suite-asennus on valmis.
-ms.openlocfilehash: 41055b02f0ca62aad27c2fd1838abac5f58832f4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lue, mitä voit odottaa, kun Business Cloud Suiten asennus on valmis ja oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön.
+ms.openlocfilehash: 7ec5a5e7e1f3fadbcdb8422ae041544436c185ed
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593927"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547687"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>Auta käyttäjiä muodostamaan yhteys Microsoft 365 Businessiin
 
-Kun olet suorittanut asennuksen, oletus laite käytännöt ovat valmiina käyttöön. Mobiililaitteilla käyttäjät lataavat Office-sovelluksia. Käytäntöjä käytetään silloin, kun käyttäjä kirjautuu sisään työ-tai koulu tililleen. Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä. Katso ja Jaa seuraavat ohje aiheet, jotka auttavat käyttäjiä saamaan käyttöön ja liitettyä:
+Kun olet määrittänyt asetukset, oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön. Mobiililaitteissa käyttäjät lataavat Office-sovelluksia. Käytännöt otetaan käyttöön, kun käyttäjä kirjautuu sisään työ- tai koulutilillään. Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä. Voit tarkastella ja jakaa seuraavia aiheita, jotta käyttäjät voivat muodostaa ja muodostaa yhteyden:
   
 [Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-windows-devices.md)
   

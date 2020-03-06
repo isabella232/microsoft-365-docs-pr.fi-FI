@@ -17,17 +17,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Lue, että siirrät tiedostot OneDriveen.
-ms.openlocfilehash: 85ff7ad2ecab3646eeb196a380f85983b1403f7a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Lue muutamalla helpolla toimenpiteellä, miten voit siirtää henkilökohtaiset työtiedostosi ja arkaluonteiset yritystiedostot OneDrive for Businessiin.
+ms.openlocfilehash: 2f4e21096570e1b830a7a8ceee87d652abb9448f
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065207"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547747"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Tiedostojen siirtäminen OneDrive for Businessiin
 

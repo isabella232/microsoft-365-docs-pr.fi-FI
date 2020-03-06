@@ -1,5 +1,5 @@
 ---
-title: Windows-laitteiden päivittäminen Windows 10 Prohon
+title: Windows-laitteiden päivittäminen Windows 10 Proksi
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,44 +19,45 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Opi päivittämään Windows-laitteet Windows 10 Pro-versioon. '
-ms.openlocfilehash: 60ffb507e2a572d0ca52d7adf2db70ea6cb446f2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Tutustu useisiin tapoihin, joilla voit päivittää Windows-laitteesi Windows 10 Proksi, jotta voit nauttia entistä kehittyneemmistä tietoturva- ja yritysverkko-ominaisuuksista.
+ms.openlocfilehash: 0668945d107be7abc0698035fa458e1c805c7201
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594184"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547487"
 ---
-# <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-laitteiden päivittäminen Windows 10 Prohon
+# <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-laitteiden päivittäminen Windows 10 Proksi
 
-Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Prohon.<br><br>
+Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Prohin.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
 Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-## <a name="upgrade-to-windows-10-pro"></a>Päivitä Windows 10 Pro-versioon
+## <a name="upgrade-to-windows-10-pro"></a>Päivitä Windows 10 Proksi
   
-Jos haluat päivittää Windows 10 Pro-versioon, sinulla on useita vaihto ehtoja. Voit:
+Jos haluat päivittää Windows 10 Proksi, sinulla on useita vaihtoehtoja. Voit:
     
-- Asenna päivitys [Microsoft-ohjelmiston lataussivustosta](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Valitse tämä vaihto ehto, jos kirjautuneena oleva laite on samalla laitteella kuin se, jonka haluat päivittää. 
+- Asenna päivitys [Microsoft-ohjelmiston lataussivustosta](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Valitse tämä vaihtoehto, jos kirjautuneena oleva laite on samassa laitteessa kuin se, jonka haluat päivittää. 
 
-    - Valitse ohjelmiston lataussivustosta **Päivitä nyt** , jos haluat aloittaa laitteen päivittämisen Windows 10 Pro Creators-päivitykseen. 
+    - Aloita laitteen päivittäminen Windows 10 Pro Creators -päivitykseksi valitsemalla ohjelmiston lataussivustossa **Päivitä nyt.** 
     
-- Luo asennus tieto väline käyttämällä [median luonti työkalua](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Valitse tämä vaihto ehto, kun haluat luoda Windows 10 Pro Creators-päivityksen asennus tieto välineen (USB-muisti tikku tai ISO-tiedosto), jos haluat asentaa Windows 10-tieto koneen, joka on eri kuin käyttämäsi.
+- Luo asennustietoväline [Media Creation Tool -työkalulla](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Valitse tämä vaihtoehto, jos haluat luoda Windows 10 Pro Creators Update -asennustietovälineen (USB-muistitikku tai ISO-tiedosto) Windows 10:n asentamiseksi tietokoneeseen, joka eroaa käyttämästäsi tietokoneesta.
 
-    - Lue ohjeet työkalun käyttöön ja luo asennus tieto väline. 
+    - Lue työkalun käyttöä ja asennustietovälineen luomista koskevia ohjeita. 
 
 > [!NOTE]
-> Jos sinulla on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, Microsoft 365 Business-Tilaus oikeuttaa sinut Windows Pro 10-päivitykseen.
+> Jos käytössäsi on Windows 7 Pro-, Windows 8 Pro- tai Windows 8.1 Pro -käyttölaite, Microsoft 365 Business -tilauksesi oikeuttaa Windows Pro 10 -päivitykseen.
     
-Katso Windows [-laitteiden määrittäminen Microsoft 365-yritys käyttäjille](set-up-windows-devices.md) Windows 10-laitteiden määrittämisen viimeistellä. 
+Lisätietoja on [ohjeaiheessa Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-windows-devices.md) Windows 10 -laitteiden määrittämistä varten. 
   
-Katso Android-ja iOS-laitteiden määrittäminen viimeistellä [mobiililaitteiden määrittäminen Microsoft 365-yritys käyttäjille](set-up-mobile-devices.md) . 
+Lisätietoja on [ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-mobile-devices.md) Android- ja iOS-laitteiden määrittämiseksi loppuun. 
   
 ## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 

@@ -20,30 +20,31 @@ ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 1f468690-530c-47ea-918f-fede24607c53
-description: Tietoja automaatti ohjauksen laite virheiden vian määrityksestä.
-ms.openlocfilehash: 8390f695a3e11386ae2617da4061bed1d8214375
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Lue tietoja autopilotin laitetiedostojen käsittelemisen aikana Microsoft 365 Businessissa mahdollisesti näkyvien virheiden vianmäärityksestä.
+ms.openlocfilehash: 7569f18097a1f5959b3dd491958c78886e1e05d6
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594204"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547467"
 ---
 # <a name="troubleshoot-autopilot-device-errors"></a>Autopilot-laitteen virheiden vianmääritys
 
-## <a name="device-file-error-messages"></a>Laite tiedoston virhe sanomat
+## <a name="device-file-error-messages"></a>Laitetiedoston virhesanomat
 
-Tässä on tietoja joistakin virheistä, joita saatat nähdä työskennellessään automaatti ohjauksen laite tiedostojen kanssa Microsoft 365 Businessissa. 
+Tässä on tietoja joistakin virheistä, joita saatat nähdä työskenneltäessä AutoPilot-laitetiedostojen kanssa Microsoft 365 Businessissa. 
   
-|**Virhekoodi**|**Fix kokeilla**|
+|**Virhekoodi**|**Korjaa yrittää**|
 |:-----|:-----|
-|Virheellinen pyynnön leipä teksti  <br/> |Tämän virheen pitäisi tapahtua harvoin, jos näet tämän virheen, yritä toimintoa uudelleen.  <br/> |
-|Laitteen laitteiston hajautus arvo ei ole oikea.  <br/> |Jos näet tämän virheen, se tarkoittaa, että yhden laitteen laitteiston hajautus arvon CSV-tiedostossa antama arvo ei ole oikea. Tarkista ensin, että arvo on kirjoitettu oikein. Jos arvelet, että arvo on oikea, mutta tämä virhe tapahtuu edelleen, pyydä apua laitteiston toimittajalta.  <br/> |
-|Toiseen vuokraajaan liitetty laite  <br/> |Jos näet tämän virheen, se tarkoittaa, että CSV-tiedostossa annettu arvo joko yhden tai useamman laitteen sarja numeroa tai Product Key-tunnusta varten ei ole oikea. Tarkista ensin, että arvo on kirjoitettu oikein. Jos arvelet, että arvo on oikea, mutta tämä virhe tapahtuu edelleen, pyydä apua laitteiston toimittajalta.  <br/> |
-|CSV-tiedostossa on virheellinen sarja numero tai Product Key-tunnus  <br/> |Jos näet tämän virheen, se tarkoittaa, että laite, jota yrität rekisteröidä, on jo toisen organisaation rekisteröimää. Voit korjata tämän virheen pyytämällä laitteiston toimittajalta apua.  <br/> |
-|Tätä laitetta ei tueta asennuksessa käyttämällä automaatti ohjausta  <br/> | Tämä virhe tarkoittaa, että laite ei vastaa automaatti ohjauksen käyttöönoton vaatimuksia. Laitteiden on täytettävä nämä vaatimukset:  <br/>  Windows 10, versio 1703 tai uudempi.  <br/>  Uudet laitteet, jotka eivät ole olleet Windows out-of-Box-kokemuksen kautta.  <br/> |
-|Laitetta ei löydy  <br/> |Tämä virhe tarkoittaa sitä, että yhtä tai useampaa CSV-tiedostossa olevaa laitetta ei ole rekisteröity organisaatioosi. Voit korjata tämän ongelman pyytämällä laitteiston toimittajalta apua.  <br/> |
+|Virheellinen pyynnön teksti  <br/> |Tämän virheen pitäisi tapahtua harvoin, jos näet tämän virheen, yritä toimintoa uudelleen.  <br/> |
+|Laitteen hajautusarvo ei ole oikea.  <br/> |Jos näet tämän virheen, se tarkoittaa, että csv-tiedostossa antamasi arvo yhden laitteen laitteistohajautusarvolle ei ole oikea. Varmista ensin, että arvo on kirjoitettu oikein. Jos olet sitä mieltä, että arvo on oikea, mutta tämä virhe on edelleen käynnissä, pyydä apua laitteiston valmistajalta.  <br/> |
+|Toiselle vuokraajan laitteelle määritetty laite  <br/> |Jos näet tämän virheen, se tarkoittaa, että CSV-tiedostossa antamasi arvo yhden tai useamman laitteen sarjanumerolle tai tuoteavaimelle ei ole oikea. Varmista ensin, että arvo on kirjoitettu oikein. Jos olet sitä mieltä, että arvo on oikea, mutta tämä virhe on edelleen käynnissä, pyydä apua laitteiston valmistajalta.  <br/> |
+|CSV-tiedosto sisältää virheellisen sarjanumeron tai product key -avaimen  <br/> |Jos näet tämän virheen, toinen organisaatio on jo rekisteröinyt laitteen, jota yrität rekisteröidä. Voit korjata tämän virheen kysyt neuvoa laitteiston valmistajalta.  <br/> |
+|Tätä laitetta ei tueta asennusta varten autopilotin avulla  <br/> | Tämä virhe tarkoittaa, että laite ei täytä automaattiohjauksen käyttöönottovaatimuksia. Laitteiden on täytettävä nämä vaatimukset:  <br/>  Windows 10, versio 1703 tai uudempi.  <br/>  Uudet laitteet, jotka eivät ole käyneet Windowsin läpi.  <br/> |
+|Laitetta ei löydy  <br/> |Tämä virhe tarkoittaa, että vähintään yhtä CSV-tiedoston laitetta ei ole rekisteröity organisaatioosi. Voit korjata ongelman kysyt neuvoa laitteiston valmistajalta.  <br/> |
