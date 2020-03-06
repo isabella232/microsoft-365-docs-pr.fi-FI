@@ -23,34 +23,34 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: Lue muutamalla helpolla toimenpiteellä, miten voit siirtää henkilökohtaiset työtiedostosi ja arkaluonteiset yritystiedostot OneDrive for Businessiin.
-ms.openlocfilehash: 2f4e21096570e1b830a7a8ceee87d652abb9448f
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: 837ec8bb01ed78e7a13ee802afaf845c80544f5d
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547747"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550263"
 ---
-# <a name="move-files-to-onedrive-for-business"></a><span data-ttu-id="5509d-103">Tiedostojen siirtäminen OneDrive for Businessiin</span><span class="sxs-lookup"><span data-stu-id="5509d-103">Move files to OneDrive for Business</span></span>
+# <a name="move-files-to-onedrive-for-business"></a><span data-ttu-id="d4ead-103">Tiedostojen siirtäminen OneDrive for Businessiin</span><span class="sxs-lookup"><span data-stu-id="d4ead-103">Move files to OneDrive for Business</span></span>
 
-<span data-ttu-id="5509d-104">Katso lyhyt video tiedostojen siirtämisestä OneDrive for Businessiin.</span><span class="sxs-lookup"><span data-stu-id="5509d-104">Watch a short video about moving files to OneDrive for Business.</span></span><br><br>
+<span data-ttu-id="d4ead-104">Katso lyhyt video tiedostojen siirtämisestä OneDrive for Businessiin.</span><span class="sxs-lookup"><span data-stu-id="d4ead-104">Watch a short video about moving files to OneDrive for Business.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-<span data-ttu-id="5509d-105">Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="5509d-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="d4ead-105">Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="d4ead-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
 
-## <a name="move-files-to-onedrive-for-business"></a><span data-ttu-id="5509d-106">Tiedostojen siirtäminen OneDrive for Businessiin</span><span class="sxs-lookup"><span data-stu-id="5509d-106">Move files to OneDrive for Business</span></span>
+## <a name="move-files-to-onedrive-for-business"></a><span data-ttu-id="d4ead-106">Tiedostojen siirtäminen OneDrive for Businessiin</span><span class="sxs-lookup"><span data-stu-id="d4ead-106">Move files to OneDrive for Business</span></span>
 
-<span data-ttu-id="5509d-107">Jos käyttäjä on tietokone, joka sisältää monia henkilökohtaisia tiedostoja, siirrä kyseiset tiedostot ensin OneDrive for Businessiin:</span><span class="sxs-lookup"><span data-stu-id="5509d-107">If a user has a computer that includes many personal files, you should first move those files to OneDrive for Business:</span></span>
+<span data-ttu-id="d4ead-107">Jos käyttäjä on tietokone, joka sisältää monia henkilökohtaisia tiedostoja, siirrä kyseiset tiedostot ensin OneDrive for Businessiin:</span><span class="sxs-lookup"><span data-stu-id="d4ead-107">If a user has a computer that includes many personal files, you should first move those files to OneDrive for Business:</span></span>
   
-1. <span data-ttu-id="5509d-108">Siirry osoitteeseen portal.office.com ja kirjaudu sitten sisään käyttäjän Microsoft 365 Business-tunnistetiedoilla.</span><span class="sxs-lookup"><span data-stu-id="5509d-108">Go to portal.office.com and sign in with the user's Microsoft 365 Business credentials.</span></span>
+1. <span data-ttu-id="d4ead-108">Siirry osoitteeseen portal.office.com ja kirjaudu sitten sisään käyttäjän Microsoft 365 Business-tunnistetiedoilla.</span><span class="sxs-lookup"><span data-stu-id="d4ead-108">Go to portal.office.com and sign in with the user's Microsoft 365 Business credentials.</span></span>
     
-2. <span data-ttu-id="5509d-109">Valitse sovellusten käynnistys</span><span class="sxs-lookup"><span data-stu-id="5509d-109">Click the app launcher</span></span> ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) <span data-ttu-id="5509d-111">ja siirry OneDriveen.</span><span class="sxs-lookup"><span data-stu-id="5509d-111">and go to OneDrive.</span></span> 
+2. <span data-ttu-id="d4ead-109">Valitse sovellusten käynnistys</span><span class="sxs-lookup"><span data-stu-id="d4ead-109">Click the app launcher</span></span> ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) <span data-ttu-id="d4ead-111">ja siirry OneDriveen.</span><span class="sxs-lookup"><span data-stu-id="d4ead-111">and go to OneDrive.</span></span> 
     
-3. <span data-ttu-id="5509d-112">Valitse valikkorivillä **Lataa palvelimeen**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) ja selaa niihin tiedostoihin, jotka haluat tallentaa.</span><span class="sxs-lookup"><span data-stu-id="5509d-112">Choose **Upload**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) in the menu bar, and browse to the files you want to save.</span></span> 
+3. <span data-ttu-id="d4ead-112">Valitse valikkorivillä **Lataa palvelimeen**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) ja selaa niihin tiedostoihin, jotka haluat tallentaa.</span><span class="sxs-lookup"><span data-stu-id="d4ead-112">Choose **Upload**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) in the menu bar, and browse to the files you want to save.</span></span> 
     
-<span data-ttu-id="5509d-p101">Voit siirtää käyttäjäprofiilin ja tärkeät tiedostot myös kolmannen osapuolen työkalun, kuten ForensiT:n, avulla. Lataa myös tulostiedostot OneDrive for Businessiin.</span><span class="sxs-lookup"><span data-stu-id="5509d-p101">To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.</span></span>
+<span data-ttu-id="d4ead-p101">Voit siirtää käyttäjäprofiilin ja tärkeät tiedostot myös kolmannen osapuolen työkalun, kuten ForensiT:n, avulla. Lataa myös tulostiedostot OneDrive for Businessiin.</span><span class="sxs-lookup"><span data-stu-id="d4ead-p101">To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="5509d-115">Tutustu myös seuraaviin ohjeaiheisiin</span><span class="sxs-lookup"><span data-stu-id="5509d-115">See also</span></span>
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a><span data-ttu-id="d4ead-115">Lisätietoja Microsoft 365 Businessin määrittämisestä ja käyttämisestä</span><span class="sxs-lookup"><span data-stu-id="d4ead-115">For more on setting up and using Microsoft 365 Business</span></span>
 
-[<span data-ttu-id="5509d-116">Microsoft 365 Business -koulutusvideot</span><span class="sxs-lookup"><span data-stu-id="5509d-116">Microsoft 365 Business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="d4ead-116">Microsoft 365 Business -koulutusvideot</span><span class="sxs-lookup"><span data-stu-id="d4ead-116">Microsoft 365 Business training videos</span></span>](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
