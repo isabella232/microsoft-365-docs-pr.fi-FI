@@ -24,13 +24,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
-description: Lisätietoja eri laitetiloista on Microsoft 365 Businessin Järjestelmänvalvoja-aloitussivun Laitetoiminnot-luettelossa.
-ms.openlocfilehash: bed1610814ca0d60adb4b4b3d0018e3e7e6d763f
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lisätietoja eri laitetiloista on Microsoft 365 for Businessin Järjestelmänvalvoja-aloitussivun Laitetoiminnot-luettelossa.
+ms.openlocfilehash: 1a66e76dd3a74428923292427b01551db2449e48
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560816"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627242"
 ---
 # <a name="device-states"></a>Laitteen tilat
 
@@ -40,16 +40,16 @@ ms.locfileid: "42560816"
   
 |**Tila**|**Kuvaus**|
 |:-----|:-----|
-|Intunen hallitsema  <br/> |Microsoft 365 Businessn hallitsema  <br/> |
-|Käytöstä poistaminen odottaa  <br/> |Microsoft 365 Business on valmiina poistamaan yritystiedot laitteesta.  <br/> |
-|Käytöstä poistaminen on käynnissä  <br/> |Microsoft 365 Business poistaa parhaillaan yritystietoja laitteesta.  <br/> |
+|Intunen hallitsema  <br/> |Microsoft 365 Business Premiumin hallinnoima.  <br/> |
+|Käytöstä poistaminen odottaa  <br/> |Microsoft 365 Business Premium valmistautuu poistamaan yrityksen tiedot laitteesta.  <br/> |
+|Käytöstä poistaminen on käynnissä  <br/> |Microsoft 365 Business Premium poistaa parhaillaan yrityksen tietoja laitteesta.  <br/> |
 |Käytöstä poistaminen epäonnistui  <br/> | Yritystietojen poisto epäonnistui.  <br/> |
-|Eläkkeelle peruuttaminen peruutettu  <br/> |Eläkkeelle siirtyminen toiminto peruutettiin.  <br/> |
+|Eläkkeelle peruutettu  <br/> |Eläkkeelle siirtyminen peruutettiin.  <br/> |
 |Tyhjennys odottaa  <br/> |Tehdasasetusten palauttamista odotetaan.  <br/> |
 |Tyhjennys käynnissä  <br/> |Tehdasasetusten palautus on määritetty.  <br/> |
 |Tyhjennys epäonnistui  <br/> |Tehdasasetusten palautusta ei voitu tehdä.  <br/> |
-|Pyyhi peruutettu  <br/> |Tehdaspyyhintä peruttiin.  <br/> |
+|Pyyhitään peruutettu  <br/> |Tehdaspyyhintä peruttiin.  <br/> |
 |Viallinen  <br/> |Toiminto odottaa (tai on käynnissä), mutta laite ei ole kirjautunut sisään yli 30 päivään.  <br/> |
 |Poisto odottaa  <br/> |Poistotoimintoa odotetaan.  <br/> |
-|Tunnistettu  <br/> |Microsoft 365 Business on tunnistanut laitteen.  <br/> |
+|Tunnistettu  <br/> |Microsoft 365 Business Premium on havainnut laitteen.  <br/> |
    

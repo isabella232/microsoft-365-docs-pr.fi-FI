@@ -24,17 +24,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: Tutustu siihen, miten voit päivittää Windows-laitteesi Windows 10 Proksi, jotta voit hyödyntää entistä kehittyneempiä suojaus- ja yritysverkko-ominaisuuksia.
-ms.openlocfilehash: 3901754d9ef269ae74dbf1893cb62b1ba810919d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Tutustu windows-laitteiden windows-laitteisiin Windows 10 Pro -versioon, jotta voit hyödyntää kehittyneempiä tietoturva- ja yritysverkko-ominaisuuksia.
+ms.openlocfilehash: f0cedda49dbff2a8c2884bb52e240fabfbeb4537
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560656"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632047"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows-laitteiden päivittäminen Windows 10 Proksi
 
-Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Prohin.<br><br>
+Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Proksi.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
@@ -42,23 +42,23 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
 
 ## <a name="upgrade-to-windows-10-pro"></a>Päivitä Windows 10 Proksi
   
-Jos haluat päivittää Windows 10 Proksi, sinulla on useita vaihtoehtoja. Voit:
+Voit päivittää Windows 10 Proksi useilla eri tavoilla. Voit:
     
 - Asenna päivitys [Microsoft-ohjelmiston lataussivustosta](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Valitse tämä vaihtoehto, jos kirjautuneena oleva laite on samassa laitteessa kuin se, jonka haluat päivittää. 
 
-    - Aloita laitteen päivittäminen Windows 10 Pro Creators -päivitykseksi valitsemalla ohjelmiston lataussivustossa **Päivitä nyt.** 
+    - Aloita laitteen päivittäminen Windows 10 Pro Creators -päivitykseksi valitsemalla ohjelmiston lataussivustosta **Päivitä nyt.** 
     
-- Luo asennustietoväline [Media Creation Tool -työkalulla](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Valitse tämä vaihtoehto, jos haluat luoda Windows 10 Pro Creators Update -asennustietovälineen (USB-muistitikku tai ISO-tiedosto) Windows 10:n asentamiseksi tietokoneeseen, joka eroaa käyttämästäsi tietokoneesta.
+- Luo asennustietoväline [Media Creation Tool -työkalun](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; avulla Valitse tämä vaihtoehto, jos haluat luoda Windows 10 Pro Creators Update -asennustietovälineen (USB-muistitikku tai ISO-tiedosto) Windows 10:n asentamiseksi tietokoneeseen, joka on eri kuin käyttämäsi tietokone.
 
-    - Lue työkalun käyttöä ja asennustietovälineen luomista koskevia ohjeita. 
+    - Lue työkalun käyttöä ja asennustietovälineen luomista koskevat ohjeet. 
 
 > [!NOTE]
-> Jos käytössäsi on Windows 7 Pro-, Windows 8 Pro- tai Windows 8.1 Pro -käyttölaite, Microsoft 365 Business -tilauksesi oikeuttaa Windows Pro 10 -päivitykseen.
+> Jos käytössäsi on Windows-laitteet, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8.1 Pro, Microsoft 365 for Business -tilauksesi oikeuttaa Windows Pro 10 -päivitykseen.
     
-Lisätietoja on [ohjeaiheessa Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-windows-devices.md) Windows 10 -laitteiden määrittämistä varten. 
+Lisätietoja on [ohjeaiheessa Windows-laitteiden määrittäminen Microsoft 365 for Business -käyttäjille](set-up-windows-devices.md) Windows 10 -laitteiden määrittämistä varten. 
   
-Lisätietoja on [ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-mobile-devices.md) Android- ja iOS-laitteiden määrittämiseksi loppuun. 
+Lisätietoja on [ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365 for Business -käyttäjille](set-up-mobile-devices.md) Android- ja iOS-laitteiden määrittämistä varten. 
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Lisätietoja Microsoft 365 Businessin määrittämisestä ja käyttämisestä
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Lisätietoja Microsoft 365 for Businessin määrittämisestä ja käyttämisestä
 
-[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 yrityksille koulutus videoita](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

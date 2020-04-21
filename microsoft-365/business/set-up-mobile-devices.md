@@ -1,5 +1,5 @@
 ---
-title: Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille
+title: Mobiililaitteiden määrittäminen Microsoft 365:lle yrityskäyttäjille
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,25 +23,25 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Asenna Office iPhoneen tai Android-puhelimeen, niin Microsoft 365 Business suojaa työtiedostosi Office-sovelluksissa.
-ms.openlocfilehash: 36cc3cb9b35cb5746a4147509f17e4f4d7909617
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Asenna Office iPhoneen tai Android-puhelimeen, niin Microsoft 365 for Business suojaa työtiedostosi Office-sovelluksissa.
+ms.openlocfilehash: 1263a922ba41083511fec8030634ed6cfaf70f00
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089307"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632563"
 ---
-# <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille
+# <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Mobiililaitteiden määrittäminen Microsoft 365:lle yrityskäyttäjille
 
-Asenna iPhone- tai Android-puhelimeen noudattamalla välilehtien asennusohjeita. Kun olet toiminut näiden ohjeiden mukaisesti, Microsoft 365 Business suojaa Office-sovelluksissa luotavat työtiedostosi.
+Asenna iPhone- tai Android-puhelimeen noudattamalla välilehtien asennusohjeita. Kun olet toiminut seuraavasti, Microsoft 365 for Business suojaa Office-sovelluksissa luodut työtiedostot.
 
 Esimerkki on Outlookista, mutta pätee myös kaikkiin muihin Office-sovelluksiiin, jotka haluat asentaa.
   
 ## <a name="set-up-mobile-devices"></a>Mobiililaitteiden määrittäminen
 
-## <a name="iphonetabiphone"></a>[Iphone](#tab/iPhone)
+## <a name="iphone"></a>[Iphone](#tab/iPhone)
   
-Katso lyhyt video Office-sovellusten määrittämisestä iOS-laitteisiin Microsoft 365 Businessin avulla.<br><br>
+Katso lyhyt video Office-sovellusten määrittämisestä iOS-laitteisiin Microsoft 365 for Businessin avulla.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWee2n] 
 
@@ -59,19 +59,19 @@ Kun asennus on valmis, avaa Outlook valitsemalla **Avaa**-painike ja valitse sit
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Anna työsähköpostiosoitteesi **Lisää sähköpostitili** -näytössä \> **Lisää tili** ja kirjoita sitten Microsoft 365 Business-tunnistetietosi \> **Kirjaudu**.
+Kirjoita työsähköpostiosoitteesi **Lisää sähköpostitili -näyttöön** \> **Lisää tili**ja kirjoita sitten Microsoft 365 for Business -tunnistetietosi \> Kirjaudu **sisään**.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
-Jos organisaatiosi suojaa sovellusten tiedostoja, näet valintaikkunan, jossa ilmoitetaan, että organisaatiosi suojaa nyt sovelluksen tietoja, ja sinun on käynnistettävä sovellus uudelleen, jotta voit jatkaa sovelluksen käyttöä. Valitse **OK** ja sulje Outlook. 
+Jos organisaatiosi suojaa sovellusten tiedostoja, näyttöön tulee valintaikkuna, jossa ilmoitetaan, että organisaatiosi suojaa nyt sovelluksen tietoja ja että sinun on käynnistettävä sovellus uudelleen, jotta voit jatkaa sen käyttöä. Valitse **OK** ja sulje Outlook. 
   
-![Näyttökuva, joka näyttää organisaatiosi suojaanyt nyt Outlook-sovellustasi](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
+![Näyttökuva, joka osoittaa, että organisaatiosi suojaa nyt Outlook-sovellustasi](../media/fb4c1c84-b1e9-42e1-8070-c13dcf79fb09.png)
   
 Etsi Outlook iPhone-puhelimessa ja käynnistä se uudelleen. Anna pyydettäessä PIN-koodi ja vahvista se. iPhone-puhelimesi Outlook on nyt valmis käytettäväksi.
   
 ![Set a PIN to access your organization's data](../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png)
   
-## <a name="androidtabandroid"></a>[Android](#tab/Android)
+## <a name="android"></a>[Android](#tab/Android)
   
 Katso video Outlookin ja Officen asentamisesta Android-laitteisiin.<br><br>
 
@@ -79,15 +79,15 @@ Katso video Outlookin ja Officen asentamisesta Android-laitteisiin.<br><br>
 
 Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Aloita android-puhelimen määritys siirtymällä Play Kauppaan.
+Aloita android-puhelimen määritys siirtymällä Play-kauppaan.
   
 ![On the Android home screen, tap Play Store](../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
-Kirjoita Google Playn hakuruutuun Microsoft Outlook ja napauta **Asenna**. Kun Outlook on asennettu, napauta **Avaa**.
+Kirjoita Google Play -hakuruutuun Microsoft Outlook ja napauta **Asenna**. Kun Outlook on asentanut, napauta **Avaa**.
   
 ![Tap Open to open Outlook app](../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-Napauta Outlook-sovelluksessa **Aloita**ja lisää Sitten Microsoft 365 \> Business -sähköpostitilisi **Jatka**ja kirjaudu sisään organisaatiosi tunnistetiedoilla.
+Napauta Outlook-sovelluksessa **Aloita**, lisää Microsoft 365 for Business \> **-sähköpostitiliJatka**ja kirjaudu sisään organisaation tunnistetiedoilla.
   
 ![Sign in to your organizational account in Outlook](../media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
@@ -95,7 +95,7 @@ Valitse **Siirry Kauppaan** valintaikkunassa, joka kehottaa asentamaan Intune-yr
   
 ![Tap on Go to store to get Intune Company Portal app](../media/a702d712-5622-45dd-a511-b1adaee63071.png)
   
-Asenna Intune Company Portal Play-kauppaan.
+Asenna Intune Company Portal Play Storessa.
   
 ![Screenshot that shows the install button for Intune Company Portal in Google Play Store](../media/5e0408f2-3f37-44dd-80ed-13ca2ac6df0c.png)
   
@@ -105,6 +105,6 @@ Avaa Outlook uudelleen ja anna ja vahvista PIN-koodi. Outlook-sovellus on nyt va
 
 ## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 yrityksille koulutus videoita](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 
 ---

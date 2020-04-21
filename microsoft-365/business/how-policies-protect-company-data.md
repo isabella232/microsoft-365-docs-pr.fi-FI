@@ -1,5 +1,5 @@
 ---
-title: Miten Microsoft 365 Businessin käytännöt suojaavat yritystietoja?
+title: Microsoft 365 for Businessin käytäntöjen käyttäminen suojaa yritystietoja
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -26,14 +26,14 @@ search.appverid:
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: Jos haluat suojata yrityksen tiedot käyttäjien henkilökohtaisista laitteista, käytä käytäntöjä, jotka kohdistuvat tiettyihin laitteisiin ja suojausryhmiin.
-ms.openlocfilehash: c33d228fef5e138f94810faf1174ea3243277f4d
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: aa7447ae4547ba3180d5d5ebbe18e2840947a1d5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41593897"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627142"
 ---
-# <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Miten Microsoft 365 Businessin käytännöt suojaavat yritystietoja?
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Microsoft 365 for Businessin käytäntöjen käyttäminen suojaa yritystietoja
 
 Luomasi käytännöt ovat laitetyyppikohtaisia, ja ne voidaan ottaa käyttöön tietyille käyttäjäryhmille. Tämä tarkoittaa, että voit luoda yhden käytännön, joka koskee johtajia, ja toisen, joka koskee kaikkia muita.
   

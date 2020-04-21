@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Tutustu microsoft 365 Businessin avulla varmistamaan, että käyttäjillä on uusin Office-versio kaikissa Windows 10 -laitteissaan.
-ms.openlocfilehash: dbae76bf98cbcc463e4944f7c0bc59e728221c6b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Katso, miten Microsoft 365 Business Premiumin avulla voit automaattisesti varmistaa, että käyttäjillä on uusin Office-versio kaikissa Windows 10 -laitteissaan.
+ms.openlocfilehash: f040f466638dc0ef5491e3097de29fc44a8e66f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561536"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627090"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Officen asentaminen Windows 10een asennuksen aikana
 
 ![Banner, joka https://aka.ms/aboutM365previewosoittaa .](../media/m365admincenterchanging.png)
 
-Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön ja varmistaa, että käyttäjillä on uusin Office-versio kaikissa Windows 10 -laitteissaan, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Businessin käyttöoikeus, jotta tämä asetus voidaan siirtää laitteeseen, muiden Microsoft [365 Businessin käyttöönottoon tarkoitetun](prepare-for-office-client-deployment.md)asiakkaan valmisteleminen -kohdassa kuvattujen vaatimusten lisäksi.
+Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön ja varmistaa, että käyttäjillä on uusin Office-versio kaikissa Windows 10 -laitteissaan, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business Premium -käyttöoikeus, jotta tämä asetus voi siirtää ohjelmiston laitteeseen muiden microsoft [365 Business Premiumin office-asiakasohjelman käyttöönoton valmisteleminen](prepare-for-office-client-deployment.md)-kohdassa kuvattujen vaatimusten lisäksi.
   
 Suosittelemme, että hyväksyt oletusasetuksen asennuksen aikana.

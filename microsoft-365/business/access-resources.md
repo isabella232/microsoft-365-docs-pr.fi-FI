@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lue, miten voit käyttää paikallisia resursseja, kuten liiketoimintasovelluksia, jaettuja tiedostoresursseja ja tulostimia Azure Active Directorysta, joka on liitetty Windows 10 -laitteeseen.
-ms.openlocfilehash: 653b53d29e84bbdc91273cb78b9b8407c0f6a209
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: c1e04e5ca0d36c32a55a9819140356db5093e3a1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41593229"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627450"
 ---
-# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Paikallisten resurssien käyttäminen Azure AD:hen liitetystä laitteesta Microsoft 365 Businessissa
+# <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Paikallisten resurssien käyttäminen Azure AD:hen liitetystä laitteesta Microsoft 365 Business Premiumissa
 
-Kaikilla Windows 10 -laitteilla, joihin on liitetty Azure Active Directory, on pääsy kaikkiin pilvipohjaisiin resursseihin, kuten Office 365 -sovelluksiin, ja microsoft 365 Business voi suojata sen. Voit myös sallia paikallisten resurssien, kuten LOB (Line of Business) -sovellusten, jaettujen tiedostojen ja tulostimien, käytön. Jos haluat sallia käytön, synkronoi paikallinen Active Directory Azure Active Directoryazure Active Directoryn kanssa [Azure AD Connectin](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) avulla. 
+Kaikilla Windows 10 -laitteilla, joihin on liitetty Azure Active Directory, on pääsy kaikkiin pilvipohjaisiin resursseihin, kuten Microsoft 365 -sovelluksiin, ja ne voidaan suojata Microsoft 365 Business Premiumilla. Voit myös sallia paikallisten resurssien, kuten LOB (Line of Business) -sovellusten, jaettujen tiedostojen ja tulostimien, käytön. Jos haluat sallia käytön, synkronoi paikallinen Active Directory Azure Active Directoryazure Active Directoryn kanssa [Azure AD Connectin](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) avulla. 
 
 Lisätietoja on [ohjeaiheessa Johdanto laitehallintaan Azure Active Directoryssa](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 Vaiheet on myös tiivistetty seuraaviin osiin.
@@ -43,9 +43,9 @@ Noudata seuraavia ohjeita, jotta organisaation Azure AD -liitetyt laitteet voiva
   
 1. Jos haluat synkronoida käyttäjät, ryhmät ja yhteystiedot paikallisesta Active Directorysta Azure Active Directoryyn, suorita ohjattu hakemistosynkronointitoiminto ja Azure AD Connect kohdassa [Hakemistosynkronoinnin määrittäminen Office 365:tä varten](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)kuvatulla tavalla.
     
-2. Kun hakemistosynkronointi on valmis, varmista, että organisaation Windows 10 -laitteet on liitetty Azure AD:hen. Tämä vaihe tehdään erikseen jokaisessa Windows 10 -laitteessa. Lisätietoja on ohjeaiheessa [Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille.](set-up-windows-devices.md) 
+2. Kun hakemistosynkronointi on valmis, varmista, että organisaation Windows 10 -laitteet on liitetty Azure AD:hen. Tämä vaihe tehdään erikseen jokaisessa Windows 10 -laitteessa. Lisätietoja on ohjeaiheessa [Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille.](set-up-windows-devices.md) 
     
-3. Kun Windows 10 -laitteet on liitetty Azure AD:hen, jokaisen käyttäjän on käynnistettävä laitteensa uudelleen ja kirjauduttava sisään Microsoft 365 Business -tunnistetiedoillaan. Kaikilla laitteilla on nyt myös käytettävissään paikallisia resursseja.
+3. Kun Windows 10 -laitteet on liitetty Azure AD:hen, jokaisen käyttäjän on käynnistettävä laitteensa uudelleen ja kirjauduttava sisään Microsoft 365 Business Premium -tunnistetiedoillaan. Kaikilla laitteilla on nyt myös käytettävissään paikallisia resursseja.
     
 Azure AD:n liitettyjen laitteiden paikallisten resurssien käyttäminen ei edellytä lisätoimia. Tämä toiminto sisältyy Windows 10:hen. 
 
