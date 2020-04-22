@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business- ja Microsoft 365-, SMB- ja siirtymäcsp-tilaus
 ms.date: 11/01/2017
-ms.openlocfilehash: 0a30d80ad5217868fec81866ab1dc41013917e99
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: da56ce5bc70dfed5a3e86c739ef3c940b4ac1511
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504103"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635060"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Microsoft 365 BusinessIn CSP-tilauksen siirtyminen
 
@@ -91,7 +91,7 @@ Seuraavassa taulukossa on yhteenveto mobiililaitteiden sovellusten hallintakäyt
 | **Pin-koodin nollaaminen, kun kirjautuminen epäonnistuu** | Rajoitettu pääsy sovelluksiin | Ei sovellustason käyttöoikeusrajoituksia |
 | **Käyttäjien vaatiminen kirjautumaan uudelleen sisään, kun Office-sovellukset ovat olleet käyttämättömänä** | Kirjautuminen vaaditaan | Sisäänkirjautumista ei tarvita |
 | **Estä työtiedostojen käyttö laitteissa, joiden suojaukset on murrettu** | Työtiedostoja ei voi käyttää jailbroken/rooted-laitteissa | Työtiedostoja voi käyttää jailbroken/rooted-laitteissa |
-| **Salli käyttäjien kopioida sisältöä Office-sovelluksista Personal-sovelluksiin** | Kopioi tai liitä rajoitettu sovelluksiin, jotka ovat saatavilla osana Microsoft 365 Business -tilausta | Kopioi /liitä kaikkien sovellusten käytettävissä |
+| **Salli käyttäjien kopioida sisältöä Office-sovelluksista Personal-sovelluksiin** | Kopioi tai liitä vain Microsoft 365 -tilauksen osana saatavilla oleviin sovelluksiin | Kopioi /liitä kaikkien sovellusten käytettävissä |
 
 ## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 -tietokoneen vaikutukset tilauksen vanhentumisen yhteydessä
 

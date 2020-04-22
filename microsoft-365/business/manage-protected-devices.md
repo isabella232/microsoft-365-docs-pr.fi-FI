@@ -1,5 +1,5 @@
 ---
-title: Hallitse suojattuja laitteita Microsoft 365 Businessin avulla
+title: Suojattujen laitteiden hallinta Microsoft 365 for Businessin avulla
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -26,17 +26,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Opi poistamaan yrityksen tiedot suojauskäytäntöjen avulla hallituista laitteista sekä palauttamaan Windows 10 -laitteet tehdasasetuksiinsa.
-ms.openlocfilehash: 97c9751d020d7f2aecb1e64718721c1ca25189e1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Opi poistamaan yrityksen tiedot suojauskäytännöillä hallituista laitteista sekä palauttamaan Windows 10 -laitteet tehdasasetuksiinsa.
+ms.openlocfilehash: 180887dca3226512ab558e98d2b5a78da3521e53
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561516"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634284"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business"></a>Hallitse suojattuja laitteita Microsoft 365 Businessin avulla
+# <a name="manage-protected-devices-with-microsoft-365-for-business"></a>Suojattujen laitteiden hallinta Microsoft 365 for Businessin avulla
 
-Kun käyttäjä on yhdistänyt laitteensa organisaatioosi kirjautumalla työtilillään laitteeseen tai laitteen Office-sovelluksiin, voit suojata laitteen määrittämiesi käytäntöjen avulla. Liitetyt laitteet näkyvät **Laitteet-sivulla.** Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot. Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin. 
+Kun käyttäjä on yhdistänyt laitteensa organisaatioosi kirjautumalla sisään työtilillään laitteeseen tai laitteen Office-sovelluksiin, voit suojata laitteen määrittämiäsi käytäntöjä noudattaen. Liitetyt laitteet näkyvät **Laitteet-sivulla.** Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot. Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin. 
 
 Lisätietoja tehtävistä, joita voit käyttää laitteiden hallintaan, on seuraavissa artikkeleissa: 
   

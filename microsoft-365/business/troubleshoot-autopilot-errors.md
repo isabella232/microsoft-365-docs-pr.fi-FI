@@ -26,19 +26,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1f468690-530c-47ea-918f-fede24607c53
-description: Lue tietoja automaattiohjauksen laitetiedostojen vianmäärityksestä Microsoft 365 Businessissa.
-ms.openlocfilehash: 8b99e848fa040711785b921d12548f16dadb09af
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Lue tietoja automaattiohjauksen laitetiedostojen käyttämisen yhteydessä microsoft 365 Business Premiumissa mahdollisesti näkyvien virheiden vianmäärityksestä.
+ms.openlocfilehash: 0c0742e5bf17c85cedfb421cabfd87c0e2184ba5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212129"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635040"
 ---
 # <a name="troubleshoot-autopilot-device-errors"></a>Autopilot-laitteen virheiden vianmääritys
 
 ## <a name="device-file-error-messages"></a>Laitetiedoston virhesanomat
 
-Tässä on tietoja joistakin virheistä, joita saatat nähdä työskennellessäsi AutoPilot-laitetiedostojen kanssa Microsoft 365 Businessissa. 
+Tässä on tietoja joistakin virheistä, joita saatat nähdä työskennellessäsi AutoPilot-laitetiedostojen kanssa Microsoft 365 Business Premiumissa. 
   
 |**Virhekoodi**|**Yritä korjata**|
 |:-----|:-----|

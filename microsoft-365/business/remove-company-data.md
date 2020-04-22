@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: Lue, miten voit poistaa käyttäjien laitteiden tai Windows-tietokoneiden yritystiedot Microsoft 365 Businessin avulla.
-ms.openlocfilehash: 1cfcf836f71cb81015d28a848611678252731b9c
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Tutustu siihen, miten voit poistaa käyttäjien laitteissa tai Windows-tietokoneissa olevat yritystiedot Microsoft 365 for Businessin avulla.
+ms.openlocfilehash: 80997a48bb3924ab20f16a454120d24caf76e1e7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561316"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634844"
 ---
 # <a name="remove-company-data-from-devices"></a>Yritystietojen poistaminen laitteista
 
@@ -36,17 +36,17 @@ ms.locfileid: "42561316"
 
 ## <a name="remove-company-data"></a>Poista yritystiedot
 
-Microsoft 365 Business:n avulla voit poistaa yritystiedot, jotka käyttäjillä on [laitteissaan](app-protection-settings-for-android-and-ios.md) tai [Windows-tietokoneissaan](protection-settings-for-windows-10-devices.md), jotka on suojattu Microsoft 365:n avulla. **Jos poistat yritystiedot laitteesta, et voi palauttaa niitä myöhemmin**. 
+Microsoft 365 for Businessin avulla voit poistaa käyttäjien [laitteiden](app-protection-settings-for-android-and-ios.md) tai Microsoft 365:n suojaamien [Windows-tietokoneiden](protection-settings-for-windows-10-devices.md) yritystiedot. **Jos poistat yritystiedot laitteesta, et voi palauttaa niitä myöhemmin**. 
   
 1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
     
 2. Valitse vasemmasta siirtymisruudusta **Laitteiden** \> **hallinta**.  
   
-3. Valitse Tai etsi **Hallinta-sivulla** käyttäjä, jonka tiedot haluat poistaa, ja valitse nimi. 
+3. Valitse **Hallinta-sivulla** käyttäjä, jonka tiedot haluat poistaa, ja valitse nimi. 
     
-4. Valitse seuraavassa ruudussa laite tai laitteet **Laitteet-luettelosta.** Avautuvan laiteruudun voit palauttaa laitteen tehdasasetukset tai poistaa yrityksen tiedot laitetyypin mukaan. 
+4. Valitse laite tai laitteet seuraavan ruudun **Laitteet-luettelosta.** Avautuvan laiteruudun laiteruudussa voit valita, että laite palautetaan tehdasasetuksiin tai yrityksen tiedot poistetaan laitteen tyypin mukaan. 
     
-    ![Valitse Poista yrityksen tiedot -ruudusta laite, josta haluat poistaa tiedot.](../media/resetorremove.png)
+    ![Valitse Poista yrityksen tietoruudusta laite, josta haluat poistaa tiedot.](../media/resetorremove.png)
   
 5. Valitse vahvistusruudussa **Vahvista** \> **sulkeminen**.
     

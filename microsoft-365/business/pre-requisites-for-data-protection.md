@@ -1,5 +1,5 @@
 ---
-title: Laitteiden tietojen suojaamisen edellytykset Microsoft 365 Businessilla
+title: Laitteiden tietojen suojaamisen edellytykset Microsoft 365 for Business -ohjelman avulla
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,30 +20,30 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Lue tietoja vaatimuksista, jotka koskevat organisaation määrittämistä Microsoft 365 Businessin avulla ja työtietojen suojaamista käyttäjien laitteissa.
-ms.openlocfilehash: 9c96b8fa444b1525e82da5a148483feeac59a25d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lue tietoja vaatimuksista, jotka koskevat organisaation määrittämistä Microsoft 365 for Businessin kanssa ja työtietojen suojaamista käyttäjien laitteissa.
+ms.openlocfilehash: 02f7d32f0cd6ddcedcf21ea62bac7898e4c0f15a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561376"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633115"
 ---
-# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Laitteiden tietojen suojaamisen edellytykset Microsoft 365 Businessilla
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Laitteiden tietojen suojaamisen edellytykset Microsoft 365 for Business -ohjelman avulla
 
-Ensimmäinen vaihe organisaation määrittämisessä Microsoft 365 Businessin avulla on varmistaa, että voit täyttää edellytykset.
+Ensimmäinen vaihe organisaation määrittämisessä Microsoft 365 for Businessin kanssa on varmistaa, että pystyt täyttämään edellytykset.
   
-## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-business"></a>Organisaation määrittämistä Microsoft 365 Businessin avulla koskevat vaatimukset
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Vaatimukset organisaation määrittämiseksi Microsoft 365 for Businessin avulla
 
 - Windows-laitteissa on oltava Windows 7 Professional, Windows 8 Pro tai Windows 8.1 Pro.
     
     [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md) .
     
-    Jos käytössäsi on Windows 10 Home, sinun on **ostettava** Windows 10 Pro. Katso ohjeet kohdasta [Windows 10 Homen päivittäminen Windows 10 Prohin.](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) 
+    Jos käytössäsi on Windows 10 Home, sinun on **ostettava** Windows 10 Pro. Lisätietoja on [ohjeaiheessa Windows 10 Homen päivittäminen Windows 10 Proksi.](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) 
     
-- Poista laitteet mobiililaitteiden hallintaratkaisuista (Mobile Iron, AirWatch ja niin edelleen). Rekisteröit kaikki organisaatiosi henkilöt Microsoft 365 Business -mobiilinhallintaan.
+- Poista laitteet mobiililaitteiden hallintaratkaisuista (Mobile Iron, AirWatch ja niin edelleen). Rekisteröit kaikki organisaatiosi henkilöt Microsoft 365 for Business -mobiilihallintaan.
     
 - Apple iOS 8.0 tai uudempi.
     
-    Google Android 4.0 tai uudempi (mukaan lukien Samsung KNOX Standard 4.0 tai uudempi). Lisätietoja on [ohjeaiheessa Intune-tuetut laitteet](https://go.microsoft.com/fwlink/p/?linkid=852307).
+    Google Android 4.0 tai uudempi (mukaan lukien Samsung KNOX Standard 4.0 tai uudempi). Lisätietoja on kohdassa [Intune-tuetut laitteet](https://go.microsoft.com/fwlink/p/?linkid=852307).
     
-- Jos sinulla on office-sovelluksia käyttäjän tietokoneissa, lue [office-asiakasasennuksen valmisteleminen,](prepare-for-office-client-deployment.md) jotta voit selvittää vaiheet, jotka sinun on ehkä toteutettava, ennen kuin voit määrittää Microsoft 365 Businessin asentamaan Office 2016:n käyttäjän tietokoneisiin. 
+- Jos sinulla on aiemmin luotuja Office-sovelluksia käyttäjätietokoneissa, lue artikkeli [Office-asiakasohjelman asennuksen valmisteleminen,](prepare-for-office-client-deployment.md) jotta saat ohjeet, jotka sinun on ehkä tehtävä, ennen kuin voit määrittää Microsoft 365 for Businessin asentamaan Office 2016:n käyttäjätietokoneisiin. 

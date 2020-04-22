@@ -1,5 +1,5 @@
 ---
-title: Lisää Microsoft 365 Businessin uhkien suojausta
+title: Lisää Microsoft 365 Business Premiumin uhkasuojausta
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -20,57 +20,57 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Määritä yhteensopivuusominaisuudet tietojen häviämisen estämiseksi ja suojaa asiakkaiden ja asiakkaidesi arkaluonteisten tietojen suojaamiseksi.
-ms.openlocfilehash: 6f4520b052c2e7acb8748d3c9d6e26777cb56d4b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Määritä yhteensopivuusominaisuudet, jotka estävät tietojen häviämisen ja auttavat pitämään asiakkaiden ja asiakkaidesi arkaluonteiset tiedot turvassa.
+ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561236"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635120"
 ---
 # <a name="set-up-compliance-features"></a>Yhteensopivuusominaisuuksien määrittäminen
 
-Microsoft 365 Businessin mukana toimitetaan ominaisuuksia, jotka suojaavat tietojasi ja laitteitasi ja auttavat pitämään ja asiakkaidesi arkaluonteiset tiedot turvassa.
+Microsoft 365 Business Premiumsisältää ominaisuuksia, jotka suojaavat tietojasi ja laitteitasi ja auttavat pitämään asiakkaiden ja asiakkaidesi arkaluonteiset tiedot turvassa.
 
 ## <a name="set-up-dlp-features"></a>DLP-ominaisuuksien määrittäminen
 
-Lisätietoja on [ohjeaiheessa DLP-käytännön luominen mallista,](https://support.office.com/article/59414438-99f5-488b-975c-5023f2254369) jossa on esimerkki siitä, miten voit määrittää käytännön, joka suojaa henkilökohtaisilta tiedovoilta. 
+Lisätietoja [dlp-käytännön luomisesta mallista](https://support.office.com/article/59414438-99f5-488b-975c-5023f2254369) on kohdassa, miten voit määrittää käytännön, joka suojaa henkilökohtaisilta tunnisteilta (PII). 
   
-DLP sisältää monia käyttövalmiita käytäntömalleja monille eri maa-asetustoille. Esimerkiksi Australia Financial Data, Canada Personal Information Act, Yhdysvaltain taloudelliset tiedot ja niin edelleen. Täydellinen luettelo on kohdassa [DLP-käytäntömallien sisältämät](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) tiedot. Kaikki nämä mallit voidaan ottaa käyttöön samalla tavalla kuin PII-malliesimerkki. 
+DLP sisältää monia käyttövalmiita käytäntömalleja monille eri kielille. Esimerkiksi Australia Financial Data, Canada Personal Information Act, Yhdysvaltain taloudelliset tiedot ja niin edelleen. Täydellinen luettelo on [kohdassa, mitä DLP-käytäntömallit sisältävät.](https://support.office.com/article/c2e588d3-8f4f-4937-a286-8c399f28953a) Kaikki nämä mallit voidaan ottaa käyttöön samalla tavalla kuin pii-malliesimerkki. 
   
 ## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Sähköpostin säilyttämisen määrittäminen Exchange Online -arkistoinnin avulla
 
- **Exchange Online Archiving -käyttöoikeusominaisuudet** auttavat ylläpitämään vaatimustenmukaisuus- ja sääntelystandardeja säilyttämällä eDiscovery-sähköpostin sisällön. Se auttaa myös vähentämään riskiä, jos on oikeusjuttu, ja tarjoaa tavan palauttaa tietoja tietoturvaloukkauksen jälkeen tai kun sinun täytyy palauttaa poistetut kohteet. Oikeustoimiin liittyvän pidon avulla voit säilyttää käyttäjän kaiken sisällön tai mukauttaa säilytettävää sisältöä säilytyskäytäntöjen avulla.
+ **Exchange OnlineArchiving -käyttöoikeusominaisuudet** auttavat ylläpitämään vaatimustenmukaisuus- ja sääntelystandardeja säilyttämällä eDiscovery-sähköpostin sisällön. Se auttaa myös vähentämään riskiä, jos on oikeusjuttu, ja tarjoaa tavan palauttaa tietoja tietoturvaloukkauksen jälkeen tai kun sinun täytyy palauttaa poistetut kohteet. Oikeustoimiin liittyvän pidon avulla voit säilyttää käyttäjän koko sisällön tai mukauttaa säilytettävääsi sisältöä säilytyskäytäntöjen avulla.
   
-**Oikeudenkäyntien pito:** Voit säilyttää kaiken postilaatikon sisällön, poistetut kohteet mukaan lukien, asettamalla käyttäjän koko postilaatikon oikeustoimiin liittyvään pitoon. 
+**Oikeustoimiin liittyvä pito:** Voit säilyttää kaiken postilaatikon sisällön, poistetut kohteet mukaan lukien, asettamalla käyttäjän koko postilaatikon oikeustoimiin liittyvään pitoon. 
     
-Postilaatikon lisääminen oikeustoimiin liittyvään pitoon hallintakeskuksessa:
+Postilaatikon sijoitaminen oikeustoimiin liittyvään pitoon hallintakeskuksessa:
     
-1. Siirry vasemmassa siirtymisruudussa **Käyttäjät aktiiviset** \> **käyttäjät**.
+1. Valitse vasemmasta siirtymisruudusta **Käyttäjät** \> **aktiiviset käyttäjät**.
     
-2. Valitse käyttäjä, jonka postilaatikon haluat sijoittaa oikeustoimiin liittyvään pitoon. Laajenna käyttäjäruudussa **Sähköpostiasetukset**ja valitse **Lisää asetuksia**-kohdan vierestä Muokkaa **Exchange-ominaisuuksia**.
+2. Valitse käyttäjä, jonka postilaatikon haluat sijoittaa oikeustoimiin liittyvään pitoon. Laajenna käyttäjäruudussa **Mailin asetukset**ja valitse **Lisää asetuksia**-kohdan vierestä **Muokkaa Exchange-ominaisuuksia**.
     
-3. Valitse käyttäjän postilaatikkosivulla ** postilaatikon ominaisuudet ** vasemmasta siirtymisruudusta ja valitse sitten **Ota käyttöön** -linkki **kohdassa Oikeustoimiin liittyvä pito**.
+3. Valitse käyttäjän postilaatikkosivulla ** postilaatikon ominaisuudet ** vasemmasta siirtymisruudusta ja valitse sitten **Ottaminen-linkki** **Oikeustoimiin liittyväpito**-kohdasta.
     
-4. **Oikeustoimiin liittyvän pidon** valintaikkunassa voit määrittää oikeustoimiin liittyvän pidon keston **Oikeustoimiin liittyvän pidon kesto** -kentässä. Jätä kenttä tyhjäksi, jos haluat asettaa äärettömän pidon. Voit myös lisätä muistiinpanoja ja ohjata postilaatikon omistajan verkkosivustoon, jota saatat joutua selittämään lisätietoja oikeustoimiin liittyvästä pidon pidon säilyttämisestä. \>**Tallenna.**
+4. **Oikeustoimiin liittyvän pidon** valintaikkunassa voit määrittää oikeustoimiin liittyvän pidon keston **Oikeustoimiin liittyvän pidon kesto** -kentässä. Jätä kenttä tyhjäksi, jos haluat sijoittaa äärettömän pidon. Voit myös lisätä muistiinpanoja ja ohjata postilaatikon omistajan sivustoon, jota saatat joutua selittämään lisätietoja oikeustoimiin liittyvästä pidon pidon. \>**Tallenna.**
     
-**Säilyttäminen:** Voit ottaa käyttöön mukautetut säilytyskäytännöt, esimerkiksi säilyttää tietyn ajan tai poistaa sisältöä pysyvästi säilytysajan lopussa. Lisätietoja on ohjeaiheessa [Säilytyskäytäntöjen yleiskatsaus](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
+**Säilyttäminen:** Voit ottaa käyttöön mukautetut säilytyskäytännöt, esimerkiksi säilyttää tietyn ajan tai poistaa sisältöä pysyvästi säilytysajan lopussa. Lisätietoja on [ohjeaiheessa Säilytyskäytäntöjen yleiskatsaus](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
 
 ## <a name="set-up-sensitivity-labels"></a>Herkkyysotsikoiden määrittäminen
 
-Herkkyysotsikot tulevat Azure Information Protection (AIP) -palvelupaketin 1 mukana, ja ne auttavat sinua luokittelemaan ja suojaamaan asiakirjoja ja sähköposteja ja suojaamaan ne valinnaisesti käyttämällä tunnisteita. Otsikoita voivat käyttää automaattisesti järjestelmänvalvojat, jotka määrittävät säännöt ja ehdot manuaalisesti käyttäjät, tai käyttämällä yhdistelmää, jossa käyttäjille annetaan suosituksia.
+Herkkyysotsikoissa on Azure Information Protection (AIP) Plan 1, ja ne auttavat sinua luokittelemaan ja halutessasi suojaamaan asiakirjoja ja sähköposteja käyttämällä tarroja. Sääntöjä voivat käyttää automaattisesti järjestelmänvalvojat, jotka määrittävät säännöt ja ehdot manuaalisesti käyttäjien toimesta, tai käyttämällä yhdistelmää, jossa käyttäjille annetaan suosituksia.
 
-Voit määrittää herkkyysotsikot [tarkastelemaan herkkyystarrojen videon luomista ja hallintaa.](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
+Voit määrittää herkkyysotsikot tarkastelemaan [luojaa ja hallitsemaan herkkyystarroja- videota.](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9)
 
 
 
-### <a name="install-the-azure-information-protection-client-manually"></a>Azure Information Protection -asiakasohjelman asentaminen manuaalisesti
+### <a name="install-the-azure-information-protection-client-manually"></a>Azure Information Protection -asiakkaan asentaminen manuaalisesti
 
-AIP-asiakasohjelman asentaminen manuaalisesti:
+AIP-asiakkaan asentaminen manuaalisesti:
 
-1. Lataa **AzinfoProtection_UL.exe** [Microsoft download centeristä](https://www.microsoft.com/download/details.aspx?id=53018).
+1. Download **AzinfoProtection_UL.exe** polveutua [Mikroskooppi download keskittyä](https://www.microsoft.com/download/details.aspx?id=53018).
  
 2. Voit varmistaa, että asennus toimi tarkastelemalla Word-asiakirjaa ja varmistamalla, että **Herkkyys-vaihtoehto** on käytettävissä **Aloitus-välilehdessä.**
-<br/>![Word-asiakirjan avattava suojausvälilehti.](../media/word-sensitivity.png)
+<br/>![Word-asiakirjan Suojaus-välilehden avattava.](../media/word-sensitivity.png)
 
-Lisätietoja on ohjeaiheessa [Asiakkaan asentaminen](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).
+Lisätietoja on [ohjeaiheessa Asiakkaan asentaminen](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3).

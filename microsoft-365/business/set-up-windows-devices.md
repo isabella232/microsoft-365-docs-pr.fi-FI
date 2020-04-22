@@ -1,5 +1,5 @@
 ---
-title: Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
+title: Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille
 f1.keywords:
 - CSH
 ms.author: sirkkuw
@@ -24,27 +24,27 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Lue, miten voit määrittää Windows-laitteet, joissa on Windows 10 Pro for Microsoft 365 Business -käyttäjille, jolloin käytössä on keskitetty hallinta- ja suojausvalvonta.
-ms.openlocfilehash: 6ecc45f825a783d9d47c4b069a6021143d96597c
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lue, miten voit määrittää Windows-laitteet, joissa on Windows 10 Pro Microsoft 365 Business Premium -käyttäjille, jolloin keskitetyt hallinta- ja suojausohjausobjektit otetaan käyttöön.
+ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561156"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635448"
 ---
-# <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille
+# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Edellytykset Windows-laitteiden määrittämiselle Microsoft 365 Business -käyttäjille
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Windows-laitteiden määrittämisen edellytykset Microsoft 365 Business Premium -käyttäjille
 
-Ennen kuin voit määrittää Windows-laitteet Microsoft 365 Business -käyttäjiä varten, varmista, että kaikissa Windows-laitteissa on Windows 10 Pro -versio 1703 (Creators-päivitys). Windows 10 Pro on edellytys Windows 10 Businessin käyttöönotolle. Se on joukko pilvipalveluja ja laitehallintaominaisuuksia, jotka täydentävät Windows 10 Pro -ohjelmistoa ja mahdollistavat Microsoft 365 Businessin keskitetyn valvonnan ja suojauksen hallinnan.
+Ennen kuin voit määrittää Windows-laitteita Microsoft 365 Business Premium -käyttäjille, varmista, että kaikissa Windows-laitteissa on Windows 10 Pro n versio 1703 (Creators Update). Windows 10 Pro on edellytys Windows 10 Businessin käyttöönotolle, joka on joukko pilvipalveluita ja laitehallintaominaisuuksia, jotka täydentävät Windows 10 Prota ja mahdollistavat Microsoft 365 Business Premiumin keskitetyt hallinta- ja suojausohjausobjektit.
   
-Jos käytössäsi on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8.1 Pro, Microsoft 365 Business -tilaus oikeuttaa sinut Windows 10 -päivitykseen.
+Jos käytössäsi on Windows-laitteet, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8.1 Pro, Microsoft 365 Business Premium -tilauksesi oikeuttaa Windows 10 -päivitykseen.
   
 Lisätietoja Windows-laitteiden Windows 10 Pro Creators -päivityksen tekemisestä on tämän aiheen ohjeissa: [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md).
   
-Lisätietoja on ohjeaiheessa [Laitteen on yhdistetty Azure AD:hen,](#verify-the-device-is-connected-to-azure-ad) jotta voit varmistaa, että päivitys on muodostettu, tai varmista, että päivitys toimi.
+[Lisätietoja päivityksestä on ohjeaiheessa Tarkista, että laite on yhdistetty Azure AD:hen,](#verify-the-device-is-connected-to-azure-ad) tai varmista, että päivitys on toiminut.
 
-Katso lyhyt video Windowsin yhdistämisestä Microsoft 365:een.<br><br>
+Katso lyhyt video Windowsin liittämisestä Microsoft 365:een.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
 
@@ -52,7 +52,7 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 -laitteiden liittäminen organisaatiosi Azure AD:hen
 
-Kun kaikki organisaatiosi Windows-laitteet on joko päivitetty Windows 10 Pro Creators Updateksi tai niissä on jo Windows 10 Pro Creators Update , voit liittyä näihin laitteisiin organisaatiosi Azure Active Directoryyn. Kun laitteet on liitetty, ne päivitetään automaattisesti Windows 10 Businessiin, joka on osa Microsoft 365 Business -tilaustasi.
+Kun kaikki organisaatiosi Windows-laitteet on joko päivitetty Windows 10 Pro Creators -päivitykseksi tai niissä on jo Windows 10 Pro Creators -päivitys, voit liittyä näihin laitteisiin organisaatiosi Azure Active Directoryyn. Kun laitteet on liitetty, ne päivitetään automaattisesti Windows 10 Businessiin, joka on osa Microsoft 365 Business Premium -tilaustasi.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>Uusi tai päivitetty Windows 10 Pro -laite
 
@@ -62,7 +62,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
     
     ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
-2. Valitse sitten **Määritä organisaatiolle** ja anna Microsoft 365 Business -käyttäjänimesi ja -salasanasi. 
+2. Valitse tässä **Määritä organisaatiolle** ja kirjoita sitten Microsoft 365 Business Premiumin käyttäjänimi ja salasana. 
     
 3. Viimeistele Windows 10 -laitteen määritys.
     
@@ -108,13 +108,13 @@ Tarkista synkronointitilasi napsauttamalla **Asetukset**-valintaikkunan **Käyt�
   
 Valitse Synkronointitila-sivulla Synkronoi, jolloin saat uusimmat mobiililaitteiden hallintakäytännöt PC-tietokoneeseen.
   
-Voit aloittaa Microsoft 365 Business -tilin **** käytön siirtymällä Windowsin Käynnistä-valikkoon, napsauttamalla nykyistä tilikuvaahiiren kakkospainikkeella ja **vaihtamalla sitten tilin vaihtamista**. Kirjaudu sisään käyttämällä organisaatiosi sähköpostiosoitetta ja salasanaa.
+Voit aloittaa Microsoft 365 Business Premium -tilin **Start** käyttämisen siirtymällä Windowsin Käynnistä-painikkeeseen, napsauttamalla nykyistä tilikuvaahiiren kakkospainikkeella ja **sitten Vaihda tiliä**. Kirjaudu sisään käyttämällä organisaatiosi sähköpostiosoitetta ja salasanaa.
   
 ![Click Info button to view synchronization status](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
 ## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>Windows 10 Business -päivityksen olemassaolon tarkistaminen laitteessa
 
-Varmista, että Azure Active Directoryyn liitettyihin Windows 10 -laitteisiin on päivitetty Windows 10 Business osana Microsoft 365 Business -tilausta.
+Varmista, että Azure AD on liittynyt Windows 10 -laitteisiin, jotka on päivitetty Windows 10 Businessiksi osana Microsoft 365 Business Premium -tilaustasi.
   
 1. Valitse **Asetukset** \> **Järjestelmä** \> **Tietoja**.
     
@@ -124,8 +124,8 @@ Varmista, että Azure Active Directoryyn liitettyihin Windows 10 -laitteisiin on
   
 ## <a name="next-steps"></a>Seuraavat vaiheet
 
-Mobiililaitteiden määritysohjeet ovat kohdassa [Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille](set-up-mobile-devices.md). Laitteiden ja sovellusten suojauskäytäntöjen määritysohjeet ovat kohdassa [Microsoft 365 Businessin hallinta](manage.md).
+Lisätietoja mobiililaitteiden määrittämisestä on [ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille](set-up-mobile-devices.md), Laitesuojaus- tai sovellussuojauskäytäntöjen määrittäminen on [ohjeaiheessa Microsoft 365 for Businessin hallinta](manage.md).
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Lisätietoja Microsoft 365 Businessin määrittämisestä ja käyttämisestä
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Lisätietoja Microsoft 365 Business Premiumin määrittämisestä ja käyttämisestä
 
-[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 yrityksille koulutus videoita](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

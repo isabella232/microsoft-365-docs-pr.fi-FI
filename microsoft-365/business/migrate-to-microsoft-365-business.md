@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business -versioon päivittäminen Office 365 Business Premiumista
+title: Microsoft 365 Business Premium -versioon päivittäminen Microsoft 365 Business Standardista
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,68 +22,68 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Lue tietoja Office 365 Business Premiumin ja Microsoft 365 Businessin eroista ja siitä, miten voit päivittää Microsoft 365 Businessiin.
-ms.openlocfilehash: 2ec77d96bef288bd33e4f67b74f91550f388a2c1
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lue, miten microsoft 365 Business Standardja Microsoft 365 Business Premium ja miten voit päivittää Microsoft 365 Business Premiumiin.
+ms.openlocfilehash: 83bdf3a770acae222dd80c5798228e67cce56e57
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561416"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633155"
 ---
-# <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Microsoft 365 Business -versioon päivittäminen Office 365 Business Premiumista
+# <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Microsoft 365 Business Premium -versioon päivittäminen Microsoft 365 Business Standardista
 
-Jos sinulla on [Office 365 for Business -tilaus,](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2)esimerkiksi Office 365 Business Premium, voit helposti päivittää Microsoft 365 Businessiin. Päivitä Microsoft 365 Businessiin, jos haluat lisätä: 
-- Windows 10 Pro (Windows 8 tai uudempi) -tietokoneisiin
-- Yksinkertaiset ohjausobjektit, jotka hallitsevat liiketoimintatietoja laitteissa
+Jos sinulla on [Microsoft 365 for Business -tilaus,](https://products.office.com/compare-all-microsoft-office-products-4-column?activetab=tab:primaryr2)esimerkiksi Microsoft 365 Business Standard, voit helposti päivittää Microsoft 365 Business Premiumiin. Päivitä Microsoft 365 Business Premiumiin, jos haluat lisätä: 
+- Windows 10 Pro (tietokoneisiin, joissa on Windows 8 tai uudempi)
+- Yksinkertaiset ohjausobjektit, jotka hallitsevat laitteiden yritystietoja
 - Kehittyneet suojausominaisuudet.
-Lue lisää Microsoft 365 Businessista [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
+Lue lisää Microsoft 365 Business Premiumista [Microsoft.com](https://www.microsoft.com/microsoft-365/business)
 
-## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Mitä eroa on Office 365 Business Premiumilla ja Microsoft 365 Businessilla?
-Olemme lisänneet näiden kahden palvelupaketin sivuvertailun [Microsoft 365 Business Service Description -palveluun.](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) 
+## <a name="whats-the-difference-between-microsoft-365-business-standard-and-microsoft-365-business-premium"></a>Mitä eroa on Microsoft 365 Business Standardilla ja Microsoft 365 Business Premiumilla?
+Microsoft [365 Business Premium Service Description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)-palveluun on lisätty näiden kahden palvelupaketin vierittäys. 
 
 ## <a name="before-you-get-started"></a>Ennen kuin aloitat
 
-- **Milloin minun pitäisi valita päivitys?** Päivitys on oikea valinta, kun haluat päivittää **kaikki yksittäiseen** palvelupakettiin määritetyt käyttäjät. Kun valitset päivityksen, kaikki palvelupaketin käyttäjät siirtyvät toiseen palvelupakettiin samanaikaisesti. Jos et halua päivittää kaikkia yksittäiseen palvelupakettiin määritettyjä, osta uuden palvelupaketin käyttöoikeudet (tässä tapauksessa Microsoft 365 Business) ja [määritä kyseiset käyttöoikeudet erikseen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) jokaiselle käyttäjälle, jonka haluat päivittää. 
-- **Jotkin lisäosat saattavat estää päivityksen** Jos yrität käynnistää päivityksen ja sinulla on lisäosa, joka estää sinua jatkamasta, voit poistaa lisäosan ensin ja lisätä sen myöhemmin takaisin, jos tarvitset sitä edelleen. 
-- **Jos olet maksanut tilauksesi valmiiksi** Valmiiksi maksetuille palvelupaketoille ei ole yksinkertaista päivityspolkua. Tiedät, onko sinulla valmiiksi maksettu palvelupaketti, koska olet määrittänyt tilauksesi käyttämällä tuotetunnusta, jonka olet ehkä ostanut kaupasta. Ota yhteyttä kumppaniin, siirry Microsoft Storeen tai odota, kunnes valmiiksi maksettu palvelupaketti vanhenee, jotta voit siirtyä uuteen palvelupakettiin.
+- **Milloin minun pitäisi valita päivitys?** Päivitys on oikea valinta, kun haluat päivittää **kaikki yksittäiseen** palvelupakettiin määritetyt käyttäjät. Kun valitset päivityksen, kaikki tilauksen käyttäjät siirtyvät toiseen palvelupakettiin samanaikaisesti. Jos et halua päivittää kaikkia, jotka on määritetty yhteen palvelupakettiin, osta uuden palvelupaketin käyttöoikeudet (tässä tapauksessa Microsoft 365 Business Premium) ja [määritä kyseiset käyttöoikeudet erikseen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) jokaiselle päivitettävälle käyttäjälle. 
+- **Jotkin lisäosat saattavat estää päivityksen** Jos yrität käynnistää päivityksen ja sinulla on lisäosa, joka estää sinua jatkamasta, voit poistaa lisäosan ensin ja lisätä sen myöhemmin, jos tarvitset sitä. 
+- **Jos olet maksanut tilauksesi ennakkoon** Valmiiksi maksetuille palvelupaketeille ei ole yksinkertaista päivityspolkua. Tiedät, onko sinulla valmiiksi maksettu palvelupaketti, koska määrität tilauksesi käyttämällä tuotetunnusta, jonka olet saattanut ostaa kaupasta. Ota yhteyttä kumppaniin, siirry Microsoft Storeen tai odota, kunnes valmiiksi maksettu palvelupaketti vanhenee, jotta voit siirtyä uuteen palvelupakettiin.
 
-## <a name="upgrade-to-microsoft-365-business"></a>Päivitä Microsoft 365 Businessiin
-Osta käyttöoikeudet seuraavasti [uudessa hallintakeskuksessa:](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+## <a name="upgrade-to-microsoft-365-business-premium"></a>Päivitä Microsoft 365 Business Premiumiin
+Osta käyttöoikeudet noudattamalla seuraavia ohjeita [uudessa hallintakeskuksessa:](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 1. Kirjaudu hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
-2. Siirry siirtymisruutuun ja valitse **Laskutustuotteet** \> **& Palvelut**. Etsi Office 365 -tilauksesi ja valitse se, jos haluat tarkastella tietoja. 
+2. Siirry siirtymisruutuun ja valitse **Laskutustuotteet** \> **& Palvelut**. Etsi tilauksesi ja valitse se, jos haluat tarkastella tietoja. 
 
-    ![Näyttökuva näyttää, miten voit etsiä ja valita tilauksesi hallintakeskuksessa.](../media/FindYourSubscription.png)
+    ![Näyttökuva, jossa kerrotaan, miten voit etsiä ja valita tilauksesi hallintakeskuksessa.](../media/FindYourSubscription.png)
 
 3. Valitse seuraavalla sivulla **Päivitä**. 
 
-      ![Näyttökuva näyttää, missä valitse Päivitä hallintakeskuksessa.](../media/SelectUpgrade.png)
+      ![Näyttökuva näyttää, mistä voit valita Päivitä hallintakeskuksessa.](../media/SelectUpgrade.png)
 
   > [!NOTE]
-  > Jos näet viestin, jonka mukaan **Tilauksen päivittämistä ei tueta ryhmäpohjaisilla lisensointioikeuksilla Azure Active Directoryssa,** voit ohittaa tämän turvallisesti, ellei sinulla ole erittäin suurta organisaatiota. Organisaatiot, jotka ovat valinneet tämän asetuksen, tietävät käyttävänsä ryhmäpohjaisia käyttöoikeuksia.
+  > Jos näet sanoman, jonka mukaan **Tilauksen päivittämistä ei tueta ryhmäpohjaisilla lisensoinnilla Azure Active Directoryssa,** voit ohittaa tämän turvallisesti, ellei sinulla ole erittäin suurta organisaatiota. Organisaatiot, jotka ovat valinneet tämän asetuksen, tietävät, että he käyttävät ryhmäpohjaisia käyttöoikeuksia.
 
-4. Seuraavaksi voit tarkastella luetteloa Office-palvelupaketeista, joihin voit päivittää. Etsi tässä tapauksessa Microsoft 365 Business -palvelupaketti. Voit vierittää alaspäin, jos haluat nähdä kaikki tähän palvelupakettiin sisältyvät Office-sovellukset ja -palvelut. Lisää Microsoft 365 Business ostoskoriisi valitsemalla **Microsoft 365 Business**-kohdassa **Päivitä.**
+4. Seuraavaksi voit tarkastella luetteloa Office-palvelupaketeista, joihin voit päivittää. Etsi tässä tapauksessa Microsoft 365 Business Premium -palvelupaketti. Voit vierittää alaspäin, jos haluat nähdä kaikki tähän palvelupakettiin sisältyvät Office-sovellukset ja -palvelut. Lisää Microsoft 365 Business Premium ostoskoriisi valitsemalla **Microsoft 365 Business Premium**-kohdasta **Päivitä.**
 5. Ostoskorissa:
-    1. Sisällytämme automaattisesti käyttöoikeudet kaikille nykyisille käyttäjillesi. Jos tarvitset enemmän tai vähemmän lisenssejä, sinun on [ostettava ja määritettävä kyseiset käyttöoikeudet erikseen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
-    2. Voit muuttaa maksutapaasi: kuukausittain tai vuosittain. Valitse haluamasi valikko avattavasta valikosta.
+    1. Sisällytämme automaattisesti käyttöoikeudet kaikille nykyisille käyttäjillesi. Jos tarvitset enemmän tai vähemmän käyttöoikeuksia, sinun on [ostettava ja määritettävä kyseiset käyttöoikeudet erikseen](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users).  
+    2. Voit säätää maksutapaa: kuukausittain tai vuosittain. Valitse avattava valikko, jos haluat tehdä valintasi.
 6. Valitse **Siirry kassalle,** jossa näet yhteenvedon ostoksestasi, mukaan lukien tämän tilin maksutavan. Voit myös lisätä promo koodi täällä, jos sinulla on yksi.
-7. Viimeistele ostos valitsemalla **Tee tilaus.**
-Uusien palvelupakettien määrittäminen kestää muutaman minuutin. Voit tarkistaa edistymisen valitsemalla **Tarkista päivityksen tila**. 
-1. Kun tilauksesi on valmis, sinun on ehkä suoritettava joitakin lisäasennusvaiheita hallintakeskuksessa. Suorita muut asennusvaiheet valitsemalla siirtymisruudussa **Aloitus.**
+7. Viimeistele osto valitsemalla **Tee tilaus.**
+Uusien palvelusuunnitelmien määrittäminen kestää Microsoftia muutaman minuutin. Voit tarkistaa edistymisen valitsemalla **Tarkista päivityksen tila**. 
+1. Kun suunnitelma on valmis, saatat joutua suorittamaan joitakin muita asennusvaiheita hallintakeskuksessa. Suorita mahdolliset lisämääritysvaiheet valitsemalla siirtymisruudussa **Aloitus.**
 
 > [!NOTE]
-> Saat prorated-hyvityksen Office 365 -käyttöoikeuksista, joita et enää tarvitse. Pankkitililtäsi tai luottokortiltasi veloitetaan noin kaksi päivää uuden suunnitelman määrittämisen jälkeen.
+> Saat hyvityksen Microsoft 365 -käyttöoikeuksista, joita et enää tarvitse. Pankkitililtäsi tai luottokortiltasi veloitetaan noin kaksi päivää uuden tilauksen määrittämisen jälkeen.
   
-## <a name="protect-user-devices-and-files"></a>Suojaa käyttäjän laitteet ja tiedostot
+## <a name="protect-user-devices-and-files"></a>Käyttäjän laitteiden ja tiedostojen suojaaminen
 
-Nyt kun Microsoft 365 Business -käyttöoikeudet on määritetty, aloita laitteiden ja tiedostojen suojaaminen noudattamalla ohjeita. Voit käyttää joitakin hallintakeskuksen siirtymisruudun uusia asetuksia.
+Kun Microsoft 365 Business Premium -käyttöoikeudet on määritetty, aloita laitteiden ja tiedostojen suojaaminen noudattamalla ohjeita. Voit käyttää joitakin hallintakeskuksen siirtymisruudun uusia asetuksia.
   
-1. Siirry hallintakeskuksen siirtymisruudussa **Kohtaan Laitekäytännöt** \> ****.
+1. Valitse hallintakeskuksen siirtymisruudussa \> **Laitekäytännöt**. **Devices**
     
 2. Valitse **Laitekäytännöt-sivulla** **Lisää**.
     
-3. Anna **** käytännölle nimi (esimerkiksi Suojaa työtiedostot) ja valitse sitten **käytäntötyyppi** avattavasta luettelosta. 
+3. Anna **Käytäntö-ruudussa** käytännölle nimi (esimerkiksi Suojaa työtiedostot) ja valitse sitten **käytäntötyyppi** avattavasta luettelosta. 
     
-    Voit määrittää sovelluskäytäntöjä tiedostojen suojaamiseksi Android- ja iPhone-laitteissa sekä Windows 10:ssä ja määrittää laitteen määrityskäytännöt yrityksen omistamille Windows 10 -laitteille. Lisätietoja on seuraavissa linkeissä:
+    Voit määrittää sovelluskäytännöt tiedostojen suojaamiseksi Android- ja iPhone-laitteissa sekä Windows 10:ssä ja voit määrittää laitteen määrityskäytännöt yrityksen omistamille Windows 10 -laitteille. Lisätietoja on seuraavissa linkeissä:
     
   - [Sovellusten suojausasetusten määrittäminen Android- tai iOS-laitteita varten](app-protection-settings-for-android-and-ios.md)
     
@@ -94,8 +94,8 @@ Nyt kun Microsoft 365 Business -käyttöoikeudet on määritetty, aloita laittei
   
 4. Kun olet määrittänyt käytännöt, sinä ja työntekijäsi voitte määrittää laitteita:
     
-  - Jos Windows-laitteesi eivät vielä käytä Windows Pro Creator -päivitystä, sinun on [päivitettävä ne Windows Pro Creators Updateksi](upgrade-to-windows-pro-creators-update.md).
+  - Jos Windows-laitteesi eivät vielä käytä Windows Pro Creator -päivitystä, ne on [päivitettävä Windows Pro Creators Update -versioksi.](upgrade-to-windows-pro-creators-update.md)
     
-  - Lisätietoja Windows-laitteiden vaiheista [on ohjeaiheessa Windows-laitteiden määrittäminen Microsoft 365 Business -käyttäjille.](set-up-windows-devices.md) 
+  - Lisätietoja Windows-laitteiden vaiheista on [ohjeaiheessa Windows-laitteiden Määrittäminen Microsoft 365 Business Premium -käyttäjille.](set-up-windows-devices.md) 
     
-  - Lisätietoja Android-puhelimista ja [iPhoneista on ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365 Business -käyttäjille.](set-up-mobile-devices.md) 
+  - Lisätietoja Android-puhelimien ja iPhone-puhelimien vaiheista on [ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille.](set-up-mobile-devices.md) 

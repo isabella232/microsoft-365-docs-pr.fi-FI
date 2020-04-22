@@ -24,27 +24,27 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Lue, miten voit varmistaa, että Microsoft 365 Business -sovellusten suojausasetukset vaikuttavat käyttäjien Windows 10 -laitteisiin.
-ms.openlocfilehash: 47977f8d79eb6dbb2f4d087af8f8ad7da4313c61
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lue, miten voit varmistaa, että Microsoft 365 for Business -sovellusten suojausasetukset ovat voimaan käyttäjien Windows 10 -laitteissa.
+ms.openlocfilehash: b63681f040b0fe49127693e9cb7aac7ba6c41af6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560676"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635700"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Laitteiden suojausasetusten vahvistaminen Windows 10 -tietokoneissa
 
 ## <a name="verify-that-windows-10-device-policies-are-set"></a>Windows 10:n laitekäytäntöjen määrityksen varmistaminen
 
-Kun olet [määrittänyt laitekäytännöt](protection-settings-for-windows-10-pcs.md), saattaa kestää muutama tunti, ennen kuin käytäntöä sovelletaan käyttäjien laitteissa. Voit varmistaa, että käytännöt on otettu käyttöön, perehtymällä Windowsin asetusnäyttöihin käyttäjien laitteissa. Koska käyttäjät eivät voi muokata Windows Updaten ja Windows Defenderin virustentorjunta-asetuksia Windows 10 -laitteissaan, monet asetukset näkyvät harmaina.
+Kun olet [määrittänyt laitekäytännöt](protection-settings-for-windows-10-pcs.md), saattaa kestää muutama tunti, ennen kuin käytäntöä sovelletaan käyttäjien laitteissa. Voit varmistaa, että käytännöt on otettu käyttöön, perehtymällä Windowsin asetusnäyttöihin käyttäjien laitteissa. Koska käyttäjät eivät voi muokata Windows Update- ja Windows Defender Antivirus -asetuksia Windows 10 -laitteissaan, monet asetukset näkyvät harmaina.
   
-1. Siirry **Kohtaan Asetukset** \> **Päivitys &amp; -suojaus** \> **Windows UpdateN** \> **uudelleenkäynnistysasetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
+1. Siirry **Settings** \> ** &amp; Update -tietoturvaan** \> **Windows UpdateRestart** \> **-asetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
     
-    ![Kaikki uudelleenkäynnistysasetukset näkyvät harmaina.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![Kaikki Uudelleenkäynnistys-asetukset näkyvät harmaina.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. Siirry **kohtaan Settings** \> **Update &amp; -suojaus** \> **Windows UpdateN** \> **lisäasetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
+2. Siirry **Settings** \> ** &amp; Update -tietoturvaan** \> **Windows Updaten** \> **lisäasetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
     
-    ![Windowsin päivitysten lisäasetukset näkyvät harmaina.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![Windowsin lisäpäivitysten asetukset näkyvät harmaina.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. Go to **Settings** \> **Update &amp; security** \> **Windows Update** \> **Advanced options** \> **Choose how updates are delivered**.
     
@@ -60,11 +60,11 @@ Kun olet [määrittänyt laitekäytännöt](protection-settings-for-windows-10-p
   
 ## <a name="related-topics"></a>Aiheeseen liittyviä aiheita
 
-[Microsoft 365 Businessin ohjeet ja resurssit](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Microsoft 365 for Businessin dokumentaatio ja resurssit](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Microsoft 365 Businessin käytön aloittaminen](microsoft-365-business-overview.md)
+[Microsoft 365 for Businessin käytön aloittaminen](microsoft-365-business-overview.md)
   
-[Microsoft 365 Businessin hallinta](manage.md)
+[Microsoft 365 for Businessin hallinta](manage.md)
   
 [Windows 10 -tietokoneiden laitemääritysten määrittäminen](protection-settings-for-windows-10-pcs.md)
   

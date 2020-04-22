@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Businesssecurity and compliance -ominaisuudet
+title: Microsoft 365 Business Premiumin suojaus- ja yhteensopivuusominaisuudet
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
-description: Lue tietoja Microsoft 365 Businessin mukana tulevista suojausominaisuuksista, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
-ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Lue tietoja Microsoft 365 Business Premiumin mukana tulevista suojausominaisuuksista, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
+ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153794"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635140"
 ---
-# <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Businesssecurity and compliance -ominaisuudet
+# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premiumin suojaus- ja yhteensopivuusominaisuudet
 
-Microsoft 365 Business tarjoaa yksinkertaistettuja suojausominaisuuksia, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
+Microsoft 365 Business Premium issa on yksinkertaistettuja suojausominaisuuksia, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
     
-## <a name="microsoft-365-business-admin-center-security-features"></a>Microsoft 365 Business -hallintakeskuksen suojausominaisuudet
+## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 -hallintakeskuksen suojausominaisuudet
 
 [![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Voit hallita useita Microsoft 365 Business -suojausominaisuuksia hallintakeskuksessa, jolloin voit ottaa nämä ominaisuudet käyttöön tai poistaa ne käytöstä. Hallintakeskuksessa voit tehdä seuraavat toimet:
+Voit hallita useita Microsoft 365 Business Premium -suojausominaisuuksia hallintakeskuksessa, jolloin voit ottaa nämä ominaisuudet käyttöön tai poistaa ne käytöstä. Hallintakeskuksessa voit tehdä seuraavat toimet:
   
 - [Sovellusten hallinta-asetusten määrittäminen Android- tai iOS-laitteille](app-protection-settings-for-android-and-ios.md) . 
     
@@ -62,7 +62,7 @@ Voit hallita useita Microsoft 365 Business -suojausominaisuuksia hallintakeskuks
     
 ## <a name="additional-security-features"></a>Muut suojaustoiminnot 
 
-Microsoft 365 Businessin lisäominaisuudet auttavat suojaamaan yritystäsi verkkouhkilta ja suojaamaan arkaluonteisia tietoja.
+Microsoft 365 Business Premiumin lisäominaisuudet ovat käytettävissä, jotta voit suojata yrityksesi verkkouhkilta ja suojata arkaluonteisia tietoja.
   
 - **[Office 365:n kehittynyt uhkien torjunta](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
@@ -74,7 +74,7 @@ Microsoft 365 Businessin lisäominaisuudet auttavat suojaamaan yritystäsi verkk
 
 - **[Intunen täydet ominaisuudet Azure-portaalissa](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Azure-portaalin Intune-hallintakeskuksen avulla voit määrittää muita suojausominaisuuksia, kuten MacOS-laitteiden, iPhonen ja Android-laitteiden hallinnan sekä windowsin kehittyneen laitehallinnan, jotka eivät ole käytettävissä Microsoft 365 Business -hallintakeskuksen kautta.
+    Azure-portaalin Intune-hallintakeskuksen avulla voit määrittää muita suojausominaisuuksia, kuten MacOS-laitteiden, iPhonen ja Android-laitteiden hallinnan sekä windowsin kehittyneen laitehallinnan, jotka eivät ole käytettävissä Microsoft 365 -hallintakeskuksen kautta.
 - **Sama [ehdollinen käyttö](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) kuin Azure AD Premium P1 -palvelupaketti**
 
 
@@ -95,7 +95,7 @@ Microsoft 365 Businessin lisäominaisuudet auttavat suojaamaan yritystäsi verkk
     
 ## <a name="compliance-features"></a>Yhteensopivuuden ominaisuudet
 
-Microsoft 365 Business -tilauksesi sisältää ominaisuuksia, joiden avulla voit ylläpitää vaatimustenmukaisuus- ja sääntelystandardeja.
+Microsoft 365 Business Premium -tilauksesi sisältää ominaisuuksia, joiden avulla voit ylläpitää vaatimustenmukaisuus- ja sääntelystandardeja.
 
 - **[Yleiskatsaus tietojen menetyksen estämiskäytäntöihin](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
     
@@ -107,20 +107,20 @@ Microsoft 365 Business -tilauksesi sisältää ominaisuuksia, joiden avulla voit
     
 - **[Luottamuksellisuusmerkinnät](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business sisältää kaikki [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407):n ominaisuudet. Tämän suunnitelman avulla voit luoda **herkkyysotsikoita,** joiden avulla voit hallita sähköpostin ja asiakirjojen arkaluonteisten tietojen käyttöä, esimerkiksi "Älä välitä" ja Älä kopioi . Voit myös luokitella arkaluonteiset tiedot luottamuksellisiksi ja määrittää, miten turvaluokiteltuja tietoja voidaan jakaa yrityksen ulkopuolella ja sisällä. Yritystason salausta on helppo käyttää sähköpostiin ja asiakirjoihin, jotta tietosi pysyvät yksityisinä. Voit myös asentaa Office-sovellusten Azure Information Protection -asiakasohjelman apuohjelman. Lisätietoja on kohdassa [Azure Information Protectionunified labeling client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Jos haluat käyttää herkkyystarroja, asenna **AzInfoProtection_UL.exe**.
+   Microsoft 365 Business Premium sisältää kaikki [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407):n ominaisuudet. Tämän suunnitelman avulla voit luoda **herkkyysotsikoita,** joiden avulla voit hallita sähköpostin ja asiakirjojen arkaluonteisten tietojen käyttöä, esimerkiksi "Älä välitä" ja Älä kopioi . Voit myös luokitella arkaluonteiset tiedot luottamuksellisiksi ja määrittää, miten turvaluokiteltuja tietoja voidaan jakaa yrityksen ulkopuolella ja sisällä. Yritystason salausta on helppo käyttää sähköpostiin ja asiakirjoihin, jotta tietosi pysyvät yksityisinä. Voit myös asentaa Office-sovellusten Azure Information Protection -asiakasohjelman apuohjelman. Lisätietoja on kohdassa [Azure Information Protectionunified labeling client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Jos haluat käyttää herkkyystarroja, asenna **AzInfoProtection_UL.exe**.
 
-Voit hallita näitä ominaisuuksia &amp; Tietoturvan yhteensopivuus -keskuksessa ja Intune-hallintakeskuksessa. Ajan myötä yksinkertaistetut ohjausobjektit lisätään Microsoft 365 Business -hallintakeskukseen.
+Voit hallita näitä ominaisuuksia &amp; Tietoturvan yhteensopivuus -keskuksessa ja Intune-hallintakeskuksessa. Ajan myötä yksinkertaistetut ohjausobjektit lisätään Microsoft 365 -hallintakeskukseen.
   
     
 ## <a name="faq"></a>Usein kysytyt kysymykset
 
  ### <a name="are-these-security-features-available-in-all-markets"></a>Ovatko nämä turvaominaisuudet saatavilla kaikilla markkina-alueilla?
   
-Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkinoilla, joilla Microsoft 365 Business myydään.
+Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkinoilla, joilla Microsoft 365 Business Premium myydään.
   
 ### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Miten löydän tietoturvan &amp; yhteensopivuuskeskuksen?
   
-1. [Kirjaudu Microsoft 365 Businessiin](https://portal.microsoft.com/) järjestelmänvalvojan tunnistetiedoilla. 
+1. [Kirjaudu Microsoft 365 Business Premiumiin](https://portal.microsoft.com/) järjestelmänvalvojan tunnistetiedoilla. 
     
 2. Etsi vasemmasta siirtymisruudusta **Hallintakeskukset** ja laajenna se. 
     

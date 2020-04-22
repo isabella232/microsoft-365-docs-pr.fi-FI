@@ -17,14 +17,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Selvitä, sopiiko Office 365 E3, Office 365 Business Premium tai Microsoft 365 Business yrityksellesi.
-ms.openlocfilehash: 44d8b6c64882b0357674793e8430423802b0fc1a
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: Selvitä, sopiiko Office 365 E3, Microsoft 365 Business Standard tai Microsoft 365 Business Premium yrityksellesi.
+ms.openlocfilehash: 480129ad8251770a4153b7ecc0777bdf03759012
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41594931"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635660"
 ---
 # <a name="what-subscription-is-right-for-your-small-business"></a>Mikä tilaus sopii pienyrityksellesi?
 
-Microsoft tarjoaa useita suunnitelmia pienyrityksille. Suositellut tilaukset ovat joko Office 365 Business Premium tai Microsoft 365 Business, jossa on enintään 300 käyttäjää. Microsoft 365 Business tarjoaa enemmän suojausominaisuuksia kuin Office 365 Business Premium lisäkustannuksia varten.
+Microsoft tarjoaa useita suunnitelmia pienyrityksille. Suositellut tilaukset ovat joko Microsoft 365 Business Standard tai Microsoft 365 Business Premium, jossa on enintään 300 käyttäjää. Microsoft 365 Business Premium tarjoaa enemmän suojausominaisuuksia kuin Microsoft 365 Business Standard lisäkustannuksia varten.

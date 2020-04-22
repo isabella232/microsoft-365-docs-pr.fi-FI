@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Lue muutamalla helpolla toimenpiteellä, miten voit siirtää henkilökohtaiset työtiedostosi ja arkaluonteiset yritystiedostot OneDrive for Businessiin.
-ms.openlocfilehash: 7c36eb272983f86ee42361478ff63dfca252f0ce
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Lue, miten voit siirtää henkilökohtaiset työtiedostosi ja yrityksen arkaluonteiset tiedostot OneDrive for Businessiin muutamalla helpolla toimenpiteellä.
+ms.openlocfilehash: 4c41928ac51950a5a8c372ef0a170a76ff48ed2e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561676"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633135"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Tiedostojen siirtäminen OneDrive for Businessiin
 
@@ -43,14 +43,14 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
 
 Jos käyttäjä on tietokone, joka sisältää monia henkilökohtaisia tiedostoja, siirrä kyseiset tiedostot ensin OneDrive for Businessiin:
   
-1. Siirry osoitteeseen portal.office.com ja kirjaudu sitten sisään käyttäjän Microsoft 365 Business-tunnistetiedoilla.
-    
+1. Siirry portal.office.com ja kirjaudu sisään käyttäjän Microsoft 365 for Business -tunnistetiedoilla.
+
 2. Valitse sovellusten käynnistys ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) ja siirry OneDriveen. 
     
 3. Valitse valikkorivillä **Lataa palvelimeen**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) ja selaa niihin tiedostoihin, jotka haluat tallentaa. 
     
 Voit siirtää käyttäjäprofiilin ja tärkeät tiedostot myös kolmannen osapuolen työkalun, kuten ForensiT:n, avulla. Lataa myös tulostiedostot OneDrive for Businessiin.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Lisätietoja Microsoft 365 Businessin määrittämisestä ja käyttämisestä
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Lisätietoja Microsoft 365 for Businessin määrittämisestä ja käyttämisestä
 
-[Microsoft 365 Business -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 yrityksille koulutus videoita](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
