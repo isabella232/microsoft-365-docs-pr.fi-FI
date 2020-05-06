@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lue tietoja Microsoft 365 for Businessista, sen määrittämisestä ja siitä, miten voit valmistella käyttäjien laitteet ja tietokoneet varmistaaksesi, että Microsoft 365 for Business suojaa heitä.
-ms.openlocfilehash: 17b142fb704d1b0be088a649490e751effb19517
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633199"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048081"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 for Businessin käytön aloittaminen
 
@@ -44,7 +44,7 @@ Tämä video opastaa microsoft 365 for Businessin pikaesittelyssä.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Microsoft 365 for Business on tarkoitettu enintään 300 käyttöoikeuteen. Jos tarvitset lisää käyttöoikeuksia, katso lisätietoja [Microsoft 365 Enterprisen](https://go.microsoft.com/fwlink/p/?linkid=860986) ohjeista. 
+Microsoft 365 for Business on tarkoitettu enintään 300 käyttöoikeuteen. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista. 
   
 ## <a name="get-microsoft-365-for-business"></a>Hanki Microsoft 365 for Business
 
@@ -83,7 +83,7 @@ Kirjaudu [Microsoft 365 -hallintakeskukseen](https://portal.office.com/adminport
     
     - Synkronoi käyttäjät pilveen ohjatun hakemistosynkronoinnin avulla. Suorita tämä prosessi noudattamalla kohdan [Microsoft 365:n hakemistosynkronoinnin määrittäminen](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) ohjeita. Kun olet synkronoinut käyttäjät pilveen, sinun on [poistatava Office 365:n hakemistosynkronointi käytöstä](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
     
-    Sinun on myös annettava jokaiselle käyttäjälle, joka on lisätty tällä tavalla, microsoft 365 for Business -käyttöoikeuden. Voit tehdä tämän [ohjatussa asennustoiminnossa](set-up.md) tai [määrittää käyttöoikeuksia Microsoft 365 for Business -järjestelmän käyttäjille.](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC)
+    Sinun on myös annettava jokaiselle käyttäjälle, joka on lisätty tällä tavalla, microsoft 365 for Business -käyttöoikeuden. Voit tehdä tämän [ohjatussa asennustoiminnossa](set-up.md) tai [määrittää käyttöoikeuksia Microsoft 365 for Business -järjestelmän käyttäjille.](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)
     
 ### <a name="2-prepare-mobile-devices"></a>2: Mobiililaitteiden valmisteleminen
 
@@ -106,7 +106,7 @@ Jos säilytät paikallisen Active Directoryn, joka sisältää joitakin paikalli
     
 - Microsoft 365 for Business -järjestelmänvalvojana voit käyttää asiakastukitiimiämme: ** [Ota yhteyttä yritystuotteiden tukeen - Järjestelmänvalvoja Ohjeet](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
 
 [Microsoft 365 for Businessin dokumentaatio ja resurssit](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
