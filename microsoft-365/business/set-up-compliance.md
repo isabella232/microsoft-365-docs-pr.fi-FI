@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä yhteensopivuusominaisuudet, jotka estävät tietojen häviämisen ja auttavat pitämään asiakkaiden ja asiakkaidesi arkaluonteiset tiedot turvassa.
-ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 523d020587bcf16e46263b88ee7654b9c786e7a2
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635120"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048061"
 ---
 # <a name="set-up-compliance-features"></a>Yhteensopivuusominaisuuksien määrittäminen
 
@@ -54,7 +54,7 @@ Postilaatikon sijoitaminen oikeustoimiin liittyvään pitoon hallintakeskuksessa
     
 4. **Oikeustoimiin liittyvän pidon** valintaikkunassa voit määrittää oikeustoimiin liittyvän pidon keston **Oikeustoimiin liittyvän pidon kesto** -kentässä. Jätä kenttä tyhjäksi, jos haluat sijoittaa äärettömän pidon. Voit myös lisätä muistiinpanoja ja ohjata postilaatikon omistajan sivustoon, jota saatat joutua selittämään lisätietoja oikeustoimiin liittyvästä pidon pidon. \>**Tallenna.**
     
-**Säilyttäminen:** Voit ottaa käyttöön mukautetut säilytyskäytännöt, esimerkiksi säilyttää tietyn ajan tai poistaa sisältöä pysyvästi säilytysajan lopussa. Lisätietoja on [ohjeaiheessa Säilytyskäytäntöjen yleiskatsaus](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423).
+**Säilyttäminen:** Voit ottaa käyttöön mukautetut säilytyskäytännöt, esimerkiksi säilyttää tietyn ajan tai poistaa sisältöä pysyvästi säilytysajan lopussa. Lisätietoja on [ohjeaiheessa Säilytyskäytäntöjen yleiskatsaus](https://docs.microsoft.com/microsoft-365/compliance/retention-policies).
 
 ## <a name="set-up-sensitivity-labels"></a>Herkkyysotsikoiden määrittäminen
 
