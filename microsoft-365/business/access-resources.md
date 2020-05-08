@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lue, miten voit käyttää paikallisia resursseja, kuten liiketoimintasovelluksia, jaettuja tiedostoresursseja ja tulostimia Azure Active Directorysta, joka on liitetty Windows 10 -laitteeseen.
-ms.openlocfilehash: c1e04e5ca0d36c32a55a9819140356db5093e3a1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 980efbf09349cc0203ac50ae5e028c008d5694ca
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627450"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165897"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Paikallisten resurssien käyttäminen Azure AD:hen liitetystä laitteesta Microsoft 365 Business Premiumissa
 
@@ -41,7 +41,7 @@ Vaiheet on myös tiivistetty seuraaviin osiin.
 
 Noudata seuraavia ohjeita, jotta organisaation Azure AD -liitetyt laitteet voivat käyttää paikallisia resursseja.
   
-1. Jos haluat synkronoida käyttäjät, ryhmät ja yhteystiedot paikallisesta Active Directorysta Azure Active Directoryyn, suorita ohjattu hakemistosynkronointitoiminto ja Azure AD Connect kohdassa [Hakemistosynkronoinnin määrittäminen Office 365:tä varten](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)kuvatulla tavalla.
+1. Jos haluat synkronoida käyttäjät, ryhmät ja yhteystiedot paikallisesta Active Directorysta Azure Active Directoryyn, suorita ohjattu hakemistosynkronointitoiminto ja Azure AD Connect kohdassa [Hakemistosynkronoinnin määrittäminen Office 365:tä varten](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization)kuvatulla tavalla.
     
 2. Kun hakemistosynkronointi on valmis, varmista, että organisaation Windows 10 -laitteet on liitetty Azure AD:hen. Tämä vaihe tehdään erikseen jokaisessa Windows 10 -laitteessa. Lisätietoja on ohjeaiheessa [Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille.](set-up-windows-devices.md) 
     
