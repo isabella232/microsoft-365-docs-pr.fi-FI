@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lue tietoja Microsoft 365 Business Premiumin mukana tulevista suojausominaisuuksista, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
-ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f6aef84afc76217161dee6b68d626128e0cc15b2
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635140"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165753"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premiumin suojaus- ja yhteensopivuusominaisuudet
 
@@ -64,7 +64,7 @@ Voit hallita useita Microsoft 365 Business Premium -suojausominaisuuksia hallint
 
 Microsoft 365 Business Premiumin lisäominaisuudet ovat käytettävissä, jotta voit suojata yrityksesi verkkouhkilta ja suojata arkaluonteisia tietoja.
   
-- **[Office 365:n kehittynyt uhkien torjunta](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
+- **[Office 365:n kehittynyt uhkien torjunta](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
     Advanced Threat Protection (ATP) auttaa suojaamaan yritystäsi kehittyneiltä tietojenkalastelu- ja kiristysohjehyökkäyksiltä, jotka on suunniteltu vaarantamaan työntekijöiden tai asiakkaiden tiedot. Ominaisuuksia ovat:
     
@@ -97,7 +97,7 @@ Microsoft 365 Business Premiumin lisäominaisuudet ovat käytettävissä, jotta 
 
 Microsoft 365 Business Premium -tilauksesi sisältää ominaisuuksia, joiden avulla voit ylläpitää vaatimustenmukaisuus- ja sääntelystandardeja.
 
-- **[Yleiskatsaus tietojen menetyksen estämiskäytäntöihin](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)** (DLP). 
+- **[Yleiskatsaus tietojen menetyksen estämiskäytäntöihin](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)** (DLP). 
     
     Voit määrittää DLP:n tunnistamaan automaattisesti arkaluonteiset tiedot, kuten luottokorttien numerot, henkilötunnukset ja niin edelleen, jotta ne eivät jakaisi tahattomasti yrityksesi ulkopuolella.
     

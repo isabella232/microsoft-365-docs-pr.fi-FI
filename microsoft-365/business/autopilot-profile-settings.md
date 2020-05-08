@@ -29,12 +29,12 @@ search.appverid:
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
 description: AutoPilot-profiilien avulla voit hallita, miten Windows asennetaan käyttäjän laitteisiin. Profiilit sisältävät oletus- ja valinnaisia asetuksia, kuten Cortanan asennuksen ohituksen.
-ms.openlocfilehash: 5c2ec3f4c3e0ebc4ea545d11f819c897f414ad52
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0c706d12ba262856ff40ea3bee57c64234fd77f7
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627410"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165837"
 ---
 # <a name="about-autopilot-profile-settings"></a>Tietoja Autopilot-profiilien asetuksista
 
@@ -47,7 +47,7 @@ AutoPilot-profiilien avulla voit hallita, miten Windows on asennettu käyttäjä
 |**Asetus**|**Kuvaus**|
 |:-----|:-----|
 |Ohita Cortanan, OneDriven ja OEM-rekisteröinnin  <br/> |Asennus ohittaa kuluttajasovellusten, kuten Cortanan ja henkilökohtaisen OneDriven, asennuksen. Laitteen käyttäjä voi asentaa ne myöhemmin, kunhan käyttäjä on laitteen paikallinen järjestelmänvalvoja. Alkuperäinen valmistajan rekisteröinti ohitetaan, koska microsoft 365 Business Premium hallitsee laitetta.  <br/> |
-|Yrityskuvan mukainen kirjautumiskokemus  <br/> |Jos yritykselläsi on [Lisää yrityksen brändäys Microsoft 365 -kirjautumissivulle -sivu,](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a)laitteen käyttäjä saa tämän kokemuksen kirjautuessaan sisään.  <br/> |
+|Yrityskuvan mukainen kirjautumiskokemus  <br/> |Jos yritykselläsi on [Lisää yrityksen brändäys Microsoft 365 -kirjautumissivulle -sivu,](https://docs.microsoft.com/microsoft-365/admin/setup/customize-sign-in-page)laitteen käyttäjä saa tämän kokemuksen kirjautuessaan sisään.  <br/> |
 |Automaattinen MDM-rekisteröinti määritetyillä AAD-tileillä  <br/> |Käyttäjätietoja hallitsee Azure Active Directory, ja käyttäjät kirjautuvat Windowsiin ja Microsoft 365:een Microsoft 365 Business Premium -tunnistetiedoillaan.  <br/> |
    
  **Valinnaiset asetukset:**

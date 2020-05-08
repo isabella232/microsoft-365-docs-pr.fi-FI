@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lue tietoja Microsoft 365 for Businessista, sen määrittämisestä ja siitä, miten voit valmistella käyttäjien laitteet ja tietokoneet varmistaaksesi, että Microsoft 365 for Business suojaa heitä.
-ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: a470f015857117d3cbbc15255e8d815438222509
+ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "44048081"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44165785"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 for Businessin käytön aloittaminen
 
@@ -79,9 +79,9 @@ Kirjaudu [Microsoft 365 -hallintakeskukseen](https://portal.office.com/adminport
     
     Jos **siirryt pysyvästi paikallisesta Active Directorysta pilveen**, voit siirtyä Microsoft 365 -hallintakeskukseen ja lisätä käyttäjät manuaalisesti ohjatun asennustoiminnon avulla tai voit synkronoida käyttäjät kerran Azure AD Connectin kanssa. Tämän voi tehdä kahdella eri tavalla: 
     
-    - Jos käytössäsi on myös Exchange 2010-, Exchange 2013- tai Exchange 2016 -palvelin, voit [siirtää Exchange-postilaatikot nopeasti Office 365:een käyttämällä Minimal Hybridia.](https://support.office.com/article/fdecceed-0702-4af3-85be-f2a0013937ef) Minimaalisia hybridivaiheita ovat käyttäjien kertasynkronointi Azure AD:hen ja sähköpostin siirtäminen paikallisesta pilveen. Kun sähköpostin siirto on valmis, hakemistosynkronointi poistetaan automaattisesti käytöstä, kun käytät tätä menetelmää.
+    - Jos käytössäsi on myös Exchange 2010-, Exchange 2013- tai Exchange 2016 -palvelin, voit [siirtää Exchange-postilaatikot nopeasti Office 365:een käyttämällä Minimal Hybridia.](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate) Minimaalisia hybridivaiheita ovat käyttäjien kertasynkronointi Azure AD:hen ja sähköpostin siirtäminen paikallisesta pilveen. Kun sähköpostin siirto on valmis, hakemistosynkronointi poistetaan automaattisesti käytöstä, kun käytät tätä menetelmää.
     
-    - Synkronoi käyttäjät pilveen ohjatun hakemistosynkronoinnin avulla. Suorita tämä prosessi noudattamalla kohdan [Microsoft 365:n hakemistosynkronoinnin määrittäminen](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) ohjeita. Kun olet synkronoinut käyttäjät pilveen, sinun on [poistatava Office 365:n hakemistosynkronointi käytöstä](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
+    - Synkronoi käyttäjät pilveen ohjatun hakemistosynkronoinnin avulla. Suorita tämä prosessi noudattamalla kohdan [Microsoft 365:n hakemistosynkronoinnin määrittäminen](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) ohjeita. Kun olet synkronoinut käyttäjät pilveen, sinun on [poistatava Office 365:n hakemistosynkronointi käytöstä](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization).
     
     Sinun on myös annettava jokaiselle käyttäjälle, joka on lisätty tällä tavalla, microsoft 365 for Business -käyttöoikeuden. Voit tehdä tämän [ohjatussa asennustoiminnossa](set-up.md) tai [määrittää käyttöoikeuksia Microsoft 365 for Business -järjestelmän käyttäjille.](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)
     
@@ -104,7 +104,7 @@ Jos säilytät paikallisen Active Directoryn, joka sisältää joitakin paikalli
   
 - Ota yhteyttä kumppaniin.
     
-- Microsoft 365 for Business -järjestelmänvalvojana voit käyttää asiakastukitiimiämme: ** [Ota yhteyttä yritystuotteiden tukeen - Järjestelmänvalvoja Ohjeet](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
+- Microsoft 365 for Business -järjestelmänvalvojana voit käyttää asiakastukitiimiämme: ** [Ota yhteyttä yritystuotteiden tukeen - Järjestelmänvalvoja Ohjeet](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)**
     
 ## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
 
