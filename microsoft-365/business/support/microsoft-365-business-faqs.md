@@ -12,12 +12,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, pieni ja keskisuuri yritys, usein kysytyt kysymykset, vastaukset, Business
 ms.date: 06/08/2018
-ms.openlocfilehash: 2ace43e0a3bab466d102740434b2a126fb8e099d
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
-ms.translationtype: HT
+ms.openlocfilehash: 68e085313b0344f9e48ddfa9124c1d2d7297ae45
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
+ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900686"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065831"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premiumin usein kysyttyjä kysymyksiä
 
@@ -130,7 +130,7 @@ Asiakkailla, jotka haluavat käyttää Microsoft 365 Businessin kaikkia ominaisu
 ## <a name="deployment"></a>Käyttöönotto
 
 ### <a name="what-should-customers-consider-when-planning-a-microsoft-365-business-premium-deployment"></a>Mitä asiakkaiden tulee huomioida Microsoft 365 Business Premium -käyttöönottoa suunniteltaessa? 
-Suorin tie Microsoft 365 Business Premiumin onnistuneeseen käyttöönottoon on toimiminen yhdessä Microsoft-kumppanin kanssa. Kumppaneilla on vahva koulutustausta ja kokemusta useista asiakasskenaarioista. Heillä on parhaat keinot käyttöympäristösi ja tarpeidesi ymmärtämiseen. Asiakkaat, joilla on kokenutta IT-henkilökuntaa, saavat ohjeita Microsoft 365 Business Premiumin käyttöönottoon artikkelista <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business Premiumin käytön aloittaminen</a>. 
+Suorin tie Microsoft 365 Business Premiumin onnistuneeseen käyttöönottoon on toimiminen yhdessä Microsoft-kumppanin kanssa. Kumppaneilla on vahva koulutustausta ja kokemusta useista asiakasskenaarioista. Heillä on parhaat keinot käyttöympäristösi ja tarpeidesi ymmärtämiseen. Asiakkaat, joilla on kokenutta IT-henkilökuntaa, saavat ohjeita Microsoft 365 Business Premiumin käyttöönottoon artikkelista <a href="https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview" target="_blank">Microsoft 365 Business Premiumin käytön aloittaminen</a>. 
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Sisältääkö Microsoft 365 Business Premium täydet Intune-ominaisuudet? 
 Kyllä. Microsoft 365 Business Premium -tilaajilla on kaikkien Intune-ominaisuuksien käyttöoikeus iOS-, Android- ja MacOS-laitteissa sekä muussa käyttöympäristöjen välisessä laitehallinnassa. Ominaisuuksia, jotka eivät ole käytettävissä Microsoft 365 Business Premiumin yksinkertaistetussa hallintakonsolissa, kuten kolmannen osapuolen sovellushallintaa ja WiFi-profiilien määritystä tai VPN-varmenteita, voidaan hallita täydessä Intune-konsolissa. 
