@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Office 365 Advanced Threat Protection ja suojaa arkaluonteiset tiedot tietojenkalastelulta, haittaohjelmilta ja muilta uhilta.
-ms.openlocfilehash: 2dd75b20bf203b9b8f0cdefb2459c45d1d0ccec1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 748868b07ac8759a66bac3c6b4165509270426a6
+ms.sourcegitcommit: 6007dbe2cf758c683de399f94023122c678bcada
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627122"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "44224467"
 ---
 # <a name="increase-threat-protection"></a>Uhkien torjunnan lisääminen
 
@@ -34,7 +34,7 @@ Tämän artikkelin avulla voit parantaa Microsoft 365 -tilauksesi suojausta tiet
 
 Tarkista Office 365:n suojatut pisteet ennen aloittamista. Office 365:n suojatut pisteet analysoi organisaation suojauksen tavallisten aktiviteettien ja suojausasetusten perusteella ja määrittää pisteet. Aloita ottamalla huomioon nykyinen pisteet. Voit lisätä pisteitä suorittamalla tässä artikkelissa suositellut toimet. Tavoitteena ei ole saavuttaa maksimipistemäärää, vaan olla tietoinen mahdollisuuksista suojata ympäristöäsi, joka ei vaikuta käyttäjien tuottavuuteen kielteisesti. 
 
-Lisätietoja on [ohjeaiheessa MicrosoftSecure Score](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score).
+Lisätietoja on [ohjeaiheessa MicrosoftSecure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score).
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Parantaa suojausta haittaohjelmilta postitse
 
@@ -67,11 +67,11 @@ Edellisessä vaiheessa estämiesi tiedostojen lisäksi on hyvä luoda sääntö,
 
 Voit luoda postin siirtosäännön:
   
-1. Siirry <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>-järjestelmänhallintakeskukseen ja valitse **Hallintakeskukset** \> **Exchange**.
+1. Siirry -järjestelmänhallintakeskukseen <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> ja valitse **Hallintakeskukset** \> **Exchange**.
     
 2. Valitse **postin kulku** -luokassa **säännöt**.
     
-3. Valitse **+** ja valitse sitten **Luo uusi sääntö**.
+3. Valitse **+** ja valitse sitten Luo uusi **sääntö**.
     
 4. Valitse valintaikkunan alaosasta **Lisää asetuksia,** niin näet kaikki asetukset. 
     
@@ -103,7 +103,7 @@ Voit luoda postin siirtosäännön joko katsomalla [tämän lyhyen videon](https
     
 2. Valitse **postin kulku** -luokassa **säännöt**.
     
-3. Valitse **+** ja valitse sitten **Luo uusi sääntö**.
+3. Valitse **+** ja valitse sitten Luo uusi **sääntö**.
     
 4. Jos haluat nähdä kaikki asetukset, valitse valintaikkunan alaosasta **Lisää vaihtoehtoja.** 
     
@@ -130,7 +130,7 @@ Voit luoda ATP:n tietojenkalastelun vastaisen käytännön katsomalla [tämän l
   
 1. Siirry osoitteeseen [https://protection.office.com](https://protection.office.com). 
     
-2. Valitse Tietoturvan &amp; yhteensopivuuskeskuksen vasemmanpuoleisen siirtymisruudun **Uhkien hallinta**-kohdasta **Käytäntö**.
+2. Valitse &amp; Tietoturvan yhteensopivuuskeskuksen vasemmanpuoleisen siirtymisruudun **Uhkien hallinta**-kohdasta **Käytäntö**.
     
 3. Valitse **Policy** **Käytäntö-sivulla ATP anti-phishing**.
     
@@ -147,10 +147,10 @@ Voit luoda ATP:n tietojenkalastelun vastaisen käytännön katsomalla [tämän l
 |Kuvaus  <br/> |Varmista, että tärkeintä henkilökuntaa ja verkkotunnustamme ei tekeytyisi.  <br/> |
 |Käyttäjien lisääminen suojattavaksi  <br/> |Valitse **+ Lisää ehto, Vastaanottaja on**. Kirjoita käyttäjänimet tai kirjoita hakijan, kampanjan hallinnan ja muiden tärkeiden henkilöstön jäsenten sähköpostiosoite. Voit lisätä enintään 20 sisäistä ja ulkoista osoitetta, jotka haluat suojata tekeytymisiltä.  <br/> |
 |Suojaamattomien toimialueiden lisääminen  <br/> |Valitse **+ Lisää ehto, Vastaanottajan toimialue on**. Kirjoita Microsoft 365 -tilaukseesi liittyvä mukautettu toimialue, jos olet määrittänyt sellaisen. Voit kirjoittaa useita toimialueita.  <br/> |
-|Valitse toiminnot  <br/> |Jos tekeytynyt käyttäjä lähettää sähköpostiviestin: Valitse **Uudelleenohjausviesti toiseen sähköpostiosoitteeseen**ja kirjoita sitten suojauksen valvojan sähköpostiosoite. esimerkiksi *Alice<span><span>@contoso.com*. Jos sähköpostin lähettää tekeytynyt toimialue: Valitse **Karanteeniviesti**.  <br/> |
+|Valitse toiminnot  <br/> |Jos tekeytynyt käyttäjä lähettää sähköpostiviestin: Valitse **Uudelleenohjausviesti toiseen sähköpostiosoitteeseen**ja kirjoita sitten suojauksen valvojan sähköpostiosoite. esimerkiksi *Alice <span> <span> @contoso.com*. Jos sähköpostin lähettää tekeytynyt toimialue: Valitse **Karanteeniviesti**.  <br/> |
 |Postilaatikon älykkyys  <br/> |Oletusarvon mukaan postilaatikon älykkyys valitaan, kun luot uuden tietojenkalastelun vastaisen käytännön. Jätä tämä asetus **päälle** parhaan tuloksen saamiseksi.  <br/> |
 |Luotettujen lähettäjien ja toimialueiden lisääminen  <br/> |Tähän voit lisätä oman toimialueen tai muita luotettuja verkkotunnuksia.  <br/> |
-|Kohdistettu kohteeseen  <br/> |Valitse **Vastaanottajan toimialue on**. Valitse **Jokin näistä**-kohdasta **Valitse**. Valitse **+ Lisää**. Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso.<span> com <span>*, luettelosta ja valitse sitten **Lisää**. Valitse **Valmis**.  <br/> |
+|Kohdistettu kohteeseen  <br/> |Valitse **Vastaanottajan toimialue on**. Valitse **Jokin näistä**-kohdasta **Valitse**. Valitse **+ Lisää**. Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso. <span> <span> com*, luettelosta ja valitse sitten **Lisää**. Valitse **Valmis**.  <br/> |
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>Suojaa haitallisilta liitteiltä ja tiedostoilta ATP Safe -liitteiden avulla
 
@@ -158,9 +158,9 @@ Ihmiset lähettävät, vastaanottavat ja jakavat säännöllisesti esimerkiksi a
   
 Voit luoda ATP:n turvallisen liitekäytännön joko katsomalla [tämän lyhyen videon](https://support.office.com/article/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)tai suorittamalla seuraavat vaiheet:
   
-1. Siirry [https://protection.office.com](https://protection.office.com)kohtaan ja kirjaudu sisään järjestelmänvalvojan tililläsi. 
+1. Siirry [https://protection.office.com](https://protection.office.com) kohtaan ja kirjaudu sisään järjestelmänvalvojan tililläsi. 
     
-2. Valitse Tietoturvan &amp; yhteensopivuuskeskuksen vasemmanpuoleisen siirtymisruudun **Uhkien hallinta**-kohdasta **Käytäntö**.
+2. Valitse &amp; Tietoturvan yhteensopivuuskeskuksen vasemmanpuoleisen siirtymisruudun **Uhkien hallinta**-kohdasta **Käytäntö**.
     
 3. Valitse Käytäntö-sivulla **ATP-turvalliset liitteet**.
     
@@ -195,9 +195,9 @@ Suosittelemme, että teet seuraavat toimet:
     
 Voit määrittää ATP Safe Links -linkit katsomalla [tämän lyhyen harjoitusvideon](https://support.office.com/article/61492713-53c2-47da-a6e7-fa97479e97fa)tai suorittamalla seuraavat vaiheet:
   
-1. Siirry [https://protection.office.com](https://protection.office.com)kohtaan ja kirjaudu sisään järjestelmänvalvojan tililläsi. 
+1. Siirry [https://protection.office.com](https://protection.office.com) kohtaan ja kirjaudu sisään järjestelmänvalvojan tililläsi. 
     
-2. Valitse Tietoturvan &amp; yhteensopivuuskeskuksen vasemmanpuoleisen siirtymisruudun **Uhkien hallinta**-kohdasta **Käytäntö**.
+2. Valitse &amp; Tietoturvan yhteensopivuuskeskuksen vasemmanpuoleisen siirtymisruudun **Uhkien hallinta**-kohdasta **Käytäntö**.
     
 3. Valitse Käytäntö-sivulla **ATP Safe Links**.
     
@@ -211,7 +211,7 @@ Oletuskäytännön muokkaaminen:
     
 Voit luoda uuden käytännön, joka on kohdistettu kaikille toimialueen vastaanottajille:
   
-1. Luo uusi käytäntö Valitsemalla Turvalliset linkit -sivun **+** **Käytännöt, jotka koskevat koko organisaatiota**koskevat käytännöt -kohdassa. 
+1. Luo uusi käytäntö Valitsemalla Turvalliset linkit -sivun **Käytännöt, jotka koskevat koko organisaatiota**koskevat **+** käytännöt -kohdassa. 
     
 2. Ota käyttöön seuraavassa taulukossa luetellut asetukset.
     
