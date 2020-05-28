@@ -19,17 +19,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Asenna Office iPhoneen tai Android-puhelimeen, niin Microsoft 365 for Business suojaa työtiedostosi Office-sovelluksissa.
-ms.openlocfilehash: 1263a922ba41083511fec8030634ed6cfaf70f00
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e96e2edc0fc2bc25449d8f50239fa25179b345bd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632563"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402994"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Mobiililaitteiden määrittäminen Microsoft 365:lle yrityskäyttäjille
 
@@ -59,7 +60,7 @@ Kun asennus on valmis, avaa Outlook valitsemalla **Avaa**-painike ja valitse sit
   
 ![Screenshot of Outlook with Get Started button](../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-Kirjoita työsähköpostiosoitteesi **Lisää sähköpostitili -näyttöön** \> **Lisää tili**ja kirjoita sitten Microsoft 365 for Business -tunnistetietosi \> Kirjaudu **sisään**.
+Kirjoita työsähköpostiosoitteesi **Lisää sähköpostitili -näyttöön** \> **Lisää tili**ja kirjoita sitten Microsoft 365 for Business -tunnistetietosi Kirjaudu \> **sisään**.
   
 ![Sign in to your work account](../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
@@ -103,7 +104,7 @@ Avaa Outlook uudelleen ja anna ja vahvista PIN-koodi. Outlook-sovellus on nyt va
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
 
 [Microsoft 365 yrityksille koulutus videoita](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
 

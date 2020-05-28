@@ -17,17 +17,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Vahvista Microsoft 365 Business Premium -sovellusten suojausasetukset Windows 10 -laitteissa ja varmista, että käyttäjät eivät voi kopioida yrityksen tietoja henkilökohtaisiin tiedostoihin tai hallitsemattomiin sovelluksiin.
-ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 589d2fc25cc1425a775523595881660cc03e152e
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635740"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403386"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Sovellusten suojausasetusten vahvistaminen Windows 10 -tietokoneissa
 
@@ -37,11 +38,11 @@ Kun olet [määrittänyt sovellusten suojauskäytännöt](protection-settings-fo
   
  **Yhteysasetusten tarkistaminen**
   
-1. Kun olet kirjautunut sisään Microsoft 365 Business Premium -tunnistetiedoilla ja muodostanut yhteyden Azure AD:hen kohdassa [Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille](set-up-windows-devices.md)kuvatulla tavalla, siirry **Windows Settings** \> **Accounts** \> **Access -sovellukseen tai -kouluun**kuvatulla tavalla. Valitse **Yhteys muodostettu \<vuokraajan nimi\> Azure AD:hen** ja valitse sitten **Tiedot**.
+1. Kun olet kirjautunut sisään Microsoft 365 Business Premium -tunnistetiedoilla ja muodostanut yhteyden Azure AD:hen kohdassa [Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille](set-up-windows-devices.md)kuvatulla tavalla, siirry **Windows Settings** \> **Accounts** \> **Access -sovellukseen tai -kouluun**kuvatulla tavalla. Valitse **Yhdistetty \<tenant name\> Azure AD:hen**ja valitse sitten **Tiedot**.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. Hallinnoi vuokraajan nimi\> **-sivulla** \<näet **yhteystiedot,** jotka sisältävät **management-palvelimen osoitteen,** kuten seuraavassa kuvassa. 
+2. **Hallinnoija-sivulla** \<tenant name\> näet **yhteystiedot,** jotka sisältävät **management-palvelimen osoitteen,** kuten seuraavassa kuvassa. 
     
     ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   

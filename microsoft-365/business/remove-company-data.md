@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: Tutustu siihen, miten voit poistaa käyttäjien laitteissa tai Windows-tietokoneissa olevat yritystiedot Microsoft 365 for Businessin avulla.
-ms.openlocfilehash: 80997a48bb3924ab20f16a454120d24caf76e1e7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42784149fcf6b850e7d0483c17dd605e7ecb7cf0
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634844"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402782"
 ---
 # <a name="remove-company-data-from-devices"></a>Yritystietojen poistaminen laitteista
 
@@ -38,7 +39,7 @@ ms.locfileid: "43634844"
 
 Microsoft 365 for Businessin avulla voit poistaa käyttäjien [laitteiden](app-protection-settings-for-android-and-ios.md) tai Microsoft 365:n suojaamien [Windows-tietokoneiden](protection-settings-for-windows-10-devices.md) yritystiedot. **Jos poistat yritystiedot laitteesta, et voi palauttaa niitä myöhemmin**. 
   
-1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
     
 2. Valitse vasemmasta siirtymisruudusta **Laitteiden** \> **hallinta**.  
   

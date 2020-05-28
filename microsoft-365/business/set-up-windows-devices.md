@@ -20,17 +20,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: Lue, miten voit määrittää Windows-laitteet, joissa on Windows 10 Pro Microsoft 365 Business Premium -käyttäjille, jolloin keskitetyt hallinta- ja suojausohjausobjektit otetaan käyttöön.
-ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ecd9f5aa348d29d34e77061657619c015b09c41a
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635448"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402954"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille
 
@@ -104,7 +105,7 @@ Jos olet ladannut tiedostoja OneDrive for Businessiin, synkronoi ne takaisin. Jo
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>Laitteen Azure AD -yhteyden tarkistaminen
 
-Tarkista synkronointitilasi napsauttamalla **Asetukset**-valintaikkunan **Käytä työpaikan tai koulun resursseja** -sivulla **Yhdistä kohteeseen** _ \<organization name\> _ -alueella, jolloin painikkeet **Tiedot** ja **Katkaise yhteys** tulevat näkyviin. Tuo synkronointitilasi näkyviin valitsemalla **Tiedot**. 
+Voit tarkistaa synkronoinnin tilan valitsemalla **Asetukset-kohdassa** **Accessin työ- tai koulusivulla** **Yhdistetty** \<organization name\> _ _ -alueella, jos haluat tuoda painikkeet **näkyviin Tiedot** ja **Katkaise yhteys**. Tuo synkronointitilasi näkyviin valitsemalla **Tiedot**. 
   
 Valitse Synkronointitila-sivulla Synkronoi, jolloin saat uusimmat mobiililaitteiden hallintakäytännöt PC-tietokoneeseen.
   

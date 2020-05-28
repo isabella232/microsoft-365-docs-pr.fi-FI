@@ -20,17 +20,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Lue, miten Microsoft 365 Business Premiumin suojausominaisuudet yhdistetään Intune-asetuksiin. Tilauksen avulla voit muokata Intune-asetuksia.
-ms.openlocfilehash: 572d3364e465067536e8369b49404d3d1de1bb5b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ce75073f748f6005a843e31f7c38d06b38a3c706
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633239"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401574"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Microsoft 365 Business Premium -kartan suojausominaisuuksien käyttäminen Intune-asetuksiin
 
@@ -44,7 +45,7 @@ Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premi
  > 
  > Microsoft 365 Business Premium -tilauksessa on oikeus muokata kaikkia Intune-asetuksia. Katso [Johdanto Intunen alkuun.](https://docs.microsoft.com/intune/introduction-intune)
   
-Valitse haluamasi &mdash; käytännön nimi, esimerkiksi &mdash; Androidin sovelluskäytäntö ja valitse sitten **Käytäntöasetukset**.
+Valitse haluamasi käytännön &mdash; nimi, esimerkiksi Androidin sovelluskäytäntö &mdash; ja valitse sitten **Käytäntöasetukset**.
   
 Kohdasta **Suojaa työtiedostoja laitteiden katoamisen tai varastamisen varalta**
   
@@ -73,7 +74,7 @@ Kohdasta **Hallitse käyttäjien Office-tiedostojen käyttöä mobiililaitteissa
 
 Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Windows 10 -sovelluksen käytäntöasetukset yhdistetään Intune-asetuksiin.
   
-Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla ja siirtymällä [Azure-portaaliin](https://portal.azure.com). Valitse **Lisää palveluita**ja kirjoita **Suodatin -kohtaan**Intune . Valitse **Intune App Protection** \> **App Policy**.
+Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla ja siirtymällä [Azure-portaaliin](https://portal.azure.com). Valitse **Lisää palveluita**ja kirjoita **Suodatin -kohtaan**Intune . Valitse **Intune App Protection** App \> **Policy**.
   
  > [!IMPORTANT]
  >
@@ -95,7 +96,7 @@ Voit tutustua käytettävissä oleviin asetuksiin valitsemalla haluamasi käytä
 
 Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Windows 10 -laitteen konfigurointiasetukset yhdistetään Intune-asetuksiin.
   
-Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla ja siirtymällä [Azure-portaaliin,](https://portal.azure.com)valitsemalla **Lisää palveluita**ja kirjoittamalla **Intune-kohtaan Suodatin**-kohdan **Intune** \> **Device configuration** \> **Profiles**. Valitse sitten **Laitekäytäntö Windows 10:n** \> **ominaisuudet:** \> **asetukset**.
+Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla ja siirtymällä [Azure-portaaliin,](https://portal.azure.com)valitsemalla **Lisää palveluita**ja kirjoittamalla **Intune-kohtaan Suodatin**-kohdan **Intune** \> **Device configuration** \> **Profiles**. Valitse sitten **Laitekäytäntö Windows 10:n** \> **Properties** \> **ominaisuudet: asetukset**.
   
 |**Windows 10 -laitteen käytäntöasetus**|**Intune-asetus**|
 |:-----|:-----|
@@ -103,9 +104,9 @@ Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premi
 |Auta suojaamaan tietokoneita verkkopohjaisilta uhilta Microsoft Edgessä  <br/> |**Edge-selainasetukset**-kohdan **SmartScreen**-asetuksena on **Pakollinen**.  <br/> |
 |Sammuta laitteen näyttö, kun se on ollut käyttämättömänä tämän verran (minuuttia)  <br/> |Kun näyttö on ollut käyttämättömänä, enimmäisaika minuutteina, ennen kuin näyttö lukkiutuu (minuuttia)  <br/> |
 |Salli käyttäjille sovellusten lataaminen Microsoft Storesta  <br/> |Mukautettu URI-käytäntö  <br/> |
-|Salli käyttäjien käyttää Cortanaa  <br/> |**Yleinen** \> **Cortana** on asetettu **estämään** Intunessa, kun se **on käytössä** Microsoft 365 Business Premiumissa.  <br/> |
+|Salli käyttäjien käyttää Cortanaa  <br/> |**Yleistä** \> **Cortana** on asetettu **estämään** Intunessa, kun se **on käytössä** Microsoft 365 Business Premiumissa.  <br/> |
 |Salli käyttäjille Windows-vihjeiden ja -mainosten vastaanottaminen Microsoftilta  <br/> |**Windows spotlight**, kaikki estetty, jos tämä on asetettu **pois päältä** Microsoft 365 Business Premium.  <br/> |
-|Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> | Tämä asetus on **Microsoft Intune** \> **Service -päivityksissä - Windows 10 Update Rings**, valitse Windows **10 -laitteiden päivityskäytäntö**ja sitten Ominaisuudet **-** \> **asetukset**.  <br/>  Kun Microsoft 365 Business Premium -asetuksena on **Käytössä**, kaikki seuraavat asetukset määritetään:  <br/> **Palveluhaaraksi** on määritetty **CB** (CBB, kun se on poistettu käytöstä Microsoft 365 Business Premiumissa).  <br/> **Microsoft-tuotepäivitykset**-asetuksena on **Salli**.  <br/> **Windows-ohjaimet**-asetuksena on **Salli**.  <br/> **Automaattinen päivityskäytäntö** -asetuksena on **Automaattinen asennus huoltoaikana**, jossa:  <br/> **Tuntia käynnistyksestä** -asetuksena on **klo 6.00**.  <br/> **Aktiivisten tuntien päättyminen** -asetuksena on **klo 22.00**.  <br/> **Laadun päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Ominaisuuden päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Toimituksen optimoinnin lataustila** -asetuksena on **HTTP yhdistetty samaan NAT-vertaisverkkoon**.  <br/> |
+|Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> | Tämä asetus on **Microsoft Intune** \> **Service -päivityksissä - Windows 10 Update Rings**, valitse Windows **10 -laitteiden päivityskäytäntö**ja sitten **Ominaisuudet -** \> **asetukset**.  <br/>  Kun Microsoft 365 Business Premium -asetuksena on **Käytössä**, kaikki seuraavat asetukset määritetään:  <br/> **Palveluhaaraksi** on määritetty **CB** (CBB, kun se on poistettu käytöstä Microsoft 365 Business Premiumissa).  <br/> **Microsoft-tuotepäivitykset**-asetuksena on **Salli**.  <br/> **Windows-ohjaimet**-asetuksena on **Salli**.  <br/> **Automaattinen päivityskäytäntö** -asetuksena on **Automaattinen asennus huoltoaikana**, jossa:  <br/> **Tuntia käynnistyksestä** -asetuksena on **klo 6.00**.  <br/> **Aktiivisten tuntien päättyminen** -asetuksena on **klo 22.00**.  <br/> **Laadun päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Ominaisuuden päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Toimituksen optimoinnin lataustila** -asetuksena on **HTTP yhdistetty samaan NAT-vertaisverkkoon**.  <br/> |
 |||
    
 

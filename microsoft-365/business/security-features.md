@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Lue tietoja Microsoft 365 Business Premiumin mukana tulevista suojausominaisuuksista, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
-ms.openlocfilehash: f6aef84afc76217161dee6b68d626128e0cc15b2
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: 839b5481e27591e1762a0d8eb5623f279d6d22dd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165753"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44402710"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premiumin suojaus- ja yhteensopivuusominaisuudet
 
@@ -118,7 +119,7 @@ Voit hallita näitä ominaisuuksia &amp; Tietoturvan yhteensopivuus -keskuksessa
   
 Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkinoilla, joilla Microsoft 365 Business Premium myydään.
   
-### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Miten löydän tietoturvan &amp; yhteensopivuuskeskuksen?
+### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Miten löydän &amp; tietoturvan yhteensopivuuskeskuksen?
   
 1. [Kirjaudu Microsoft 365 Business Premiumiin](https://portal.microsoft.com/) järjestelmänvalvojan tunnistetiedoilla. 
     
@@ -126,4 +127,4 @@ Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkinoilla, joilla 
     
     ![Valitse Microsoft 365 -hallintakeskuksen vasemmasta siirtymisruudusta Hallintakeskukset.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Siirry Suojauksen yhteensopivuus -keskukseen valitsemalla &amp; Suojauksen ** &amp; yhteensopivuus.**
+3. Siirry Suojauksen yhteensopivuus -keskukseen valitsemalla **Suojauksen &amp; yhteensopivuus.** &amp;
