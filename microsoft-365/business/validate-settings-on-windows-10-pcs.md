@@ -20,17 +20,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Lue, miten voit varmistaa, että Microsoft 365 for Business -sovellusten suojausasetukset ovat voimaan käyttäjien Windows 10 -laitteissa.
-ms.openlocfilehash: b63681f040b0fe49127693e9cb7aac7ba6c41af6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 39aee3bc811cb0090d58f9a282de7a8162c097b3
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635700"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44403586"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Laitteiden suojausasetusten vahvistaminen Windows 10 -tietokoneissa
 
@@ -38,11 +39,11 @@ ms.locfileid: "43635700"
 
 Kun olet [määrittänyt laitekäytännöt](protection-settings-for-windows-10-pcs.md), saattaa kestää muutama tunti, ennen kuin käytäntöä sovelletaan käyttäjien laitteissa. Voit varmistaa, että käytännöt on otettu käyttöön, perehtymällä Windowsin asetusnäyttöihin käyttäjien laitteissa. Koska käyttäjät eivät voi muokata Windows Update- ja Windows Defender Antivirus -asetuksia Windows 10 -laitteissaan, monet asetukset näkyvät harmaina.
   
-1. Siirry **Settings** \> ** &amp; Update -tietoturvaan** \> **Windows UpdateRestart** \> **-asetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
+1. Siirry **Settings** \> **Update &amp; -tietoturvaan** \> **Windows** \> **UpdateRestart -asetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
     
     ![Kaikki Uudelleenkäynnistys-asetukset näkyvät harmaina.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
-2. Siirry **Settings** \> ** &amp; Update -tietoturvaan** \> **Windows Updaten** \> **lisäasetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
+2. Siirry **Settings** \> **Update &amp; -tietoturvaan** \> **Windows** \> **Updaten lisäasetukset** ja varmista, että kaikki asetukset näkyvät harmaina. 
     
     ![Windowsin lisäpäivitysten asetukset näkyvät harmaina.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
