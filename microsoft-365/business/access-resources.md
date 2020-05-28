@@ -15,17 +15,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lue, miten voit käyttää paikallisia resursseja, kuten liiketoimintasovelluksia, jaettuja tiedostoresursseja ja tulostimia Azure Active Directorysta, joka on liitetty Windows 10 -laitteeseen.
-ms.openlocfilehash: 980efbf09349cc0203ac50ae5e028c008d5694ca
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: da5fab99cf00a65986fb5e555cc19e432fe0fe8d
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165897"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401110"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Paikallisten resurssien käyttäminen Azure AD:hen liitetystä laitteesta Microsoft 365 Business Premiumissa
 

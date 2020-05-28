@@ -18,18 +18,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Lue, miten voit käyttää Windowsin automaattista ohjausta uusien Windows 10 -laitteiden määrittämiseen yrityksellesi, jotta ne ovat valmiita työntekijöiden käyttöön.
-ms.openlocfilehash: de14012ebf9e7cdd22e41505f316ab665773c670
-ms.sourcegitcommit: 46644f9778bc70ab6d62783e0a1e60ba2eccc27f
+ms.openlocfilehash: efcb5442b34d2d42275cedc30e71ac98c7ea1266
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "44165877"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401090"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
 
@@ -49,7 +50,7 @@ Laitteiden on täytettävä seuraavat vaatimukset:
 
 Jos et ole vielä luonut laiteryhmiä tai profiileja, paras tapa aloittaa on käyttää vaiheittaista opasta. Voit myös [lisätä laitteita](create-and-edit-autopilot-devices.md) ja määrittää niihin [profiileja](create-and-edit-autopilot-profiles.md) käyttämättä opasta. 
   
-1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
 2. Valitse vasemmasta siirtymisruudusta **Laitteet** \> **AutoPilot**.
 

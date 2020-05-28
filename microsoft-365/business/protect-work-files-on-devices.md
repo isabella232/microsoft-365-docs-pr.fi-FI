@@ -21,22 +21,23 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 52089919-9a5e-475f-a49a-f65369487861
-description: 'Tietoja oletus kokoonpanosta ja sovellusten hallinta käytäntöjen lisäämisestä yrityksen tietojen suojaamiseksi käyttäjien henkilökohtaisissa mobiililaitteissa. '
-ms.openlocfilehash: 838c218114938608c365cd632b5682df770f8308
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 'Lue tietoja oletusmäärityksistä ja sovellusten hallintakäytäntöjen lisäämisestä yrityksen tietojen suojaamiseksi käyttäjien henkilökohtaisissa mobiililaitteissa. '
+ms.openlocfilehash: 1d76b8fde6db4cf99d29fcfff000c20f0e7c18fe
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593572"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401278"
 ---
 # <a name="protect-work-files-on-devices"></a>Työtiedostojen suojaaminen laitteissa
 
-Nykypäivän maailmassa käyttäjät ovat sidottuja laitteisiin, ja henkilökohtaisena ja työelämänä törmätä, yrityksesi tiedot voivat päätyä työn tekijän henkilökohtaiseen laitteeseen. Tässä määritettävien asetusten avulla voit palauttaa hallinnan ja suojata työtiedostot ilman, että se vaikuttaa käyttäjän omiin asetuksiin tai tietoihin.
+Nykymaailmassa käyttäjät ovat sidoksissa laitteisiinsa, ja kun henkilökohtainen ja työ-elämä törmäävät, yrityksesi tiedot voivat päätyä työntekijän henkilökohtaiseen laitteeseen. Tässä määritettävien asetusten avulla voit palauttaa hallinnan ja suojata työtiedostot ilman, että se vaikuttaa käyttäjän omiin asetuksiin tai tietoihin.
   
 ## <a name="configuring-policies-during-setup"></a>Käytäntöjen määrittäminen asennuksen aikana
 

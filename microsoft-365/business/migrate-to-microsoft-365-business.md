@@ -18,17 +18,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Lue, miten microsoft 365 Business Standardja Microsoft 365 Business Premium ja miten voit päivittää Microsoft 365 Business Premiumiin.
-ms.openlocfilehash: 20a4162f74a9cb0e943195a589fd2d964f773f48
-ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
+ms.openlocfilehash: bdab8165623170926b17efa4cae9408b78a2f5f5
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44045976"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401378"
 ---
 # <a name="upgrade-to-microsoft-365-business-premium-from-microsoft-365-business-standard"></a>Microsoft 365 Business Premium -versioon päivittäminen Microsoft 365 Business Standardista
 
@@ -55,9 +56,9 @@ Microsoft [365 Business Premium Service Description](https://docs.microsoft.com/
 
 ## <a name="upgrade-to-microsoft-365-business-premium"></a>Päivitä Microsoft 365 Business Premiumiin
 
-1. Kirjaudu hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.
+1. Kirjaudu hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
-2. Siirry siirtymisruutuun ja valitse **Laskutus** \> **Tuotteet**. Etsi nykyinen tilauksesi ja valitse se, jos haluat tarkastella tietoja.
+2. Siirry siirtymisruutuun **Billing** ja valitse \> **Laskutus Tuotteet**. Etsi nykyinen tilauksesi ja valitse se, jos haluat tarkastella tietoja.
 
 3. Valitse seuraavalla sivulla **Päivitä**.
 
@@ -85,7 +86,7 @@ Uusien palvelusuunnitelmien määrittäminen kestää Microsoftia muutaman minuu
 
 Kun Microsoft 365 Business Premium -käyttöoikeudet on määritetty, aloita laitteiden ja tiedostojen suojaaminen noudattamalla ohjeita. Voit käyttää joitakin hallintakeskuksen siirtymisruudun uusia asetuksia.
   
-1. Valitse hallintakeskuksen siirtymisruudussa \> **Laitekäytännöt**. **Devices**
+1. Valitse hallintakeskuksen siirtymisruudussa **Devices** \> **Laitekäytännöt**.
 
 2. Valitse **Laitekäytännöt-sivulla** **Lisää**.
 

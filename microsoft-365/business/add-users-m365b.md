@@ -21,17 +21,18 @@ ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Lue ohjeet uusien käyttäjien lisäämiseen, laitteiden suojaamiseen ja roolien määrittämiseen Microsoft 365 Business Premiumissa.
-ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d2efe62ed1c48df5c10a765b8d3499934e6aebd
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627470"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44401070"
 ---
 # <a name="add-more-users"></a>Lisää käyttäjiä
 
@@ -45,7 +46,7 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
 
 Käyttäjän lisääminen:
 
-1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>. 
+1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
 2. Valitse vasemmasta siirtymisruudusta **Käyttäjät** \> **Aktiiviset käyttäjät**.
 3. Valitse **Aktiiviset käyttäjät** -sivulla **Lisää käyttäjä**.
 4. Kirjoita **tarvittavat** tiedot Uusi käyttäjä -paneeliin. 

@@ -20,18 +20,19 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Opi luomaan AutoPilot-profiili ja ottamaan se käyttöön laitteessa sekä muokkaamaan tai poistamaan profiilia tai poistamaan profiili laitteesta.
-ms.openlocfilehash: a6e02ab56faeb08718a9831657b55cff0356a4ec
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e58418813ed0b4d23a5fa7e1d23aae33d8850e7f
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627370"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400970"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Autopilot-profiilien luominen ja muokkaaminen
 
@@ -39,7 +40,7 @@ ms.locfileid: "43627370"
 
 Profiilia käytetään laitteeseen tai laiteryhmään
   
-1. Valitse Microsoft 365 -hallintakeskuksessa \> **Laitteet-automaattiohjaus**. **Devices**
+1. Valitse Microsoft 365 -hallintakeskuksessa **Devices** \> **Laitteet-automaattiohjaus**.
   
 2. Valitse **Automaattiohjaus-sivulla** **Profiilit-välilehti** \> **Luo profiili**.
     
@@ -53,7 +54,7 @@ Kun olet luonut profiilin, voit ottaa sen käyttöön laitteessa tai laiteryhmä
   
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja valitse **Laite-paneelin Avattavasta** **Määritetty profiili** \> -luettelosta **Tallenna**.
+2. Valitse laitteen nimen vieressä oleva valintaruutu ja valitse **Laite-paneelin Avattavasta** **Määritetty profiili** -luettelosta \> **Tallenna**.
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -65,7 +66,7 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja päivitä **Profiili-paneelissa** kaikki \> käytettävissä olevat asetukset **Tallenna**.
+2. Valitse laitteen nimen vieressä oleva valintaruutu ja **Profile** päivitä Profiili-paneelissa kaikki käytettävissä olevat asetukset \> **Tallenna**.
     
     Jos teet näin, ennen kuin käyttäjä yhdistää laitteen internetiin, profiilia käytetään asennuksessa.
     
@@ -81,5 +82,5 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja valitse **Laite-paneelin Avattavasta** **Määritetty** profiili \> **-luettelosta**Ei **mitään.**
+2. Valitse laitteen nimen vieressä oleva valintaruutu ja valitse **Laite-paneelin Avattavasta** **Määritetty profiili** -luettelosta **Ei mitään.** \> **Save**
     
