@@ -21,27 +21,28 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - seo-marvel-mar
+- AdminSurgePortfolio
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Lue, mitä voit odottaa, kun Business Cloud Suiten asennus on valmis ja oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön.
-ms.openlocfilehash: 375a46fd946b42dc391ff6e4dabe98a435074377
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d3aad182f7e233f239b35e35c032e8ca09c57769
+ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627210"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "44400918"
 ---
-# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="696f1-103">Microsoft 365 Business Premium -yhteyden muodostamisen helpottaminen</span><span class="sxs-lookup"><span data-stu-id="696f1-103">Help users connect to Microsoft 365 Business Premium</span></span>
+# <a name="help-users-connect-to-microsoft-365-business-premium"></a><span data-ttu-id="973d5-103">Microsoft 365 Business Premium -yhteyden muodostamisen helpottaminen</span><span class="sxs-lookup"><span data-stu-id="973d5-103">Help users connect to Microsoft 365 Business Premium</span></span>
 
-<span data-ttu-id="696f1-104">Kun asennus on valmis, oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön.</span><span class="sxs-lookup"><span data-stu-id="696f1-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="696f1-105">Käyttäjät lataavat Office-sovelluksia mobiililaitteissa.</span><span class="sxs-lookup"><span data-stu-id="696f1-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="696f1-106">Käytäntöjä sovelletaan, kun käyttäjä kirjautuu sisään työpaikan tai oppilaitoksen tilillä.</span><span class="sxs-lookup"><span data-stu-id="696f1-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="696f1-107">Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä.</span><span class="sxs-lookup"><span data-stu-id="696f1-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="696f1-108">Katso ja jaa seuraavat aiheet, joiden avulla käyttäjät voivat määrittää ja muodostaa yhteyden:</span><span class="sxs-lookup"><span data-stu-id="696f1-108">See and share the following topics to help users get set up and connected:</span></span>
+<span data-ttu-id="973d5-104">Kun asennus on valmis, oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön.</span><span class="sxs-lookup"><span data-stu-id="973d5-104">After you complete setup, your default device policies are in place and ready to apply.</span></span> <span data-ttu-id="973d5-105">Käyttäjät lataavat Office-sovelluksia mobiililaitteissa.</span><span class="sxs-lookup"><span data-stu-id="973d5-105">On mobile devices, users download Office apps.</span></span> <span data-ttu-id="973d5-106">Käytäntöjä sovelletaan, kun käyttäjä kirjautuu sisään työpaikan tai oppilaitoksen tilillä.</span><span class="sxs-lookup"><span data-stu-id="973d5-106">Policies are then applied when the user signs in with their work or school account.</span></span> <span data-ttu-id="973d5-107">Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä.</span><span class="sxs-lookup"><span data-stu-id="973d5-107">There's a bit more work to do before policies apply to Windows PCs, such as an in-place upgrade.</span></span> <span data-ttu-id="973d5-108">Katso ja jaa seuraavat aiheet, joiden avulla käyttäjät voivat määrittää ja muodostaa yhteyden:</span><span class="sxs-lookup"><span data-stu-id="973d5-108">See and share the following topics to help users get set up and connected:</span></span>
   
-[<span data-ttu-id="696f1-109">Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille</span><span class="sxs-lookup"><span data-stu-id="696f1-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
+[<span data-ttu-id="973d5-109">Windows-laitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille</span><span class="sxs-lookup"><span data-stu-id="973d5-109">Set up Windows devices for Microsoft 365 Business Premium users</span></span>](set-up-windows-devices.md)
   
-[<span data-ttu-id="696f1-110">Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla</span><span class="sxs-lookup"><span data-stu-id="696f1-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
+[<span data-ttu-id="973d5-110">Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla</span><span class="sxs-lookup"><span data-stu-id="973d5-110">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
   
-[<span data-ttu-id="696f1-111">Mobiililaitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille</span><span class="sxs-lookup"><span data-stu-id="696f1-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
+[<span data-ttu-id="973d5-111">Mobiililaitteiden määrittäminen Microsoft 365 Business Premium -käyttäjille</span><span class="sxs-lookup"><span data-stu-id="973d5-111">Set up mobile devices for Microsoft 365 Business Premium users</span></span>](set-up-mobile-devices.md)
   
 
