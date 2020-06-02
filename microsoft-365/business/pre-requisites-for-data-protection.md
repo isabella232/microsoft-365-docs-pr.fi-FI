@@ -1,5 +1,5 @@
 ---
-title: Laitteiden tietojen suojaamisen edellytykset Microsoft 365 for Business -ohjelman avulla
+title: Microsoft 365 for Business -laitteiden tietojen suojaamisen edellytykset
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,30 +21,32 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Lue tietoja vaatimuksista, jotka koskevat organisaation määrittämistä Microsoft 365 for Businessin kanssa ja työtietojen suojaamista käyttäjien laitteissa.
-ms.openlocfilehash: e170f7ca4fb8373c9070bcbfc1783138c20422c1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lue tietoja vaatimuksista, jotka koskevat organisaation määrittämistä Microsoft 365 for Businessin avulla ja työtietojen suojaamista käyttäjien laitteissa.
+ms.openlocfilehash: 1bfa2b2d2ceba68d39da9c65560e67a6602e6cfa
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401338"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470963"
 ---
-# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Laitteiden tietojen suojaamisen edellytykset Microsoft 365 for Business -ohjelman avulla
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Microsoft 365 for Business -laitteiden tietojen suojaamisen edellytykset
 
-Ensimmäinen vaihe organisaation määrittämisessä Microsoft 365 for Businessin kanssa on varmistaa, että pystyt täyttämään edellytykset.
+Tämä artikkeli koskee Microsoft 365 Business Premiumia.
+
+Ensimmäinen vaihe organisaation määrittämisessä Microsoft 365 for Businessin avulla on varmistaa, että pystyt täyttämään edellytykset.
   
-## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Vaatimukset organisaation määrittämiseksi Microsoft 365 for Businessin avulla
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Organisaation määrittämistä Microsoft 365 for Businessin kanssa koskevat vaatimukset
 
 - Windows-laitteissa on oltava Windows 7 Professional, Windows 8 Pro tai Windows 8.1 Pro.
     
     [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md) .
     
-    Jos käytössäsi on Windows 10 Home, sinun on **ostettava** Windows 10 Pro. Lisätietoja on [ohjeaiheessa Windows 10 Homen päivittäminen Windows 10 Proksi.](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) 
+    Jos käytössäsi on Windows 10 Home, sinun on **ostettava** Windows 10 Pro. Katso ohjeet [windows 10 Homen päivittämisestä Windows 10 Proksi.](https://support.office.com/article/0aee10c1-4d34-43ee-a325-579c6c2df90e?ui=en-US&rs=en-US&ad=US) 
     
-- Poista laitteet mobiililaitteiden hallintaratkaisuista (Mobile Iron, AirWatch ja niin edelleen). Rekisteröit kaikki organisaatiosi henkilöt Microsoft 365 for Business -mobiilihallintaan.
+- Poista laitteet mobiililaitteiden hallintaratkaisuista (Mobile Iron, AirWatch ja niin edelleen). Rekisteröit kaikki organisaatiosi henkilöt Microsoft 365 for business mobile -hallintaan.
     
 - Apple iOS 8.0 tai uudempi.
     
     Google Android 4.0 tai uudempi (mukaan lukien Samsung KNOX Standard 4.0 tai uudempi). Lisätietoja on kohdassa [Intune-tuetut laitteet](https://go.microsoft.com/fwlink/p/?linkid=852307).
     
-- Jos sinulla on aiemmin luotuja Office-sovelluksia käyttäjätietokoneissa, lue artikkeli [Office-asiakasohjelman asennuksen valmisteleminen,](prepare-for-office-client-deployment.md) jotta saat ohjeet, jotka sinun on ehkä tehtävä, ennen kuin voit määrittää Microsoft 365 for Businessin asentamaan Office 2016:n käyttäjätietokoneisiin. 
+- Jos käyttäjätietokoneissa on office-sovelluksia, lue [artikkeli Office-asiakasohjelman asennuksen valmisteleminen,](prepare-for-office-client-deployment.md) jotta ymmärrät, ennen kuin voit määrittää Microsoft 365 for Businessin asentamaan Office 2016:n käyttäjätietokoneisiin. 

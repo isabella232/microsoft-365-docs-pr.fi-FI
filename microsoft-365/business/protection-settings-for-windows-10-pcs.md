@@ -22,15 +22,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Lue tietoja Microsoft 365 for Businessin oletusasetuksista ja muista asetuksista, jotka suojaavat Windows 10 -laitteita.
-ms.openlocfilehash: 0403ea2c30221dd5693b7f3e9b4921ad175399a1
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lue tietoja Microsoft 365 for Businessin oletusasetuksista ja muista asetuksista Windows 10 -laitteiden suojaamiseksi.
+ms.openlocfilehash: af3f58ba13a1011e65be45337c63ff714bfdaf0c
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402802"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470843"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Laitteiden suojausasetusten määrittäminen Windows 10 -tietokoneita varten
+
+Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
 ## <a name="secure-windows-10-devices"></a>Suojatut Windows 10 -laitteet
 
@@ -40,7 +42,7 @@ Katso video Windows 10 -laitteiden suojaamisesta Microsoft 365 for Businessin av
   
 1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
     
-2. Valitse vasemmasta siirtymisruudusta **Devices** \> **Laitekäytännöt** \> **Lisää**.
+2. Valitse vasemmanpuoleista **Devices** siirtymisruudusta \> **Laitteet-käytännöt** \> **Lisää**.
   
 3. Kirjoita **Lisää käytäntö** -ruutuun yksilöivä nimi tälle käytännölle. 
     
@@ -60,7 +62,7 @@ Katso video Windows 10 -laitteiden suojaamisesta Microsoft 365 for Businessin av
 
 Kaikki asetukset ovat oletusarvoisesti **käytössä**. Seuraavat asetukset ovat käytettävissä.
   
-Lisätietoja on [ohjeaiheessa Microsoft 365 Premium -kartan suojausominaisuuksien käyttäminen Intune-asetuksiin](map-protection-features-to-intune-settings.md). 
+Lisätietoja on [ohjeaiheessa Microsoft 365 Premium -kartan suojausominaisuuksien määrittäminen Intune-asetuksiin](map-protection-features-to-intune-settings.md). 
   
 |||
 |:-----|:-----|
@@ -68,9 +70,9 @@ Lisätietoja on [ohjeaiheessa Microsoft 365 Premium -kartan suojausominaisuuksie
 |Auta suojaamaan tietokoneitasi viruksilta ja muilta uhkilta käyttämällä Windows Defenderin virustenorjuntaa  <br/> |Edellyttää, että Windows Defenderin virustentorjunta on otettu käyttöön suojaamaan tietokoneita Internetiin yhdistämisen vaaralta.  <br/> |
 |Auta suojaamaan tietokoneitasi verkkopohjaisilta uhkilta Microsoft Edgessä  <br/> |Ottaa käyttöön Edgen asetukset, jotka auttavat suojaamaan käyttäjiä vahingollisilta sivustoilta ja latauksilta.  <br/> |
 |Käytä sääntöjä, jotka pienentävät laitteiden hyökkäyspinta-alaa  <br/> |Kun tämä asetus käytössä, hyökkäyspinta-alan pienentäminen estää toiminnot ja sovellukset, joita haittaohjelmat yleensä käyttävät laitteiden saastuttamiseen. Tämä asetus on käytettävissä vain, jos Windows Defenderin virustentorjunta on käytössä. Lisätietoja on artikkelissa [Hyökkäyspinta-alan pienentäminen](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection).  <br/> |
-|Suojaa kansiot kiristysohjelmilta ja muilta uhilta  <br/> |Tämä asetus hyödyntää hallittua kansioiden käyttöä, jolla yrityksen data suojataan epäilyttävien tai haitallisten sovellusten, kuten kiristysohjelmien, tekemiltä muutoksilta. Tällaisia sovelluksia estetään tekemästä muutoksia suojattuihin kansioihin. Tämä asetus on käytettävissä vain, jos Windows Defenderin virustentorjunta on käytössä. Lisätietoja on [ohjeaiheessa Kansioiden suojaaminen valvotulla kansion kontrolloijalla.](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA)  <br/> |
-|Estä potentiaalisesti haitallisen sisällön käyttäminen Internetissä  <br/> |Tämän asetuksen avulla voit estää lähtevät käyttäjäyhteydet huonomaineisiin Internet-sijainteihin, jotka voivat isännöidä tietojenkalasteluhuijauksia, heikkouksia tai muuta haitallista sisältöä. Tämä asetus on käytettävissä vain, jos Windows Defenderin virustentorjunta -asetuksena on **Käytössä**. Lisätietoja on ohjeaiheessa [Verkon suojaaminen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus).  <br/> |
-|Suojaa tietokoneiden tiedostot ja kansiot luvattomalta käytöltä BitLockerilla  <br/> |BitLocker suojaa datan salaamalla tietokoneen kiintolevyt ja estämällä sen joutumisen vääriin käsiin, jos tietokone katoaa tai varastetaan. Lisätietoja on ohjeaiheessa [Bitlockerin usein kysytyt kysymykset](https://go.microsoft.com/fwlink/?linkid=871000).  <br/> |
+|Suojaa kansiot kiristysohjelmilta ja muilta uhilta  <br/> |Tämä asetus hyödyntää hallittua kansioiden käyttöä, jolla yrityksen data suojataan epäilyttävien tai haitallisten sovellusten, kuten kiristysohjelmien, tekemiltä muutoksilta. Tällaisia sovelluksia estetään tekemästä muutoksia suojattuihin kansioihin. Tämä asetus on käytettävissä vain, jos Windows Defenderin virustentorjunta on käytössä. Lisätietoja [on ohjeaiheessa Kansioiden suojaaminen valvotuilla kansiokäytöillä.](https://docs.microsoft.com/mem/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA)  <br/> |
+|Estä potentiaalisesti haitallisen sisällön käyttäminen Internetissä  <br/> |Tämän asetuksen avulla voit estää lähtevien käyttäjäyhteyksien käytön heikkomaineisiin Internet-sijainteihin, jotka voivat isännöidä tietojenkalasteluhuijauksia, hyväksikäyttöä tai muuta haitallista sisältöä. Tämä asetus on käytettävissä vain, jos Windows Defenderin virustentorjunta -asetuksena on **Käytössä.** Lisätietoja on ohjeaiheessa [Verkon suojaaminen](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus).  <br/> |
+|Suojaa tietokoneiden tiedostot ja kansiot luvattomalta käytöltä BitLockerilla  <br/> |BitLocker suojaa datan salaamalla tietokoneen kiintolevyt ja estämällä sen joutumisen vääriin käsiin, jos tietokone katoaa tai varastetaan. Lisätietoja on kohdassa [Bitlockerin usein kysytyt kysymykset](https://go.microsoft.com/fwlink/?linkid=871000).  <br/> |
 |Salli käyttäjille sovellusten lataaminen Microsoft Storesta  <br/> |Sallii käyttäjien ladata ja asentaa sovelluksia Microsoft Storesta. Sovellukset vaihtelevat peleistä tuottavuustyökaluihin, joten asetus on **käytössä**, mutta voit poistaa sen käytöstä lisäsuojausta varten.  <br/> |
 |Salli käyttäjien käyttää Cortanaa  <br/> |Cortana-toiminto voi olla hyvin hyödyllinen. Cortana voi ottaa asetukset käyttöön tai poistaa ne käytöstä puolestasi, antaa reittiohjeita ja varmistaa, että olet ajoissa tapaamisia varten, joten säilytämme tämän asetuksen oletusarvoisesti **käytössä.**  <br/> |
 |Salli käyttäjille Windows-vihjeiden ja -mainosten vastaanottaminen Microsoftilta  <br/> |Windows-vihjeet voivat olla käteviä ja auttaa perehdyttämään käyttäjiä, kun uusia ominaisuuksia julkaistaan.  <br/> |

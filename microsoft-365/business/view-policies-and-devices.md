@@ -22,22 +22,22 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: Tarkastele laitekäytäntöjä ja -toimintoja kirjautumalla Microsoft 365 for Businessiin yleisillä järjestelmänvalvojan tunnistetiedoilla.
-ms.openlocfilehash: f65365584d8b05f4df012d9f5727a74c33c06ae8
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Voit tarkastella laitekäytäntöjä ja -toimintoja kirjautumalla Microsoft 365 for Businessiin yleisillä järjestelmänvalvojan tunnistetiedoilla.
+ms.openlocfilehash: 49e878ae6d4e1a6c55dbd7bc65532f94295412a8
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403566"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470591"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>Käytäntöjen ja laitteiden tarkasteleminen ja hallinta
 
-[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
 ## <a name="view-and-edit-device-policies"></a>Laitekäytäntöjen tarkasteleminen ja muokkaaminen
 
 1.  Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
-2. Valitse vasemmasta siirtymisruudusta **Devices** \> **Laitekäytännöt**.
+2. Valitse vasemmanpuoleista **Devices** siirtymisruudusta \> **Laitekäytännöt**.
 
     Tällä sivulla voit luoda, muokata, muuttaa kohderyhmää tai poistaa käytännön.
 
@@ -45,9 +45,9 @@ ms.locfileid: "44403566"
   
 ## <a name="view-and-manage-devices"></a>Laitteiden tarkasteleminen ja hallinta
 
-1. Valitse vasemmasta siirtymisruudusta **Laitteiden** \> **hallinta**. 
+1. Valitse vasemmassa siirtymisruudussa **Laitteiden** \> **hallinta**. 
     
     Tällä sivulla voit valita yhden tai useita laitteita ja poistaa yrityksen tiedot. Voit lisäksi palauttaa tehdasasetukset niihin Windows 10 -laitteisiin, joihin olet määrittänyt laitesuojausasetukset.
   
-   ![Hallitse laitteita -sivu](../media/devicesmanage.png)
+   ![Laitteiden hallinta -sivu](../media/devicesmanage.png)
 

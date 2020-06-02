@@ -26,15 +26,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: Lue tietoja oletuslaitekäytännön asetusten määrittämisestä, jotka mikä tahansa Windows 10 -laite saa kirjautuessaan työpaikan tai oppilaitoksen tilille.
-ms.openlocfilehash: 7714a6e47de8a254d836ca2e158b92907b87f8c3
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lue tietoja oletuslaitekäytännön asetusten määrittämisestä, jonka mikä tahansa Windows 10 -laite saa kirjauduttuaan työpaikan tai oppilaitoksen tilille.
+ms.openlocfilehash: 03ae86861ddb0cb83cd39b7834f19e01bf3e99e2
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402730"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44470623"
 ---
 # <a name="secure-windows-10-devices"></a>Suojatut Windows 10 -laitteet
+
+Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
 Tässä määrittämäsi asetukset ovat osa Windows 10:n oletuslaitekäytäntöä. Kaikki käyttäjät, jotka yhdistävät Windows 10 -laitteen, mukaan lukien mobiililaitteet ja tietokoneet, kirjautumalla sisään työtilillään, saavat nämä asetukset automaattisesti. On suositeltavaa, että hyväksyt oletuskäytännön asennuksen aikana ja lisäät myöhemmin käytäntöjä, jotka kohdistuvat tiettyyn käyttäjäryhmään.
   

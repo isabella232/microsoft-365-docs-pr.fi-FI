@@ -26,15 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: Lue ohjeet uusien käyttäjien lisäämiseen, laitteiden suojaamiseen ja roolien määrittämiseen Microsoft 365 Business Premiumissa.
-ms.openlocfilehash: 9d2efe62ed1c48df5c10a765b8d3499934e6aebd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lue ohjeet uusien käyttäjien helppoon lisäämiseen, laitteiden suojaamiseen ja roolien määrittämiseen Microsoft 365 Business Premiumissa.
+ms.openlocfilehash: bb5c3ffe29448437b6c369fc770281aca3355ee7
+ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401070"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "44471215"
 ---
 # <a name="add-more-users"></a>Lisää käyttäjiä
+
+Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
 ## <a name="add-new-users"></a>Lisää uusia käyttäjiä
 
@@ -48,10 +50,10 @@ Käyttäjän lisääminen:
 
 1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> . 
 2. Valitse vasemmasta siirtymisruudusta **Käyttäjät** \> **Aktiiviset käyttäjät**.
-3. Valitse **Aktiiviset käyttäjät** -sivulla **Lisää käyttäjä**.
+3. Valitse **Aktiiviset käyttäjät -sivulla** **Lisää käyttäjä**.
 4. Kirjoita **tarvittavat** tiedot Uusi käyttäjä -paneeliin. 
   
-    Voit kirjoittaa lisätietoja **Yhteystiedot**-kohtaan , valita, miten salasana määritetään **Salasana-kohdassa,** ja määrittää rooleja **Roolit**-kohdassa.
+    Voit kirjoittaa lisätietoja **Yhteystiedot**-kohdassa, valita salasanan asetukset **-kohdassa Salasana-asetus** ja määrittää rooleja **Roolit**-kohdassa.
       
     ![Enter user information in the New user card](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
