@@ -1,7 +1,7 @@
 ---
 title: Toimialueen käyttöön liitettyjen Windows 10 -laitteiden hallinta Microsoft 365 for Businessissa
 f1.keywords:
-- NOCSH
+- CSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -23,14 +23,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Lue, miten voit ottaa Microsoft 365:n käyttöön paikallisten Active Directoryyn liitettyjen Windows 10 -laitteiden suojaamisessa muutamassa vaiheessa.
-ms.openlocfilehash: 7bfe5da8701a17712fa249eac99a22b8d5a1b2d1
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+ms.openlocfilehash: 857651081fb10856d28dd419333ebef655388407
+ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44471043"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "44564933"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Toimialueen käyttöön liitettyjen Windows 10 -laitteiden hallinta Microsoft 365 Business Premiumilla
 
@@ -42,48 +41,92 @@ Tässä videossa kuvataan, miten tämä määritetään yleisin skenaario, joka 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
 
-## <a name="1-prepare-for-directory-synchronization"></a>1. Hakemistosynkronoinnin valmisteleminen 
+## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Ennen kuin aloitat, varmista, että olet suorittanut seuraavat toimet:
+- Synkronoi käyttäjät Azure AD:hen Azure AD Connectin avulla.
+- Suorita Azure AD Connect Organizational Unit (OU) -synkronointi loppuun.
+- Varmista, että kaikilla synkronoiduilla toimialueen käyttäjillä on käyttöoikeudet Microsoft 365 Business Premiumiin.
 
-Ennen kuin synkronoit käyttäjät ja tietokoneet paikallisesta Active Directory -toimialueesta, tutustu [hakemistosynkronoinnin valmistelemiseen Office 365:ksi](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization). Erityisesti:
+Vaiheet ovat [ohjeaiheessa Toimialueen käyttäjien synkronoiminen Microsoftiin.](manage-domain-users.md)
 
-   - Varmista, että hakemistossasi ei ole kaksoiskappaleita seuraaville määritteille: **sähköposti,** **proxyAddresses**ja **userPrincipalName**. Näiden arvojen on oltava yksilöllisiä ja kaksoiskappaleet on poistettava.
-   
-   - Microsoft suosittelee, että määrität **userPrincipalName** (UPN) -määritteen kullekin paikalliselle käyttäjätilille vastaamaan lisensoitua Microsoft 365 -käyttäjää vastaavaa ensisijaista sähköpostiosoitetta. Esimerkki: *mary.shelley@contoso.com* *mary@contoso.local*
-   
-   - Jos Active Directory -toimialue päätyy ei-reititettävään liitteeseen , kuten *.local* tai *.lan*, internet-reititettävän liitteen , kuten *.com* tai *.org*, sijaan , säädä paikallisten käyttäjätilien UPN-liite ensin kohdassa [Ei-reititettävän toimialueen valmisteleminen hakemistosynkronointia varten](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization)kuvatulla tavalla . 
+## <a name="1-verify-mdm-authority-in-intune"></a>1. Tarkista MDM-viranomainen Intuessa
 
-## <a name="2-install-and-configure-azure-ad-connect"></a>2. Asenna ja määritä Azure AD Connect
+Siirry portal.azure.com ja sivun yläreunassa etsi Intune.
+Valitse Microsoft Intune -sivulla **Laiterekisteröinti** ja varmista **Yleiskatsaus-sivulla,** että **MDM-myöntäjä** on **Intune**.
 
-Jos haluat synkronoida paikallisen Active Directoryn käyttäjät, ryhmät ja yhteystiedot Azure Active Directoryyn, asenna Azure Active Directory Connect ja määritä hakemistosynkronointi. Lisätietoja on [ohjeaiheessa Hakemistosynkronoinnin määrittäminen Office 365:tä varten.](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization)
+- Jos **MDM-viranomainen** **ei ole Ei mitään**, määritä **MDM-myöntäjäksi** **Intune**.
+- Jos **MDM-myöntäjä** on **Microsoft Office 365**, siirry **Devices**  >  **Laitteet-rekisteröintilaitteisiin** ja lisää **Intune MDM** -myöntäjä lisää **MDM-myöntäjän lisääminen** -valintaikkunassa **(Lisää MDM-myöntäjä** -valintaikkuna on käytettävissä vain, jos **MDM-myöntäjäksi** on määritetty Microsoft Office 365).
 
-> [!NOTE]
-> Vaiheet ovat täsmälleen samat Microsoft 365 for Businessille. 
+## <a name="2-verify-azure-ad-is-enabled-for-joining-computers"></a>2. Varmista, että Azure AD on otettu käyttöön tietokoneiden liittämistä varten
 
-Kun määrität Azure AD Connectin asetukset, suosittelemme, että otat käyttöön **salasanan synkronoinnin,** **saumattoman kertakirjautuksen**ja **salasanan takaisinkirjoitusominaisuuden,** jota myös Microsoft 365 for Business tukee.
+- Siirry hallintakeskukseen kohdassa <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ja valitse **Hallintakeskukset-luettelosta Azure Active Directory** (valitse Näytä kaikki, jos Azure Active Directory ei ole näkyvissä). **Admin centers** 
+- Siirry **Azure Active Directory -hallintakeskuksessa** **Azure Active Directoryyn** , valitse **Laitteet** ja sitten **Laiteasetukset**.
+- Tarkista, että**käyttäjät voivat liittyä laitteisiin Azure AD:ssä** on käytössä 
+    1. Jos haluat ottaa kaikki käyttäjät käyttöön, määritä **Kaikki**.
+    2. Jos haluat ottaa tietyt käyttäjät käyttöön, ota tietty käyttäjäryhmä käyttöön määrittämällä **Valittu.**
+        - Lisää Azure AD:ssä synkronoidut toimialueen käyttäjät [suojausryhmään](../admin/create-groups/create-groups.md).
+        - Ota MDM-käyttäjäalue käyttöön kyseisessä suojausryhmässä valitsemalla **Valitse ryhmät.**
 
-> [!NOTE]
-> Azure AD Connectin valintaruudun lisäksi salasanan takaisinkirjoituksessa on joitakin lisävaiheita. Lisätietoja on [ohjeaiheessa Toimintaohjeet: salasanan takaisinkirjoituksen määrittäminen](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback). 
+## <a name="3-verify-azure-ad-is-enabled-for-mdm"></a>3. Varmista, että Azure AD on otettu käyttöön MDM:ssä
 
-## <a name="3-configure-hybrid-azure-ad-join"></a>3. Määritä Hybridi Azure AD -liittyminen
+- Siirry hallintakeskukseen ja <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> valitse **päätepisteen hallinta**t (valitse Näytä **kaikki,** jos **Päätepisteen hallinta** ei ole näkyvissä)
+- Siirry **Microsoft Endpoint Manager -hallintakeskuksessa** **kohtaan Laitteet**  >  **Windows**  >  **Windowsin rekisteröityminen**  >  **automaattisesti**.
+- Varmista, että MDM-käyttäjän vaikutusalue on käytössä.
 
-Ennen kuin otat Windows 10 -laitteiden käyttöön Hybrid Azure AD :n liittämisen, varmista, että täytät seuraavat edellytykset:
+    1. Jos haluat rekisteröidä kaikki tietokoneet, määritä **Kaikki** rekisteröimään automaattisesti kaikki käyttäjätietokoneet, jotka on liitetty Azure AD:hen ja uusiin tietokoneisiin, kun käyttäjät lisäävät työtilin Windowsiin.
+    2. Määritä **Joidenkin-asetukseksi,** jos haluat rekisteröidä tietyn käyttäjäryhmän tietokoneet.
+        -  Lisää Azure AD:ssä synkronoidut toimialueen käyttäjät [suojausryhmään](../admin/create-groups/create-groups.md).
+        -  Ota MDM-käyttäjäalue käyttöön kyseisessä suojausryhmässä valitsemalla **Valitse ryhmät.**
 
-   - Käytössäsi on Azure AD Connectin uusin versio.
+## <a name="4-set-up-service-connection-point-scp"></a>4. Palveluyhteyspisteen (SCP) määrittäminen
 
-   - Azure AD Connect on synkronoinut kaikki tietokoneobjektit laitteista, joihin haluat liittyä azure AD:n yhdistelmäksi. Jos tietokoneobjektit kuuluvat tiettyihin organisaatioyksiköihin, varmista, että nämä organisaatioyksiköt on määritetty synkronoitavaksi myös Azure AD -yhteyden yhteydessä.
+Näitä vaiheita yksinkertaistetaan [hybridi azure AD -liitoksen määrittämisestä.](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) Voit suorittaa azure AD Connectin ja Microsoft 365 Business Premiumin yleisen järjestelmänvalvojan ja Active Directory -järjestelmänvalvojan salasanat.
 
-Jos haluat rekisteröidä aiemmin luodut toimialueeseen liitetyt Windows 10 -laitteet Hybrid Azure AD:n liittämiseksi, noudata [opetusohjelman: Azure Active Directory -yhdistelmän liittämisen ohjeita hallituille toimialueille](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join). Tämä yhdistelmä mahdollistaa olemassa olevien paikallisten Active Directory -tiedostojen siirtymisen Windows 10 -tietokoneisiin ja tekee niistä pilvivalmiita.
-    
-## <a name="4-enable-automatic-enrollment-for-windows-10"></a>4. Ota automaattinen rekisteröinti käyttöön Windows 10:ssä
+1.  Käynnistä Azure AD Connect ja valitse sitten **Määritä**.
+2.  Valitse **Lisätehtävät-sivulla** **Määritä laiteasetukset**ja valitse sitten **Seuraava**.
+3.  Valitse **Yleiskatsaus-sivulla** **Seuraava**.
+4.  Kirjoita **Yhdistä Azure AD:hen** -sivulla Microsoft 365 Business Premiumin yleisen järjestelmänvalvojan tunnistetiedot.
+5.  Valitse **Laiteasetukset-sivulla** **Määritä Azure AD -yhdistelmäliitos**ja valitse sitten **Seuraava**.
+6.  Tee seuraavat vaiheet **SCP-sivulla** jokaiselle puuryhmälle, johon haluat Azure AD Connectin määrittävän SCP:n, ja valitse sitten **Seuraava**:
+    - Valitse metsän nimen vieressä oleva valintaruutu. Puuryhmän pitäisi olla AD-toimialuenimesi.
+    - Avaa **Todennuspalvelu-sarakkeessa** avattava luettelo ja valitse vastaava toimialuenimi (vain yksi vaihtoehto pitäisi olla).
+    - Anna toimialueen järjestelmänvalvojan tunnistetiedot valitsemalla **Lisää.**  
+7.  Valitse **Laitteen käyttöjärjestelmät -sivulla** vain Windows 10 tai uudempi toimialueeseen liitetyt laitteet.
+8.  Valitse **Valmis konfiguroimaan** -sivulla **Määritä**.
+9.  Valitse **Kokoonpano valmis** -sivulla **Lopeta**.
 
- Lisätietoja Windows 10 -laitteiden automaattisesta rekisteröimiseksi mobiililaitteiden hallintaan Intunen ohjeaiheessa [Windows 10 -laitteen rekisteröiminen automaattisesti ryhmäkäytännön avulla](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy). Voit määrittää ryhmäkäytännön paikalliselle tietokonetasolle tai joukkotoiminnoille käyttämällä ryhmäkäytäntöjen hallintakonsolia ja ADMX-malleja tämän ryhmäkäytäntöasetuksen luomiseen toimialueen ohjauskoneeseen.
 
-## <a name="5-configure-seamless-single-sign-on"></a>5. Määritä saumaton kertakirjautuminen
+## <a name="5-create-a-gpo-for-intune-enrollment--admx-method"></a>5. Luo GPO Intune Ilmoittautuminen - ADMX menetelmä
 
-  Saumaton sso kirjaa käyttäjät automaattisesti Microsoft 365 -pilviresursseihin, kun he käyttävät yritystietokoneita. Ota käyttöön toinen [Azure Active Directoryn saumattomassa kertakirjautumisessa kuvatuista ryhmäkäytäntövaihtoehdoista: pikakäynnistys](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso-quick-start#step-2-enable-the-feature). **Ryhmäkäytäntö-asetus** ei salli käyttäjien muuttaa asetuksiaan, kun taas **Ryhmäkäytäntöasetukset-asetus** määrittää arvot, mutta jättää heidät myös käyttäjän määritettäviksi.
+Käyttää. ADMX-mallitiedosto.
 
-## <a name="6-set-up-windows-hello-for-business"></a>6. Windows Hello for Businessin määrittäminen
+1.  Kirjaudu AD-palvelimeen, etsi ja avaa **Server Manager**  >  **Tools**  >  **-ryhmäkäytäntöjen hallinta**.
+2.  Valitse toimialuenimi **Toimialueet-kohdasta** ja valitse **Uusi**napsauttamalla hiiren kakkospainikkeella **Ryhmäkäytäntöobjektit** .
+3.  Anna uudelle gpo:lle nimi, esimerkiksi "*Cloud_Enrollment*" ja valitse sitten **OK**.
+4.  Napsauta uutta ryhmäkäytäntöobjektia hiiren kakkospainikkeella **ryhmäkäytäntöobjektien** alla ja valitse **Muokkaa**.
+5.  Siirry **ryhmäkäytäntöjen hallintaeditorissa** **kohtaan Tietokonemäärityskäytännöt**  >  **Policies**  >  **Hallintamallit**  >  **Windowsin osien**  >  **MDM**.
+6. Napsauta hiiren kakkospainikkeella **Ota automaattinen MDM-rekisteröinti käyttöön Azure AD -oletustunnistetietojen avulla** ja valitse sitten **Käytössä**  >  **OK**. Sulje editori-ikkuna.
 
- Windows Hello for Business korvaa salasanat vahvalla kaksivaiheisen todennuksen (2FA) kirjautumista paikalliseen tietokoneeseen kirjautumista varten. Yksi tekijä on epäsymmetrinen avainpari, ja toinen on PIN-koodi tai muu paikallinen ele, kuten sormenjälki tai kasvojen tunnistus, jos laitteesi tukee sitä. Suosittelemme, että vaihdat salasanat 2FA:lla ja Windows Hello for Businessilla mahdollisuuksien mukaan.
+> [!IMPORTANT]
+> Jos **käytäntöä Ota automaattinen MDM-rekisteröinti käyttöön Azure AD -oletustunnistetietojen avulla**ei ole näkyvissä , katso [uusimmat hallintamallit](#get-the-latest-administrative-templates).
 
-Jos haluat määrittää Windows Hello for Businessin yhdistelmäkäyttöisen [yhdistelmäavaimen luotettavuuden Windows Hello for Business -edellytykset](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-trust-prereqs). Noudata sitten kohdassa [Windows Hello for Business -näppäinluottamusasetusten määrittäminen annettuja](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-key-whfb-settings)ohjeita. 
+## <a name="6-deploy-the-group-policy"></a>6. Ryhmäkäytännön käyttöönotto
+
+1.  Valitse Palvelimen hallinnan **Toimialueet** > ryhmäkäytäntöobjektit -kohdassa ryhmäkäytäntöobjekti yllä olevasta vaiheesta 3, esimerkiksi "Cloud_Enrollment".
+2.  Valitse **gpo:n Laajuus-välilehti.**
+3.  Napsauta GPO:n Vaikutusalue-välilehden **Linkit**-kohdan toimialueen linkkiä hiiren kakkospainikkeella.
+4.  Ota gpo käyttöön valitsemalla **Pakotettu** ja sitten **OK** vahvistusnäytössä.
+
+## <a name="get-the-latest-administrative-templates"></a>Hanki uusimmat hallintamallit
+
+Jos käytäntö **Ota automaattinen MDM-rekisteröinti käyttöön Azure AD -oletustunnistetietojen avulla**ei ole näkyvissä , syy siihen, että ADMX:ää ei ole asennettu Windows 10:lle, versiolle 1803, versiolle 1809 tai versiolle 1903. Voit korjata ongelman seuraavasti (Huomautus: uusin MDM.admx on taaksepäin yhteensopiva):
+
+1.  Download: [Windows 10:n toukokuun 2019 päivitys (1903) hallintamallit (.admx).](https://www.microsoft.com/download/details.aspx?id=58495&WT.mc_id=rss_alldownloads_all)
+2.  Asenna paketti ensisijaiseen toimialueen ohjauskoneeseen (PDC).
+3.  Siirry kansion version mukaan: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 May 2019 Update (1903) v3**.
+4.  Nimeä **käytäntömääritykset** -kansio uudelleen edellä mainitussa **PolicyDefinitions-polun polussa.**
+5.  Kopioi **PolicyDefinitions-kansio** **kansioon C:\Windows\SYSVOL\domain\Policies**. 
+    -   Jos aiot käyttää koko toimialueen keskitettyä käytäntösäilöä, lisää siihen PolicyDefinitions-sisältö.
+6.  Käynnistä ensisijainen toimialueen ohjauskone uudelleen, jotta käytäntö on käytettävissä. Tämä menettely toimii kaikissa tulevissa versioissa samoin.
+
+Tässä vaiheessa sinun pitäisi pystyä näkemään käytäntö **Ota automaattinen MDM-rekisteröinti käyttöön käyttämällä Azure AD:n oletustunnistetietoja.**
+
