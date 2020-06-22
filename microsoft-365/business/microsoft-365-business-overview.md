@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Tietoa Microsoft 365 Business Premiumista, tilauspalvelusta, johon sisältyvät Officen tuottavuussovellukset ja edistynyt suojaus, jonka avulla yrityksesi voi suojautua kyberuhkia vastaan.
-ms.openlocfilehash: 61f4c34ade180717486ce889162947afe9be7ba6
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 6cff2fe62111e0d3ee99f406d0be83db0a119b09
+ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402250"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "44786170"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premiumin yleiskatsaus
 
@@ -46,7 +46,7 @@ Katsomalla tämän lyhyen videon saat yleiskatsauksen Microsoft 365 Business Pre
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
 Microsoft 365 Business Premium on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista.
 
@@ -111,11 +111,11 @@ Näet suojausominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Busine
 
 - Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 Business Premiumin, voit [ostaa sen täältä](https://www.microsoft.com/microsoft-365/business) ja seurata [rekisteröitymisohjeita](sign-up.md).
 
-- Voit myös siirtyä [Microsoft Storeen](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) joko ostaaksesi Microsoft 365 Business Premiumin tai saadaksesi apua sen asentamisessa.
+- Voit myös siirtyä [Microsoft Storeen](https://www.microsoft.com/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) joko ostaaksesi Microsoft 365 Business Premiumin tai saadaksesi apua sen asentamisessa.
 
     > [!NOTE]
     > Linkki koskee vain yhdysvaltalaisia kauppoja
 
 ## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
 
-[Microsoft 365 Business Premium -koulutusvideot](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business Premium -koulutusvideot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
