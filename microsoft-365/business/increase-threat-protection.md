@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Office 365 Advanced Threat Protection ja suojaa arkaluonteisia tietoja tietojen kalastelulta, haittaohjelmilta ja muilta uhilta.
-ms.openlocfilehash: d5510cdc082781fd9a1776e86b1bab1d8a2723d6
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+ms.openlocfilehash: 0e6cb7ed13a0851ef249e1f599d17e03c052414a
+ms.sourcegitcommit: 3951147f74510e2ead6c11ceab92854f0937426b
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44786202"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "45083598"
 ---
 # <a name="increase-threat-protection"></a>Lisää uhkien suojaa
 
@@ -137,7 +137,7 @@ Voit luoda ATP-tietojenkalastelun torjuntakäytännön katsomalla [tämän lyhye
     
 4. Valitse **Tietojenkalastelun torjunta -sivulla** **+ Luo**. Ohjattu toiminto käynnistää toiminnon, joka määrittää tietojenkalastelun torjuntakäytännön.
     
-5. Määritä käytännön nimi, kuvaus ja asetukset seuraavassa taulukossa suositellulla tavalla. Lisätietoja on [ohjeaiheessa Lisätietoja ATP:n tietojenkalastelun torjuntakäytännöistä](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies#learn-about-atp-anti-phishing-policy-options). 
+5. Määritä käytännön nimi, kuvaus ja asetukset seuraavassa taulukossa suositellulla tavalla. Lisätietoja on [ohjeaiheessa Lisätietoja ATP:n tietojenkalastelun torjuntakäytännöistä](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies). 
     
 6. Kun olet tarkistanut asetuksesi, valitse **Luo tämä käytäntö** tai **Tallenna**tarpeen mukaan.
     
