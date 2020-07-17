@@ -67,7 +67,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
     
 3. Viimeistele Windows 10 -laitteen määritys.
     
-   Once you're done, the user will be connected to your organization's Azure AD. See [Verify the device is connected to Azure AD](#verify-the-device-is-connected-to-azure-ad) to make sure. 
+   Kun olet valmis, käyttäjä yhdistetään organisaatiosi Azure AD:hen. Varmista tämä kohdan [Laitteen Azure AD -yhteyden tarkistaminen](#verify-the-device-is-connected-to-azure-ad) ohjeiden mukaan. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Laite, joka on jo määritetty ja jossa on Windows 10 Pro
 
@@ -97,7 +97,7 @@ Jos laite on uusi laite, jossa on Windows 10 Pro Creators -päivitys, tai laitte
   
 6. Varmista **Varmista, että tämä on organisaatiosi** -sivulla, että tiedot ovat oikein, ja valitse **Liity**.
   
-   On the **You're all set!** page, click **Done**.
+   Valitse **Olet valmis!** -sivulla **Valmis**.
   
    ![On the Make sure this is your organization screen, click Join](../media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   

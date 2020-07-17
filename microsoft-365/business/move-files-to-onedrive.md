@@ -50,7 +50,7 @@ Jos käyttäjä on tietokone, joka sisältää monia henkilökohtaisia tiedostoj
     
 3. Valitse valikkorivillä **Lataa palvelimeen**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png) ja selaa niihin tiedostoihin, jotka haluat tallentaa. 
     
-To transfer the user profile and important files, you can also use a third-party tool, such as ForensiT. You should upload the resulting files in OneDrive for Business also.
+Voit siirtää käyttäjäprofiilin ja tärkeät tiedostot myös kolmannen osapuolen työkalun, kuten ForensiT:n, avulla. Lataa myös tulostiedostot OneDrive for Businessiin.
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Lisätietoja Microsoft 365 for Businessin määrittämisestä ja käyttämisestä
 
