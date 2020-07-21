@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, pieni ja keskisuuri yritys, usein kysytyt kysymykset, vastaukset, Business
 ms.date: 06/08/2018
-ms.openlocfilehash: a2feb91ddcd2d95da28c3363d983b382cf2aa6dc
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 30437825a896acb470b23cb8f68ea36235ee80c8
+ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403446"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "45185972"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premiumin usein kysyttyjä kysymyksiä
 
@@ -137,9 +137,9 @@ Suorin tie Microsoft 365 Business Premiumin onnistuneeseen käyttöönottoon on 
 Kyllä. Microsoft 365 Business Premium -tilaajilla on kaikkien Intune-ominaisuuksien käyttöoikeus iOS-, Android- ja MacOS-laitteissa sekä muussa käyttöympäristöjen välisessä laitehallinnassa. Ominaisuuksia, jotka eivät ole käytettävissä Microsoft 365 Business Premiumin yksinkertaistetussa hallintakonsolissa, kuten kolmannen osapuolen sovellushallintaa ja WiFi-profiilien määritystä tai VPN-varmenteita, voidaan hallita täydessä Intune-konsolissa. 
   
 
-### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business"></a>Sisältyykö Azure Active Directory (Azure AD) Premium -palvelupaketti 1 Microsoft 365 Businessiin? 
+### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Onko Azure Active Directory (Azure AD) Premium P1 mukana Microsoft 365 Business Premium? 
 
-Aiemmin Microsoft 365 Business sisälsi joukon Azure AD Premium -palvelupaketti 1:n ominaisuuksia, kuten ehdolliset käyttöoikeudet, salasanan omatoimisen palauttamisen ja monimenetelmäisen todennuksen. Nyt Microsoft 365 Business -tilaajille otetaan käyttöön täysi Azure AD Premium -palvelupaketti 1 -käyttöoikeus. Käyttöoikeus myönnetään ensin uusille asiakkaille ja sitten nykyisile tilaajile. Saat lisätietoja artikkelista [Microsoft 365 Business -palvelukuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description) ja tästä [blogista](https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/azure-active-directory-premium-p1-is-coming-to-microsoft-365/ba-p/1275496).
+Kyllä, Azure AD Premium P1 sisältyy Microsoft Business Premiumiin.
  
  
 ### <a name="does-microsoft-365-business-premium-allow-customers-to-manage-macs"></a>Voivatko asiakkaat hallita Mac-laitteita Microsoft 365 Business Premiumin avulla? 
