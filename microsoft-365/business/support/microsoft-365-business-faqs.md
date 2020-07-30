@@ -12,13 +12,13 @@ ms.custom: AdminSurgePortfolio
 localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, pieni ja keskisuuri yritys, usein kysytyt kysymykset, vastaukset, Business
-ms.date: 06/08/2018
-ms.openlocfilehash: 30437825a896acb470b23cb8f68ea36235ee80c8
-ms.sourcegitcommit: 5f980a9eb5aca61cf3662ef0bc65dec215e21656
+ms.date: 07/21/2020
+ms.openlocfilehash: 520009d26d0133a2c53c6149fe4938bea9db5a32
+ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "45185972"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "46502995"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premiumin usein kysyttyjä kysymyksiä
 
@@ -33,13 +33,13 @@ Microsoft 365 on integroitu ratkaisu, joka yhdistää luokkansa parhaat tuottavu
 * Officen yrityssovellukset (Bookings, MileIQ<sup>[1](#footnote1)</sup>). 
  
 **Yritystason laitehallinta- ja suojausominaisuudet** 
-- Auttaa suojautumaan ulkopuolisilta uhilta, kuten tietojenkalastelulta ja edistyneiltä haittaohjelmilta, Office 365 Advanced Threat Protection -palvelupaketti 1:n ja Windows Defender Exploit Guardin avulla. 
+- Auttaa suojaamaan ulkoisilta uhilta, kuten tietojenkalastelulta ja kehittyneiltä haittaohjelmilta Office 365 Advanced Threat Protection Plan 1:n ja Microsoft Defender Exploit Guardin avulla. 
 -  Auttaa hallitsemaan sitä, miten luottamuksellisia tietoja käytetään ja siirretään, tietojen menetyksen estokäytäntöjen ja Azure Information Protection -palvelupaketti 1:n avulla. 
 -  Auttaa suojaamaan, säilyttämään ja varmuuskopioimaan tietoja Exchange Online Archivingin avulla.  
 -   Sovellusten suojaus Office-sovelluksiin ja muihin mobiilisovelluksiin Intune-sovellussuojauksen avulla. 
--  Windows 10 -tietokoneiden, MacOS-laitteiden ja mobiililaitteiden hallinta Intunen mobiililaitteiden hallinnan avulla. 
+-  Windows 10 -tietokoneiden, macOS:n ja mobiililaitteiden laitehallinta Intune-laitehallinnan avulla. 
 -  Käyttäjätietojen suojaus monimenetelmäisen todennuksen, salasanan omatoimisen palautuksen ja ehdollisten käyttöoikeuksien avulla.
--  Yhdenmukaiset suojausmääritykset eri laitteissa&mdash;suojaa yrityksen tiedot laitteiden välillä Windows Defenderin avulla. Se on aina käynnissä ja ajan tasalla. 
+-  Yhdenmukainen suojauskokoonpano laitteiden välillä &mdash; suojaa yrityksen tietoja eri laitteilla; Microsoft Defender Antivirus, joka on aina päällä ja ajan tasalla. 
  
  
 **Yksinkertaistettu laitteen käyttöönotto ja käyttäjän määritys** 
@@ -98,14 +98,14 @@ Monet työntekijät käyttävät mielellään omaa matkapuhelintaan tai tabletti
 Microsoft 365 Business Premium tarjoaa asiakkaille yksinkertaisen mutta tehokkaan ratkaisun, jonka avulla työntekijät voivat käyttää henkilökohtaisia laitteitaan työpaikalla mutta yritys voi estää laitteita käyttämästä, tallentamasta tai jakamasta yrityksen tietoja. Tarkemmin: 
 * **Office-mobiilisovellusten suojaus** auttaa suojaamaan Office-tietoja, mukaan lukien sähköpostin, kalenterin ja yhteystiedot sekä iOS- ja Android-mobiililaitteiden asiakirjat. Tämä toteutetaan käytännöillä, joiden avulla voidaan esimerkiksi poistaa yrityksen tiedot, kun palveluun ei ole muodostettu yhteyttä tietyn ajan kuluessa, edellyttää tietojen tallentamista vain OneDrive for Businessiin, vaatia PIN-koodia tai sormenjälkitunnistusta Office-sovellusten käyttämiseen ja estää yrityksen tietojen kopioiminen Office-sovelluksesta henkilökohtaisiin sovelluksiin. Microsoft 365 Business Premium -tilaajat voivat hallita myös muita mobiilisovelluksia Intunen avulla. 
   
-* **Windows 10 -tietokoneiden laitehallinta** auttaa yrityksiä määrittämään ja ottamaan käyttöön toimintoja, kuten Windows Defenderin haittaohjelmilta suojautumisen, automaattiset päivitykset ja näyttöjen sammuttamisen tietyn ajan kuluttua. Hallintakeskuksessa voi lisäksi poistaa yrityksen sovellukset ja tiedot kadonneista tai varastetuista Windows 10 -laitteista. 
+* **Windows 10 -tietokoneiden laitehallinnan** avulla yritykset voivat määrittää ja ottaa käyttöön ominaisuuksia, kuten Microsoft Defenderin virustorjuntaohjelman haittaohjelmien suojauksen, automaattiset päivitykset ja näytön sammuttamisen tietyn ajan kuluttua. Hallintakeskuksessa voi lisäksi poistaa yrityksen sovellukset ja tiedot kadonneista tai varastetuista Windows 10 -laitteista. 
 
-* **iOS-, Android- ja MacOS-laitehallinnan** ominaisuuksien avulla yritykset voivat hallita suojatusti monimuotoista ekosysteemiä, johon sisältyy iOS-, Android-, Windows- ja MacOS-laitteita. 
+* **Laitehallinta iOS:lle, Android & macOS:n** ominaisuuksille auttaa yrityksiä hallitsemaan turvallisesti monipuolista laiteekosysteemiä, joka sisältää iOS-, Android-, Windows- ja macOS-laitteet. 
 
 ### <a name="how-does-microsoft-365-business-premium-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Miten Microsoft 365 Business Premium auttaa suojaamaan organisaation tietokoneita haitallisilta hyökkäyksiltä? 
-Microsoft 365 Business Premiumilla hallitut tietokoneet suojataan Windows Defenderin avulla. Se on Windows 10:n suosituin viruksentorjuntaominaisuus, joka suojaa enemmän tietokoneita viruksilta sekä haitta- ja vakoiluohjelmilta kuin mikään muu ratkaisu.  Microsoft 365 Business Premiumin avulla organisaatiot voivat varmistua siitä, että Windows Defenderin suojaus on aina käytössä ja ajan tasalla kaikissa Windows 10 -laitteissa.  
+Microsoft 365 Business Premiumilla hallitut tietokoneet on suojattu Microsoft Defender Antivirus -toiminnolla, joka on Nro. Se on Windows 10:n suosituin viruksentorjuntaominaisuus, joka suojaa enemmän tietokoneita viruksilta sekä haitta- ja vakoiluohjelmilta kuin mikään muu ratkaisu. Microsoft 365 Business Premiumin avulla organisaatiot voivat varmistaa, että Microsoft Defenderin virustentorjunta on käynnissä ja aina ajan tasalla kaikissa Windows 10 -laitteissaan.  
  
-Windows 10 Business sisältää myös Windows Defender Exploit Guardin, joka on uusi joukko tunkeutumisen estämisen ominaisuuksia. Yksi sen ominaisuuksista, hallittu kansioiden käyttö, estää kiristysohjelmat lukitsemalla kansiot ja estämällä luvattomien sovellusten pääsyn käyttäjän tärkeisiin tiedostoihin. 
+Windows 10 Business sisältää myös Microsoft Defender Exploit Guardin, joka on uusi tunkeutumisen esto-ominaisuuksien joukko. Yksi sen ominaisuuksista, valvottu kansion käyttö, pysäyttää kiristysohjelmat lukitsemalla kansiot ja estämällä luvattomia sovelluksia käyttämästä käyttäjän tärkeitä tiedostoja. 
 
 ### <a name="whats-the-difference-between-microsoft-365-business-standard-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Mikä ero on Microsoft 365 Business Standardilla, Microsoft 365 Business Premiumilla ja Microsoft 365 Enterprisella? 
 Microsoftilla on useita tuottavuuden ja tietoturvan hallinnan vaihtoehtoja, joita pienet ja keskisuuret yritysasiakkaat saattavat harkita päivittäessään työpöytä- ja laiteinfrastruktuuriaan. Kukin vaihtoehto tuo mukanaan entistä tehokkaampia ominaisuuksia ja toimintoja. 
@@ -126,7 +126,7 @@ Microsoft 365 Business Premium on saatavilla kaikille kumppaneille ja asiakkaill
 Microsoft 365 Business Premium -kokeiluversio on saatavilla pilviratkaisujen toimittajille (CSP). Suorien asiakkaiden kokeiluversio tulee saataville myöhemmin. 
  
 ### <a name="what-should-customers-and-partners-know-before-running-microsoft-365-business-premium-within-their-organization"></a>Mitä asiakkaiden ja kumppanien pitäisi tietää ennen Microsoft 365 Business Premiumin käyttöönottoa organisaatiossaan? 
-Asiakkailla, jotka haluavat käyttää Microsoft 365 Businessin kaikkia ominaisuuksia, tulee olla Windows 7, 8.1 tai 10 Pro<sup>[2](#footnote2)</sup> käytössä olemassa olevissa työpöytäkoneissaan. Olemassa oleviin Windows 10 Pro -tietokoneisiin tulee suorittaa Creators-päivitys, jos sitä ei ole vielä tehty. 
+Asiakkaiden, jotka haluavat kokea Microsoft 365 Business Premiumin täydelliset ominaisuudet, on oltava Windows 7,8.1 tai 10 Pro<sup>[2](#footnote2)</sup> nykyisillä työpöydillä. Olemassa oleviin Windows 10 Pro -tietokoneisiin tulee suorittaa Creators-päivitys, jos sitä ei ole vielä tehty. 
 
 ## <a name="deployment"></a>Käyttöönotto
 
@@ -134,7 +134,7 @@ Asiakkailla, jotka haluavat käyttää Microsoft 365 Businessin kaikkia ominaisu
 Suorin tie Microsoft 365 Business Premiumin onnistuneeseen käyttöönottoon on toimiminen yhdessä Microsoft-kumppanin kanssa. Kumppaneilla on vahva koulutustausta ja kokemusta useista asiakasskenaarioista. Heillä on parhaat keinot käyttöympäristösi ja tarpeidesi ymmärtämiseen. Asiakkaat, joilla on kokenutta IT-henkilökuntaa, saavat ohjeita Microsoft 365 Business Premiumin käyttöönottoon artikkelista <a href="https://docs.microsoft.com/microsoft-365/business/microsoft-365-business-overview" target="_blank">Microsoft 365 Business Premiumin käytön aloittaminen</a>. 
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Sisältääkö Microsoft 365 Business Premium täydet Intune-ominaisuudet? 
-Kyllä. Microsoft 365 Business Premium -tilaajilla on kaikkien Intune-ominaisuuksien käyttöoikeus iOS-, Android- ja MacOS-laitteissa sekä muussa käyttöympäristöjen välisessä laitehallinnassa. Ominaisuuksia, jotka eivät ole käytettävissä Microsoft 365 Business Premiumin yksinkertaistetussa hallintakonsolissa, kuten kolmannen osapuolen sovellushallintaa ja WiFi-profiilien määritystä tai VPN-varmenteita, voidaan hallita täydessä Intune-konsolissa. 
+Kyllä, Microsoft 365 Business Premium -tilaajilla on käyttöoikeus käyttämään iOS:n, Androidin, macOS:n ja muiden käyttöympäristöjen välisten laitteiden hallinnan intune-ominaisuuksia. Microsoft 365 Business Premiumin yksinkertaistetun hallintakonsolin ominaisuuksia, kuten kolmannen osapuolen sovellusten hallintaa, Wi-Fi-profiilien määrityksiä ja VPN-sertifikaatteja, voidaan hallita täydessä Intune-konsolissa. 
   
 
 ### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Onko Azure Active Directory (Azure AD) Premium P1 mukana Microsoft 365 Business Premium? 
@@ -143,7 +143,7 @@ Kyllä, Azure AD Premium P1 sisältyy Microsoft Business Premiumiin.
  
  
 ### <a name="does-microsoft-365-business-premium-allow-customers-to-manage-macs"></a>Voivatko asiakkaat hallita Mac-laitteita Microsoft 365 Business Premiumin avulla? 
-Intunen avulla voi hallita turvallisesti iOS-, Android-, Windows- ja MacOS-laitteita. 
+Intune auttaa hallitsemaan iOS-, Android-, Windows- ja macOS-laitteita turvallisesti. 
  
 ### <a name="what-is-windows-autopilot"></a>Mikä on Windows Autopilot? 
 Windows Autopilot on palvelu, jonka avulla uusien Windows 10 -tietokoneiden käyttöönotto on helppoa ja nopeaa. Prosessi voidaan suorittaa, kun käyttäjä kirjautuu ensimmäisen kerran Microsoft 365 Business Premiumiin &mdash; eikä IT-henkilön tarvitse edes koskea laitteeseen &mdash; hyödyntämällä Microsoft 365 Business Premiumin keskitettyjä hallintatoimintoja. Windows AutoPilotia voi käyttää myös olemassa oleviin tietokoneisiin, joissa on Windows 10 Professional Creators -päivitys (tai uudempi versio) ja jotka on palautettu tehdasasetuksille. Saat lisätietoja Windows AutoPilotista <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">tästä heinäkuun 2017 blogijulkaisusta</a>.
@@ -151,13 +151,13 @@ Windows Autopilot on palvelu, jonka avulla uusien Windows 10 -tietokoneiden käy
 ## <a name="compatibility"></a>Yhteensopivuus
 
 ### <a name="can-i-add-office-365-add-ons-to-microsoft-365-business-premium"></a>Voinko lisätä Office 365 -apuohjelmia Microsoft 365 Business Premiumiin? 
-Kaikki lisäosat, jotka voi lisätä Microsoft 365 Business Standardiin, voi lisätä Microsoft 365 Business Premiumiin. Tämä tarkoittaa, että voit ostaa Office 365 Cloud App Securityn, Advanced Compliancen, Threat Intelligencen, MyAnalyticsin, PowerBI Pron ja Audio Conferencingin. 
+Kaikki lisäosat, jotka voi lisätä Microsoft 365 Business Standardiin, voi lisätä Microsoft 365 Business Premiumiin. Tämä tarkoittaa, että voit ostaa Office 365 Cloud App Securityn, Advanced Compliancein, Threat Intelligencen, MyAnalyticsin, Power BI Pron ja äänineuvottelun. 
  
 ### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business-premium"></a>Voinko lisätä Microsoft 365 Business Premiumiin puhelinjärjestelmän ja puhelupaketteja? 
 Et. Puhelinjärjestelmä ja puhelupaketit on varattu asiakkaille, joilla on lisätarpeita. Näitä ominaisuuksia tarvitsevien asiakkaiden kannattaa tutustua Microsoft 365 Enterprise -tarjontaan. 
  
-### <a name="can-microsoft-365-business-premium-customers-use-windows-defender-advanced-threat-protection"></a>Voivatko Microsoft 365 Business Premium -asiakkaat käyttää Windows Defender Advanced Threat Protectionia? 
-Eivät. Asiakkaat, jotka haluavat käyttää Windows Defender Advanced Threat Protectionia, tarvitsevat joko Windows 10 Enterprise E5:n tai Microsoft 365 Enterprise E5:n. 
+### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Voivatko Microsoft 365 Business Premium -asiakkaat käyttää Microsoft Defender Advanced Threat Protectionia? 
+Kyllä, Microsoft Defender Advanced Threat Protection on saatavana Microsoft 365 Business Premium -asiakkaiden lisäosana.
 
 ## <a name="partner-opportunity"></a>Kumppanuusmahdollisuus
 
