@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lue, miten voit ottaa Microsoft 365:n käyttöön paikallisten Active Directoryyn liitettyjen Windows 10 -laitteiden suojaamisessa muutamassa vaiheessa.
-ms.openlocfilehash: 857651081fb10856d28dd419333ebef655388407
-ms.sourcegitcommit: e6e704cbd9a50fc7db1e6a0cf5d3f8c6cbb94363
+ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
+ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "44564933"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "46533781"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Toimialueen käyttöön liitettyjen Windows 10 -laitteiden hallinta Microsoft 365 Business Premiumilla
 
@@ -77,44 +77,32 @@ Valitse Microsoft Intune -sivulla **Laiterekisteröinti** ja varmista **Yleiskat
         -  Lisää Azure AD:ssä synkronoidut toimialueen käyttäjät [suojausryhmään](../admin/create-groups/create-groups.md).
         -  Ota MDM-käyttäjäalue käyttöön kyseisessä suojausryhmässä valitsemalla **Valitse ryhmät.**
 
-## <a name="4-set-up-service-connection-point-scp"></a>4. Palveluyhteyspisteen (SCP) määrittäminen
+## <a name="4-create-the-required-resources"></a>4. Tarvittavien resurssien luominen 
 
-Näitä vaiheita yksinkertaistetaan [hybridi azure AD -liitoksen määrittämisestä.](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) Voit suorittaa azure AD Connectin ja Microsoft 365 Business Premiumin yleisen järjestelmänvalvojan ja Active Directory -järjestelmänvalvojan salasanat.
+Tarvittavien tehtävien suorittamista [Azure AD -yhdistelmän määrittämiseksi](https://docs.microsoft.com/azure/active-directory/devices/hybrid-azuread-join-managed-domains#configure-hybrid-azure-ad-join) on yksinkertaistettu [SecMgmt](https://www.powershellgallery.com/packages/SecMgmt) [PowerShell-moduulissa olevan Initialize-SecMgmtHybirdDeviceEnrollment-cmdlet-otoksen](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) avulla. Kun käynnistät tämän cmdlet-liitännän, se luo ja määrittää tarvittavan palveluyhteyspisteen ja ryhmäkäytännön.
 
-1.  Käynnistä Azure AD Connect ja valitse sitten **Määritä**.
-2.  Valitse **Lisätehtävät-sivulla** **Määritä laiteasetukset**ja valitse sitten **Seuraava**.
-3.  Valitse **Yleiskatsaus-sivulla** **Seuraava**.
-4.  Kirjoita **Yhdistä Azure AD:hen** -sivulla Microsoft 365 Business Premiumin yleisen järjestelmänvalvojan tunnistetiedot.
-5.  Valitse **Laiteasetukset-sivulla** **Määritä Azure AD -yhdistelmäliitos**ja valitse sitten **Seuraava**.
-6.  Tee seuraavat vaiheet **SCP-sivulla** jokaiselle puuryhmälle, johon haluat Azure AD Connectin määrittävän SCP:n, ja valitse sitten **Seuraava**:
-    - Valitse metsän nimen vieressä oleva valintaruutu. Puuryhmän pitäisi olla AD-toimialuenimesi.
-    - Avaa **Todennuspalvelu-sarakkeessa** avattava luettelo ja valitse vastaava toimialuenimi (vain yksi vaihtoehto pitäisi olla).
-    - Anna toimialueen järjestelmänvalvojan tunnistetiedot valitsemalla **Lisää.**  
-7.  Valitse **Laitteen käyttöjärjestelmät -sivulla** vain Windows 10 tai uudempi toimialueeseen liitetyt laitteet.
-8.  Valitse **Valmis konfiguroimaan** -sivulla **Määritä**.
-9.  Valitse **Kokoonpano valmis** -sivulla **Lopeta**.
+Voit asentaa tämän moduulin vetoamalla PowerShellin esiintymään seuraaviin nätin:
 
-
-## <a name="5-create-a-gpo-for-intune-enrollment--admx-method"></a>5. Luo GPO Intune Ilmoittautuminen - ADMX menetelmä
-
-Käyttää. ADMX-mallitiedosto.
-
-1.  Kirjaudu AD-palvelimeen, etsi ja avaa **Server Manager**  >  **Tools**  >  **-ryhmäkäytäntöjen hallinta**.
-2.  Valitse toimialuenimi **Toimialueet-kohdasta** ja valitse **Uusi**napsauttamalla hiiren kakkospainikkeella **Ryhmäkäytäntöobjektit** .
-3.  Anna uudelle gpo:lle nimi, esimerkiksi "*Cloud_Enrollment*" ja valitse sitten **OK**.
-4.  Napsauta uutta ryhmäkäytäntöobjektia hiiren kakkospainikkeella **ryhmäkäytäntöobjektien** alla ja valitse **Muokkaa**.
-5.  Siirry **ryhmäkäytäntöjen hallintaeditorissa** **kohtaan Tietokonemäärityskäytännöt**  >  **Policies**  >  **Hallintamallit**  >  **Windowsin osien**  >  **MDM**.
-6. Napsauta hiiren kakkospainikkeella **Ota automaattinen MDM-rekisteröinti käyttöön Azure AD -oletustunnistetietojen avulla** ja valitse sitten **Käytössä**  >  **OK**. Sulje editori-ikkuna.
+```powershell
+Install-Module SecMgmt
+```
 
 > [!IMPORTANT]
-> Jos **käytäntöä Ota automaattinen MDM-rekisteröinti käyttöön Azure AD -oletustunnistetietojen avulla**ei ole näkyvissä , katso [uusimmat hallintamallit](#get-the-latest-administrative-templates).
+> On suositeltavaa asentaa tämä moduuli Windows Serveriin, jossa on Azure AD Connect.
 
-## <a name="6-deploy-the-group-policy"></a>6. Ryhmäkäytännön käyttöönotto
+Voit luoda tarvittavan palveluyhteyspisteen ja ryhmäkäytännön käynnistämalla [Initialize-SecMgmtHybirdDeviceEnrollment-cmdlet-liitännän.](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) Tarvitset Microsoft 365 Business Premiumin yleiset järjestelmänvalvojan tunnistetiedot tätä tehtävää suoritettaessa. Kun olet valmis luomaan resurssit, käynnistä seuraavat toimet:
 
-1.  Valitse Palvelimen hallinnan **Toimialueet** > ryhmäkäytäntöobjektit -kohdassa ryhmäkäytäntöobjekti yllä olevasta vaiheesta 3, esimerkiksi "Cloud_Enrollment".
-2.  Valitse **gpo:n Laajuus-välilehti.**
-3.  Napsauta GPO:n Vaikutusalue-välilehden **Linkit**-kohdan toimialueen linkkiä hiiren kakkospainikkeella.
-4.  Ota gpo käyttöön valitsemalla **Pakotettu** ja sitten **OK** vahvistusnäytössä.
+```powershell
+PS C:\> Connect-SecMgmtAccount
+PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
+```
+
+Ensimmäinen komento muodostaa yhteyden Microsoftin pilveen, ja kun sinua kehotetaan, määritä Microsoft 365 Business Premiumin yleiset järjestelmänvalvojan tunnistetiedot.
+
+## <a name="5-link-the-group-policy"></a>5. Linkitä ryhmäkäytäntö
+
+1. Napsauta ryhmäkäytäntöjen hallintakonsolissa (GPMC) hiiren kakkospainikkeella sijaintia, johon haluat linkittää käytännön, ja valitse pikavalikosta *Linkitä aiemmin luotu ryhmäkäytäntöobjekti...*
+2. Valitse yllä olevassa vaiheessa luotu käytäntö ja valitse sitten **OK**.
 
 ## <a name="get-the-latest-administrative-templates"></a>Hanki uusimmat hallintamallit
 
@@ -129,4 +117,3 @@ Jos käytäntö **Ota automaattinen MDM-rekisteröinti käyttöön Azure AD -ole
 6.  Käynnistä ensisijainen toimialueen ohjauskone uudelleen, jotta käytäntö on käytettävissä. Tämä menettely toimii kaikissa tulevissa versioissa samoin.
 
 Tässä vaiheessa sinun pitäisi pystyä näkemään käytäntö **Ota automaattinen MDM-rekisteröinti käyttöön käyttämällä Azure AD:n oletustunnistetietoja.**
-
