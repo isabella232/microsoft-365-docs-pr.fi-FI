@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Lue, miten voit ottaa Microsoft 365:n käyttöön paikallisten Active Directoryyn liitettyjen Windows 10 -laitteiden suojaamisessa muutamassa vaiheessa.
-ms.openlocfilehash: 2eaf5aa76cae1680b93af008af615ae872e4fb20
-ms.sourcegitcommit: fab425ea4580d1924fb421e6db233d135f5b7d19
+ms.openlocfilehash: 6275c6c4be9cd9631ab095f8b0e1b39683022bb2
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "46533781"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560839"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Toimialueen käyttöön liitettyjen Windows 10 -laitteiden hallinta Microsoft 365 Business Premiumilla
 
@@ -50,8 +50,7 @@ Vaiheet ovat [ohjeaiheessa Toimialueen käyttäjien synkronoiminen Microsoftiin.
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. Tarkista MDM-viranomainen Intuessa
 
-Siirry portal.azure.com ja sivun yläreunassa etsi Intune.
-Valitse Microsoft Intune -sivulla **Laiterekisteröinti** ja varmista **Yleiskatsaus-sivulla,** että **MDM-myöntäjä** on **Intune**.
+Siirry [Endpoint Manageriin](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) ja valitse Microsoft Intune -sivulla **Laiterekisteröinti**ja varmista **sitten Yleiskatsaus-sivulla,** että **MDM-viranomainen** on **Intune**.
 
 - Jos **MDM-viranomainen** **ei ole Ei mitään**, määritä **MDM-myöntäjäksi** **Intune**.
 - Jos **MDM-myöntäjä** on **Microsoft Office 365**, siirry **Devices**  >  **Laitteet-rekisteröintilaitteisiin** ja lisää **Intune MDM** -myöntäjä lisää **MDM-myöntäjän lisääminen** -valintaikkunassa **(Lisää MDM-myöntäjä** -valintaikkuna on käytettävissä vain, jos **MDM-myöntäjäksi** on määritetty Microsoft Office 365).

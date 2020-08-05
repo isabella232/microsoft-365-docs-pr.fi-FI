@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, pieni ja keskisuuri yritys, usein kysytyt kysymykset, vastaukset, Business
 ms.date: 07/21/2020
-ms.openlocfilehash: 520009d26d0133a2c53c6149fe4938bea9db5a32
-ms.sourcegitcommit: 1b83b6bcacb997324bc4be355deba6daf319591d
+ms.openlocfilehash: 614da177df9250045ca3cc18c0b071e0aa43b7ec
+ms.sourcegitcommit: d988faa292c2661ffea43c7161aef92b2b4b99bc
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "46502995"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "46560795"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premiumin usein kysyttyjä kysymyksiä
 
@@ -154,7 +154,7 @@ Windows Autopilot on palvelu, jonka avulla uusien Windows 10 -tietokoneiden käy
 Kaikki lisäosat, jotka voi lisätä Microsoft 365 Business Standardiin, voi lisätä Microsoft 365 Business Premiumiin. Tämä tarkoittaa, että voit ostaa Office 365 Cloud App Securityn, Advanced Compliancein, Threat Intelligencen, MyAnalyticsin, Power BI Pron ja äänineuvottelun. 
  
 ### <a name="can-i-add-phone-system-and-calling-plans-to-microsoft-365-business-premium"></a>Voinko lisätä Microsoft 365 Business Premiumiin puhelinjärjestelmän ja puhelupaketteja? 
-Et. Puhelinjärjestelmä ja puhelupaketit on varattu asiakkaille, joilla on lisätarpeita. Näitä ominaisuuksia tarvitsevien asiakkaiden kannattaa tutustua Microsoft 365 Enterprise -tarjontaan. 
+Kyllä, voit ostaa Business Voice -tilauksen. [Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) on puhelinratkaisu, joka on suunniteltu jopa 300 käyttäjän pienille ja keskisuurille yrityksille, jotka niputtaa puhelinjärjestelmän, äänineuvottelut, kotimaan puhelusuunnitelman ja paljon muuta. Puhelinjärjestelmän ominaisuuksia, joita saat muun muassa vastaaja, soittajan tunnus, soittopuisto, soitonsiirto, automaattiset puhelunvälittäjät ja puhelujonot. <br> Lisätietoja siitä, onko Business Voice saatavilla maassasi tai alueellasi, on ohjeaiheessa [Business Voicen maa- ja aluesaatavuus](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability). Lisätietoja on kohdassa [Business Voicen hinnoittelu](https://go.microsoft.com/fwlink/?linkid=2127221).
  
 ### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Voivatko Microsoft 365 Business Premium -asiakkaat käyttää Microsoft Defender Advanced Threat Protectionia? 
 Kyllä, Microsoft Defender Advanced Threat Protection on saatavana Microsoft 365 Business Premium -asiakkaiden lisäosana.
