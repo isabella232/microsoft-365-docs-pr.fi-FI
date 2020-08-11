@@ -1,5 +1,5 @@
 ---
-title: Auta käyttäjiä asentamaan Office Windows 10 -laitteisiin
+title: Auta käyttäjiä asentamaan Office Windows 10-laitteisiin
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -26,19 +26,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Auta käyttäjiä asentamaan Office-sovellukset Windows 10 -laitteisiin ja asentamaan Office helposti Windows 10 -tietokoneisiin Microsoft 365 -hallintakeskuksesta.
-ms.openlocfilehash: 9c670ba6727d47276291b1d1ba35b6431a293200
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Auta käyttäjiä asentamaan Office-sovelluksia Windows 10-laitteisiin ja asentamaan Office Windows 10-tieto koneisiin helposti Microsoft 365-hallinta keskuksesta.
+ms.openlocfilehash: 680c1c4e43a037c6afd109220090f387b207f8b1
+ms.sourcegitcommit: d39694d7b2c98350b0d568dfd03fa0ef44ed4c1d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "45081840"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "46601979"
 ---
-# <a name="help-your-users-install-office-on-windows-10-devices"></a>Auta käyttäjiä asentamaan Office Windows 10 -laitteisiin
+# <a name="help-your-users-install-office-on-windows-10-devices"></a>Auta käyttäjiä asentamaan Office Windows 10-laitteisiin
 
 [![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Voit asentaa Officen nopeasti ja helposti Windows 10 -tietokoneisiin Microsoft 365 -hallintakeskuksesta.
+Voit asentaa Officen nopeasti ja helposti Windows 10-tieto koneisiin Microsoft 365-hallinta keskuksesta.
   
 Jotta ymmärrät, miten se toimii aiemmin asennettujen Office-sovellusten kanssa, lue [Office-asiakasohjelman asennuksen valmisteleminen](prepare-for-office-client-deployment.md) ennen aloittamista.
 
@@ -50,19 +50,18 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
 
 ## <a name="manage-office-deployments"></a>Officen käyttöönoton hallinta
 
-1. Siirry hallintakeskukseen kohdassa <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> -kohtaan ja kirjaudu sisään yleisillä järjestelmänvalvojan tunnistetiedoilla. 
+1. Siirry hallinta keskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ja Kirjaudu sisään yleisen järjestelmänvalvojan tunniste tiedoilla. 
 
-2. Siirry vasemman siirtymisruudun **Asetukset-kohtaan** ja siirry **Asetukset-sivulla** **kohtaan Sovellukset ja päivitykset**.
+2. Siirry **Asetukset** -kohtaan vasemmassa siirtymis ruudussa ja siirry **Asetukset** -sivulla kohtaan **sovellukset ja päivitykset**.
     > [!NOTE]
-    > Et ehkä näe tätä korttia, jos kaikki käyttäjät ovat asentaneet Office-sovelluksia.
+    > Tämä kortti ei ehkä näy, jos kaikki käyttäjät ovat asentaneet Office-sovellukset.
   
-3. Valitse **Ohje-kohdassa, että käyttäjät asentavat Office-sovelluskorttinsa,** valitse **Näytä**ja sitten **Aloita**.
+3. Valitse **Ohje käyttäjät asentavat Office-sovellukset** -korttinsa, valitsemalla **Näytä**ja **Aloita.**
     
-4. Valitse **Sähköpostin käyttäjille office-paneelin latauslinkki** ja valitse sitten **Lähetä valitut käyttäjät sähköpostitse**.
+4. Valitse sähkö postin **käyttäjät-linkin avulla Lataa Office** -paneeli-kohdassa käyttäjät, joille haluat lähettää sähkö postia, ja **Lähetä sitten sähkö postia valituille käyttäjille**.
 
-    
-      :::image type="content" source="../media/sendemailtousers.png" alt-text="Valitse käyttäjät, joiden avulla voit lähettää sähköpostia Officen latauslinkin avulla.":::
+   ![Valitse käyttäjät, jos haluat lähettää sähkö postia Office Download-linkillä.](../media/sendemailtousers.png)
 
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Lisätietoja Microsoft 365 Business Premiumin määrittämisestä ja käyttämisestä
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Lisä tietoja Microsoft 365 Business Premiumin määrittämisestä ja käyttämisestä
 
-[Microsoft 365 yritysten koulutus videoita](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for Business-koulutus videot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
