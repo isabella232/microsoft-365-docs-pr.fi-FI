@@ -1,5 +1,5 @@
 ---
-title: Suojatut Windows 10 -tietokoneet
+title: Windows 10-tieto koneiden suojaaminen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,33 +22,32 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Lue, miten voit suojata Windows 10 -tietokoneet Microsoft 365 Business Premiumin määrittämisen jälkeen.
-ms.openlocfilehash: f18447db445bf051a44b99053d41e10f3ed34fc3
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Opi turvaamaan Windows 10-tieto koneet sen jälkeen, kun olet määrittänyt Microsoft 365 Business Premiumin.
+ms.openlocfilehash: a70fcd330fe6ef330fac08512aded4d8913313d5
+ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "45081811"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "46778380"
 ---
-# <a name="secure-windows-10-computers"></a><span data-ttu-id="b89f1-103">Suojatut Windows 10 -tietokoneet</span><span class="sxs-lookup"><span data-stu-id="b89f1-103">Secure Windows 10 computers</span></span>
+# <a name="secure-windows-10-computers"></a><span data-ttu-id="c3403-103">Windows 10-tieto koneiden suojaaminen</span><span class="sxs-lookup"><span data-stu-id="c3403-103">Secure Windows 10 computers</span></span>
 
-<span data-ttu-id="b89f1-104">Tämä artikkeli koskee Microsoft 365 Business Premiumia.</span><span class="sxs-lookup"><span data-stu-id="b89f1-104">This article applies to Microsoft 365 Business Premium.</span></span>
+<span data-ttu-id="c3403-104">Tämä artikkeli koskee Microsoft 365 Business Premiumia.</span><span class="sxs-lookup"><span data-stu-id="c3403-104">This article applies to Microsoft 365 Business Premium.</span></span>
 
-<span data-ttu-id="b89f1-105">Kun olet [määrittänyt](set-up.md) Microsoft 365 Business Premiumin, on aika suojata organisaatiosi Windows 10 -tietokoneet varkauksilta ja haitallisilta uhilta, kuten viruksilta ja haittaohjelmilta.</span><span class="sxs-lookup"><span data-stu-id="b89f1-105">After you have [set up](set-up.md) Microsoft 365 Business Premium, it is time to protect the Windows 10 computers in your org from theft, and malicious threats like viruses and malware.</span></span>
-<span data-ttu-id="b89f1-106">Tässä videossa on yleiskatsaus käytäntöjen määrittämisestä Windows 10 -tietokoneiden suojaamiseksi.</span><span class="sxs-lookup"><span data-stu-id="b89f1-106">Watch this video for an overview of how to set up policies to secure your Windows 10 computers.</span></span><br><br>
+<span data-ttu-id="c3403-105">Kun olet [määrittänyt](set-up.md) Microsoft 365 Business Premiumin, sinun on aika suojata organisaatiosi Windows 10-tieto koneet varkaudelta ja haitta ohjelmilta, kuten viruksilta ja haitta ohjelmilta.</span><span class="sxs-lookup"><span data-stu-id="c3403-105">After you have [set up](set-up.md) Microsoft 365 Business Premium, it is time to protect the Windows 10 computers in your org from theft, and malicious threats like viruses and malware.</span></span>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
+## <a name="to-secure-your-windows-10-pcs"></a><span data-ttu-id="c3403-106">Windows 10-tieto koneiden suojaaminen</span><span class="sxs-lookup"><span data-stu-id="c3403-106">To secure your Windows 10 PCs</span></span>
 
-<span data-ttu-id="b89f1-107">Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="b89f1-107">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+1. <span data-ttu-id="c3403-107">Kirjaudu sisään [Microsoft 365-hallinta keskukseen](https://admin.microsoft.com) käyttämällä yleisiä järjestelmänvalvojan tunniste tietoja.</span><span class="sxs-lookup"><span data-stu-id="c3403-107">Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) by using your global admin credentials.</span></span> 
+2. <span data-ttu-id="c3403-108">Valitse vasemmanpuoleisessa siirtymis ruudussa **määritys** ja valitse sitten **Kirjautuminen ja suojaus**-kohdassa **suojaa Windows 10-tieto koneet**.</span><span class="sxs-lookup"><span data-stu-id="c3403-108">On the left nav, select **Setup** and then, under **Sign-in and security**, choose **Secure your Windows 10 computers**.</span></span> <span data-ttu-id="c3403-109">Aloita valitsemalla **Näytä** .</span><span class="sxs-lookup"><span data-stu-id="c3403-109">Choose **View** to get started.</span></span>
+3. <span data-ttu-id="c3403-110">Kun olet **suojattu Windows 10: n tieto koneet** -sivulla, Lue kaikki tiedot, jotta ymmärrät, mitä olet siirtymässä ja mitä käyttäjä vaikuttaa.</span><span class="sxs-lookup"><span data-stu-id="c3403-110">On the **Secure your Windows 10 computers** page, read all the information to understand what you are turning on, and what the user impact is.</span></span>
 
-## <a name="to-secure-your-windows-10-pcs"></a><span data-ttu-id="b89f1-108">Windows 10 -tietokoneiden suojaaminen</span><span class="sxs-lookup"><span data-stu-id="b89f1-108">To secure your Windows 10 PCs</span></span>
+    <span data-ttu-id="c3403-111">Valitse sivun ylälaidassa **aloittaminen**.</span><span class="sxs-lookup"><span data-stu-id="c3403-111">On the top of the page, choose **Get started**.</span></span>
 
-1. <span data-ttu-id="b89f1-109">Kirjaudu [Microsoft 365 -hallintakeskukseen](https://admin.microsoft.com) yleisten järjestelmänvalvojan tunnistetietojen avulla.</span><span class="sxs-lookup"><span data-stu-id="b89f1-109">Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) by using your global admin credentials.</span></span> 
-2. <span data-ttu-id="b89f1-110">Valitse vasemmassa siirtymisruudussa **Asennus** ja valitse sitten **Kirjautumis- ja suojaus -kohdasta** **Suojaa Windows 10 -tietokoneet**.</span><span class="sxs-lookup"><span data-stu-id="b89f1-110">On the left nav, select **Setup** and then, under **Sign-in and security**, choose **Secure your Windows 10 computers**.</span></span> <span data-ttu-id="b89f1-111">Aloita valitsemalla **Näytä.**</span><span class="sxs-lookup"><span data-stu-id="b89f1-111">Choose **View** to get started.</span></span>
-3. <span data-ttu-id="b89f1-112">Lue **Secure your Windows 10 -tietokoneet** -sivulla kaikki tiedot, jotta ymmärrät, mitä olet käynnistämässä ja mikä on käyttäjän vaikutus.</span><span class="sxs-lookup"><span data-stu-id="b89f1-112">On the **Secure your Windows 10 computers** page, read all the information to understand what you are turning on, and what the user impact is.</span></span>
+4. <span data-ttu-id="c3403-112">Valitse **suojattu Windows 10-tieto koneet** -ruudussa asetukset, jotka haluat ottaa käyttöön.</span><span class="sxs-lookup"><span data-stu-id="c3403-112">On the **Secure your Windows 10 computers** pane, select the options you want to turn on.</span></span> <span data-ttu-id="c3403-113">Lisä tietoja asetuksista on kohdassa [Windows 10-laitteiden suojaaminen](secure-windows-10-devices.md).</span><span class="sxs-lookup"><span data-stu-id="c3403-113">For more information about the settings, see [Secure Windows 10 devices](secure-windows-10-devices.md).</span></span> 
+    
+    <span data-ttu-id="c3403-114">Useimmissa organisaatioissa asetukset tarjoavat hyvän turvallisuustason, mutta jos organisaatiollasi on monimutkaisempia suojaus tarpeita, voit käyttää myös ennalta määritettyjä suojaus perusaikatauluja Windows 10-laitteiden suoja ukseen.</span><span class="sxs-lookup"><span data-stu-id="c3403-114">For most organizations, the options here offer a good level of security, however, if your organization has more complex security needs, you can also use pre-defined security baselines to secure  your Windows 10 devices.</span></span> <span data-ttu-id="c3403-115">Lisä tietoja on kohdassa [Windows 10-laitteiden tieto turva-perusaikataulut](https://docs.microsoft.com/mem/intune/protect/security-baselines).</span><span class="sxs-lookup"><span data-stu-id="c3403-115">For more information, see [security baselines for Windows 10 devices](https://docs.microsoft.com/mem/intune/protect/security-baselines).</span></span>   
 
-    <span data-ttu-id="b89f1-113">Valitse sivun yläreunasta **Aloita**.</span><span class="sxs-lookup"><span data-stu-id="b89f1-113">On the top of the page, choose **Get started**.</span></span>
+1. <span data-ttu-id="c3403-116">Valitse **Käytä asetuksia**.</span><span class="sxs-lookup"><span data-stu-id="c3403-116">Choose **Apply settings**.</span></span>
 
-4. <span data-ttu-id="b89f1-114">Valitse Windows 10 -asetuksesta asetukset, jotka haluat ottaa käyttöön.</span><span class="sxs-lookup"><span data-stu-id="b89f1-114">On the Windows 10 setting, select the options you want to turn on.</span></span> <span data-ttu-id="b89f1-115">Lisätietoja asetuksista on ohjeaiheessa [Windows 10 -laitteiden suojaaminen](secure-windows-10-devices.md).</span><span class="sxs-lookup"><span data-stu-id="b89f1-115">For more information about the settings, see [Secure Windows 10 devices](secure-windows-10-devices.md).</span></span> 
-5. <span data-ttu-id="b89f1-116">Valitse, kenelle organisaatiossa käytäntö on käytössä, ja valitse sitten **Tallenna muutokset**.</span><span class="sxs-lookup"><span data-stu-id="b89f1-116">Choose to who in your organization to apply the policy to, and then choose **Save changes**.</span></span>
-
+    <span data-ttu-id="c3403-117">Nämä asetukset koskevat kaikkia organisaatiosi käyttäjiä.</span><span class="sxs-lookup"><span data-stu-id="c3403-117">These settings will apply to all users in your organization.</span></span> <span data-ttu-id="c3403-118">Jos haluat määrittää eri käytäntöjä eri käyttö oikeus ryhmille, Katso lisä tietoja artikkelista [laitteen suojaus asetusten määrittäminen Windows 10-tieto koneisiin](protection-settings-for-windows-10-pcs.md).</span><span class="sxs-lookup"><span data-stu-id="c3403-118">To set up different policies for different security groups, see [Set device protection settings for Windows 10 PCs](protection-settings-for-windows-10-pcs.md).</span></span>
