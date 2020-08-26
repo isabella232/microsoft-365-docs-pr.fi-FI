@@ -26,19 +26,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: Lue tietoja oletuslaitekäytännön asetusten määrittämisestä, jonka mikä tahansa Windows 10 -laite saa kirjauduttuaan työpaikan tai oppilaitoksen tilille.
-ms.openlocfilehash: 03ae86861ddb0cb83cd39b7834f19e01bf3e99e2
-ms.sourcegitcommit: 2d664a95b9875f0775f0da44aca73b16a816e1c3
+description: Lue lisä tietoja siitä, miten voit määrittää oletus laite käytännölle asetukset, jotka Windows 10-laite saa kirjautuessaan työpaikan tai oppi laitoksen tiliin.
+ms.openlocfilehash: b586e687d6b61873b77fac8586396ab51fd90b9b
+ms.sourcegitcommit: 90efec455336b4cecc06a8cbf0ce287740433523
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "44470623"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "46898064"
 ---
 # <a name="secure-windows-10-devices"></a>Suojatut Windows 10 -laitteet
 
 Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
-Tässä määrittämäsi asetukset ovat osa Windows 10:n oletuslaitekäytäntöä. Kaikki käyttäjät, jotka yhdistävät Windows 10 -laitteen, mukaan lukien mobiililaitteet ja tietokoneet, kirjautumalla sisään työtilillään, saavat nämä asetukset automaattisesti. On suositeltavaa, että hyväksyt oletuskäytännön asennuksen aikana ja lisäät myöhemmin käytäntöjä, jotka kohdistuvat tiettyyn käyttäjäryhmään.
+Tässä määrittämäsi asetukset ovat osa Windows 10:n oletuslaitekäytäntöä. Kaikki käyttäjät, jotka yhdistävät Windows 10-laitteen, mukaan lukien mobiililaitteet ja tieto koneet, saavat nämä asetukset automaattisesti, kun kirja udut sisään työtilillään. On suositeltavaa, että hyväksyt oletuskäytännön asennuksen aikana ja lisäät myöhemmin käytäntöjä, jotka kohdistuvat tiettyyn käyttäjäryhmään.
   
 ## <a name="settings-to-secure-windows-10-devices"></a>Windows 10 -laitteiden suojausasetukset
 
@@ -51,8 +51,4 @@ Kaikki asetukset ovat oletusarvoisesti **käytössä**. Seuraavat asetukset ovat
 |Auta suojaamaan tietokoneitasi verkkopohjaisilta uhkilta Microsoft Edgessä  <br/> |Ottaa käyttöön Edgen asetukset, jotka auttavat suojaamaan käyttäjiä vahingollisilta sivustoilta ja latauksilta.  <br/> |
 |Sammuta laitteen näyttö, kun se on ollut käyttämättömänä tämän verran  <br/> |Varmistaa, että yritystiedot on suojattu, jos käyttäjä ei tee mitään. Käyttäjä saattaa työskennellä julkisessa paikassa, kuten kahvilassa, ja poistua tai kääntää huomion pois hetkeksi, jolloin laite on alttiina satunnaisille katseille. Tällä asetuksella voit määrittää, miten kauan käyttäjä voi olla toimettomana, ennen kuin näyttö pimenee.  <br/> |
 |Salli käyttäjille sovellusten lataaminen Microsoft Storesta  <br/> |Sallii käyttäjien ladata ja asentaa sovelluksia Microsoft Storesta. Sovellukset vaihtelevat peleistä tuottavuustyökaluihin, joten asetus on **käytössä**, mutta voit poistaa sen käytöstä lisäsuojausta varten.  <br/> |
-|Salli käyttäjien käyttää Cortanaa  <br/> |Cortana-toiminto voi olla hyvin hyödyllinen. Cortana voi ottaa asetukset käyttöön tai poistaa ne käytöstä puolestasi, antaa reittiohjeita ja varmistaa, että olet ajoissa tapaamisia varten, joten säilytämme tämän asetuksen oletusarvoisesti **käytössä.**  <br/> |
-|Salli käyttäjille Windows-vihjeiden ja -mainosten vastaanottaminen Microsoftilta  <br/> |Windows-vihjeet voivat olla käteviä ja auttaa perehdyttämään käyttäjiä, kun uusia ominaisuuksia julkaistaan.  <br/> |
-|Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> |Varmistaa, että Windows 10 -laitteet vastaanottavat automaattisesti päivityksiä.  <br/> |
-   
-
+|
