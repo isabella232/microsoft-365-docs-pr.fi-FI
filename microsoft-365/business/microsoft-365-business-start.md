@@ -27,41 +27,41 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Lue tietoja Microsoft 365 for Businessista, sen määrittämisestä ja käyttäjien laitteiden ja tietokoneiden valmistelemisesta, jotta Microsoft 365 for Business suojaa niitä.
-ms.openlocfilehash: aedcf78f10707dbe6a1d1527effea7d56283dce0
-ms.sourcegitcommit: 5b769f74bcc76ac8d38aad815d1728824783cd9f
+description: Tietoja Microsoft 365 for Businessista, sen määrittämisestä ja käyttäjien laitteiden ja tieto koneiden valmistelemisesta sen varmistamiseksi, että ne ovat suojattuja Microsoft 365 for Businessissa.
+ms.openlocfilehash: ec50036f589cfd8497b0e7e9af6519b30d25dcd3
+ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "45080039"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "47306485"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 for Businessin käytön aloittaminen
 
 ## <a name="what-is-microsoft-365-for-business"></a>Mikä on Microsoft 365 for Business
 
-Microsoft 365 for Business on kattava joukko liiketoiminnan tuottavuus- ja yhteistyötyökaluja, kuten Outlook, Word, Excel ja muut Office-tuotteet, jotka ovat aina ajan tasalla. Voit suojata työtiedostot kaikilla iOS-, Android- ja Windows 10 -laitteillasi yritystason suojauksella, jota on helppo hallita.
+Microsoft 365 for Business on kattava joukko yrityksen tuottavuutta ja yhteiskäyttötyökaluja, kuten Outlook, Word, Excel ja muut Office-tuotteet, jotka ovat aina ajan tasalla. Voit suojata työtiedostosi kaikissa iOS-, Android-ja Windows 10-laitteissa, joissa on helppo hallita yritys tason suojausta.
 
-Tämä video on nopea yleiskatsaus Microsoft 365 for Business -versiosta.<br><br>
+Katsomalla tämän videon saat nopeasti yleiskatsauksen Microsoft 365 for Businessista.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Microsoft 365 for Business on tarkoitettu jopa 300 käyttöoikeuteen. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista. 
+Microsoft 365 for Business on tarkoitettu enintään 300-käyttö oikeuksien käyttöön. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista. 
   
-## <a name="get-microsoft-365-for-business"></a>Hanki Microsoft 365 for Business
+## <a name="get-microsoft-365-for-business"></a>Microsoft 365 for Businessin hankkiminen
 
-- Jos sinulla on kumppani, he saavat Microsoft 365 for Businessin: [Hanki Microsoft 365 for Business Microsoft-kumppanikeskuksesta](get-microsoft-365-business.md).
+- Jos sinulla on partneri, he saavat Microsoft 365 for Businessin: [saat microsoft 365 for Businessin Microsoft-yhteistyökeskuksen](get-microsoft-365-business.md)kautta.
     
-- Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 for Business, voit [ostaa sen täältä](https://www.microsoft.com/microsoft-365/business).
+- Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 for Businessin, voit [ostaa sen täältä](https://www.microsoft.com/microsoft-365/business).
     
 ## <a name="set-up-microsoft-365-for-business"></a>Microsoft 365 for Businessin määrittäminen
 
- **Microsoft 365 for business Suiten toiminnon yleiskatsaus**
+ **Yleistä Microsoft 365 for Business Suiten määrittämisestä**
   
-Seuraavassa kaaviossa kuvataan, miten järjestelmänvalvojat määrittävät Microsoft 365 for Businessin. Artikkelissa kuvataan myös vaiheet Windows-tietokoneiden valmistelemiseksi Microsoft 365 for Business -käyttötarkoituksiin. Voit myös lisätä uusia laitteita Microsoft 365 -hallintakeskukseen [Windowsin automaattiohjauksella.](add-autopilot-devices-and-profile.md) Automaattisen pikatin avulla voit määrittää ja esimääritellä uusia laitteita niin, että ne ovat valmiita tuottavaan käyttöön heti, kun käyttäjä kirjautuu sisään Microsoft 365 for Business -tunnistetiedoillaan.
+Seuraavassa kaaviossa kerrotaan, miten järjestelmänvalvojat määrittävät Microsoft 365 for Businessin. Artikkelissa kuvataan myös Microsoft 365 for Businessin Windows-tieto koneiden valmistelu vaiheet. Voit myös lisätä uusia laitteita Microsoft 365-hallinta keskukseen [Windowsin AutoPilot](add-autopilot-devices-and-profile.md)-palveluiden avulla. Automaatti ohjauksen avulla voit määrittää ja määrittää uusia laitteita niin, että ne ovat valmiita käytettäväksi heti, kun käyttäjä kirjautuu sisään Microsoft 365 for Businessin tunniste tiedoilla.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
-Tämä video on kohdassa Microsoft 365 for Businessin asennuksen yleiskatsaus.<br><br>
+Katsomalla tämän videon saat yleiskatsauksen Microsoft 365 for Businessin asennuksesta.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
@@ -70,33 +70,33 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: Microsoft 365 for Businessin määrittäminen (järjestelmänvalvoja)
 
-Kirjaudu [Microsoft 365 -hallintakeskukseen](https://portal.office.com/adminportal/home) yleisillä järjestelmänvalvojan tunnistetiedoilla ja määritä Microsoft 365 for Business noudattamalla seuraavia ohjeita. 
+Kirjaudu sisään [microsoft 365-hallinta keskukseen](https://portal.office.com/adminportal/home) käyttämällä yleisiä järjestelmänvalvojan tunniste tietoja ja määritä Microsoft 365 for Businessin asetukset suorittamalla seuraavat vaiheet. 
   
-1. [Microsoft 365 for Business -laitteiden tietojen suojaamisen edellytykset](pre-requisites-for-data-protection.md)
+1. [Laitteiden tietojen suojaamisen edellytykset Microsoft 365 for Businessin avulla](pre-requisites-for-data-protection.md)
     
     Lue ensin edellytykset varmistaaksesi, että laitteesi ovat valmiita Microsoft 365 for Businessiin.
     
-2. [Microsoft 365 for Businessin määrittäminen ohjatun asennustoiminnon avulla](set-up.md)
+2. [Microsoft 365 for Businessin määrittäminen ohjatun määritys toiminnon avulla](set-up.md)
     
-    Jos olet **pysyvästi siirtymässä paikallisesta Active Directorysta pilveen,** voit siirtyä Microsoft 365 -hallintakeskukseen ja lisätä käyttäjät manuaalisesti ohjatun asennustoiminnon avulla tai voit synkronoida käyttäjät kerran Azure AD Connectin kanssa. Tämän voi tehdä kahdella eri tavalla: 
+    Jos siirryt **pysyvästi paikallisesta Active Directorysta pilvi palveluun**, voit siirtyä Microsoft 365-hallinta keskukseen ja lisätä käyttäjät manuaalisesti ohjatun määritys toiminnon avulla tai voit tehdä kerta synkronoinnin Azure AD Connectin avulla. Tämän voi tehdä kahdella eri tavalla: 
     
-    - Jos käytössäsi on myös Exchange 2010-, Exchange 2013- tai Exchange 2016 -palvelin, voit [siirtää Exchange-postilaatikot nopeasti Microsoft 365:een Minimaalisen hybridin avulla.](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate) Minimaalisia hybridivaiheita ovat käyttäjien kertasynkronointi Azure AD:hen ja sähköpostin siirtäminen paikallisesta pilveen. Kun sähköpostin siirto on valmis, hakemistosynkronointi poistetaan automaattisesti käytöstä, kun käytät tätä menetelmää.
+    - Jos sinulla on myös Exchange 2010-, Exchange 2013-tai Exchange 2016-palvelin, voit [nopeasti siirtää Exchange-posti laatikot Microsoft 365: een käyttämällä pientä yhdistelmä](https://docs.microsoft.com/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate)-vaihto kurssia. Minimaalinen yhdistelmä vaihe sisältää kertaluontoisen synkronoinnin käyttäjien Azure AD:hen ja sähkö postin siirron paikallisesta pilvi palveluun. Kun sähkö postin siirto on valmis, hakemisto synkronointi poistetaan automaattisesti käytöstä, kun käytät tätä tapaa.
     
-    - Synkronoi käyttäjät pilveen ohjatun hakemistosynkronoinnin avulla. Suorita tämä prosessi noudattamalla kohdan [Microsoft 365 hakemistosynkronoinnin määrittäminen](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) ohjeita. Kun olet synkronoinut käyttäjät pilveen, sinun on [kuittaattava microsoft 365:n hakemistosynkronointi käytöstä.](https://docs.microsoft.com/office365/enterprise/turn-off-directory-synchronization)
+    - Synkronoi käyttäjät pilvi palveluun ohjatun hakemisto synkronoinnin avulla. Suorita tämä prosessi noudattamalla artikkelissa [Microsoft 365-hakemisto synkronoinnin määrittäminen](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) annettuja ohjeita. Kun synkronoit käyttäjät pilvi palveluun, sinun on [poistettava Microsoft 365 hakemisto synkronointi käytöstä](https://docs.microsoft.com/microsoft-365/enterprise/turn-off-directory-synchronization).
     
-    Sinun on myös annettava jokaiselle tällä tavalla lisätylle käyttäjälle käyttöoikeus Microsoft 365 for Businessiin. Voit tehdä tämän [ohjatussa asennustoiminnossa](set-up.md) tai [määrittää käyttöoikeuksia käyttäjille](../admin/manage/assign-licenses-to-users.md).
+    Sinun on myös annettava jokaiselle käyttäjälle, joka on lisätty tällä tavoin Microsoft 365 for Businessin käyttö oikeus. Voit tehdä tämän [ohjatussa määritys toiminnossa](set-up.md) tai voit [määrittää käyttäjille käyttö oikeuksia](../admin/manage/assign-licenses-to-users.md).
     
-### <a name="2-prepare-mobile-devices"></a>2: Mobiililaitteiden valmisteleminen
+### <a name="2-prepare-mobile-devices"></a>2: mobiililaitteiden valmistelu
 
-Noudata kohdan [Mobiililaitteiden määrittäminen Microsoft 365 for Business -käyttäjille](set-up-mobile-devices.md) ohjeita Office-sovellusten asentamiseksi laitteisiin ja niiden suojaamiseksi Microsoft 365 for Businessissa. 
+Asenna Office-sovellukset laitteisiin ja varmista, että ne on suojattu Microsoft 365 for Businessissa, noudattamalla artikkelissa [microsoft 365 for Business-käyttäjien mobiililaitteiden määrittäminen](set-up-mobile-devices.md) annettuja ohjeita. 
   
-### <a name="3-prepare-pcs"></a>3: Valmistele tietokoneet
+### <a name="3-prepare-pcs"></a>3: tieto koneen valmistelu
 
-Järjestelmänvalvojat voivat esivalita uusien Windows 10 -tietokoneiden asetukset [Windowsin automaattiohjauksen](add-autopilot-devices-and-profile.md)avulla. Käyttäjät voivat määrittää olemassa olevat tai uudet Windows 10 -laitteensa noudattamalla tämän ohjeaiheen ohjeita: [Windows-tietokoneiden määrittäminen Microsoft 365 yrityskäyttäjille](set-up-windows-devices.md). Nykyisissä laitteissa käyttäjät voivat **halutessaan** [siirtää tiedostoja OneDrive for Businessiin](move-files-to-onedrive.md). He voivat myös siirtää Windows-profiiliin liittyviä tiedostoja OneDriveen muiden valmistajien työkalujen avulla.
+Järjestelmänvalvojat voivat esivalita uuden Windows 10-tieto koneen asetukset [Windowsin AutoPilot](add-autopilot-devices-and-profile.md)-toiminnolla. Käyttäjät voivat määrittää nykyiset tai uudet Windows 10-laitteet noudattamalla tämän ohje aiheen ohjeita: Windows- [tieto koneiden määrittäminen Microsoft 365 for Businessin käyttäjille](set-up-windows-devices.md). Olemassa olevissa laitteissa käyttäjät voivat **vaihtoehtoisesti** [siirtää tiedostoja OneDrive for Businessiin](move-files-to-onedrive.md). He voivat myös käyttää kolmansien osapuolten työkaluja Windows-profiiliin liittyvien tiedostojen siirtämiseen OneDriveen.
   
-Jos organisaatiosi käyttää paikallista Windows Server Active Directorya, voit määrittää Microsoft 365 for Businessin suojaamaan Windows 10 -laitteita säilyttäen samalla paikallisen todennuksen edellyttävien paikallisten resurssien käytön. Määritä tämä noudattamalla kohdan [Salli toimialueisiin liitettyjen Windows 10 -laitteiden hallintaa .](manage-windows-devices.md) Tätä menetelmää suositellaan, ja tämän tilan laitteita kutsutaan **Hybrid Azure AD -liitetyiksi laitteeksi**. 
+Jos organisaatiosi käyttää paikallista Windows Server Active Directorya, voit määrittää Microsoft 365 for Businessin suojaamaan Windows 10-laitteitasi säilyttäen kuitenkin paikalliset resurssit, jotka vaativat paikallisen todennuksen. Määritä tämän asetukset noudattamalla kohdan [Ota käyttöön toimi alue-yhdistetyt Windows 10-laitteet, joita Microsoft 365 for Business hallitsee](manage-windows-devices.md) . Tämä menetelmä on suositeltava, ja tämän tilan laitteet ovat nimeltään **Hybrid Azure AD-yhdistetyt laitteet**. 
   
-Jos säilytät paikallisen Active Directoryn, joka sisältää joitakin paikallisia resursseja (kuten jaettuja tiedostoresursseja ja tulostimia), voit antaa **Azure AD-liitetyille laitteillesi** näiden resurssien käyttöoikeuden noudattamalla seuraavia ohjeita: [Azure AD-liitetyn laitteen paikallisten resurssien käyttäminen Microsoft 365 for Businessissa](access-resources.md).
+Jos säilytän paikallisen Active Directoryn, joka sisältää joitakin paikallisia resursseja (kuten jaetut tiedosto resurssit ja tulostimet), voit antaa Azure AD:hen **liittyneille laitteillesi** oikeuden käyttää näitä resursseja noudattamalla seuraavia ohjeita: paikallisten [resurssien käyttäminen Azure AD-liittyneestä laitteesta Microsoft 365 for Businessissa](access-resources.md).
   
   
 ## <a name="contact-support"></a>Ota yhteyttä tukeen
@@ -105,12 +105,12 @@ Jos säilytät paikallisen Active Directoryn, joka sisältää joitakin paikalli
   
 - Ota yhteyttä kumppaniin.
     
-- Microsoft 365 for business -järjestelmänvalvojana voit käyttää asiakastukitiimiämme: ** [Ota yhteyttä yritystuotteiden tukeen - Järjestelmänvalvojan ohjeet](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)**
+- Microsoft 365 for Business-järjestelmänvalvojalla on oikeus käyttää asiakas tuki tiimiään: ** [Ota yhteyttä yritys tuotteiden tukeen – järjestelmänvalvojan ohje](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)**
     
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeaiheisiin
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
 
-[Microsoft 365 yritysdokumentaatiolle ja resursseille](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[Microsoft 365 for Businessin ohjeet ja resurssit](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Microsoft 365 for Businessin hallinta](manage.md)[Siirry Microsoft 365 for Businessiin](migrate-to-microsoft-365-business.md)
+[Hallitse microsoft 365 for Businessin](manage.md)[siirtoa Microsoft 365 for Businessiin](migrate-to-microsoft-365-business.md)
 
-[Microsoft 365 yritysten koulutus videoita](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
+[Microsoft 365 for Business-koulutus videot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
