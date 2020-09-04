@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Premiumin suojaus- ja yhteensopivuusominaisuudet
+title: Microsoft 365 Business Premiumin turvallisuus-ja yhteensopivuus ominaisuudet
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -23,108 +23,106 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
-description: Lue tietoja Microsoft 365 Business Premiumin mukana tulevista suojausominaisuuksista, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
-ms.openlocfilehash: 839b5481e27591e1762a0d8eb5623f279d6d22dd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Tutustu Microsoft 365 Business Premiumin käyttö oikeus ominaisuuksiin, jotka auttavat suojaamaan tietoja tieto koneilla, puhelimilla ja tableteilla.
+ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
+ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44402710"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "47357314"
 ---
-# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premiumin suojaus- ja yhteensopivuusominaisuudet
+# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premiumin turvallisuus-ja yhteensopivuus ominaisuudet
 
-Microsoft 365 Business Premium issa on yksinkertaistettuja suojausominaisuuksia, jotka auttavat suojaamaan tietojasi tietokoneissa, puhelimissa ja tableteissa.
+Microsoft 365 Business Premium tarjoaa yksinkertaistettuja suojaus ominaisuuksia, jotka suojaavat tietoja tieto koneilla, puhelimilla ja tableteilla.
     
-## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 -hallintakeskuksen suojausominaisuudet
+## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365-hallinta keskuksen käyttö oikeus ominaisuudet
 
-[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
-
-Voit hallita useita Microsoft 365 Business Premium -suojausominaisuuksia hallintakeskuksessa, jolloin voit ottaa nämä ominaisuudet käyttöön tai poistaa ne käytöstä. Hallintakeskuksessa voit tehdä seuraavat toimet:
+Voit hallita monia Microsoft 365 Business Premium-tieto turva ominaisuuksia hallinta keskuksessa, jonka avulla voit ottaa nämä ominaisuudet käyttöön tai poistaa ne käytöstä yksinkertaisella tavalla. Hallinta keskuksessa voit tehdä seuraavat toimet:
   
-- [Sovellusten hallinta-asetusten määrittäminen Android- tai iOS-laitteille](app-protection-settings-for-android-and-ios.md) . 
+- [Sovellusten hallinta-asetusten määrittäminen Android-tai iOS-laitteille](app-protection-settings-for-android-and-ios.md) . 
     
-    Näitä asetuksia ovat tiedostojen poistaminen passiivisesta laitteesta tietyn ajan kuluttua, työtiedostojen salaaminen, edellyttää, että käyttäjät asettavat PIN-koodin ja niin edelleen.
+    Nämä asetukset sisältävät tiedostojen poistamisen käyttämättömästä laitteesta tietyn vaiheen jälkeen, salattaessa työtiedostoja, vaatimalla käyttäjiä määrittämään PIN-tunnuksen ja niin edelleen.
     
-- [Määritä windows 10 -laitteiden sovellusten suojausasetukset](protection-settings-for-windows-10-devices.md) . 
+- [Sovellusten suojaus asetusten määrittäminen Windows 10-laitteille](protection-settings-for-windows-10-devices.md) . 
     
-    Näitä asetuksia voidaan käyttää yrityksen tietoihin sekä yrityksen omistamissa että henkilökohtaisesti omistamissa laitteissa.
+    Näitä asetuksia voidaan käyttää yrityksen tietoihin sekä yrityksen omistamissa että itse omistamissa laitteissa.
     
-- [Määritä Windows 10 -laitteiden laitesuojausasetukset](protection-settings-for-windows-10-pcs.md) . 
+- [Laitteen suojaus asetusten määrittäminen Windows 10-laitteille](protection-settings-for-windows-10-pcs.md) . 
     
-    Voit ottaa [BitLocker-salauksen](https://go.microsoft.com/fwlink/p/?linkid=871405) käyttöön tietojen suojaamiseksi siltä varalta, että laite katoaa tai varastetaan, ja antaa [Windows Exploit Guardille](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) kehittyneen suojauksen kiristysohjelmia vastaan. 
+    Voit ottaa [BitLocker](https://go.microsoft.com/fwlink/p/?linkid=871405) -Sala uksen käyttöön, jos haluat suojata tietoja, jos laite katoaa tai varastetaan, ja ottaa käyttöön [Windows Exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) -suoja uksen, joka antaa kehittyneen suojan kiristys laitteita vastaan. 
     
 - [Yritystietojen poistaminen laitteista](remove-company-data.md)
     
-    Voit etäpyyhkiä yrityksen tiedot, jos laite katoaa, varastetaan tai työntekijä poistuu yrityksestäsi.
+    Voit pyyhkiä yrityksen tiedot etänä, jos laite katoaa, varastetaan tai työn tekijä lähtee yrityksestä.
     
-- [Palauta Windows 10 -laitteiden tehdasasetukset](reset-devices-to-factory-settings.md) . 
+- [Palauta Windows 10-laitteet tehdas asetuksiksi](reset-devices-to-factory-settings.md) . 
     
-    Voit palauttaa kaikki Windows 10 -laitteet, joissa on käytössä laitteen suojausasetukset.
+    Voit palauttaa kaikki Windows 10-laitteet, joissa on käytössä laitteen suojaus asetukset.
     
 ## <a name="additional-security-features"></a>Muut suojaustoiminnot 
 
-Microsoft 365 Business Premiumin lisäominaisuudet ovat käytettävissä, jotta voit suojata yrityksesi verkkouhkilta ja suojata arkaluonteisia tietoja.
+Microsoft 365 Business Premiumin lisä ominaisuuksia on saatavilla, jotka auttavat suojaamaan yritystäsi tieto verkko uhilta ja turvaamaan luottamukselliset tiedot.
   
-- **[Office 365:n kehittynyt uhkien torjunta](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
+- **[Office 365 Advanced Threat-suojaus](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
-    Advanced Threat Protection (ATP) auttaa suojaamaan yritystäsi kehittyneiltä tietojenkalastelu- ja kiristysohjehyökkäyksiltä, jotka on suunniteltu vaarantamaan työntekijöiden tai asiakkaiden tiedot. Ominaisuuksia ovat:
+    Advanced Threat Protectionin (ATP) avulla voit suojata yritystäsi kokeneilta tietojenkalastelulta ja kiristys ohjelmilta, jotka on suunniteltu työn tekijöiden tai asiakas tietojen vaarantamaan. Ominaisuuksiin kuuluvat:
     
-  - Hienostunut liitetiedostojen skannaus ja AI-käyttöinen analyysi vaarallisten viestien havaitsemiseksi ja hylkäämiseksi.
+  - Hienostunut liitteiden tarkistus ja AI-käyttöinen analyysi vaarallisten viestien havaitsemiseksi ja hylkäämiseksi.
     
-  - Sähköpostin linkkien automaattiset tarkistukset sen arvioimiseksi, ovatko ne osa tietojenkalastelujärjestelmää. Tämä estää sinua käyttämästä vaarallisia verkkosivustoja.
+  - Sähkö postin linkkien automaattinen tarkistus, jos haluat arvioida, ovatko ne osa tietojenkalastelujärjestelmää. Tämä estää haitallisten sivustojen käytön.
 
-- **[Intunen täydet ominaisuudet Azure-portaalissa](https://go.microsoft.com/fwlink/p/?linkid=871403)**
+- **[Intunen kaikki ominaisuudet Azure-portaalissa](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Azure-portaalin Intune-hallintakeskuksen avulla voit määrittää muita suojausominaisuuksia, kuten MacOS-laitteiden, iPhonen ja Android-laitteiden hallinnan sekä windowsin kehittyneen laitehallinnan, jotka eivät ole käytettävissä Microsoft 365 -hallintakeskuksen kautta.
-- **Sama [ehdollinen käyttö](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) kuin Azure AD Premium P1 -palvelupaketti**
+    Kun käytät Intune-hallinta keskusta Azure-portaalissa, voit määrittää muita tieto turva ominaisuuksia, kuten Mac OS-laitteiden, iPhonen ja Android-laitteiden hallinnan sekä Windowsin kehittyneet laitteiden hallinta toiminnot, jotka eivät ole käytettävissä Microsoft 365-hallinta keskuksen kautta.
+- **Sama [Ehdollinen käyttäminen](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) kuin Azure AD Premium P1-palvelu paketin**
 
 
-    Ehdollinen käyttö voi auttaa suojaamaan organisaatiotakirjautumisriskeiltä, käyttämään yrityksiä odottamattomasta verkosta tai maa-maasta, käyttämään riskialttiiden laitetyyppien käyttöyrityksiä ja niin edelleen. Ehdollisen käytön käytännöt otetaan käyttöön ensimmäisen todennuksen jälkeen, ja se määrittää ensimmäisen todennustapahtuman signaalien avulla, onko käyttöyritys hyväksyttävä, evättävä vai tarvitaanko enemmän todisteita (kuten toinen tunnistusmuoto).
+    Ehdollinen käyttäminen voi auttaa suojaamaan organisaatiotasi kirjautumisriskeiltä, käyttämään odottamattomia verkkoja tai maa-asetuksia, käyttämään riskialttiiden laite tyyppien yrityksiä ja niin edelleen. Ehdollisen käytön käytännöt on pakotettu, kun ensimmäinen todennus on valmis, ja se käyttää ensimmäisen todennus tapahtuman signaaleja määrittääkseen, onko yritys käyttö oikeus hyväksyttävä, estetty vai tarvitaanko muita todisteita (kuten toinen tunniste).
 
-    Ehdollisen käytön ominaisuudet ovat seuraavat:
+    Ehdollisen käytön ominaisuuksiin sisältyvät seuraavat:
 
-    - Käyttäjänimiin, ryhmään ja rooliin perustuva käyttöoikeus
-    - [Sovelluksen perusteella käytettävissä](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) 
-    - [Pääsy sijainnin perusteella](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  salli pääsy vain luotettavilta IP-alueilta tai tietyistä maista 
-    - Vaadi mfa-käyttö
-    - [Vanhan todennuksen](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication) käyttävien sovellusten käytön estäminen
-    - Vaadi sovellukset tp käyttää [Intune app protection](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
-    - Mukautettu todennus, kuten MFA kolmannen osapuolen palveluntarjoajien, esimerkiksi DUO:n, kanssa.
+    - Käyttäjä nimen, ryhmän ja roolin perusteella
+    - [Sovellukseen perustuva](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-conditional-access) yhteys 
+    - [Käyttäminen sijainnin perusteella](https://docs.microsoft.com/azure/active-directory/authentication/howto-registration-mfa-sspr-combined#conditional-access-policies-for-combined-registration);  Salli vain luotettujen IP-alueiden tai tiettyjen maiden käyttäminen 
+    - Edellytä MFA-käyttöä Accessissa
+    - [Vanhaa todennusta](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication) käyttävien sovellusten käytön estäminen
+    - Edellytä, että sovellus TP käyttää [Intune-sovelluksen suojausta](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)
+    - Mukautettu todennus, kuten MFA kolmannen osapuolen palveluntarjoajien kanssa, esimerkiksi DUO.
    
     Muita ominaisuuksia:
-    - [Azure AD:n itsepalvelusalasanan palautus](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization)
+    - [Omatoiminen Sala sanan palautus](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization) Hybrid Azure AD:hen
     
-## <a name="compliance-features"></a>Yhteensopivuuden ominaisuudet
+## <a name="compliance-features"></a>Yhteensopivuus ominaisuudet
 
-Microsoft 365 Business Premium -tilauksesi sisältää ominaisuuksia, joiden avulla voit ylläpitää vaatimustenmukaisuus- ja sääntelystandardeja.
+Microsoft 365 Business Premium-tilaukseesi sisältyy ominaisuuksia, jotka auttavat ylläpitämään vaatimustenmukaisuutta ja lain säädäntöä koskevia standardeja.
 
-- **[Yleiskatsaus tietojen menetyksen estämiskäytäntöihin](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)** (DLP). 
+- **[Yleistä tietojen menetyksen esto käytännöistä](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)** (DLP). 
     
-    Voit määrittää DLP:n tunnistamaan automaattisesti arkaluonteiset tiedot, kuten luottokorttien numerot, henkilötunnukset ja niin edelleen, jotta ne eivät jakaisi tahattomasti yrityksesi ulkopuolella.
+    Voit määrittää DLP:N tunnistamaan automaattisesti luottamukselliset tiedot, kuten luotto kortti numerot ja sosiaaliturvatunnukset, jotta estetään niiden tahaton jakaminen yrityksen ulkopuolelta.
     
 - **[Exchange Online Archiving](https://products.office.com/exchange/microsoft-exchange-online-archiving-email)**
     
-    Exchange Online Archiving -käyttöoikeus mahdollistaa viestien arkistoimisen helposti jatkuvalla tietojen varmuuskopioinnilla. Se tallentaa kaikki käyttäjän sähköpostit, mukaan lukien poistetut kohteet, siltä varalta, että niitä tarvitaan myöhemmin etsintää tai palauttamista varten. Lisäksi voit käyttää eri säilytyskäytäntöjä, kun haluat säilyttää sähköpostitiedot riita-asioiden pitoihin, eDiscoveryen tai vaatimustenmukaisuusvaatimusten täyttämiseen.
+    Exchange Online-arkistointi käyttö oikeus mahdollistaa viestien helpon arkistoinnin jatkuvan tietojen varmuus kopioinnin avulla. Se tallentaa kaikki käyttäjän sähkö postit, mukaan lukien poistetut kohteet, siinä tapa uksessa, että niitä tarvitaan myöhemmin löydöstä tai palauttamisesta. Lisäksi voit käyttää erilaisia säilytys käytäntöjä Sähkö posti tietojen säilyttämiseen oikeus toimiin, eDiscoveryyn tai yhteensopivuus vaatimusten täyttämiseen.
     
 - **[Luottamuksellisuusmerkinnät](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business Premium sisältää kaikki [Azure Information Protection Plan 1](https://go.microsoft.com/fwlink/p/?linkid=871407):n ominaisuudet. Tämän suunnitelman avulla voit luoda **herkkyysotsikoita,** joiden avulla voit hallita sähköpostin ja asiakirjojen arkaluonteisten tietojen käyttöä, esimerkiksi "Älä välitä" ja Älä kopioi . Voit myös luokitella arkaluonteiset tiedot luottamuksellisiksi ja määrittää, miten turvaluokiteltuja tietoja voidaan jakaa yrityksen ulkopuolella ja sisällä. Yritystason salausta on helppo käyttää sähköpostiin ja asiakirjoihin, jotta tietosi pysyvät yksityisinä. Voit myös asentaa Office-sovellusten Azure Information Protection -asiakasohjelman apuohjelman. Lisätietoja on kohdassa [Azure Information Protectionunified labeling client](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Jos haluat käyttää herkkyystarroja, asenna **AzInfoProtection_UL.exe**.
+   Microsoft 365 Business Premium sisältää kaikki [Azuren tieto turva palvelu paketin 1](https://go.microsoft.com/fwlink/p/?linkid=871407)ominaisuudet. Tässä ohjelmassa voit luoda **Luottamuksellisuusotsikoita** , joiden avulla voit hallita sähkö postin ja asia kirjojen luottamuksellisten tietojen käyttö oikeuksia, esimerkiksi "Älä lähetä edelleen"-ja "Älä kopioi"-toimintoja. Voit myös luokitella luottamuksellisia tietoja luottamuksellisiksi ja määrittää, miten luokitellut tiedot voidaan jakaa yrityksen sisä-ja ulkopuolella. Yritys tason salausta on helppo käyttää sähkö postissa ja asia kirjoissa, jotta tietosi pysyvät yksityisinä. Voit asentaa myös Azure Information Protectionin Client-apuohjelman Office-sovelluksiin. Lisä tietoja on kohdassa [Azure Information Protectionin Unified-merkintä asiakas](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history). Jos kyseessä on herkkyys tarra, asenna **AzInfoProtection_UL.exe**.
 
-Voit hallita näitä ominaisuuksia &amp; Tietoturvan yhteensopivuus -keskuksessa ja Intune-hallintakeskuksessa. Ajan myötä yksinkertaistetut ohjausobjektit lisätään Microsoft 365 -hallintakeskukseen.
+Voit hallita näitä ominaisuuksia tieto turvan &amp; yhteensopivuus keskuksessa ja Intune-hallinta keskuksessa. Ajan mittaan ne lisätään Microsoft 365-hallinta keskukseen.
   
     
 ## <a name="faq"></a>Usein kysytyt kysymykset
 
- ### <a name="are-these-security-features-available-in-all-markets"></a>Ovatko nämä turvaominaisuudet saatavilla kaikilla markkina-alueilla?
+ ### <a name="are-these-security-features-available-in-all-markets"></a>Ovatko nämä turva ominaisuudet saatavilla kaikilla markkinoilla?
   
-Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkinoilla, joilla Microsoft 365 Business Premium myydään.
+Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkinoilla, joilla Microsoft 365 Business Premium on myynnissä.
   
-### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Miten löydän &amp; tietoturvan yhteensopivuuskeskuksen?
+### <a name="how-do-i-find-the-security-amp-compliance-center"></a>Miten löydän tieto turvan &amp; yhteensopivuus keskuksen?
   
-1. [Kirjaudu Microsoft 365 Business Premiumiin](https://portal.microsoft.com/) järjestelmänvalvojan tunnistetiedoilla. 
+1. [Kirjaudu sisään Microsoft 365 Business Premiumiin](https://portal.microsoft.com/) järjestelmänvalvojan tunniste tiedoilla. 
     
-2. Etsi vasemmasta siirtymisruudusta **Hallintakeskukset** ja laajenna se. 
+2. Etsi vasemmasta siirtymis ruudusta **hallinta keskukset** ja laajenna se. 
     
-    ![Valitse Microsoft 365 -hallintakeskuksen vasemmasta siirtymisruudusta Hallintakeskukset.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
+    ![Valitse vasemmanpuoleisessa NAV-ohjelmassa Microsoft 365-hallinta keskuksessa hallinta keskukset.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. Siirry Suojauksen yhteensopivuus -keskukseen valitsemalla **Suojauksen &amp; yhteensopivuus.** &amp;
+3. Valitse **tieto &amp; turva yhteensopivuus,** jos haluat siirtyä tieto turvan &amp; yhteensopivuus keskukseen.
