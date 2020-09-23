@@ -1,5 +1,5 @@
 ---
-title: Siirtyminen Microsoft 365 Businessista Microsoft 365 E3:een
+title: Siirtyminen Microsoft 365 Business-Microsoft 365 E3-tieto koneesta
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -21,133 +21,133 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Lue, miten voit siirtää yrityksesi Microsoft 365 Business Premiumista Microsoft 365 E3:iin.
-ms.openlocfilehash: 6a795d96ccae7e054e7e52d4fd60a4e73b3c71dd
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneeseen.
+ms.openlocfilehash: fbd5c0710bffa92cfc17447094bb9b2683641d5f
+ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "45081809"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "48195515"
 ---
-# <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Siirtyminen Microsoft 365 Business Premiumista Microsoft 365 E3:een
+# <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Siirtäminen Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneesta
 
-Microsoft 365 Business Premiumissa on kaikki mitä tarvitset pienyrityksellesi, ja siinä yhdistyvät luokkansa parhaat pilvipohjaiset tuottavuussovellukset sekä yksinkertainen laitehallinta ja -suojaus, joiden avulla työntekijät voivat tehdä parhaansa. Joissakin tapauksissa microsoft 365 Business Premium -tilauksesi on kuitenkin ehkä siirrettävä Microsoft 365 E3:een. 
+Microsoft 365 Business Premiumissa on kaikki, mitä tarvitset pien yrityksellesi, yhdistämällä huippuhuippuiset pilvipohjaiset tuottavuus sovellukset yksinkertaiseen laite hallintaan ja tieto turvaan, jotka mahdollistavat työn tekijöiden parhaan työn. Joissain tapa uksissa Microsoft 365 Business Premium-tilaus on ehkä siirrettävä Microsoft 365 E3-tila ukseen. 
 
-Esimerkiksi yrityksesi on kasvanut ja tarvitsee yli 300 lisenssiä (onnittelut muuten).
+Esimerkiksi yrityksesi on kasvanut ja tarvitsee enemmän kuin 300-käyttö oikeuksia (onneksi olkoon).
 
-Yrityksesi tarvitsee myös yritysominaisuuksia, kuten Microsoft 365 Apps for enterprise-, Windows 10 Enterprise E3- tai Enterprise Client Access License (CALs) -käyttöoikeuksia.
+Tai yrityksesi tarvitsee yritys ominaisuuksia, kuten Microsoft 365-sovelluksia yritys käyttöön, Windows 10 Enterprise E3 tai Enterprise Client-käyttö oikeuksia (CALs).
 
-Päivittäminen on helppoa: voit aloittaa päivityksen [hallintakeskuksesta](../commerce/subscriptions/upgrade-to-different-plan.md). Kaikki nykyisen tilauksesi tiedot ja määritykset säilytetään. Ei ole mitään tekemistä voit valmistautua muuttoliikkeen ja mitään tekemistä jälkeenpäin, paitsi hyödyntää uusia ominaisuuksia.
+Päivitys on helppoa: voit aloittaa päivityksen [hallinta keskuksesta](../commerce/subscriptions/upgrade-to-different-plan.md). Kaikki nykyisen tilauksesi tiedot ja määritykset säilytetään. Sinun ei tarvitse tehdä mitään, jos haluat valmistautua siirtoon eikä mitään jälkeenpäin, paitsi hyödyntää uusia ominaisuuksia.
 
 >[!Note]
->Voit myös käyttää Microsoft 365 Business Premium -tilausta enintään 300 käyttöpenkkiä varten ja saada Microsoft 365 E3 -tilauksen yli 300 käyttöpenkkiä varten. Office 365 ATP ei kuitenkaan sisälly Microsoft 365 E3:een. Jos haluat jatkaa uhkien suojausta, lisää Office 365 ATP -käyttöoikeuksia, jotta kaikki Office 365 ATP -poliisien käyttäjät ovat lisensoituja.
+>Voit käyttää myös Microsoft 365 Business Premium-pakettia, jossa on enintään 300 paikkaa ja saat Microsoft 365 E3-tila uksen, jossa on yli 300 paikkaa. Office 365 ATP ei kuitenkaan sisälly Microsoft 365 E3-sovellukseen. Jos haluat jatkaa uhkien suojaamista, sinun on lisättävä muita Office 365 ATP-käyttö oikeuksia, jotta kaikki Office 365 ATP-toiminta-alueen käyttäjät saavat käyttö oikeuden.
 >
 
-## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Microsoft 365 Business Premiumin ja Microsoft 365 Enterprisen erot
+## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Erot Microsoft 365 Business Premiumin ja Microsoft 365 Enterprisen välillä
 
-Tässä taulukossa esitetään Microsoft 365 Business Premiumin ja Microsoft 365 E3:n väliset erot.
+Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Microsoft 365 E3-messujen erot.
 
-| Ominaisuus    | Microsoft 365 Business Premiumin tuki    | Microsoft 365 E3:n tuki | 
+| Ominaisuus    | Microsoft 365 Business Premiumin tuki    | Tuki Microsoft 365 E3-sovelluksessa | 
 |:-------|:-----|:-----|
 | **Paikallinen**        | | | 
-| Windows 10    | Windows 10 Liiketoiminta  |     Windows 10 Enterprise E3| 
-| Office-sovellukset*    | [Microsoft 365 -sovellukset yrityksille](#office-365-business)    | Microsoft 365 -sovellukset yrityksille | 
-| **Pilvituottavuussovellukset**        | | | 
-| Exchange Online ja Outlook    | 50 Gt:n tallennustilarajoitus postilaatikkoa kohden ja rajoittamaton Exchange Online -arkistointi    | 100 Gt:n tallennustilarajoitus postilaatikkoa kohden ja rajoittamaton Exchange Online -arkistointi | 
-| Joukkueet    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| OneDrive for Business    | 1 Tt:n tallennusraja käyttäjää kohden    | Rajoittamaton | 
-| Yammer, SharePoint Online, Suunnittelija, Stream    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Outlook-asiakaspäällikkö, MileIQ    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | | 
-| **Uhkien torjunta**        | | | 
-| Hyökkäyspinnan pienennysominaisuudet    | [Katso tämä luettelo](#threat-protection) | Microsoft Edgen laitteistopohjaisen eristyksen hallinta | 
-| Office 365 Advanced Threat Protection (ATP) -palvelupaketti 1 | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta voidaan lisätä | 
-| **Identiteetin hallinta**        | | | 
-| Azure Active Directory (Azure AD) -hybriditilien, Azure multi-factor-todennuksen (MFA), ehdollisen käytön, paikallisten käyttäjätietojen salasanan takaisinkutsun oletusasetusten palauttaminen|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Pilvisovelluksen etsintä, Azure AD Connect -terveys    |     | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Azure AD Office 365 -sovellukset Kertakirjautuminen (SSO): 10 sovellusta käyttäjää kohden (Galleria SaaS -sovellukset, kuten Salesforce)* | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: ei rajoitusta (paikalliset sovellukset Azure AD Application Proxy -välityspalvelimen ja muiden kuin galleriasovellusten kautta itsepalvelusovellusten integrointimallien avulla)    |     | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| **Laite- ja sovellushallinta**        | | | 
-| Microsoft Intune, Windowsin automaattiohjaus|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-|Virtuaalityöpöydän käyttö (VDA)    |  |     ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-|Windowsin virtuaalinen työpöytä (WVD)    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png) |     ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-|Jaetun tietokoneen aktivointi (SCA)    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png) |     ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Microsoftin työpöydän optimointipaketti    | |     ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| **Tietojen suojaaminen**        | | | 
-| Office 365:n tietojen menetyksen estäminen, Azure-tietojen suojaussuunnitelma 1    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Ikkunatietojen suojaus päätepisteen DLP-tekniikalle    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| **Client Access License (CAL-käyttöoikeudet)**    | | |     
-| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |         ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| **Noudattaminen**        | | | 
-| Rajoittamaton sähköpostin arkistointi    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Vaatimustenmukaisuuden pisteet / Compliance Manager    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Ediscovery    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Pito ja riita-asiat    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
-| Mrm(Messaging Records Management) -säilytystunnisteet ja säilytyskäytännöt    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3:een](../media/check-mark.png) | 
+| Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
+| Office-sovellukset *    | [Microsoft 365-sovellukset yrityksille](#office-365-business)    | Microsoft 365 -yrityssovellukset | 
+| **Pilvi palveluiden tuottavuus sovellukset**        | | | 
+| Exchange Online ja Outlook    | 50 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi    | 100 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi | 
+| Teams    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| OneDrive for Business    | 1 TERATAVUN tallennus tila raja käyttäjää kohden    | Rajoittamattomat | 
+| Yammer, SharePoint Online, Planner, Streamin    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Outlook Customer Managerilla, Mireiq    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | | 
+| **Uhkien suojaus**        | | | 
+| Hyökkäys pinnan vähennys ominaisuudet    | [Katso tämä lista](#threat-protection) | Microsoft Edgen laitteistopohjaisen eristämisen yritys hallinta | 
+| Office 365 Advanced Threat Protectionin (ATP) sopimus 1 | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
+| **Tunniste tietojen hallinta**        | | | 
+| Omatoiminen Sala sanan palautus (yhdistelmä Azure Active Directory (Azure AD)-tilit, Azure Multi-Factor-todennus (MFA), ehdollinen käyttö oikeus, Sala sanan palauttaminen paikallisille identiteeteille|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Pilvi sovellusten etsiminen, Azure AD Connect Health    |     | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Azure AD Office 365-sovellukset kertakirjautuminen (SSO): 10 sovellusta käyttäjää kohden (Galleria SaaS-sovellukset, kuten Salesforce) * | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: ei rajoitusta (paikalliset sovellukset Azuren mainosten sovelluksen välitys palvelimen ja muiden kuin valikoima sovellusten kautta omatoimisen sovelluksen integrointi mallien avulla)    |     | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| **Laitteen ja sovellusten hallinta**        | | | 
+| Microsoft Intune, Windowsin Autopilot|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+|Virtual Desktop Accessia (VDA)    |  |     ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+|Windowsin Näennäistyöpöytä (WVD)    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png) |     ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+|Jaettujen tieto koneiden Akti vointi (SCA)    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png) |     ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Microsoftin työpöydän optimointi paketti    | |     ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| **Tieto turva**        | | | 
+| Office 365 tietojen menetyksen estäminen, Azuren tieto turva sopimus 1    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Ikkuna tieto turva pääte pisteen DLP    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| **Client Access License (CAL-käyttö oikeus)**    | | |     
+| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoftin pääte pisteen määritysten hallinta, Windows Rights Management)| |         ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| **Noudattamisen**        | | | 
+| Rajoittamaton sähkö postin arkistointi    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Yhteensopivuuden valvoja    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| eDiscovery    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Pidossa oleva pito ja oikeus toimiin liittyvään pitoon    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Viestintä tietueiden hallinta (MRM) säilytys Tunnisteet ja säilytys käytännöt    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 ||||
 
-\*Käyttäjät, joille on määritetty SaaS-sovellusten käyttöoikeus, voivat käyttää enintään 10 sovellusta. Järjestelmänvalvojat voivat määrittää kertakirjautumisen ja muuttaa eri SaaS-sovellusten käyttöoikeuksia, mutta SSO-käyttö on sallittu vain 10 sovellukselle käyttäjää kohti kerrallaan. Kaikki Office 365 -sovellukset lasketaan yhdeksi sovellukseksi.
+\* Käyttäjät, joille on määritetty SaaS-sovellusten käyttö oikeus, voivat hankkia KERTAKIRJAUTUMISEN jopa 10 sovellukseen. Järjestelmänvalvojat voivat määrittää KERTAKIRJAUTUMISEN ja vaihtaa käyttö oikeuksia eri SaaS-sovelluksille, mutta kertakäyttöinen käyttö oikeus on sallittu vain 10: lle sovelluksen käyttäjää kohden kerrallaan. Kaikki Office 365-sovellukset lasketaan yhdeksi sovellukseksi.
 
-## <a name="migration"></a>Siirron
+## <a name="migration"></a>Siirto
 
-Voit siirtää microsoft 365 Business Premium -tilauksen ja -käyttöoikeudet sopivalle Microsoft 365 E3 -tilaukselle käyttöoikeuksiensa avulla kumppanisi kanssa.
+Jos haluat siirtää Microsoft 365 Business Premium-tila uksen ja käyttö oikeudet sopivan Microsoft 365 E3-tila ukseen, sinun on työskenneltävä yhdessä kumppanien kanssa.
 
-Seuraavissa osissa kuvataan, mitä muutoksia sinun on tehtävä, jos sellaisia on ja mitä voit tehdä siirron jälkeen.
+Seuraavissa osissa kerrotaan, mitä muutoksia sinun on tehtävä ja mitä voit tehdä siirron jälkeen.
 
-### <a name="microsoft-365-subscription-configuration-and-data"></a>Microsoft 365 -tilauksen määritys ja tiedot
+### <a name="microsoft-365-subscription-configuration-and-data"></a>Microsoft 365-tila uksen määritykset ja tiedot
 
-Sinun ei tarvitse tehdä muutoksia nykyiseen tilaukseesi tai tietoihin ennen siirtämistä, joka sisältää:
+Sinun ei tarvitse tehdä muutoksia nykyiseen tilaukseesi tai tiedoihisi ennen siirtoa, joka sisältää seuraavat tiedot:
 
-- Tilauksen määritykset, kuten DNS-toimialuenimet.
-- Käyttäjä- ja ryhmätilit ja todennusasetukset, kuten monivaiheinen todennus tai ehdollisen käytön käytännöt.
-- Tuottavuuspalvelun määritykset ja niiden tiedot, kuten Teams, Exchange Online -postilaatikot, SharePoint Online -sivustot, OneDrive for Business -kansiot ja OneNote-muistikirjat.
+- Tila uksen määritykset, kuten DNS-toimi alue nimet.
+- Käyttäjä-ja ryhmä tunnukset sekä todennus asetukset, kuten usean tekijän todentaminen tai ehdolliset käyttö oikeus käytännöt.
+- Tuottavuus palvelu määritykset ja niiden tiedot, kuten tiimit, Exchange Online-posti laatikot, SharePoint Online-sivustot, OneDrive for Business-kansiot ja OneNote-muisti kirjat.
 
-Käyttäjät voivat nyt nauttia rajoittamattomasta tallennustilasta Exchange Online -postilaatikoissa ja OneDrive for Business -kansioissa.
+Käyttäjät voivat nyt nauttia rajoittamattomasta tallennus tilasta Exchange Online-posti laatikoissa ja OneDrive for Business-kansioissa.
 
-Voit aloittaa Cloud App Discoveryn, Azure AD Connect Healthin ja SSO:n käytön yli 10 sovelluksessa.
+Voit aloittaa pilvi sovellusten etsimisen, Azure AD Connect Healthin ja SKERTA:N käytön yli 10 sovellukselle.
 
 >[!Note]
->Microsoft 365 E3:een siirretyt käyttäjät eivät voi enää käyttää Outlook Customer Manageria ja MileIQ:ta.
+>Käyttäjät, jotka on siirretty Microsoft 365 E3-tieto kannassa, eivät enää voi käyttää Outlook Customer Manageria ja MileIQ
 >
 
 <a name="threat-protection"></a>
-### <a name="threat-protection"></a>Uhkien torjunta
+### <a name="threat-protection"></a>Uhkien suojaus
 
-Windows 10 Business sisältää seuraavat suojaukset:
+Windows 10 Business sisältää seuraavat suoja ukset:
 
-- Eheyden valvonta käyttöjärjestelmän käynnistysprosessi
-- Arkaluonteisten käyttökomponenttien eheyden valvonta
-- Edistyneiden haavoittuvuuksien ja nollapäivän hyväksikäytön lieventämiset
-- Microsoft Edgen, Internet Explorerin ja Chromen mainepohjainen verkkosuojaus
-- Isäntäpohjainen palomuuri
-- Ransomware lieventäminen
-- Laitteistopohjainen eristäminen Microsoft Edgelle
-- Älykäs suojauskaavion tarjoama sovellusten hallinta
-- Laitteen ohjaus (USB)
-- Verkkosuojaus verkkopohjaisille uhkille
-- Isännän tunkeutumisen ehkäisyä koskevat säännöt
+- Käyttö järjestelmän käynnistys prosessin eheys valvonta
+- Arkaluonteisten käyttö komponenttien eheys valvonta
+- Kehittynyt haavoittuvuus ja nolla päivän heikkoutta hyödyntävät lieventävät tekijät
+- Maine-pohjainen verkon suojaus Microsoft Edgessä, Internet Explorerissa ja Chromessa
+- Isäntäpohjainen palo muuri
+- Kiristys ohjelmien lieventämis prosessit
+- Laitteistopohjainen eristys Microsoft Edgessä
+- Älykkään tieto turva graafin tarjoama sovellus ohjaus objekti
+- Device Control (USB)
+- Verkko suojaus verkkopohjaisia uhkia varten
+- Isännän luvattoman käytön estämistä koskevat säännöt
 
-Windows 10 Enterprise E3 sisältää myös microsoft Edgen laitteistopohjaisen eristyksen yrityshallinnan.
+Windows 10 Enterprise E3 sisältää myös Microsoft Edgeen laitepohjaisen eristämisen yritys hallinnan.
 
 >[!Note]
->Microsoft 365 E3:een siirretyt käyttäjät tarvitsevat kumpikin Office 365 ATP -käyttöoikeuden jatkuvaa uhkien suojausta varten. Muista ostaa lisää Office 365 ATP -käyttöoikeuksia, jotta kaikki Office 365 ATP -poliisien piiriin kuuluvat käyttäjät ovat lisensoituja. 
+>Käyttäjät, jotka on siirretty Microsoft 365 E3-sovelluksen käyttöön, vaativat Office 365 ATP-käyttö oikeuden jatkuvan uhkien suojaamiseksi. Muista ostaa lisää Office 365 ATP-käyttö oikeuksia niin, että kaikki Office 365 ATP-käytännöt kuuluvat kaikille käyttäjille. 
 >
 
-### <a name="device-management-with-intune"></a>Laitteen hallinta Intunen avulla
+### <a name="device-management-with-intune"></a>Laite hallinta Intune-palvelulla
 
-Sinun ei tarvitse tehdä muutoksia nykyiseen Intune-kokoonpanoosi ennen muuttoa, joka sisältää rekisteröityneet laitteet sekä laite- ja sovellusasetukset.
+Sinun ei tarvitse tehdä muutoksia nykyiseen Intune-määritykseen ennen siirtoa, joka sisältää myös rekisteröityneet laitteet sekä laitteiden ja sovellusten asetukset.
 
 ### <a name="windows-10"></a>Windows 10
 
-Microsoft 365 Business Premium sisältää Windows 10 Businessin, jonka voit asentaa Windowsin automaattiohjauksella. Kun siirryt Microsoft 365 E3:een, jokainen käyttöoikeus sisältää Windows 10 Enterprise E3:n, jonka voit asentaa myös Windowsin automaattiohjauksella.
+Microsoft 365 Business Premium sisältää Windows 10 Business-palvelu paketit, jotka voit asentaa Windows AutoPilot-asennuksen avulla. Kun siirryt Microsoft 365 E3-käyttö järjestelmään, jokaiseen käyttäjän käyttö oikeuteen sisältyy Windows 10 Enterprise E3, jonka voit asentaa myös Windows Autopilot-ohjelmiston avulla.
 
 <a name="office-365-business"></a>
-###  <a name="microsoft-365-apps-for-business"></a>Microsoft 365 -sovellukset yrityksille
+###  <a name="microsoft-365-apps-for-business"></a>Microsoft 365-sovellukset yrityksille
 
-Laitteisiin asennetut Microsoft 365 -yrityssovellukset alkavat automaattisesti käyttää Microsoft 365 Apps for enterprise -sovelluksen ominaisuuksia. Siirron jälkeen voit nyt käyttää:
+Laitteisiisi asennettu Microsoft 365-sovellusten yritys sovellus alkaa automaattisesti käyttää Microsoft 365-sovellusten ominaisuuksia yrityksessä. Siirron jälkeen voit nyt käyttää:
 
- - Volyymiaktivointi ryhmäkäytännön avulla
- - Sovelluksen telemetria
- - Päivitä ohjausobjektit
- - Laskentataulukon vertailu ja kysely
- - Liiketoimintatieto
+ - Määrä Akti vointi ryhmä käytännöllä
+ - Sovellustelemetria
+ - Päivitä komponentit
+ - Laskenta taulukon vertailu ja kysely
+ - Liiketoiminta tiedot
 
