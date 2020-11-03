@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Tutustu Microsoft 365 Business Premiumin käyttö oikeus ominaisuuksiin, jotka auttavat suojaamaan tietoja tieto koneilla, puhelimilla ja tableteilla.
-ms.openlocfilehash: 5e16d4bf297d363b6f9b44ce854c857e7e5464ed
-ms.sourcegitcommit: 9ce9001aa41172152458da27c1c52825355f426d
+ms.openlocfilehash: 587d80c27f867a387c901d23f4ec05f3c5905bf6
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "47357314"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48843484"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premiumin turvallisuus-ja yhteensopivuus ominaisuudet
 
@@ -63,9 +63,9 @@ Voit hallita monia Microsoft 365 Business Premium-tieto turva ominaisuuksia hall
 
 Microsoft 365 Business Premiumin lisä ominaisuuksia on saatavilla, jotka auttavat suojaamaan yritystäsi tieto verkko uhilta ja turvaamaan luottamukselliset tiedot.
   
-- **[Office 365 Advanced Threat-suojaus](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
+- **[Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)**
     
-    Advanced Threat Protectionin (ATP) avulla voit suojata yritystäsi kokeneilta tietojenkalastelulta ja kiristys ohjelmilta, jotka on suunniteltu työn tekijöiden tai asiakas tietojen vaarantamaan. Ominaisuuksiin kuuluvat:
+    Microsoft Defender for Office 365 auttaa suojaamaan yritystäsi edistyneemmät tietojenkalastelulta ja kiristys ohjelmilta, jotka on suunniteltu työn tekijöiden tai asiakas tietojen vaarantamaan. Ominaisuuksiin kuuluvat:
     
   - Hienostunut liitteiden tarkistus ja AI-käyttöinen analyysi vaarallisten viestien havaitsemiseksi ja hylkäämiseksi.
     

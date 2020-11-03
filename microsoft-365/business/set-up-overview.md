@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Lisä tietoja on artikkelissa Microsoft 365 Business Premiumin määritys ohjeet, tila uksen tilaaminen, toimi alueen ja käyttäjien lisääminen, tieto turva käytäntöjen määrittäminen ja paljon muuta.
-ms.openlocfilehash: fa9c02fa9546437c83b9cc6c1f1e6e0d723ec868
-ms.sourcegitcommit: 555d756c69ac9031d1fb928f2e1f9750beede066
+ms.openlocfilehash: 46370166a9d5e8c9308b8947513e631c159f0b86
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "47306465"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842126"
 ---
 # <a name="overview-of-setup"></a>Yleistä asennuksesta
 
@@ -42,14 +42,14 @@ Katso lyhyt video Microsoft 365 Business Premium-asennuksesta.<br><br>
 
 Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Useimmat määritys vaiheet voidaan tehdä ohjatussa määritys toiminnossa, mutta myös muut asetukset on lueteltu.
+Useimmat määritys vaiheet voidaan tehdä ohjatussa määrityksessä, mutta myös muut asetukset on lueteltu.
 
 ## <a name="step-1-add-your-domain-and-users"></a>Vaihe 1: toimi alueen ja käyttäjien lisääminen
 
    - **[Toimi alueen lisääminen](set-up.md#add-your-domain-to-personalize-sign-in)** (jos olet ostanut toimi alueen rekisteröitymisen [yhteydessä,](sign-up.md)tämä vaihe on jo suoritettu.)
 
    - **Lisää käyttäjiä**. Voit lisätä käyttäjiä kolmella eri tavalla:
-        - [Ohjatussa toiminnossa](set-up.md#add-users-in-the-wizard).
+        - [Ohjatussa määrityksessä](set-up.md#add-users-in-the-wizard).
         - Hakemisto synkronoinnin avulla voit [lisätä käyttäjiä Azure AD Connectin avulla](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) , jos käytössäsi on paikallinen Active Directory.
         - Voit myös [lisätä käyttäjiä myöhemmin](add-users-m365b.md) hallinta keskuksessa.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Vaihe 2: Määritä käyttö oikeus käytännöt ja Määritä laitteet 
@@ -61,17 +61,17 @@ Useimmat määritys vaiheet voidaan tehdä ohjatussa määritys toiminnossa, mut
   Ohjatun määritys toiminnon turva-asetusten lisäksi voit lisätä suojausta lisäämällä seuraavat asetukset:
 
 - **Sähkö postin haitta ohjelmien torjunta**
-- **ATP anti-phishing**
+- **Tietojen kalastelulta Office 365: n Defenderissä**
 - **Exchange Online Archiving**
-- **Azure Information Protectionin (toimintasuunnitelma1**)
+- **Azure Information Protectionin (toimintasuunnitelma1** )
 
 Lisä tietoja on Ohje aiheissa [uhkien suojaamisen lisääminen](increase-threat-protection.md) ja [yhteensopivuus ominaisuuksien määrittäminen](set-up-compliance.md).
 
-Katso myös [kymmenen parasta tapaa, joilla voit suojata Microsoft 365 Business Premiumin](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) parhaiden tieto turva käytäntöjen etenemis suunnitelmaksi.
+Katso myös [kymmenen parasta tapaa, joilla voit suojata Microsoft 365 Business Premiumin](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) parhaiden tieto turva käytäntöjen tiekartan avulla.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Vaihe 3: Windows 10-laitteiden määrittäminen ja hallinta
 
-Kun olet suorittanut ohjatun määritys toiminnon, haluat proctect kaikki organisaatiosi Windwos 10-tieto koneet.
+Kun olet suorittanut ohjatun määrityksen, haluat suojata kaikki organisaatiosi Windows 10-tieto koneet.
   
 - Windows 10 Pro on Microsoft 365 Business Premiumin [edellytys](pre-requisites-for-data-protection.md) , mutta jos käytössäsi on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, tilauksesi oikeuttaa [päivittämään Windows 10 Pro-versioon](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
 - Määritä Windows 10-laitteiden käytännöt noudattamalla ohjeita kohdassa [suojatun Windows 10-tieto koneiden](secure-win-10-pcs.md) määrittäminen.
@@ -82,7 +82,7 @@ Kun liityt Windows 10-laitteeseen Azure AD:hen, Windows 10-tieto koneille määr
 - Voit asentaa Officen automaattisesti Windows-laitteisiin [ohjatun määritys toiminnon](set-up.md#deploy-office-365-client-apps)avulla.
 - Anna käyttäjien [asentaa Office-sovelluksia](https://docs.microsoft.com/office365/admin/setup/install-applications) Windowsia ja laitteita varten.
      
-## <a name="advanced"></a>Lisä
+## <a name="advanced"></a>Tarkennettu
 - **Uusien laitteiden määrittäminen Autopilot-toiminnolla**
             
      [Windowsin Autopilot](add-autopilot-devices-and-profile.md) -toiminnon avulla voit määrittää käyttäjän **uudet** Windows 10-laitteet automaattisesti valmiiksi, mutta sinun on ehkä helpompi hankkia [kumppaneita](https://www.microsoft.com/solution-providers/search) , jotka voivat tehdä sen puolestasi. Voit myös siirtyä [Microsoft Storeen](https://go.microsoft.com/fwlink/?linkid=874598)ja pyytää pilvi tekniikan asiantuntijaa määrittämään uusia laitteita, jotka ostat.
@@ -93,6 +93,6 @@ Kun liityt Windows 10-laitteeseen Azure AD:hen, Windows 10-tieto koneille määr
 
     - Jos yrityksessä on paikallinen Active Directory-hakemisto, joka sisältää joitakin paikallisia resursseja (kuten jaetut tiedosto resurssit ja tulostimet), voit antaa Azure AD:hen liittyneille laitteillesi oikeuden käyttää näitä resursseja noudattamalla seuraavia ohjeita: paikallisten [resurssien käyttäminen Azure AD-liitetyssä laitteessa Microsoft 365 Business Premiumissa](access-resources.md).
 
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
+## <a name="see-also"></a>Katso myös
 
 [Microsoft 365 for Business-koulutus videot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

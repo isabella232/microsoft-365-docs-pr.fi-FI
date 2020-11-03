@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 Business Premiumin usein kysyttyjä kysymyksiä 
-description: Etsi vastauksia usein kysyttyihin kysymyksiin, jotka koskevat Microsoft 365 Businessia. Se on uusi pienille ja keskisuurille yrityksille suunniteltu ratkaisu. 
+title: Microsoft 365 Business Premiumin usein kysyttyjä kysymyksiä
+description: Etsi vastauksia usein kysyttyihin kysymyksiin, jotka koskevat Microsoft 365 Businessia. Se on uusi pienille ja keskisuurille yrityksille suunniteltu ratkaisu.
 author: Sirkkuw
 f1.keywords:
 - NOCSH
@@ -10,15 +10,15 @@ ms.prod: microsoft-365-business
 ms.collection: M365-subscription-management
 ms.custom: AdminSurgePortfolio
 localization_priority: Normal
-audience: microsoft-business 
+audience: microsoft-business
 keywords: Microsoft 365 Business Premium, Microsoft 365, pieni ja keskisuuri yritys, usein kysytyt kysymykset, vastaukset, Business
 ms.date: 07/21/2020
-ms.openlocfilehash: a8547240a2733a10730d0f8fb62fe8e8c7ef971c
-ms.sourcegitcommit: dffb9b72acd2e0bd286ff7e79c251e7ec6e8ecae
+ms.openlocfilehash: b117f0aecb76dc3b30a30e067c37328865eb0fdf
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "47948564"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842106"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premiumin usein kysyttyjä kysymyksiä
 
@@ -27,15 +27,15 @@ ms.locfileid: "47948564"
 ### <a name="what-is-microsoft-365-business-premium"></a>Mikä on Microsoft 365 Business Premium?
 Microsoft 365 on integroitu ratkaisu, joka yhdistää luokkansa parhaat tuottavuustyökalut, suojauksen ja laitehallintatyökalut pienille ja keskisuurille yrityksille. Se sisältää seuraavat:
 
-**Yritys tuottavuuden ja yhteistyötyökalujen joukko**:
+**Yritys tuottavuuden ja yhteistyötyökalujen joukko** :
 
 - Word, Excel, PowerPoint, Outlook, OneNote, Publisher ja Access
 - Exchange, OneDrive, Skype for Business, Microsoft Teams ja SharePoint.
 - Officen yrityssovellukset (Bookings, MileIQ<sup>[1](#footnote1)</sup>).
 
-**Yritys tason laite hallinta-ja tieto turva ominaisuudet**:
+**Yritys tason laite hallinta-ja tieto turva ominaisuudet** :
 
-- Auttaa suojaamaan ulkoisia uhkia, kuten tietojenkalastelua ja kehittyneitä haitta ohjelmia, Office 365 Advanced Threat Protectionin 1 ja Microsoft Defender Exploit Guard-ohjelman avulla.
+- Auttaa suojaamaan ulkoisia uhkia, kuten tietojenkalastelua ja kehittyneitä haitta ohjelmia, Microsoft Defender for Office 365-paketin 1 ja Microsoft Defender Exploit Guard-toiminnon avulla.
 - Auttaa hallitsemaan sitä, miten luottamuksellisia tietoja käytetään ja siirretään, tietojen menetyksen estokäytäntöjen ja Azure Information Protection -palvelupaketti 1:n avulla.
 - Auttaa suojaamaan, säilyttämään ja varmuuskopioimaan tietoja Exchange Online Archivingin avulla.
 - Sovellusten suojaus Office-sovelluksiin ja muihin mobiilisovelluksiin Intune-sovellussuojauksen avulla.
@@ -43,14 +43,14 @@ Microsoft 365 on integroitu ratkaisu, joka yhdistää luokkansa parhaat tuottavu
 - Käyttäjätietojen suojaus monimenetelmäisen todennuksen, salasanan omatoimisen palautuksen ja ehdollisten käyttöoikeuksien avulla.
 - Yhdenmukainen suojaus kokoonpano eri laitteissa &mdash; , jotka suojaavat yrityksen tietoja laitteiden välillä Microsoft Defender anti virus, joka on aina ajan tasalla.
 
-**Yksinkertaistettu laitteiden käyttöönotto ja käyttäjän määritys**:
+**Yksinkertaistettu laitteiden käyttöönotto ja käyttäjän määritys** :
 
 - Käyttäjien ja laitteiden hallinta yhdellä hallintakonsolilla
 - Office-sovellusten automaattinen asennus Windows 10 -tietokoneisiin.
 - Office ja Windows 10 aina ajan tasalla.
 - Tietokoneiden tehokas ja nopea käyttöönotto Windows Autopilotin avulla.
 
-**Muut oikeudet**:
+**Muut oikeudet** :
 
 - Microsoft 365 Business Premium -asiakkaat voivat käyttää myös Windowsin virtuaalityöpöytää ja Officen jaetussa tietokoneessa aktivoimisen ominaisuuksia. Saat lisätietoja [Microsoft 365 Business Premium -blogista](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog). Lue myös [Microsoft 365 for Business -palvelukuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
 
@@ -156,7 +156,7 @@ Suorin tie Microsoft 365 Business Premiumin onnistuneeseen käyttöönottoon on 
 
 ### <a name="does-microsoft-365-business-premium-include-the-full-capabilities-of-microsoft-intune"></a>Sisältääkö Microsoft 365 Business Premium täydet Intune-ominaisuudet?
 
-Kyllä, Microsoft 365 Business Premium-tilaajille on käyttö oikeus käyttää täyttä Intune-ominaisuuksia iOS:ssä, Androidissa, macOS-palvelussa ja muissa ympäristöjen välisessä laite hallinnassa. Ominaisuuksia, jotka eivät ole käytettävissä Microsoft 365 Business Premiumin yksinkertaistetussa hallinta konsolissa, kuten kolmannen osapuolen sovellusten hallintaa, Wi-Fi-profiilien määritystä ja VPN-varmenteita, voidaan hallita Full Intune-konsolissa.
+Kyllä, Microsoft 365 Business Premium-tilaajille on käyttö oikeus käyttää täyttä Intune-ominaisuuksia iOS:ssä, Androidissa, macOS-palvelussa ja muissa ympäristöjen välisessä laite hallinnassa. Ominaisuuksia, jotka eivät ole käytettävissä Microsoft 365 Business Premiumin yksinkertaistetussa hallinta konsolissa, kuten kolmannen osapuolen sovellusten hallintaa, Wi-Fi profiilien määritystä ja VPN-varmenteita, voidaan hallita Full Intune-konsolissa.
 
 ### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business-premium"></a>Onko Azure Active Directory (Azure AD) Premium P1 mukana Microsoft 365 Business Premiumissa?
 
@@ -180,9 +180,9 @@ Kaikki lisäosat, jotka voi lisätä Microsoft 365 Business Standardiin, voi lis
 
 Kyllä, voit ostaa yritys ääni paketin. [Business Voice](https://docs.microsoft.com/microsoftteams/business-voice/whats-business-voice) on Puhelin ratkaisu, joka on suunniteltu jopa 300-käyttäjien pienille ja keskisuurille yrityksille, jotka niputtaa puhelimen, ääni neuvottelun, kotimaisen puhelu paketin ja paljon muuta. Puhelin järjestelmän ominaisuuksiin kuuluu vastaaja, soittajatunnus, puhelu puisto, soiton siirto, automaattiset puhelun välittäjät ja puhelu jonot. <br> Jos haluat tietää, onko yritys ääni käytettävissä maassasi tai alueellasi, Katso lisä tietoja kohdasta [maan ja alueen käytettävyys yritys äänelle](https://docs.microsoft.com/microsoftteams/business-voice/country-region-availability). Lisä tietoja on kohdassa [yritys ääni-hinnoittelu](https://go.microsoft.com/fwlink/?linkid=2127221).
 
-### <a name="can-microsoft-365-business-premium-customers-use--microsoft-defender-advanced-threat-protection"></a>Voivatko Microsoft 365 Business Premium-asiakkaat käyttää Microsoft Defender Advanced Threat Protectionin suojausta?
+### <a name="can-microsoft-365-business-premium-customers-use-microsoft-defender-for-endpoint"></a>Voivatko Microsoft 365 Business Premium-asiakkaat käyttää Microsoft Defenderiä pääte pisteessä?
 
-Kyllä, Microsoft Defender Advanced Threat Protectionin suojaus on saatavilla Microsoft 365 Business Premiumiin, kun se ostetaan [Microsoft Cloud Solution Provider](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)-palvelusta.
+Kyllä, Microsoft Defender for Endpoint on saatavilla Microsoft 365 Business Premiumin apuohjelmana, kun se ostetaan [Microsoft Cloud Solution Provider-palvelusta](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider).
 
 ## <a name="partner-opportunity"></a>Kumppanuusmahdollisuus
 
@@ -224,7 +224,7 @@ Microsoft 365 Business Premium ei muuta aidoksi Windows-versiota, joka ei ole ai
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-premium-help-customers-with-their-compliance-obligations"></a>Mikä on GDPR ja miten Microsoft 365 Business Premium auttaa asiakkaita vaatimuksenmukaisuusvaatimuksissa?
 
-Yleinen tietosuoja-asetus (GDPR) on kattava uusi tietosuojalaki, jonka avulla Euroopan unionin (EU) asukkaat voivat paremmin hallita henkilökohtaisia tietojaan ja edellyttää, että organisaatiot säilyttävät henkilökohtaisia tietoja arvokkaasti. GDPR edellyttää, että EU-kansalaisten henkilökohtaisia tietoja hallinnoivat tai käsittelevät organisaatiot käyttävät vain kolmannen osapuolen tietojenkäsittelyä, joka täyttää GDPR:n vaatimukset henkilökohtaisten tietojen käsittelyn osalta. Maaliskuussa 2017 Microsoft toi saataville sopimusperusteiset takeet, jotka takaavat vaatimuksenmukaisuuden. Asiakkaat, joilla on kysymyksiä siitä, miten Microsoft voi auttaa heitä täyttämään GDPR-lisävelvoitteet, voivat lukea lisää edistyneistä yhteensopivuus- ja suojausominaisuuksista, jotka ovat saatavilla Microsoft 365 Business Premiumissa (kuten Azure Information Protection, tietojen menettämisen estäminen ja Advanced Threat Protection) ja muissa ohjelmistopaketeissa (kuten Microsoft 365 Enterprise E5:ssä). Saat lisätietoja osoitteesta [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
+Yleinen tietosuoja-asetus (GDPR) on kattava uusi tietosuojalaki, jonka avulla Euroopan unionin (EU) asukkaat voivat paremmin hallita henkilökohtaisia tietojaan ja edellyttää, että organisaatiot säilyttävät henkilökohtaisia tietoja arvokkaasti. GDPR edellyttää, että EU-kansalaisten henkilökohtaisia tietoja hallinnoivat tai käsittelevät organisaatiot käyttävät vain kolmannen osapuolen tietojenkäsittelyä, joka täyttää GDPR:n vaatimukset henkilökohtaisten tietojen käsittelyn osalta. Maaliskuussa 2017 Microsoft toi saataville sopimusperusteiset takeet, jotka takaavat vaatimuksenmukaisuuden. Asiakkaat, joilla on kysyttävää siitä, miten Microsoft voi auttaa heitä täyttämään muita GDPR-velvollisuuttaan, saavat lisä tietoja Microsoft 365 Business Premiumin kehittyneistä yhteensopivuus-ja tieto turva ominaisuuksista (esimerkiksi Azure Information Protein, tietojen menetyksen esto, Defender for Office 365 ja niin edelleen) ja muissa sviiteissä (esimerkiksi Microsoft 365 Enterprise E5). Saat lisätietoja osoitteesta [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr).
 
 ## <a name="footnotes"></a>Alaviitteet
 

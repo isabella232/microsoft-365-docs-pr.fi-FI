@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneeseen.
-ms.openlocfilehash: fbd5c0710bffa92cfc17447094bb9b2683641d5f
-ms.sourcegitcommit: c083602dda3cdcb5b58cb8aa070d77019075f765
+ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48195515"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842196"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Siirtäminen Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneesta
 
@@ -40,7 +40,7 @@ Tai yrityksesi tarvitsee yritys ominaisuuksia, kuten Microsoft 365-sovelluksia y
 Päivitys on helppoa: voit aloittaa päivityksen [hallinta keskuksesta](../commerce/subscriptions/upgrade-to-different-plan.md). Kaikki nykyisen tilauksesi tiedot ja määritykset säilytetään. Sinun ei tarvitse tehdä mitään, jos haluat valmistautua siirtoon eikä mitään jälkeenpäin, paitsi hyödyntää uusia ominaisuuksia.
 
 >[!Note]
->Voit käyttää myös Microsoft 365 Business Premium-pakettia, jossa on enintään 300 paikkaa ja saat Microsoft 365 E3-tila uksen, jossa on yli 300 paikkaa. Office 365 ATP ei kuitenkaan sisälly Microsoft 365 E3-sovellukseen. Jos haluat jatkaa uhkien suojaamista, sinun on lisättävä muita Office 365 ATP-käyttö oikeuksia, jotta kaikki Office 365 ATP-toiminta-alueen käyttäjät saavat käyttö oikeuden.
+>Voit käyttää myös Microsoft 365 Business Premium-pakettia, jossa on enintään 300 paikkaa ja saat Microsoft 365 E3-tila uksen, jossa on yli 300 paikkaa. Microsoft Defender for Office 365 ei kuitenkaan sisälly Microsoft 365 E3-sovellukseen. Jos haluat jatkaa uhkien suojaamista, lisää Office 365-käyttö oikeuksien Defender, jotta kaikki Office 365-käytäntöjä koskevat käyttäjät saavat käyttö oikeuden.
 >
 
 ## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Erot Microsoft 365 Business Premiumin ja Microsoft 365 Enterprisen välillä
@@ -51,7 +51,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Microsoft 36
 |:-------|:-----|:-----|
 | **Paikallinen**        | | | 
 | Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office-sovellukset *    | [Microsoft 365-sovellukset yrityksille](#office-365-business)    | Microsoft 365 -yrityssovellukset | 
+| Office-sovellukset *    | [Microsoft 365-sovellukset yrityksille](#office-365-business)    | Microsoft 365 -sovellukset yrityksille | 
 | **Pilvi palveluiden tuottavuus sovellukset**        | | | 
 | Exchange Online ja Outlook    | 50 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi    | 100 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi | 
 | Teams    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
@@ -60,12 +60,12 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Microsoft 36
 | Outlook Customer Managerilla, Mireiq    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | | 
 | **Uhkien suojaus**        | | | 
 | Hyökkäys pinnan vähennys ominaisuudet    | [Katso tämä lista](#threat-protection) | Microsoft Edgen laitteistopohjaisen eristämisen yritys hallinta | 
-| Office 365 Advanced Threat Protectionin (ATP) sopimus 1 | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
+| Office 365-paketin 1 Defender | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
 | **Tunniste tietojen hallinta**        | | | 
 | Omatoiminen Sala sanan palautus (yhdistelmä Azure Active Directory (Azure AD)-tilit, Azure Multi-Factor-todennus (MFA), ehdollinen käyttö oikeus, Sala sanan palauttaminen paikallisille identiteeteille|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 | Pilvi sovellusten etsiminen, Azure AD Connect Health    |     | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
-| Azure AD Office 365-sovellukset kertakirjautuminen (SSO): 10 sovellusta käyttäjää kohden (Galleria SaaS-sovellukset, kuten Salesforce) * | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: ei rajoitusta (paikalliset sovellukset Azuren mainosten sovelluksen välitys palvelimen ja muiden kuin valikoima sovellusten kautta omatoimisen sovelluksen integrointi mallien avulla)    |     | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Azure AD Office 365-sovellukset yksi Sign-On (SSO): 10 sovellusta käyttäjää kohden (Galleria SaaS-sovellukset, kuten Salesforce) * | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: ei rajoitusta (paikalliset sovellukset Azure AD Application Proxy-ja Non-Gallery-sovellusten kautta Self-Service sovellusten integrointi mallien avulla)    |     | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 | **Laitteen ja sovellusten hallinta**        | | | 
 | Microsoft Intune, Windowsin Autopilot|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 |Virtual Desktop Accessia (VDA)    |  |     ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
@@ -129,7 +129,7 @@ Windows 10 Business sisältää seuraavat suoja ukset:
 Windows 10 Enterprise E3 sisältää myös Microsoft Edgeen laitepohjaisen eristämisen yritys hallinnan.
 
 >[!Note]
->Käyttäjät, jotka on siirretty Microsoft 365 E3-sovelluksen käyttöön, vaativat Office 365 ATP-käyttö oikeuden jatkuvan uhkien suojaamiseksi. Muista ostaa lisää Office 365 ATP-käyttö oikeuksia niin, että kaikki Office 365 ATP-käytännöt kuuluvat kaikille käyttäjille. 
+>Käyttäjät, jotka on siirretty Microsoft 365 E3-sovelluksen käyttöön, vaativat Microsoft Defender for Office 365-käyttö oikeuden jatkuvan uhkien suojaamiseksi. Varmista, että ostat lisää Office 365-käyttö oikeuksien Defender-ohjelman, jotta kaikki Office 365-käytäntöjä koskevat käyttäjät saavat käyttö oikeuden. 
 >
 
 ### <a name="device-management-with-intune"></a>Laite hallinta Intune-palvelulla

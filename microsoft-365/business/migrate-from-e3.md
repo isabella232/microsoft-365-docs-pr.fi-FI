@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumiin Office 365 E3-tieto koneesta.
-ms.openlocfilehash: f3f3894a2a5cb69f9f91825d89db4f4b857fac5c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295286"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842156"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Siirtyminen Office 365 E3-tieto koneesta Microsoft 365 Business Premiumiin 
 
@@ -42,7 +42,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Office 365 E
 | Ominaisuus    | Microsoft 365 Business Premiumin tuki    | Office 365 E3-tuki | 
 |:-------|:-----|:-----|
 | **Paikallinen**        | | | 
-| Office-sovellukset<sup>1</sup>    | Microsoft 365-sovellukset yrityksille    | Microsoft 365 -yrityssovellukset | 
+| Office-sovellukset<sup>1</sup>    | Microsoft 365-sovellukset yrityksille    | Microsoft 365 -sovellukset yrityksille | 
 | **Pilvi palveluiden tuottavuus sovellukset**        | | | 
 | Exchange Online ja Outlook    | 50 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi    | 100 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi | 
 | Teams    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Office 365 E3-pakettiin](../media/check-mark.png) | 
@@ -51,7 +51,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Office 365 E
 | StaffHub    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Office 365 E3-pakettiin](../media/check-mark.png) | 
 | Outlook Customer Managerilla, Mireiq    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | | 
 | **Uhkien suojaus**        | | | 
-| Office 365 Advanced Threat Protectionin (ATP) sopimus 1 | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
+| Office 365-paketin 1 Defender | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
 | **Tunniste tietojen hallinta**        | | | 
 | Omatoiminen Sala sanan palautus (yhdistelmä Azure Active Directory (Azure AD)-tilit, Azure Multi-Factor-todennus (MFA), ehdollinen käyttö oikeus, Sala sanan palauttaminen paikallisille identiteeteille|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  | 
 | **Laitteen ja sovellusten hallinta**        | | |
@@ -122,7 +122,7 @@ Microsoft 365 Business Premiumin tallennus tila rajoitus on 50 gt, kun se käytt
 
 ### <a name="threat-protection"></a>Uhkien suojaus
 
-Kun olet muuttanut Microsoft 365 Business Premiumiin, sinulla on Office 365 ATP. Katso yleiskuvaus artikkelista [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) . Lisä tietoja on Ohje aiheissa [ATP:n turvallisten linkkien](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)määrittäminen, [ATP:n turvallisten liitteiden](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)määrittäminen ja [ATP-tietojenkalastelutietojen](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)määrittäminen.
+Kun olet muuttanut Microsoft 365 Business Premiumiin, sinulla on Office 365 Defender. Katso yleiskuvaus artikkelista [Microsoft Defender for Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) . Lisä tietoja on kohdassa [turvallisten linkkien](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)määrittäminen, [turvallisten liitteiden](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)määrittäminen ja [Tietojenkalastelutietojen määrittäminen Defender for Office 365](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)-sovelluksessa.
 
 ### <a name="sensitivity-labels"></a>Luottamuksellisuusmerkinnät
 
