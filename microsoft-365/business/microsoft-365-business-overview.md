@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Tietoa Microsoft 365 Business Premiumista, tilauspalvelusta, johon sisältyvät Officen tuottavuussovellukset ja edistynyt suojaus, jonka avulla yrityksesi voi suojautua kyberuhkia vastaan.
-ms.openlocfilehash: 50b1fec21593bd22577e07e000cedb89dfd90f66
-ms.sourcegitcommit: f7566dd6010744c72684efdc37f4471672330b61
+ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
+ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "45138224"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "48842176"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premiumin yleiskatsaus
 
@@ -71,11 +71,11 @@ Microsoft 365 Business Premium auttaa suojaamaan tietojasi kaikissa näissä til
 
 Microsoft 365 Business Premium auttaa **suojautumaan uhkia vastaan** seuraavilla tavoilla:
 
-- tarkistamalla sähköpostiviestien ja asiakirjojen sisältämät linkit reaaliajassa, jotta vaaralliset verkkosivustot voidaan estää (ATP:n Turvalliset linkit)
+- Tarkistamalla sähköpostiviestien ja asiakirjojen sisältämät linkit reaaliajassa, jotta vaaralliset verkkosivustot voidaan estää (Turvalliset linkit).
 
-- suorittamalla sähköpostin liitteiden kehittyneen analyysin eristetyssä ympäristössä, jotta hiljattain kehitetyt haittaohjelmat voidaan havaita (ATP:n Turvalliset liitteet) 
+- Suorittamalla sähköpostin liitteiden kehittyneen analyysin eristetyssä ympäristössä, jotta hiljattain kehitetyt haittaohjelmat voidaan havaita (Turvalliset liitteet). 
 
-- ottamalla käyttöön tietojenkalastelun torjuntakäytäntöjä, jotka hyödyntävät koneoppimismalleja ja tekeytymistunnistusta tarjotakseen suojaa edistyneitä hyökkäyksiä vastaan (ATP:n tietojenkalastelun torjunta) 
+- Ottamalla käyttöön tietojenkalastelun torjuntakäytäntöjä, jotka hyödyntävät koneoppimismalleja ja tekeytymistunnistusta tarjotakseen suojaa edistyneitä hyökkäyksiä vastaan (Tietojenkalastelun torjunta Defenderissä Office 365:n tekoälylle). 
 
 - määrittämällä edistyneitä käytäntöjä, jotka estävät käytön epäluotettavista sijainneista tai ohittavat monimenetelmäisen todentamisen luotetuissa sijainneissa, kuten yrityksen verkossa (Azure MFA, mukaan lukien luotetut IP-osoitteet ja ehdollinen käyttö) 
 
