@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneeseen.
-ms.openlocfilehash: 874da0d35759c8af4c3ee2ca4a1bdfa90a91627c
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: 2b15d20e3ae1ad0bef871b139e61abf3ba260729
+ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842196"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "49071423"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Siirtäminen Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneesta
 
@@ -57,7 +57,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Microsoft 36
 | Teams    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 | OneDrive for Business    | 1 TERATAVUN tallennus tila raja käyttäjää kohden    | Rajoittamattomat | 
 | Yammer, SharePoint Online, Planner, Streamin    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
-| Outlook Customer Managerilla, Mireiq    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | | 
+| MileIQ    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | | 
 | **Uhkien suojaus**        | | | 
 | Hyökkäys pinnan vähennys ominaisuudet    | [Katso tämä lista](#threat-protection) | Microsoft Edgen laitteistopohjaisen eristämisen yritys hallinta | 
 | Office 365-paketin 1 Defender | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
@@ -106,7 +106,7 @@ Käyttäjät voivat nyt nauttia rajoittamattomasta tallennus tilasta Exchange On
 Voit aloittaa pilvi sovellusten etsimisen, Azure AD Connect Healthin ja SKERTA:N käytön yli 10 sovellukselle.
 
 >[!Note]
->Käyttäjät, jotka on siirretty Microsoft 365 E3-tieto kannassa, eivät enää voi käyttää Outlook Customer Manageria ja MileIQ
+>Käyttäjät, jotka on siirretty Microsoft 365 E3-käyttö kohteeseen, eivät voi enää käyttää MileIQ-valmistetta
 >
 
 <a name="threat-protection"></a>
