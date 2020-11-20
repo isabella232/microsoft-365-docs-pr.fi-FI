@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneeseen.
-ms.openlocfilehash: 2b15d20e3ae1ad0bef871b139e61abf3ba260729
-ms.sourcegitcommit: 34ebec8e2bd54ba3d4ccfd9724797665c965c17f
+ms.openlocfilehash: 3f840a27cdcf50bba7710681135f6c2e241ad14b
+ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49071423"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367051"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Siirtäminen Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneesta
 
@@ -129,7 +129,7 @@ Windows 10 Business sisältää seuraavat suoja ukset:
 Windows 10 Enterprise E3 sisältää myös Microsoft Edgeen laitepohjaisen eristämisen yritys hallinnan.
 
 >[!Note]
->Käyttäjät, jotka on siirretty Microsoft 365 E3-sovelluksen käyttöön, vaativat Microsoft Defender for Office 365-käyttö oikeuden jatkuvan uhkien suojaamiseksi. Varmista, että ostat lisää Office 365-käyttö oikeuksien Defender-ohjelman, jotta kaikki Office 365-käytäntöjä koskevat käyttäjät saavat käyttö oikeuden. 
+>Käyttäjät, jotka on siirretty Microsoft 365 E3-käyttö oikeuteen, vaativat Microsoft Defender for Office 365-lisenssin jatkuvan uhkien suojaamiseksi. Varmista, että ostat lisää Office 365-käyttö oikeuksien Defender-ohjelman, jotta kaikki Office 365-käytäntöjä koskevat käyttäjät saavat käyttö oikeuden. 
 >
 
 ### <a name="device-management-with-intune"></a>Laite hallinta Intune-palvelulla
