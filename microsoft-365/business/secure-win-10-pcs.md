@@ -23,12 +23,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi turvaamaan Windows 10-tieto koneet sen jälkeen, kun olet määrittänyt Microsoft 365 Business Premiumin.
-ms.openlocfilehash: a70fcd330fe6ef330fac08512aded4d8913313d5
-ms.sourcegitcommit: 1780359234abdf081097c8064438d415da92fb85
+ms.openlocfilehash: 286393779eaa92d33432ff9ad4b21c0a1fb8612c
+ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "46778380"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "49376273"
 ---
 # <a name="secure-windows-10-computers"></a>Windows 10-tieto koneiden suojaaminen
 
@@ -36,7 +36,7 @@ Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
 Kun olet [määrittänyt](set-up.md) Microsoft 365 Business Premiumin, sinun on aika suojata organisaatiosi Windows 10-tieto koneet varkaudelta ja haitta ohjelmilta, kuten viruksilta ja haitta ohjelmilta.
 
-## <a name="to-secure-your-windows-10-pcs"></a>Windows 10-tieto koneiden suojaaminen
+## <a name="to-secure-your-windows-10-computers"></a>Windows 10-tieto koneiden suojaaminen
 
 1. Kirjaudu sisään [Microsoft 365-hallinta keskukseen](https://admin.microsoft.com) käyttämällä yleisiä järjestelmänvalvojan tunniste tietoja. 
 2. Valitse vasemmanpuoleisessa siirtymis ruudussa **määritys** ja valitse sitten **Kirjautuminen ja suojaus**-kohdassa **suojaa Windows 10-tieto koneet**. Aloita valitsemalla **Näytä** .
