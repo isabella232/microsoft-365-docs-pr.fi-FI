@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneeseen.
-ms.openlocfilehash: 3f840a27cdcf50bba7710681135f6c2e241ad14b
-ms.sourcegitcommit: 001e64f89f9c3cd6bbd4a25459f5bee3b966820c
+ms.openlocfilehash: 3f1bb9591e1bd2bac49326325ce6c8c2d6778497
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "49367051"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558234"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Siirtäminen Microsoft 365 Business Premiumista Microsoft 365 E3-tieto koneesta
 
@@ -51,7 +51,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Microsoft 36
 |:-------|:-----|:-----|
 | **Paikallinen**        | | | 
 | Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office-sovellukset *    | [Microsoft 365-sovellukset yrityksille](#office-365-business)    | Microsoft 365 -sovellukset yrityksille | 
+| Office-sovellukset *    | [Microsoft 365-sovellukset yrityksille](#office-365-business)    | Microsoft 365 -yrityssovellukset | 
 | **Pilvi palveluiden tuottavuus sovellukset**        | | | 
 | Exchange Online ja Outlook    | 50 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi    | 100 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi | 
 | Teams    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
@@ -62,7 +62,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Microsoft 36
 | Hyökkäys pinnan vähennys ominaisuudet    | [Katso tämä lista](#threat-protection) | Microsoft Edgen laitteistopohjaisen eristämisen yritys hallinta | 
 | Office 365-paketin 1 Defender | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
 | **Tunniste tietojen hallinta**        | | | 
-| Omatoiminen Sala sanan palautus (yhdistelmä Azure Active Directory (Azure AD)-tilit, Azure Multi-Factor-todennus (MFA), ehdollinen käyttö oikeus, Sala sanan palauttaminen paikallisille identiteeteille|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
+| Omatoiminen Sala sanan palautus yhdistelmä Azure Active Directory (Azure AD)-tileillä, Azure AD Multi-Factor-todennus (MFA), ehdollinen käyttö oikeus, Sala sanan palauttaminen paikallisille identiteeteille|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 | Pilvi sovellusten etsiminen, Azure AD Connect Health    |     | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 | Azure AD Office 365-sovellukset yksi Sign-On (SSO): 10 sovellusta käyttäjää kohden (Galleria SaaS-sovellukset, kuten Salesforce) * | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 
 | Azure AD Premium 1 SSO: ei rajoitusta (paikalliset sovellukset Azure AD Application Proxy-ja Non-Gallery-sovellusten kautta Self-Service sovellusten integrointi mallien avulla)    |     | ![Sisältyy Microsoft 365 E3-pakettiin](../media/check-mark.png) | 

@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumiin Office 365 E3-tieto koneesta.
-ms.openlocfilehash: b8aa58f1f050ec6247479ed02e142507a2df45fc
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: eebf78c24ed4bfd1a4fc2d843f37aebbe3d35e31
+ms.sourcegitcommit: c1dd5be42fe0c5dcc7c05817c941edd9076febf8
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842156"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49558248"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Siirtyminen Office 365 E3-tieto koneesta Microsoft 365 Business Premiumiin 
 
@@ -42,7 +42,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Office 365 E
 | Ominaisuus    | Microsoft 365 Business Premiumin tuki    | Office 365 E3-tuki | 
 |:-------|:-----|:-----|
 | **Paikallinen**        | | | 
-| Office-sovellukset<sup>1</sup>    | Microsoft 365-sovellukset yrityksille    | Microsoft 365 -sovellukset yrityksille | 
+| Office-sovellukset<sup>1</sup>    | Microsoft 365-sovellukset yrityksille    | Microsoft 365 -yrityssovellukset | 
 | **Pilvi palveluiden tuottavuus sovellukset**        | | | 
 | Exchange Online ja Outlook    | 50 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi    | 100 gt tallennus tilan rajoitus posti laatikkoa kohden ja rajoittamaton Exchange Online-arkistointi | 
 | Teams    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Office 365 E3-pakettiin](../media/check-mark.png) | 
@@ -53,7 +53,7 @@ Tässä taulukossa esitellään Microsoft 365 Business Premiumin ja Office 365 E
 | **Uhkien suojaus**        | | | 
 | Office 365-paketin 1 Defender | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
 | **Tunniste tietojen hallinta**        | | | 
-| Omatoiminen Sala sanan palautus (yhdistelmä Azure Active Directory (Azure AD)-tilit, Azure Multi-Factor-todennus (MFA), ehdollinen käyttö oikeus, Sala sanan palauttaminen paikallisille identiteeteille|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  | 
+| Omatoiminen Sala sanan palautus yhdistelmä Azure Active Directory (Azure AD)-tileillä, Azure AD Multi-Factor-todennus (MFA), ehdollinen käyttö oikeus, Sala sanan palauttaminen paikallisille identiteeteille|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  | 
 | **Laitteen ja sovellusten hallinta**        | | |
 | Microsoft Intune, Windowsin AutoPilot|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  |
 | Jaettujen tieto koneiden Akti vointi|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Office 365 E3-pakettiin](../media/check-mark.png)| 
