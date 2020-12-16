@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Opi, miten voit käyttää paikallisia resursseja, kuten yritys sovelluksia, jaettuja tiedostoja ja tulostimia Azure Active Directorysta, jotka liittyivät Windows 10-laitteeseen.
-ms.openlocfilehash: 2144268f5cbab67c39d5902622c61c0c35e6481c
-ms.sourcegitcommit: 15be7822220041c25fc52565f1c64d252e442d89
+ms.openlocfilehash: 22edf0c23d6318e1f70bcb21b2cd697ea0a75da4
+ms.sourcegitcommit: 849b365bd3eaa9f3c3a9ef9f5973ef81af9156fa
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48295306"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "49688229"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Paikallisten resurssien käyttäminen Azure AD-liitetyissä laitteissa Microsoft 365 Business Premiumissa
 
@@ -63,4 +63,4 @@ Jos Windows-laite, jonka Azure-AD on liittynyt aiemmin toimi alueen mukaan tai t
 
 - Käyttäjät eivät pysty todentamaan sovelluksia, jotka ovat riippuvaisia Active Directory-todennuksesta. Voit arvioida vanhaa sovellusta ja päivittää sitä sovellukseen, joka käyttää modernia todennus ohjelmaa, jos se on mahdollista.
 
-- Active Directory-tulostimen etsintä ei toimi. Voit määrittää kaikille käyttäjille suorat tulostus polut tai käyttää [yhdistelmä pilvi tulostusta](https://docs.microsoft.com/windows-server/administration/hybrid-cloud-print/hybrid-cloud-print-deploy).
+- Active Directory-tulostimen etsintä ei toimi. Voit antaa kaikille käyttäjille suoran tulostin polun tai käyttää [Universal Print-palvelua](https://aka.ms/UPDocs).
