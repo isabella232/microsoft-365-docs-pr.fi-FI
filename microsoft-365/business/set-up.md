@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Premiumin määrittäminen
+title: Microsoft 365 Business Premiumin määritäminen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -29,106 +29,108 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Tutustu Microsoft 365 Business Premiumin määritys vaiheisiin, joita ovat esimerkiksi toimi alueen ja käyttäjien lisääminen, tieto turva käytäntöjen määrittäminen ja paljon muuta.
-ms.openlocfilehash: cc20637d7a78bd34ecb61a4ed46eb06d564d63df
-ms.sourcegitcommit: 25afc0c34edc7f8a5eb389d8c701175256c58ec8
+description: Tutustu Microsoft 365 Business Premiumin määritysvaiheisiin, kuten toimialueen ja käyttäjien lisäämiseen, suojauskäytäntöjen määrittämiseen ja paljon muuta.
+ms.openlocfilehash: e7ebe179c67077dc71ae4873b0711d0e810c701a
+ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "47324492"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "50044726"
 ---
-# <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Microsoft 365 Business Premiumin määrittäminen ohjatussa määritys toiminnossa
+# <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Microsoft 365 Business Premiumin määrittäminen ohjatussa määritystoiminnossa
 
-Katsomalla tämän videon saat yleiskatsauksen Microsoft 365 Business Premium-asennuksesta.<br><br>
+Tässä videossa on yleiskuvaus Microsoft 365 Business Premiumin määrityksestä.<br><br>
 
-## <a name="add-your-domain-users-and-set-up-policies"></a>Toimi alueen, käyttäjien ja käytäntöjen määrittäminen
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-Kun ostat Microsoft 365 Business Premiumin, sinulla on mahdollisuus käyttää omaa toimi aluettasi tai ostaa se [rekisteröitymisen](sign-up.md)yhteydessä.
+## <a name="add-your-domain-users-and-set-up-policies"></a>Lisää toimialue, käyttäjät ja määritä käytännöt
 
-- Jos olet ostanut uuden toimi alueen rekisteröityessäsi, toimi alueesi on määritetty ja voit siirtyä [käyttäjien lisäämiseen ja käyttö oikeuksien määrittämiseen](#add-users-and-assign-licenses).
+Kun ostat Microsoft 365 Business Premiumin, voit käyttää omaa toimialuetta tai ostaa sellaisen [rekisteröitymisen aikana.](sign-up.md)
 
-### <a name="add-your-domain-to-personalize-sign-in"></a>Toimi alueen lisääminen kirjautumisen mukauttamiseen
+- Jos ostit uuden toimialueen rekisteröityessäsi, toimialueesi on määritetty, ja voit siirtyä Lisää käyttäjiä -asentoon [ja määrittää käyttöoikeuksia.](#add-users-and-assign-licenses)
 
-1. Kirjaudu sisään [Microsoft 365-hallinta keskukseen](https://admin.microsoft.com) käyttämällä yleisiä järjestelmänvalvojan tunniste tietoja. 
+### <a name="add-your-domain-to-personalize-sign-in"></a>Toimialueen lisääminen sisäänkirjautumista varten
 
-2. Käynnistä ohjattu toiminto valitsemalla **Siirry asetuksiin** .
+1. Kirjaudu [Microsoft 365 -hallintakeskukseen yleisen](https://admin.microsoft.com) järjestelmänvalvojan tunnistetiedoilla. 
 
-    ![Valitse Siirry asetuksiin.](../media/gotosetupinadmincenter.png)
+2. Käynnistä **ohjattu toiminto valitsemalla** Siirry asennukseen.
 
-3. **Asenna Office-sovellukset** -sivulla voit halutessasi asentaa sovellukset omaan tieto koneeseesi.
+    ![Valitse Siirry asennukseen.](../media/gotosetupinadmincenter.png)
+
+3. Asenna **Office-sovellukset -sivulla** voit halutessasi asentaa sovellukset omaan tietokoneeseesi.
     
-4. Kirjoita **Lisää toimi alue** -vaiheeseen haluamasi toimi alueen nimi (esimerkiksi contoso.com).
+4. Kirjoita **Lisää toimialue -vaiheeseen** toimialuenimi, jota haluat käyttää (kuten contoso.com).
 
     > [!IMPORTANT]
-    > Jos ostit toimi alueen rekisteröitymisen aikana, et näe **Lisää toimi alue** vaihetta tässä. Siirry kohtaan [Lisää käyttäjiä](#add-users-and-assign-licenses) .
+    > Jos olet ostanut toimialueen rekisteröitymisen aikana, Lisää toimialue -vaihetta ei **ole** tässä. Siirry sen sijaan Lisää käyttäjiä -ylle. [](#add-users-and-assign-licenses)
 
-    ![Näyttö kuva Mukauta kirjautumissivusi-sivusta.](../media/adddomain.png)
+    ![Näyttökuva Mukauta kirjautumissivua -ruudusta.](../media/adddomain.png)
 
     
-4. Noudattamalla ohjatun toiminnon ohjeita voit [luoda DNS-tietueita missä tahansa Microsoft 365-palvelun DNS-isännöinti palvelussa](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) , joka vahvistaa, että omistat toimi alueen. Jos tiedät toimi alueen isännältä, Katso myös [tarkat isännöinti ohjeet](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Luo DNS-tietueet missä tahansa [Microsoft 365:n](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) DNS-isännöintipalvelussa ohjatun toiminnon ohjeiden mukaisesti, joka vahvistaa, että omistat toimialueen. Jos tiedät toimialueesi isännän, tutustu myös [isäntäkohtaisiin ohjeisiin.](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)
 
-    Jos isännöinti palvelusi on GoDaddy tai jokin muu palvelin, jossa on käytössä [Domain Connect](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), prosessi on helppo, ja sinua pyydetään automaattisesti Kirjautu maan sisään ja päästämään Microsoft todennetaan puolestasi.
+    Jos isännöintipalvelusi on GoDaddy tai jokin muu isännöintipalvelu on otettu käyttöön toimialueen [yhteydessä,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)prosessi on helppoa, ja sinua pyydetään automaattisesti kirjautumaan sisään ja antamaan Microsoftin todentaa asia puolestasi.
 
-    ![Valitse GoDaddy-vahvistuksen käyttäminen-sivulla Valtuuta.](../media/godaddyauth.png)
+    ![Valitse GoDaddyn Vahvista käyttö -sivulla Valtuuta.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Lisää käyttäjiä ja määritä käyttöoikeuksia
 
-Voit lisätä käyttäjiä ohjatussa toiminnossa, mutta voit myös [lisätä käyttäjiä myöhemmin](add-users-m365b.md) hallinta keskuksessa. Lisäksi jos sinulla on paikallinen toimi alueen ohjaus kone, voit lisätä käyttäjiä [Azure AD Connectin](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express)avulla.
+Voit lisätä käyttäjiä ohjatussa toiminnossa, mutta voit myös [lisätä käyttäjiä](add-users-m365b.md) myöhemmin hallintakeskuksessa. Lisäksi, jos sinulla on paikallinen toimialueen ohjauskone, voit lisätä käyttäjiä [Azure AD Connectilla.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express)
 
 #### <a name="add-users-in-the-wizard"></a>Käyttäjien lisääminen ohjatussa toiminnossa
 
-Kaikki ohjatussa toiminnossa lisättävät käyttäjät saavat automaattisesti Microsoft 365 Business Premium-käyttö oikeuden.
+Kaikille ohjatussa toiminnossa lisäämiesi käyttäjien käyttöön määritetään automaattisesti Microsoft 365 Business Premium -käyttöoikeus.
 
-![Näyttö kuva ohjatun toiminnon lisää uusia käyttäjiä-sivusta](../media/addnewuserspage.png)
+![Näyttökuva ohjatun toiminnon Lisää uusia käyttäjiä -sivusta](../media/addnewuserspage.png)
 
-1. Jos Microsoft 365 Business Premium-tilauksessasi on olemassa olevia käyttäjiä (jos olet esimerkiksi käyttänyt Azure AD Connectia), saat vaihto ehdon määrittää heille käyttö oikeuksia nyt. Jatka eteenpäin ja lisää käyttäjille myös käyttöoikeudet.
+1. Jos Microsoft 365 Business Premium -tilauksessasi on aiemmin luotuja käyttäjiä (jos olet esimerkiksi käyttänyt Azure AD Connectia), voit määrittää heille käyttöoikeuksia nyt. Jatka eteenpäin ja lisää käyttäjille myös käyttöoikeudet.
 
-2. Kun olet lisännyt käyttäjät, saat myös mahdollisuuden jakaa tunniste tiedot lisäämiesi uusien käyttäjien kanssa. Voit tulostaa ne, lähettää ne sähköpostitse tai ladata ne palvelimesta.
+2. Kun olet lisännyt käyttäjät, voit myös jakaa tunnistetiedot lisäätyille uusille käyttäjille. Voit tulostaa ne, lähettää ne sähköpostitse tai ladata ne palvelimesta.
 
 ### <a name="connect-your-domain"></a>Toimialueen yhdistäminen
 
 > [!NOTE]
-> Jos päätät käyttää. oMicrosoft-toimi aluetta tai käyttää Azure AD Connectia käyttäjien määrittämiseen, et näe tätä vaihetta.
+> Jos päätit käyttää .onmicrosoft-toimialuetta tai olet määrittänyt käyttäjiä Azure AD Connectin avulla, et näe tätä vaihetta.
   
 Kun haluat määrittää palvelut, sinun on päivitettävä joitakin DNS-isännän tai toimialuerekisteröijän tietueita.
   
-1. Ohjattu määritystoiminto yleensä tunnistaa toimialuerekisteröijän ja antaa linkin vaiheittaisiin ohjeisiin, joiden avulla voit päivittää nimipalvelintietueet toimialuerekisteröijän sivustossa. Jos näin ei tapahdu, [Muuta nimi palvelimia, jotta voit määrittää Microsoft 365 minkä tahansa toimi alueen rekisteröinti palvelun avulla](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar). 
+1. Ohjattu määritystoiminto yleensä tunnistaa toimialuerekisteröijän ja antaa linkin vaiheittaisiin ohjeisiin, joiden avulla voit päivittää nimipalvelintietueet toimialuerekisteröijän sivustossa. Jos näin ei ole, [muuta nimipalvelimet niin, että Microsoft 365 määritetään minkä tahansa toimialuerekisteröijän kanssa.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar) 
 
-    - Jos sinulla on aiemmin luotuja DNS-tietueita, kuten aiemmin luotua sivustoa, mutta DNS-isäntä on otettu käyttöön [toimi alueen yhteydessä](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect), valitse **Lisää tietueet**. Hyväksy **Valitse online-palvelut** -sivulla kaikki oletus asetukset ja valitse sitten **Seuraava**ja valitse **Valtuuta** DNS-isännän sivulla.
-    - Jos sinulla on aiemmin luotuja DNS-tietueita muiden DNS-Isän tien kanssa (ei otettu käyttöön toimi alueen yhteydessä), sinun kannattaa hallita omia DNS-tietueitasi ja varmistaa, että olemassa olevat palvelut pysyvät yhteydessä. Lisä tietoja on kohdassa [toimi alueen perusteet](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) .
+    - Jos sinulla on aiemmin luotuja DNS-tietueita, esimerkiksi aiemmin luotu verkkosivusto, mutta DNS-isännöintipalvelusi on otettu käyttöön [toimialueen](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)yhteydessä, valitse **Lisää tietueet minulle.** Hyväksy **Valitse verkkopalvelut -sivulla** kaikki oletusasetukset, valitse Seuraava  ja valitse DNS-isännöintipalvelun sivulla Valtuuta.
+    - Jos sinulla on aiemmin luotuja DNS-tietueita muiden DNS-isännöintipalvelujen kanssa (toimialueiden yhdistäminen ei ole käytössä), sinun on hallittava omia DNS-tietueitasi ja varmistaa, että olemassa olevat palvelut ovat yhteydessä toisiinsa. Lisätietoja on toimialueen perustoimialueissa. [](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics)
 
-        ![Aktivoi tietueet-sivu.](../media/activaterecords.png)
+        ![Aktivoi tietueet -sivu.](../media/activaterecords.png)
 
-2. Noudata ohjatun toiminnon ohjeita ja Sähkö posti ja muut palvelut määritetään puolestasi.
+2. Noudata ohjatun toiminnon ohjeita, ja sähköposti ja muut palvelut määritetään sinulle.
 
-### <a name="protect-your-organization"></a>Organisaation suojaaminen 
+### <a name="protect-your-organization"></a>Suojaa organisaatiosi 
 
-Ohjatussa toiminnossa määritetyt käytännöt otetaan automaattisesti käyttöön *kaikille käyttäjille*- [käyttö oikeus ryhmälle](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) . Voit myös luoda lisää ryhmiä, joiden avulla käytäntöjä voi määrittää hallinta keskuksessa.
+Ohjatussa toiminnossa määritettyjä käytäntöjä käytetään automaattisesti Kaikki käyttäjät [-käyttöoikeusryhmässä.](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups)  Voit myös luoda muita ryhmiä, jotta voit määrittää käytäntöjä hallintakeskuksessa.
 
-1. **Kehittyneiden cyber-uhkien lisä suojauksen**ansiosta on suositeltavaa, että hyväksyt oletus asetukset, joiden avulla voit antaa [Office 365 Advance Threat Protectionin](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) etsiä tiedostoja ja linkkejä Office-sovelluksissa.
+1. **Edistyneiltä** kyberuhkilta suojauksen lisäämisen osalta on suositeltavaa hyväksyä oletusasetukset, jotta [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) -tarkistustiedostot ja -linkit voidaan hyväksyä Office-sovelluksissa.
 
-    ![Näyttö kuva lisää suojaus-sivusta.](../media/increasetreatprotection.png)
-
-
-2. Hyväksy luottamuksellisten tietojen **estäminen** -sivulla oletus asetukset, jotta voit ottaa Office 365-tietojen menetyksen estämisen (DLP) käyttöön, jotta voit jäljittämään luottamukselliset tiedot Office-sovelluksissa ja estää niiden tahattoman jakamisen organisaation ulkopuolelta.
-
-3. **Jos haluat suojata tietoja Office mobiililaitteille** -sivulla, poistu mobiilisovellusten Hallin nasta, Laajenna asetukset ja tarkista ne ja valitse sitten **Luo mobiilisovelluksen hallinta käytännön**.
-
-    ![Näyttö kuva tietojen suojaamisesta Office for Mobile-sivulla.](../media/protectdatainmobile.png)
+    ![Näyttökuva Suurenna suojausta -sivusta.](../media/increasetreatprotection.png)
 
 
-## <a name="secure-windows-10-pcs"></a>Windows 10-tieto koneiden suojaaminen
+2. Hyväksy **Estä** luottamuksellisten tietojen vuodot -sivulla oletusarvot, joilla Office 365:n tietojen menetyksen estäminen (DLP) voidaan ottaa käyttöön, jotta voit seurata luottamuksellisia tietoja Office-sovelluksissa ja estää niiden tahattoman jakamisen organisaation ulkopuolelle.
 
-Valitse vasemmanpuoleisessa siirtymis ruudussa **määritys** ja valitse sitten **Kirjautuminen ja suojaus**-kohdassa **suojaa Windows 10-tieto koneet**. Aloita valitsemalla **Näytä** . Katso täydelliset ohjeet artikkelista [Windows 10-tieto koneen suojaaminen](secure-win-10-pcs.md) .
+3. Jätä Suojaa **tiedot Officen** mobiiliversiossa -sivulla mobiilisovellusten hallinta käyttöön, laajenna asetuksia ja tarkista ne ja valitse sitten Luo **mobiilisovelluksen hallintakäytäntö.**
 
-## <a name="deploy-office-365-client-apps"></a>Office 365-asiakas sovellusten käyttöönotto
+    ![Näyttökuva Suojaa tiedot Office for Mobile -sivulla.](../media/protectdatainmobile.png)
 
-Jos valitsit Office-sovellusten automaattisen asentamisen asennuksen aikana, sovellukset asennetaan Windows 10-laitteisiin, kun käyttäjät ovat kirjautuneet Azure AD:hen Windows-laitteistaan heidän työtunniste tiedoillaan.
 
-Jos haluat asentaa Officen mobiililaitteeseen iOS-tai Android-laitteisiin, Katso lisä tietoja artikkelista [mobiililaitteiden määrittäminen Microsoft 365 Business Premium-käyttäjille](set-up-mobile-devices.md).
+## <a name="secure-windows-10-pcs"></a>Windows 10 -tietokoneiden suojaaminen
 
-Voit myös asentaa Officen yksitellen. Katso ohjeet artikkelista [Officen asentaminen PC-tai Mac-tieto koneeseen](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) .
+Valitse vasemmassa siirtymisruudussa **Asetukset** ja valitse sitten Sisäänkirjautuminen ja suojaus **-kohdassa** **Suojaa Windows 10 -tietokoneet.** Aloita **valitsemalla** Näytä. Katso [täydelliset ohjeet Windows 10 -tietokoneiden](secure-win-10-pcs.md) suojaamista varten.
 
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
+## <a name="deploy-office-365-client-apps"></a>Office 365 -asiakassovellusten käyttöönotto
 
-[Microsoft 365 for Business-koulutus videot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+Jos päätit asentaa Office-sovellukset automaattisesti asennuksen aikana, sovellukset asennetaan Windows 10 -laitteisiin, kun käyttäjät ovat kirjautuneet Azure AD:lle Windows-laitteillaan työtunnuksilla.
+
+Lisätietoja Officen asentamisesta iOS- tai Android-mobiililaitteisiin on kohdassa Mobiililaitteiden asentaminen [Microsoft 365 Business Premium -käyttäjille.](set-up-mobile-devices.md)
+
+Voit asentaa Officen myös yksitellen. Katso [ohjeet Officen asentamisesta PC- tai Mac-tietokoneeseen.](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+
+## <a name="see-also"></a>Katso myös
+
+[Microsoft 365 for Business -koulutusvideot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
