@@ -25,41 +25,40 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Lue, miten voit ladata laitteita AutoPilotin avulla Microsoft 365 Business Premiumissa. Voit määrittää profiilin laitteelle tai laiteryhmälle.
-ms.openlocfilehash: 8c3d029d682ae30444bdc7d30a4790a8f982e0e0
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Opi lataamaan laitteita AutoPilotilla Microsoft 365 Business Premiumissa. Voit määrittää profiilin laitteelle tai laiteryhmälle.
+ms.openlocfilehash: 910abb98b94b749177b04cd12c766f82d348e379
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400990"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913394"
 ---
-# <a name="create-and-edit-autopilot-devices"></a><span data-ttu-id="892ef-104">Autopilot-laitteiden luominen ja muokkaaminen</span><span class="sxs-lookup"><span data-stu-id="892ef-104">Create and edit AutoPilot devices</span></span>
+# <a name="create-and-edit-autopilot-devices"></a><span data-ttu-id="e697d-104">Autopilot-laitteiden luominen ja muokkaaminen</span><span class="sxs-lookup"><span data-stu-id="e697d-104">Create and edit AutoPilot devices</span></span>
 
-## <a name="upload-a-list-of-devices"></a><span data-ttu-id="892ef-105">Laiteluettelon lataaminen</span><span class="sxs-lookup"><span data-stu-id="892ef-105">Upload a list of devices</span></span>
+## <a name="upload-a-list-of-devices"></a><span data-ttu-id="e697d-105">Laiteluettelon lataaminen</span><span class="sxs-lookup"><span data-stu-id="e697d-105">Upload a list of devices</span></span>
 
-<span data-ttu-id="892ef-106">Voit ladata laitteita [vaiheittaisen oppaan](add-autopilot-devices-and-profile.md) avulla, mutta voit myös ladata laitteita **Laitteet-välilehdessä.**</span><span class="sxs-lookup"><span data-stu-id="892ef-106">You can use the [Step-by-step guide](add-autopilot-devices-and-profile.md) to upload devices, but you can also upload devices in the **Devices** tab.</span></span> 
+<span data-ttu-id="e697d-106">Voit ladata laitteita [vaiheittaiset](add-autopilot-devices-and-profile.md) ohjeet avulla, mutta voit myös ladata laitteita **Laitteet-välilehdessä.**</span><span class="sxs-lookup"><span data-stu-id="e697d-106">You can use the [Step-by-step guide](add-autopilot-devices-and-profile.md) to upload devices, but you can also upload devices in the **Devices** tab.</span></span> 
   
-<span data-ttu-id="892ef-107">Laitteiden on täytettävä seuraavat vaatimukset:</span><span class="sxs-lookup"><span data-stu-id="892ef-107">Devices must meet these requirements:</span></span>
+<span data-ttu-id="e697d-107">Laitteiden on täytettävä seuraavat vaatimukset:</span><span class="sxs-lookup"><span data-stu-id="e697d-107">Devices must meet these requirements:</span></span>
   
-- <span data-ttu-id="892ef-108">Windows 10, versio 1703 tai uudempi</span><span class="sxs-lookup"><span data-stu-id="892ef-108">Windows 10, version 1703 or later</span></span>
+- <span data-ttu-id="e697d-108">Windows 10, versio 1703 tai uudempi</span><span class="sxs-lookup"><span data-stu-id="e697d-108">Windows 10, version 1703 or later</span></span>
     
-- <span data-ttu-id="892ef-109">Uudet laitteet, joita ei ole käyty Windowsin käyttökokemuksen kautta</span><span class="sxs-lookup"><span data-stu-id="892ef-109">New devices that haven't been through Windows out-of-box experience</span></span>
+- <span data-ttu-id="e697d-109">Uudet laitteet, jotka eivät ole käyneet läpi Windowsin käyttökokemusta</span><span class="sxs-lookup"><span data-stu-id="e697d-109">New devices that haven't been through Windows out-of-box experience</span></span>
 
-1. <span data-ttu-id="892ef-110">Valitse Microsoft 365 -hallintakeskuksessa **Devices** \> **Laitteet-automaattiohjaus**.</span><span class="sxs-lookup"><span data-stu-id="892ef-110">In the Microsoft 365 admin center, choose **Devices** \> **AutoPilot**.</span></span>
+1. <span data-ttu-id="e697d-110">Valitse Microsoft 365 -hallintakeskuksessa **Laitteet** \> **AutoPilot.**</span><span class="sxs-lookup"><span data-stu-id="e697d-110">In the Microsoft 365 admin center, choose **Devices** \> **AutoPilot**.</span></span>
   
-2. <span data-ttu-id="892ef-111">Valitse **Automaattiohjaus-sivulla** **Laitteet-välilehti** \> **Lisää laitteita**.</span><span class="sxs-lookup"><span data-stu-id="892ef-111">On the **AutoPilot** page, choose the **Devices** tab \> **Add devices**.</span></span>
+2. <span data-ttu-id="e697d-111">Valitse **AutoPilot-sivulla** **Laitteet-välilehti** \> **Lisää laitteita.**</span><span class="sxs-lookup"><span data-stu-id="e697d-111">On the **AutoPilot** page, choose the **Devices** tab \> **Add devices**.</span></span>
     
     ![In the Devices tab, choose Add devices.](../media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. <span data-ttu-id="892ef-113">Siirry **Lisää laitteita -paneelissa** [laiteluettelon CSV-tiedostoon,](https://docs.microsoft.com/microsoft-365/admin/misc/device-list) jonka olet laatinut \> **Tallenna** \> **sulje -tiedoston.**</span><span class="sxs-lookup"><span data-stu-id="892ef-113">On the **Add devices** panel, browse to a [Device list CSV file](https://docs.microsoft.com/microsoft-365/admin/misc/device-list) that you prepared \> **Save** \> **Close**.</span></span>
+3. <span data-ttu-id="e697d-113">Siirry Lisää **laitteita -paneelissa** laiteluettelon CSV-tiedostoon, jonka valmistit [](../admin/misc/device-list.md) \> **Tallenna** sulje \> **- valmis.**</span><span class="sxs-lookup"><span data-stu-id="e697d-113">On the **Add devices** panel, browse to a [Device list CSV file](../admin/misc/device-list.md) that you prepared \> **Save** \> **Close**.</span></span>
     
-    <span data-ttu-id="892ef-114">Saat nämä tiedot laitteistotoimittajaltasi tai voit luoda [CSV-tiedoston Get-WindowsAutoPilotInfo PowerShell -komentosarjan](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) avulla.</span><span class="sxs-lookup"><span data-stu-id="892ef-114">You can get this information from your hardware vendor, or you can use the [Get-WindowsAutoPilotInfo PowerShell script](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) to generate a CSV file.</span></span> 
+    <span data-ttu-id="e697d-114">Saat nämä tiedot laitteiston toimittajalta tai voit luoda [CSV-tiedoston Käyttämällä Get-WindowsAutoPilotInfo PowerShell-komentosarjaa.](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo)</span><span class="sxs-lookup"><span data-stu-id="e697d-114">You can get this information from your hardware vendor, or you can use the [Get-WindowsAutoPilotInfo PowerShell script](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) to generate a CSV file.</span></span> 
     
-## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a><span data-ttu-id="892ef-115">Profiilin määrittäminen laitteelle tai laiteryhmälle</span><span class="sxs-lookup"><span data-stu-id="892ef-115">Assign a profile to a device or a group of devices</span></span>
+## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a><span data-ttu-id="e697d-115">Profiilin määrittäminen laitteelle tai laiteryhmälle</span><span class="sxs-lookup"><span data-stu-id="e697d-115">Assign a profile to a device or a group of devices</span></span>
 
-1. <span data-ttu-id="892ef-116">Valitse **Valmistele Windows** -sivulla **Laitteet-välilehti** ja valitse yhden tai useamman laitteen vieressä oleva valintaruutu.</span><span class="sxs-lookup"><span data-stu-id="892ef-116">On the **Prepare Windows** page, choose the **Devices** tab, and select the check box next to one or more devices.</span></span> 
+1. <span data-ttu-id="e697d-116">Valitse **Valmistele Windows** -sivulla **Laitteet-välilehti** ja valitse yhden tai useamman laitteen vieressä olevaa valintaruutua.</span><span class="sxs-lookup"><span data-stu-id="e697d-116">On the **Prepare Windows** page, choose the **Devices** tab, and select the check box next to one or more devices.</span></span> 
     
-2. <span data-ttu-id="892ef-117">Valitse **Laitteet**-paneelista profiili avattavasta **Määritetty profiili** -luettelosta.</span><span class="sxs-lookup"><span data-stu-id="892ef-117">On the **Device** panel, select a profile from the **Assigned profile** drop-down.</span></span> 
+2. <span data-ttu-id="e697d-117">Valitse **Laitteet**-paneelista profiili avattavasta **Määritetty profiili** -luettelosta.</span><span class="sxs-lookup"><span data-stu-id="e697d-117">On the **Device** panel, select a profile from the **Assigned profile** drop-down.</span></span> 
     
-    <span data-ttu-id="892ef-118">Jos sinulla ei ole vielä profiileja, katso ohjeita artikkelista [AutoPilot-profiilien luominen ja muokkaaminen](create-and-edit-autopilot-profiles.md).</span><span class="sxs-lookup"><span data-stu-id="892ef-118">If you don't have any profiles yet, see [Create and edit AutoPilot profiles](create-and-edit-autopilot-profiles.md) for instructions.</span></span> 
-    
+    <span data-ttu-id="e697d-118">Jos sinulla ei ole vielä profiileja, katso ohjeita artikkelista [AutoPilot-profiilien luominen ja muokkaaminen](create-and-edit-autopilot-profiles.md).</span><span class="sxs-lookup"><span data-stu-id="e697d-118">If you don't have any profiles yet, see [Create and edit AutoPilot profiles](create-and-edit-autopilot-profiles.md) for instructions.</span></span> 
