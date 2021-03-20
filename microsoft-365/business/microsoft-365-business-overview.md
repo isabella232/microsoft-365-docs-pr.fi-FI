@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Tietoa Microsoft 365 Business Premiumista, tilauspalvelusta, johon sisältyvät Officen tuottavuussovellukset ja edistynyt suojaus, jonka avulla yrityksesi voi suojautua kyberuhkia vastaan.
-ms.openlocfilehash: e67ae036bf3ce7811f19c8745838bb51dde073ea
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+ms.openlocfilehash: aa6e313f0f3db1c3401836c3e1737c219fcf6c3a
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842176"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912998"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premiumin yleiskatsaus
 
@@ -48,9 +48,9 @@ Katsomalla tämän lyhyen videon saat yleiskatsauksen Microsoft 365 Business Pre
   
 Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
 
-Microsoft 365 Business Premium on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) -ohjeista.
+Microsoft 365 Business Premium on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](../enterprise/index.yml) -ohjeista.
 
-Näet ominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Business Premium -palvelukuvaus](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
+Näet ominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Business Premium -palvelukuvaus](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
   
 ## <a name="small-business-security-needs"></a>Pienyrityksen tietoturvatarpeet
 
@@ -103,7 +103,7 @@ Microsoft 365 Business Premium auttaa **suojautumaan uhkia vastaan** seuraavilla
 
 - käyttämällä yksinkertaisia hallintatoimintoja kaikkien yrityksen Windows 10 -tietokoneiden käytäntöjen hallintaan, pakottamalla BitLocker-salauksen ja asentamalla tärkeät Windows-päivitykset välittömästi (Windowsin päivityskäytäntöjen pakottaminen).
 
-Näet suojausominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Business Premiumin suojausominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Business Premiumin](set-up.md), tutustu artikkeleihin [Uhilta suojautumisen parantaminen](increase-threat-protection.md) ja [Yhteensopivuusominaisuuksien määrittäminen](set-up-compliance.md), jotta voit alkaa käyttää suojausominaisuuksia, jotka eivät sisälly ohjattuun asennukseen. Tutustu myös artikkeliin [10 parasta tapaa suojata Office 365- ja Microsoft 365 Business Premium -palvelupaketit](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) saadaksesi yleiskatsauksen siitä, miten voit määrittää suojauksen kyberrikollisia ja hakkereita vastaan.
+Näet suojausominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Business Premiumin suojausominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Business Premiumin](set-up.md), tutustu artikkeleihin [Uhilta suojautumisen parantaminen](increase-threat-protection.md) ja [Yhteensopivuusominaisuuksien määrittäminen](set-up-compliance.md), jotta voit alkaa käyttää suojausominaisuuksia, jotka eivät sisälly ohjattuun asennukseen. Tutustu myös artikkeliin [10 parasta tapaa suojata Office 365- ja Microsoft 365 Business Premium -palvelupaketit](/office365/admin/security-and-compliance/secure-your-business-data) saadaksesi yleiskatsauksen siitä, miten voit määrittää suojauksen kyberrikollisia ja hakkereita vastaan.
 
 ## <a name="get-microsoft-365-business-premium"></a>Hanki Microsoft 365 Business Premium
 

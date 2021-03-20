@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Opi käyttämään Windows AutoPilotin avulla uusia Windows 10 -laitteita yrityksesi käyttöön, jotta ne ovat valmiina työntekijöiden käyttöön.
-ms.openlocfilehash: f263cc90656ae5e7be1a89e3c7f56bfb2d0e3651
-ms.sourcegitcommit: 3b369a44b71540c8b8214ce588a7aa6f47c3bb1e
+ms.openlocfilehash: 75cc51b889f8673de8dba2357c777de47fd0d296
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "50099746"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913498"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
 
@@ -46,7 +46,7 @@ Laitteiden on täytettävä seuraavat vaatimukset:
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Käytä laitteiden ja profiilien määritysopasta
 
-[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
 Jos et ole vielä luonut laiteryhmiä tai -profiileja, paras tapa aloittaa on käyttää vaiheittaista opasta. Voit myös lisätä [laitteita ja](create-and-edit-autopilot-devices.md) [määrittää profiileja](create-and-edit-autopilot-profiles.md) niihin ilman opasta. 
   
@@ -70,7 +70,7 @@ Jos et ole vielä luonut laiteryhmiä tai -profiileja, paras tapa aloittaa on k�
     
     Saat nämä tiedot laitteiston toimittajalta tai voit luoda [CSV-tiedoston Käyttämällä Get-WindowsAutoPilotInfo PowerShell-komentosarjaa.](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 
     
-    Katso lisätietoja [Laiteluettelon CSV-tiedostosta](https://docs.microsoft.com/microsoft-365/admin/misc/device-list). Voit myös ladata esimerkkitiedoston **Lataa laiteluettelon sisältävä .csv-tiedosto** -sivulta. 
+    Katso lisätietoja [Laiteluettelon CSV-tiedostosta](../admin/misc/device-list.md). Voit myös ladata esimerkkitiedoston **Lataa laiteluettelon sisältävä .csv-tiedosto** -sivulta. 
     
 > [!NOTE]
 > Tämä komentosarja noutaa WMI:n avulla ominaisuudet, joita tarvitaan, jotta asiakas voi rekisteröidä laitteen Windows Autopilotiin. Huomaa, että on normaalia, että tuloksena syntyvä CSV-tiedosto ei kerää Windows-tuotetunnusta (PKID), koska tätä ei tarvita laitteen rekisteröimiseen, ja PKID on tyhjäarvoinen csv-tulostetiedostossa. Vain sarjanumero ja laitteiston hash täytetään.
@@ -94,4 +94,3 @@ Jos et ole vielä luonut laiteryhmiä tai -profiileja, paras tapa aloittaa on k�
     Valitse **Seuraava**.
     
 6. **Kun olet valmis,** luomaasi (tai valitsemaasi) profiilia käytetään luomaasi laiteryhmään lataamalla laiteluettelo. Asetukset ovat voimassa, kun laitteen käyttäjät kirjautuvat sisään seuraavan kerran. Valitse **Sulje**.
-    

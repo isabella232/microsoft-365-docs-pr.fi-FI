@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 for Business -laitteiden tietojen suojaamisen edellytykset
+title: Laitteiden tietojen suojaamisen edellytykset Microsoft 365 for Businessin avulla
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,32 +21,32 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Lue tietoja vaatimuksista, jotka koskevat organisaation määrittämistä Microsoft 365 for Businessin avulla ja työtietojen suojaamista käyttäjien laitteissa.
-ms.openlocfilehash: 237825d2c2683bb6e71ae2fd31f8a25b1aa85ff7
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Lue lisää microsoft 365 for Businessin määrittämisen ja käyttäjien laitteiden työtietojen suojaamisen vaatimuksista.
+ms.openlocfilehash: c0fca0e038d15b19cb2a37eb5705296ed3da3746
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785888"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912898"
 ---
-# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Microsoft 365 for Business -laitteiden tietojen suojaamisen edellytykset
+# <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-for-business"></a>Laitteiden tietojen suojaamisen edellytykset Microsoft 365 for Businessin avulla
 
 Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
-Ensimmäinen vaihe organisaation määrittämisessä Microsoft 365 for Businessin avulla on varmistaa, että pystyt täyttämään edellytykset.
+Microsoft 365 for Business -organisaation määrittämisen ensimmäinen vaihe on varmistaa, että täytät edellytykset.
   
-## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Organisaation määrittämistä Microsoft 365 for Businessin kanssa koskevat vaatimukset
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-for-business"></a>Microsoft 365 for Business -organisaation määrittämisen vaatimukset
 
 - Windows-laitteissa on oltava Windows 7 Professional, Windows 8 Pro tai Windows 8.1 Pro.
     
     [Windows Pro Creators -päivityksen tekeminen Windows-laitteisiin](upgrade-to-windows-pro-creators-update.md) .
     
-    Jos käytössäsi on Windows 10 Home, sinun on **ostettava** Windows 10 Pro. Katso ohjeet [windows 10 Homen päivittämisestä Windows 10 Proksi.](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) 
+    Jos käytössäsi on Windows 10 Home, sinun on **hankittava** Windows 10 Pro. Katso [ohjeet Windows 10 Homen päivittämisestä Windows 10 Proon.](https://support.microsoft.com/office/0aee10c1-4d34-43ee-a325-579c6c2df90e) 
     
-- Poista laitteet mobiililaitteiden hallintaratkaisuista (Mobile Iron, AirWatch ja niin edelleen). Rekisteröit kaikki organisaatiosi henkilöt Microsoft 365 for business mobile -hallintaan.
+- Poista laitteet mobiililaitteiden hallintaratkaisuista (Mobile Iron, AirWatch ja niin edelleen). Rekisteröit kaikki organisaatiosi henkilöt Microsoft 365 for Business -mobiilihallintaan.
     
 - Apple iOS 8.0 tai uudempi.
     
-    Google Android 4.0 tai uudempi (mukaan lukien Samsung KNOX Standard 4.0 tai uudempi). Lisätietoja on kohdassa [Intune-tuetut laitteet](https://go.microsoft.com/fwlink/p/?linkid=852307).
+    Google Android 4.0 tai uudempi (mukaan lukien Samsung KNOX Standard 4.0 tai uudempi). Lisätietoja on kohdassa [Intune-tuetut laitteet.](/mem/intune/fundamentals/supported-devices-browsers)
     
-- Jos käyttäjätietokoneissa on office-sovelluksia, lue [artikkeli Office-asiakasohjelman asennuksen valmisteleminen,](prepare-for-office-client-deployment.md) jotta ymmärrät, ennen kuin voit määrittää Microsoft 365 for Businessin asentamaan Office 2016:n käyttäjätietokoneisiin. 
+- Jos sinulla on office-sovelluksia käyttäjätietokoneissa, lue [Office-asiakasohjelman](prepare-for-office-client-deployment.md) asennukseen valmistautuminen, jotta ymmärrät tarvittavat vaiheet, ennen kuin voit määrittää Microsoft 365 for Businessin asentamaan Office 2016:n käyttäjätietokoneisiin.

@@ -1,5 +1,5 @@
 ---
-title: Yleistä asennuksesta
+title: Asennuksen yleiskatsaus
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -26,73 +26,73 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Lisä tietoja on artikkelissa Microsoft 365 Business Premiumin määritys ohjeet, tila uksen tilaaminen, toimi alueen ja käyttäjien lisääminen, tieto turva käytäntöjen määrittäminen ja paljon muuta.
-ms.openlocfilehash: 46370166a9d5e8c9308b8947513e631c159f0b86
-ms.sourcegitcommit: 815229e39a0f905d9f06717f00dc82e2a028fa7c
+description: Tutustu Microsoft 365 Business Premiumin määritysvaiheisiin, kuten tilaamiseen, toimialueen ja käyttäjien lisäämiseen, suojauskäytäntöjen määrittämiseen ja paljon muuta.
+ms.openlocfilehash: 9d92aefb3b5666bb7c2fd2e13c9a00f074f107a7
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "48842126"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912486"
 ---
-# <a name="overview-of-setup"></a>Yleistä asennuksesta
+# <a name="overview-of-setup"></a>Asennuksen yleiskatsaus
 
-Katso lyhyt video Microsoft 365 Business Premium-asennuksesta.<br><br>
+Katso lyhyt video Microsoft 365 Business Premiumin määrityksestä.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
 Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
 
-Useimmat määritys vaiheet voidaan tehdä ohjatussa määrityksessä, mutta myös muut asetukset on lueteltu.
+Useimmat määritysvaiheet voidaan tehdä ohjatussa määrityksessä, mutta myös muut vaihtoehdot on lueteltu.
 
-## <a name="step-1-add-your-domain-and-users"></a>Vaihe 1: toimi alueen ja käyttäjien lisääminen
+## <a name="step-1-add-your-domain-and-users"></a>Vaihe 1: Toimialueen ja käyttäjien lisääminen
 
-   - **[Toimi alueen lisääminen](set-up.md#add-your-domain-to-personalize-sign-in)** (jos olet ostanut toimi alueen rekisteröitymisen [yhteydessä,](sign-up.md)tämä vaihe on jo suoritettu.)
+   - **[Lisää toimialue](set-up.md#add-your-domain-to-personalize-sign-in)** (jos ostit toimialueen rekisteröitymisen [aikana,](sign-up.md)tämä vaihe on jo valmis.)
 
-   - **Lisää käyttäjiä**. Voit lisätä käyttäjiä kolmella eri tavalla:
-        - [Ohjatussa määrityksessä](set-up.md#add-users-in-the-wizard).
-        - Hakemisto synkronoinnin avulla voit [lisätä käyttäjiä Azure AD Connectin avulla](https://docs.microsoft.com/microsoft-365/enterprise/set-up-directory-synchronization) , jos käytössäsi on paikallinen Active Directory.
-        - Voit myös [lisätä käyttäjiä myöhemmin](add-users-m365b.md) hallinta keskuksessa.
-## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Vaihe 2: Määritä käyttö oikeus käytännöt ja Määritä laitteet 
+   - **Lisää käyttäjiä.** Voit lisätä käyttäjiä kolmella tavalla:
+        - Ohjatussa [määrityksessä.](set-up.md#add-users-in-the-wizard)
+        - Hakemistosynkronoinnin [avulla voit lisätä käyttäjiä Azure AD Connectin](../enterprise/set-up-directory-synchronization.md) avulla, jos käytössäsi on paikallinen Active Directory.
+        - Voit myös [lisätä käyttäjiä myöhemmin](../admin/add-users/add-users.md) hallintakeskuksessa.
+## <a name="step-2-set-up-security-policies-and-configure-devices"></a>Vaihe 2: Suojauskäytäntöjen määrittäminen ja laitteiden määrittäminen 
 
-  - Määritä laite käytännöt [ohjatun määritys toiminnon](set-up.md#protect-your-organization) avulla. 
-  - Voit myös lisätä tai muokata niitä myöhemmin [hallinta keskuksessa](view-policies-and-devices.md) ja [Intune-portaalissa](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal).
-  - Ohjattu määritys toiminto määrittää myös uhkien suojaamisen ja tietojen menetyksen estämisen asetukset.
+  - Määritä [laitekäytännöt ohjatun](set-up.md#protect-your-organization) asennuksen avulla. 
+  - Voit myös lisätä tai muokata niitä myöhemmin [hallintakeskuksessa ja](view-policies-and-devices.md) [Intune-portaalissa.](/intune/tutorial-walkthrough-intune-portal)
+  - Ohjattu määritystoiminto määrittää myös uhkien ja tietojen menetyksen estämisen perusasetukset.
   
-  Ohjatun määritys toiminnon turva-asetusten lisäksi voit lisätä suojausta lisäämällä seuraavat asetukset:
+  Ohjatun määritystoiminnon suojausasetusten lisäksi voit parantaa suojausta lisäämällä seuraavat asetukset:
 
-- **Sähkö postin haitta ohjelmien torjunta**
-- **Tietojen kalastelulta Office 365: n Defenderissä**
+- **Sähköpostin haittaohjelmasuojaus**
+- **Tietojen kalastelun esto Office 365:n Defenderissä**
 - **Exchange Online Archiving**
-- **Azure Information Protectionin (toimintasuunnitelma1** )
+- **Azure Information Protection (Plan1)**
 
-Lisä tietoja on Ohje aiheissa [uhkien suojaamisen lisääminen](increase-threat-protection.md) ja [yhteensopivuus ominaisuuksien määrittäminen](set-up-compliance.md).
+Aloita tutustumaan [uhkien suojauksen lisäämis-](increase-threat-protection.md) [ja yhteensopivuusominaisuuksien ominaisuuksiin.](set-up-compliance.md)
 
-Katso myös [kymmenen parasta tapaa, joilla voit suojata Microsoft 365 Business Premiumin](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) parhaiden tieto turva käytäntöjen tiekartan avulla.
+Katso myös [10 parasta tapaa suojata Microsoft 365 Business Premium](/office365/admin/security-and-compliance/secure-your-business-data) parhaat suojauskäytännöt.
 
-## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Vaihe 3: Windows 10-laitteiden määrittäminen ja hallinta
+## <a name="step-3-set-up-and-manage-windows-10-devices"></a>Vaihe 3: Windows 10 -laitteiden määritäminen ja hallinta
 
-Kun olet suorittanut ohjatun määrityksen, haluat suojata kaikki organisaatiosi Windows 10-tieto koneet.
+Kun olet suorittanut ohjatun määrityksen, haluat suojata kaikki organisaatiosi Windows 10 -tietokoneet.
   
-- Windows 10 Pro on Microsoft 365 Business Premiumin [edellytys](pre-requisites-for-data-protection.md) , mutta jos käytössäsi on Windows 7 Pro, Windows 8 Pro tai Windows 8,1 Pro, tilauksesi oikeuttaa [päivittämään Windows 10 Pro-versioon](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update).
-- Määritä Windows 10-laitteiden käytännöt noudattamalla ohjeita kohdassa [suojatun Windows 10-tieto koneiden](secure-win-10-pcs.md) määrittäminen.
+- Windows 10 Pro [](pre-requisites-for-data-protection.md) on Microsoft 365 Business Premiumin edellytys, mutta jos sinulla on Windows 7 Pro, Windows 8 Pro tai Windows 8.1 Pro, tilauksesi oikeuttaa sinut päivittämään [Windows 10 Pro -versioon.](./upgrade-to-windows-pro-creators-update.md)
+- Määritä Windows [10 -laitteiden käytännöt](secure-win-10-pcs.md) noudattamalla suojattujen Windows 10 -tietokoneiden ohjeita.
 
-Kun liityt Windows 10-laitteeseen Azure AD:hen, Windows 10-tieto koneille määritetyt käytännöt tulevat käyttöön. Lisä tietoja on Ohje aiheessa [Windows-laitteiden määrittäminen Microsoft 365-käyttäjille](set-up-windows-devices.md).
+Kun liityt Windows 10 -laitteeseen Azure AD:ssä, Windows 10 -tietokoneille määritettyjä käytäntöjä sovelletaan siihen. Lisätietoja on kohdassa [Windows-laitteiden asennus Microsoft 365 -käyttäjille.](set-up-windows-devices.md)
 
-## <a name="step-4-install-microsoft-365-apps-for-business"></a>Vaihe 4: Asenna Microsoft 365-sovellukset yrityksille
-- Voit asentaa Officen automaattisesti Windows-laitteisiin [ohjatun määritys toiminnon](set-up.md#deploy-office-365-client-apps)avulla.
-- Anna käyttäjien [asentaa Office-sovelluksia](https://docs.microsoft.com/office365/admin/setup/install-applications) Windowsia ja laitteita varten.
+## <a name="step-4-install-microsoft-365-apps-for-business"></a>Vaihe 4: Microsoft 365 -sovellusten asentaminen yrityksille
+- Voit asentaa Officen automaattisesti Windows-laitteisiin [ohjatun määritystoiminnon avulla.](set-up.md#deploy-office-365-client-apps)
+- Anna käyttäjien [asentaa Office-sovelluksia](/office365/admin/setup/install-applications) Windowsille ja laitteille.
      
 ## <a name="advanced"></a>Tarkennettu
-- **Uusien laitteiden määrittäminen Autopilot-toiminnolla**
+- **Uusien laitteiden määritäminen Autopilotilla**
             
-     [Windowsin Autopilot](add-autopilot-devices-and-profile.md) -toiminnon avulla voit määrittää käyttäjän **uudet** Windows 10-laitteet automaattisesti valmiiksi, mutta sinun on ehkä helpompi hankkia [kumppaneita](https://www.microsoft.com/solution-providers/search) , jotka voivat tehdä sen puolestasi. Voit myös siirtyä [Microsoft Storeen](https://go.microsoft.com/fwlink/?linkid=874598)ja pyytää pilvi tekniikan asiantuntijaa määrittämään uusia laitteita, jotka ostat.
+     Voit käyttää [Windows Autopilotia](add-autopilot-devices-and-profile.md) uusien **Windows** 10 -laitteiden automaattiseen esimääritykseen käyttäjälle, mutta voi olla helpompaa saada kumppani, joka voi tehdä tämän. [](https://www.microsoft.com/solution-providers/search) Voit myös mennä [Microsoft Storeen](https://go.microsoft.com/fwlink/?linkid=874598)ja pyytää pilvitekniikan asiantuntijaa asettamaan ostamiesi uusien laitteiden ylle.
 
-- **Paikallisten resurssien käyttäminen**
+- **Käytä paikallisia resursseja**
 
-     - Jos organisaatiosi käyttää paikallista Windows Server Active Directorya, voit määrittää Microsoft 365 Business Premiumin suojaamaan Windows 10-laitteitasi säilyttäen kuitenkin paikalliset resurssit, jotka vaativat paikallisen todennuksen. [Ota Microsoft 365 Business Premium-hallinta käyttöön](manage-windows-devices.md) , jotta voit määrittää tämän, noudattamalla ohjeita kohdassa toimi alueen liittyminen Windows 10-laitteisiin. Tämä on suositeltava menetelmä, ja tämän tilan laitteet ovat nimeltään Hybrid Azure AD-yhdistetyt laitteet.
+     - Jos organisaatiosi käyttää paikallista Windows Server Active Directorya, voit määrittää Microsoft 365 Business Premiumin suojaamaan Windows 10 -laitteitasi säilyttäen edelleen paikallisen todentamisen edellyttävän paikallisen todentamisen resurssien käyttöoikeuden. Määritä tämä asetus noudattamalla ohjeita, jotka on annettu microsoft [365 Business Premiumin](manage-windows-devices.md) hallitsemaan toimialueisiin liitettyjen Windows 10 -laitteiden käyttöönotto. Tämä on ensisijainen menetelmä, ja tässä tilassa laitteita kutsutaan Azure AD:n yhdistelmäympäristön laitteisiin.
 
-    - Jos yrityksessä on paikallinen Active Directory-hakemisto, joka sisältää joitakin paikallisia resursseja (kuten jaetut tiedosto resurssit ja tulostimet), voit antaa Azure AD:hen liittyneille laitteillesi oikeuden käyttää näitä resursseja noudattamalla seuraavia ohjeita: paikallisten [resurssien käyttäminen Azure AD-liitetyssä laitteessa Microsoft 365 Business Premiumissa](access-resources.md).
+    - Jos yritykselläsi on paikallinen Active Directory, joka sisältää paikallisia resursseja (kuten jaetut tiedostot ja tulostimet), voit antaa Azure AD:lle liitettyjen laitteiden käyttöoikeudet näihin resursseihin seuraavasti: Käytä paikallisia resursseja Azure AD:llä yhdistetystä laitteesta [Microsoft 365 Business Premiumissa.](access-resources.md)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
 
-[Microsoft 365 for Business-koulutus videot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for Business -koulutusvideot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

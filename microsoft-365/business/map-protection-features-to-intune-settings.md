@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Premium -kartan suojausominaisuuksien käyttäminen Intune-asetuksiin
+title: Miten Microsoft 365 Business Premiumin suojausominaisuudet voidaan yhdistää Intune-asetuksiin
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,27 +25,27 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
-description: Lue, miten Microsoft 365 Business Premiumin suojausominaisuudet yhdistetään Intune-asetuksiin. Tilauksen avulla voit muokata Intune-asetuksia.
-ms.openlocfilehash: ce75073f748f6005a843e31f7c38d06b38a3c706
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lue, miten Microsoft 365 Business Premiumin suojausominaisuudet liittyvät Intune-asetuksiin. Tilauksella on käyttöoikeus Intunen asetusten muokkaamista varten.
+ms.openlocfilehash: 5e8a7aa570b0f56324a483fb2cdb77c19f3b2379
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401574"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913018"
 ---
-# <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Microsoft 365 Business Premium -kartan suojausominaisuuksien käyttäminen Intune-asetuksiin
+# <a name="how-do-protection-features-in-microsoft-365-business-premium-map-to-intune-settings"></a>Miten Microsoft 365 Business Premiumin suojausominaisuudet voidaan yhdistää Intune-asetuksiin
 
 ## <a name="android-and-ios-application-protection-settings"></a>Android- ja iOS-sovelluksen suojausasetukset
 
 Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Android- ja iOS-sovelluksen käytäntöasetukset yhdistetään Intune-asetuksiin.
   
-Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla, siirtymällä **hallintakeskuksiin**ja sitten **Intuneen**.
+Jos haluat etsiä Intune-asetuksen, kirjaudu sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla, siirry hallintakeskuksiin ja valitse **Intune.**
   
  > [!IMPORTANT]
  > 
- > Microsoft 365 Business Premium -tilauksessa on oikeus muokata kaikkia Intune-asetuksia. Katso [Johdanto Intunen alkuun.](https://docs.microsoft.com/intune/introduction-intune)
+ > Microsoft 365 Business Premium -tilauksella voit muokata kaikkia Intune-asetuksia. Aloita [tutustuminen tutustumaan Intunen esittelyihin.](/intune/introduction-intune)
   
-Valitse haluamasi käytännön &mdash; nimi, esimerkiksi Androidin sovelluskäytäntö &mdash; ja valitse sitten **Käytäntöasetukset**.
+Valitse haluamasi käytännön &mdash; nimi, esimerkiksi Androidin &mdash; sovelluskäytäntö, ja valitse sitten **Käytäntöasetukset.**
   
 Kohdasta **Suojaa työtiedostoja laitteiden katoamisen tai varastamisen varalta**
   
@@ -64,29 +64,29 @@ Kohdasta **Hallitse käyttäjien Office-tiedostojen käyttöä mobiililaitteissa
 |Salaa työtiedostot  <br/> |Salaa sovellustiedot  <br/> |
 |Kohdasta **Hallitse käyttäjien Office-tiedostojen käyttöä mobiililaitteissa** <br/> ||
 |Edellytä PIN-koodia tai sormenjälkeä Office-sovellusten käyttämiseksi  <br/> | Edellytä PIN-koodia sovellusten käyttämiseksi  <br/>  Tämä määrittää myös seuraavat asetukset:  <br/> **Salli yksinkertainen PIN-koodi** -asetuksena on **Kyllä** <br/> **PIN-koodin pituus** -asetuksena on 4  <br/> **Salli sormenjälki PIN-koodin sijasta** -asetuksena on **Kyllä** <br/> **Poista sovelluksen PIN-koodi käytöstä, kun PIN-koodia hallitaan** -asetuksena on **Ei** <br/> |
-|Nollaa PIN-koodi, kun kirjautuminen epäonnistuu monta kertaa (tämä on poistettu käytöstä, jos PIN-koodia ei tarvita)  <br/> |Yritysten määrä ennen PIN-koodin vaihtamista  <br/> |
-|Vaadi käyttäjiä kirjautumaan uudelleen sisään, kun Office-sovellukset ovat olleet käyttämättömänä (tämä on poistettu käytöstä, jos PIN-koodia ei tarvita)  <br/> | Tarkista käyttövaatimukset uudelleen näin pitkän ajan jälkeen (minuuttia)  <br/>  Tämä määrittää myös seuraavat asetukset:  <br/> **Aikakatkaisu**-asetuksena on minuutit  <br/>  Tämä on sama minuuttimäärä, jonka määritit Microsoft 365 Businessssa.  <br/> **Offline-lisäaika**-asetuksena on oletusarvoisesti 720 minuuttia  <br/> |
+|Palauta PIN-koodi, kun kirjautuminen epäonnistuu näin monta kertaa (tämä on poistettu käytöstä, jos PIN-koodia ei tarvita)  <br/> |Yritysten määrä ennen PIN-koodin vaihtamista  <br/> |
+|Vaadi käyttäjiä kirjautumaan uudelleen, kun Office-sovellukset ovat olleet käyttämättömänä (tämä on poistettu käytöstä, jos PIN-koodia ei tarvita)  <br/> | Tarkista käyttövaatimukset uudelleen näin pitkän ajan jälkeen (minuuttia)  <br/>  Tämä määrittää myös seuraavat asetukset:  <br/> **Aikakatkaisu**-asetuksena on minuutit  <br/>  Tämä on sama minuuttimäärä, jonka määritit Microsoft 365 Businessssa.  <br/> **Offline-lisäaika**-asetuksena on oletusarvoisesti 720 minuuttia  <br/> |
 |Estä työtiedostojen käyttö laitteissa, joiden suojaukset on murrettu  <br/> |Estä hallittujen sovellusten käyttö laitteissa, joiden suojaukset on murrettu  <br/> |
-|Salli käyttäjille sisällön kopiointi Office-sovelluksista henkilökohtaisiin sovelluksiin  <br/> | Leikkaaminen, kopioiminen ja liittäminen muiden sovellusten kanssa  <br/>  Jos Microsoft 365 Business Premium -asetuksena on **Käytössä**, nämä kolme vaihtoehtoa ovat myös **Kaikki intunen sovellukset:**  <br/> **Salli sovelluksen siirtää tietoja toisiin sovelluksiin** <br/> **Salli sovelluksen saada tietoja toisista sovelluksista** <br/> **Rajoita leikkaamista, kopioimista ja liittämistä muiden sovellusten kanssa** <br/>  Jos Microsoft 365 Business -asetuksena on **Käytössä**, kaikki Intune-asetukset ovat seuraavat:  <br/> **Salli sovelluksen siirtää tietoja toisiin sovelluksiin** -asetuksena on **Käytännön mukaisesti hallitut sovellukset** <br/> **Salli sovelluksen saada tietoja muista sovelluksista** -asetuksena on **Kaikki sovellukset** <br/> **Rajoita leikkaamista, kopioimista ja liittämistä muiden sovellusten kanssa** -asetuksena on **Käytännön mukaisesti hallitut sovellukset Liitä-komennon kanssa** <br/> |
+|Salli käyttäjille sisällön kopiointi Office-sovelluksista henkilökohtaisiin sovelluksiin  <br/> | Rajoita leikkaamista, kopioimista ja liittämistä muiden sovellusten kanssa  <br/>  Jos Microsoft 365 Business Premium -asetuksena **on Käytössä,** nämä  kolme vaihtoehtoa ovat myös Kaikki sovellukset Intunessa:  <br/> **Salli sovelluksen siirtää tietoja toisiin sovelluksiin** <br/> **Salli sovelluksen saada tietoja toisista sovelluksista** <br/> **Rajoita leikkaamista, kopioimista ja liittämistä muiden sovellusten kanssa** <br/>  Jos Microsoft 365 Business -asetuksena on **Käytössä**, kaikki Intune-asetukset ovat seuraavat:  <br/> **Salli sovelluksen siirtää tietoja toisiin sovelluksiin** -asetuksena on **Käytännön mukaisesti hallitut sovellukset** <br/> **Salli sovelluksen saada tietoja muista sovelluksista** -asetuksena on **Kaikki sovellukset** <br/> **Rajoita leikkaamista, kopioimista ja liittämistä muiden sovellusten kanssa** -asetuksena on **Käytännön mukaisesti hallitut sovellukset Liitä-komennon kanssa** <br/> |
 |||
    
 ## <a name="windows-10-app-protection-settings"></a>Windows 10 -sovelluksen suojausasetukset
 
 Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Windows 10 -sovelluksen käytäntöasetukset yhdistetään Intune-asetuksiin.
   
-Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla ja siirtymällä [Azure-portaaliin](https://portal.azure.com). Valitse **Lisää palveluita**ja kirjoita **Suodatin -kohtaan**Intune . Valitse **Intune App Protection** App \> **Policy**.
+Jos haluat etsiä Intune-asetuksen, kirjaudu sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla ja siirry [Azure-portaaliin.](https://portal.azure.com) Valitse **Lisää palveluita** ja kirjoita Intune suodattimeen.  Valitse **Intune-sovelluksen** \> **suojaussovelluskäytäntö.**
   
  > [!IMPORTANT]
  >
- >Microsoft 365 Business Premium -tilauksen avulla voit muokata vain Intune-asetuksia, jotka yhdistetään Microsoft 365 Business Premiumin asetuksiin. 
+ >Microsoft 365 Business Premium -tilaus antaa sinulle oikeuden muokata vain Intune-asetuksia, jotka liittyvät Microsoft 365 Business Premiumissa käytettävissä olevaan asetuksiin. 
   
-Voit tutustua käytettävissä oleviin asetuksiin valitsemalla haluamasi käytännön nimen ja valitsemalla sitten vasemmasta siirtymisruudusta **Yleiset, Varaukset**, **Sallitut sovellukset**, **Vapauta sovellukset**, **Pakolliset asetukset**tai **Lisäasetukset.** 
+Voit tarkastella käytettävissä olevia asetuksia valitsemalla haluamasi käytännön nimen ja valitsemalla sitten vasemmasta siirtymisruudusta Yleiset, **Tehtävät,** Sallitut **sovellukset,** Vapautetut **sovellukset,** Pakolliset asetukset tai Lisäasetukset.  
   
 |**Windows 10 -sovelluksen käytäntöasetus**|**Intune-asetus**|
 |:-----|:-----|
 |Salaa työtiedostot  <br/> |**Lisäasetukset** \> **Tietosuoja**: Sekä **Kumoa salausavaimet rekisteröitymisen yhteydessä**- että **Kumoa pääsy suojatun tietolaitteen rekisteröitymiseen MDM:een** -kohdan asetuksena on **Käytössä**.  <br/> |
-|Estä käyttäjiä kopioimasta yritystietoja henkilökohtaisiin tiedostoihin.  <br/> |**Pakolliset asetukset** \> **Windowsin tietojensuojaus -tila**. **Microsoft** 365 Business Premium -karttojen avulla: **Piilota ohitukset**, **Ei käytössä** Microsoft 365 Business Premium -kartoissa: Ei **käytössä**.  <br/> |
-|Office-asiakirjojen käytön hallinta  <br/> | Jos tämän asetuksena on **Käytössä** Microsoft 365 Business Premiumissa,  <br/> **Lisäasetukset** \> **Käyttö**, **Käytä Windows Hello for Businessia kirjautumismenetelmänä Windowsiin** -asetuksena on **Käytössä** seuraavilla lisäasetuksilla:  <br/> **Määritä PIN-koodille pakollinen vähimmäismerkkimäärä** -asetuksena on **4**.  <br/> **Konfiguroi isojen kirjainten käyttö Windows Hello for Businessin PIN-koodissa** -asetuksena on **Älä salli isojen kirjainten käyttöä PIN-koodille**.  <br/> **Konfiguroi pienten kirjainten käyttö Windows Hello for Businessin PIN-koodissa** -asetuksena on **Älä salli pienten kirjainten käyttöä PIN-koodille**.  <br/> **Konfiguroi erityismerkkien käyttö Windows Hello for Businessin PIN-koodissa** -asetuksena on **Älä salli erityismerkkien käyttöä PIN-koodille**.  <br/> **Määritä aika (päivinä), jonka PIN-koodia voidaan käyttää, ennen kuin järjestelmä vaatii käyttäjän muutettavaksi** arvoksi **0**.  <br/> **Määritä niiden aiempien PIN-koodien määrä, jotka voidaan liittää käyttäjätiliin, jota ei voida käyttää uudelleen** -asetuksena on **0**.  <br/> **Niiden sallittujen todennusvirheiden määrä, ennen kuin laite poistetaan** -asetuksena on sama kuin Microsoft 365 Businessssa (oletusarvoisesti 5).  <br/> **Kun laite on ollut käyttämättömänä, sallittu enimmäisaika (minuuttia), jonka jälkeen laitteen PIN-koodi tai salasana lukitaan** -asetuksena on sama kuin Microsoft 365 Businessssa.  <br/> |
+|Estä käyttäjiä kopioimasta yritystietoja henkilökohtaisiin tiedostoihin.  <br/> |**Pakolliset asetukset** \> **Windowsin tietojensuojaus -tila**. **Käytössä** Microsoft 365 Business Premium -kartoissa: Ohitusten piilottaminen, Ei **käytössä** Microsoft 365 Business Premium -kartoissa, joissa on käytössä: **Ei käytössä.**  <br/> |
+|Office-asiakirjojen käytön hallinta  <br/> | Jos tämän asetuksena **on** Käytössä Microsoft 365 Business Premiumissa, valitse  <br/> **Lisäasetukset** \> **Käyttö**, **Käytä Windows Hello for Businessia kirjautumismenetelmänä Windowsiin** -asetuksena on **Käytössä** seuraavilla lisäasetuksilla:  <br/> **Määritä PIN-koodille pakollinen vähimmäismerkkimäärä** -asetuksena on **4**.  <br/> **Konfiguroi isojen kirjainten käyttö Windows Hello for Businessin PIN-koodissa** -asetuksena on **Älä salli isojen kirjainten käyttöä PIN-koodille**.  <br/> **Konfiguroi pienten kirjainten käyttö Windows Hello for Businessin PIN-koodissa** -asetuksena on **Älä salli pienten kirjainten käyttöä PIN-koodille**.  <br/> **Konfiguroi erityismerkkien käyttö Windows Hello for Businessin PIN-koodissa** -asetuksena on **Älä salli erityismerkkien käyttöä PIN-koodille**.  <br/> **Määritä, kuinka kauan (päivinä)** PIN-koodia voidaan käyttää, ennen kuin järjestelmä edellyttää käyttäjän vaihtamista arvoksi **0.**  <br/> **Määritä niiden aiempien PIN-koodien määrä, jotka voidaan liittää käyttäjätiliin, jota ei voida käyttää uudelleen** -asetuksena on **0**.  <br/> **Niiden sallittujen todennusvirheiden määrä, ennen kuin laite poistetaan** -asetuksena on sama kuin Microsoft 365 Businessssa (oletusarvoisesti 5).  <br/> **Kun laite on ollut käyttämättömänä, sallittu enimmäisaika (minuuttia), jonka jälkeen laitteen PIN-koodi tai salasana lukitaan** -asetuksena on sama kuin Microsoft 365 Businessssa.  <br/> |
 |Ota käyttöön suojattujen tietojen palauttaminen  <br/> |**Lisäasetukset** \> **Tietosuoja**: **Näytä yritystietojen suojauksen kuvake**- ja **Käytä Azure RMS:ää WIP:lle** -asetuksena on **Käytössä**.  <br/> |
 |Suojaa lisää yrityksen pilvipalvelusijainteja  <br/> |**Lisäasetukset** \> **Suojatut toimialueet** ja **Pilviresurssit** näyttävät toimialueet ja SharePoint-sivustot.  <br/> |
 |Näiden sovellusten käyttämät tiedostot on suojattu  <br/> |Suojattujen sovellusten luettelo löytyy kohdasta **Sallitut sovellukset**.  <br/> |
@@ -96,7 +96,7 @@ Voit tutustua käytettävissä oleviin asetuksiin valitsemalla haluamasi käytä
 
 Seuraavassa taulukossa kuvataan seikkaperäisesti, miten Windows 10 -laitteen konfigurointiasetukset yhdistetään Intune-asetuksiin.
   
-Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedoilla ja siirtymällä [Azure-portaaliin,](https://portal.azure.com)valitsemalla **Lisää palveluita**ja kirjoittamalla **Intune-kohtaan Suodatin**-kohdan **Intune** \> **Device configuration** \> **Profiles**. Valitse sitten **Laitekäytäntö Windows 10:n** \> **Properties** \> **ominaisuudet: asetukset**.
+Jos haluat etsiä Intune-asetuksen, kirjaudu sisään Microsoft 365 Business [](https://portal.azure.com)Premium -järjestelmänvalvojan tunnistetiedoilla, siirry Azure-portaaliin, valitse Lisää palveluita **ja** kirjoita Intune suodattimeen **ja** valitse  Intune-laitemääritysprofiilit. \>  \>  Valitse sitten **Laitekäytäntö Windows 10:n** \> **ominaisuusasetuksissa.** \> 
   
 |**Windows 10 -laitteen käytäntöasetus**|**Intune-asetus**|
 |:-----|:-----|
@@ -104,9 +104,7 @@ Voit etsiä Intune-asetuksen kirjautumalla sisään Microsoft 365 Business Premi
 |Auta suojaamaan tietokoneita verkkopohjaisilta uhilta Microsoft Edgessä  <br/> |**Edge-selainasetukset**-kohdan **SmartScreen**-asetuksena on **Pakollinen**.  <br/> |
 |Sammuta laitteen näyttö, kun se on ollut käyttämättömänä tämän verran (minuuttia)  <br/> |Kun näyttö on ollut käyttämättömänä, enimmäisaika minuutteina, ennen kuin näyttö lukkiutuu (minuuttia)  <br/> |
 |Salli käyttäjille sovellusten lataaminen Microsoft Storesta  <br/> |Mukautettu URI-käytäntö  <br/> |
-|Salli käyttäjien käyttää Cortanaa  <br/> |**Yleistä** \> **Cortana** on asetettu **estämään** Intunessa, kun se **on käytössä** Microsoft 365 Business Premiumissa.  <br/> |
-|Salli käyttäjille Windows-vihjeiden ja -mainosten vastaanottaminen Microsoftilta  <br/> |**Windows spotlight**, kaikki estetty, jos tämä on asetettu **pois päältä** Microsoft 365 Business Premium.  <br/> |
-|Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> | Tämä asetus on **Microsoft Intune** \> **Service -päivityksissä - Windows 10 Update Rings**, valitse Windows **10 -laitteiden päivityskäytäntö**ja sitten **Ominaisuudet -** \> **asetukset**.  <br/>  Kun Microsoft 365 Business Premium -asetuksena on **Käytössä**, kaikki seuraavat asetukset määritetään:  <br/> **Palveluhaaraksi** on määritetty **CB** (CBB, kun se on poistettu käytöstä Microsoft 365 Business Premiumissa).  <br/> **Microsoft-tuotepäivitykset**-asetuksena on **Salli**.  <br/> **Windows-ohjaimet**-asetuksena on **Salli**.  <br/> **Automaattinen päivityskäytäntö** -asetuksena on **Automaattinen asennus huoltoaikana**, jossa:  <br/> **Tuntia käynnistyksestä** -asetuksena on **klo 6.00**.  <br/> **Aktiivisten tuntien päättyminen** -asetuksena on **klo 22.00**.  <br/> **Laadun päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Ominaisuuden päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Toimituksen optimoinnin lataustila** -asetuksena on **HTTP yhdistetty samaan NAT-vertaisverkkoon**.  <br/> |
+|Salli käyttäjien käyttää Cortanaa  <br/> |**Yleiset** \> **Cortana** on määritetty **estämaan** Intunessa, kun se **on määritetty pois käytöstä** Microsoft 365 Business Premiumissa.  <br/> |
+|Salli käyttäjille Windows-vihjeiden ja -mainosten vastaanottaminen Microsoftilta  <br/> |**Windows Spotlight**, kaikki on estetty, jos asetus **on pois käytöstä** Microsoft 365 Business Premiumissa.  <br/> |
+|Pidä Windows 10 -laitteet ajan tasalla automaattisesti  <br/> | Tämä asetus on **Microsoft Intune** -palvelupäivityksissä \> **– Windows 10:n** päivitysrenkaissa, **valitse Windows 10 -laitteiden** päivityskäytäntö ja sitten  \> **Ominaisuudet- asetukset.**  <br/>  Kun Microsoft 365 Business Premium -asetuksena **on Käytössä,** kaikki seuraavat asetukset on määritetty:  <br/> **Palveluhaaraksi** on määritetty **CB** (CBB, kun tämä on poistettu käytöstä Microsoft 365 Business Premiumissa).  <br/> **Microsoft-tuotepäivitykset**-asetuksena on **Salli**.  <br/> **Windows-ohjaimet**-asetuksena on **Salli**.  <br/> **Automaattinen päivityskäytäntö** -asetuksena on **Automaattinen asennus huoltoaikana**, jossa:  <br/> **Tuntia käynnistyksestä** -asetuksena on **klo 6.00**.  <br/> **Aktiivisten tuntien päättyminen** -asetuksena on **klo 22.00**.  <br/> **Laadun päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Ominaisuuden päivityksen jaksotusaika (päivää)** -asetuksena on **0**.  <br/> **Toimituksen optimoinnin lataustila** -asetuksena on **HTTP yhdistetty samaan NAT-vertaisverkkoon**.  <br/> |
 |||
-   
-

@@ -1,5 +1,5 @@
 ---
-title: Windows 10-tieto koneiden suojaaminen
+title: Windows 10 -tietokoneiden suojaaminen
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,32 +22,32 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Opi turvaamaan Windows 10-tieto koneet sen jälkeen, kun olet määrittänyt Microsoft 365 Business Premiumin.
-ms.openlocfilehash: 286393779eaa92d33432ff9ad4b21c0a1fb8612c
-ms.sourcegitcommit: 20d1158c54a5058093eb8aac23d7e4dc68054688
+description: Lue, miten voit suojata Windows 10 -tietokoneet, kun olet määrittänyt Microsoft 365 Business Premiumin.
+ms.openlocfilehash: 1b843e9ae3fcdb78eb128549f8f3c18badd8eb4e
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "49376273"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912626"
 ---
-# <a name="secure-windows-10-computers"></a>Windows 10-tieto koneiden suojaaminen
+# <a name="secure-windows-10-computers"></a>Windows 10 -tietokoneiden suojaaminen
 
 Tämä artikkeli koskee Microsoft 365 Business Premiumia.
 
-Kun olet [määrittänyt](set-up.md) Microsoft 365 Business Premiumin, sinun on aika suojata organisaatiosi Windows 10-tieto koneet varkaudelta ja haitta ohjelmilta, kuten viruksilta ja haitta ohjelmilta.
+Kun olet [määrittänyt](set-up.md) Microsoft 365 Business Premiumin, sinun on aika suojata organisaatiosi Windows 10 -tietokoneet varkailta ja haittaohjelmilta, kuten viruksilta ja haittaohjelmilta.
 
-## <a name="to-secure-your-windows-10-computers"></a>Windows 10-tieto koneiden suojaaminen
+## <a name="to-secure-your-windows-10-computers"></a>Windows 10 -tietokoneiden suojaaminen
 
-1. Kirjaudu sisään [Microsoft 365-hallinta keskukseen](https://admin.microsoft.com) käyttämällä yleisiä järjestelmänvalvojan tunniste tietoja. 
-2. Valitse vasemmanpuoleisessa siirtymis ruudussa **määritys** ja valitse sitten **Kirjautuminen ja suojaus**-kohdassa **suojaa Windows 10-tieto koneet**. Aloita valitsemalla **Näytä** .
-3. Kun olet **suojattu Windows 10: n tieto koneet** -sivulla, Lue kaikki tiedot, jotta ymmärrät, mitä olet siirtymässä ja mitä käyttäjä vaikuttaa.
+1. Kirjaudu [Microsoft 365 -hallintakeskukseen yleisen](https://admin.microsoft.com) järjestelmänvalvojan tunnistetiedoilla. 
+2. Valitse vasemmassa siirtymisruudussa **Asetukset** ja valitse sitten Sisäänkirjautuminen ja suojaus **-kohdassa** **Suojaa Windows 10 -tietokoneet.** Aloita **valitsemalla** Näytä.
+3. Lue **Suojatut Windows 10 -tietokoneet** -sivulla kaikki tiedot, jotta ymmärrät, mitä olet käynnistämässä ja mikä käyttäjän vaikutus on.
 
-    Valitse sivun ylälaidassa **aloittaminen**.
+    Valitse sivun yläreunassa **Aloita.**
 
-4. Valitse **suojattu Windows 10-tieto koneet** -ruudussa asetukset, jotka haluat ottaa käyttöön. Lisä tietoja asetuksista on kohdassa [Windows 10-laitteiden suojaaminen](secure-windows-10-devices.md). 
+4. Valitse **Suojatut Windows 10 -tietokoneet** -ruudussa asetukset, jotka haluat ottaa käyttöön. Lisätietoja asetuksista on kohdassa [Suojatut Windows 10 -laitteet.](secure-windows-10-devices.md) 
     
-    Useimmissa organisaatioissa asetukset tarjoavat hyvän turvallisuustason, mutta jos organisaatiollasi on monimutkaisempia suojaus tarpeita, voit käyttää myös ennalta määritettyjä suojaus perusaikatauluja Windows 10-laitteiden suoja ukseen. Lisä tietoja on kohdassa [Windows 10-laitteiden tieto turva-perusaikataulut](https://docs.microsoft.com/mem/intune/protect/security-baselines).   
+    Useimmissa organisaatioissa nämä vaihtoehdot tarjoavat hyvän suojaustason, mutta jos organisaatiollasi on monimutkaisempia suojaustarpeita, voit käyttää myös valmiiksi määritettyjä suojauksen perusaikatauluja Windows 10 -laitteiden suojaamiseksi. Lisätietoja on Ohjeaiheessa Windows 10 -laitteiden suojauksen [perusaikataulut.](/mem/intune/protect/security-baselines)   
 
-1. Valitse **Käytä asetuksia**.
+1. Valitse **Ota asetukset käyttöön.**
 
-    Nämä asetukset koskevat kaikkia organisaatiosi käyttäjiä. Jos haluat määrittää eri käytäntöjä eri käyttö oikeus ryhmille, Katso lisä tietoja artikkelista [laitteen suojaus asetusten määrittäminen Windows 10-tieto koneisiin](protection-settings-for-windows-10-pcs.md).
+    Nämä asetukset koskevat kaikkia organisaation käyttäjiä. Jos haluat määrittää erilaisia käytäntöjä eri käyttöoikeusryhmille, katso Windows 10 -tietokoneiden [laitesuojausasetusten määrittäminen.](protection-settings-for-windows-10-pcs.md)

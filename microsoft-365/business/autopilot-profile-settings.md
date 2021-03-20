@@ -29,27 +29,27 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
-description: AutoPilot-profiilien avulla voit hallita, miten Windows asennetaan käyttäjän laitteisiin. Profiilit sisältävät oletus- ja valinnaisia asetuksia, kuten Cortanan asennuksen ohituksen.
-ms.openlocfilehash: 100de5e9548f901008d3ae154ac5a237ef265ffb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: AutoPilot-profiilien avulla voit hallita sitä, miten Windows asennetaan käyttäjien laitteisiin. Profiilit sisältävät oletusasetuksia ja valinnaisia asetuksia, kuten ohita Cortanan asennus.
+ms.openlocfilehash: be10e0e1c8c96ce05aab8526d2010313662ed5f2
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44401030"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913374"
 ---
 # <a name="about-autopilot-profile-settings"></a>Tietoja Autopilot-profiilien asetuksista
 
 ## <a name="autopilot-profile-settings"></a>Autopilot-profiilien asetukset
 
-AutoPilot-profiilien avulla voit hallita, miten Windows on asennettu käyttäjän laitteisiin. Profiilit sisältävät seuraavat asetukset.
+AutoPilot-profiilien avulla voit hallita sitä, miten Windows asennetaan käyttäjien laitteisiin. Profiilit sisältävät seuraavat asetukset.
   
  **AutoPilot-oletusominaisuudet (pakollinen), jotka määritetään automaattisesti:**
   
 |**Asetus**|**Kuvaus**|
 |:-----|:-----|
-|Ohita Cortanan, OneDriven ja OEM-rekisteröinnin  <br/> |Asennus ohittaa kuluttajasovellusten, kuten Cortanan ja henkilökohtaisen OneDriven, asennuksen. Laitteen käyttäjä voi asentaa ne myöhemmin, kunhan käyttäjä on laitteen paikallinen järjestelmänvalvoja. Alkuperäinen valmistajan rekisteröinti ohitetaan, koska microsoft 365 Business Premium hallitsee laitetta.  <br/> |
-|Yrityskuvan mukainen kirjautumiskokemus  <br/> |Jos yritykselläsi on [Lisää yrityksen brändäys Microsoft 365 -kirjautumissivulle -sivu,](https://docs.microsoft.com/microsoft-365/admin/setup/customize-sign-in-page)laitteen käyttäjä saa tämän kokemuksen kirjautuessaan sisään.  <br/> |
-|Automaattinen MDM-rekisteröinti määritetyillä AAD-tileillä  <br/> |Käyttäjätietoja hallitsee Azure Active Directory, ja käyttäjät kirjautuvat Windowsiin ja Microsoft 365:een Microsoft 365 Business Premium -tunnistetiedoillaan.  <br/> |
+|Ohita Cortana, OneDrive ja OEM-rekisteröinti  <br/> |Asennus ohittaa kuluttajasovellusten, kuten Cortanan ja henkilökohtaisen OneDriven, asennuksen. Laitteen käyttäjä voi asentaa ne myöhemmin, kunhan käyttäjä on paikallinen järjestelmänvalvoja laitteessa. Alkuperäisen valmistajan rekisteröinti ohitetaan, koska laitetta hallitaan Microsoft 365 Business Premiumilla.  <br/> |
+|Yrityskuvan mukainen kirjautumiskokemus  <br/> |Jos yritykselläsi on [Lisää yrityksesi brändi Microsoft 365:n](../admin/setup/customize-sign-in-page.md)kirjautumissivulle, laitteen käyttäjä saa tämän käyttökokemuksen kirjautumisen yhteydessä.  <br/> |
+|Automaattinen MDM-rekisteröinti määritetyillä AAD-tileillä  <br/> |Käyttäjätietoja hallitaan Azure Active Directoryn avulla, ja käyttäjät kirjautuvat Windowsiin ja Microsoft 365:yn Microsoft 365 Business Premium -tunnistetiedoillaan.  <br/> |
    
  **Valinnaiset asetukset:**
   
@@ -57,4 +57,3 @@ AutoPilot-profiilien avulla voit hallita, miten Windows on asennettu käyttäjä
 |:-----|:-----|
 |Ohita tietosuoja-asetukset (oletusarvoisesti poissa käytöstä)  <br/> |Jos täksi asetukseksi on määritetty **Käytössä**, laitteen käyttäjä ei näe laitteen ja Windowsin käyttöoikeussopimusta kirjautuessaan ensimmäisen kerran.  <br/> |
 |Älä salli käyttäjän ryhtyä paikalliseksi järjestelmänvalvojaksi  <br/> |Jos täksi asetukseksi on määritetty **Käytössä**, laitteen käyttäjä ei voi asentaa henkilökohtaisia sovelluksia, kuten Cortanaa.<br/> |
-   

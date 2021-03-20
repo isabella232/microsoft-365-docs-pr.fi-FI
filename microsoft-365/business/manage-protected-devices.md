@@ -27,24 +27,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Opi poistamaan yrityksen tiedot suojauskäytännöillä hallituista laitteista sekä palauttamaan Windows 10 -laitteet tehdasasetuksiinsa.
-ms.openlocfilehash: 88311a2cf08ee0b1ceb4ef3eb599efe5ebccdb05
-ms.sourcegitcommit: a5ed189fa789975f8c3ed39db1d52f2ef7d671aa
+description: Opi poistamaan yritystiedot suojauskäytäntöjen kautta hallinnoiduista laitteista ja palauttamaan Windows 10 -laitteet tehdasasetuksiinsa.
+ms.openlocfilehash: 8c5472eada4cded3a6869c031ab902928876095f
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "45101617"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50913210"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business-premium"></a>Suojattujen laitteiden hallinta Microsoft 365 Business Premiumin avulla
 
-Kun käyttäjä on yhdistänyt laitteensa organisaatioosi kirjautumalla työtilillään laitteeseen tai laitteen Office-sovelluksiin, voit suojata laitteen määrittämiesi käytäntöjen avulla. Liitetyt laitteet näkyvät **Laitteet-sivulla.** Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot. Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin. 
+Kun käyttäjä on yhdistänyt laitteensa organisaatioosi kirjautumalla sisään työtilillä laitteeseen tai laitteen Office-sovelluksiin, voit suojata laitteen määrittämälläsi käytännöt. Yhdistetyt laitteet näkyvät **Laitteet-sivulla.** Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot. Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin. 
 
-Lisätietoja laitteiden hallintaan käytettävistä tehtävistä on seuraavissa artikkeleissa: 
+Lisätietoja tehtävistä, joita voit käyttää laitteiden hallintaan, on näissä artikkeleissa: 
   
 [Yritystietojen poistaminen laitteista](remove-company-data.md)
   
 [Windows 10 -laitteiden palauttaminen tehdasasetuksiin](reset-devices-to-factory-settings.md)
 
-[Hallitun laitteen lisääminen](https://docs.microsoft.com/microsoft-365/business/app-protection-settings-for-android-and-ios)
-  
-
+[Hallitun laitteen lisääminen](./app-protection-settings-for-android-and-ios.md)

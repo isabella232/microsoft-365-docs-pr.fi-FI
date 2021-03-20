@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Tutustu Microsoft 365 Business Premiumin määritysvaiheisiin, kuten toimialueen ja käyttäjien lisäämiseen, suojauskäytäntöjen määrittämiseen ja paljon muuta.
-ms.openlocfilehash: e7ebe179c67077dc71ae4873b0711d0e810c701a
-ms.sourcegitcommit: 1b30ac6e05906c8a014b1fed33fc71e1821f6ad2
+ms.openlocfilehash: 5b082e78f3dc4067dcce4a96a8088b2347bc3af4
+ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "50044726"
+ms.lasthandoff: 03/19/2021
+ms.locfileid: "50912566"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Microsoft 365 Business Premiumin määrittäminen ohjatussa määritystoiminnossa
 
@@ -67,15 +67,15 @@ Kun ostat Microsoft 365 Business Premiumin, voit käyttää omaa toimialuetta ta
     ![Näyttökuva Mukauta kirjautumissivua -ruudusta.](../media/adddomain.png)
 
     
-4. Luo DNS-tietueet missä tahansa [Microsoft 365:n](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) DNS-isännöintipalvelussa ohjatun toiminnon ohjeiden mukaisesti, joka vahvistaa, että omistat toimialueen. Jos tiedät toimialueesi isännän, tutustu myös [isäntäkohtaisiin ohjeisiin.](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)
+4. Luo DNS-tietueet missä tahansa [Microsoft 365:n](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) DNS-isännöintipalvelussa ohjatun toiminnon ohjeiden mukaisesti, joka vahvistaa, että omistat toimialueen. Jos tiedät toimialueesi isännän, tutustu myös [isäntäkohtaisiin ohjeisiin.](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)
 
-    Jos isännöintipalvelusi on GoDaddy tai jokin muu isännöintipalvelu on otettu käyttöön toimialueen [yhteydessä,](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)prosessi on helppoa, ja sinua pyydetään automaattisesti kirjautumaan sisään ja antamaan Microsoftin todentaa asia puolestasi.
+    Jos isännöintipalvelusi on GoDaddy tai jokin muu isännöintipalvelu on otettu käyttöön toimialueen [yhteydessä,](/office365/admin/get-help-with-domains/domain-connect)prosessi on helppoa, ja sinua pyydetään automaattisesti kirjautumaan sisään ja antamaan Microsoftin todentaa asia puolestasi.
 
     ![Valitse GoDaddyn Vahvista käyttö -sivulla Valtuuta.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>Lisää käyttäjiä ja määritä käyttöoikeuksia
 
-Voit lisätä käyttäjiä ohjatussa toiminnossa, mutta voit myös [lisätä käyttäjiä](add-users-m365b.md) myöhemmin hallintakeskuksessa. Lisäksi, jos sinulla on paikallinen toimialueen ohjauskone, voit lisätä käyttäjiä [Azure AD Connectilla.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express)
+Voit lisätä käyttäjiä ohjatussa toiminnossa, mutta voit myös [lisätä käyttäjiä myöhemmin](../admin/add-users/add-users.md) hallintakeskuksessa. Lisäksi, jos sinulla on paikallinen toimialueen ohjauskone, voit lisätä käyttäjiä [Azure AD Connectilla.](/azure/active-directory/hybrid/how-to-connect-install-express)
 
 #### <a name="add-users-in-the-wizard"></a>Käyttäjien lisääminen ohjatussa toiminnossa
 
@@ -94,10 +94,10 @@ Kaikille ohjatussa toiminnossa lisäämiesi käyttäjien käyttöön määritet�
   
 Kun haluat määrittää palvelut, sinun on päivitettävä joitakin DNS-isännän tai toimialuerekisteröijän tietueita.
   
-1. Ohjattu määritystoiminto yleensä tunnistaa toimialuerekisteröijän ja antaa linkin vaiheittaisiin ohjeisiin, joiden avulla voit päivittää nimipalvelintietueet toimialuerekisteröijän sivustossa. Jos näin ei ole, [muuta nimipalvelimet niin, että Microsoft 365 määritetään minkä tahansa toimialuerekisteröijän kanssa.](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar) 
+1. Ohjattu määritystoiminto yleensä tunnistaa toimialuerekisteröijän ja antaa linkin vaiheittaisiin ohjeisiin, joiden avulla voit päivittää nimipalvelintietueet toimialuerekisteröijän sivustossa. Jos näin ei ole, [muuta nimipalvelimet niin, että Microsoft 365 määritetään minkä tahansa toimialuerekisteröijän kanssa.](../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md) 
 
-    - Jos sinulla on aiemmin luotuja DNS-tietueita, esimerkiksi aiemmin luotu verkkosivusto, mutta DNS-isännöintipalvelusi on otettu käyttöön [toimialueen](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)yhteydessä, valitse **Lisää tietueet minulle.** Hyväksy **Valitse verkkopalvelut -sivulla** kaikki oletusasetukset, valitse Seuraava  ja valitse DNS-isännöintipalvelun sivulla Valtuuta.
-    - Jos sinulla on aiemmin luotuja DNS-tietueita muiden DNS-isännöintipalvelujen kanssa (toimialueiden yhdistäminen ei ole käytössä), sinun on hallittava omia DNS-tietueitasi ja varmistaa, että olemassa olevat palvelut ovat yhteydessä toisiinsa. Lisätietoja on toimialueen perustoimialueissa. [](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics)
+    - Jos sinulla on aiemmin luotuja DNS-tietueita, esimerkiksi aiemmin luotu verkkosivusto, mutta DNS-isännöintipalvelusi on otettu käyttöön [toimialueen](/office365/admin/get-help-with-domains/domain-connect)yhteydessä, valitse **Lisää tietueet minulle.** Hyväksy **Valitse verkkopalvelut -sivulla** kaikki oletusasetukset, valitse Seuraava  ja valitse DNS-isännöintipalvelun sivulla Valtuuta.
+    - Jos sinulla on aiemmin luotuja DNS-tietueita muiden DNS-isännöintipalvelujen kanssa (toimialueiden yhdistäminen ei ole käytössä), sinun on hallittava omia DNS-tietueitasi ja varmistaa, että olemassa olevat palvelut ovat yhteydessä toisiinsa. Lisätietoja on toimialueen perustoimialueissa. [](/office365/admin/get-help-with-domains/dns-basics)
 
         ![Aktivoi tietueet -sivu.](../media/activaterecords.png)
 
@@ -105,9 +105,9 @@ Kun haluat määrittää palvelut, sinun on päivitettävä joitakin DNS-isänn�
 
 ### <a name="protect-your-organization"></a>Suojaa organisaatiosi 
 
-Ohjatussa toiminnossa määritettyjä käytäntöjä käytetään automaattisesti Kaikki käyttäjät [-käyttöoikeusryhmässä.](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups)  Voit myös luoda muita ryhmiä, jotta voit määrittää käytäntöjä hallintakeskuksessa.
+Ohjatussa toiminnossa määritettyjä käytäntöjä käytetään automaattisesti Kaikki käyttäjät [-käyttöoikeusryhmässä.](/office365/admin/create-groups/compare-groups#security-groups)  Voit myös luoda muita ryhmiä, jotta voit määrittää käytäntöjä hallintakeskuksessa.
 
-1. **Edistyneiltä** kyberuhkilta suojauksen lisäämisen osalta on suositeltavaa hyväksyä oletusasetukset, jotta [Office 365 Advance Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) -tarkistustiedostot ja -linkit voidaan hyväksyä Office-sovelluksissa.
+1. **Edistyneiltä** kyberuhkilta suojauksen lisäämisen osalta on suositeltavaa hyväksyä oletusasetukset, jotta [Office 365 Advance Threat Protection](../security/office-365-security/office-365-atp.md) -tarkistustiedostot ja -linkit voidaan hyväksyä Office-sovelluksissa.
 
     ![Näyttökuva Suurenna suojausta -sivusta.](../media/increasetreatprotection.png)
 
@@ -131,6 +131,6 @@ Lisätietoja Officen asentamisesta iOS- tai Android-mobiililaitteisiin on kohdas
 
 Voit asentaa Officen myös yksitellen. Katso [ohjeet Officen asentamisesta PC- tai Mac-tietokoneeseen.](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
 
 [Microsoft 365 for Business -koulutusvideot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
