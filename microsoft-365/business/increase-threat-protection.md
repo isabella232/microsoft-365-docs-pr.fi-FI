@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Määritä Microsoft Defender Office 365:lle ja suojaa arkaluontoiset tiedot tietojen kalastelulta, haittaohjelmilta ja muilta uhilta.
-ms.openlocfilehash: 80ad3767b277e4808b6df4bdd977688794649e11
-ms.sourcegitcommit: 956176ed7c8b8427fdc655abcd1709d86da9447e
+description: Määritä Microsoft Defender for Office 365 ja suojaa arkaluontoiset tiedot tietojen kalastelulta, haittaohjelmilta ja muilta uhilta.
+ms.openlocfilehash: 6526ed9a849e83f19f74656004978089ce367ea9
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51050842"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198387"
 ---
 # <a name="increase-threat-protection"></a>Uhkien uhkien suojauksen nostaminen
 
@@ -45,7 +45,7 @@ Office 365- tai Microsoft 365 -ympäristösi sisältää suojauksen haittaohjelm
 
 2. Valitse Tietoturvakeskuksen &amp; vasemman siirtymisruudun Uhkien hallinta **-kohdassa** **Käytännön haittaohjelmien** \> **torjunta.**
 
-3. Muokkaa koko yrityksen kattavaa käytäntöä kaksoisnapsauttamalla oletuskäytäntöä.
+3. Voit muokata koko yrityksen kattavaa käytäntöä kaksoisnapsauttamalla oletuskäytäntöä.
 
 4. Valitse **Asetukset.**
 
@@ -57,7 +57,7 @@ Office 365- tai Microsoft 365 -ympäristösi sisältää suojauksen haittaohjelm
 
 6. Valitse **Tallenna.**
 
-Lisätietoja on [EOP:n haittaohjelmien estossa.](../security/defender-365-security/anti-malware-protection.md)
+Lisätietoja on [EOP:n haittaohjelmien estossa.](../security/office-365-security/anti-malware-protection.md)
 
 ## <a name="protect-against-ransomware"></a>Kiristysohjelmilta suojautuminen
 
@@ -65,7 +65,7 @@ Kiristysohjelmat rajoittavat tietojen käyttöä salaamalla tiedostoja tai lukit
 
 Voit suojautua kiristysohjelmilta luomalla yhden tai useamman postinkulkusäännön, joka estää kiristysohjelmissa yleisesti käytetyt tiedostotunnisteet. (Olet lisännyt nämä säännöt [nostamaan suojaustasoa haittaohjelmilta sähköpostin vaiheessa.)](#raise-the-level-of-protection-against-malware-in-mail) Voit myös varoittaa käyttäjiä, jotka saavat nämä liitteet sähköpostitse.
 
-Edellisessä vaiheessa estettyjen tiedostojen lisäksi on hyvä luoda sääntö, joka varoittaa käyttäjiä ennen makroja sisältävät Office-liitetiedostojen avaamista. Kiristysohjelmat voidaan piilottaa makrojen sisällä, joten varoita käyttäjiä avaamaan näitä tiedostoja henkilöistä, jotka eivät tunne.
+Edellisessä vaiheessa estettyjen tiedostojen lisäksi on hyvä luoda sääntö, joka varoittaa käyttäjiä ennen makroja sisältävät Office-liitetiedostojen avaamista. Kiristysohjelmat voidaan piilottaa makrojen sisällä, joten varoita käyttäjiä avaamaan näitä tiedostoja käyttäjiltä, jotka eivät tunne heitä.
 
 Sähköpostin siirtosäännön luominen:
 
@@ -138,18 +138,18 @@ Jos haluat luoda tietojenkalastelun torjunnan käytännön Microsoft Defender fo
 
 4. Valitse **Tietojen kalastelun** esto -sivulla **+ Luo.** Ohjattu toiminto käynnistää tietojenkalastelun torjuntakäytännön määrittämisen.
 
-5. Määritä käytännön nimi, kuvaus ja asetukset seuraavassa taulukossa suositellulla mukaisesti. Lisätietoja on microsoft Defender for Office 365 :n vaihtoehtojen [tietojenkalastelun estokäytännössä.](../security/defender-365-security/set-up-anti-phishing-policies.md)
+5. Määritä käytännön nimi, kuvaus ja asetukset seuraavassa taulukossa suositellulla mukaisesti. Lisätietoja on microsoft Defender for [Office 365:n tietojenkalastelun estokäytännössä.](../security/office-365-security/set-up-anti-phishing-policies.md)
 
 6. Kun olet tarkistanut asetukset, valitse Luo **tämä käytäntö tai** **Tallenna.**
 
 |Asetus tai asetus|Suositeltu asetus|
 |---|---|
-|Nimi|Toimialue ja arvokkain kampanjahenkilöstö|
+|Nimi|Toimialue ja arvokkain kampanjahenkilökunta|
 |Kuvaus|Varmista, että tärkeintä henkilökuntaa ja toimialuettamme ei tekeytetä.|
 |Käyttäjien lisääminen suojattavaksi|Valitse **+ Lisää ehto, Vastaanottaja on**. Kirjoita käyttäjänimet tai anna ehdokkaan, kampanjapäällikön ja muiden tärkeiden henkilökunnan jäsenten sähköpostiosoitteet. Voit lisätä enintään 20 sisäistä ja ulkoista osoitetta, jotka haluat suojata tekeytymishenkilöltä.|
 |Toimialueiden lisääminen suojattavaksi|Valitse **+ Lisää ehto, Vastaanottajan toimialue on**. Anna Microsoft 365 -tilaukseen liittyvä mukautettu toimialue, jos olet määrittänyt sellaisen. Voit kirjoittaa useamman kuin yhden toimialueen.|
-|Toimintojen valinta|Jos sähköpostiviesti on tekeytynyt käyttäjä: Valitse Ohjaa viesti toiseen **sähköpostiosoitteeseen** ja kirjoita sitten suojauksen järjestelmänvalvojan sähköpostiosoite. Esimerkiksi *Toni <span> <span> @contoso.com.* Jos sähköpostin lähettää tekeytynyt toimialue: Valitse **Karanteeniviesti.**|
-|Postilaatikkotiedot|Postilaatikon tiedot valitaan oletusarvoisesti, kun luot uuden tietojenkalastelun torjunnan käytännön. Jätä tämä asetus **käyttöön,** niin saat parhaan tuloksen.|
+|Toimintojen valinta|Jos käyttäjä on tekeytynyt käyttäjä lähettänyt sähköpostiviestin: Valitse Ohjaa viesti toiseen sähköpostiosoitteeseen ja kirjoita sitten suojauksen järjestelmänvalvojan sähköpostiosoite. Esimerkiksi *<span> 2010-201022 <span> @contoso.com.* Jos sähköpostin lähettää tekeytynyt toimialue: Valitse **Karanteeniviesti.**|
+|Postilaatikkotiedot|Postilaatikon tiedot valitaan oletusarvoisesti, kun luot uuden tietojenkalastelun estokäytännön. Jätä tämä asetus **käyttöön,** niin saat parhaan tuloksen.|
 |Luotettujen lähettäjien ja toimialueiden lisääminen|Tässä voit lisätä oman toimialueesi tai minkä tahansa muun luotetun toimialueen.|
 |Käytössä:|Valitse **Vastaanottajan toimialue on**. Valitse **jokin näistä ja** valitse Sitten **Valitse.** Valitse **+ Lisää.** Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso. <span> <span> com,* luettelosta ja valitse sitten **Lisää.** Valitse **Valmis.**|
 
@@ -171,7 +171,7 @@ Voit luoda turvallisten liitteiden käytännön joko katsomalla [tämän lyhyen 
 
 6. Ota asetukset käyttöön seuraavassa taulukossa.
 
-7. Kun olet tarkistanut asetukset, valitse **Luo tämä käytäntö tai** **Tallenna.**
+7. Kun olet tarkistanut asetukset, valitse **Luo tämä käytäntö** tai **Tallenna.**
 
 |Asetus tai asetus|Suositeltu asetus|
 |---|---|
@@ -181,7 +181,7 @@ Voit luoda turvallisten liitteiden käytännön joko katsomalla [tämän lyhyen 
 |Liitteen uudelleenohjaus tunnistuksen aikana|Ota uudelleenohjaus käyttöön (valitse tämä ruutu) Kirjoita järjestelmänvalvojan tili tai postilaatikon määritys karanteeniin.          Käytä yllä olevaa valintaa, jos liitteiden haittaohjelmien tarkistus aikaistaa tai tapahtuu virhe (valitse tämä ruutu).|
 |Käytössä:|Vastaanottajan toimialue on . . . valitse toimialueesi.|
 
-Lisätietoja on kohdassa Tietojenkalastelun [torjuntakäytäntöjen määritys Microsoft Defender for Office 365:ssä.](../security/defender-365-security/set-up-anti-phishing-policies.md)
+Lisätietoja on kohdassa Tietojenkalastelun [torjuntakäytäntöjen määritys Microsoft Defender for Office 365:ssä.](../security/office-365-security/set-up-anti-phishing-policies.md)
 
 ## <a name="protect-against-phishing-attacks-with-safe-links"></a>Tietojenkalasteluhyökkäyksiltä suojautuminen turvallisten linkkien avulla
 
@@ -203,7 +203,7 @@ Voit määrittää turvalliset linkit katsomalla [tämän lyhyen koulutusvideon]
 
 Oletuskäytännön muokkaaminen:
 
-1. Valitse Turvalliset linkit **-sivun Koko organisaatiota koskevat** käytännöt -kohdassa **oletuskäytäntö.**
+1. Valitse Turvalliset linkit **-sivun Koko organisaatiota** koskevat käytännöt -kohdassa **oletuskäytäntö.**
 
 2. Valitse **Asetuksista, jotka koskevat sisältöä sähköpostia** lukuun ottamatta, **Microsoft 365 -sovellukset yrityksille, Office for iOS ja Android.**
 
@@ -224,7 +224,7 @@ Voit luoda uuden käytännön, joka on kohdennettu toimialueen kaikille vastaano
 |Ladattavan sisällön skannaaminen turvallisten liitteiden avulla|Valitse tämä ruutu.|
 |Käytössä:|Vastaanottajan toimialue on . . . valitse toimialueesi.|
 
-Lisätietoja on kohdassa [Turvalliset linkit.](../security/defender-365-security/safe-links.md)
+Lisätietoja on kohdassa [Turvalliset linkit.](../security/office-365-security/safe-links.md)
 
 ## <a name="go-to-intune-admin-center"></a>Siirry Intune-hallintakeskukseen
 

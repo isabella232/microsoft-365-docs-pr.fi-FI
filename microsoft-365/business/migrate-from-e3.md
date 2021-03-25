@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumiin Office 365 E3:sta.
-ms.openlocfilehash: 3f9fd70b2d31b32027981e638de249d92e98ea08
-ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
+ms.openlocfilehash: cb70260201686cae02428c715ac98ffe2f88787f
+ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51164529"
+ms.lasthandoff: 03/25/2021
+ms.locfileid: "51198093"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Siirtyminen Office 365 E3:sta Microsoft 365 Business Premiumiin
 
@@ -53,7 +53,7 @@ Tässä taulukossa on esitetty Microsoft 365 Business Premiumin ja Office 365 E3
 | **Threat Protection**        | | | 
 | Defender for Office 365 Plan 1 | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
 | **Käyttäjätietojen hallinta**        | | | 
-| Azure Active Directory (Azure AD) -yhdistelmätilien omatoiminen salasanan palautus, Azure AD:n monimenetelmäinen todentaminen (MFA), ehdollinen käyttöoikeus, paikallisen käyttäjäryhmän salasanan palautus|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  | 
+| Azure Active Directory (Azure AD) -yhdistelmätilien omatoiminen salasanan palautus, Azure AD:n monimenetelmäinen todentaminen (MFA), ehdollinen käyttöoikeus, paikallisen käyttäjätiedot salasanalla kirjoittamisen palautus|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  | 
 | **Laitteiden ja sovellusten hallinta**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  |
 | Jaetun tietokoneen aktivointi|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Office 365 E3-versioon](../media/check-mark.png)| 
@@ -70,7 +70,7 @@ Tässä taulukossa on esitetty Microsoft 365 Business Premiumin ja Office 365 E3
 ## <a name="migration"></a>Siirto
 
 Jos haluat siirtää [](../commerce/subscriptions/change-plans-manually.md) tilauksen, katso ohjeet microsoft 365 Business Premiumiin, jos haluat siirtää palvelupaketit manuaalisesti. Voit myös päivittää [kaikki automaattisesti tai](../commerce/subscriptions/upgrade-to-different-plan.md)siirtää E3-tilauksesi ja -käyttöoikeutesi Microsoft 365 Business Premium -tilaukseen yhdessä kumppanin kanssa.
-Seuraavissa osissa kuvataan mahdolliset muutokset ja se, mitä voit tehdä siirron jälkeen.
+Seuraavissa osissa kuvataan, mitä muutoksia on tehtävä ja mitä voit tehdä siirron jälkeen.
 
 ### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 E3 -tilauksen määritykset ja tiedot
 Sinun ei tarvitse tehdä muutoksia nykyiseen tilaukseesi tai tietoihin ennen sen muutosta, joka sisältää seuraavat:
@@ -87,7 +87,7 @@ Jos Windows ei ole vielä Windows Pro Creator -päivityksessä, [päivitä ne Wi
 ### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Käyttäjien laitteiden ja tiedostojen suojaamista kuvaavat käytännöt
 
 > [!NOTE]
-> Jos määrität Office 365:n mobiililaitteiden hallintakäytännöt ja  -laitteet, kyseiset laitteet näkyvät Microsoft 365 -hallintakeskuksen Laitteet-sivulla. Kaikki määrittämäsi käytännöt näkyvät [Intune-portaalin perinteisen käytännöt -luettelossa.](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
+> Jos määrität Office 365:n mobiililaitteiden hallintakäytännöt ja  -laitteet, kyseiset laitteet näkyvät Laitteet-sivulla Microsoft 365 -hallintakeskuksessa. Kaikki määrittämäsi käytännöt näkyvät [Intune-portaalin perinteisen käytännöt -luettelossa.](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
 
 Kun olet määrittänyt käyttöoikeudet Microsoft 365 Business Premiumiin, voit alkaa suojata käyttäjien laitteita ja tiedostoja.
 
@@ -117,12 +117,12 @@ Voit myös suorittaa nämä vaiheet Laitteet-sivulla:
   
 ### <a name="mailbox-size"></a>Postilaatikon koko
 
-Microsoft 365 Business Premiumin tallennustilaraja on 50 Gigatavua, koska se käyttää Exchange Online -palvelupakettia 1. Microsoft 365 Business Premiumiin vaihdon aikana on suositeltavaa määrittää käyttäjälle Exchange Online -palvelupaketti 2 ja poistaa Exchange Online -palvelupaketti 1, sillä molempia ei voi määrittää.
+Microsoft 365 Business Premiumin tallennustilaraja on 50 Gigatavua, koska se käyttää Exchange Online -palvelupakettia 1. Kun käyttäjä siirretään Microsoft 365 Business Premiumiin ja joku käyttäjistä ylittää 50 Gt postilaatikon tallennustilaa, on suositeltavaa määrittää tälle käyttäjälle Exchange Online -palvelupaketti 2 ja poistaa Exchange Online -palvelupaketti 1, koska molempia ei voi määrittää.
 
 
 ### <a name="threat-protection"></a>Uhkien torjunta
 
-Kun olet siirtyminen Microsoft 365 Business Premiumiin, sinulla on Defender for Office 365. Katso [yleistietoja Microsoft Defender for Office 365:stä.](../security/defender-365-security/defender-for-office-365.md) Lisätietoja on ohjeaiheessa Turvallisten linkkien [määritys,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)turvallisten liitteiden määritys ja [tietojenkalastelun](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)torjunnan määritys [Defender for Office 365:ssä.](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)
+Kun olet siirtyminen Microsoft 365 Business Premiumiin, sinulla on Defender for Office 365. Katso [yleistietoja Microsoft Defender for Office 365:stä.](../security/office-365-security/defender-for-office-365.md) Lisätietoja on ohjeaiheessa Turvallisten linkkien [määritys,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)turvallisten liitteiden määritys ja [tietojenkalastelun](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)torjunnan määritys [Defender for Office 365:ssä.](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)
 
 ### <a name="sensitivity-labels"></a>Luottamuksellisuusmerkinnät
 
