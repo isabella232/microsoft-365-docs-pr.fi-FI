@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumista Microsoft 365 E3:lle.
-ms.openlocfilehash: 019a422bb879389f42a32cf30f9a8094f776078a
-ms.sourcegitcommit: eac5d9f759f290d3c51cafaf335a1a1c43ded927
+ms.openlocfilehash: 10630671f3deb7eff0ad0f601d301b90743ee35f
+ms.sourcegitcommit: 2a708650b7e30a53d10a2fe3164c6ed5ea37d868
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "50126197"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51164509"
 ---
 # <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Siirtyminen Microsoft 365 Business Premiumista Microsoft 365 E3:lle
 
@@ -51,13 +51,12 @@ Tässä taulukossa on esitetty Microsoft 365 Business Premiumin ja Microsoft 365
 |:-------|:-----|:-----|
 | **Paikallinen**        | | | 
 | Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office-sovellukset*    | [Microsoft 365 -sovellukset yrityksille](#office-365-business)    | Microsoft 365 -yrityssovellukset | 
+| Office-sovellukset*    | [Microsoft 365 -sovellukset yrityksille](#office-365-business)    | Microsoft 365 -sovellukset yrityksille | 
 | **Pilvipalvelun tuottavuussovellukset**        | | | 
 | Exchange Online ja Outlook    | 50 Gigatavun tallennustilaraja postilaatikkoa kohden ja rajoittamaton Exchange Online -arkistointi    | 100 Gigatavun tallennustilaraja postilaatikkoa kohden ja rajoittamaton Exchange Online -arkistointi | 
 | Teams    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Mukana Microsoft 365 E3](../media/check-mark.png) | 
 | OneDrive for Business    | 1 Tt tallennustilaraja käyttäjää kohden    | Rajoittamaton | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Mukana Microsoft 365 E3](../media/check-mark.png) | 
-| MileIQ    | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | | 
 | **Threat Protection**        | | | 
 | Hyökkäyspinta-alaan pienentämisominaisuudet    | [Katso tämä luettelo](#threat-protection) | Microsoft Edgen laitteistopohjaisen eristysympäristön yrityksen hallinta | 
 | Defender for Office 365 Plan 1 | ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | Ei sisälly, mutta se voidaan lisätä | 
@@ -104,10 +103,6 @@ Sinun ei tarvitse tehdä muutoksia nykyiseen tilaukseesi tai tietoihin ennen sen
 Käyttäjät voivat nyt nauttia rajoittamattomasta tallennustilasta Exchange Online -postilaatikoissa ja OneDrive for Business -kansioissa.
 
 Voit aloittaa Cloud App Discoveryn, Azure AD Connect Healthin ja SSO:n käytön yli 10 sovellukselle.
-
->[!Note]
->Microsoft 365 E3:lle siirretyt käyttäjät eivät voi enää käyttää MileIQ:a.
->
 
 <a name="threat-protection"></a>
 ### <a name="threat-protection"></a>Uhkien torjunta
