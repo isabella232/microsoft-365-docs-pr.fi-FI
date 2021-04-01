@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Lue, miten voit käyttää paikallisia resursseja, kuten yrityssovellusten riviä, jaetut tiedostot ja tulostimet Azure Active Directoryyn yhdistetystä Windows 10 -laitteesta.
-ms.openlocfilehash: b78509d72cbd9b3c121039c4965625bf5c21c7e0
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: 1bca0beb3ccc78e670ad33ce446b9b3f7c372ba7
+ms.sourcegitcommit: 39609c4d8c432c8e7d7a31cb35c8020e5207385b
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50913518"
+ms.lasthandoff: 03/30/2021
+ms.locfileid: "51445344"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Käytä paikallisia resursseja Azure AD:llä yhdistetystä laitteesta Microsoft 365 Business Premiumissa
 
@@ -64,3 +64,7 @@ Jos Azure-AD:llä liitetty Windows-laite on aiemmin liitetty toimialueeseen tai 
 - Käyttäjät eivät ehkä voi todentaa Sovelluksia, jotka ovat riippuvaisia Active Directory -todennuksista. Arvioi vanha sovellus ja harkitse päivittämistä sovellukseen, joka käyttää modernia todnttia, jos mahdollista.
 
 - Active Directory -tulostimen etsintä ei toimi. Voit määrittää suoran tulostimen polut kaikille käyttäjille tai käyttää [universaalia tulostusta.](/universal-print/)
+
+### <a name="related-articles"></a>Aiheeseen liittyvät artikkelit
+
+[Azure AD Connectin edellytykset](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites)
