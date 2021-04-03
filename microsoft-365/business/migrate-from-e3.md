@@ -2,8 +2,8 @@
 title: Siirtyminen Microsoft 365 Businessiin Office 365 E3:sta
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: cmcatee
+author: cmcatee-MSFT
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,16 +22,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premiumiin Office 365 E3:sta.
-ms.openlocfilehash: cb70260201686cae02428c715ac98ffe2f88787f
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: ffb82fa40f05383260ac1b97ed0bdf5f2f30c1df
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198093"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578323"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Siirtyminen Office 365 E3:sta Microsoft 365 Business Premiumiin
 
-Microsoft 365 Business Premium sisältää kaiken, mitä tarvitset pienyritystä varten yhdistämällä luokkansa parhaat pilvipohjaiset tuottavuussovellukset yksinkertaiseen laitehallintaan ja tietoturvaan. Jos sinulla on tällä hetkellä Office 365 E3 -tilaus, mutta yrityksessäsi ei ole yli 300 työntekijää, harkitse siirtymistä Microsoft 365 Business Premiumiin lisä suojausominaisuuksia varten.
+Microsoft 365 Business Premium sisältää kaiken, mitä tarvitset pienyritystäsi varten yhdistämällä luokkansa parhaat pilvipohjaiset tuottavuussovellukset yksinkertaiseen laitehallintaan ja tietoturvaan. Jos sinulla on tällä hetkellä Office 365 E3 -tilaus, mutta yrityksessäsi ei ole yli 300 työntekijää, voit siirtyä Microsoft 365 Business Premiumiin lisä suojausominaisuuksia varten.
 
 Siirtyminen on helppoa: Ensin vaihdat käyttöoikeuksia, ja kaikki nykyisen tilauksesi tiedot ja käyttäjätiedot säilytetään. Siirron jälkeen sinun on määritettävä Microsoft 365 Business Premiumiin lisätyt ominaisuudet.
 
@@ -57,7 +57,7 @@ Tässä taulukossa on esitetty Microsoft 365 Business Premiumin ja Office 365 E3
 | **Laitteiden ja sovellusten hallinta**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    |  |
 | Jaetun tietokoneen aktivointi|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    | ![Sisältyy Office 365 E3-versioon](../media/check-mark.png)| 
-| Oikeuksien päivittäminen Windows 10 Proon Win 7/8.1 Pro -käyttöoikeuksista|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    || 
+| Windows 10 Pron päivittäminen Win 7/8.1 Pro -käyttöoikeuksista|     ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)    || 
 | **Tietojen suojaus**        | | |
 |Office 365:n tietojen menetyksen estäminen|    ![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)|![Sisältyy Office 365 E3-versioon](../media/check-mark.png)|
 |Azure Information Protection Plan 1, Bitlocker-pakotus|![Sisältyy Microsoft 365 Business Premiumiin](../media/check-mark.png)||
@@ -69,10 +69,10 @@ Tässä taulukossa on esitetty Microsoft 365 Business Premiumin ja Office 365 E3
 
 ## <a name="migration"></a>Siirto
 
-Jos haluat siirtää [](../commerce/subscriptions/change-plans-manually.md) tilauksen, katso ohjeet microsoft 365 Business Premiumiin, jos haluat siirtää palvelupaketit manuaalisesti. Voit myös päivittää [kaikki automaattisesti tai](../commerce/subscriptions/upgrade-to-different-plan.md)siirtää E3-tilauksesi ja -käyttöoikeutesi Microsoft 365 Business Premium -tilaukseen yhdessä kumppanin kanssa.
+Jos haluat siirtää [](../commerce/subscriptions/change-plans-manually.md) tilauksen, katso ohjeet microsoft 365 Business Premiumiin vaihtamalla palvelupaketteja manuaalisesti. Voit myös päivittää [kaikki automaattisesti tai](../commerce/subscriptions/upgrade-to-different-plan.md)siirtää E3-tilauksesi ja -käyttöoikeutesi Microsoft 365 Business Premium -tilaukseen yhdessä kumppanin kanssa.
 Seuraavissa osissa kuvataan, mitä muutoksia on tehtävä ja mitä voit tehdä siirron jälkeen.
 
-### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 E3 -tilauksen määritykset ja tiedot
+### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 E3 -tilauksen määritys ja tiedot
 Sinun ei tarvitse tehdä muutoksia nykyiseen tilaukseesi tai tietoihin ennen sen muutosta, joka sisältää seuraavat:
 
 - Tilausmääritykset, kuten DNS-tietueet ja toimialuenimet.
@@ -84,7 +84,7 @@ Sinun ei tarvitse tehdä muutoksia nykyiseen tilaukseesi tai tietoihin ennen sen
 
 Jos Windows ei ole vielä Windows Pro Creator -päivityksessä, [päivitä ne Windows Pro Creators -päivitykseen.](upgrade-to-windows-pro-creators-update.md)
 
-### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Käyttäjien laitteiden ja tiedostojen suojaamista kuvaavat käytännöt
+### <a name="set-up-policies-to-protect-user-devices-and-files"></a>Käyttäjien laitteiden ja tiedostojen suojaamista varten määritettyjen käytännöt
 
 > [!NOTE]
 > Jos määrität Office 365:n mobiililaitteiden hallintakäytännöt ja  -laitteet, kyseiset laitteet näkyvät Laitteet-sivulla Microsoft 365 -hallintakeskuksessa. Kaikki määrittämäsi käytännöt näkyvät [Intune-portaalin perinteisen käytännöt -luettelossa.](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)
@@ -111,7 +111,7 @@ Voit myös suorittaa nämä vaiheet Laitteet-sivulla:
   
 4. Kun olet määrittänyt käytäntöjä, sinä ja työntekijäsi voitte määrittää laitteita:
     
-  - Katso [Windows-laitteiden ohjeet Microsoft 365 Business Premium](set-up-windows-devices.md) -käyttäjien Windows-laitteiden määritäminen -ohjeista. 
+  - Katso [Windows-laitteiden ohjeet microsoft 365 Business Premium](set-up-windows-devices.md) -käyttäjien Windows-laitteiden määritäminen -ohjeista. 
     
   - Ohjeita [Android-puhelimiin ja iPhone-puhelimiin](set-up-mobile-devices.md) on kohdassa Mobiililaitteiden määritäminen Microsoft 365 Business Premium -käyttäjille. 
   
@@ -120,7 +120,7 @@ Voit myös suorittaa nämä vaiheet Laitteet-sivulla:
 Microsoft 365 Business Premiumin tallennustilaraja on 50 Gigatavua, koska se käyttää Exchange Online -palvelupakettia 1. Kun käyttäjä siirretään Microsoft 365 Business Premiumiin ja joku käyttäjistä ylittää 50 Gt postilaatikon tallennustilaa, on suositeltavaa määrittää tälle käyttäjälle Exchange Online -palvelupaketti 2 ja poistaa Exchange Online -palvelupaketti 1, koska molempia ei voi määrittää.
 
 
-### <a name="threat-protection"></a>Uhkien torjunta
+### <a name="threat-protection"></a>Uhkientorjunta
 
 Kun olet siirtyminen Microsoft 365 Business Premiumiin, sinulla on Defender for Office 365. Katso [yleistietoja Microsoft Defender for Office 365:stä.](../security/office-365-security/defender-for-office-365.md) Lisätietoja on ohjeaiheessa Turvallisten linkkien [määritys,](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)turvallisten liitteiden määritys ja [tietojenkalastelun](https://support.microsoft.com/office/e7e68934-23dc-4b9c-b714-e82e27a8f8a5)torjunnan määritys [Defender for Office 365:ssä.](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)
 

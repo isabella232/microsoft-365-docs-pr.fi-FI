@@ -2,8 +2,8 @@
 title: Autopilot-laitteen virheiden vianmääritys
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -27,25 +27,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1f468690-530c-47ea-918f-fede24607c53
-description: Lue tietoja automaattiohjauksen laitetiedostojen käyttämisen yhteydessä microsoft 365 Business Premiumissa mahdollisesti näkyvien virheiden vianmäärityksestä.
-ms.openlocfilehash: bec5126696ee322db42e4b7c5cd8e0df485ab2c9
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Lue, miten voit tehdä vianmäärityksen, jonka saatat nähdä, kun käytät AutoPilot-laitetiedostoja Microsoft 365 Business Premiumissa.
+ms.openlocfilehash: 1078ab74b07952e4bb565555a081b98ecce9db5c
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403406"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578083"
 ---
 # <a name="troubleshoot-autopilot-device-errors"></a>Autopilot-laitteen virheiden vianmääritys
 
 ## <a name="device-file-error-messages"></a>Laitetiedoston virhesanomat
 
-Tässä on tietoja joistakin virheistä, joita saatat nähdä työskennellessäsi AutoPilot-laitetiedostojen kanssa Microsoft 365 Business Premiumissa. 
+Seuraavassa on tietoja virheistä, joita saatat nähdä, kun käytät AutoPilot-laitetiedostoja Microsoft 365 Business Premiumissa. 
   
-|**Virhekoodi**|**Yritä korjata**|
+|**Virhekoodi**|**Korjaus kokeilemaan**|
 |:-----|:-----|
-|Virheellinen pyynnön teksti  <br/> |Tämän virheen pitäisi tapahtua harvoin, jos näet tämän virheen, yritä toimintoa uudelleen.  <br/> |
-|Laitteen laitteiston hajautusarvo ei ole oikea.  <br/> |Jos näet tämän virheen, se tarkoittaa, että CSV-tiedostossa antamasi arvo yhden laitteen laitteistohajautusarvolle ei ole oikea. Varmista ensin, että arvo on kirjoitettu oikein. Jos olet sitä mieltä, että arvo on oikea, mutta tämä virhe tapahtuu edelleen, pyydä apua laitteiston valmistajalta.  <br/> |
-|Toiselle vuokralaiselle määritetty laite  <br/> |Jos näet tämän virheen, se tarkoittaa, että CSV-tiedostossa antamasi arvo yhden tai useamman laitteen sarjanumerolle tai tuotetunnukselle ei ole oikea. Varmista ensin, että arvo on kirjoitettu oikein. Jos olet sitä mieltä, että arvo on oikea, mutta tämä virhe tapahtuu edelleen, pyydä apua laitteiston valmistajalta.  <br/> |
-|CSV-tiedosto sisältää virheellisen sarjanumeron tai product key -tunnuksen  <br/> |Jos näet tämän virheen, toinen organisaatio on jo rekisteröinyt laitteen, jota yrität rekisteröidä. Voit korjata tämän virheen kysykää laitevalmistajaltaapua.  <br/> |
-|Tätä laitetta ei tueta automaattisen ohjauksen avulla  <br/> | Tämä virhe tarkoittaa, että laite ei täytä AutoPilotin käyttöönottovaatimuksia. Laitteiden on täytettävä nämä vaatimukset:  <br/>  Windows 10, versio 1703 tai uudempi.  <br/>  Uudet laitteet, joita ei ole käyty Windowsin käyttökokemuksen kautta.  <br/> |
-|Laitetta ei löydy  <br/> |Tämä virhe tarkoittaa, että yhtä tai useampaa CSV-tiedoston laitetta ei ole rekisteröity organisaatioosi. Voit korjata ongelman kysykää laitevalmistajaltasi apua.  <br/> |
+|Virheellinen pyynnön tekstiosa  <br/> |Tämän virheen pitäisi tapahtua harvoin, jos näet tämän virheen, yritä toimintoa uudelleen.  <br/> |
+|Laitteen laitteiston hash-arvo ei ole oikein.  <br/> |Jos näet tämän virheen, se tarkoittaa, että yhden laitteen laitteiston hash-arvo CSV-tiedostossa ei ole oikein. Varmista ensin, että arvo on kirjoitettu oikein. Jos uskot, että arvo on oikea, mutta virhe ilmenee edelleen, pyydä apua laitteiston toimittajalta.  <br/> |
+|Toiselle vuokraajassa määritetty laite  <br/> |Jos näet tämän virheen, csv-tiedostossa annettu arvo, joka on joko sarjanumero tai yhden tai useamman laitteen tuoteavain, ei ole oikein. Varmista ensin, että arvo on kirjoitettu oikein. Jos uskot, että arvo on oikea, mutta virhe ilmenee edelleen, pyydä apua laitteiston toimittajalta.  <br/> |
+|CSV-tiedosto sisältää virheellisen sarjanumeron tai tuoteavaimen  <br/> |Jos tämä virhe ilmenee, toinen organisaatio on jo rekisteröinyt laitteen, jota yrität rekisteröidä. Voit korjata tämän virheen pyytämällä apua laitteiston toimittajalta.  <br/> |
+|Tätä laitetta ei tueta autopilotin määrityksessä  <br/> | Tämä virhe tarkoittaa, että laite ei täytä AutoPilot-käyttöönottovaatimuksia. Laitteiden on täytettävä nämä vaatimukset:  <br/>  Windows 10, versio 1703 tai uudempi.  <br/>  Uudet laitteet, jotka eivät ole käyneet läpi Windowsin käyttökokemusta.  <br/> |
+|Laitetta ei löydy  <br/> |Tämä virhe tarkoittaa, että vähintään yhtä CSV-tiedoston laitetta ei ole rekisteröity organisaatiollesi. Voit korjata ongelman pyytämällä apua laitteiston toimittajalta.  <br/> |
