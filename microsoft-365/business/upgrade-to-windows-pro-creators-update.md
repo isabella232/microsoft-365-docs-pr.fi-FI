@@ -1,9 +1,9 @@
 ---
-title: Windows-laitteiden päivittäminen Windows 10 Proksi
+title: Windows-laitteiden päivittäminen Windows 10 Pro -versioon
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -25,41 +25,41 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: Tutustu tapoja, joilla voit päivittää Windows-laitteesi Windows 10 Proksi ja hyödyntää kehittyneempiä tietoturva- ja yritysverkkotoimintoja.
-ms.openlocfilehash: 24ef1f1547ed8873ed1fa18120eef6275f53c7dc
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Tutustu tapoihin, joilla voit päivittää Windows-laitteisiisi Windows 10 Pron ja hyödyntää kehittyneitä suojaus- ja yritysverkko-ominaisuuksia.
+ms.openlocfilehash: ffcdff540da18a2ecc0578e8015424a2435de6a8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785526"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51578043"
 ---
-# <a name="upgrade-windows-devices-to-windows-10-pro"></a><span data-ttu-id="00746-103">Windows-laitteiden päivittäminen Windows 10 Proksi</span><span class="sxs-lookup"><span data-stu-id="00746-103">Upgrade Windows devices to Windows 10 Pro</span></span>
+# <a name="upgrade-windows-devices-to-windows-10-pro"></a><span data-ttu-id="22536-103">Windows-laitteiden päivittäminen Windows 10 Pro -versioon</span><span class="sxs-lookup"><span data-stu-id="22536-103">Upgrade Windows devices to Windows 10 Pro</span></span>
 
-<span data-ttu-id="00746-104">Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Proksi.</span><span class="sxs-lookup"><span data-stu-id="00746-104">Watch a short video about upgrading Windows devices to Windows 10 Pro.</span></span><br><br>
+<span data-ttu-id="22536-104">Katso lyhyt video Windows-laitteiden päivittämisestä Windows 10 Pro -versioon.</span><span class="sxs-lookup"><span data-stu-id="22536-104">Watch a short video about upgrading Windows devices to Windows 10 Pro.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-<span data-ttu-id="00746-105">Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="00746-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="22536-105">Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span><span class="sxs-lookup"><span data-stu-id="22536-105">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-## <a name="upgrade-to-windows-10-pro"></a><span data-ttu-id="00746-106">Päivitä Windows 10 Proksi</span><span class="sxs-lookup"><span data-stu-id="00746-106">Upgrade to Windows 10 Pro</span></span>
+## <a name="upgrade-to-windows-10-pro"></a><span data-ttu-id="22536-106">Päivittäminen Windows 10 Pro -versioon</span><span class="sxs-lookup"><span data-stu-id="22536-106">Upgrade to Windows 10 Pro</span></span>
   
-<span data-ttu-id="00746-107">Jos haluat päivittää Windows 10 Proksi, sinulla on useita vaihtoehtoja.</span><span class="sxs-lookup"><span data-stu-id="00746-107">To upgrade to Windows 10 Pro, you have several options.</span></span> <span data-ttu-id="00746-108">Voit:</span><span class="sxs-lookup"><span data-stu-id="00746-108">You can:</span></span>
+<span data-ttu-id="22536-107">Jos haluat päivittää Windows 10 Pro -versioon, sinulla on useita vaihtoehtoja.</span><span class="sxs-lookup"><span data-stu-id="22536-107">To upgrade to Windows 10 Pro, you have several options.</span></span> <span data-ttu-id="22536-108">Voit:</span><span class="sxs-lookup"><span data-stu-id="22536-108">You can:</span></span>
     
-- <span data-ttu-id="00746-109">Asenna päivitys [Microsoft Software Download -sivustosta](https://go.microsoft.com/fwlink/?LinkID=836951 ) Valitse tämä &ndash; vaihtoehto, jos laite, johon olet kirjautunut, on samassa laitteessa kuin se, jonka haluat päivittää.</span><span class="sxs-lookup"><span data-stu-id="00746-109">Install the upgrade from the [Microsoft Software Download site](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Select this option if the device that you're logged in is on the same device as the one you want to update.</span></span> 
+- <span data-ttu-id="22536-109">Asenna päivitys [Microsoft Software Download](https://go.microsoft.com/fwlink/?LinkID=836951 ) -sivustosta Valitse tämä vaihtoehto, jos kirjautuneena on samassa laitteessa kuin päivitettävä &ndash; laite.</span><span class="sxs-lookup"><span data-stu-id="22536-109">Install the upgrade from the [Microsoft Software Download site](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; Select this option if the device that you're logged in is on the same device as the one you want to update.</span></span> 
 
-    - <span data-ttu-id="00746-110">Aloita laitteen päivittäminen Windows 10 Pro Creators -päivitykseen valitsemalla ohjelmiston lataussivustosta **Päivitä nyt.**</span><span class="sxs-lookup"><span data-stu-id="00746-110">From the software download site, click **Update now** to start upgrading the device to Windows 10 Pro Creators Update.</span></span> 
+    - <span data-ttu-id="22536-110">Aloita laitteen päivittäminen Windows  10 Pro Creators -päivitykseen valitsemalla ohjelmiston lataussivustossa Päivitä nyt.</span><span class="sxs-lookup"><span data-stu-id="22536-110">From the software download site, click **Update now** to start upgrading the device to Windows 10 Pro Creators Update.</span></span> 
     
-- <span data-ttu-id="00746-111">Asennustietovälineen luominen [Media Creation Tool -työkalulla](https://go.microsoft.com/fwlink/?LinkID=836960) Valitse tämä &ndash; vaihtoehto, jos haluat luoda Windows 10 Pro Creators Update -asennustietovälineen (USB-muistitikun tai ISO-tiedoston), jotta voit asentaa Windows 10:n tietokoneeseen, joka on erilainen kuin käyttämäsi.</span><span class="sxs-lookup"><span data-stu-id="00746-111">Create an installation media using the [Media Creation Tool](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Select this option to create a Windows 10 Pro Creators Update installation media (USB flash drive or ISO file) to install Windows 10 on a PC that's different from the one you're using.</span></span>
+- <span data-ttu-id="22536-111">Luo asennusmedia median [](https://go.microsoft.com/fwlink/?LinkID=836960) luontityökalun avulla Valitse tämä asetus, jos haluat luoda Windows 10 Pro Creators Update -asennusmedian (USB-muistitikku tai ISO-tiedosto), jos haluat asentaa Windows 10:n tietokoneeseen, joka ei ole &ndash; käytössäsi.</span><span class="sxs-lookup"><span data-stu-id="22536-111">Create an installation media using the [Media Creation Tool](https://go.microsoft.com/fwlink/?LinkID=836960) &ndash; Select this option to create a Windows 10 Pro Creators Update installation media (USB flash drive or ISO file) to install Windows 10 on a PC that's different from the one you're using.</span></span>
 
-    - <span data-ttu-id="00746-112">Lue ohjeet työkalun käytöstä ja asennustietovälineen luominen.</span><span class="sxs-lookup"><span data-stu-id="00746-112">Read the instructions on how to use the tool and create your installation media.</span></span> 
+    - <span data-ttu-id="22536-112">Lue ohjeet työkalun käyttöön ja asennusmedian luomiseen.</span><span class="sxs-lookup"><span data-stu-id="22536-112">Read the instructions on how to use the tool and create your installation media.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="00746-113">Jos käytössäsi on Windows-laitteet, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8.1 Pro, Microsoft 365 for Business -tilauksesi oikeuttaa Windows Pro 10 -päivitykseen.</span><span class="sxs-lookup"><span data-stu-id="00746-113">If you have Windows devices running Windows 7 Pro, Windows 8 Pro, or Windows 8.1 Pro, your Microsoft 365 for business subscription entitles you to a Windows Pro 10 upgrade.</span></span>
+> <span data-ttu-id="22536-113">Jos sinulla on Windows-laitteita, joissa on Windows 7 Pro, Windows 8 Pro tai Windows 8.1 Pro, Microsoft 365 for Business -tilauksesi oikeuttaa sinut Windows Pro 10 -päivitykseen.</span><span class="sxs-lookup"><span data-stu-id="22536-113">If you have Windows devices running Windows 7 Pro, Windows 8 Pro, or Windows 8.1 Pro, your Microsoft 365 for business subscription entitles you to a Windows Pro 10 upgrade.</span></span>
     
-<span data-ttu-id="00746-114">Lisätietoja on [ohjeaiheessa Windows 365 for business -käyttäjien Windows-laitteiden määrittäminen](set-up-windows-devices.md) windows 10 -laitteiden määrittämiseen.</span><span class="sxs-lookup"><span data-stu-id="00746-114">See [Set up Windows devices for Microsoft 365 for business users](set-up-windows-devices.md) to complete setting up Windows 10 devices.</span></span> 
+<span data-ttu-id="22536-114">Katso [Windows-laitteiden määrittäminen Microsoft 365 for Business -käyttäjille](set-up-windows-devices.md) Windows 10 -laitteiden määrittämisen viimeistelemista varten.</span><span class="sxs-lookup"><span data-stu-id="22536-114">See [Set up Windows devices for Microsoft 365 for business users](set-up-windows-devices.md) to complete setting up Windows 10 devices.</span></span> 
   
-<span data-ttu-id="00746-115">Lisätietoja on [ohjeaiheessa Mobiililaitteiden määrittäminen Microsoft 365:lle yrityskäyttäjille](set-up-mobile-devices.md) Android- ja iOS-laitteiden määrittämiseksi.</span><span class="sxs-lookup"><span data-stu-id="00746-115">See [Set up mobile devices for Microsoft 365 for business users](set-up-mobile-devices.md) to complete setting up Android and iOS devices.</span></span> 
+<span data-ttu-id="22536-115">Lisätietoja [on kohdassa Mobiililaitteiden määrittäminen Microsoft 365 for Business -käyttäjille](set-up-mobile-devices.md) Android- ja iOS-laitteiden määrittämisen viimeistelemista varten.</span><span class="sxs-lookup"><span data-stu-id="22536-115">See [Set up mobile devices for Microsoft 365 for business users](set-up-mobile-devices.md) to complete setting up Android and iOS devices.</span></span> 
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a><span data-ttu-id="00746-116">Lisätietoja Microsoft 365 for Businessin määrittämisestä ja käyttämisestä</span><span class="sxs-lookup"><span data-stu-id="00746-116">For more on setting up and using Microsoft 365 for business</span></span>
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a><span data-ttu-id="22536-116">Lisätietoja Microsoft 365 for Businessin määrittämisestä ja käyttämisestä</span><span class="sxs-lookup"><span data-stu-id="22536-116">For more on setting up and using Microsoft 365 for business</span></span>
 
-[<span data-ttu-id="00746-117">Microsoft 365 yritysten koulutus videoita</span><span class="sxs-lookup"><span data-stu-id="00746-117">Microsoft 365 for business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[<span data-ttu-id="22536-117">Microsoft 365 for Business -koulutusvideot</span><span class="sxs-lookup"><span data-stu-id="22536-117">Microsoft 365 for business training videos</span></span>](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
