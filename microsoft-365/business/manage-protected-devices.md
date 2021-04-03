@@ -2,8 +2,8 @@
 title: Suojattujen laitteiden hallinta Microsoft 365 Business Premiumin avulla
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -27,21 +27,21 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: Opi poistamaan yritystiedot suojauskäytäntöjen kautta hallinnoiduista laitteista ja palauttamaan Windows 10 -laitteet tehdasasetuksiinsa.
-ms.openlocfilehash: 5bedcdc95a8d0f67c7db73d84f530a0518a07216
-ms.sourcegitcommit: 1244bbc4a3d150d37980cab153505ca462fa7ddc
+ms.openlocfilehash: fdd92e797774a47455d6b4163dfe399bf74d41f3
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51222315"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580150"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a><span data-ttu-id="5a8d4-103">Suojattujen laitteiden hallinta Microsoft 365 Business Premiumin avulla</span><span class="sxs-lookup"><span data-stu-id="5a8d4-103">Manage protected devices with Microsoft 365 Business Premium</span></span>
+# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a><span data-ttu-id="89c85-103">Suojattujen laitteiden hallinta Microsoft 365 Business Premiumin avulla</span><span class="sxs-lookup"><span data-stu-id="89c85-103">Manage protected devices with Microsoft 365 Business Premium</span></span>
 
-<span data-ttu-id="5a8d4-104">Kun käyttäjä on yhdistänyt laitteensa organisaatioosi kirjautumalla sisään työtilillä laitteeseen tai laitteen Office-sovelluksiin, voit suojata laitteen määrittämälläsi käytännöt.</span><span class="sxs-lookup"><span data-stu-id="5a8d4-104">After a user connects their device to your organization by signing in with their work account to the device or to Office apps on the device, you can protect the device with the policies you set up.</span></span> <span data-ttu-id="5a8d4-105">Yhdistetyt laitteet näkyvät **Laitteet-sivulla.**</span><span class="sxs-lookup"><span data-stu-id="5a8d4-105">Connected devices are listed on the **Devices** page.</span></span> <span data-ttu-id="5a8d4-106">Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot.</span><span class="sxs-lookup"><span data-stu-id="5a8d4-106">If a device is lost or stolen, you can manage it from this page to remove any company data.</span></span> <span data-ttu-id="5a8d4-107">Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin.</span><span class="sxs-lookup"><span data-stu-id="5a8d4-107">You can also reset Windows 10 devices to their factory settings to wipe out any custom settings.</span></span> 
+<span data-ttu-id="89c85-104">Kun käyttäjä on yhdistänyt laitteensa organisaatioosi kirjautumalla sisään työtilillä laitteeseen tai laitteen Office-sovelluksiin, voit suojata laitteen määrittämälläsi käytännöt.</span><span class="sxs-lookup"><span data-stu-id="89c85-104">After a user connects their device to your organization by signing in with their work account to the device or to Office apps on the device, you can protect the device with the policies you set up.</span></span> <span data-ttu-id="89c85-105">Yhdistetyt laitteet näkyvät **Laitteet-sivulla.**</span><span class="sxs-lookup"><span data-stu-id="89c85-105">Connected devices are listed on the **Devices** page.</span></span> <span data-ttu-id="89c85-106">Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot.</span><span class="sxs-lookup"><span data-stu-id="89c85-106">If a device is lost or stolen, you can manage it from this page to remove any company data.</span></span> <span data-ttu-id="89c85-107">Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin.</span><span class="sxs-lookup"><span data-stu-id="89c85-107">You can also reset Windows 10 devices to their factory settings to wipe out any custom settings.</span></span> 
 
-<span data-ttu-id="5a8d4-108">Lisätietoja tehtävistä, joita voit käyttää laitteiden hallintaan, on näissä artikkeleissa:</span><span class="sxs-lookup"><span data-stu-id="5a8d4-108">For more information on the tasks you can use to manage devices, see these articles:</span></span> 
+<span data-ttu-id="89c85-108">Lisätietoja tehtävistä, joita voit käyttää laitteiden hallintaan, on näissä artikkeleissa:</span><span class="sxs-lookup"><span data-stu-id="89c85-108">For more information on the tasks you can use to manage devices, see these articles:</span></span> 
   
-[<span data-ttu-id="5a8d4-109">Yritystietojen poistaminen laitteista</span><span class="sxs-lookup"><span data-stu-id="5a8d4-109">Remove company data from devices</span></span>](remove-company-data.md)
+[<span data-ttu-id="89c85-109">Yritystietojen poistaminen laitteista</span><span class="sxs-lookup"><span data-stu-id="89c85-109">Remove company data from devices</span></span>](remove-company-data.md)
   
-[<span data-ttu-id="5a8d4-110">Windows 10 -laitteiden palauttaminen tehdasasetuksiin</span><span class="sxs-lookup"><span data-stu-id="5a8d4-110">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
+[<span data-ttu-id="89c85-110">Windows 10 -laitteiden palauttaminen tehdasasetuksiin</span><span class="sxs-lookup"><span data-stu-id="89c85-110">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
 
-[<span data-ttu-id="5a8d4-111">Hallitun laitteen lisääminen</span><span class="sxs-lookup"><span data-stu-id="5a8d4-111">Add a managed device</span></span>](./app-protection-settings-for-android-and-ios.md)
+[<span data-ttu-id="89c85-111">Hallitun laitteen lisääminen</span><span class="sxs-lookup"><span data-stu-id="89c85-111">Add a managed device</span></span>](./app-protection-settings-for-android-and-ios.md)
