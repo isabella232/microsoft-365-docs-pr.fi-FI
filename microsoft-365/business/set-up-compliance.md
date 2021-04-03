@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Premiumin uhkien uhkien suojauksen nostaminen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä yhteensopivuusominaisuudet, jotka estävät tietojen menettämisen ja auttavat pitämään asiakkaidesi ja asiakkaidesi luottamukselliset tiedot turvassa.
-ms.openlocfilehash: e210787718025c5df29af8d4a2283291dcecc2a8
-ms.sourcegitcommit: 27b2b2e5c41934b918cac2c171556c45e36661bf
+ms.openlocfilehash: c0accc37d3dcda9ba75813f01a98a3233c5a8369
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "50912526"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579950"
 ---
 # <a name="set-up-compliance-features"></a>Yhteensopivuusominaisuuksien määritäminen
 

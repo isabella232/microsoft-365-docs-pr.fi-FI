@@ -2,8 +2,8 @@
 title: Autopilot-profiilien luominen ja muokkaaminen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -26,13 +26,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: Opi luomaan AutoPilot-profiili ja ottamaan se käyttöön laitteessa sekä muokkaamaan tai poistamaan profiilia tai poistamaan profiili laitteesta.
-ms.openlocfilehash: e58418813ed0b4d23a5fa7e1d23aae33d8850e7f
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Opi luomaan AutoPilot-profiili ja käyttämään sitä laitteessa sekä muokkaamaan tai poistamaan profiilia tai poistamaan profiili laitteesta.
+ms.openlocfilehash: 414243da88fb6f39f8e6067d19d49ffe955f725f
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400970"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580250"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Autopilot-profiilien luominen ja muokkaaminen
 
@@ -40,21 +40,21 @@ ms.locfileid: "44400970"
 
 Profiilia käytetään laitteeseen tai laiteryhmään
   
-1. Valitse Microsoft 365 -hallintakeskuksessa **Devices** \> **Laitteet-automaattiohjaus**.
+1. Valitse Microsoft 365 -hallintakeskuksessa **Laitteet** \> **AutoPilot.**
   
-2. Valitse **Automaattiohjaus-sivulla** **Profiilit-välilehti** \> **Luo profiili**.
+2. Valitse **AutoPilot-sivulla** **Profiilit-välilehti** \> **Luo profiili.**
     
-3. Kirjoita **Luo profiili -sivulle** profiilin nimi, joka auttaa tunnistamaan profiilin, esimerkiksi Markkinointi. Ota haluamasi asetus käyttöön ja valitse sitten **Tallenna**. Lisätietoja automaattiohjauksen profiiliasetuksista on kohdassa [Tietoja autopilotin profiiliasetuksista](autopilot-profile-settings.md).
+3. Kirjoita **Luo profiili -sivulle** profiilille nimi, joka auttaa tunnistamaan sen, esimerkiksi Markkinointi. Ota haluamasi asetus käyttöön ja valitse sitten **Tallenna.** Lisätietoja AutoPilot-profiiliasetuksista on kohdassa Tietoja [AutoPilot-profiiliasetuksista.](autopilot-profile-settings.md)
     
     ![Enter name and turn on settings in the Create profile panel.](../media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
 ### <a name="apply-profile-to-a-device"></a>Profiilin käyttäminen laitteeseen
 
-Kun olet luonut profiilin, voit ottaa sen käyttöön laitteessa tai laiteryhmässä. Voit valita olemassa olevan profiilin [vaiheittaiset ohjeet](add-autopilot-devices-and-profile.md) ja ottaa sen käyttöön uusissa laitteissa tai korvata olemassa olevan profiilin laitteelle tai laiteryhmälle. 
+Kun olet luonut profiilin, voit käyttää sitä laitteessa tai laiteryhmässä. Voit valita olemassa olevan profiilin vaiheittaiset [ohjeet](add-autopilot-devices-and-profile.md) ja ottaa sen käyttöön uusissa laitteissa tai korvata olemassa olevan profiilin laitteelle tai laiteryhmälle. 
   
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja valitse **Laite-paneelin Avattavasta** **Määritetty profiili** -luettelosta \> **Tallenna**.
+2. Valitse laitteen nimen vieressä olevaa valintaruutua  ja valitse Laite-paneelissa  profiili avattavasta Määritetty profiili -luettelosta \> **Tallenna.**
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -66,7 +66,7 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja **Profile** päivitä Profiili-paneelissa kaikki käytettävissä olevat asetukset \> **Tallenna**.
+2. Valitse laitteen nimen vieressä oleva valintaruutu ja  päivitä profiilipaneelissa jokin käytettävissä olevista asetuksista \> **Tallenna.**
     
     Jos teet näin, ennen kuin käyttäjä yhdistää laitteen internetiin, profiilia käytetään asennuksessa.
     
@@ -74,7 +74,7 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja valitse **Profiili-paneelista** Poista **profiili** \> **Tallenna**.
+2. Valitse laitteen nimen vieressä olevaa valintaruutua ja valitse **Profiili-paneelissa** **Poista profiilitallenna.** \> 
     
     Kun poistat profiilin, se poistetaan siitä laitteesta tai laiteryhmästä, johon se määritettiin.
     
@@ -82,5 +82,5 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja valitse **Laite-paneelin Avattavasta** **Määritetty profiili** -luettelosta **Ei mitään.** \> **Save**
+2. Valitse laitteen nimen vieressä olevaa valintaruutua  ja valitse  Laite-paneelissa Ei mitään avattavasta Määritetty profiili -luettelosta  \> **Tallenna.**
     

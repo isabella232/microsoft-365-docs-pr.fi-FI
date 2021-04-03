@@ -2,8 +2,8 @@
 title: Officen asentaminen Windows 10een asennuksen aikana
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: conceptual
@@ -25,18 +25,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Katso, miten Microsoft 365 Business Premiumin avulla voit automaattisesti varmistaa, että käyttäjillä on uusin Office-versio kaikissa Windows 10 -laitteissaan.
-ms.openlocfilehash: 1ca386f75743178aebaf0bfabbabcb74f4813685
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+description: Microsoft 365 Business Premiumin avulla voit automaattisesti varmistaa, että käyttäjillä on Officen uusin versio kaikissa Windows 10 -laitteissaan.
+ms.openlocfilehash: d3c62eb42ea73c7af6df6012dbc9488828cd1ba8
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44400834"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580170"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Officen asentaminen Windows 10een asennuksen aikana
 
-![Banner, joka osoittaa https://aka.ms/aboutM365preview .](../media/m365admincenterchanging.png)
+![Banneri, joka osoittaa https://aka.ms/aboutM365preview kohtaan .](../media/m365admincenterchanging.png)
 
-Tämä asetus on oletusarvoisesti poissa käytöstä. Voit ottaa sen käyttöön ja varmistaa, että käyttäjillä on uusin Office-versio kaikissa Windows 10 -laitteissaan, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business Premium -käyttöoikeus, jotta tämä asetus voi siirtää ohjelmiston laitteeseen muiden microsoft [365 Business Premiumin office-asiakasohjelman käyttöönoton valmisteleminen](prepare-for-office-client-deployment.md)-kohdassa kuvattujen vaatimusten lisäksi.
+Tämä asetus on oletusarvoisesti pois käytöstä. Voit ottaa sen käyttöön ja varmistaa, että käyttäjillä on officen uusin versio kaikissa Windows 10 -laitteissaan, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business Premium -käyttöoikeus, jotta tämä asetus työntäisi ohjelmiston laitteeseen, sekä muita Microsoft [365 Business Premiumin Office-käyttöönottoon valmistautumista](prepare-for-office-client-deployment.md)koskevia vaatimuksia.
   
 Suosittelemme, että hyväksyt oletusasetuksen asennuksen aikana.

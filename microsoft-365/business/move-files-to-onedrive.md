@@ -2,8 +2,8 @@
 title: Tiedostojen siirtäminen OneDrive for Businessiin
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: efrene
+author: efrene
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -23,17 +23,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Lue, miten voit siirtää henkilökohtaiset työtiedostosi ja arkaluonteiset yritystiedostosi OneDrive for Businessiin muutamalla helpolla toimenpiteellä.
-ms.openlocfilehash: 561c9dee1080a50dea695f136df10be8e5d52959
-ms.sourcegitcommit: e5bc49f0a25954d008b6cc09c2b98bb7bfe1aa2f
+description: Opi siirtämään henkilökohtaiset työtiedostot ja luottamukselliset yrityksen tiedostot OneDrive for Business -palveluun helposti.
+ms.openlocfilehash: d6bcf2b41f1052c521fda50557aac4bf6a3800fa
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785908"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580070"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Tiedostojen siirtäminen OneDrive for Businessiin
 
-Katso lyhyt video tiedostojen siirtämisestä OneDrive for Businessiin.<br><br>
+Katso lyhyt video tiedostojen siirtämisestä OneDrive for Business -palveluun.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
@@ -54,4 +54,4 @@ Voit siirtää käyttäjäprofiilin ja tärkeät tiedostot myös kolmannen osapu
   
 ## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Lisätietoja Microsoft 365 for Businessin määrittämisestä ja käyttämisestä
 
-[Microsoft 365 yritysten koulutus videoita](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for Business -koulutusvideot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

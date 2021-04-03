@@ -2,8 +2,8 @@
 title: Microsoft 365 for Businessin uhkien uhkien suojauksen nostaminen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: sharik
+author: skjerland
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -22,16 +22,16 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Microsoft Defender for Office 365 ja suojaa arkaluontoiset tiedot tietojen kalastelulta, haittaohjelmilta ja muilta uhilta.
-ms.openlocfilehash: 6526ed9a849e83f19f74656004978089ce367ea9
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: 8fb2c3881876cabea6d8907a85bc9397212126dc
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198387"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51580190"
 ---
 # <a name="increase-threat-protection"></a>Uhkien uhkien suojauksen nostaminen
 
-Tämän artikkelin avulla voit parantaa Microsoft 365 -tilauksesi suojausta tietojen kalastelua, haittaohjelmia ja muita uhkia vastaan. Nämä suositukset soveltuvat organisaatioille, joilla on entistä enemmän tietoturvan tarvetta, kuten lakitoimistot ja terveysalan ammattilaiset.
+Tämän artikkelin avulla voit parantaa Microsoft 365 -tilauksesi suojausta tietojen kalastelulta, haittaohjelmilta ja muilta uhilta suojautumista varten. Nämä suositukset soveltuvat organisaatioille, joilla on entistä enemmän tietoturvan tarvetta, kuten lakitoimistot ja terveysalan ammattilaiset.
 
 Tarkista Office 365 Secure Score ennen aloittamista. Office 365 Secure Score analysoi organisaatiosi suojauksen säännöllisten toimintojen ja suojausasetusten perusteella ja määrittää pistemäärän. Aloita merkitsemällä muistiin nykyinen pistemääräsi. Jos haluat kasvattaa pistemäärää, suorita tässä artikkelissa suositellut toimet. Tavoitteena ei ole saavuttaa suurinta pistemäärää, vaan se on tietoinen ympäristösi suojaamisen mahdollisuuksista, jotka eivät vaikuta haitallisesti käyttäjien tuottavuuteen.
 
@@ -39,7 +39,7 @@ Lisätietoja on kohdassa [Microsoft Secure Score.](../security/defender/microsof
 
 ## <a name="raise-the-level-of-protection-against-malware-in-mail"></a>Nosta sähköpostin haittaohjelmasuojauksen tasoa
 
-Office 365- tai Microsoft 365 -ympäristösi sisältää suojauksen haittaohjelmilta. Voit parantaa tätä suojausta estämällä liitetiedostot tiedostotyypeillä, joita käytetään yleisesti haittaohjelmissa. Haittaohjelmien suojauksen nostaminen sähköpostissa:
+Office 365- tai Microsoft 365 -ympäristösi sisältää suojauksen haittaohjelmilta. Voit parantaa tätä suojausta estämällä liitetiedostot tiedostotyypeillä, joita käytetään yleisesti haittaohjelmissa. Voit parantaa haittaohjelmien estoa sähköpostissa:
 
 1. Siirry [https://protection.office.com](https://protection.office.com) järjestelmänvalvojan tilin tunnistetiedoilla ja kirjaudu sisään.
 
@@ -61,7 +61,7 @@ Lisätietoja on [EOP:n haittaohjelmien estossa.](../security/office-365-security
 
 ## <a name="protect-against-ransomware"></a>Kiristysohjelmilta suojautuminen
 
-Kiristysohjelmat rajoittavat tietojen käyttöä salaamalla tiedostoja tai lukitsemalla tietokoneen näyttöjä. Sen jälkeen se yrittää kiristystä kiristystä pyytämällä kiristystä salausvaluuttoina, kuten Cryptocurrencies, vastineeksi tietojen käyttöösi.
+Kiristysohjelmat rajoittavat tietojen käyttöä salaamalla tiedostoja tai lukitsemalla tietokoneen näyttöjä. Sen jälkeen se yrittää kiristystä kiristystä pyytämällä "kiristystä", joka on yleensä salatun valuutan, kuten Crypton, muodossa tietojen käytön vastineeksi.
 
 Voit suojautua kiristysohjelmilta luomalla yhden tai useamman postinkulkusäännön, joka estää kiristysohjelmissa yleisesti käytetyt tiedostotunnisteet. (Olet lisännyt nämä säännöt [nostamaan suojaustasoa haittaohjelmilta sähköpostin vaiheessa.)](#raise-the-level-of-protection-against-malware-in-mail) Voit myös varoittaa käyttäjiä, jotka saavat nämä liitteet sähköpostitse.
 
@@ -128,7 +128,7 @@ Jos olet määrittänyt yhden tai useamman mukautetun toimialueen Office 365- ta
 
 Suosittelemme, että aloitat tämän suojauksen käytön luomalla käytännön tärkeimpien käyttäjien ja mukautetun toimialueen suojaamiseksi.
 
-Jos haluat luoda tietojenkalastelun torjunnan käytännön Microsoft Defender for Office 365:ssä, katso tämä  [lyhyt koulutusvideo](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)tai toimi seuraavasti:
+Jos haluat luoda tietojenkalastelun torjunnan käytännön Microsoft Defender for Office 365:ssä, katso tämä lyhyt  [koulutusvideo](https://support.microsoft.com/office/86c425e1-1686-430a-9151-f7176cce4f2c)tai toimi seuraavasti:
 
 1. Siirry osoitteeseen [https://protection.office.com](https://protection.office.com).
 
@@ -151,7 +151,7 @@ Jos haluat luoda tietojenkalastelun torjunnan käytännön Microsoft Defender fo
 |Toimintojen valinta|Jos käyttäjä on tekeytynyt käyttäjä lähettänyt sähköpostiviestin: Valitse Ohjaa viesti toiseen sähköpostiosoitteeseen ja kirjoita sitten suojauksen järjestelmänvalvojan sähköpostiosoite. Esimerkiksi *<span> 2010-201022 <span> @contoso.com.* Jos sähköpostin lähettää tekeytynyt toimialue: Valitse **Karanteeniviesti.**|
 |Postilaatikkotiedot|Postilaatikon tiedot valitaan oletusarvoisesti, kun luot uuden tietojenkalastelun estokäytännön. Jätä tämä asetus **käyttöön,** niin saat parhaan tuloksen.|
 |Luotettujen lähettäjien ja toimialueiden lisääminen|Tässä voit lisätä oman toimialueesi tai minkä tahansa muun luotetun toimialueen.|
-|Käytössä:|Valitse **Vastaanottajan toimialue on**. Valitse **jokin näistä ja** valitse Sitten **Valitse.** Valitse **+ Lisää.** Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso. <span> <span> com,* luettelosta ja valitse sitten **Lisää.** Valitse **Valmis.**|
+|Käytössä:|Valitse **Vastaanottajan toimialue on**. Valitse **jokin näistä ja** valitse sitten **Valitse.** Valitse **+ Lisää.** Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso. <span> <span> com,* luettelosta ja valitse sitten **Lisää.** Valitse **Valmis.**|
 
 ## <a name="protect-against-malicious-attachments-and-files-with-safe-attachments"></a>Suojaa haitallisilta liitteiltä ja tiedostoilta turvallisten liitteiden avulla
 
@@ -177,7 +177,7 @@ Voit luoda turvallisten liitteiden käytännön joko katsomalla [tämän lyhyen 
 |---|---|
 |Nimi|Estä nykyiset ja tulevat sähköpostiviestit, joissa on havaittu haittaohjelma.|
 |Kuvaus|Estä nykyiset ja tulevat sähköpostiviestit ja liitteet tunnistetuilla haittaohjelmilla.|
-|Tallenna liitteet tuntemattomasta haittaohjelmavastaus|Valitse **Estä – estä nykyiset ja tulevat sähköpostiviestit ja liitteet, joissa on havaittu haittaohjelma.**|
+|Liitteiden tuntemattomien haittaohjelmien vastausten tallentaminen|Valitse **Estä – estä nykyiset ja tulevat sähköpostiviestit ja liitteet, joissa on havaittu haittaohjelma.**|
 |Liitteen uudelleenohjaus tunnistuksen aikana|Ota uudelleenohjaus käyttöön (valitse tämä ruutu) Kirjoita järjestelmänvalvojan tili tai postilaatikon määritys karanteeniin.          Käytä yllä olevaa valintaa, jos liitteiden haittaohjelmien tarkistus aikaistaa tai tapahtuu virhe (valitse tämä ruutu).|
 |Käytössä:|Vastaanottajan toimialue on . . . valitse toimialueesi.|
 
@@ -185,7 +185,7 @@ Lisätietoja on kohdassa Tietojenkalastelun [torjuntakäytäntöjen määritys M
 
 ## <a name="protect-against-phishing-attacks-with-safe-links"></a>Tietojenkalasteluhyökkäyksiltä suojautuminen turvallisten linkkien avulla
 
-Hakkerit piilottelevat joskus vahingollisia sivustoja sähköpostissa tai muissa tiedostoissa olevista linkeistä. Office 365:n Microsoft Defenderiin kuuluvat turvalliset linkit voivat auttaa suojaamaan organisaatiotasi antamalla sähköpostiosoitteiden ja Office-tiedostojen verkko-osoitteiden (URL-osoitteiden) napsautuksen aikavahvistuksen. Suojaus määritetään Turvallisten linkkien käytännöt -kohdassa.
+Hakkerit piilottelevat joskus vahingollisia sivustoja sähköposteihin tai muihin tiedostoihin linkityksissä. Office 365:n Microsoft Defenderiin kuuluvat turvalliset linkit voivat auttaa suojaamaan organisaatiotasi antamalla sähköpostiosoitteiden ja Office-tiedostojen verkko-osoitteiden (URL-osoitteiden) napsautuksen aikavahvistuksen. Suojaus määritetään Turvallisten linkkien käytännöt -kohdassa.
 
 Suosittelemme, että toimit seuraavasti:
 
@@ -193,7 +193,7 @@ Suosittelemme, että toimit seuraavasti:
 
 - Lisää uusi käytäntö, joka on kohdennettu toimialueen kaikille vastaanottajille.
 
-Voit määrittää turvalliset linkit katsomalla [tämän lyhyen koulutusvideon](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)tai noudattamalla seuraavia ohjeita:
+Voit määrittää turvalliset linkit [katsomalla tämän lyhyen koulutusvideon](https://support.microsoft.com/office/61492713-53c2-47da-a6e7-fa97479e97fa)tai noudattamalla seuraavia ohjeita:
 
 1. Siirry ja [https://protection.office.com](https://protection.office.com) kirjaudu sisään järjestelmänvalvojan tililläsi.
 
@@ -220,7 +220,7 @@ Voit luoda uuden käytännön, joka on kohdennettu toimialueen kaikille vastaano
 |Asetus tai asetus|Suositeltu asetus|
 |---|---|
 |Nimi|Turvalliset linkit -käytäntö kaikille toimialueen vastaanottajille|
-|Valitse viestien tuntemattomien mahdollisesti vahingollisen URL-osoitteiden toiminto|Valitse **Käytössä – URL-osoitteet** kirjoitetaan uudelleen ja tarkistetaan tunnettujen haittalinkkien luettelosta, kun käyttäjä napsauttaa linkkiä.|
+|Valitse viestien tuntemattomille mahdollisesti vahingollisille URL-osoitteille haluamasi toiminto|Valitse **Käytössä – URL-osoitteet** kirjoitetaan uudelleen ja tarkistetaan tunnettujen haittalinkkien luettelosta, kun käyttäjä napsauttaa linkkiä.|
 |Ladattavan sisällön skannaaminen turvallisten liitteiden avulla|Valitse tämä ruutu.|
 |Käytössä:|Vastaanottajan toimialue on . . . valitse toimialueesi.|
 
@@ -234,4 +234,4 @@ Lisätietoja on kohdassa [Turvalliset linkit.](../security/office-365-security/s
 
 3. Kun tulokset ovat näkyvissä, valitse **Microsoft Intunen** vieressä alku, jotta se on suosikki ja helppo löytää myöhemmin.
 
-Hallintakeskuksen lisäksi voit Intunen avulla rekisteröidä ja hallita organisaatiosi laitteita. Lisätietoja on kohdassa [Windows-laitteiden](/intune/enrollment/enrollment-method-capab) rekisteröintimenetelmä ja Intunen hallitsemista laitteista [ilmoittamisvaihtoehdot.](/intune/enrollment-options)
+Hallintakeskuksen lisäksi voit Intunen avulla rekisteröidä ja hallita organisaatiosi laitteita. Lisätietoja on kohdassa [Windows-laitteiden rekisteröintimenetelmän](/intune/enrollment/enrollment-method-capab) ja Intunen hallitsemista laitteista [ilmoittamisvaihtoehdot.](/intune/enrollment-options)

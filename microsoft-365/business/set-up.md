@@ -2,8 +2,8 @@
 title: Microsoft 365 Business Premiumin määritäminen
 f1.keywords:
 - NOCSH
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Tutustu Microsoft 365 Business Premiumin määritysvaiheisiin, kuten toimialueen ja käyttäjien lisäämiseen, suojauskäytäntöjen määrittämiseen ja paljon muuta.
-ms.openlocfilehash: a06fb48ef5e1386a5c7b4df08500125f37943df6
-ms.sourcegitcommit: dcb97fbfdae52960ae62b6faa707a05358193ed5
+ms.openlocfilehash: c8e2ca94f4947d4f9c69915d2fef410a6075bfed
+ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51198428"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "51579910"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Microsoft 365 Business Premiumin määrittäminen ohjatussa määritystoiminnossa
 
@@ -75,7 +75,7 @@ Kun ostat Microsoft 365 Business Premiumin, voit käyttää omaa toimialuetta ta
 
 ### <a name="add-users-and-assign-licenses"></a>Lisää käyttäjiä ja määritä käyttöoikeuksia
 
-Voit lisätä käyttäjiä ohjatussa toiminnossa, mutta voit myös [lisätä käyttäjiä](../admin/add-users/add-users.md) myöhemmin hallintakeskuksessa. Lisäksi, jos sinulla on paikallinen toimialueen ohjauskone, voit lisätä käyttäjiä [Azure AD Connectilla.](/azure/active-directory/hybrid/how-to-connect-install-express)
+Voit lisätä käyttäjiä ohjatussa toiminnossa, mutta voit myös [lisätä käyttäjiä myöhemmin](../admin/add-users/add-users.md) hallintakeskuksessa. Lisäksi, jos sinulla on paikallinen toimialueen ohjauskone, voit lisätä käyttäjiä [Azure AD Connectilla.](/azure/active-directory/hybrid/how-to-connect-install-express)
 
 #### <a name="add-users-in-the-wizard"></a>Käyttäjien lisääminen ohjatussa toiminnossa
 
@@ -107,7 +107,7 @@ Kun haluat määrittää palvelut, sinun on päivitettävä joitakin DNS-isänn�
 
 Ohjatussa toiminnossa määritettyjä käytäntöjä käytetään automaattisesti Kaikki käyttäjät [-käyttöoikeusryhmässä.](/office365/admin/create-groups/compare-groups#security-groups)  Voit myös luoda muita ryhmiä, jotta voit määrittää käytäntöjä hallintakeskuksessa.
 
-1. **Edistyneiltä** kyberuhkilta suojauksen lisäämisen osalta on suositeltavaa hyväksyä oletusasetukset, jotta [Office 365 Advance Threat Protection](../security/office-365-security/defender-for-office-365.md) -sovelluksen tiedostot ja linkit voidaan tarkistaa Office-sovelluksissa.
+1. **Edistyneiltä** kyberuhkilta suojauksen lisäämisen osalta on suositeltavaa hyväksyä oletusasetukset, jotta [Office 365 Advance Threat Protection](../security/office-365-security/defender-for-office-365.md) -tarkistustiedostot ja -linkit voidaan hyväksyä Office-sovelluksissa.
 
     ![Näyttökuva Suurenna suojausta -sivusta.](../media/increasetreatprotection.png)
 
@@ -125,7 +125,7 @@ Valitse vasemmassa siirtymisruudussa **Asetukset** ja valitse sitten Sisäänkir
 
 ## <a name="deploy-office-365-client-apps"></a>Office 365 -asiakassovellusten käyttöönotto
 
-Jos päätit asentaa Office-sovellukset automaattisesti asennuksen aikana, sovellukset asennetaan Windows 10 -laitteisiin, kun käyttäjät ovat kirjautuneet Azure AD:lle Windows-laitteistaan työtunnuksilla.
+Jos päätit asentaa Office-sovellukset automaattisesti asennuksen aikana, sovellukset asennetaan Windows 10 -laitteisiin, kun käyttäjät ovat kirjautuneet Azure AD:lle Windows-laitteillaan työtunnuksilla.
 
 Lisätietoja Officen asentamisesta iOS- tai Android-mobiililaitteisiin on kohdassa Mobiililaitteiden asentaminen [Microsoft 365 Business Premium -käyttäjille.](set-up-mobile-devices.md)
 
