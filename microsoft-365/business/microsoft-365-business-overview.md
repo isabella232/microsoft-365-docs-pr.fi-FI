@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Tietoa Microsoft 365 Business Premiumista, tilauspalvelusta, johon sisältyvät Officen tuottavuussovellukset ja edistynyt suojaus, jonka avulla yrityksesi voi suojautua kyberuhkia vastaan.
-ms.openlocfilehash: d6b0ded25e0478f85e73b807789463e4d55b1bb0
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578343"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52244852"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premiumin yleiskatsaus
 
@@ -46,7 +46,7 @@ Katsomalla tämän lyhyen videon saat yleiskatsauksen Microsoft 365 Business Pre
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816). 
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](../business-video/index.yml). 
 
 Microsoft 365 Business Premium on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](../enterprise/index.yml) -ohjeista.
 
@@ -95,7 +95,7 @@ Microsoft 365 Business Premium auttaa **suojautumaan uhkia vastaan** seuraavilla
 
 - Hallitsemalla sitä, mitkä laitteet ja ketkä käyttäjät voivat käyttää yrityksen Microsoft-tietoja. Voit estää käyttäjiä kirjautumasta sisään kotitietokoneista, hyväksymättömistä sovelluksista tai työajan ulkopuolella (ehdollinen käyttöoikeus).
 
-- Lisäämällä suojauskäytäntöjä, joiden avulla suojataan yrityksen tietoja iOS- ja Android-laitteissa. Voit esimerkiksi vaatia käyttäjiä tunnistautumaan PIN-koodilla tai sormenjäljellä, jotta organisaation tietoja voi käyttää, ja salata tiedot mobiililaitteissa (Office-mobiilisovellusten suojaus)
+- Ottamalla suojauskäytännöt käyttöön yrityksen tietojen suojaamiseksi iOS- ja Android-laitteissa. Voit esimerkiksi vaatia käyttäjiä tunnistautumaan PIN-koodilla tai sormenjäljellä, jotta organisaation tietoja voi käyttää, ja salata tiedot mobiililaitteissa (Office-mobiilisovellusten suojaus).
 
 - pitämällä yrityksen asiakirjat, sähköpostit ja muut tiedot hyväksytyissä Office-sovelluksissa ja estämällä työntekijöitä tallentamasta tietoja hyväksymättömiin sovelluksiin ja sijainteihin (Office-mobiilisovellusten suojaus)
 
@@ -111,6 +111,6 @@ Näet suojausominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Busine
 
 - Jos sinulla ei ole kumppania ja haluat hankkia Microsoft 365 Business Premiumin, voit [ostaa sen täältä](https://www.microsoft.com/microsoft-365/business) ja seurata [rekisteröitymisohjeita](sign-up.md).
 
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
+## <a name="related-content"></a>Aiheeseen liittyvä sisältö
 
-[Microsoft 365 Business Premium -koulutusvideot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business Premium -koulutusvideot](../business-video/index.yml) (linkkisivu)
