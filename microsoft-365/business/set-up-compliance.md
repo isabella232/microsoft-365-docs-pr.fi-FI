@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business Premiumin uhkien uhkien suojauksen nostaminen
+title: Nosta uhkien Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -21,47 +21,47 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Määritä yhteensopivuusominaisuudet, jotka estävät tietojen menettämisen ja auttavat pitämään asiakkaidesi ja asiakkaidesi luottamukselliset tiedot turvassa.
-ms.openlocfilehash: c0accc37d3dcda9ba75813f01a98a3233c5a8369
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Vaatimustenmukaisuusominaisuuksien avulla voit estää tietojen menettämisen ja pitää asiakkaan ja asiakkaan luottamukselliset tiedot suojattuina.
+ms.openlocfilehash: 945f8a283b90b89da2fbe67a073e0807b80d198f
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51579950"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245080"
 ---
-# <a name="set-up-compliance-features"></a>Yhteensopivuusominaisuuksien määritäminen
+# <a name="set-up-compliance-features"></a>Yhteensopivuusominaisuuksien täytäminen
 
-Microsoft 365 Business Premium sisältää ominaisuuksia, jotka suojaavat tietojasi ja laitteitasi ja auttavat sinua pitämään asiakkaidesi ja asiakkaidesi luottamukselliset tiedot turvassa.
+Oma Microsoft 365 Business Premium sisältää ominaisuuksia, joilla voit suojata tietojasi ja laitteitasi ja auttaa sinua pitämään sekä asiakkaidesi luottamukselliset tiedot suojattuina.
 
-## <a name="set-up-dlp-features"></a>DLP-ominaisuuksien asetusten täytäminen
+## <a name="set-up-dlp-features"></a>DLP-ominaisuuksien asetusten
 
-Katso [mallista DLP-käytännön](../compliance/create-a-dlp-policy-from-a-template.md) luominen esimerkiksi siitä, miten voit määrittää käytännön, joka suojaa henkilökohtaisten tietojen menetykseltä. 
+Katso [DLP-käytännön luominen mallista,](../compliance/create-a-dlp-policy-from-a-template.md) jos haluat esimerkiksi määrittää käytännön, joka suojaa henkilökohtaisten tietojen menetykseltä. 
   
-DLP sisältää useita käyttövalmiita käytäntömalleja useille eri kielille. Esimerkiksi Australia Financial Data, Canada Personal Information Act, U.S. Financial Data ja niin edelleen. Katso, [mitkä DLP-käytäntömallit](../compliance/what-the-dlp-policy-templates-include.md) sisältävät täydellisen luettelon. Kaikki nämä mallit voidaan ottaa käyttöön samalla tavalla kuin PII-malliesimerkki. 
+DLP sisältää useita käyttövalmiita käytäntömalleja monille eri kielille. Esimerkki: Australia Financial Data, Canada Personal Information Act, Yhdysvaltain taloudelliset tiedot ja niin edelleen. Täydellinen [luettelo on kohdassa Mitä DLP-käytäntömallit](../compliance/what-the-dlp-policy-templates-include.md) sisältävät. Kaikki nämä mallit voidaan ottaa käyttöön samalla tavalla kuin PII-malliesimerkki. 
   
-## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Sähköpostin säilytyksen määrittäminen Exchange Online Archivingin avulla
+## <a name="set-up-email-retention-with-exchange-online-archiving"></a>Sähköpostin säilytysajan määrittäminen Exchange Online Archiving
 
- **Exchange Online Archiving** -käyttöoikeusominaisuudet auttavat säilyttämään vaatimustenmukaisuus- ja säädöstenmukaisuusstandardit säilyttämällä eDiscoveryn sähköpostisisällön. Se myös vähentää riskiäsi, jos oikeusjutun on olemassa, ja tarjoaa keinon tietojen palauttamiseen tietoturvarikkomuksen jälkeen tai silloin, kun haluat palauttaa poistetut kohteet. Voit säilyttää kaiken käyttäjän sisällön oikeus oikeushallintapitoa käyttämällä tai mukauttaa säilytyskäytäntöjen avulla sitä, mitä haluat säilyttää.
+ **Exchange Online Archiving** käyttöoikeuksien ominaisuudet auttavat säilyttämään vaatimustenmukaisuus- ja sääntelystandardit säilyttämällä eDiscoveryn sähköpostisisällön. Se myös vähentää riskiä, jos oikeusjutun on olemassa, ja tarjoaa keinon tietojen palauttamiseen suojausrikkomuksen jälkeen tai silloin, kun haluat palauttaa poistetut kohteet. Oikeuskäytännön avulla voit säilyttää käyttäjän kaiken sisällön tai mukauttaa säilytettävät sisällöt säilytyskäytäntöjen avulla.
   
-**Oikeusistuntoon pito:** Voit säilyttää postilaatikon kaiken sisällön poistetut kohteet mukaan lukien asettamalla käyttäjän koko postilaatikon oikeusistuntoon. 
+**Oikeus oikeusistuntoon pito:** Voit säilyttää postilaatikon kaiken sisällön poistetut kohteet mukaan lukien asettamalla käyttäjän koko postilaatikon oikeusistuntoon. 
     
-Voit sijoittaa postilaatikon oikeusportaalin pitoon hallintakeskuksessa:
+Voit sijoittaa postilaatikon oikeusistuntoon hallintakeskuksessa:
     
-1. Valitse vasemmassa siirtymispalkin yläkulmassa **Käyttäjät,** \> **jotka ovat aktiivisia.**
+1. Valitse vasemmassa siirtymispalkin siirtymispalissa  \> **Käyttäjät, jotka ovat aktiivisia.**
     
-2. Valitse käyttäjä, jonka postilaatikon haluat sijoittaa oikeusistuntoon. Laajenna käyttäjäruudussa **Sähköpostiasetukset ja valitse** Lisää asetuksia **-kohdassa** Muokkaa **Exchange-ominaisuuksia.**
+2. Valitse käyttäjä, jonka postilaatikon haluat sijoittaa oikeus oikeusistuntoon. Laajenna käyttäjäruudussa **Postiasetukset ja** valitse Lisää asetuksia **-kohdan vierestä** **Muokkaa Exchange ominaisuuksia**.
     
-3. Valitse käyttäjän postilaatikkosivulla ** postilaatikon ominaisuudet ** vasemmasta siirtymispalkin kohdasta ja valitse sitten Ota käyttöön -linkki **Oikeusmääräys-pito-kohdassa.** 
+3. Valitse käyttäjän postilaatikkosivulla ** postilaatikon ominaisuudet ** vasemmassa siirtymispalkin siirtymispalissa ja valitse sitten Ota **käyttöön** -linkki oikeus **hallintapito -kohdassa.**
     
-4. Voit määrittää **oikeus riitautuksen** pitovalintaikkunassa oikeusistuinten pitoajan keston oikeus oikeusistuinten **kestokentässä.** Jätä kenttä tyhjäksi, jos haluat sijoittaa äärettömän pitoon. Voit myös lisätä muistiinpanoja ja ohjata postilaatikon omistajan verkkosivustoon, jossa sinun on ehkä selitettävä lisää oikeus oikeusistuntoon liittyen. \>**Tallenna.**
+4. **Riitautuksen pitovalintaikkunassa** voit määrittää oikeusistuinten pitokentän **keston.** Jätä kenttä tyhjäksi, jos haluat sijoittaa äärettömän pitoon. Voit myös lisätä muistiinpanoja ja ohjata postilaatikon omistajan verkkosivustoon, jossa sinun on ehkä selitettävä enemmän oikeus oikeusistuntoon liittyen. \>**Tallenna**.
     
-**Säilytys:** Voit ottaa käyttöön mukautettuja säilytyskäytäntöjä, jos esimerkiksi haluat säilyttää tietyn ajan tai poistaa sisältöä pysyvästi säilytysajan lopussa. Lisätietoja on ohjeaiheessa [Säilytyskäytäntöjen yleiskatsaus.](../compliance/retention.md)
+**Säilytys:** Voit ottaa käyttöön mukautettuja säilytyskäytäntöjä, jos esimerkiksi haluat säilyttää tietyn ajan tai poistaa sisältöä pysyvästi säilytysajan lopussa. Lisätietoja on kohdassa [Säilytyskäytäntöjen yleiskatsaus.](../compliance/retention.md)
 
 ## <a name="set-up-sensitivity-labels"></a>Luottamuksellisuusotsikoiden valitseminen
 
-Luottamuksellisuustunnisteet tulevat Azure Information Protection (AIP) -palvelupaketti 1:n mukana, ja ne auttavat luokittelemaan ja suojaamaan asiakirjojasi ja sähköpostejasi käyttämällä tarroja. Järjestelmänvalvojat, jotka määrittävät sääntöjä ja ehtoja, voivat ottaa selitteet käyttöön automaattisesti, käyttäjien manuaalisesti tai käyttämällä yhdistelmää, jossa käyttäjille annetaan suosituksia.
+Luottamuksellisuustunnisteet on varustettu Azure Information Protection (AIP) -palvelupaketti 1:llä, ja niiden avulla voit luokitella ja halutessasi suojata asiakirjoja ja sähköposteja käyttämällä tarroja. Järjestelmänvalvojat, jotka määrittävät säännöt ja ehdot, voivat ottaa selitteet käyttöön automaattisesti, käyttäjien manuaalisesti tai yhdistelmällä, jossa käyttäjille annetaan suosituksia.
 
-Jos haluat määrittää luottamuksellisuusotsikot, tarkastele [luottamuksellisuusotsikoiden luontia ja hallintaa](https://support.microsoft.com/office/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) videossa.
+Jos haluat määrittää luottamuksellisuusotsikot, katso [luottamuksellisuusotsikoiden](../business-video/create-sensitivity-labels.md) luominen ja hallinta -video.
 
 
 
@@ -71,7 +71,7 @@ AIP-asiakasohjelman asentaminen manuaalisesti:
 
 1. Lataa **AzinfoProtection_UL.exe** Microsoft [Download Centeristä.](https://www.microsoft.com/download/details.aspx?id=53018)
  
-2. Voit tarkistaa, että asennus on toiminut tarkastelemalla Word-asiakirjaa ja varmistamalla, että Luottamuksellisuus-vaihtoehto  on käytettävissä **Aloitus-välilehdessä.**
+2. Voit tarkistaa asennuksen toimimisen tarkastelemalla Word-asiakirjaa  ja varmistamalla, että Luottamuksellisuus-vaihtoehto on käytettävissä **Aloitus-välilehdessä.**
 <br/>![Word-asiakirjan avattava Suojaus-välilehti.](../media/word-sensitivity.png)
 
 Lisätietoja on kohdassa [Asiakkaan asentaminen.](/azure/information-protection/infoprotect-tutorial-step3)

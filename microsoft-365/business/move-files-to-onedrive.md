@@ -23,21 +23,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: Opi siirtämään henkilökohtaiset työtiedostot ja luottamukselliset yrityksen tiedostot OneDrive for Business -palveluun helposti.
-ms.openlocfilehash: d6bcf2b41f1052c521fda50557aac4bf6a3800fa
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Opi siirtämään henkilökohtaiset työtiedostot ja luottamukselliset OneDrive for Business helposti.
+ms.openlocfilehash: 4dadc87c0168a9fcdcc795a94df8ee5b7fc7fd91
+ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580070"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52245100"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>Tiedostojen siirtäminen OneDrive for Businessiin
 
-Katso lyhyt video tiedostojen siirtämisestä OneDrive for Business -palveluun.<br><br>
+Katso lyhyt video tiedostojen siirtämisestä OneDrive for Business.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d74b083c-1f44-43ea-8a14-2e1fc600b341] 
 
-Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](../business-video/index.yml).
 
 
 ## <a name="move-files-to-onedrive-for-business"></a>Tiedostojen siirtäminen OneDrive for Businessiin
@@ -52,6 +52,6 @@ Jos käyttäjä on tietokone, joka sisältää monia henkilökohtaisia tiedostoj
     
 Voit siirtää käyttäjäprofiilin ja tärkeät tiedostot myös kolmannen osapuolen työkalun, kuten ForensiT:n, avulla. Lataa myös tulostiedostot OneDrive for Businessiin.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Lisätietoja Microsoft 365 for Businessin määrittämisestä ja käyttämisestä
+## <a name="for-more-on-setting-up-and-using-microsoft-365-for-business"></a>Lisätietoja yritysasian määrittämisestä ja Microsoft 365 käyttämisestä
 
-[Microsoft 365 for Business -koulutusvideot](https://support.microsoft.com/office/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 yrityksille -koulutusvideoita](../business-video/index.yml)
