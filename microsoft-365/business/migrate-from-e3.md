@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi siirtämään yrityksesi Microsoft 365 Business Premium E3 Office 365 stä.
-ms.openlocfilehash: f08b054473fdd63ec2372e81c776a1b64f89fe9d
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
+ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244832"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "52327166"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Siirtyminen Office 365 E3:sta Microsoft 365 Business Premium
 
@@ -39,25 +39,24 @@ Siirtyminen on helppoa: Ensin vaihdat käyttöoikeuksia, ja kaikki nykyisen tila
 
 Tässä taulukossa esitetään E3 Microsoft 365 Business Premium ja Office 365 väliset erot.
 
-| Ominaisuus    | Tuki Microsoft 365 Business Premium    | Tuki Office 365 E3:ssa | 
+| Ominaisuus    | Tuki Microsoft 365 Business Premium    | Tuki Office 365 E3:ssa |
 |:-------|:-----|:-----|
-| **Paikallinen**        | | | 
-| Office sovellukset<sup>1</sup>    | Microsoft 365 -sovellukset yrityksille    | Microsoft 365 -sovellukset yrityksille | 
-| **Pilvitallennussovellukset**        | | | 
-| Exchange Online ja Outlook    | Postilaatikkokohtainen 50 gigatavun tallennustilaraja ja rajoittamaton Exchange Online Archiving    | 100 Gigatavun tallennustilaraja postilaatikkoa kohden ja rajoittamaton Exchange Online Archiving | 
+| **Paikallinen**        | | |
+| Office sovellukset<sup>1</sup>    | Microsoft 365 -sovellukset yrityksille    | Microsoft 365 -sovellukset yrityksille |
+| **Pilvitallennussovellukset**        | | |
+| Exchange Online ja Outlook    | Postilaatikkokohtainen 50 gigatavun tallennustilaraja ja rajoittamaton Exchange Online Archiving    | 100 Gigatavun tallennustilaraja postilaatikkoa kohden ja rajoittamaton Exchange Online Archiving |
 | Teams    | ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | ![Sisältyy Office 365 E3:lle](../media/check-mark.png) | 
 | OneDrive for Business    | 1 Tt tallennustilaraja käyttäjää kohden    | Rajoittamaton | 
 | Yammer, SharePoint Online, Planner, Stream    | ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | ![Sisältyy Office 365 E3:lle](../media/check-mark.png) | 
-| StaffHub    | ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | ![Sisältyy Office 365 E3:lle](../media/check-mark.png) | 
-| MileIQ    | ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | | 
-| **Threat Protection**        | | | 
-| Defender for Office 365 Plan 1 | ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | Ei sisälly, mutta voidaan lisätä | 
-| **Käyttäjätietojen hallinta**        | | | 
-| Omatoiminen salasanan vaihtaminen yhdistelmäympäristön Azure Active Directory (Azure AD) -tileissä, Azure AD:n monimenetelmäinen todentaminen (MFA), ehdollinen käyttöoikeus, paikallisen käyttäjätiedot salasanalla kirjoittamisen palautus|     ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    |  | 
+| StaffHub    | ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | ![Sisältyy Office 365 E3:lle](../media/check-mark.png) |
+| **Threat Protection**        | | |
+| Defender for Office 365 Plan 1 | ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | Ei sisälly, mutta voidaan lisätä |
+| **Käyttäjätietojen hallinta**        | | |
+| Omatoiminen salasanan vaihtaminen yhdistelmäympäristön Azure Active Directory (Azure AD) -tileissä, Azure AD:n monimenetelmäinen todentaminen (MFA), ehdollinen käyttöoikeus, paikallisen käyttäjätiedot salasanalla kirjoittamisen palautus|     ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | **Laite- ja sovellushallinta**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    |  |
 | Jaetun tietokoneen aktivointi|     ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    | ![Sisältyy Office 365 E3:lle](../media/check-mark.png)| 
-| Päivitä käyttöoikeudet Windows 10 Pro Win 7/8.1 -Pro käyttöoikeuksista|     ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    || 
+| Päivitä käyttöoikeudet Windows 10 Pro Win 7/8.1 -Pro käyttöoikeuksista|     ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)    ||
 | **Tietojen suojaus**        | | |
 |Office 365 Tietojen menetyksen estäminen|    ![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)|![Sisältyy Office 365 E3:lle](../media/check-mark.png)|
 |Azure Information Protection Plan 1, BitLocker pakotus|![Sisältyy Microsoft 365 Business Premium](../media/check-mark.png)||
@@ -96,29 +95,28 @@ Jos olet päivittänyt kaikki organisaation käyttäjät Microsoft 365 Business 
 Voit myös suorittaa nämä vaiheet Laitteet-sivulla:
   
 1. Valitse hallintakeskuksen vasemmassa siirtymispalkin **laitekäytännöt** \> .
-    
+
 2. Valitse **Laitekäytännöt-sivulla** **Lisää**.
-    
-3. Anna **käytännön nimi** Lisää käytäntö -ruudussa ja valitse sitten **käytäntötyyppi** avattavasta luettelosta. 
-    
+
+3. Anna **käytännön nimi** Lisää käytäntö -ruudussa ja valitse sitten **käytäntötyyppi** avattavasta luettelosta.
+
      Voit määrittää sovelluskäytäntöjä Android- ja iPhone-laitteissa sekä Windows 10-laitteissa olevien tiedostojen suojaamista varten sekä määrittää laitemäärityskäytännöt yrityksen omistamia Windows 10 laitteita varten. Lisätietoja on seuraavissa linkeissä:
-    
+
   - [Sovellusten suojausasetusten määrittäminen Android- tai iOS-laitteita varten](app-protection-settings-for-android-and-ios.md)
-    
+
   - [Sovellusten suojausasetusten määrittäminen Windows 10 -laitteille](protection-settings-for-windows-10-devices.md)
-    
+
   - [Laitteiden suojausasetusten määrittäminen Windows 10 tietokoneisiin](protection-settings-for-windows-10-pcs.md)
   
 4. Kun olet määrittänyt käytännöt, sinä ja työntekijäsi voitte määrittää laitteita:
-    
+
   - Katso [ohjeet Windows laitteiden Microsoft 365 Business Premium käyttäjille](set-up-windows-devices.md) Windows varten. 
-    
+
   - Katso [ohjeet Android-puhelimiin ja iPhoneen Microsoft 365 Business Premium](set-up-mobile-devices.md) mobiililaitteiden Microsoft 365 Business Premium mobiililaitteille. 
   
 ### <a name="mailbox-size"></a>Postilaatikon koko
 
 Microsoft 365 Business Premium tallennustilaraja on 50 gigatavua, sillä se käyttää Exchange Online 1:tä. Kun siirto Microsoft 365 Business Premium:lle ja joku käyttäjistä ylittää 50 Gt postilaatikon tallennustilaa, on suositeltavaa määrittää tälle käyttäjälle Exchange Online -käyttöoikeuspaketti 2 ja poistaa Exchange Online -käyttöoikeuspaketti 1, koska molempia ei voi määrittää.
-
 
 ### <a name="threat-protection"></a>Uhkien suojaus
 
