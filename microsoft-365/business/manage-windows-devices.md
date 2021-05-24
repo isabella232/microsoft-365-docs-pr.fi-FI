@@ -1,5 +1,5 @@
 ---
-title: Toimialueeseen liitettyjen Windows 10 -laitteiden hallinnoiminen Microsoft 365 for Businessissa
+title: Toimialueeseen liitettyjen Windows 10 laitteiden hallinnoiminen Microsoft 365 yrityksille
 f1.keywords:
 - CSH
 ms.author: efrene
@@ -23,18 +23,18 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Voit ottaa Microsoft 365:n käyttöön ja suojata paikalliset Active Directoryyn yhdistetyt Windows 10 -laitteet seuraavasti.
-ms.openlocfilehash: c9f5a21d993200abcf9ecf1fa236879245e1c153
-ms.sourcegitcommit: 4076b43a4b661de029f6307ddc1a989ab3108edb
+description: Opi, miten voit Microsoft 365 active-directory-laitteisiin Windows 10-laitteissasi muutamassa vaiheessa.
+ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51939498"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52593889"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Ota toimialueeseen liitettyjen Windows 10 -laitteiden hallinta Microsoft 365 Business Premiumin avulla
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Toimialueen liitettyjen laitteiden Windows 10 hallitaan Microsoft 365 Business Premium
 
-Jos organisaatiossasi on käytössä Paikallinen Windows Server Active Directory, voit määrittää Microsoft 365 Business Premiumin suojaamaan Windows 10 -laitteitasi säilyttäen edelleen paikallisen todentamisen edellyttävän paikallisen todentamisen resurssien käyttöoikeuden.
-Voit määrittää tämän suojauksen laitteella, jossa Azure **AD-yhdistelmäympäristö on liitetty.** Nämä laitteet liitetään sekä paikalliseen Active Directoryyn että Azure Active Directoryyn.
+Jos organisaatiosi käyttää Windows Server Active Directorya paikallisesti, voit määrittää Microsoft 365 Business Premium:n suojaamaan Windows 10-laitteitasi säilyttäen edelleen paikallisen todentamisen edellyttävän paikallisen todentamisen resurssien käyttöoikeuden.
+Voit määrittää tämän suojauksen laitteella, jossa Azure **AD-yhdistelmäympäristö on liitetty.** Nämä laitteet liitetään sekä paikalliseen Active Directoryyn että Azure Active Directory.
 
 Tässä videossa kuvataan ohjeet sen käyttöön yleisimpään tilanteeseen, joka on myös kuvattu seuraavissa vaiheissa.
 
@@ -42,23 +42,23 @@ Tässä videossa kuvataan ohjeet sen käyttöön yleisimpään tilanteeseen, jok
   
 
 ## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Varmista ennen aloittamista, että olet suorittanut seuraavat vaiheet:
-- Synkronoi käyttäjät Azure AD:n kanssa Azure AD Connectin avulla.
-- Viimeistele Azure AD Connectin organisaatioyksikön (OU) synkronointi.
-- Varmista, että kaikilla synkronoiduilla toimialuekäyttäjillä on Microsoft 365 Business Premiumin käyttöoikeudet.
+- Synkronoi käyttäjät Azure AD:n kanssa Azure AD Näyttöyhteys.
+- Viimeistele Azure AD Näyttöyhteys organisaatioyksikön (OU) synkronointi.
+- Varmista, että kaikilla synkronoiduilla toimialuekäyttäjillä on käyttöoikeudet Microsoft 365 Business Premium.
 
 Katso [ohjeet toimialuekäyttäjien synkronoiminen Microsoftiin.](manage-domain-users.md)
 
 ## <a name="1-verify-mdm-authority-in-intune"></a>1. MDM-myöntäjän tarkistaminen Intunessa
 
-Siirry [Endpoint Manageriin](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) ja valitse Microsoft Intune -sivulla Laitteen  rekisteröinti **.** Varmista sitten Yleiskatsaus-sivulla, että **MDM-myöntäjä** on **Intune.**
+Siirry [Endpoint Manager](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Enrollment/EnrollmentMenu/overview) ja valitse Microsoft Intune -sivulla Laitteen rekisteröinti **ja** varmista sitten  Yleiskatsaus-sivulla, että **MDM-myöntäjä** on **Intune**.
 
 - Jos **MDM-myöntäjä** **on Ei** mitään , määritä **MDM-myöntäjäksi** **Intune.**
-- Jos **MDM-myöntäjä** on Microsoft Office  **365,** siirry laitteet Ilmoittavat laitteet -välilehteen ja lisää Intune MDM -myöntäjä oikealla olevan Lisää mobiililaitteiden hallinta -myöntäjä -valintaikkunan avulla (Lisää MDM-myöntäjä -valintaikkuna on käytettävissä vain, jos  >   **MDM-myöntäjäksi** on määritetty Microsoft Office 365).   
+- Jos **MDM-myöntäjä** on **Microsoft Office 365,** valitse Laitteet Ilmoittavat laitteet ja lisää Intune MDM -myöntäjä oikealla olevan Lisää MDM -myöntäjä -valintaikkunan avulla  >   (Lisää  **MDM-myöntäjä** -valintaikkuna on käytettävissä vain, jos **MDM-myöntäjäksi** on määritetty Microsoft Office 365). 
 
 ## <a name="2-verify-azure-ad-is-enabled-for-joining-computers"></a>2. Varmista, että Azure AD on otettu käyttöön tietokoneisiin liittymistä varten
 
-- Siirry hallintakeskukseen kohteessa ja valitse <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **Azure Active Directory** (valitse Näytä kaikki, jos Azure Active Directory ei ole näkyvissä) **Hallintakeskukset-luettelossa.** 
-- Siirry **Azure Active Directory -hallintakeskuksessa** **Azure Active Directoryyn,** valitse **Laitteet** ja valitse sitten **Laiteasetukset**.
+- Siirry hallintakeskukseen kohdassa ja valitse hallintakeskuksen Azure Active Directory (valitse Hallintakeskukset Azure Active Directory näytä kaikki, jos ne eivät <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> **ole**  näkyvissä). 
+- Siirry **Azure Active Directory hallintakeskuksessa** kohtaan Azure Active Directory **,** **valitse Laitteet** ja sitten **Laiteasetukset**.
 - Varmista,**että käyttäjät voivat liittyä laitteisiin Azure AD:ssä** on otettu käyttöön 
     1. Ota kaikki käyttäjät käyttöön asettamalla arvoksi **Kaikki**.
     2. Jos haluat ottaa tietyt käyttäjät käyttöön, valitse **Valittu,** jotta tietty käyttäjäryhmä otetaan käyttöön.
@@ -67,11 +67,11 @@ Siirry [Endpoint Manageriin](https://endpoint.microsoft.com/#blade/Microsoft_Int
 
 ## <a name="3-verify-azure-ad-is-enabled-for-mdm"></a>3. Varmista, että Azure AD on otettu käyttöön MDM:ssä
 
-- Siirry hallintakeskukseen at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>  ja valitse **Endpoint Managemen** t (valitse **Näytä kaikki,** jos **Endpoint-hallinta** ei ole näkyvissä)
-- Valitse **Microsoft Endpoint Manager -hallintakeskuksessa** Laitteet   >  Windows Windows Enrollment Automatic Enrollment  >  **(Laitteet, Windows-rekisteröinnin**  >  **automaattinen rekisteröinti).**
+- Siirry hallintakeskukseen at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> ja valitse **Endpoint Managemen** t (valitse **Näytä kaikki,** **jos Endpoint Manager** ei ole näkyvissä)
+- Valitse **Microsoft Endpoint Manager hallintakeskuksessa** Laitteet, jotka   >  **Windows**  >  **Windows automaattisen**  >  **rekisteröinnin**.
 - Tarkista, että MDM-käyttäjäalue on käytössä.
 
-    1. Jos haluat rekisteröidä kaikki  tietokoneet, määritä Kaikki-asentoon, jos haluat rekisteröidä automaattisesti kaikki käyttäjätietokoneet, jotka on liitetty Azure AD:han ja uusiin tietokoneisiin, kun käyttäjät lisäävät työtilin Windowsiin.
+    1. Jos haluat rekisteröidä kaikki  tietokoneet, määritä Kaikki-asentoon, jos haluat rekisteröidä automaattisesti kaikki käyttäjät, jotka on liitetty Azure AD:han ja uusiin tietokoneisiin, kun käyttäjät lisäävät työtilin Windows.
     2. Valitse **Jotkin,** jos haluat rekisteröidä tietyn käyttäjäryhmän tietokoneet.
         -  Lisää haluamasi Azure AD:ssä synkronoidut toimialuekäyttäjät [käyttöoikeusryhmään.](../admin/create-groups/create-groups.md)
         -  Ota **MDM-käyttäjäalue** käyttöön tässä käyttöoikeusryhmässä valitsemalla Valitse ryhmät.
@@ -87,16 +87,16 @@ Install-Module SecMgmt
 ```
 
 > [!IMPORTANT]
-> On suositeltavaa asentaa tämä moduuli Windows Serveriin, jossa on Azure AD Connect.
+> On suositeltavaa asentaa tämä moduuli Azure AD Windows-Näyttöyhteys.
 
-Jos haluat luoda vaaditun palveluyhteyspisteen ja ryhmäkäytännön, käynnistä [Initialize-SecMgmtHybirdDeviceEnrollment-cmdlet-komento.](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) Tämän tehtävän suorittamiseen tarvitaan yleisen Microsoft 365 Business Premium -järjestelmänvalvojan tunnistetiedot. Kun olet valmis luomaan resurssit, avaa seuraava komento:
+Jos haluat luoda vaaditun palveluyhteyspisteen ja ryhmäkäytännön, käynnistä [Initialize-SecMgmtHybirdDeviceEnrollment-cmdlet-komento.](https://github.com/microsoft/secmgmt-open-powershell/blob/master/docs/help/Initialize-SecMgmtHybirdDeviceEnrollment.md) Tämän tehtävän suorittamiseen tarvitaan Microsoft 365 Business Premium järjestelmänvalvojan tunnistetiedot. Kun olet valmis luomaan resurssit, avaa seuraava komento:
 
 ```powershell
 PS C:\> Connect-SecMgmtAccount
 PS C:\> Initialize-SecMgmtHybirdDeviceEnrollment -GroupPolicyDisplayName 'Device Management'
 ```
 
-Ensimmäinen komento muodostaa yhteyden Microsoftin pilvipalveluun ja määrittää pyydettäessä Microsoft 365 Business Premiumin yleisen järjestelmänvalvojan tunnistetiedot.
+Ensimmäinen komento muodostaa yhteyden Microsoftin pilvipalveluun, ja kun sinua kehotetaan, määritä yleisen Microsoft 365 Business Premium tunnistetiedot.
 
 ## <a name="5-link-the-group-policy"></a>5. Linkitä ryhmäkäytäntö
 
@@ -105,13 +105,13 @@ Ensimmäinen komento muodostaa yhteyden Microsoftin pilvipalveluun ja määritt�
 
 ## <a name="get-the-latest-administrative-templates"></a>Hanki uusimmat hallintamallit
 
-Jos et näe käytäntöä Enable **automatic MDM enrollment using default Azure AD credentials**( Ota käyttöön automaattinen MDM-rekisteröinti Azure AD:n oletustunnuksilla), tämä voi olla mahdollista, koska ADMX ei ole asennettuna Windows 10:lle, versiolle 1803 tai uudempaan. Voit korjata ongelman seuraavasti (Huomautus: uusin MDM.admx on yhteensopiva aiempien versioiden kanssa):
+Jos et näe käytäntöä Enable **automatic MDM enrollment using default Azure AD credentials**(Ota automaattinen MDM-rekisteröinti käyttöön Azure AD:n oletustunnuksilla), ADMX ei ehkä ole asennettuna Windows 10:lle, versiolle 1803 tai uudempaan. Voit korjata ongelman seuraavasti (Huomautus: uusin MDM.admx on yhteensopiva aiempien versioiden kanssa):
 
-1.  Lataa: [Windows 10:n hallintamallit (.admx) lokakuuta 2020 -päivitys (20H2).](https://www.microsoft.com/download/102157)
+1.  Lataa: [Hallintamallit (.admx) Windows 10 lokakuun 2020 päivityksen (20H2) mukaan.](https://www.microsoft.com/download/102157)
 2.  Asenna paketti toimialueen ohjauskoneeseen.
-3.  Siirry kansioon hallintamallien version mukaan: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 October 2020 Update (20H2).**
+3.  Siirry kansioon hallintamalliversion mukaan: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 October 2020 Update (20H2).**
 4.  Nimeä yllä **olevassa** polussa oleva Käytäntömääritykset-kansio uudelleen **policydefinitions-kansioon.**
-5.  Kopioi **PolicyDefinitions-kansio** SYSVOL-jakamaan, oletusarvoisesti **sijaintiin C:\Windows\SYSVOL\domain\Policies.** 
+5.  Kopioi **PolicyDefinitions-kansio** SYSVOL-jakamaan, oletusarvoisesti sijaintiin **C:\Windows\SYSVOL\domain\Policies.** 
     -   Jos aiot käyttää keskitettyä käytäntösäilöä koko toimialueellesi, lisää Siellä PolicyDefinitions -sisältö.
 6.  Jos sinulla on useita toimialueen ohjauskomia, odota, että SYSVOL replikoi käytännöt. Tämä toimenpide toimii myös kaikissa tulevissa hallintamallien versioissa.
 
@@ -119,4 +119,8 @@ Tässä vaiheessa sinun pitäisi nähdä käytäntö Enable automatic MDM enroll
 
 ## <a name="related-content"></a>Aiheeseen liittyvä sisältö
 
-[Toimialuekäyttäjien synkronoiminen Microsoft 365:lle](manage-domain-users.md) (artikkeli) Ryhmän luominen [hallintakeskuksessa](../admin/create-groups/create-groups.md) (artikkeli) Opetusohjelma: Azure Active Directory -yhdistelmäliitoksen määrittäminen [hallittuja](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) toimialueita varten (artikkeli)
+[Toimialuekäyttäjien synkronoiminen Microsoft 365](manage-domain-users.md) (artikkeli)
+
+[Ryhmän luominen hallintakeskuksessa](../admin/create-groups/create-groups.md) (artikkeli)
+
+[Opetusohjelma: Yhdistelmäympäristön Azure Active Directory määrittäminen hallittuja toimialueita varten](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (artikkeli)

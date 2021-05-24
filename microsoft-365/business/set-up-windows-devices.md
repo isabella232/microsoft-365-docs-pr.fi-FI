@@ -26,17 +26,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Opi, miten voit Windows Windows 10 Pro käyttäjille Microsoft 365 Business Premium ja ottaa käyttöön keskitetyt hallinta- ja suojaustoiminnot.
-ms.openlocfilehash: 3e268d81ff6fb7113b7e0b0fe5d0545ff5c72b1e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Määritä Windows, joissa Windows 10 Pro on Microsoft 365 Business Premium, ja ota käyttöön keskitetyt hallinta- ja suojaustoiminnot.
+ms.openlocfilehash: 3d32a033a1a1c89d7d4d557cea6a28e24543ab2c
+ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244772"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "52594017"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Laitteiden Windows käyttäjien Microsoft 365 Business Premium käyttöön
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Laitteiden määrittämisen edellytykset Windows käyttäjille Microsoft 365 Business Premium käyttäjille
+## <a name="before-you-begin"></a>Alkuvalmistelut
 
 Ennen kuin voit määrittää Windows -Microsoft 365 Business Premium käyttäjille, varmista, että kaikissa Windows -laitteissa Windows 10 Pro versio 1703 (Creators-päivitys). Windows 10 Pro käyttöönotto edellyttää Windows 10 Business:n käyttöönottoa. Se on joukko pilvipalveluja ja laitteiden hallintaominaisuuksia, jotka täydentävät Windows 10 Pro ja mahdollistavat Microsoft 365 Business Premium:
   
@@ -128,6 +128,6 @@ Varmista, että Azure AD:Windows 10 liitettyihin laitteisiin on Windows 10 Busin
 
 Jos haluat määrittää mobiililaitteet, katso mobiililaitteiden Microsoft 365 Business Premium [-käyttäjille](set-up-mobile-devices.md). Lisätietoja laitteiden tai sovellusten suojauskäytäntöjen määrittämiskäytännöistä on kohdassa [Microsoft 365 yrityskäyttäjien tietojen hallinta.](manage.md)
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Lisätietoja asetusten määrittämisestä ja Microsoft 365 Business Premium
+## <a name="related-content"></a>Aiheeseen liittyvä sisältö
 
-[Microsoft 365 yrityksille -koulutusvideoita](../business-video/index.yml)
+[Microsoft 365 yrityksille 2010 -koulutusvideoita](../business-video/index.yml) (linkkisivu)
