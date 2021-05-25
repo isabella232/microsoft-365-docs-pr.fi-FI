@@ -30,14 +30,16 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Tutustu määritykseen, Microsoft 365 Business Premium, kuten toimialueen ja käyttäjien lisääminen, suojauskäytäntöjen määrittäminen ja paljon muuta.
-ms.openlocfilehash: 37607b483686fc12ac6253ae9f693ec86c073c4e
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245040"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624385"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Asetusten Microsoft 365 Business Premium määrittäminen ohjatussa määritystoiminnossa
+
+## <a name="watch-overview-of-microsoft-365-setup"></a>Katso: Yleiskatsaus Microsoft 365 asetuksiin
 
 Tässä videossa on yleiskatsaus Microsoft 365 Business Premium määrityksestä.<br><br>
 
@@ -131,6 +133,6 @@ Jos haluat asentaa Office iOS- tai Android-laitteisiin, katso mobiililaitteiden 
 
 Voit myös asentaa Office erikseen. Katso [Office PC: lle tai Macille](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) asennusohjeet.
 
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
+## <a name="related-content"></a>Aiheeseen liittyvä sisältö
 
-[Microsoft 365 yrityksille -koulutusvideoita](../business-video/index.yml)
+[Microsoft 365 yrityksille 2010 -koulutusvideoita](../business-video/index.yml) (linkkisivu)

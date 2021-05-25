@@ -21,13 +21,13 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Opi siirtämään yrityksesi Microsoft 365 Business Premium E3 Office 365 stä.
-ms.openlocfilehash: 990ca8bdae979f1efb8a60a3460add2953a51892
-ms.sourcegitcommit: 68383240ef7a673d5f28e2ecfab9f105bf1d8c8f
+description: Jos sinulla on Office 365 E3 -tilaus, mutta yrityksessä on enintään 300 työntekijää, harkitse siirtymistä Microsoft 365 Business Premium.
+ms.openlocfilehash: d139d07c946ff3efed3db3a73eb5e1a4ae66c190
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52327166"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52623601"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business-premium"></a>Siirtyminen Office 365 E3:sta Microsoft 365 Business Premium
 
@@ -125,3 +125,12 @@ Kun olet Microsoft 365 Business Premium, sinulla on Defender for Office 365. Tut
 ### <a name="sensitivity-labels"></a>Luottamuksellisuusmerkinnät
 
 Jos haluat aloittaa luottamuksellisuusotsikoiden käytön, katso [Luottamuksellisuusotsikoiden yleiskatsaus](../compliance/sensitivity-labels.md) ja [luo ja hallitse luottamuksellisuusotsikoiden](../business-video/create-sensitivity-labels.md) videota.
+
+## <a name="related-content"></a>Aiheeseen liittyvä sisältö
+
+[Palvelusuunnitelmien muuttaminen manuaalisesti](../commerce/subscriptions/change-plans-manually.md) (artikkeli)\
+[Päivitä Windows -Windows 10 Pro](upgrade-to-windows-pro-creators-update.md) (video)\
+[Android- tai iOS-laitteiden sovellusten suojausasetusten määrittäminen](app-protection-settings-for-android-and-ios.md) (artikkeli)\
+[Sovellusten suojausasetusten määrittäminen tai muokkaaminen Windows 10 laitteissa](protection-settings-for-windows-10-devices.md) (artikkeli)\
+[]
+

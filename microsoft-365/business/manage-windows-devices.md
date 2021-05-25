@@ -24,24 +24,26 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi, miten voit Microsoft 365 active-directory-laitteisiin Windows 10-laitteissasi muutamassa vaiheessa.
-ms.openlocfilehash: f16962dd3c33c3c228da507bc5c4a902d76a8a08
-ms.sourcegitcommit: b0d3abbccf4dd37e32d69664d3ebc9ab8dea760d
+ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "52593889"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636082"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Toimialueen liitettyjen laitteiden Windows 10 hallitaan Microsoft 365 Business Premium
 
 Jos organisaatiosi käyttää Windows Server Active Directorya paikallisesti, voit määrittää Microsoft 365 Business Premium:n suojaamaan Windows 10-laitteitasi säilyttäen edelleen paikallisen todentamisen edellyttävän paikallisen todentamisen resurssien käyttöoikeuden.
 Voit määrittää tämän suojauksen laitteella, jossa Azure **AD-yhdistelmäympäristö on liitetty.** Nämä laitteet liitetään sekä paikalliseen Active Directoryyn että Azure Active Directory.
 
+## <a name="watch-configure-hybrid-azure-active-directory-join"></a>Katso: Yhdistelmäympäristön Azure Active Directory määrittäminen
+
 Tässä videossa kuvataan ohjeet sen käyttöön yleisimpään tilanteeseen, joka on myös kuvattu seuraavissa vaiheissa.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
   
+## <a name="before-you-begin"></a>Alkuvalmistelut
 
-## <a name="before-you-get-started-make-sure-you-complete-these-steps"></a>Varmista ennen aloittamista, että olet suorittanut seuraavat vaiheet:
 - Synkronoi käyttäjät Azure AD:n kanssa Azure AD Näyttöyhteys.
 - Viimeistele Azure AD Näyttöyhteys organisaatioyksikön (OU) synkronointi.
 - Varmista, että kaikilla synkronoiduilla toimialuekäyttäjillä on käyttöoikeudet Microsoft 365 Business Premium.
@@ -119,8 +121,6 @@ Tässä vaiheessa sinun pitäisi nähdä käytäntö Enable automatic MDM enroll
 
 ## <a name="related-content"></a>Aiheeseen liittyvä sisältö
 
-[Toimialuekäyttäjien synkronoiminen Microsoft 365](manage-domain-users.md) (artikkeli)
-
-[Ryhmän luominen hallintakeskuksessa](../admin/create-groups/create-groups.md) (artikkeli)
-
+[Toimialuekäyttäjien synkronoiminen Microsoft 365](manage-domain-users.md) (artikkeli)\
+[Ryhmän luominen hallintakeskuksessa](../admin/create-groups/create-groups.md) (artikkeli)\
 [Opetusohjelma: Yhdistelmäympäristön Azure Active Directory määrittäminen hallittuja toimialueita varten](/azure/active-directory/devices/hybrid-azuread-join-managed-domains.md) (artikkeli)

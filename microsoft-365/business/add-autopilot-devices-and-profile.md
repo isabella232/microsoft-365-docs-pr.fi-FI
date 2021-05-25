@@ -24,17 +24,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
-description: Opi käyttämään Windows AutoPilotin avulla uusia Windows 10 -laitteita yrityksesi käyttöön, jotta ne ovat valmiina työntekijöiden käyttöön.
-ms.openlocfilehash: cd8777e6ae2e395506d2bf308c99309de1e24805
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Opi käyttämään Windows AutoPilotia uusien Windows 10 yrityksesi kanssa, jotta ne ovat valmiina työntekijöiden käyttöön.
+ms.openlocfilehash: e178e7df220e89605502d9ed400265bcd963e57e
+ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578523"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52636102"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
 
-Windows AutoPilotin avulla voit määrittää yrityksesi uudet **Windows** 10 -laitteet, jotta ne ovat valmiina käytettäväksi, kun annat ne työntekijöillesi.
+Windows AutoPilotin avulla voit määrittää  uusia Windows 10-laitteita yrityksesi käyttöön, jotta ne ovat valmiita käytettäväksi, kun annat ne työntekijöillesi.
   
 ## <a name="device-requirements"></a>Laitevaatimukset
 
@@ -42,25 +42,23 @@ Laitteiden on täytettävä seuraavat vaatimukset:
   
 - Windows 10, versio 1703 tai uudempi
     
-- Uudet laitteet, jotka eivät ole käyneet läpi Windowsin käyttökokemusta
+- Uudet laitteet, joita ei ole Windows käyttökokemusta
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>Käytä laitteiden ja profiilien määritysopasta
 
-[![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
-
-Jos et ole vielä luonut laiteryhmiä tai -profiileja, paras tapa aloittaa on käyttää vaiheittaista opasta. Voit myös lisätä [laitteita ja](create-and-edit-autopilot-devices.md) [määrittää profiileja](create-and-edit-autopilot-profiles.md) niihin ilman opasta. 
+Jos et ole vielä luonut laiteryhmiä tai -profiileja, paras tapa päästä alkuun on käyttää vaiheittaista opasta. Voit myös lisätä [laitteita ja](create-and-edit-autopilot-devices.md) [määrittää profiileja](create-and-edit-autopilot-profiles.md) niihin ilman opasta. 
   
 1. Siirry hallintakeskukseen osoitteessa <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> .
 
-2. Valitse vasemmassa siirtymisruudussa  \> **Laitteet- autopilotti.**
+2. Valitse vasemmassa siirtymisruudussa **Laitteet** \> **AutoPilot**.
 
-    ![Valitse hallintakeskuksessa laitteet ja sitten AutoPilot.](../media/AutoPilot.png)
+    ![Valitse hallintakeskuksessa laitteet ja valitse sitten AutoPilot.](../media/AutoPilot.png)
   
-2. Napsauta **tai napauta AutoPilot-sivulla** **Aloitusopas.**
+2. Napsauta **tai napauta AutoPilot-sivulla** **Aloitusopas**.
     
     ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
-3. Siirry **.csv-tiedoston ja** laiteluettelon lataussivulla sijaintiin, johon olet valmistautunut. CSV-tiedosto ja **sitten Avaa** \> **seuraava.** Tiedostossa on oltava kolme otsikkoa:
+3. Siirry **Upload .csv, jossa on laiteluettelo** -sivulla sijaintiin, johon olet valmistellut .CSV ja valitse **sitten** \> **Avaa seuraava.** Tiedostossa on oltava kolme otsikkoa:
     
     - Sarake A: Laitteen sarjanumero
     
@@ -68,14 +66,14 @@ Jos et ole vielä luonut laiteryhmiä tai -profiileja, paras tapa aloittaa on k�
     
     - Sarake C: Laitteisto-hash
     
-    Saat nämä tiedot laitteiston toimittajalta tai voit luoda [CSV-tiedoston Käyttämällä Get-WindowsAutoPilotInfo PowerShell-komentosarjaa.](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 
+    Saat nämä tiedot laitteiston toimittajalta tai voit luoda [CSV-tiedoston Käyttämällä PowerShell-komentosarjaa Get-WindowsAutoPilotInfo.](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 
     
     Katso lisätietoja [Laiteluettelon CSV-tiedostosta](../admin/misc/device-list.md). Voit myös ladata esimerkkitiedoston **Lataa laiteluettelon sisältävä .csv-tiedosto** -sivulta. 
     
 > [!NOTE]
-> Tämä komentosarja noutaa WMI:n avulla ominaisuudet, joita tarvitaan, jotta asiakas voi rekisteröidä laitteen Windows Autopilotiin. Huomaa, että on normaalia, että tuloksena syntyvä CSV-tiedosto ei kerää Windows-tuotetunnusta (PKID), koska tätä ei tarvita laitteen rekisteröimiseen, ja PKID on tyhjäarvoinen csv-tulostetiedostossa. Vain sarjanumero ja laitteiston hash täytetään.
+> Tämä komentosarja noutaa WMI:n avulla ominaisuuksia, joita asiakas tarvitsee laitteen rekisteröimiseen Autopilotin Windows kanssa. Huomaa, että tuloksena syntyvä CSV-tiedosto ei tavallisesti kerää Windows Product ID (PKID) -arvoa, koska tätä ei tarvita laitteen rekisteröimiseen, ja PKID on tyhjäarvoinen CSV-tulostetiedostossa. Vain sarjanumero ja laitteiston hash täytetään.
     
-4. Määritä **profiili -sivulla** voit joko valita olemassa olevan profiilin tai luoda uuden. Jos sinulla ei vielä ole sitä, sinua pyydetään luomaan sellainen. 
+4. Profiilin **määrittäminen -sivulla** voit joko valita olemassa olevan profiilin tai luoda uuden. Jos sinulla ei vielä ole sitä, sinua pyydetään luomaan sellainen. 
     
     Profiili on asetuskokoelma, jota voidaan soveltaa yksittäiseen laitteeseen tai laiteryhmään.
     
@@ -85,12 +83,17 @@ Jos et ole vielä luonut laiteryhmiä tai -profiileja, paras tapa aloittaa on k�
     
     - Luo yrityskuvan mukainen kirjautumiskokemus.
     
-    - Yhdistä laitteet Azure Active Directory -tileihin ja rekisteröi ne automaattisesti Microsoft 365 Business Premiumin hallinnoitavaksi.
+    - Näyttöyhteys laitteet ja Azure Active Directory tilit ja rekisteröi ne automaattisesti hallinnoitavaksi Microsoft 365 Business Premium.
     
-    Lisätietoja on kohdassa Tietoja [AutoPilot-profiiliasetuksista.](autopilot-profile-settings.md) 
+    Lisätietoja on kohdassa Tietoja [AutoPilot-profiilin asetuksista.](autopilot-profile-settings.md) 
     
 5. Toiset asetukset ovat **Ohita suojausasetukset** ja **Älä salli käyttäjän ryhtyä paikalliseksi järjestelmänvalvojaksi**. Nämä molemmat ovat oletusarvoisesti **Poissa käytöstä**. 
     
     Valitse **Seuraava**.
     
-6. **Kun olet valmis,** luomaasi (tai valitsemaasi) profiilia käytetään luomaasi laiteryhmään lataamalla laiteluettelo. Asetukset ovat voimassa, kun laitteen käyttäjät kirjautuvat sisään seuraavan kerran. Valitse **Sulje**.
+6. **Kun olet valmis,** luomaasi (tai valitsemaasi) profiilia käytetään luomaasi laiteryhmään lataamalla laiteluettelo. Asetukset ovat voimassa, kun laitteen käyttäjät kirjautuvat seuraavan kerran. Valitse **Sulje**.
+
+## <a name="related-content"></a>Aiheeseen liittyvä sisältö
+
+[Tietoja AutoPilot-profiilin asetuksista](autopilot-profile-settings.md) (artikkeli)\
+[Laitteiden ja sovellustietojen suojaamista koskevat vaihtoehdot](../admin/devices/choose-device-security.md) (artikkeli)
