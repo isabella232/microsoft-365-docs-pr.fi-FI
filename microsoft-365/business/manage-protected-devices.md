@@ -1,5 +1,5 @@
 ---
-title: Suojattujen laitteiden hallinta Microsoft 365 Business Premiumin avulla
+title: Suojattujen laitteiden hallinta Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -26,22 +26,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: Opi poistamaan yritystiedot suojauskäytäntöjen kautta hallinnoiduista laitteista ja palauttamaan Windows 10 -laitteet tehdasasetuksiinsa.
-ms.openlocfilehash: fdd92e797774a47455d6b4163dfe399bf74d41f3
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Opettele poistamaan yritystiedot suojauskäytäntöjen avulla hallinnoiduista laitteista ja Windows 10 tehdasasetukset.
+ms.openlocfilehash: 0b757172ed337e9b2b68b4fcbdf5b102a8c76710
+ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580150"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52624281"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a><span data-ttu-id="89c85-103">Suojattujen laitteiden hallinta Microsoft 365 Business Premiumin avulla</span><span class="sxs-lookup"><span data-stu-id="89c85-103">Manage protected devices with Microsoft 365 Business Premium</span></span>
+# <a name="manage-protected-devices-with-microsoft-365-business-premium"></a><span data-ttu-id="3d521-103">Suojattujen laitteiden hallinta Microsoft 365 Business Premium</span><span class="sxs-lookup"><span data-stu-id="3d521-103">Manage protected devices with Microsoft 365 Business Premium</span></span>
 
-<span data-ttu-id="89c85-104">Kun käyttäjä on yhdistänyt laitteensa organisaatioosi kirjautumalla sisään työtilillä laitteeseen tai laitteen Office-sovelluksiin, voit suojata laitteen määrittämälläsi käytännöt.</span><span class="sxs-lookup"><span data-stu-id="89c85-104">After a user connects their device to your organization by signing in with their work account to the device or to Office apps on the device, you can protect the device with the policies you set up.</span></span> <span data-ttu-id="89c85-105">Yhdistetyt laitteet näkyvät **Laitteet-sivulla.**</span><span class="sxs-lookup"><span data-stu-id="89c85-105">Connected devices are listed on the **Devices** page.</span></span> <span data-ttu-id="89c85-106">Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot.</span><span class="sxs-lookup"><span data-stu-id="89c85-106">If a device is lost or stolen, you can manage it from this page to remove any company data.</span></span> <span data-ttu-id="89c85-107">Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin.</span><span class="sxs-lookup"><span data-stu-id="89c85-107">You can also reset Windows 10 devices to their factory settings to wipe out any custom settings.</span></span> 
+<span data-ttu-id="3d521-104">Kun käyttäjä on yhdistänyt laitteensa organisaatioon kirjautumalla sisään työtilinsä avulla laitteeseen tai Office-sovelluksia laitteessa, voit suojata laitteen määrittämälläsi käytännöt.</span><span class="sxs-lookup"><span data-stu-id="3d521-104">After a user connects their device to your organization by signing in with their work account to the device or to Office apps on the device, you can protect the device with the policies you set up.</span></span> <span data-ttu-id="3d521-105">Yhdistetyt laitteet näkyvät **Laitteet-sivulla.**</span><span class="sxs-lookup"><span data-stu-id="3d521-105">Connected devices are listed on the **Devices** page.</span></span> <span data-ttu-id="3d521-106">Jos laite katoaa tai varastetaan, voit hallita sitä tältä sivulta ja poistaa kaikki yritystiedot.</span><span class="sxs-lookup"><span data-stu-id="3d521-106">If a device is lost or stolen, you can manage it from this page to remove any company data.</span></span> <span data-ttu-id="3d521-107">Voit myös pyyhkiä kaikki mukautetut asetukset palauttamalla Windows 10 -laitteet tehdasasetuksiin.</span><span class="sxs-lookup"><span data-stu-id="3d521-107">You can also reset Windows 10 devices to their factory settings to wipe out any custom settings.</span></span> 
 
-<span data-ttu-id="89c85-108">Lisätietoja tehtävistä, joita voit käyttää laitteiden hallintaan, on näissä artikkeleissa:</span><span class="sxs-lookup"><span data-stu-id="89c85-108">For more information on the tasks you can use to manage devices, see these articles:</span></span> 
+## <a name="related-content"></a><span data-ttu-id="3d521-108">Aiheeseen liittyvä sisältö</span><span class="sxs-lookup"><span data-stu-id="3d521-108">Related content</span></span>
   
-[<span data-ttu-id="89c85-109">Yritystietojen poistaminen laitteista</span><span class="sxs-lookup"><span data-stu-id="89c85-109">Remove company data from devices</span></span>](remove-company-data.md)
-  
-[<span data-ttu-id="89c85-110">Windows 10 -laitteiden palauttaminen tehdasasetuksiin</span><span class="sxs-lookup"><span data-stu-id="89c85-110">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
-
-[<span data-ttu-id="89c85-111">Hallitun laitteen lisääminen</span><span class="sxs-lookup"><span data-stu-id="89c85-111">Add a managed device</span></span>](./app-protection-settings-for-android-and-ios.md)
+<span data-ttu-id="3d521-109">[Yritystietojen poistaminen laitteista](remove-company-data.md) (artikkeli)</span><span class="sxs-lookup"><span data-stu-id="3d521-109">[Remove company data from devices](remove-company-data.md) (article)</span></span>\
+<span data-ttu-id="3d521-110">[Palauta Windows 10 tehdasasetukset](reset-devices-to-factory-settings.md) (artikkeli)</span><span class="sxs-lookup"><span data-stu-id="3d521-110">[Reset Windows 10 devices to their factory settings](reset-devices-to-factory-settings.md) (article)</span></span>\
+<span data-ttu-id="3d521-111">[Hallitun laitteen lisääminen](./app-protection-settings-for-android-and-ios.md) (artikkeli)</span><span class="sxs-lookup"><span data-stu-id="3d521-111">[Add a managed device](./app-protection-settings-for-android-and-ios.md) (article)</span></span>
