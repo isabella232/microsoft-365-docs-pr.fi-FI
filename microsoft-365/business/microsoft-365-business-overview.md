@@ -28,13 +28,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Tietoa Microsoft 365 Business Premiumista, tilauspalvelusta, johon sisältyvät Officen tuottavuussovellukset ja edistynyt suojaus, jonka avulla yrityksesi voi suojautua kyberuhkia vastaan.
-ms.openlocfilehash: a355c9856ead4a66f6876cc7cb5aa8eb469d7f12
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Tietoa Microsoft 365 Business Premiumista, tilauspalvelusta, johon sisältyvät Office-sovellukset ja edistynyt suojaus kyberuhkia vastaan.
+ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
+ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244852"
+ms.lasthandoff: 05/29/2021
+ms.locfileid: "52705518"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premiumin yleiskatsaus
 
@@ -42,7 +42,7 @@ ms.locfileid: "52244852"
 
 Microsoft 365 Business Premium (aiemmin Microsoft 365 Business) on kattava tilauspalvelu yrityksille, joissa on alle 300 työntekijää. Se yhdistää Officen tutut tuottavuussovellukset ja -palvelut Microsoft Teamsin kaltaisiin yhteiskäyttötyökaluihin ja sisältää kehittyneen suojauksen sekä laitteiden hallintaan liittyviä ominaisuuksia.
 
-Katsomalla tämän lyhyen videon saat yleiskatsauksen Microsoft 365 Business Premiumista.<br><br>
+## <a name="watch-what-is-microsoft-365-business-premium"></a>Katso: Mikä on Microsoft 365 Business Premium
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
@@ -85,7 +85,7 @@ Microsoft 365 Business Premium auttaa **suojautumaan uhkia vastaan** seuraavilla
 
 - käyttämällä automaattista tunnistusta, jonka avulla estetään luottamuksellisten tietojen, kuten sosiaaliturvatunnusten tai luottokorttinumeroiden, vuotaminen yrityksen ulkopuolelle (tietojen menetyksen estäminen) 
 
-- Salaamalla luottamukselliset sähköpostiviestit, jotta voit viestiä turvallisesti asiakkaiden tai muiden organisaation ulkopuolisten henkilöiden kanssa. Tämän avulla varmistetaan, että vain tarkoitettu vastaanottaja voi lukea viestin (Office 365 -viestin salaus).
+- Salaamalla luottamukselliset sähköpostiviestit, jotta voit viestiä turvallisesti asiakkaiden tai muiden organisaation ulkopuolisten henkilöiden kanssa. Tämän avulla varmistetaan, että vain tarkoitettu vastaanottaja voi lukea viestin (Office 365 -viestin salaus).
 
 - hallitsemalla sitä, kenellä on yrityksen tietojen käyttöoikeudet, lisäämällä sähköpostiviesteihin ja asiakirjoihin rajoituksia, kuten **Älä kopioi** ja **Älä lähetä edelleen** (Azure Information Protection, palvelupaketti 1)
 
@@ -105,7 +105,7 @@ Microsoft 365 Business Premium auttaa **suojautumaan uhkia vastaan** seuraavilla
 
 Näet suojausominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Business Premiumin suojausominaisuudet](security-features.md). Kun olet [määrittänyt Microsoft 365 Business Premiumin](set-up.md), tutustu artikkeleihin [Uhilta suojautumisen parantaminen](increase-threat-protection.md) ja [Yhteensopivuusominaisuuksien määrittäminen](set-up-compliance.md), jotta voit alkaa käyttää suojausominaisuuksia, jotka eivät sisälly ohjattuun asennukseen. Tutustu myös artikkeliin [10 parasta tapaa suojata Office 365- ja Microsoft 365 Business Premium -palvelupaketit](/office365/admin/security-and-compliance/secure-your-business-data) saadaksesi yleiskatsauksen siitä, miten voit määrittää suojauksen kyberrikollisia ja hakkereita vastaan.
 
-## <a name="get-microsoft-365-business-premium"></a>Hanki Microsoft 365 Business Premium
+## <a name="next-steps"></a>Seuraavat vaiheet
 
 - Jos sinulla on kumppani, hän saa Microsoft 365 Business Premiumin seuraavasti: [Hanki Microsoft 365 Business Premium Microsoft-kumppanikeskuksesta](get-microsoft-365-business.md).
 
