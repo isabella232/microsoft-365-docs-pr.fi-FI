@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Microsoft Defender for Office 365 ja suojaa arkaluontoiset tiedot tietojen kalastelulta, haittaohjelmilta ja muilta uhilta.
-ms.openlocfilehash: 4b5142efbf4392f017cd9b96f6a9c36ef2000bb7
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: a995063cef6fdc42ad62079d49d58edc9d07b52c
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245140"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924315"
 ---
 # <a name="increase-threat-protection"></a>Uhkien uhkien uhkien uhki
 
@@ -81,8 +81,8 @@ Sähköpostin siirtosäännön luominen:
 
 6. Valitse **Tallenna**.
 
-|Asetus|Varoita käyttäjiä ennen Office liitteiden avaamista||
-|---|---|---|
+|Asetus|Varoita käyttäjiä ennen Office liitteiden avaamista|
+|---|---|
 |Nimi|Kiristysohjelmien estosääntö: varoita käyttäjiä|
 |Käytä tätä sääntöä, jos . . .|Mikä tahansa liite . . . tiedostotunniste vastaa tunnistetta . . .|
 |Sanojen tai lauseiden määritteleminen|Lisää seuraavat tiedostotyypit:  <br/> dotm, docm, xlsm, sltm, xla, xlam, xll, pptm, potm, ppam, ppsm, sldm|
@@ -101,7 +101,7 @@ Hakkerit, jotka saavat käyttöoikeudet käyttäjän postilaatikkoon, voivat var
 
 Jos haluat luoda sähköpostin siirtosäännön, katso [tämä lyhyt video tai](../business-video/stop-email-auto-forward.md) toimi seuraavasti:
 
-1. Valitse Microsoft 365 hallintakeskuksessa **Hallintakeskukset Exchange.** \> 
+1. Valitse Microsoft 365 -hallintakeskus **hallintakeskukset Exchange** \> .
 
 2. Valitse **Postinkulku-luokasta** **säännöt**.
 
@@ -153,19 +153,19 @@ Jos haluat luoda tietojenkalastelun torjuntakäytännön Microsoft Defender for 
 |Luotettujen lähettäjien ja toimialueiden lisääminen|Tässä voit lisätä oman toimialueesi tai minkä tahansa muun luotetun toimialueen.|
 |Käytössä kohteeseen|Valitse **Vastaanottajan toimialue on**. Valitse **Mikä tahansa näistä** **-kohdassa Valitse**. Valitse **+ Lisää**. Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso. <span> <span> com* ja valitse sitten **Lisää**. Valitse **Valmis**.|
 
-## <a name="protect-against-malicious-attachments-and-files-with-safe-attachments"></a>Turvallisten liitteiden suojaaminen haitallisilta liitteiltä ja tiedostoilta
+## <a name="protect-against-malicious-attachments-and-files-with-safe-attachments"></a>Haitallisilta liitteiltä ja tiedostoilta suojautuminen Safe liitteillä
 
-Henkilöt lähettävät, vastaanottavat ja jakavat säännöllisesti liitteitä, kuten asiakirjoja, esityksiä, laskentataulukoita ja paljon muuta. Sähköpostiviestin avulla ei ole aina helppo tietää, onko liite turvallinen vai haitallinen. Microsoft Defender for Office 365 sisältää turvallisten liitteiden suojauksen, mutta tämä suojaus ei ole oletusarvoisesti käytössä. Suosittelemme, että luot uuden säännön suojauksen käytön aloittamista varten. Tämä suojaus kattaa myös SharePoint, OneDrive ja Microsoft Teams.
+Henkilöt lähettävät, vastaanottavat ja jakavat säännöllisesti liitteitä, kuten asiakirjoja, esityksiä, laskentataulukoita ja paljon muuta. Sähköpostiviestin avulla ei ole aina helppo tietää, onko liite turvallinen vai haitallinen. Microsoft Defender for Office 365 sisältää Safe suojauksen, mutta tämä suojaus ei ole oletusarvoisesti käytössä. Suosittelemme, että luot uuden säännön suojauksen käytön aloittamista varten. Tämä suojaus kattaa myös SharePoint, OneDrive ja Microsoft Teams.
 
-Voit luoda turvallisten liitteiden käytännön joko katsomalla [tämän lyhyen videon tai](../business-video/safe-attachments.md)toimimalla seuraavasti:
+Jos haluat luoda Safe- tai liitekäytännön, katso [tämä lyhyt video](../business-video/safe-attachments.md)tai toimi seuraavasti:
 
 1. Siirry [https://protection.office.com](https://protection.office.com) -tunnukseen ja kirjaudu sisään järjestelmänvalvojan tililläsi.
 
 2. Valitse Tietoturvakeskuksen &amp; vasemman siirtymisruudun Uhkien hallinta -kohdassa **Käytäntö**. 
 
-3. Valitse Käytäntö-sivulla **Turvalliset liitteet**.
+3. Valitse Käytäntö-sivulla **Safe liitteet**.
 
-4. Käytä tätä suojausta laajalti Turvalliset liitteet -sivulla valitsemalla Ota **ATP käyttöön SharePoint-, OneDrive-** Microsoft Teams-valintaruutu.
+4. Käytä Safe-sivulla laajasti tätä suojausta valitsemalla Ota ATP käyttöön **SharePoint-, OneDrive- ja Microsoft Teams** käyttöön -valintaruutu.
 
 5. Luo **+** uusi käytäntö valitsemalla .
 
@@ -183,9 +183,9 @@ Voit luoda turvallisten liitteiden käytännön joko katsomalla [tämän lyhyen 
 
 Lisätietoja on kohdassa [Tietojenkalastelun torjuntakäytäntöjen määritys Microsoft Defender for Office 365.](../security/office-365-security/set-up-anti-phishing-policies.md)
 
-## <a name="protect-against-phishing-attacks-with-safe-links"></a>Tietojenkalasteluhyökkäyksiltä suojautuminen turvallisten linkkien avulla
+## <a name="protect-against-phishing-attacks-with-safe-links"></a>Tietojenkalasteluhyökkäyksiltä suojautuminen Safe linkeissä
 
-Hakkerit piilovat joskus vahingollisia sivustoja sähköpostissa tai muissa tiedostoissa olevista linkeistä. Turvalliset linkit, joka on osa Microsoft Defender for Office 365 -selainta, voivat auttaa suojaamaan organisaatiotasi antamalla sähköpostiviesteissä ja tiedostoissa olevien verkko-osoitteiden (URL-osoitteiden) napsautuksen Office tarkistamisen. Suojaus määritetään turvallisten linkkien käytännöistä.
+Hakkerit piilovat joskus vahingollisia sivustoja sähköpostissa tai muissa tiedostoissa olevista linkeistä. Safe Linkit, jotka ovat osa Microsoft Defender for Office 365-selainta, voivat auttaa suojaamaan organisaatiotasi antamalla sähköpostiviesteissä ja tiedostoissa olevien verkko-osoitteiden (URL-osoitteiden) napsautuksen Office tarkistamisen. Suojaus määritetään linkkikäytäntöjen Safe avulla.
 
 Suosittelemme, että toimit seuraavasti:
 
@@ -193,17 +193,17 @@ Suosittelemme, että toimit seuraavasti:
 
 - Lisää uusi käytäntö, joka on kohdennettu toimialueesi kaikille vastaanottajille.
 
-Voit määrittää turvalliset linkit katsomalla [tämän lyhyen koulutusvideon](../business-video/safe-links.md)tai noudattamalla seuraavia ohjeita:
+Jos haluat Safe linkkejä, katso [tämä lyhyt koulutusvideo](../business-video/safe-links.md)tai toimi seuraavasti:
 
 1. Siirry [https://protection.office.com](https://protection.office.com) -tunnukseen ja kirjaudu sisään järjestelmänvalvojan tililläsi.
 
 2. Valitse Tietoturvakeskuksen &amp; vasemman siirtymisruudun Uhkien hallinta -kohdassa **Käytäntö**. 
 
-3. Valitse Käytäntö-sivulla **Turvalliset linkit**.
+3. Valitse Käytäntö-sivulla **Safe linkit**.
 
 Oletuskäytännön muokkaaminen:
 
-1. Valitse Turvalliset linkit -sivun **Koko organisaatiota koskevat** käytännöt -kohdassa **Oletuskäytäntö.**
+1. Valitse Safe -sivun **Koko organisaatiota koskevat** käytännöt -kohdassa **Oletuskäytäntö.**
 
 2. Valitse **Asetukset, joka koskee** muuta sisältöä kuin sähköpostia , **-kohdassa Microsoft 365 -sovellukset suuryrityksille, Office iOS- ja Android-laitteille**.
 
@@ -211,7 +211,7 @@ Oletuskäytännön muokkaaminen:
 
 Voit luoda uuden käytännön, joka on kohdennettu toimialueesi kaikille vastaanottajille:
 
-1. Luo uusi käytäntö valitsemalla Turvalliset **linkit**-sivun Koko organisaatiota koskevat **+** käytännöt -kohdassa .
+1. Valitse Safe -sivun **Koko organisaatiota koskevat** käytännöt -kohdassa **+** uuden käytännön luominen.
 
 2. Ota käyttöön seuraavassa taulukossa luetellut asetukset.
 
@@ -219,12 +219,12 @@ Voit luoda uuden käytännön, joka on kohdennettu toimialueesi kaikille vastaan
 
 |Asetus tai asetus|Suositeltu asetus|
 |---|---|
-|Nimi|Turvalliset linkit -käytäntö kaikille toimialueen vastaanottajille|
+|Nimi|Safe linkit -käytäntö toimialueen kaikille vastaanottajille|
 |Valitse viestien tuntemattomien mahdollisesti vahingollisen URL-osoitteiden toiminto|Valitse **Käytössä – URL-osoitteet kirjoitetaan** uudelleen ja tarkistetaan tunnettujen haitallisten linkkien luetteloon, kun käyttäjä napsauttaa linkkiä .|
-|Ladattavien sisältöjen skannaaminen turvallisten liitteiden avulla|Valitse tämä ruutu.|
+|Ladattavien Safe liitteiden avulla|Valitse tämä ruutu.|
 |Käytössä kohteeseen|Vastaanottajan toimialue on . . . valitse toimialueesi.|
 
-Lisätietoja on kohdassa [Turvalliset linkit.](../security/office-365-security/safe-links.md)
+Lisätietoja on kohdassa [linkkien Safe.](../security/office-365-security/safe-links.md)
 
 ## <a name="go-to-intune-admin-center"></a>Siirry Intune-hallintakeskukseen
 

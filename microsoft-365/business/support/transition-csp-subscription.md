@@ -1,109 +1,110 @@
 ---
-title: Microsoft 365 BusinessIn CSP-tilauksen siirtyminen
-description: Lue, miten voit siirtää Microsoft 365 Business CSP -tilauksen esikatselusta yleiseen saatavuuteen (GA).
+title: Microsoft 365 Business CSP -tilauksen siirtyminen
+description: Katso, miten voit siirtyä Microsoft 365 Business CSP -tilauksesta esikatselusta yleiseen käytettävyseen (GA).
 author: jasongroce
 f1.keywords:
 - NOCSH
 ms.custom:
 - seo-marvel-mar
 - AdminSurgePortfolio
-ms.author: jasgro
-ms.topic: article 
+ms.author: jasongroce
+ms.topic: article
+manager: jasonh
 ms.prod: microsoft-365-business
 localization_priority: Normal
-audience: microsoft-business 
-keywords: Microsoft 365 Business- ja Microsoft 365-, SMB- ja siirtymäcsp-tilaus
+audience: microsoft-business
+keywords: Microsoft 365 Business-, Microsoft 365-, SMB- ja siirtymä-CSP-tilaus
 ms.date: 11/01/2017
-ms.openlocfilehash: 5fc532b4a59d8e94068e7e1bae99bf8edac75abb
-ms.sourcegitcommit: 2d59b24b877487f3b84aefdc7b1e200a21009999
+ms.openlocfilehash: 3f6c71edb50cc3c5509e61a83efb64185c10648d
+ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "44403426"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52924999"
 ---
-# <a name="transition-a-microsoft-365-business-csp-subscription"></a>Microsoft 365 BusinessIn CSP-tilauksen siirtyminen
+# <a name="transition-a-microsoft-365-business-csp-subscription"></a>Microsoft 365 Business CSP -tilauksen siirtyminen
 
-Jos sinulla on Microsoft 365 Business Preview CSP -tilaus, lue tästä oppaasta, miten voit siirtää nykyisen esikatselutilauksesi Microsoft 365 Business GA:han (yleinen saatavuus).
+Jos käytössäsi on Microsoft 365 Business Preview -palvelun CSP-tilaus, katso tästä oppaasta, miten voit muuttaa nykyisen esikatselutilauksesi Microsoft 365 Business GA:een (yleinen saatavuus).
 
-**Esikatselutilauksen siirtyminen GA:ksi**
+**Esikatselutilauksen siirtyminen GA-tilaukseen**
 
-1. Kirjaudu <a href="https://partnercenter.microsoft.com" target="_blank">kumppanikeskukseen</a>.
-2. Valitse koontinäytössä **Asiakkaat**ja etsi ja valitse yrityksen nimi.
+1. Kirjaudu <a href="https://partnercenter.microsoft.com" target="_blank">kumppanikeskukseen.</a>
+2. Valitse koontinäytössä **Asiakkaat** ja etsi ja valitse yrityksen nimi.
 
-    Yhtiön tilaukset listataan.
+    Yrityksen tilaukset näkyvät luettelossa.
 
-    ![Asiakkaan tilaukset Kumppanikeskuksessa](../../media/pc_customer_subscriptions_1.png)
+    ![Asiakkaan tilaukset kumppanikeskuksessa](../../media/pc_customer_subscriptions_1.png)
     
 3. Valitse yrityksen **Tilaukset-sivulla** Lisää **tilaus**.
-4. Valitse **Uusi tilaus -sivulla** **Small business (Pienyritys)** ja valitse sitten luettelosta **Microsoft 365 Business.**
-5. Lisää käyttöoikeuksien määrä ja valitse sitten **Seuraava: Tarkista,** jos haluat tarkastella tilausta, ja valitse sitten **Lähetä**.
+4. Valitse Uusi **tilaus** -sivulla **Pienyritys** ja valitse Microsoft 365 **Business** luettelosta.
+5. Lisää käyttöoikeuksien määrä ja tarkista tilaus **valitsemalla Seuraava:** Tarkista ja valitse sitten **Lähetä**.
 
     ![Microsoft 365 Businessin uuden tilauksen tarkistaminen](../../media/pc_customer_reviewnewsubscription.png)
 
-    **Käyttöoikeuspohjaisissa tilauksissa** näkyy **Microsoft 365 Business Preview** ja Microsoft **365 Business**. Keskeytät Preview-tilauksen seuraavaksi.
+    **Käyttöoikeuspohjaiset tilaukset näyttävät** Microsoft 365 **Business Preview-** ja **Microsoft 365 Business -tilaukset.** Voit keskeyttää Preview-tilauksen seuraavan kerran.
 
 6. Valitse **Microsoft 365 Business Preview**.
-7. Keskeytä **Preview-tilaus valitsemalla Microsoft 365 Business Preview** **(Keskeytä)** -sivulla Keskeytetty.
+7. Valitse **Microsoft 365 Business Preview -sivulla** **Keskeytetty,** jos haluat keskeyttää Preview-tilauksen.
 
     ![Microsoft 365 Business Preview -tilauksen keskeyttäminen](../../media/pc_customer_m365bpreview_suspend.png)
 
-8. Vahvista valitsemalla **Lähetä.**
+8. Vahvista **valitsemalla** Lähetä.
 
-    Vahvista **Tilaukset-sivulla,** että **Microsoft 365 Business Preview -tilassa** näkyy **Keskeytetty**.
+    Varmista **Tilaukset-sivulla,** että **Microsoft 365 Business Preview 'n tila** on **Keskeytetty**.
 
-    ![Vahvista, että tilauksen esikatselutila on keskeytetty](../../media/pc_customer_m365bpreview_suspend_confirm.png)
+    ![Varmista, että Preview-tilauksen tila on keskeytetty](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. Vaihtoehtoisesti voit myös vahvistaa käyttöoikeussopimuksen. Voit tehdä tämän seuraavasti:
-    1. Valitse yrityksen **Tilaukset-sivulta** **Käyttäjät ja käyttöoikeudet.**
+    1. Valitse **Käyttäjät ja käyttöoikeudet** yrityksen Tilaukset-sivulta. 
     2. Valitse **käyttäjä Käyttäjät ja käyttöoikeudet** -sivulla.
-    3. Tarkista käyttäjän sivulla **Käyttöoikeuksien määrittäminen** -osa ja vahvista, että siinä näkyy **Microsoft 365 Business**.
+    3. Valitse käyttäjän sivulla Määritä käyttöoikeudet  -osa ja varmista, että siinä näkyy Microsoft 365 **Business.**
 
-        ![Vahvista, että Microsoft 365 Business -käyttöoikeus on määritetty käyttäjälle](../../media/pc_customer_userslicenses_m365b_validate.png)
+        ![Vahvista Microsoft 365 että käyttäjälle on määritetty Business-käyttöoikeus](../../media/pc_customer_userslicenses_m365b_validate.png)
 
 ## <a name="impact-to-customers-and-users-during-and-after-transition"></a>Vaikutus asiakkaisiin ja käyttäjiin siirtymisen aikana ja sen jälkeen
 
-Asiakkaat ja käyttäjät eivät vaikuta haitalliseen siirtymisen ja siirtymisen aikana.
+Siirtymän ja siirtymisen aikana ei ole vaikutusta asiakkaisiin ja käyttäjiin.
 
 ## <a name="impact-to-customers-who-dont-transition"></a>Vaikutus asiakkaisiin, jotka eivät siirry
 
 Seuraavassa taulukossa on yhteenveto vaikutuksista asiakkaisiin, jotka eivät siirry Microsoft 365 Business Preview -tilauksesta Microsoft 365 Business -tilaukseen.
 
-|       | T-0-T+30     | T+30 – T+60 | T+60 – T+120 | Yli T+120  |
+|       | T-0 –T+30     | T+30 – T+60 | T+60 – T+120 | T+120:n jälkeen  |
 |-------|-----------------|--------------|---------------|---------------|
-| **Valtion** | Lisäaikana | Vanhentunut      | Poistettu käytöstä      | Deprovisioned (Deprovisioned) |
+| **Osavaltio** | Lisäajan aikana | Vanhentunut      | Ei käytössä      | Purettu |
 | **Palvelun vaikutukset**                                                        |
-| **Microsoft 365 Business -hallintaportaali** | Ei vaikutusta toiminnallisuuteen | Ei vaikutusta toiminnallisuuteen | Voi lisätä / poistaa käyttäjiä, ostaa tilauksia.</br> Käyttöoikeuksia ei voi määrittää tai peruuttaa. | Asiakkaan tilaus ja kaikki tiedot poistetaan. Järjestelmänvalvoja voi hallita muita maksullisia tilauksia. |
-| **Office-sovellukset**                         | Ei loppukäyttäjän vaikutusta | Ei loppukäyttäjän vaikutusta | Office siirtyy rajoitetun toiminnan tilaan.</br> Käyttäjät voivat tarkastella vain tiedostoja. | Office siirtyy rajoitetun toiminnan tilaan.</br> Käyttäjät voivat tarkastella vain tiedostoja. |
-| **Pilvipalvelut (SharePoint Online, Exchange Online, Skype, Teams ja paljon muuta)** | Ei loppukäyttäjän vaikutusta | Ei loppukäyttäjän vaikutusta | Loppukäyttäjät ja järjestelmänvalvojat eivät voi käyttää pilvitietoja. | Asiakkaan tilaus ja kaikki tiedot poistetaan. |
-| **EM+S-komponentit** | Ei admin vaikutus</br> Ei loppukäyttäjän vaikutusta | Ei admin vaikutus</br> Ei loppukäyttäjän vaikutusta | Kapasiteettia ei enää panna täytäntöön.</br> Lisätietoja on [ohjeaiheessa Mobiililaitteen vaikutukset tilauksen vanhenemisen yhteydessä](#mobile-device-impacts-upon-subscription-expiration) ja [Windows 10 -tietokoneen vaikutukset tilauksen vanhentumisen yhteydessä.](#windows-10-pc-impacts-upon-subscription-expiration) | Kapasiteettia ei enää panna täytäntöön.</br> Lisätietoja on [ohjeaiheessa Mobiililaitteen vaikutukset tilauksen vanhenemisen yhteydessä](#mobile-device-impacts-upon-subscription-expiration) ja [Windows 10 -tietokoneen vaikutukset tilauksen vanhentumisen yhteydessä.](#windows-10-pc-impacts-upon-subscription-expiration) |
-| **Windows 10 -liiketoiminta** | Ei admin vaikutus</br> Ei loppukäyttäjän vaikutusta | Ei admin vaikutus</br> Ei loppukäyttäjän vaikutusta | Kapasiteettia ei enää panna täytäntöön.</br> Lisätietoja on [ohjeaiheessa Mobiililaitteen vaikutukset tilauksen vanhenemisen yhteydessä](#mobile-device-impacts-upon-subscription-expiration) ja [Windows 10 -tietokoneen vaikutukset tilauksen vanhentumisen yhteydessä.](#windows-10-pc-impacts-upon-subscription-expiration) | Kapasiteettia ei enää panna täytäntöön.</br> Lisätietoja on [ohjeaiheessa Mobiililaitteen vaikutukset tilauksen vanhenemisen yhteydessä](#mobile-device-impacts-upon-subscription-expiration) ja [Windows 10 -tietokoneen vaikutukset tilauksen vanhentumisen yhteydessä.](#windows-10-pc-impacts-upon-subscription-expiration) |
-| **Azure AD -kirjautuminen Windows 10 -tietokoneeseen** | Ei admin vaikutus</br> Ei loppukäyttäjän vaikutusta | Ei admin vaikutus</br> Ei loppukäyttäjän vaikutusta | Ei admin vaikutus</br> Ei loppukäyttäjän vaikutusta | Kun vuokraaja on poistettu, käyttäjä voi kirjautua sisään vain paikallisilla tunnistetiedoilla. Kuvaanlaite uudelleen, jos paikallisia tunnistetietoja ei ole. |
+| **Microsoft 365 Yritysportaali** | Ei vaikutusta toimintoihin | Ei vaikutusta toimintoihin | Voi lisätä tai poistaa käyttäjiä, ostaa tilauksia.</br> Käyttöoikeuksia ei voi määrittää tai kumota. | Asiakkaan tilaus ja kaikki tiedot poistetaan. Järjestelmänvalvoja voi hallita muita maksullisia tilauksia. |
+| **Office-sovellukset**                         | Ei loppukäyttäjien vaikutusta | Ei loppukäyttäjien vaikutusta | Office siirtyy rajoitetun toiminnan tilaan.</br> Käyttäjät voivat vain tarkastella tiedostoja. | Office siirtyy rajoitetun toiminnan tilaan.</br> Käyttäjät voivat vain tarkastella tiedostoja. |
+| **Pilvipalvelut (SharePoint Online, Exchange Online, Skype, Teams ja paljon muuta)** | Ei loppukäyttäjien vaikutusta | Ei loppukäyttäjien vaikutusta | Loppukäyttäjillä ja järjestelmänvalvojilla ei ole pääsyä pilvipalvelun tietoihin. | Asiakkaan tilaus ja kaikki tiedot poistetaan. |
+| **EM+S-osat** | Ei järjestelmänvalvojan vaikutusta</br> Ei loppukäyttäjien vaikutusta | Ei järjestelmänvalvojan vaikutusta</br> Ei loppukäyttäjien vaikutusta | Ominaisuus ei ole enää pakotettu.</br> Lisätietoja [on kohdassa Mobiililaite vaikuttaa tilauksen](#mobile-device-impacts-upon-subscription-expiration) Windows 10 ja tietokone vaikuttaa [tilauksen](#windows-10-pc-impacts-upon-subscription-expiration) vanhenemiseen. | Ominaisuus ei ole enää pakotettu.</br> Lisätietoja [on kohdassa Mobiililaite vaikuttaa tilauksen](#mobile-device-impacts-upon-subscription-expiration) Windows 10 ja tietokone vaikuttaa [tilauksen](#windows-10-pc-impacts-upon-subscription-expiration) vanhenemiseen. |
+| **Windows 10 Business** | Ei järjestelmänvalvojan vaikutusta</br> Ei loppukäyttäjien vaikutusta | Ei järjestelmänvalvojan vaikutusta</br> Ei loppukäyttäjien vaikutusta | Ominaisuus ei ole enää pakotettu.</br> Lisätietoja [on kohdassa Mobiililaite vaikuttaa tilauksen](#mobile-device-impacts-upon-subscription-expiration) Windows 10 ja tietokone vaikuttaa [tilauksen](#windows-10-pc-impacts-upon-subscription-expiration) vanhenemiseen. | Ominaisuus ei ole enää pakotettu.</br> Lisätietoja [on kohdassa Mobiililaite vaikuttaa tilauksen](#mobile-device-impacts-upon-subscription-expiration) Windows 10 ja tietokone vaikuttaa [tilauksen](#windows-10-pc-impacts-upon-subscription-expiration) vanhenemiseen. |
+| **Azure AD -kirjautuminen Windows 10 PC:hen** | Ei järjestelmänvalvojan vaikutusta</br> Ei loppukäyttäjien vaikutusta | Ei järjestelmänvalvojan vaikutusta</br> Ei loppukäyttäjien vaikutusta | Ei järjestelmänvalvojan vaikutusta</br> Ei loppukäyttäjien vaikutusta | Kun vuokraaja on poistettu, käyttäjä voi kirjautua sisään vain paikallisilla tunnistetiedoilla. Kuvaa laite uudelleen, jos paikallisia tunnistetietoja ei ole. |
 
-## <a name="mobile-device-impacts-upon-subscription-expiration"></a>Mobiililaitteen vaikutukset tilauksen erääntyessä
+## <a name="mobile-device-impacts-upon-subscription-expiration"></a>Mobiililaite vaikuttaa tilauksen vanhenemiseen
 
-Seuraavassa taulukossa on yhteenveto mobiililaitteiden sovellusten hallintakäytäntöjen vaikutuksista.
+Seuraavassa taulukossa on yhteenveto mobiililaitteiden sovellusten hallintakäytännöistä.
 
-|                            | Täysin lisensoitu kokemus                      | T + 60 päivää päättymisen jälkeen          |
+|                            | Käyttöoikeutettu käyttökokemus                      | T+60 päivää vanhenemisen jälkeen          |
 |----------------------------|------------------------------------------------|------------------------------------|
-| **Työtiedostojen poistaminen passiivisesta laitteesta** | Työtiedostot poistetaan valittujen päivien jälkeen | Työtiedostot säilyvät käyttäjän henkilökohtaisissa laitteissa |
-| **Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin** | Työtiedostot voidaan tallentaa vain OneDrive for Businessiin | Työtiedostot voidaan tallentaa mihin tahansa |
-| **Salaa työtiedostot** | Työtiedostot salataan | Työtiedostoja ei enää salata.</br> Suojauskäytännöt poistetaan ja sovellusten Office-tiedot poistetaan. |
-| **Vaadi PIN-koodi tai sormenjälki Office-sovellusten käyttämiseen** | Rajoitettu pääsy sovelluksiin | Ei sovellustason käyttöoikeusrajoituksia |
-| **Pin-koodin nollaaminen, kun kirjautuminen epäonnistuu** | Rajoitettu pääsy sovelluksiin | Ei sovellustason käyttöoikeusrajoituksia |
-| **Käyttäjien vaatiminen kirjautumaan uudelleen sisään, kun Office-sovellukset ovat olleet käyttämättömänä** | Kirjautuminen vaaditaan | Sisäänkirjautumista ei tarvita |
-| **Estä työtiedostojen käyttö laitteissa, joiden suojaukset on murrettu** | Työtiedostoja ei voi käyttää jailbroken/rooted-laitteissa | Työtiedostoja voi käyttää jailbroken/rooted-laitteissa |
-| **Salli käyttäjien kopioida sisältöä Office-sovelluksista Personal-sovelluksiin** | Kopioi tai liitä vain Microsoft 365 -tilauksen osana saatavilla oleviin sovelluksiin | Kopioi /liitä kaikkien sovellusten käytettävissä |
+| **Työtiedostojen poistaminen passiivisista laitteesta** | Työtiedostot poistetaan valittujen päivien jälkeen | Työtiedostot säilyvät käyttäjän henkilökohtaisissa laitteissa |
+| **Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin** | Työtiedostoja voi tallentaa vain OneDrive for Business | Työtiedostot voidaan tallentaa mihin tahansa |
+| **Salaa työtiedostot** | Työtiedostot on salattu | Työtiedostoja ei enää salata.</br> Suojauskäytännöt poistetaan ja sovellusten Office-tiedot poistetaan. |
+| **Office-sovellusten käyttäminen edellyttää PIN-koodia tai sormenjälkeä** | Rajoitettu sovellusten käyttö | Ei sovellustason käyttöoikeusrajoitusta |
+| **Palauta PIN-koodi, kun kirjautuminen epäonnistuu** | Rajoitettu sovellusten käyttö | Ei sovellustason käyttöoikeusrajoitusta |
+| **Vaadi käyttäjiä kirjautumaan uudelleen, kun Office-sovellukset ovat olleet käyttämättömänä** | Kirjautuminen vaaditaan | Kirjautumista ei tarvita |
+| **Estä työtiedostojen käyttö laitteissa, joiden suojaukset on murrettu** | Työtiedostoja ei voi käyttää laitteissa, joissa on murrettu suojaus | Työtiedostoja voi käyttää laitteissa, joissa on murrettu suojaus |
+| **Salli käyttäjien kopioida sisältöä Office-sovelluksista Henkilökohtaisiin sovelluksiin** | Rajoitettu microsoft 365 -tilaukseen saatavilla olevien sovellusten kopiointi ja liittäminen | Kopioiminen ja liittäminen kaikkien sovellusten käytettävissä |
 
-## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 -tietokoneen vaikutukset tilauksen vanhentumisen yhteydessä
+## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>Windows 10 -tietokone vaikuttaa tilauksen vanhenemiseen
 
-Seuraavassa taulukossa on yhteenveto Windows 10 -laitteen määrityskäytäntöihin kohdistuvista vaikutuksista.
+Seuraavassa taulukossa on yhteenveto Windows 10 -laitteen määrityskäytäntöjen vaikutuksista.
 
-|                            | Täysin lisensoitu kokemus                      | T + 60 päivää päättymisen jälkeen          |
+|                            | Käyttöoikeutettu käyttökokemus                      | T+60 päivää vanhenemisen jälkeen          |
 |----------------------------|------------------------------------------------|------------------------------------|
-| **Suojaa tietokoneita uhkilta Windows Defenderin avulla** | Päälle/pois päältä ei ole käyttäjän hallinnassa | Käyttäjä kanisteri hapantua model after/ lähettää Akkuna Puoltaa model after Akkuna 10 PC |
-| **Auta suojaamaan tietokoneitasi verkkopohjaisilta uhkilta Microsoft Edgessä** | Tietokoneen suojaus Microsoft Edgessä | Käyttäjä kanisteri hapantua model after/ lähettää PC suojelus kotona Mikroskooppi Hioa |
-| **Laitteen näytön poistaminen käytöstä käyttämättömänä** | Järjestelmänvalvoja määrittää näytön aikakatkaisuvälin käytännön | Käyttäjän voi määrittää näytön aikakatkaisun |
+| **Auta suojaamaan tietokoneita uhkilta Windows Defenderin avulla** | Turn on /off is outside of user control | Käyttäjä voi ottaa Windows Defenderin käyttöön tai poistaa sen käytöstä Windows 10 -tietokoneessa |
+| **Auta suojaamaan tietokoneitasi verkkopohjaisilta uhkilta Microsoft Edgessä** | Tietokoneen suojaus Microsoft Edgessä | Käyttäjä voi ottaa tietokoneen suojauksen käyttöön tai poistaa sen käytöstä Microsoft Edgessä |
+| **Poista laitteen näyttö käytöstä, kun se on käyttämättömänä** | Järjestelmänvalvoja määrittää näytön aikakatkaisuvälikäytännön | Loppukäyttäjä voi määrittää näytön aikakatkaisun |
 | **Salli käyttäjille sovellusten lataaminen Microsoft Storesta** | Järjestelmänvalvoja määrittää, voiko käyttäjä ladata sovelluksia Microsoft Storesta | Käyttäjä voi ladata sovelluksia Microsoft Storesta milloin tahansa |
-| **Salli käyttäjien käyttää Cortanaa** | Järjestelmänvalvoja määrittää käytännön, joka perustuu Cortanan käyttöön | Cortanan ottaminen käyttöön ja poistaminen käytöstä |
-| **Salli käyttäjien vastaanottaa vinkkejä ja mainoksia Microsoftilta** | Admin määrittää käytännön käyttäjien vastaanottaa vinkkejä ja mainoksia Microsoftilta | Käyttäjä kanisteri hapantua model after/ lähettää tips ja ilmoitus polveutua Mikroskooppi |
+| **Salli käyttäjien käyttää Cortanaa** | Järjestelmänvalvoja määrittää käytännön, joka määrittää Käyttäjän Cortanan käytön | Käyttäjän laitteet, joilla Cortana voidaan ottaa käyttöön tai poistaa käytöstä |
+| **Vihjeiden ja mainosten vastaanottamisen salliminen Microsoftilta** | Järjestelmänvalvoja määrittää käytännön, joka määrittää, miten käyttäjä saa Microsoftilta vihjeitä ja mainoksia | Käyttäjä voi ottaa käyttöön tai poistaa käytöstä Microsoftin vihjeitä ja mainoksia |
 | **Salli käyttäjille sisällön kopiointi Office-sovelluksista henkilökohtaisiin sovelluksiin** | Järjestelmänvalvoja määrittää käytännön, joka pitää Windows 10 -laitteet ajan tasalla | Käyttäjät voivat päättää, milloin Windows päivitetään |
