@@ -30,12 +30,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Tutustu määritykseen, Microsoft 365 Business Premium, kuten toimialueen ja käyttäjien lisääminen, suojauskäytäntöjen määrittäminen ja paljon muuta.
-ms.openlocfilehash: 3e15f16db2a233d2e11d444600398102b075932d
-ms.sourcegitcommit: 686f192e1a650ec805fe8e908b46ca51771ed41f
+ms.openlocfilehash: 74a98e915577cf86ec32a706bd3b8f558f49db95
+ms.sourcegitcommit: 48195345b21b409b175d68acdc25d9f2fc4fc5f1
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52624385"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53227635"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>Asetusten Microsoft 365 Business Premium määrittäminen ohjatussa määritystoiminnossa
 
@@ -53,7 +53,7 @@ Kun ostat Microsoft 365 Business Premium, voit käyttää omaa toimialuetta tai 
 
 ### <a name="add-your-domain-to-personalize-sign-in"></a>Toimialueen lisääminen sisäänkirjautumista varten
 
-1. Kirjaudu Microsoft 365 [hallintakeskukseen yleisen](https://admin.microsoft.com) järjestelmänvalvojan tunnistetiedoilla. 
+1. Kirjaudu sisään [Microsoft 365 -hallintakeskus](https://admin.microsoft.com) yleisen järjestelmänvalvojan tunnistetiedoilla. 
 
 2. Käynnistä **ohjattu toiminto valitsemalla** Siirry asennukseen.
 
@@ -69,7 +69,7 @@ Kun ostat Microsoft 365 Business Premium, voit käyttää omaa toimialuetta tai 
     ![Näyttökuva Mukauta kirjautumista -sivusta.](../media/adddomain.png)
 
     
-4. Noudata ohjatun toiminnon ohjeita kohdassa DNS-tietueiden luominen missä tahansa [DNS-isännöintipalvelussa Microsoft 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) vahvistaa, että omistat toimialueen. Jos tiedät toimialueesi isännän, katso myös [isäntäkohtaiset ohjeet](/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions).
+4. Noudata ohjatun toiminnon ohjeita kohdassa DNS-tietueiden luominen missä tahansa [DNS-isännöintipalvelussa Microsoft 365](/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) vahvistaa, että omistat toimialueen. Jos tiedät toimialueen isännän, katso lisätietoja myös kohdassa [Toimialueen lisääminen Microsoft 365.](/microsoft-365/admin/setup/add-domain)
 
     Jos isännöintipalvelusi on GoDaddy [](/office365/admin/get-help-with-domains/domain-connect)tai jokin muu isännöintipalvelu, jossa on käytössä toimialue, prosessi on helppo, ja sinua pyydetään automaattisesti kirjautumaan sisään ja antamaan Microsoftin todentaa puolestasi.
 
