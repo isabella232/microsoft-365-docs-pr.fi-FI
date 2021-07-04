@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Tietoa Microsoft 365 Business Premiumista, tilauspalvelusta, johon sisältyvät Office-sovellukset ja edistynyt suojaus kyberuhkia vastaan.
-ms.openlocfilehash: e4a182c5dd5444392486dd137e70361e880534bd
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: b7b71032ffc19c582f9658b93dae7dd9f89e02eb
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705518"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287623"
 ---
 # <a name="overview-of-microsoft-365-business-premium"></a>Microsoft 365 Business Premiumin yleiskatsaus
 
@@ -44,14 +44,14 @@ Microsoft 365 Business Premium (aiemmin Microsoft 365 Business) on kattava tilau
 
 ## <a name="watch-what-is-microsoft-365-business-premium"></a>Katso: Mikä on Microsoft 365 Business Premium
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
-  
-Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](../business-video/index.yml). 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA]
+
+Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussarjaan pienyrityksille ja uusille Microsoft 365 -käyttäjille](../business-video/index.yml).
 
 Microsoft 365 Business Premium on tarkoitettu enintään 300 käyttöoikeudelle. Jos tarvitset enemmän käyttöoikeuksia, saat lisätietoja [Microsoft 365 Enterprise](../enterprise/index.yml) -ohjeista.
 
 Näet ominaisuuksien täyden luettelon artikkelissa [Microsoft 365 Business Premium -palvelukuvaus](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description).
-  
+
 ## <a name="small-business-security-needs"></a>Pienyrityksen tietoturvatarpeet
 
 Yrityksesi tiedot voivat vaarantua monella eri tapaa. Sinä ja käyttäjäsi saatatte vaarantaa organisaation turvallisuuden, kun kirjaudutte sisään vaarantuneilla käyttäjätiedoilla tai tarkastelette organisaation tietoja eri laitteissa ja sovelluksissa. Tarkemmin sanottuna organisaatiollesi aiheuttavat vaaraa seuraavat asiat:
@@ -73,17 +73,17 @@ Microsoft 365 Business Premium auttaa **suojautumaan uhkia vastaan** seuraavilla
 
 - Tarkistamalla sähköpostiviestien ja asiakirjojen sisältämät linkit reaaliajassa, jotta vaaralliset verkkosivustot voidaan estää (Turvalliset linkit).
 
-- Suorittamalla sähköpostin liitteiden kehittyneen analyysin eristetyssä ympäristössä, jotta hiljattain kehitetyt haittaohjelmat voidaan havaita (Turvalliset liitteet). 
+- Suorittamalla sähköpostin liitteiden kehittyneen analyysin eristetyssä ympäristössä, jotta hiljattain kehitetyt haittaohjelmat voidaan havaita (Turvalliset liitteet).
 
-- Ottamalla käyttöön tietojenkalastelun torjuntakäytäntöjä, jotka hyödyntävät koneoppimismalleja ja tekeytymistunnistusta tarjotakseen suojaa edistyneitä hyökkäyksiä vastaan (Tietojenkalastelun torjunta Defenderissä Office 365:n tekoälylle). 
+- Ottamalla käyttöön tietojenkalastelun torjuntakäytäntöjä, jotka hyödyntävät koneoppimismalleja ja tekeytymistunnistusta tarjotakseen suojaa edistyneitä hyökkäyksiä vastaan (Tietojenkalastelun torjunta Defenderissä Office 365:n tekoälylle).
 
-- määrittämällä edistyneitä käytäntöjä, jotka estävät käytön epäluotettavista sijainneista tai ohittavat monimenetelmäisen todentamisen luotetuissa sijainneissa, kuten yrityksen verkossa (Azure MFA, mukaan lukien luotetut IP-osoitteet ja ehdollinen käyttö) 
+- määrittämällä edistyneitä käytäntöjä, jotka estävät käytön epäluotettavista sijainneista tai ohittavat monimenetelmäisen todentamisen luotetuissa sijainneissa, kuten yrityksen verkossa (Azure MFA, mukaan lukien luotetut IP-osoitteet ja ehdollinen käyttö)
 
 - ottamalla käyttöön haittaohjelmilta suojautumisen kaikissa organisaation Windows 10 -laitteissa ja suojaamalla tärkeimpien järjestelmäkansioiden tiedostoja haittaohjelmien tekemiltä muutoksilta (Windows Defender).
 
 **Yrityksesi tietoja suojataan** seuraavilla tavoilla:
 
-- käyttämällä automaattista tunnistusta, jonka avulla estetään luottamuksellisten tietojen, kuten sosiaaliturvatunnusten tai luottokorttinumeroiden, vuotaminen yrityksen ulkopuolelle (tietojen menetyksen estäminen) 
+- käyttämällä automaattista tunnistusta, jonka avulla estetään luottamuksellisten tietojen, kuten sosiaaliturvatunnusten tai luottokorttinumeroiden, vuotaminen yrityksen ulkopuolelle (tietojen menetyksen estäminen)
 
 - Salaamalla luottamukselliset sähköpostiviestit, jotta voit viestiä turvallisesti asiakkaiden tai muiden organisaation ulkopuolisten henkilöiden kanssa. Tämän avulla varmistetaan, että vain tarkoitettu vastaanottaja voi lukea viestin (Office 365 -viestin salaus).
 

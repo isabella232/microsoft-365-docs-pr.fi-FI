@@ -24,12 +24,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Opi, miten voit Microsoft 365 active-directory-laitteisiin Windows 10-laitteissasi muutamassa vaiheessa.
-ms.openlocfilehash: ec80159bdceffd8a13d09a297a2acc1b78c9b1b3
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: eb95c437030ae13a44f5e8043b3544d5846001c2
+ms.sourcegitcommit: 4886457c0d4248407bddec56425dba50bb60d9c4
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636082"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "53287691"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business-premium"></a>Toimialueen liitettyjen laitteiden Windows 10 hallitaan Microsoft 365 Business Premium
 
@@ -109,13 +109,13 @@ Ensimmäinen komento muodostaa yhteyden Microsoftin pilvipalveluun, ja kun sinua
 
 Jos et näe käytäntöä Enable **automatic MDM enrollment using default Azure AD credentials**(Ota automaattinen MDM-rekisteröinti käyttöön Azure AD:n oletustunnuksilla), ADMX ei ehkä ole asennettuna Windows 10:lle, versiolle 1803 tai uudempaan. Voit korjata ongelman seuraavasti (Huomautus: uusin MDM.admx on yhteensopiva aiempien versioiden kanssa):
 
-1.  Lataa: [Hallintamallit (.admx) Windows 10 lokakuun 2020 päivityksen (20H2) mukaan.](https://www.microsoft.com/download/102157)
-2.  Asenna paketti toimialueen ohjauskoneeseen.
-3.  Siirry kansioon hallintamalliversion mukaan: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 October 2020 Update (20H2).**
-4.  Nimeä yllä **olevassa** polussa oleva Käytäntömääritykset-kansio uudelleen **policydefinitions-kansioon.**
-5.  Kopioi **PolicyDefinitions-kansio** SYSVOL-jakamaan, oletusarvoisesti sijaintiin **C:\Windows\SYSVOL\domain\Policies.** 
-    -   Jos aiot käyttää keskitettyä käytäntösäilöä koko toimialueellesi, lisää Siellä PolicyDefinitions -sisältö.
-6.  Jos sinulla on useita toimialueen ohjauskomia, odota, että SYSVOL replikoi käytännöt. Tämä toimenpide toimii myös kaikissa tulevissa hallintamallien versioissa.
+1. Lataa: [Hallintamallit (.admx) Windows 10 lokakuun 2020 päivityksen (20H2) mukaan.](https://www.microsoft.com/download/102157)
+2. Asenna paketti toimialueen ohjauskoneeseen.
+3. Siirry kansioon hallintamalliversion mukaan: **C:\Program Files (x86)\Microsoft Group Policy\Windows 10 October 2020 Update (20H2).**
+4. Nimeä yllä **olevassa** polussa oleva Käytäntömääritykset-kansio uudelleen **policydefinitions-kansioon.**
+5. Kopioi **PolicyDefinitions-kansio** SYSVOL-jakamaan, oletusarvoisesti sijaintiin **C:\Windows\SYSVOL\domain\Policies.**
+   - Jos aiot käyttää keskitettyä käytäntösäilöä koko toimialueellesi, lisää Siellä PolicyDefinitions -sisältö.
+6. Jos sinulla on useita toimialueen ohjauskomia, odota, että SYSVOL replikoi käytännöt. Tämä toimenpide toimii myös kaikissa tulevissa hallintamallien versioissa.
 
 Tässä vaiheessa sinun pitäisi nähdä käytäntö Enable automatic MDM enrollment using default Azure AD credentials available (Ota käyttöön automaattinen **MDM-rekisteröinti käyttäen oletusarvoista Azure AD -tunnistetietoja).**
 
