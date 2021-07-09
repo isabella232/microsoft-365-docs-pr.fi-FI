@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: f3433b6b-02f7-447f-9d62-306bf03638b0
-description: Lue, miten voit vahvistaa Microsoft 365 Business Premium -sovelluksen suojausasetukset Android- tai iOS-laitteissasi.
-ms.openlocfilehash: a0a4a6e6cff59f66a506929e97c99d361472a68b
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Opi vahvistamaan Android- Microsoft 365 Business Premium tai iOS-laitteiden mobiilisovellusten suojausasetukset.
+ms.openlocfilehash: 43e74b548711550090021c39096b1647cee9e039
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578063"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339326"
 ---
 # <a name="validate-app-protection-settings-on-android-or-ios-devices"></a>Sovellusten suojausasetusten vahvistaminen Android- tai iOS-laitteissa
 
@@ -42,9 +42,9 @@ Kun olet [määrittänyt Android-laitteiden sovellusasetukset](app-protection-se
   
 Varmista ensin, että käytäntö koskee sovellusta, jossa aiot vahvistaa sen.
   
-1. Valitse Microsoft 365 Business Premium [-hallintakeskuksessa](https://portal.office.com) **Käytäntöjen** \> **muokkauskäytäntö.**
+1. Valitse Microsoft 365 Business Premium [hallintakeskuksessa](https://admin.microsoft.com) **Käytännöt Muokkaa** \> **käytäntöä**.
     
-2. Valitse **Androidin sovelluskäytäntö** asetuksissa, jotka olet luonut määrityksen yhteydessä, tai jokin muu luomasi käytäntö, ja varmista, että se on esimerkiksi pakotettu Outlookissa. 
+2. Valitse **Androidin sovelluskäytäntö** asetuksissa, jotka loit asennuksen yhteydessä, tai toinen luomasi käytäntö ja varmista, että se on Outlook käyttöön. 
     
     ![Shows all the apps for which this policy protects files.](../media/b3be3ddd-f683-4073-8d7a-9c639a636a2c.png)
   
@@ -52,9 +52,9 @@ Varmista ensin, että käytäntö koskee sovellusta, jossa aiot vahvistaa sen.
 
 Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Office-tiedostojen käytön hallinta** -kohdan vieressä, laajenna **Käyttäjien Office-tiedostojen käytön hallinta mobiililaitteissa** ja varmista, että **Office-sovellusten käyttäminen edellyttää PIN-koodia tai sormenjälkeä** on **käytössä**.
   
-![Varmista, että Office-sovellusten käyttäminen Edellyttää PIN-koodia tai sormenjälkeä -asetuksena on Käytössä.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
+![Varmista, että Vaadi PIN-koodia tai sormenjälkeä Office -asetuksena on Käytössä.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
-1. Avaa Outlook käyttäjän Android-laitteessa ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla.
+1. Avaa käyttäjän Android-laitteessa Outlook ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium tunnistetiedoilla.
     
 2. Sinua pyydetään myös antamaan PIN-koodi tai käyttämään sormenjälkeä.
     
@@ -62,15 +62,15 @@ Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Office-tiedostojen kä
   
 ### <a name="validate-reset-pin-after-number-of-failed-attempts"></a>Vahvista Palauta PIN-koodi, kun on tehty tämä määrä epäonnistuneita yrityksiä
 
-Valitse **Muokkaa** käytäntöä  -ruudussa **Muokkaa Office-tiedostojen** käytön hallinnan vieressä, laajenna Hallitse käyttäjien Office-tiedostojen käyttöä mobiililaitteissa ja varmista, että **PALAUTA PIN-koodi,** kun epäonnistuneita yrityksiä **on** määritetty joksikin määräksi. Tämä on oletusarvoisesti 5. 
+Valitse Muokkaa **käytäntöä**  -ruudussa **muokkaa kohdan Office asiakirjojen** käytön hallinta vieressä, laajenna Käyttäjien Office-tiedostojen käytön hallinta **mobiililaitteissa** ja varmista, että Palauta **PIN-koodi,** kun epäonnistuneita yrityksiä on useita. Tämä on oletusarvoisesti 5. 
   
-1. Avaa Outlook käyttäjän Android-laitteessa ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla.
+1. Avaa käyttäjän Android-laitteessa Outlook ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium tunnistetiedoilla.
     
-2. Kirjoita virheellinen PIN-koodi niin monta kertaa kuin käytäntö määrittää. Näyttöön tulee kehote, jossa pyydetään, että **PIN-koodin palautusyritysrajoitus** on saavutettu. 
+2. Kirjoita virheellinen PIN-koodi niin monta kertaa kuin käytäntö määrittää. Näyttöön tulee kehote, jossa ilmoittaa **PIN-koodin yritysrajoitus saavutettiin** PIN-koodin palauttamiseksi. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fca6fcb4-bb5c-477f-af5e-5dc937e8b835.png)
   
-3. Paina **Palauta PIN-koodi**. Sinua pyydetään kirjautumaan sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja määrittämään uusi PIN-koodi.
+3. Paina **Palauta PIN-koodi**. Sinua pyydetään kirjautumaan sisään käyttäjän Microsoft 365 Business Premium ja määrittämään uusi PIN-koodi.
     
 ### <a name="validate-force-users-to-save-all-work-files-to-onedrive-for-business"></a>Vahvista Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin
 
@@ -78,13 +78,13 @@ Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Kadonneiden tai varast
   
 ![Verify that Force users to save all work files to OneDrive for Business is set to On.](../media/7140fa1d-966d-481c-829f-330c06abb5a5.png)
   
-1. Avaa Outlook käyttäjän Android-laitteessa, kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja anna TARVITTAESSA PIN-koodi.
+1. Avaa käyttäjän Android-laitteessa Outlook, kirjaudu sisään käyttäjän tunnistetiedoilla ja Microsoft 365 Business Premium PIN-koodi, jos sitä pyydetään.
     
 2. Avaa sähköpostiviesti, jossa on liite, ja valitse liitteen tietojen vieressä oleva alanuolikuva.
     
     ![Tap the down arrow next to an attachment to try to save it.](../media/b22573bb-91ce-455f-84fa-8feb2846b117.png)
   
-    Näytön alareunassa **näkyy Ei voi tallentaa** laitteeseen -kohta. 
+    Näytön **alareunassa näkyy kohta Laitteeseen** ei voi tallentaa. 
     
     ![Warning text that indicates cannot save a file locally to an Android.](../media/52ca3f3d-7ed0-4a52-9621-4872da6ea9c5.png)
   
@@ -93,23 +93,23 @@ Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Kadonneiden tai varast
   
 ### <a name="validate-require-user-to-sign-in-again-if-office-apps-have-been-idle-for-a-specified-time"></a>Vahvista Vaadi käyttäjää kirjautumaan uudelleen, jos Office-sovellukset ovat olleet käyttämättöminä määritetyn ajan
 
-Valitse **Muokkaa** käytäntöä  -ruudussa **Muokkaa Office-tiedostojen** käytön hallinta -kohdan vieressä, laajenna Hallitse käyttäjien **Office-tiedostojen** käyttöä mobiililaitteissa ja varmista, että Edellytä, että käyttäjät kirjautuvat uudelleen, kun **Office-sovellukset** ovat olleet käyttämättömänä, on määritetty joitakin minuutteja. Tämä on oletusarvoisesti 30 minuuttia. 
+Valitse **Muokkaa** käytäntöä  -ruudussa **Muokkaa Office-tiedostojen** käytön hallinta -kohdan vieressä , laajenna Käyttäjien Office-tiedostojen käytön hallinta **mobiililaitteissa** ja varmista, että Vaadi käyttäjiä kirjautumaan uudelleen **sisään,** kun Office-sovellukset ovat olleet käyttämättömänä -asetuksena on jokin minuuttimäärä. Tämä on oletusarvoisesti 30 minuuttia. 
   
-1. Avaa Outlook käyttäjän Android-laitteessa, kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja anna TARVITTAESSA PIN-koodi.
+1. Avaa käyttäjän Android-laitteessa Outlook, kirjaudu sisään käyttäjän tunnistetiedoilla ja Microsoft 365 Business Premium PIN-koodi, jos sitä pyydetään.
     
 2. Outlookin Saapuneet-kansion pitäisi nyt näkyä. Älä koske Android-laitteeseen vähintään 30 minuuttiin (tai muun käytäntöön määrittämääsi aikaa pidemmän ajan). Todennäköisesti laitteen näyttö himmenee.
     
-3. Käytä Outlookia uudelleen Android-laitteessa.
+3. Access Outlook Android-laitteessa uudelleen.
     
-4. Sinua pyydetään antamaan PIN-koodi, ennen kuin voit käyttää Outlookia uudelleen.
+4. Sinua pyydetään antamaan PIN-koodi, ennen kuin voit käyttää Outlook uudelleen.
     
 ### <a name="validate-protect-work-files-with-encryption"></a>Vahvista Suojaa työtiedostot salauksella
 
 Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Kadonneiden tai varastettujen laitteiden suojaus** -kohdan vieressä, laajenna **Työtiedostojen suojaaminen laitteiden katoamisen tai varastamisen varalta** ja varmista, että **Suojaa työtiedostot salauksella** on **käytössä** ja **Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin** **pois käytöstä**.
   
-1. Avaa Outlook käyttäjän Android-laitteessa, kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja anna TARVITTAESSA PIN-koodi.
+1. Avaa käyttäjän Android-laitteessa Outlook, kirjaudu sisään käyttäjän tunnistetiedoilla ja Microsoft 365 Business Premium PIN-koodi, jos sitä pyydetään.
     
-2. Avaa sähköpostiviesti, joka sisältää muutaman kuvatiedoston liitetiedoston.
+2. Avaa sähköpostiviesti, joka sisältää muutaman kuvatiedostoliitteen.
     
 3. Voit tallentaa liitteen valitsemalla sen tietojen vieressä olevan alanuolikuvakkeen.
     
@@ -131,9 +131,9 @@ Kun olet [määrittänyt iOS-laitteiden sovellusasetukset](app-protection-settin
   
 Varmista ensin, että käytäntö koskee sovellusta, jossa aiot vahvistaa sen.
   
-1. Valitse Microsoft 365 Business Premium [-hallintakeskuksessa](https://portal.office.com) **Käytäntöjen** \> **muokkauskäytäntö.**
+1. Valitse Microsoft 365 Business Premium [hallintakeskuksessa](https://admin.microsoft.com) **Käytännöt Muokkaa** \> **käytäntöä**.
     
-2. Valitse **iOS:n** sovelluskäytäntö asetuksissa, jotka olet luonut määrityksen yhteydessä, tai jokin muu luomasi käytäntö, ja varmista, että se on esimerkiksi pakotettu Outlookissa. 
+2. Valitse **iOS:n** sovelluskäytäntö asetuksissa, jotka loit asennuksen yhteydessä, tai toinen luomasi käytäntö, ja varmista, että se on pakotettu esimerkiksi Outlook osalta. 
     
     ![Shows all the apps for which this policy protects files.](../media/842441b8-e7b1-4b86-9edd-d94d1f77b6f4.png)
   
@@ -141,9 +141,9 @@ Varmista ensin, että käytäntö koskee sovellusta, jossa aiot vahvistaa sen.
 
 Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Office-tiedostojen käytön hallinta** -kohdan vieressä, laajenna **Käyttäjien Office-tiedostojen käytön hallinta mobiililaitteissa** ja varmista, että **Office-sovellusten käyttäminen edellyttää PIN-koodia tai sormenjälkeä** on **käytössä**.
   
-![Varmista, että Office-sovellusten käyttäminen Edellyttää PIN-koodia tai sormenjälkeä -asetuksena on Käytössä.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
+![Varmista, että Vaadi PIN-koodia tai sormenjälkeä Office -asetuksena on Käytössä.](../media/f37eb5b2-7e26-49fb-9bd6-d955d196bacf.png)
   
-1. Avaa Outlook käyttäjän iOS-laitteessa ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla.
+1. Avaa käyttäjän iOS-laitteessa Outlook ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium tunnistetiedoilla.
     
 2. Sinua pyydetään myös antamaan PIN-koodi tai käyttämään sormenjälkeä.
     
@@ -151,15 +151,15 @@ Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Office-tiedostojen kä
   
 ### <a name="validate-reset-pin-after-number-of-failed-attempts"></a>Vahvista Palauta PIN-koodi, kun on tehty tämä määrä epäonnistuneita yrityksiä
 
-Valitse **Muokkaa** käytäntöä  -ruudussa **Muokkaa Office-tiedostojen** käytön hallinnan vieressä, laajenna Hallitse käyttäjien Office-tiedostojen käyttöä mobiililaitteissa ja varmista, että **PALAUTA PIN-koodi,** kun epäonnistuneita yrityksiä **on** määritetty joksikin määräksi. Tämä on oletusarvoisesti 5. 
+Valitse Muokkaa **käytäntöä**  -ruudussa **muokkaa kohdan Office asiakirjojen** käytön hallinta vieressä, laajenna Käyttäjien Office-tiedostojen käytön hallinta **mobiililaitteissa** ja varmista, että Palauta **PIN-koodi,** kun epäonnistuneita yrityksiä on useita. Tämä on oletusarvoisesti 5. 
   
-1. Avaa Outlook käyttäjän iOS-laitteessa ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla.
+1. Avaa käyttäjän iOS-laitteessa Outlook ja kirjaudu sisään käyttäjän Microsoft 365 Business Premium tunnistetiedoilla.
     
-2. Kirjoita virheellinen PIN-koodi niin monta kertaa kuin käytäntö määrittää. Näyttöön tulee kehote, jossa pyydetään, että **PIN-koodin palautusyritysrajoitus** on saavutettu. 
+2. Kirjoita virheellinen PIN-koodi niin monta kertaa kuin käytäntö määrittää. Näyttöön tulee kehote, jossa ilmoittaa **PIN-koodin yritysrajoitus saavutettiin** PIN-koodin palauttamiseksi. 
     
     ![After too many incorrect PIN attempts, you need to reset your PIN.](../media/fab5c089-a4a5-4e8d-8c95-b8eed1dfa262.png)
   
-3. Paina **OK**. Sinua pyydetään kirjautumaan sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja määrittämään uusi PIN-koodi.
+3. Paina **OK**. Sinua pyydetään kirjautumaan sisään käyttäjän Microsoft 365 Business Premium ja määrittämään uusi PIN-koodi.
     
 ### <a name="validate-force-users-to-save-all-work-files-to-onedrive-for-business"></a>Vahvista Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin
 
@@ -167,35 +167,35 @@ Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Kadonneiden tai varast
   
 ![Verify that Force users to save all work files to OneDrive for Business is set to On.](../media/7140fa1d-966d-481c-829f-330c06abb5a5.png)
   
-1. Avaa Outlook käyttäjän iOS-laitteessa, kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja anna TARVITTAESSA PIN-koodi.
+1. Avaa käyttäjän iOS-laitteessa Outlook, kirjaudu sisään käyttäjän tunnistetiedoilla ja Microsoft 365 Business Premium PIN-koodi, jos sitä pyydetään.
     
 2. Avaa liitteen sisältävä sähköpostiviesti, avaa liite ja valitse **Tallenna** näytön alareunassa. 
     
     ![Tap the Save option after you open an attachment to try to save it.](../media/b419b070-1530-4f14-86a8-8d89933a2b25.png)
   
-3. Näkyvissä pitäisi olla vaihtoehto vain OneDrive for Businessille. Jos näin ei ole, valitse **Lisää tili** ja valitse Lisää **tallennustilatili** -näytössä **OneDrive for Business.** Anna loppukäyttäjän Microsoft 365 Business Premium kirjautuaksesi sisään pyydettäessä. 
+3. Näkyvissä pitäisi olla vaihtoehto vain OneDrive for Businessille. Jos näin ei ole, **valitse Lisää** **OneDrive for Business** tili Tallennus **tili -näytössä.** Anna käyttäjän Microsoft 365 Business Premium kirjauduttava pyydettäessä. 
     
     Napauta **Tallenna** ja valitse **OneDrive for Business**.
     
 ### <a name="validate-require-user-to-sign-in-again-if-office-apps-have-been-idle-for-a-specified-time"></a>Vahvista Vaadi käyttäjää kirjautumaan uudelleen, jos Office-sovellukset ovat olleet käyttämättöminä määritetyn ajan
 
-Valitse **Muokkaa** käytäntöä  -ruudussa **Muokkaa Office-tiedostojen** käytön hallinta -kohdan vieressä, laajenna Hallitse käyttäjien **Office-tiedostojen** käyttöä mobiililaitteissa ja varmista, että Edellytä, että käyttäjät kirjautuvat uudelleen, kun **Office-sovellukset** ovat olleet käyttämättömänä, on määritetty joitakin minuutteja. Tämä on oletusarvoisesti 30 minuuttia. 
+Valitse **Muokkaa** käytäntöä  -ruudussa **Muokkaa Office-tiedostojen** käytön hallinta -kohdan vieressä , laajenna Käyttäjien Office-tiedostojen käytön hallinta **mobiililaitteissa** ja varmista, että Vaadi käyttäjiä kirjautumaan uudelleen **sisään,** kun Office-sovellukset ovat olleet käyttämättömänä -asetuksena on jokin minuuttimäärä. Tämä on oletusarvoisesti 30 minuuttia. 
   
-1. Avaa Outlook käyttäjän iOS-laitteessa, kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja anna TARVITTAESSA PIN-koodi.
+1. Avaa käyttäjän iOS-laitteessa Outlook, kirjaudu sisään käyttäjän tunnistetiedoilla ja Microsoft 365 Business Premium PIN-koodi, jos sitä pyydetään.
     
 2. Outlookin Saapuneet-kansion pitäisi nyt näkyä. Älä koske iOS-laitteeseen vähintään 30 minuuttiin (tai muun käytäntöön määrittämääsi aikaa pidemmän ajan). Todennäköisesti laitteen näyttö himmenee.
     
-3. Käytä Outlookia uudelleen iOS-laitteessa.
+3. Käytä Outlook iOS-laitteessa uudelleen.
     
-4. Sinua pyydetään antamaan PIN-koodi, ennen kuin voit käyttää Outlookia uudelleen.
+4. Sinua pyydetään antamaan PIN-koodi, ennen kuin voit käyttää Outlook uudelleen.
     
 ### <a name="validate-protect-work-files-with-encryption"></a>Vahvista Suojaa työtiedostot salauksella
 
 Valitse **Muokkaa käytäntöä** -ruudussa **Muokkaa** **Kadonneiden tai varastettujen laitteiden suojaus** -kohdan vieressä, laajenna **Työtiedostojen suojaaminen laitteiden katoamisen tai varastamisen varalta** ja varmista, että **Suojaa työtiedostot salauksella** on **käytössä** ja **Pakota käyttäjät tallentamaan kaikki työtiedostot OneDrive for Businessiin** **pois käytöstä**.
   
-1. Avaa Outlook käyttäjän iOS-laitteessa, kirjaudu sisään käyttäjän Microsoft 365 Business Premium -tunnistetiedoilla ja anna TARVITTAESSA PIN-koodi.
+1. Avaa käyttäjän iOS-laitteessa Outlook, kirjaudu sisään käyttäjän tunnistetiedoilla ja Microsoft 365 Business Premium PIN-koodi, jos sitä pyydetään.
     
-2. Avaa sähköpostiviesti, joka sisältää muutaman kuvatiedoston liitetiedoston.
+2. Avaa sähköpostiviesti, joka sisältää muutaman kuvatiedostoliitteen.
     
 3. Napauta liitettä ja **Tallenna**-vaihtoehtoa sen alla. 
     

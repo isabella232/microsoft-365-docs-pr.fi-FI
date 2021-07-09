@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Lue Microsoft 365 yritysasiakkaista, sen määritämisistä ja käyttäjien laitteiden ja tietokoneiden valmisteleminen sen varmistamiseksi, että Microsoft 365 suojattu yritysasiakkaille.
-ms.openlocfilehash: be5f0e74b71f412bf647e4ef0e496cd932fc306a
-ms.sourcegitcommit: a05f61a291eb4595fa9313757a3815b7f217681d
+ms.openlocfilehash: 2ab0079da7a8f30d481cdb3d3dc6d165b4a19e99
+ms.sourcegitcommit: 0d1b065c94125b495e9886200f7918de3bda40b3
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52706454"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339286"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 käytön aloittaminen
 
@@ -57,11 +57,11 @@ Microsoft 365 yrityksille on tarkoitettu enintään 300 käyttöoikeutta. Jos ta
 
  **Microsoft 365 for Business Suiten määritetään yleiskatsaus**
   
-Seuraavassa kaaviossa kuvataan, miten järjestelmänvalvojat Microsoft 365 yrityksen käyttöön. Artikkelissa kuvataan myös, miten tietokoneita Windows valmistellaan Microsoft 365 yrityksille. Voit myös lisätä uusia laitteita Microsoft 365 [autopilotin Windows avulla.](add-autopilot-devices-and-profile.md) AutoPilotilla voit määrittää ja määrittää uudet laitteet valmiiksi niin, että ne ovat käyttövalmiita heti, kun käyttäjä kirjautuu sisään Microsoft 365 yritystietoja varten.
+Seuraavassa kaaviossa kuvataan, miten järjestelmänvalvojat Microsoft 365 yrityksen käyttöön. Artikkelissa kuvataan myös, miten tietokoneita Windows valmistellaan Microsoft 365 yrityksille. Voit myös lisätä uusia laitteita Microsoft 365 -hallintakeskus [AutoPilotin Windows avulla.](add-autopilot-devices-and-profile.md) AutoPilotilla voit määrittää ja määrittää uudet laitteet valmiiksi niin, että ne ovat käyttövalmiita heti, kun käyttäjä kirjautuu sisään Microsoft 365 yritystietoja varten.
   
 ![A diagram that shows the setup and management flow for admins, and also for a user](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
-## <a name="watch-set-up-microsoft-365-business"></a>Katso: Microsoft 365 Business
+## <a name="watch-set-up-microsoft-365-business"></a>Katso: Microsoft 365 Businessin määritäminen
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
@@ -70,7 +70,7 @@ Jos tämä video on mielestäsi hyödyllinen, tutustu [täydelliseen koulutussar
   
 ### <a name="1-set-up-microsoft-365-for-business-admin"></a>1: yritysportaalin Microsoft 365 (järjestelmänvalvoja)
 
-Kirjaudu Microsoft 365 [hallintakeskukseen yleisen](https://portal.office.com/adminportal/home) järjestelmänvalvojan tunnistetiedoilla ja määritä yritysportaalin asetukset Microsoft 365 ohjeiden mukaisesti. 
+Kirjaudu sisään [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/adminportal/home) järjestelmänvalvojan tunnistetiedoilla ja määritä yritysasiat Microsoft 365 ohjeiden mukaisesti. 
   
 1. [Laitteiden tietojen suojaamisen edellytykset Microsoft 365 yritysasiat](pre-requisites-for-data-protection.md)
     
@@ -78,7 +78,7 @@ Kirjaudu Microsoft 365 [hallintakeskukseen yleisen](https://portal.office.com/ad
     
 2. [Yrityskäyttöön Microsoft 365 määrittäminen ohjatun määritystoiminnon avulla](set-up.md)
     
-    Jos siirryt pysyvästi paikallisesta **Active Directorysta** pilvipalveluun, siirry Microsoft 365-hallintakeskukseen ja lisää käyttäjät manuaalisesti ohjatun määritystoiminnon avulla tai voit tehdä kertasynkronoinnin Azure AD Näyttöyhteys. Tämän voi tehdä kahdella eri tavalla: 
+    Jos olet siirtymässä pysyvästi paikallisesta **Active Directorysta** pilvipalveluun, siirry Microsoft 365 -hallintakeskus ja lisää käyttäjät manuaalisesti ohjatun määritystoiminnon avulla tai voit tehdä kertasynkronoinnin Azure AD Näyttöyhteys. Tämän voi tehdä kahdella eri tavalla: 
     
     - Jos käytössäsi on myös Exchange 2010-, Exchange 2013- tai Exchange 2016 -palvelin, voit siirtää Exchange postilaatikot [Microsoft 365.](/Exchange/mailbox-migration/use-minimal-hybrid-to-quickly-migrate) Minimal Hybrid -vaiheita ovat esimerkiksi käyttäjien kertasynkronoinnin Azure AD:lle ja sähköpostin siirto paikallisesta pilvipalveluun. Kun sähköpostin siirto on valmis, hakemistosynkronointi poistetaan automaattisesti käytöstä, kun käytät tätä menetelmää.
     
