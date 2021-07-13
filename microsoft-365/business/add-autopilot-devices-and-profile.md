@@ -19,18 +19,19 @@ ms.custom:
 - OKR_SMB_M365
 - seo-marvel-mar
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Opi käyttämään Windows AutoPilotia uusien Windows 10 yrityksesi kanssa, jotta ne ovat valmiina työntekijöiden käyttöön.
-ms.openlocfilehash: e178e7df220e89605502d9ed400265bcd963e57e
-ms.sourcegitcommit: 17f0aada83627d9defa0acf4db03a2d58e46842f
+ms.openlocfilehash: f160ddcd1e41bd44c908ecc8bbd30a9819f76902
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52636102"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393435"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla
 

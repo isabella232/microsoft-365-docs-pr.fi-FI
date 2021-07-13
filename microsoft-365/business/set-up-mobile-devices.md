@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Asenna Office laitteeseen iPhone Android-puhelimeen, niin Office-sovellusten työtiedostot suojataan Microsoft 365 for Businessilla.
-ms.openlocfilehash: 7b411b6ae1223963b8583e1e3cd0ee00e13ff958
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 477f0ee63b045ca8fd6d3cfc3023f4122661a3b6
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52244792"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393395"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Mobiililaitteiden Microsoft 365 yrityskäyttäjille
 
@@ -105,7 +105,7 @@ Avaa Outlook uudelleen ja anna ja vahvista PIN-koodi. Outlook-sovellus on nyt va
   
 ![Set  PIN for Outlook app in Android](../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
 
-## <a name="see-also"></a>Tutustu myös seuraaviin ohjeartikkeleihin:
+## <a name="related-content"></a>Aiheeseen liittyvä sisältö
 
 [Microsoft 365 yrityksille -koulutusvideoita](../business-video/index.yml)
 

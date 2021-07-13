@@ -1,5 +1,5 @@
 ---
-title: Käytä paikallisia resursseja Azure AD:llä yhdistetystä laitteesta Microsoft 365 Business
+title: Käytä paikallisia resursseja Azure AD:llä yhdistetystä laitteesta Microsoft 365 Businessissa
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -16,17 +16,18 @@ ms.custom:
 - MSB365
 - OKR_SMB_M365
 - AdminSurgePortfolio
+- AdminTemplateSet
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Opi käyttämään yrityksen sovelluksia, jaetut tiedostoresurssit ja tulostimet tai muut paikallisen Azure Active Directory Windows 10 avulla.
-ms.openlocfilehash: 72b3c5ae538cad24fc12e25717dedccb2fdc9017
-ms.sourcegitcommit: 4fb1226d5875bf5b9b29252596855a6562cea9ae
+ms.openlocfilehash: 71d60e0187c917dffb7390afcedf22dc73f44008
+ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "52843318"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53393455"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business-premium"></a>Käytä paikallisia resursseja Azure AD:llä yhdistetystä laitteesta Microsoft 365 Business Premium
 
@@ -57,7 +58,7 @@ Jos organisaatiosi ei ole valmis ottamaan käyttöön edellä kuvatun Azure AD:n
 
 Jos Windows laite, jonka kanssa Azure-AD on liitetty, oli aiemmin liitetty toimialueeseen tai työryhmään, ota seuraavat rajoitukset huomioon:
 
-- Kun azure AD -laite liittyy, se luo uuden käyttäjän viittaamatta aiemmin luotuun profiiliin. Profiilit on siirrettävä manuaalisesti. Käyttäjäprofiili sisältää tietoja, kuten suosikit, paikalliset tiedostot, selaimen asetukset ja aloitusvalikon asetukset. Paras tapa on etsiä kolmannen osapuolen työkalu, jolla olemassa olevat tiedostot ja asetukset voidaan yhdistää uuteen profiiliin.
+- Kun azure AD -laite liittyy, se luo uuden käyttäjän viittaamatta aiemmin luotuun profiiliin. Profiilit on siirrettävä manuaalisesti. Käyttäjäprofiili sisältää tietoja, kuten suosikit, paikalliset tiedostot, selaimen asetukset ja aloitusvalikko asetukset. Paras tapa on etsiä kolmannen osapuolen työkalu, jolla olemassa olevat tiedostot ja asetukset voidaan yhdistää uuteen profiiliin.
 
 - Jos laite käyttää ryhmäkäytäntöobjekteja (GPO), joillakin ryhmäkäytäntöobjekteilla ei välttämättä ole vastaavaa kokoonpanopalveluntarjoajaa Intunessa. [](/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers) Suorita [MMAT-työkalu löytääksesi](https://www.microsoft.com/download/details.aspx?id=45520) vastaavat CSPs olemassa oleville ryhmäkäytäntöobjekteille.
 
