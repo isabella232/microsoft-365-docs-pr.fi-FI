@@ -1,0 +1,211 @@
+### YamlMime:Hub
+title: Microsoft 365 Business Premium resurssien hallinta
+summary: 'Microsoft 365 Business Premium (aiemmin Microsoft 365 Business) on kattava tilauspalvelu yrityksille, joissa on alle 300 työntekijää. Se integroi suosikkisovelluksesi Office ja -palvelut ja yhteistyötyökalut, kuten Microsoft Teams kehittyneiden suojaus- ja laitehallintaominaisuuksien avulla.'
+brand: m365
+metadata:
+  title: Microsoft 365 Business Premium resurssien hallinta
+  description: kuvaus
+  ms.service: o365-administration
+  ms.topic: hub-page
+  ms.collection: collection
+  ms.custom: AdminSurgePortfolio
+  author: samanro
+  ms.author: samanro
+  ms.date: 10/01/2019
+productDirectory:
+  title: Etätyösän Microsoft 365 Business Premium
+  items:
+    - title: Katso
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: Viisi ylintä Microsoft 365 Business Premium.
+      url: 'https://aka.ms/M365BPvideo'
+    - title: Hanki maksuton kumppanipaketti
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Käytännöllisiä ohjeita ja siirry markkinaresursseihin kumppaneille etätyösyiden varmistamiseksi.
+      url: 'https://aka.ms/SMBSecurityKit'
+    - title: Mitä uutta?
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-blue.svg'
+      summary: Virustentorjunta ja yleinen tulostus ovat nyt käytettävissä Microsoft 365 Business Premium.
+      url: 'https://aka.ms/M365BPQ1Update'
+    - title: Liittyminen Microsoft 365 Lighthouse-kumppanin webinaariin 28. heinäkuuta
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg'
+      summary: Käytä Microsoft 365 Lighthousea asiakkaiden tietoturvaan ja Microsoft 365 Business Premium standardoimiseen.
+      url: 'https://aka.ms/m365lighthousewebinar'
+conceptualContent:
+  items:
+    - title: Mikä on Microsoft 365 Business Premium?
+      links:
+        - url: microsoft-365-business-overview.md
+          itemType: overview
+          text: Yleiskatsaus
+        - url: ../business-video/index.yml
+          itemType: video
+          text: Microsoft 365 Business Premium koulutus
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
+          itemType: overview
+          text: Vertaa palvelupaketteja
+        - url: /office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+          itemType: reference
+          text: Palvelun kuvaus
+        - url: support/microsoft-365-business-faqs.yml
+          itemType: reference
+          text: Usein kysytyt kysymykset
+    - title: Määritä Microsoft 365 Business Premium
+      links:
+        - url: set-up.md
+          itemType: how-to-guide
+          text: 1. Ohjatun määritystoiminnon suorittaminen
+        - url: secure-win-10-pcs.md
+          itemType: how-to-guide
+          text: 2. Tietokoneiden suojaaminen
+        - url: /MicrosoftTeams/get-started-with-teams-quick-start
+          itemType: video
+          text: 3. Määritä Teams
+        - url: ../business-video/install-office.md
+          itemType: get-started
+          text: 4. Officen asentaminen
+    - title: Resurssit kumppaneille (vain englanniksi)
+      links:
+        - url: 'https://www.microsoft.com/microsoft-365/partners/business'
+          itemType: overview
+          text: Kumppanisivu
+        - url: ../lighthouse/m365-lighthouse-overview.md
+          itemType: overview
+          text: Lisätietoja Microsoft 365 Lighthousesta
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-customer-pitch-deck.pptx'
+          itemType: download
+          text: Pitch deck (asiakkaan kohdistus)
+        - url: 'https://assetsprod.microsoft.com/mpn/smb-advanced-security-opportunity-deck.pptx'
+          itemType: download
+          text: Pitch deck (partner focus)
+        - url: 'https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-smb-technical-fundamentals-content-content-used-for-delivery'
+          itemType: download
+          text: Tech fundamentals
+        - url: 'https://aka.ms/SMBSecurityKit'
+          itemType: download
+          text: Suojattu etätyöpaketti
+        - url: 'https://cct.transform.microsoft.com/'
+          itemType: deploy
+          text: Asiakkaan konsultointityökalu
+        - url: 'https://vc.transform.microsoft.com/'
+          itemType: learn
+          text: Arvolaskuri
+    - title: Käyttäjien hallinta
+      links:
+        - url: ../admin/add-users/add-users.md
+          itemType: how-to-guide
+          text: Käyttäjän lisääminen
+        - url: /office365/admin/add-users/remove-former-employee
+          itemType: how-to-guide
+          text: Käyttäjän poistaminen
+        - url: /office365/admin/add-users/reset-passwords
+          itemType: how-to-guide
+          text: Toisen käyttäjän salasanan vaihtaminen
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Näytä lisää
+    - title: Uhkien hallinta
+      links:
+        - url: ../security/office-365-security/defender-for-office-365.md
+          itemType: overview
+          text: Advanced Threat Protection
+        - url: ../admin/security-and-compliance/set-up-multi-factor-authentication.md
+          itemType: how-to-guide
+          text: 'MFA:n määritäminen'
+        - url: ./increase-threat-protection.md#protect-against-ransomware
+          itemType: how-to-guide
+          text: Kiristysohjelmilta suojautuminen
+        - url: /azure/active-directory/conditional-access/overview
+          itemType: overview
+          text: Ehdollinen käyttöoikeus
+      footerLink:
+        url: /office365/admin/admin-home
+        text: Näytä lisää
+    - title: Tietojen hallinta
+      links:
+        - url: ../compliance/data-loss-prevention-policies.md
+          itemType: overview
+          text: Tietojen menetyksen estäminen
+        - url: 'https://support.microsoft.com/office/send-view-and-reply-to-encrypted-messages-in-outlook-for-pc-eaa43495-9bbb-4fca-922a-df90dee51980'
+          itemType: how-to-guide
+          text: Salatun sähköpostin lähettäminen
+        - url: ./set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
+          itemType: how-to-guide
+          text: Sähköpostin säilytyksen määrittäminen
+        - url: ../business-video/create-sensitivity-labels.md
+          itemType: video
+          text: Luottamuksellisuusotsikoiden luominen ja käyttö
+      footerLink:
+        url: ../compliance/index.yml
+        text: Näytä lisää
+    - title: Laitteiden hallinta
+      links:
+        - url: view-policies-and-devices.md
+          itemType: how-to-guide
+          text: PC& mobiililaitteet
+        - url: remove-company-data.md
+          itemType: how-to-guide
+          text: Poista yritystiedot
+        - url: reset-devices-to-factory-settings.md
+          itemType: how-to-guide
+          text: Tietojen tyhjennys ja nollaaminen
+        - url: /intune/index
+          itemType: overview
+          text: Intune
+        - url: manage-windows-devices.md
+          itemType: how-to-guide
+          text: Azure AD -yhdistelmäliitoksen luominen
+        - url: access-resources.md
+          itemType: how-to-guide
+          text: Azure AD -liitoksen luominen
+        - url: /windows/deployment/windows-autopilot/windows-autopilot
+          text: Windows Autopilot
+          itemType: overview
+      footerLink:
+        url: manage-windows-devices.md
+        text: Näytä lisää
+    - title: Suojauksen valvonta
+      links:
+        - url: ../security/defender/microsoft-secure-score.md
+          itemType: how-to-guide
+          text: Pistemäärän suojaaminen
+        - url: /intune/apps/app-protection-policies-monitor
+          itemType: overview
+          text: Intune-sovelluksen suojauskäytännöt -raportti
+        - url: ../enterprise/view-service-health.md
+          itemType: how-to-guide
+          text: Terveysvalvontailmoitukset
+      footerLink:
+        url: ../security/index.yml
+        text: Näytä lisää
+    - title: Tuki ja yhteisö
+      links:
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog'
+          itemType: whats-new
+          text: Ilmoitukset
+        - url: 'https://support.microsoft.com/office/7f681212-c649-4a3e-a43b-32b1d1e58988'
+          itemType: video
+          text: Ohjeiden saaminen
+        - url: 'https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business'
+          itemType: overview
+          text: Lähetä palautetta
+        - url: 'https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB'
+          itemType: overview
+          text: Small and medium business tech community
+    - title: Miten...
+      links:
+        - url: sign-up.md
+          itemType: get-started
+          text: Rekisteröidy Microsoft 365 Business Premium
+        - url: migrate-to-microsoft-365-business.md
+          itemType: how-to-guide
+          text: Siirtyminen Microsoft 365 Business Standard
+        - url: migrate-from-e3.md
+          itemType: how-to-guide
+          text: Siirtyminen Office 365 E3
+        - url: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
+          itemType: how-to-guide
+          text: 'Siirtyminen Microsoft 365 Enterprise E3:ssa'
+      footerLink:
+        url: microsoft-365-business-overview.md
+        text: Näytä lisää
