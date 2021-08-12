@@ -26,19 +26,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: Auta käyttäjiä asentamaan Office Windows 10-laitteisiin ja Office Windows 10 helposti Microsoft 365 hallintakeskuksesta.
-ms.openlocfilehash: 74c17533995b74655be57524b77d9c508f703c50
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+description: Auta käyttäjiä asentamaan Office Windows 10-laitteisiin ja Office helposti Windows 10 PC-tietokoneisiin Microsoft 365 -hallintakeskus.
+ms.openlocfilehash: bfd0d9baba177bd68b4d3174eba7c5ffb3a38aa8c690c7b8314e5b298bdbdfc1
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245160"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53820983"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>Auta käyttäjiä asentamaan Office Windows 10 laitteisiin
 
 [![Selite, jossa ilmoitetaan, että hallintakeskus muuttuu. Lisätietoja löytyy osoitteesta aka.ms/aboutM365preview.](../media/m365admincenterchanging.png)](/office365/admin/microsoft-365-admin-center-preview)
 
-Voit asentaa tietokoneeseen Office Windows 10 helposti Microsoft 365 hallintakeskuksesta.
+Voit asentaa Office Windows 10 tietokoneisiin Microsoft 365 -hallintakeskus.
   
 Jotta ymmärrät, miten se toimii aiemmin asennettujen Office-sovellusten kanssa, lue [Office-asiakasohjelman asennuksen valmisteleminen](prepare-for-office-client-deployment.md) ennen aloittamista.
 

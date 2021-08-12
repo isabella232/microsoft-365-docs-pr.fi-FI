@@ -27,12 +27,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: Opi luomaan AutoPilot-profiili ja käyttämään sitä laitteessa sekä muokkaamaan tai poistamaan profiilia tai poistamaan profiili laitteesta.
-ms.openlocfilehash: 414243da88fb6f39f8e6067d19d49ffe955f725f
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: d2a3038346b7879006dc2eb50ebe2e70cc6fae92c020a38465cec9d468c638b2
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580250"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53797194"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>Autopilot-profiilien luominen ja muokkaaminen
 
@@ -40,11 +40,11 @@ ms.locfileid: "51580250"
 
 Profiilia käytetään laitteeseen tai laiteryhmään
   
-1. Valitse Microsoft 365 -hallintakeskuksessa **Laitteet** \> **AutoPilot.**
+1. Valitse Microsoft 365 -hallintakeskus  \> **AutoPilot**.
   
-2. Valitse **AutoPilot-sivulla** **Profiilit-välilehti** \> **Luo profiili.**
+2. Valitse **AutoPilot-sivulla** **Profiilit-välilehti** \> **Luo profiili**.
     
-3. Kirjoita **Luo profiili -sivulle** profiilille nimi, joka auttaa tunnistamaan sen, esimerkiksi Markkinointi. Ota haluamasi asetus käyttöön ja valitse sitten **Tallenna.** Lisätietoja AutoPilot-profiiliasetuksista on kohdassa Tietoja [AutoPilot-profiiliasetuksista.](autopilot-profile-settings.md)
+3. Kirjoita **Luo profiili -sivulle** profiilin nimi, jonka avulla tunnistat sen, esimerkiksi Markkinointi. Ota haluamasi asetus käyttöön ja valitse sitten **Tallenna**. Lisätietoja AutoPilot-profiiliasetuksista on kohdassa Tietoja [AutoPilot-profiilin asetuksista.](autopilot-profile-settings.md)
     
     ![Enter name and turn on settings in the Create profile panel.](../media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
@@ -54,7 +54,7 @@ Kun olet luonut profiilin, voit käyttää sitä laitteessa tai laiteryhmässä.
   
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse laitteen nimen vieressä olevaa valintaruutua  ja valitse Laite-paneelissa  profiili avattavasta Määritetty profiili -luettelosta \> **Tallenna.**
+2. Valitse laitteen nimen vieressä olevaa valintaruutua ja valitse Laite-paneelissa  profiili avattavasta Määritetty profiili -luettelosta  \> **Tallenna**.
     
     ![In the Device panel, select an Assigned profile to apply it.](../media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -66,7 +66,7 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti. 
     
-2. Valitse laitteen nimen vieressä oleva valintaruutu ja  päivitä profiilipaneelissa jokin käytettävissä olevista asetuksista \> **Tallenna.**
+2. Valitse laitteen nimen vieressä oleva valintaruutu ja  päivitä Profiili-paneelissa jokin käytettävissä olevista asetuksista \> **Tallenna**.
     
     Jos teet näin, ennen kuin käyttäjä yhdistää laitteen internetiin, profiilia käytetään asennuksessa.
     
@@ -74,7 +74,7 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Profiilit**-välilehti. 
     
-2. Valitse laitteen nimen vieressä olevaa valintaruutua ja valitse **Profiili-paneelissa** **Poista profiilitallenna.** \> 
+2. Valitse laitteen nimen vieressä olevaa valintaruutua ja valitse **Profiili-paneelissa** **Poista profiilitallenna** \> .
     
     Kun poistat profiilin, se poistetaan siitä laitteesta tai laiteryhmästä, johon se määritettiin.
     
@@ -82,5 +82,5 @@ Kun olet määrittänyt profiilin laitteeseen, voit päivittää sen, vaikka ole
 
 1. Valitse **Valmistele Windows** -sivulla **Laitteet**-välilehti. 
     
-2. Valitse laitteen nimen vieressä olevaa valintaruutua  ja valitse  Laite-paneelissa Ei mitään avattavasta Määritetty profiili -luettelosta  \> **Tallenna.**
+2. Valitse laitteen nimen vieressä olevaa valintaruutua ja valitse  Laite-paneelissa Ei mitään avattavasta Määritetty profiili -luettelosta   \> **Tallenna**.
     
