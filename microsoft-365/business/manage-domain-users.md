@@ -1,5 +1,5 @@
 ---
-title: Toimialuekäyttäjien synkronoiminen Microsoft 365:lle
+title: Toimialuekäyttäjien synkronoiminen Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -23,47 +23,47 @@ search.appverid:
 - MET150
 - MOE150
 description: Synkronoi toimialueohjatut käyttäjät Microsoft 365 for Businessin kanssa.
-ms.openlocfilehash: b477b8a1f35a790d6c49937c973c141ad9f90ad4
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+ms.openlocfilehash: 468fa943df55b12573f0a4f595294e39a146b1850f3c430ac2088a30991c0e60
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809308"
 ---
-# <a name="synchronize-domain-users-to-microsoft-365"></a>Toimialuekäyttäjien synkronoiminen Microsoft 365:lle
+# <a name="synchronize-domain-users-to-microsoft-365"></a>Toimialuekäyttäjien synkronoiminen Microsoft 365
 
-## <a name="1-prepare-for-directory-synchronization"></a>1. Hakemistosynkronoinnin valmisteleminen 
+## <a name="1-prepare-for-directory-synchronization"></a>1. Hakemistosynkronoinnin valmistelu 
 
-Ennen kuin synkronoit käyttäjät ja tietokoneet paikallisesta Active Directory -toimialueesta, tarkista Hakemistosynkronoinnin [valmisteleminen Microsoft 365:lle.](../enterprise/prepare-for-directory-synchronization.md) Erityisesti:
+Ennen kuin synkronoit käyttäjät ja tietokoneet paikallisesta Active Directory -toimialueesta, lue artikkeli [Hakemistosynkronoinnin valmisteleminen Microsoft 365.](../enterprise/prepare-for-directory-synchronization.md) Erityisesti:
 
-   - Varmista, että hakemistossa ei ole kaksoiskappaleita seuraaville määritteille: **mail,** **proxyAddresses** ja **userPrincipalName.** Näiden arvojen on oltava yksilöllisiä ja kaksoiskappaleet on poistettava.
+   - Varmista, että hakemistossa ei ole kaksoiskappaleita seuraaville määritteet: **mail,** **proxyAddresses** ja **userPrincipalName.** Näiden arvojen on oltava yksilöllisiä ja kaksoiskappaleet on poistettava.
    
-   - Suosittelemme, että määrität kunkin paikallisen **käyttäjätilin userPrincipalName** (UPN) -määritteen vastaamaan ensisijaista sähköpostiosoitetta, joka vastaa lisensoituta Microsoft 365 -käyttäjää. Esimerkki: *mary.shelley@contoso.com.mary@contoso* *sijaan*
+   - Suosittelemme, että määrität kunkin paikallisen **käyttäjätilin userPrincipalName** (UPN) -määritteen vastaamaan ensisijaista sähköpostiosoitetta, joka vastaa Microsoft 365 sähköpostiosoitetta. Esimerkki:  mary.shelley@contoso.com.local mary@contoso *sijaan*
    
-   - Jos Active Directory -toimialue päättyy ei-reititettävään jälkiliitteeseen, kuten *.local* tai *.lan,* internet-reititettävän jälkiliitteen, kuten *.com* tai *.org,* sijaan, muokkaa ensin paikallisten käyttäjätilien UPN-jälkiliitettä kohdassa Valmistele ei-reititettävä toimialue hakemistosynkronointia varten kuvatulla [tavalla.](../enterprise/prepare-a-non-routable-domain-for-directory-synchronization.md) 
+   - Jos Active Directory -toimialueen loppuliite päättyy ei-reititettävään jälkiliitteeseen, kuten *.local* tai *.lan*, internet-reititettävän jälkiliitteen, kuten *.com* tai *.org,* sijaan, muuta paikallisten käyttäjätilien UPN-jälkiliitettä ensin artikkelissa Ei-reititystäisen toimialueen valmisteleminen hakemistosynkronointia varten kuvatulla [tavalla.](../enterprise/prepare-a-non-routable-domain-for-directory-synchronization.md) 
 
-Suorita **IdFix vaiheessa** 4 (4) alla varmistaa myös, että paikallinen Active Directory on valmis hakemistosynkronointia varten.
+Suorita **IdFix alla** olevassa vaiheessa 4 (4) varmistaa myös, että paikallinen Active Directory on valmis hakemistosynkronointia varten.
 
-## <a name="2-install-and-configure-azure-ad-connect"></a>2. Azure AD Connectin asentaminen ja määrittäminen
+## <a name="2-install-and-configure-azure-ad-connect"></a>2. Azure AD -määrityksen Näyttöyhteys
 
-Jos haluat synkronoida käyttäjät, ryhmät ja yhteystiedot paikallisesta Active Directorysta Azure Active Directoryyn, asenna Azure Active Directory Connect ja määritä hakemistosynkronointi. 
+Jos haluat synkronoida käyttäjät, ryhmät ja yhteystiedot paikallisesta Active Directorysta Azure Active Directory, asenna Azure Active Directory Näyttöyhteys ja määritä hakemistosynkronointi. 
 
- 1. Valitse [hallintakeskuksessa](https://go.microsoft.com/fwlink/p/?linkid=2024339)Asetukset **vasemmassa** siirtymisruudussa.
+ 1. Valitse [hallintakeskuksessa](https://go.microsoft.com/fwlink/p/?linkid=2024339) **Asetukset** vasemmassa siirtymisruudussa.
 
- 2. Valitse **Sisäänkirjautuminen ja suojaus -kohdassa** **Näytä** kohdassa Synkronoi **käyttäjät organisaatiosi hakemistosta.**
+ 2. Valitse **Kirjautumis- ja suojaus -kohdassa** **Näytä**  kohdassa **Synkronoi käyttäjät organisaatiosi hakemistosta**.
 
- 3. Valitse **Organisaation hakemistosivun Synkronoi** käyttäjät -sivulla **Aloittaminen.**
+ 3. Valitse **Synkronoi käyttäjät organisaatiosi hakemistosta** -sivulla **Aloita.**
 
  4. Suorita ensimmäisessä vaiheessa IdFix-työkalu hakemistosynkronointia varten.
 
- 5. Lataa Azure AD Connect ohjatun toiminnon ohjeiden mukaisesti ja synkronoi sen avulla toimialueohjatut käyttäjät Microsoft 365:lle.
+ 5. Lataa Azure AD Näyttöyhteys noudattamalla ohjatun toiminnon ohjeita ja synkronoi toimialueohjatut käyttäjät Microsoft 365.
 
 
-Lisätietoja [on kohdassa Hakemistosynkronoinnin](../enterprise/set-up-directory-synchronization.md) määrittäminen Microsoft 365:lle.
+Katso [lisätietoja artikkelista Hakemistosynkronoinnin Microsoft 365](../enterprise/set-up-directory-synchronization.md) määrittäminen.
 
-Kun määrität Azure AD Connectin asetukset, suosittelemme, että otat käyttöön salasanojen  synkronoinnin,  **saumattoman** kertakirjautunnin ja salasanan takaisinkirjaamista varten, jota tuetaan myös Microsoft 365 for Businessissa.
+Kun määrität Azure AD Näyttöyhteys -asetuksia, on suositeltavaa ottaa käyttöön salasanasynkronointi  **,** saumaton kertakirjautuminen ja salasanan takaisinkirjaintoiminto, jota tuetaan myös Microsoft 365 for Businessissa. 
 
 > [!NOTE]
-> On joitakin lisävaiheita salasanan palautusta varten Azure AD Connectin valintaruudun ulkopuolella. Lisätietoja on ohjeaiheessa Ohjeet: salasanan [palautusten määrittäminen.](/azure/active-directory/authentication/howto-sspr-writeback) 
+> Salasanalla kirjoitettavalle ruudulle on muutamia lisävaiheita Azure AD Näyttöyhteys. Lisätietoja on kohdassa Ohjeet [salasanan takaisin kirjoittautumista varten.](/azure/active-directory/authentication/howto-sspr-writeback) 
 
-Jos haluat myös hallita toimialueeseen liitettyjä Windows 10 -laitteita, katso kohta Ota toimialueeseen yhdistetyt Windows 10 -laitteet käyttöön, joita [Microsoft 365 Business Premium hallitsee](manage-windows-devices.md) Azure AD -yhdistelmäympäristön liittämistä varten.
+Jos haluat myös hallita toimialueeseen liitettyjä Windows 10-laitteita, katso kohta Toimialueeseen liitettyjen Windows 10 -laitteiden hallinnan salliminen [Microsoft 365 Business Premium](manage-windows-devices.md) Azure AD Join -yhdistelmäympäristön hallittavaksi.

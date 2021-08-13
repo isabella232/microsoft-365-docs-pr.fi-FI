@@ -27,19 +27,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: da60e08e-2547-491a-9c97-94ac6d715623
-description: Lue lisää Windows 10:n laitekäytäntöjen määrittämisestä, jotka koskevat kaikkia organisaation käyttäjiä, ja varmista, että he voivat muodostaa yhteyden turvallisesti.
-ms.openlocfilehash: c7d27b903734f9348471bb7765b88650caeed9d5
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Lue lisää laitekäytäntöjen määrittämisestä Windows 10, jotka koskevat kaikkia organisaation käyttäjiä, ja varmista, että he voivat muodostaa yhteyden turvallisesti.
+ms.openlocfilehash: 42ebfe2784ff42302daa778f1851e528e5aa28ff1c03f1a8cf5ff66b1afdfa4e
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580270"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53809440"
 ---
 # <a name="configure-windows-10-devices"></a>Windows 10 -laitteiden määrittäminen
 
-Asennuksen aikana luot Windows 10:lle laitekäytännön, joka koskee kaikkia organisaation käyttäjiä. Kun käyttäjä kirjautuu Sisään Office-sovellukseen Windows 10 -laitteessaan työ- tai koulutilinsä avulla, määrittämäsi asetukset otetaan automaattisesti käyttöön ja varmistat, että käyttäjä muodostaa yhteyden turvallisesti.
+Asennuksen aikana luot laitekäytännön Windows 10 joka koskee kaikkia organisaation käyttäjiä. Kun käyttäjä kirjautuu Office-sovellus Windows 10 laitteellaan työ- tai koulutilinsä avulla, määrittämäsi asetukset otetaan automaattisesti käyttöön, jotta käyttäjä muodostaa yhteyden turvallisesti.
   
-Oletusmäärityksen hyväksymistä asennuksen aikana suositellaan. Asennuksen jälkeen voit luoda lisää käytäntöjä ja kohdentaa ne tietyille käyttäjäryhmille.
+Oletusmäärityksen hyväksymistä asennuksen aikana suositellaan. Asennuksen jälkeen voit luoda lisää käytäntöjä ja kohdistaa ne tietyille käyttäjäryhmille.
   
 Jos haluat lisätä käytännön Windows 10 -laitemääritysten hallintaa varten, lue artikkeli [Windows 10 -tietokoneiden laitemääritysten määrittäminen](protection-settings-for-windows-10-pcs.md).
   
