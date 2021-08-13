@@ -1,5 +1,5 @@
 ---
-title: Auta käyttäjiä muodostamaan yhteys Microsoft 365 Business Premiumiin
+title: Auta käyttäjiä muodostamaan yhteys Microsoft 365 Business Premium
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -27,22 +27,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
-description: Lue, mitä on odotettavissa, kun Business Cloud Suiten määritys on valmis ja oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön.
-ms.openlocfilehash: d3e47247197f2688388ed50057b16fde53e7e830
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Lue, mitä on odotettavissa, kun Business Cloud Suiten määritys on valmis ja oletuslaitekäytännöt ovat valmiina käyttöön.
+ms.openlocfilehash: 62e5654deb3807a7a436fb2c4587c2e2614feb3e9812f6ecb269eed1cab7bfbb
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578443"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53856551"
 ---
-# <a name="help-users-connect-to-microsoft-365-business-premium"></a>Auta käyttäjiä muodostamaan yhteys Microsoft 365 Business Premiumiin
+# <a name="help-users-connect-to-microsoft-365-business-premium"></a>Auta käyttäjiä muodostamaan yhteys Microsoft 365 Business Premium
 
-Kun asennus on valmis, oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön. Mobiililaitteissa käyttäjät lataavat Office-sovelluksia. Käytäntöjä käytetään, kun käyttäjä kirjautuu sisään työ- tai koulutilinsä avulla. Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä. Tutustu seuraaviin aiheisiin ja jaa ne, joiden avulla käyttäjät voivat määrittää ja yhdistää:
+Kun asennus on valmis, oletuslaitekäytännöt ovat käytössä ja valmiina käyttöön. Mobiililaitteissa käyttäjät lataavat Office sovelluksia. Käytäntöjä käytetään, kun käyttäjä kirjautuu sisään työ- tai koulutilinsä avulla. Käytäntöjen, kuten suoran päivittämisen, käyttäminen Windows-tietokoneissa vaati hieman enemmän työtä. Tutustu seuraaviin ohjeaiheisiin ja jaa ne, jotta käyttäjät voivat määrittää ja yhdistää:
   
-[Windows-laitteiden asennus Microsoft 365 Business Premium -käyttäjille](set-up-windows-devices.md)
+[Laitteiden Windows käyttäjien Microsoft 365 Business Premium käyttöön](set-up-windows-devices.md)
   
 [Autopilot-laitteiden ja -profiilien lisääminen vaiheittaisen ohjeen avulla](add-autopilot-devices-and-profile.md)
   
-[Mobiililaitteiden määritäminen Microsoft 365 Business Premium -käyttäjille](set-up-mobile-devices.md)
+[Mobiililaitteiden Microsoft 365 Business Premium käyttäjille](set-up-mobile-devices.md)
   
 
