@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: Asenna Office laitteeseen iPhone Android-puhelimeen, niin Office-sovellusten työtiedostot suojataan Microsoft 365 for Businessilla.
-ms.openlocfilehash: 477f0ee63b045ca8fd6d3cfc3023f4122661a3b6
-ms.sourcegitcommit: 00f001019c653269d85718d410f970887d904304
+ms.openlocfilehash: 940f70f26a698c05aa1786b49e7a7584b647c6164c1717354b537398988ff4a7
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53393395"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803341"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-for-business-users"></a>Mobiililaitteiden Microsoft 365 yrityskäyttäjille
 

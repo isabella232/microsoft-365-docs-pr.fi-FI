@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Opi ohjeet esimerkiksi Microsoft 365 Business Premium tilaamiseen, toimialueen ja käyttäjien lisäämiseen, suojauskäytäntöjen määrittämiseen ja paljon muuta.
-ms.openlocfilehash: 008a5c51698589667acc0d01649f67dab33b4c58
-ms.sourcegitcommit: ff20f5b4e3268c7c98a84fb1cbe7db7151596b6d
+ms.openlocfilehash: 7c09dca354781bf92f6bbecca0f3fb9875fb654515fe35c2f96cc780a894a764
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52245060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53803218"
 ---
 # <a name="overview-of-setup"></a>Yleistietoja määrityksestä
 
