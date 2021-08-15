@@ -22,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Määritä Microsoft Defender for Office 365 ja suojaa arkaluontoiset tiedot tietojen kalastelulta, haittaohjelmilta ja muilta uhilta.
-ms.openlocfilehash: a995063cef6fdc42ad62079d49d58edc9d07b52c
-ms.sourcegitcommit: be929f79751c0c52dfa6bd98a854432a0c63faf0
+ms.openlocfilehash: d5aad66642fc2b509ae40dc1277167deb53de6fbb0593a3dcd766062305fbd6a
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52924315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53831471"
 ---
 # <a name="increase-threat-protection"></a>Uhkien uhkien uhkien uhki
 
@@ -153,19 +153,19 @@ Jos haluat luoda tietojenkalastelun torjuntakäytännön Microsoft Defender for 
 |Luotettujen lähettäjien ja toimialueiden lisääminen|Tässä voit lisätä oman toimialueesi tai minkä tahansa muun luotetun toimialueen.|
 |Käytössä kohteeseen|Valitse **Vastaanottajan toimialue on**. Valitse **Mikä tahansa näistä** **-kohdassa Valitse**. Valitse **+ Lisää**. Valitse toimialueen nimen vieressä oleva valintaruutu, esimerkiksi *contoso. <span> <span> com* ja valitse sitten **Lisää**. Valitse **Valmis**.|
 
-## <a name="protect-against-malicious-attachments-and-files-with-safe-attachments"></a>Haitallisilta liitteiltä ja tiedostoilta suojautuminen Safe liitteillä
+## <a name="protect-against-malicious-attachments-and-files-with-safe-attachments"></a>Haitallisilta liitteiltä ja tiedostoilta suojautuminen Lokero liitteillä
 
-Henkilöt lähettävät, vastaanottavat ja jakavat säännöllisesti liitteitä, kuten asiakirjoja, esityksiä, laskentataulukoita ja paljon muuta. Sähköpostiviestin avulla ei ole aina helppo tietää, onko liite turvallinen vai haitallinen. Microsoft Defender for Office 365 sisältää Safe suojauksen, mutta tämä suojaus ei ole oletusarvoisesti käytössä. Suosittelemme, että luot uuden säännön suojauksen käytön aloittamista varten. Tämä suojaus kattaa myös SharePoint, OneDrive ja Microsoft Teams.
+Henkilöt lähettävät, vastaanottavat ja jakavat säännöllisesti liitteitä, kuten asiakirjoja, esityksiä, laskentataulukoita ja paljon muuta. Sähköpostiviestin avulla ei ole aina helppo tietää, onko liite turvallinen vai haitallinen. Microsoft Defender for Office 365 sisältää Lokero suojauksen, mutta tämä suojaus ei ole oletusarvoisesti käytössä. Suosittelemme, että luot uuden säännön suojauksen käytön aloittamista varten. Tämä suojaus kattaa myös SharePoint, OneDrive ja Microsoft Teams.
 
-Jos haluat luoda Safe- tai liitekäytännön, katso [tämä lyhyt video](../business-video/safe-attachments.md)tai toimi seuraavasti:
+Jos haluat luoda Lokero-käytännön, katso [tämä lyhyt video](../business-video/safe-attachments.md)tai toimi seuraavasti:
 
 1. Siirry [https://protection.office.com](https://protection.office.com) -tunnukseen ja kirjaudu sisään järjestelmänvalvojan tililläsi.
 
 2. Valitse Tietoturvakeskuksen &amp; vasemman siirtymisruudun Uhkien hallinta -kohdassa **Käytäntö**. 
 
-3. Valitse Käytäntö-sivulla **Safe liitteet**.
+3. Valitse Käytäntö-sivulla **Lokero liitteet**.
 
-4. Käytä Safe-sivulla laajasti tätä suojausta valitsemalla Ota ATP käyttöön **SharePoint-, OneDrive- ja Microsoft Teams** käyttöön -valintaruutu.
+4. Käytä Lokero-sivulla laajasti tätä suojausta valitsemalla Ota **ATP käyttöön SharePoint-, OneDrive- ja** Microsoft Teams-valintaruutu.
 
 5. Luo **+** uusi käytäntö valitsemalla .
 
@@ -183,9 +183,9 @@ Jos haluat luoda Safe- tai liitekäytännön, katso [tämä lyhyt video](../busi
 
 Lisätietoja on kohdassa [Tietojenkalastelun torjuntakäytäntöjen määritys Microsoft Defender for Office 365.](../security/office-365-security/set-up-anti-phishing-policies.md)
 
-## <a name="protect-against-phishing-attacks-with-safe-links"></a>Tietojenkalasteluhyökkäyksiltä suojautuminen Safe linkeissä
+## <a name="protect-against-phishing-attacks-with-safe-links"></a>Tietojenkalasteluhyökkäyksiltä suojautuminen Lokero linkeissä
 
-Hakkerit piilovat joskus vahingollisia sivustoja sähköpostissa tai muissa tiedostoissa olevista linkeistä. Safe Linkit, jotka ovat osa Microsoft Defender for Office 365-selainta, voivat auttaa suojaamaan organisaatiotasi antamalla sähköpostiviesteissä ja tiedostoissa olevien verkko-osoitteiden (URL-osoitteiden) napsautuksen Office tarkistamisen. Suojaus määritetään linkkikäytäntöjen Safe avulla.
+Hakkerit piilovat joskus vahingollisia sivustoja sähköpostissa tai muissa tiedostoissa olevista linkeistä. Lokero Linkit, jotka ovat osa Microsoft Defender for Office 365-selainta, voivat auttaa suojaamaan organisaatiotasi antamalla sähköpostiviesteissä ja tiedostoissa olevien verkko-osoitteiden (URL-osoitteiden) napsautuksen Office tarkistamisen. Suojaus määritetään linkkikäytäntöjen Lokero avulla.
 
 Suosittelemme, että toimit seuraavasti:
 
@@ -193,17 +193,17 @@ Suosittelemme, että toimit seuraavasti:
 
 - Lisää uusi käytäntö, joka on kohdennettu toimialueesi kaikille vastaanottajille.
 
-Jos haluat Safe linkkejä, katso [tämä lyhyt koulutusvideo](../business-video/safe-links.md)tai toimi seuraavasti:
+Jos haluat Lokero linkkejä, katso [tämä lyhyt koulutusvideo](../business-video/safe-links.md)tai toimi seuraavasti:
 
 1. Siirry [https://protection.office.com](https://protection.office.com) -tunnukseen ja kirjaudu sisään järjestelmänvalvojan tililläsi.
 
 2. Valitse Tietoturvakeskuksen &amp; vasemman siirtymisruudun Uhkien hallinta -kohdassa **Käytäntö**. 
 
-3. Valitse Käytäntö-sivulla **Safe linkit**.
+3. Valitse Käytäntö-sivulla **Lokero linkit**.
 
 Oletuskäytännön muokkaaminen:
 
-1. Valitse Safe -sivun **Koko organisaatiota koskevat** käytännöt -kohdassa **Oletuskäytäntö.**
+1. Valitse Lokero -sivun Koko **organisaatiota koskevat käytännöt**-kohdassa **Oletuskäytäntö.**
 
 2. Valitse **Asetukset, joka koskee** muuta sisältöä kuin sähköpostia , **-kohdassa Microsoft 365 -sovellukset suuryrityksille, Office iOS- ja Android-laitteille**.
 
@@ -211,7 +211,7 @@ Oletuskäytännön muokkaaminen:
 
 Voit luoda uuden käytännön, joka on kohdennettu toimialueesi kaikille vastaanottajille:
 
-1. Valitse Safe -sivun **Koko organisaatiota koskevat** käytännöt -kohdassa **+** uuden käytännön luominen.
+1. Valitse Lokero -sivun Koko **organisaatiota koskevat** käytännöt -kohdassa **+** uuden käytännön luominen.
 
 2. Ota käyttöön seuraavassa taulukossa luetellut asetukset.
 
@@ -219,12 +219,12 @@ Voit luoda uuden käytännön, joka on kohdennettu toimialueesi kaikille vastaan
 
 |Asetus tai asetus|Suositeltu asetus|
 |---|---|
-|Nimi|Safe linkit -käytäntö toimialueen kaikille vastaanottajille|
+|Nimi|Lokero linkit -käytäntö toimialueen kaikille vastaanottajille|
 |Valitse viestien tuntemattomien mahdollisesti vahingollisen URL-osoitteiden toiminto|Valitse **Käytössä – URL-osoitteet kirjoitetaan** uudelleen ja tarkistetaan tunnettujen haitallisten linkkien luetteloon, kun käyttäjä napsauttaa linkkiä .|
-|Ladattavien Safe liitteiden avulla|Valitse tämä ruutu.|
+|Ladattavan Lokero lataamisen liitteiden avulla|Valitse tämä ruutu.|
 |Käytössä kohteeseen|Vastaanottajan toimialue on . . . valitse toimialueesi.|
 
-Lisätietoja on kohdassa [linkkien Safe.](../security/office-365-security/safe-links.md)
+Lisätietoja on kohdassa [linkkien Lokero.](../security/office-365-security/safe-links.md)
 
 ## <a name="go-to-intune-admin-center"></a>Siirry Intune-hallintakeskukseen
 
