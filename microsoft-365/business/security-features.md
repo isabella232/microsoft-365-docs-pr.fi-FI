@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Tutustu tietoturvaominaisuuksiin, jotka Microsoft 365 Business Premium suojata tietosi tietokoneissa, puhelimissa ja tableteissa.
-ms.openlocfilehash: 974204e100d3228f78406aca4acce67a889b08c3
-ms.sourcegitcommit: 05f40904f8278f53643efa76a907968b5c662d9a
+ms.openlocfilehash: 50b74ed18d641e8de38db3284c3ef3abf319825f4f7dbe02b6575f6c0fbc6f85
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52113462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887565"
 ---
 # <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium ja yhteensopivuusominaisuuksien avulla
 
 Microsoft 365 Business Premium tarjoaa yksinkertaistettuja suojausominaisuuksia, joiden avulla voit suojata tietosi tietokoneissa, puhelimissa ja taulutietokoneissa.
     
-## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 hallintakeskuksen suojausominaisuudet
+## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 -hallintakeskus suojausominaisuudet
 
 Voit hallita monia hallintakeskuksen Microsoft 365 Business Premium suojausominaisuuksia, joiden avulla voit ottaa nämä ominaisuudet käyttöön tai poistaa ne käytöstä yksinkertaisella tavalla. Hallintakeskuksessa voit tehdä seuraavat toimet:
   
@@ -49,7 +49,7 @@ Voit hallita monia hallintakeskuksen Microsoft 365 Business Premium suojausomina
     
 - [Määritä laitteiden suojausasetukset Windows 10 laitteille.](protection-settings-for-windows-10-pcs.md) 
     
-    Voit ottaa [BitLocker](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions) käyttöön tietojen suojaamiseksi, jos laite katoaa tai varastetaan, ja sallia [Windows Exploit Guardin](/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) tarjota lisäsuojausta kiristysohjelmilta. 
+    Voit ottaa [BitLocker-salauksen](/windows/security/information-protection/bitlocker/bitlocker-frequently-asked-questions) käyttöön tietojen suojaamiseksi, jos laite katoaa tai varastetaan, ja sallia [Windows Exploit Guardin](/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) tarjota lisäsuojausta kiristysohjelmilta. 
     
 - [Yritystietojen poistaminen laitteista](remove-company-data.md)
     
@@ -73,8 +73,8 @@ Voit suojata Microsoft 365 Business Premium kyberuhkilta ja suojata luottamuksel
 
 - **[Intunen kaikki ominaisuudet Azure-portaalissa](/mem/intune/fundamentals/what-is-intune)**
     
-    Kun käytät Intune-hallintakeskusta Azure-portaalissa, voit määrittää muita suojausominaisuuksia, kuten MacOS-laitteiden, iPhone- ja Android-laitteiden hallinnan sekä Windows:n kehittyneet laitehallintaominaisuudet, jotka eivät ole käytettävissä Microsoft 365-hallintakeskuksessa.
-- **Sama [ehdollinen käyttöoikeus](/azure/active-directory/conditional-access/overview) kuin Azure AD Premium P1 -palvelupaketti**
+    Kun käytät Intune-hallintakeskusta Azure-portaalissa, voit määrittää muita suojausominaisuuksia, kuten MacOS-laitteiden hallinnan, iPhone- ja Android-laitteiden hallinnan sekä Windows:n kehittyneet laitehallintaominaisuudet, jotka eivät ole käytettävissä Microsoft 365 -hallintakeskus.
+- **Sama [ehdollinen käyttöoikeus](/azure/active-directory/conditional-access/overview) kuin Azure AD Premium P1 -suunnitelmassa**
 
 
     Ehdollinen käyttöoikeus voi auttaa suojaamaan organisaatiota kirjautumisriskiltä, käyttämään odottamattomalta verkko- tai alueelta, käyttämään yrityksiä riskialttiilta laitetyypeilta ja niin edelleen. Ehdollisten käyttöoikeuksien käytännöt ovat käytössä, kun ensimmäinen todennus on valmis, ja se määrittää ensimmäisen todennustapahtuman signaaleilla, onko yritetty käyttöoikeus hyväksyttävä, estettävä tai vaaditaanko useampia todennistustodennusta (kuten toinen tunnistusmuoto).
@@ -108,7 +108,7 @@ Tilauksesi Microsoft 365 Business Premium ominaisuuksia, joiden avulla voit yll�
 
    Microsoft 365 Business Premium sisältää kaikki [Azure Information Protection Plan 1:n ominaisuudet.](https://go.microsoft.com/fwlink/p/?linkid=871407) Tämän suunnitelman avulla voit  luoda luottamuksellisuusotsikoita, joiden avulla voit hallita luottamuksellisten tietojen pääsyä sähköposteihin ja asiakirjoihin, kuten "Älä lähetä edelleen" ja "Älä kopioi". Voit myös luokitella luottamukselliset tiedot luottamuksellisiksi ja määrittää, miten luokiteltuja tietoja voidaan jakaa yrityksen ulkopuolelle ja yrityksen sisällä. Yritystason salausta on helppo käyttää sähköpostiviesteihin ja asiakirjoihin, jotta tiedot ovat yksityisiä. Voit asentaa myös Azure Information Protection -asiakasohjelman apuohjelman Office sovelluksille. Lisätietoja on kohdassa [Azure Information Protectionin yhdistetyn osoitetarra-asiakasohjelman tiedot.](/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history) Asenna luottamuksellisuusmerkinnät-AzInfoProtection_UL.exe. ****
 
-Voit hallita näitä ominaisuuksia tietoturvakeskuksessa &amp; ja Intune-hallintakeskuksessa. Ajan kuluessa yksinkertaistetut ohjausobjektit lisätään Microsoft 365 hallintakeskukseen.
+Voit hallita näitä ominaisuuksia tietoturvakeskuksessa &amp; ja Intune-hallintakeskuksessa. Ajan kuluessa yksinkertaiset ohjausobjektit lisätään Microsoft 365 -hallintakeskus.
   
     
 ## <a name="faq"></a>Usein kysytyt kysymykset
@@ -123,6 +123,6 @@ Kyllä, nämä ominaisuudet ovat käytettävissä kaikilla markkina-alueilla, Mi
     
 2. Etsi hallintakeskukset vasemmasta **siirtymisruudusta** ja laajenna se. 
     
-    ![Valitse hallintakeskuksen Microsoft 365 siirtymispalkin vasemmasta siirtymispalkin kohtasta Hallintakeskukset.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
+    ![Valitse hallintakeskukset Microsoft 365 -hallintakeskus siirtymispalkin vasemmasta siirtymispalkin valikosta.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
 3. Siirry **&amp; Tietoturvan yhteensopivuuskeskukseen** &amp; valitsemalla Tietoturvan yhteensopivuus.

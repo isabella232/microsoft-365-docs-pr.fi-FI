@@ -25,18 +25,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Microsoft 365 Business Premiumin avulla voit automaattisesti varmistaa, että käyttäjillä on Officen uusin versio kaikissa Windows 10 -laitteissaan.
-ms.openlocfilehash: d3c62eb42ea73c7af6df6012dbc9488828cd1ba8
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Katso, Microsoft 365 Business Premium avulla voit automaattisesti varmistaa, että käyttäjillä on uusin Office kaikissa Windows 10 laitteissaan.
+ms.openlocfilehash: 869a44196e93ed0c9f7f6f64b21fe9b2302e9a48c4b0bdcdc3a09d28bb954d1c
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51580170"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53887539"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>Officen asentaminen Windows 10een asennuksen aikana
 
 ![Banneri, joka osoittaa https://aka.ms/aboutM365preview kohtaan .](../media/m365admincenterchanging.png)
 
-Tämä asetus on oletusarvoisesti pois käytöstä. Voit ottaa sen käyttöön ja varmistaa, että käyttäjillä on officen uusin versio kaikissa Windows 10 -laitteissaan, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava Microsoft 365 Business Premium -käyttöoikeus, jotta tämä asetus työntäisi ohjelmiston laitteeseen, sekä muita Microsoft [365 Business Premiumin Office-käyttöönottoon valmistautumista](prepare-for-office-client-deployment.md)koskevia vaatimuksia.
+Tämä asetus on oletusarvoisesti pois käytöstä. Voit ottaa sen käyttöön sen varmistamiseksi, että käyttäjillä on uusin Office kaikissa Windows 10 laitteissaan, mutta varmista ensin, että kaikki edellytykset täyttyvät. Käyttäjillä on oltava käyttöoikeus Microsoft 365 Business Premium jotta tämä asetus työntäisi ohjelmiston laitteeseen, sekä muita artikkelissa Office asiakasohjelman käyttöönottoon valmistautuminen [Microsoft 365 Business Premium.](prepare-for-office-client-deployment.md)
   
-Suosittelemme, että hyväksyt oletusasetuksen asennuksen aikana.
+Oletusasetus kannattaa hyväksyä asennuksen aikana.
