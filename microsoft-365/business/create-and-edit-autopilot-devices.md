@@ -25,35 +25,35 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
-description: Opi lataamaan laitteita AutoPilotilla Microsoft 365 Business Premiumissa. Voit määrittää profiilin laitteelle tai laiteryhmälle.
-ms.openlocfilehash: 506ff44e3cb6656b19174e82688b5af141ea2b79
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Opi lataamaan laitteet AutoPilotilla Microsoft 365 Business Premium. Voit määrittää profiilin laitteeseen tai laiteryhmään.
+ms.openlocfilehash: ae3a760db4b94aac50301685a0c4f468e46ec8e9aa907a1b6fb35e03a9e541f0
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53867032"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>Autopilot-laitteiden luominen ja muokkaaminen
 
 ## <a name="upload-a-list-of-devices"></a>Laiteluettelon lataaminen
 
-Voit ladata laitteita [vaiheittaiset](add-autopilot-devices-and-profile.md) ohjeet avulla, mutta voit myös ladata laitteita **Laitteet-välilehdessä.** 
+Voit ladata laitteita [vaiheittaiset ohjeet](add-autopilot-devices-and-profile.md) -oppaassa, mutta voit myös ladata laitteita **Laitteet-välilehdessä.** 
   
 Laitteiden on täytettävä seuraavat vaatimukset:
   
 - Windows 10, versio 1703 tai uudempi
     
-- Uudet laitteet, jotka eivät ole käyneet läpi Windowsin käyttökokemusta
+- Uudet laitteet, joita ei ole Windows käyttökokemusta
 
-1. Valitse Microsoft 365 -hallintakeskuksessa **Laitteet** \> **AutoPilot.**
+1. Valitse Microsoft 365 -hallintakeskus  \> **AutoPilot**.
   
-2. Valitse **AutoPilot-sivulla** **Laitteet-välilehti** \> **Lisää laitteita.**
+2. Valitse **AutoPilot-sivulla** **Laitteet-välilehti** \> **Lisää laitteita**.
     
     ![In the Devices tab, choose Add devices.](../media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
-3. Siirry Lisää **laitteita -paneelissa** laiteluettelon CSV-tiedostoon, jonka valmistit [](../admin/misc/device-list.md) \> **Tallenna** sulje \> **- valmis.**
+3. Siirry Lisää **laitteita -paneelissa** laiteluettelon [CSV-tiedostoon, jonka](../admin/misc/device-list.md) latasit Tallenna \>  \> **sulje -ruudussa.**
     
-    Saat nämä tiedot laitteiston toimittajalta tai voit luoda [CSV-tiedoston Käyttämällä Get-WindowsAutoPilotInfo PowerShell-komentosarjaa.](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 
+    Saat nämä tiedot laitteiston toimittajalta tai voit luoda [CSV-tiedoston Käyttämällä PowerShell-komentosarjaa Get-WindowsAutoPilotInfo.](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) 
     
 ## <a name="assign-a-profile-to-a-device-or-a-group-of-devices"></a>Profiilin määrittäminen laitteelle tai laiteryhmälle
 
