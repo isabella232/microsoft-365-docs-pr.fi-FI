@@ -1,5 +1,5 @@
 ---
-title: Miten Microsoft 365 for Businessin käytännöt suojaavat yrityksen tietoja
+title: Yrityksen tietojen Microsoft 365 yrityksen tietojen suojaamista koskevat käytännöt
 f1.keywords:
 - NOCSH
 ms.author: sharik
@@ -26,21 +26,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: Voit suojata yritystietoja käyttäjien henkilökohtaisissa laitteissa käyttämällä käytäntöjä, jotka kohdistavat tiettyihin laitteisiin ja käyttöoikeusryhmiin.
-ms.openlocfilehash: 5c6a4b85b080c6c1afaf6ac5bec046f2a539ee20
-ms.sourcegitcommit: 53acc851abf68e2272e75df0856c0e16b0c7e48d
+description: Jos haluat suojata yrityksen tietoja käyttäjien henkilökohtaisissa laitteissa, käytä käytäntöjä, jotka kohdistavat tiettyihin laitteisiin ja käyttöoikeusryhmiin.
+ms.openlocfilehash: cb8bb7dc8c98e5860281ad265130e18dddefe00014928835e303ad8247b2e7ba
+ms.sourcegitcommit: a1b66e1e80c25d14d67a9b46c79ec7245d88e045
 ms.translationtype: MT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51578423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53852747"
 ---
-# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Miten Microsoft 365 for Businessin käytännöt suojaavat yrityksen tietoja
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>Yrityksen tietojen Microsoft 365 yrityksen tietojen suojaamista koskevat käytännöt
 
-Tämä artikkeli koskee Microsoft 365 Business Premiumia.
+Tämä artikkeli koskee Microsoft 365 Business Premium.
 
 Luomasi käytännöt ovat laitetyyppikohtaisia, ja ne voidaan ottaa käyttöön tietyille käyttäjäryhmille. Tämä tarkoittaa, että voit luoda yhden käytännön, joka koskee johtajia, ja toisen, joka koskee kaikkia muita.
   
-Voit lisätä tai muokata Android- ja iOS-laitteiden sovelluskäytäntöjä, jotka suojaavat Office-sovelluksia ja Office-sovellusten käyttämiä työtiedostoja. Pystymme hallitsemaan Windows 10 -laitteita hieman enemmän, joten sovelluskäytännöt voivat sisältää enemmän asetuksia, kuten salauksen ja verkko- ja pilvisijaintien suojauksen. Voit myös luoda Windows 10 -laitteille laitekäytäntöjä, jotka pakottavat asetuksia, kuten virustentorjunnan ja automaattiset päivitykset. Suosittelemme, että käytät asennuksen aikana luotuja käytäntöjä, mutta jos haluat hienosäätää käytäntöjä tai lisätä muita käytäntöjä, tutustu näihin artikkeleihin:
+Voit lisätä tai muokata Android- ja iOS-laitteiden sovelluskäytäntöjä, jotka suojaavat Office-sovelluksia ja Office-sovellusten käyttämiä työtiedostoja. Pystymme hallitsemaan laitteita Windows 10, jotta sovelluskäytännöt voivat sisältää enemmän asetuksia, kuten salauksen ja verkko- ja pilvisijaintien suojauksen. Voit myös luoda Windows 10 -laitteille laitekäytäntöjä, jotka pakottavat asetuksia, kuten virustentorjunnan ja automaattiset päivitykset. Suosittelemme, että käytät asennuksen aikana luotuja käytäntöjä, mutta jos haluat hienosäätää käytäntöjä tai lisätä niitä, tutustu näihin artikkeleihin:
   
 [Android- ja iOS-laitteiden sovellusmääritysten määrittäminen](app-protection-settings-for-android-and-ios.md)
   
